@@ -30,6 +30,68 @@
           "prompt_text": "Remove comma after year in parenthetical citation under {Findings}"
         }
       ]
+    },
+    {
+      "subcategory": "industry_jargon_finance_legal_tech",
+      "priority": "content_accuracy",
+      "doc_type": "both",
+      "tags": [
+        "content_accuracy",
+        "industry-jargon-finance-legal-tech"
+      ],
+      "entries": [
+        {
+          "id": "content_accuracy_industry_jargon_finance_legal_tech_001",
+          "prompt_text": "Define acronym on first use"
+        },
+        {
+          "id": "content_accuracy_industry_jargon_finance_legal_tech_003",
+          "prompt_text": "Simplify finance speak for general audience"
+        },
+        {
+          "id": "content_accuracy_industry_jargon_finance_legal_tech_004",
+          "prompt_text": "Clarify tech jargon in executive summary"
+        },
+        {
+          "id": "content_accuracy_industry_jargon_finance_legal_tech_007",
+          "prompt_text": "Use legal terminology for disclaimer"
+        },
+        {
+          "id": "content_accuracy_industry_jargon_finance_legal_tech_008",
+          "prompt_text": "Replace slang with industry term"
+        }
+      ]
+    },
+    {
+      "subcategory": "inclusive_language_bias_removal",
+      "priority": "content_accuracy",
+      "doc_type": "both",
+      "tags": [
+        "content_accuracy",
+        "inclusive-language-bias-removal"
+      ],
+      "entries": [
+        {
+          "id": "content_accuracy_inclusive_language_bias_removal_001",
+          "prompt_text": "Replace exclusive language with inclusive"
+        },
+        {
+          "id": "content_accuracy_inclusive_language_bias_removal_002",
+          "prompt_text": "Use people-first language in report"
+        },
+        {
+          "id": "content_accuracy_inclusive_language_bias_removal_003",
+          "prompt_text": "Check document for accessibility bias"
+        },
+        {
+          "id": "content_accuracy_inclusive_language_bias_removal_007",
+          "prompt_text": "Use gender-neutral terms in policy"
+        },
+        {
+          "id": "content_accuracy_inclusive_language_bias_removal_012",
+          "prompt_text": "Remove biased phrasing from job description"
+        }
+      ]
     }
   ]
 }

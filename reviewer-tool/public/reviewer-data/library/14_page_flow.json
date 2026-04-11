@@ -23,6 +23,192 @@
           "prompt_text": "Remove unnecessary {section break} in middle of the introduction"
         }
       ]
+    },
+    {
+      "subcategory": "section_break_types_continuous",
+      "priority": "page_flow",
+      "doc_type": "both",
+      "tags": [
+        "page_flow",
+        "section-break-types-continuous"
+      ],
+      "entries": [
+        {
+          "id": "page_flow_section_break_types_continuous_001",
+          "prompt_text": "Fix odd page break for chapters"
+        },
+        {
+          "id": "page_flow_section_break_types_continuous_003",
+          "prompt_text": "Remove section break at page X"
+        },
+        {
+          "id": "page_flow_section_break_types_continuous_007",
+          "prompt_text": "Set section start to new page"
+        },
+        {
+          "id": "page_flow_section_break_types_continuous_009",
+          "prompt_text": "Insert continuous break before column change"
+        },
+        {
+          "id": "page_flow_section_break_types_continuous_026",
+          "prompt_text": "Change page break to continuous break"
+        }
+      ]
+    },
+    {
+      "subcategory": "column_count_variation",
+      "priority": "page_flow",
+      "doc_type": "both",
+      "tags": [
+        "page_flow",
+        "column-count-variation"
+      ],
+      "entries": [
+        {
+          "id": "page_flow_column_count_variation_001",
+          "prompt_text": "Set column count to 50% for Footer"
+        },
+        {
+          "id": "page_flow_column_count_variation_002",
+          "prompt_text": "Add column line to multi-column layout"
+        },
+        {
+          "id": "page_flow_column_count_variation_003",
+          "prompt_text": "Set column count to 100% for Summary"
+        },
+        {
+          "id": "page_flow_column_count_variation_007",
+          "prompt_text": "Adjust gutter width between columns to 1.0\""
+        },
+        {
+          "id": "page_flow_column_count_variation_008",
+          "prompt_text": "Adjust gutter width between columns to 200%"
+        },
+        {
+          "id": "page_flow_column_count_variation_009",
+          "prompt_text": "Change body to Y columns"
+        },
+        {
+          "id": "page_flow_column_count_variation_010",
+          "prompt_text": "Balance column heights in Chapter 1"
+        },
+        {
+          "id": "page_flow_column_count_variation_014",
+          "prompt_text": "Balance column heights in Section 2"
+        },
+        {
+          "id": "page_flow_column_count_variation_016",
+          "prompt_text": "Adjust gutter width between columns to 10pt"
+        },
+        {
+          "id": "page_flow_column_count_variation_018",
+          "prompt_text": "Set column count to 2.0\" for Header"
+        },
+        {
+          "id": "page_flow_column_count_variation_021",
+          "prompt_text": "Adjust gutter width between columns to 12pt"
+        },
+        {
+          "id": "page_flow_column_count_variation_022",
+          "prompt_text": "Balance column heights in Introduction"
+        },
+        {
+          "id": "page_flow_column_count_variation_023",
+          "prompt_text": "Balance column heights in Appendix"
+        },
+        {
+          "id": "page_flow_column_count_variation_025",
+          "prompt_text": "Adjust gutter width between columns to 1.25\""
+        },
+        {
+          "id": "page_flow_column_count_variation_028",
+          "prompt_text": "Adjust gutter width between columns to 100%"
+        },
+        {
+          "id": "page_flow_column_count_variation_029",
+          "prompt_text": "Balance column heights in Sidebar"
+        },
+        {
+          "id": "page_flow_column_count_variation_031",
+          "prompt_text": "Set column count to 8pt for Conclusion"
+        },
+        {
+          "id": "page_flow_column_count_variation_034",
+          "prompt_text": "Adjust gutter width between columns to 5px"
+        },
+        {
+          "id": "page_flow_column_count_variation_035",
+          "prompt_text": "Set column count to 2.0\" for Chapter 1"
+        },
+        {
+          "id": "page_flow_column_count_variation_037",
+          "prompt_text": "Balance column heights in Summary"
+        },
+        {
+          "id": "page_flow_column_count_variation_038",
+          "prompt_text": "Adjust gutter width between columns to 8pt"
+        },
+        {
+          "id": "page_flow_column_count_variation_041",
+          "prompt_text": "Set column count to 1.0\" for Sidebar"
+        },
+        {
+          "id": "page_flow_column_count_variation_042",
+          "prompt_text": "Balance column heights in Body"
+        },
+        {
+          "id": "page_flow_column_count_variation_044",
+          "prompt_text": "Balance column heights in Header"
+        },
+        {
+          "id": "page_flow_column_count_variation_047",
+          "prompt_text": "Adjust gutter width between columns to 10px"
+        },
+        {
+          "id": "page_flow_column_count_variation_051",
+          "prompt_text": "Set column count to 12pt for Sidebar"
+        },
+        {
+          "id": "page_flow_column_count_variation_052",
+          "prompt_text": "Balance column heights in Footer"
+        },
+        {
+          "id": "page_flow_column_count_variation_055",
+          "prompt_text": "Set column count to 100% for Footer"
+        },
+        {
+          "id": "page_flow_column_count_variation_061",
+          "prompt_text": "Set column count to 22pt for Sidebar"
+        },
+        {
+          "id": "page_flow_column_count_variation_062",
+          "prompt_text": "Adjust gutter width between columns to 2.2\""
+        },
+        {
+          "id": "page_flow_column_count_variation_066",
+          "prompt_text": "Adjust gutter width between columns to 22pt"
+        },
+        {
+          "id": "page_flow_column_count_variation_067",
+          "prompt_text": "Adjust gutter width between columns to 2.25\""
+        },
+        {
+          "id": "page_flow_column_count_variation_071",
+          "prompt_text": "Set column count to 2.0\" for Chapter 2"
+        },
+        {
+          "id": "page_flow_column_count_variation_077",
+          "prompt_text": "Adjust gutter width between columns to 20pt"
+        },
+        {
+          "id": "page_flow_column_count_variation_124",
+          "prompt_text": "Set column count to 200% for Footer"
+        },
+        {
+          "id": "page_flow_column_count_variation_127",
+          "prompt_text": "Set column count to 2.2\" for Sidebar"
+        }
+      ]
     }
   ]
 }

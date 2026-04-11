@@ -29,6 +29,21 @@
         "id": "page_orientation",
         "label": "Page Orientation",
         "description": "Portrait and landscape orientation settings"
+      },
+      {
+        "id": "asymmetrical_margins",
+        "label": "Asymmetrical Margins",
+        "description": "Fix asymmetrical margins issues"
+      },
+      {
+        "id": "gutter_binding_clearance",
+        "label": "Gutter Binding Clearance",
+        "description": "Fix gutter binding clearance issues"
+      },
+      {
+        "id": "safe_zone_edge_printing",
+        "label": "Safe Zone Edge Printing",
+        "description": "Fix safe zone edge printing issues"
       }
     ]
   },
@@ -52,6 +67,36 @@
         "id": "section_spacing",
         "label": "Section Spacing",
         "description": "Breathing room between major document sections"
+      },
+      {
+        "id": "line_breaking_rules",
+        "label": "Line Breaking Rules",
+        "description": "Fix line breaking rules issues"
+      },
+      {
+        "id": "flow_control_keep_with_next",
+        "label": "Flow Control Keep With Next",
+        "description": "Fix flow control keep with next issues"
+      },
+      {
+        "id": "widow_orphan_settings",
+        "label": "Widow Orphan Settings",
+        "description": "Fix widow orphan settings issues"
+      },
+      {
+        "id": "vertical_text_box_alignment",
+        "label": "Vertical Text Box Alignment",
+        "description": "Fix vertical text box alignment issues"
+      },
+      {
+        "id": "baseline_column_alignment",
+        "label": "Baseline Column Alignment",
+        "description": "Fix baseline column alignment issues"
+      },
+      {
+        "id": "grid_snapping_precision",
+        "label": "Grid Snapping Precision",
+        "description": "Fix grid snapping precision issues"
       }
     ]
   },
@@ -75,6 +120,26 @@
         "id": "tab_stop_consistency",
         "label": "Tab Stop Consistency",
         "description": "Cleanup and standardization of manual tab stops"
+      },
+      {
+        "id": "hanging_indents",
+        "label": "Hanging Indents",
+        "description": "Fix hanging indents issues"
+      },
+      {
+        "id": "vertical_text_box_alignment",
+        "label": "Vertical Text Box Alignment",
+        "description": "Fix vertical text box alignment issues"
+      },
+      {
+        "id": "baseline_column_alignment",
+        "label": "Baseline Column Alignment",
+        "description": "Fix baseline column alignment issues"
+      },
+      {
+        "id": "grid_snapping_precision",
+        "label": "Grid Snapping Precision",
+        "description": "Fix grid snapping precision issues"
       }
     ]
   },
@@ -108,6 +173,51 @@
         "id": "case_consistency",
         "label": "Case Consistency",
         "description": "Standardize Title Case, ALL CAPS, and sentence case"
+      },
+      {
+        "id": "kerning_tracking",
+        "label": "Kerning Tracking",
+        "description": "Fix kerning tracking issues"
+      },
+      {
+        "id": "non_breaking_logic",
+        "label": "Non Breaking Logic",
+        "description": "Fix non breaking logic issues"
+      },
+      {
+        "id": "ligatures",
+        "label": "Ligatures",
+        "description": "Fix ligatures issues"
+      },
+      {
+        "id": "character_case_logic",
+        "label": "Character Case Logic",
+        "description": "Fix character case logic issues"
+      },
+      {
+        "id": "character_scaling_horizontal",
+        "label": "Character Scaling Horizontal",
+        "description": "Fix character scaling horizontal issues"
+      },
+      {
+        "id": "optical_margin_alignment",
+        "label": "Optical Margin Alignment",
+        "description": "Fix optical margin alignment issues"
+      },
+      {
+        "id": "hyphenation_dictionaries",
+        "label": "Hyphenation Dictionaries",
+        "description": "Fix hyphenation dictionaries issues"
+      },
+      {
+        "id": "kerning_pair_logic",
+        "label": "Kerning Pair Logic",
+        "description": "Fix kerning pair logic issues"
+      },
+      {
+        "id": "glyph_substitution_ligatures",
+        "label": "Glyph Substitution Ligatures",
+        "description": "Fix glyph substitution ligatures issues"
       }
     ]
   },
@@ -136,6 +246,41 @@
         "id": "merged_cell_reduction",
         "label": "Merged Cells",
         "description": "Cleanup of unnecessary or problematic merged cells"
+      },
+      {
+        "id": "repeat_header_rows",
+        "label": "Repeat Header Rows",
+        "description": "Fix repeat header rows issues"
+      },
+      {
+        "id": "row_break_control",
+        "label": "Row Break Control",
+        "description": "Fix row break control issues"
+      },
+      {
+        "id": "diagonal_border_logic",
+        "label": "Diagonal Border Logic",
+        "description": "Fix diagonal border logic issues"
+      },
+      {
+        "id": "corner_rounding_geometry",
+        "label": "Corner Rounding Geometry",
+        "description": "Fix corner rounding geometry issues"
+      },
+      {
+        "id": "shading_pattern_banding",
+        "label": "Shading Pattern Banding",
+        "description": "Fix shading pattern banding issues"
+      },
+      {
+        "id": "table_of_figures_logic",
+        "label": "Table Of Figures Logic",
+        "description": "Fix table of figures logic issues"
+      },
+      {
+        "id": "nested_table_hierarchy",
+        "label": "Nested Table Hierarchy",
+        "description": "Fix nested table hierarchy issues"
       }
     ]
   },
@@ -164,6 +309,31 @@
         "id": "alternating_row_shading",
         "label": "Row Shading",
         "description": "Zebra striping and alternating row highlights"
+      },
+      {
+        "id": "cell_vertical_alignment",
+        "label": "Cell Vertical Alignment",
+        "description": "Fix cell vertical alignment issues"
+      },
+      {
+        "id": "cell_margin_precision",
+        "label": "Cell Margin Precision",
+        "description": "Fix cell margin precision issues"
+      },
+      {
+        "id": "diagonal_border_logic",
+        "label": "Diagonal Border Logic",
+        "description": "Fix diagonal border logic issues"
+      },
+      {
+        "id": "corner_rounding_geometry",
+        "label": "Corner Rounding Geometry",
+        "description": "Fix corner rounding geometry issues"
+      },
+      {
+        "id": "shading_pattern_banding",
+        "label": "Shading Pattern Banding",
+        "description": "Fix shading pattern banding issues"
       }
     ]
   },
@@ -192,6 +362,16 @@
         "id": "unit_label_placement",
         "label": "Unit Labels",
         "description": "Proper placement of units (e.g., in headers vs. cells)"
+      },
+      {
+        "id": "table_of_figures_logic",
+        "label": "Table Of Figures Logic",
+        "description": "Fix table of figures logic issues"
+      },
+      {
+        "id": "nested_table_hierarchy",
+        "label": "Nested Table Hierarchy",
+        "description": "Fix nested table hierarchy issues"
       }
     ]
   },
@@ -220,6 +400,31 @@
         "id": "legend_clarity",
         "label": "Legend Clarity",
         "description": "Positioning and clarity of chart legends"
+      },
+      {
+        "id": "waterfall_axis_logic",
+        "label": "Waterfall Axis Logic",
+        "description": "Fix waterfall axis logic issues"
+      },
+      {
+        "id": "pareto_distribution_formatting",
+        "label": "Pareto Distribution Formatting",
+        "description": "Fix pareto distribution formatting issues"
+      },
+      {
+        "id": "treemap_nesting_depth",
+        "label": "Treemap Nesting Depth",
+        "description": "Fix treemap nesting depth issues"
+      },
+      {
+        "id": "axis_break_symbols",
+        "label": "Axis Break Symbols",
+        "description": "Fix axis break symbols issues"
+      },
+      {
+        "id": "error_bar_standard_deviation",
+        "label": "Error Bar Standard Deviation",
+        "description": "Fix error bar standard deviation issues"
       }
     ]
   },
@@ -243,6 +448,31 @@
         "id": "color_distinction",
         "label": "Color Distinction",
         "description": "Sufficient contrast and brand-aligned chart colors"
+      },
+      {
+        "id": "waterfall_axis_logic",
+        "label": "Waterfall Axis Logic",
+        "description": "Fix waterfall axis logic issues"
+      },
+      {
+        "id": "pareto_distribution_formatting",
+        "label": "Pareto Distribution Formatting",
+        "description": "Fix pareto distribution formatting issues"
+      },
+      {
+        "id": "treemap_nesting_depth",
+        "label": "Treemap Nesting Depth",
+        "description": "Fix treemap nesting depth issues"
+      },
+      {
+        "id": "axis_break_symbols",
+        "label": "Axis Break Symbols",
+        "description": "Fix axis break symbols issues"
+      },
+      {
+        "id": "error_bar_standard_deviation",
+        "label": "Error Bar Standard Deviation",
+        "description": "Fix error bar standard deviation issues"
       }
     ]
   },
@@ -271,6 +501,36 @@
         "id": "confidentiality_footer",
         "label": "Confidentiality",
         "description": "Presence of confidentiality notices and labels"
+      },
+      {
+        "id": "different_first_page_logic",
+        "label": "Different First Page Logic",
+        "description": "Fix different first page logic issues"
+      },
+      {
+        "id": "mirror_odd_even_headers",
+        "label": "Mirror Odd Even Headers",
+        "description": "Fix mirror odd even headers issues"
+      },
+      {
+        "id": "section_specific_headers",
+        "label": "Section Specific Headers",
+        "description": "Fix section specific headers issues"
+      },
+      {
+        "id": "chapter_number_fields",
+        "label": "Chapter Number Fields",
+        "description": "Fix chapter number fields issues"
+      },
+      {
+        "id": "page_x_of_y_logic",
+        "label": "Page X Of Y Logic",
+        "description": "Fix page x of y logic issues"
+      },
+      {
+        "id": "draft_watermark_layering",
+        "label": "Draft Watermark Layering",
+        "description": "Fix draft watermark layering issues"
       }
     ]
   },
@@ -294,6 +554,26 @@
         "id": "brand_palette_adherence",
         "label": "Brand Adherence",
         "description": "Ensuring all colors align with brand guidelines"
+      },
+      {
+        "id": "pantone_spot_color_matching",
+        "label": "Pantone Spot Color Matching",
+        "description": "Fix pantone spot color matching issues"
+      },
+      {
+        "id": "cmyk_process_ink_limits",
+        "label": "Cmyk Process Ink Limits",
+        "description": "Fix cmyk process ink limits issues"
+      },
+      {
+        "id": "gradient_stop_interpolation",
+        "label": "Gradient Stop Interpolation",
+        "description": "Fix gradient stop interpolation issues"
+      },
+      {
+        "id": "opacity_overlay_blending",
+        "label": "Opacity Overlay Blending",
+        "description": "Fix opacity overlay blending issues"
       }
     ]
   },
@@ -322,6 +602,21 @@
         "id": "list_punctuation_consistency",
         "label": "List Punctuation",
         "description": "Standardize ending punctuation for bullets"
+      },
+      {
+        "id": "multi_level_numbering_overrides",
+        "label": "Multi Level Numbering Overrides",
+        "description": "Fix multi level numbering overrides issues"
+      },
+      {
+        "id": "restart_numbering_logic",
+        "label": "Restart Numbering Logic",
+        "description": "Fix restart numbering logic issues"
+      },
+      {
+        "id": "bullet_text_position_offset",
+        "label": "Bullet Text Position Offset",
+        "description": "Fix bullet text position offset issues"
       }
     ]
   },
@@ -345,6 +640,26 @@
         "id": "caption_consistency",
         "label": "Caption Consistency",
         "description": "Standardize figure captions and cross-references"
+      },
+      {
+        "id": "compression_artifact_cleanup",
+        "label": "Compression Artifact Cleanup",
+        "description": "Fix compression artifact cleanup issues"
+      },
+      {
+        "id": "vector_raster_rasterization",
+        "label": "Vector Raster Rasterization",
+        "description": "Fix vector raster rasterization issues"
+      },
+      {
+        "id": "transparency_masking",
+        "label": "Transparency Masking",
+        "description": "Fix transparency masking issues"
+      },
+      {
+        "id": "complex_flowchart_alt_text",
+        "label": "Complex Flowchart Alt Text",
+        "description": "Fix complex flowchart alt text issues"
       }
     ]
   },
@@ -358,6 +673,16 @@
         "id": "logical_section_breaks",
         "label": "Section Breaks",
         "description": "Clean page breaks and section transitions"
+      },
+      {
+        "id": "section_break_types_continuous",
+        "label": "Section Break Types Continuous",
+        "description": "Fix section break types continuous issues"
+      },
+      {
+        "id": "column_count_variation",
+        "label": "Column Count Variation",
+        "description": "Fix column count variation issues"
       }
     ]
   },
@@ -371,6 +696,41 @@
         "id": "printable_area_safety",
         "label": "Printable Area",
         "description": "Ensuring content stays within printable margins"
+      },
+      {
+        "id": "preflight_fixups_pdf_ua",
+        "label": "Preflight Fixups Pdf Ua",
+        "description": "Fix preflight fixups pdf ua issues"
+      },
+      {
+        "id": "color_space_conversion",
+        "label": "Color Space Conversion",
+        "description": "Fix color space conversion issues"
+      },
+      {
+        "id": "transparency_flattening",
+        "label": "Transparency Flattening",
+        "description": "Fix transparency flattening issues"
+      },
+      {
+        "id": "artifact_tagging",
+        "label": "Artifact Tagging",
+        "description": "Fix artifact tagging issues"
+      },
+      {
+        "id": "reading_order_logic",
+        "label": "Reading Order Logic",
+        "description": "Fix reading order logic issues"
+      },
+      {
+        "id": "safe_zone_edge_printing",
+        "label": "Safe Zone Edge Printing",
+        "description": "Fix safe zone edge printing issues"
+      },
+      {
+        "id": "cmyk_process_ink_limits",
+        "label": "Cmyk Process Ink Limits",
+        "description": "Fix cmyk process ink limits issues"
       }
     ]
   },
@@ -389,6 +749,26 @@
         "id": "reference_integrity",
         "label": "Reference Integrity",
         "description": "Fixing broken links and citation inconsistencies"
+      },
+      {
+        "id": "linked_section_logic",
+        "label": "Linked Section Logic",
+        "description": "Fix linked section logic issues"
+      },
+      {
+        "id": "section_break_types_continuous",
+        "label": "Section Break Types Continuous",
+        "description": "Fix section break types continuous issues"
+      },
+      {
+        "id": "column_count_variation",
+        "label": "Column Count Variation",
+        "description": "Fix column count variation issues"
+      },
+      {
+        "id": "page_border_geometry",
+        "label": "Page Border Geometry",
+        "description": "Fix page border geometry issues"
       }
     ]
   },
@@ -407,6 +787,16 @@
         "id": "source_plausibility",
         "label": "Source Plausibility",
         "description": "Ensuring citations are credible and accurate"
+      },
+      {
+        "id": "industry_jargon_finance_legal_tech",
+        "label": "Industry Jargon Finance Legal Tech",
+        "description": "Fix industry jargon finance legal tech issues"
+      },
+      {
+        "id": "inclusive_language_bias_removal",
+        "label": "Inclusive Language Bias Removal",
+        "description": "Fix inclusive language bias removal issues"
       }
     ]
   },
@@ -430,6 +820,31 @@
         "id": "growth_rate_arithmetic",
         "label": "Growth Rates",
         "description": "Checking arithmetic for deltas and growth rates"
+      },
+      {
+        "id": "cross_column_validation",
+        "label": "Cross Column Validation",
+        "description": "Fix cross column validation issues"
+      },
+      {
+        "id": "date_math_logic",
+        "label": "Date Math Logic",
+        "description": "Fix date math logic issues"
+      },
+      {
+        "id": "formula_audit_logic",
+        "label": "Formula Audit Logic",
+        "description": "Fix formula audit logic issues"
+      },
+      {
+        "id": "fiscal_year_rollup_consistency",
+        "label": "Fiscal Year Rollup Consistency",
+        "description": "Fix fiscal year rollup consistency issues"
+      },
+      {
+        "id": "currency_conversion_precision",
+        "label": "Currency Conversion Precision",
+        "description": "Fix currency conversion precision issues"
       }
     ]
   },
@@ -463,6 +878,16 @@
         "id": "typos_grammar",
         "label": "Typos/Grammar",
         "description": "Fixing spelling, punctuation, and syntax errors"
+      },
+      {
+        "id": "industry_jargon_finance_legal_tech",
+        "label": "Industry Jargon Finance Legal Tech",
+        "description": "Fix industry jargon finance legal tech issues"
+      },
+      {
+        "id": "inclusive_language_bias_removal",
+        "label": "Inclusive Language Bias Removal",
+        "description": "Fix inclusive language bias removal issues"
       }
     ]
   },
@@ -481,6 +906,16 @@
         "id": "visual_balance_layout",
         "label": "Visual Balance",
         "description": "Alignment and layout optimization for slides"
+      },
+      {
+        "id": "master_slide_inheritance",
+        "label": "Master Slide Inheritance",
+        "description": "Fix master slide inheritance issues"
+      },
+      {
+        "id": "z_order_layering",
+        "label": "Z Order Layering",
+        "description": "Fix z order layering issues"
       }
     ]
   },
@@ -494,6 +929,26 @@
         "id": "heading_style_application",
         "label": "Style Application",
         "description": "Correct usage of Word heading and body styles"
+      },
+      {
+        "id": "style_inheritance_cleanup",
+        "label": "Style Inheritance Cleanup",
+        "description": "Fix style inheritance cleanup issues"
+      },
+      {
+        "id": "template_link_cleanup",
+        "label": "Template Link Cleanup",
+        "description": "Fix template link cleanup issues"
+      },
+      {
+        "id": "style_set_inheritance",
+        "label": "Style Set Inheritance",
+        "description": "Fix style set inheritance issues"
+      },
+      {
+        "id": "section_break_types_continuous",
+        "label": "Section Break Types Continuous",
+        "description": "Fix section break types continuous issues"
       }
     ]
   }

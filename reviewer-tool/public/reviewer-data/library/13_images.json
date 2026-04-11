@@ -533,6 +533,294 @@
           "prompt_text": "Use same style definition for every caption in document"
         }
       ]
+    },
+    {
+      "subcategory": "compression_artifact_cleanup",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "compression-artifact-cleanup"
+      ],
+      "entries": [
+        {
+          "id": "images_compression_artifact_cleanup_001",
+          "prompt_text": "Sharpen edges of compressed graphic"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_002",
+          "prompt_text": "Reduce compression artifacts in callout"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_003",
+          "prompt_text": "Fix pixelation in text"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_004",
+          "prompt_text": "Set JPEG quality to High"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_007",
+          "prompt_text": "Fix pixelation in note"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_014",
+          "prompt_text": "Reduce compression artifacts in chart"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_016",
+          "prompt_text": "Denoise background of photo"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_019",
+          "prompt_text": "Fix pixelation in graph"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_020",
+          "prompt_text": "Reduce compression artifacts in graph"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_021",
+          "prompt_text": "Fix pixelation in logo"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_022",
+          "prompt_text": "Fix pixelation in callout"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_024",
+          "prompt_text": "Fix pixelation in title"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_032",
+          "prompt_text": "Reduce compression artifacts in image"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_035",
+          "prompt_text": "Fix pixelation in table"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_037",
+          "prompt_text": "Reduce compression artifacts in logo"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_051",
+          "prompt_text": "Fix pixelation in caption"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_058",
+          "prompt_text": "Fix pixelation in chart"
+        },
+        {
+          "id": "images_compression_artifact_cleanup_059",
+          "prompt_text": "Reduce compression artifacts in note"
+        }
+      ]
+    },
+    {
+      "subcategory": "vector_raster_rasterization",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "vector-raster-rasterization"
+      ],
+      "entries": [
+        {
+          "id": "images_vector_raster_rasterization_001",
+          "prompt_text": "Flatten transparency in raster image"
+        },
+        {
+          "id": "images_vector_raster_rasterization_003",
+          "prompt_text": "Rasterize vector effect to 300 dpi"
+        },
+        {
+          "id": "images_vector_raster_rasterization_007",
+          "prompt_text": "Set raster resolution to 10pt for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_008",
+          "prompt_text": "Embed raster version of complex vector"
+        },
+        {
+          "id": "images_vector_raster_rasterization_011",
+          "prompt_text": "Set raster resolution to 50% for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_012",
+          "prompt_text": "Convert SVG to PNG for compatibility"
+        },
+        {
+          "id": "images_vector_raster_rasterization_022",
+          "prompt_text": "Set raster resolution to 5px for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_026",
+          "prompt_text": "Set raster resolution to 8pt for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_034",
+          "prompt_text": "Set raster resolution to 0.5\" for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_035",
+          "prompt_text": "Set raster resolution to 15pt for export"
+        },
+        {
+          "id": "images_vector_raster_rasterization_046",
+          "prompt_text": "Set raster resolution to 80% for export"
+        }
+      ]
+    },
+    {
+      "subcategory": "transparency_masking",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "transparency-masking"
+      ],
+      "entries": [
+        {
+          "id": "images_transparency_masking_001",
+          "prompt_text": "Apply gradient mask to bottom edge"
+        },
+        {
+          "id": "images_transparency_masking_002",
+          "prompt_text": "Invert transparency mask"
+        },
+        {
+          "id": "images_transparency_masking_006",
+          "prompt_text": "Set mask feather to 1.0\""
+        },
+        {
+          "id": "images_transparency_masking_007",
+          "prompt_text": "Set mask feather to 2.0\""
+        },
+        {
+          "id": "images_transparency_masking_009",
+          "prompt_text": "Set mask feather to 0.5\""
+        },
+        {
+          "id": "images_transparency_masking_010",
+          "prompt_text": "Set mask feather to 80%"
+        },
+        {
+          "id": "images_transparency_masking_014",
+          "prompt_text": "Set mask feather to 1.25\""
+        },
+        {
+          "id": "images_transparency_masking_016",
+          "prompt_text": "Remove mask from title"
+        },
+        {
+          "id": "images_transparency_masking_017",
+          "prompt_text": "Remove mask from table"
+        },
+        {
+          "id": "images_transparency_masking_018",
+          "prompt_text": "Set mask feather to 12pt"
+        },
+        {
+          "id": "images_transparency_masking_019",
+          "prompt_text": "Set mask feather to 100%"
+        },
+        {
+          "id": "images_transparency_masking_020",
+          "prompt_text": "Add alpha mask to title"
+        },
+        {
+          "id": "images_transparency_masking_021",
+          "prompt_text": "Add alpha mask to callout"
+        },
+        {
+          "id": "images_transparency_masking_027",
+          "prompt_text": "Set mask feather to 200%"
+        },
+        {
+          "id": "images_transparency_masking_031",
+          "prompt_text": "Add alpha mask to text"
+        },
+        {
+          "id": "images_transparency_masking_032",
+          "prompt_text": "Remove mask from graph"
+        },
+        {
+          "id": "images_transparency_masking_033",
+          "prompt_text": "Set mask feather to 10px"
+        },
+        {
+          "id": "images_transparency_masking_036",
+          "prompt_text": "Remove mask from image"
+        },
+        {
+          "id": "images_transparency_masking_039",
+          "prompt_text": "Set mask feather to 0.75\""
+        },
+        {
+          "id": "images_transparency_masking_043",
+          "prompt_text": "Add alpha mask to image"
+        },
+        {
+          "id": "images_transparency_masking_046",
+          "prompt_text": "Remove mask from chart"
+        },
+        {
+          "id": "images_transparency_masking_047",
+          "prompt_text": "Set mask feather to 8pt"
+        }
+      ]
+    },
+    {
+      "subcategory": "complex_flowchart_alt_text",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "complex-flowchart-alt-text"
+      ],
+      "entries": [
+        {
+          "id": "images_complex_flowchart_alt_text_001",
+          "prompt_text": "Include step sequence in description"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_002",
+          "prompt_text": "Add alt text to flowchart"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_004",
+          "prompt_text": "Describe process flow in metadata"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_007",
+          "prompt_text": "Set alt text for diagram to 1.0\""
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_009",
+          "prompt_text": "Set alt text for diagram to 10pt"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_011",
+          "prompt_text": "Fix accessibility label for complex chart"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_022",
+          "prompt_text": "Set alt text for diagram to 5px"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_035",
+          "prompt_text": "Set alt text for diagram to 0.75\""
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_038",
+          "prompt_text": "Set alt text for diagram to 15pt"
+        },
+        {
+          "id": "images_complex_flowchart_alt_text_042",
+          "prompt_text": "Set alt text for diagram to 80%"
+        }
+      ]
     }
   ]
 }

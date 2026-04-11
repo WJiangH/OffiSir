@@ -688,6 +688,425 @@
           "prompt_text": "Use heavier line weight"
         }
       ]
+    },
+    {
+      "subcategory": "waterfall_axis_logic",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "waterfall-axis-logic"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_waterfall_axis_logic_001",
+          "prompt_text": "Align waterfall labels to top"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_002",
+          "prompt_text": "Color increase to green and decrease to red"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_003",
+          "prompt_text": "Set waterfall start to 1.25\""
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_004",
+          "prompt_text": "Show total column in waterfall"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_011",
+          "prompt_text": "Adjust connector lines to 12pt weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_014",
+          "prompt_text": "Set waterfall start to 50%"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_018",
+          "prompt_text": "Adjust connector lines to 2.0\" weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_019",
+          "prompt_text": "Adjust connector lines to 50% weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_025",
+          "prompt_text": "Set waterfall start to 80%"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_027",
+          "prompt_text": "Set waterfall start to 5px"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_028",
+          "prompt_text": "Adjust connector lines to 100% weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_029",
+          "prompt_text": "Set waterfall start to 2.0\""
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_031",
+          "prompt_text": "Set waterfall start to 10px"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_032",
+          "prompt_text": "Set waterfall start to 0.5\""
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_033",
+          "prompt_text": "Adjust connector lines to 200% weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_035",
+          "prompt_text": "Adjust connector lines to 5px weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_041",
+          "prompt_text": "Adjust connector lines to 1.0\" weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_043",
+          "prompt_text": "Adjust connector lines to 0.25\" weight"
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_049",
+          "prompt_text": "Set waterfall start to 1.0\""
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_050",
+          "prompt_text": "Set waterfall start to 0.75\""
+        },
+        {
+          "id": "charts_structure_waterfall_axis_logic_051",
+          "prompt_text": "Adjust connector lines to 0.75\" weight"
+        }
+      ]
+    },
+    {
+      "subcategory": "pareto_distribution_formatting",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "pareto-distribution-formatting"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_pareto_distribution_formatting_001",
+          "prompt_text": "Align pareto bars to left axis"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_002",
+          "prompt_text": "Sort pareto bars to descending"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_003",
+          "prompt_text": "Color 80% mark to 10px"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_004",
+          "prompt_text": "Add cumulative percentage to pareto"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_007",
+          "prompt_text": "Set secondary axis to 100%"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_012",
+          "prompt_text": "Color 80% mark to 0.25\""
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_018",
+          "prompt_text": "Color 80% mark to 200%"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_020",
+          "prompt_text": "Color 80% mark to 0.75\""
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_021",
+          "prompt_text": "Color 80% mark to 1.25\""
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_022",
+          "prompt_text": "Color 80% mark to 1.0\""
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_029",
+          "prompt_text": "Color 80% mark to 50%"
+        },
+        {
+          "id": "charts_structure_pareto_distribution_formatting_040",
+          "prompt_text": "Color 80% mark to 5px"
+        }
+      ]
+    },
+    {
+      "subcategory": "treemap_nesting_depth",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "treemap-nesting-depth"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_treemap_nesting_depth_001",
+          "prompt_text": "Adjust treemap padding to 0.75\""
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_002",
+          "prompt_text": "Color treemap leaves by value"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_003",
+          "prompt_text": "Set treemap depth to 80% levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_006",
+          "prompt_text": "Group treemap by category"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_007",
+          "prompt_text": "Adjust treemap padding to 1.25\""
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_010",
+          "prompt_text": "Adjust treemap padding to 10pt"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_013",
+          "prompt_text": "Adjust treemap padding to 80%"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_014",
+          "prompt_text": "Adjust treemap padding to 2.0\""
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_017",
+          "prompt_text": "Adjust treemap padding to 8pt"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_021",
+          "prompt_text": "Show labels only for level X"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_024",
+          "prompt_text": "Set treemap depth to 1.25\" levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_032",
+          "prompt_text": "Set treemap depth to 2.0\" levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_035",
+          "prompt_text": "Adjust treemap padding to 0.5\""
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_036",
+          "prompt_text": "Adjust treemap padding to 10px"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_040",
+          "prompt_text": "Adjust treemap padding to 0.25\""
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_043",
+          "prompt_text": "Set treemap depth to 0.25\" levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_045",
+          "prompt_text": "Set treemap depth to 1.0\" levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_057",
+          "prompt_text": "Set treemap depth to 10pt levels"
+        },
+        {
+          "id": "charts_structure_treemap_nesting_depth_059",
+          "prompt_text": "Adjust treemap padding to 5px"
+        }
+      ]
+    },
+    {
+      "subcategory": "axis_break_symbols",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "axis-break-symbols"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_axis_break_symbols_001",
+          "prompt_text": "Set break symbol to double slash"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_003",
+          "prompt_text": "Add axis break at value X"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_004",
+          "prompt_text": "Remove axis break from Y axis"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_006",
+          "prompt_text": "Gap break area by 1.25\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_008",
+          "prompt_text": "Gap break area by 12pt"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_012",
+          "prompt_text": "Gap break area by 10px"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_013",
+          "prompt_text": "Gap break area by 200%"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_014",
+          "prompt_text": "Color break symbol to 8pt"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_016",
+          "prompt_text": "Gap break area by 0.25\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_018",
+          "prompt_text": "Color break symbol to 100%"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_019",
+          "prompt_text": "Color break symbol to 1.0\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_023",
+          "prompt_text": "Color break symbol to 200%"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_027",
+          "prompt_text": "Gap break area by 2.0\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_030",
+          "prompt_text": "Color break symbol to 10pt"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_033",
+          "prompt_text": "Gap break area by 15pt"
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_035",
+          "prompt_text": "Gap break area by 1.0\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_038",
+          "prompt_text": "Color break symbol to 1.25\""
+        },
+        {
+          "id": "charts_structure_axis_break_symbols_039",
+          "prompt_text": "Color break symbol to 0.5\""
+        }
+      ]
+    },
+    {
+      "subcategory": "error_bar_standard_deviation",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "error-bar-standard-deviation"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_error_bar_standard_deviation_001",
+          "prompt_text": "Hide error bar caps"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_002",
+          "prompt_text": "Add error bars to series X"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_003",
+          "prompt_text": "Set error bar color to 80%"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_004",
+          "prompt_text": "Format error bars to 10px thickness"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_005",
+          "prompt_text": "Set error amount to 80% standard deviations"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_008",
+          "prompt_text": "Set error bar color to 0.75\""
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_009",
+          "prompt_text": "Set error bar color to 12pt"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_011",
+          "prompt_text": "Set error amount to 8pt standard deviations"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_013",
+          "prompt_text": "Set error bar color to 100%"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_014",
+          "prompt_text": "Set error bar color to 15pt"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_015",
+          "prompt_text": "Set error amount to 10pt standard deviations"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_017",
+          "prompt_text": "Format error bars to 0.75\" thickness"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_018",
+          "prompt_text": "Set error bar color to 2.0\""
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_019",
+          "prompt_text": "Format error bars to 1.0\" thickness"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_024",
+          "prompt_text": "Set error amount to 0.25\" standard deviations"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_027",
+          "prompt_text": "Set error bar color to 10px"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_029",
+          "prompt_text": "Set error amount to 1.0\" standard deviations"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_032",
+          "prompt_text": "Set error bar color to 10pt"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_035",
+          "prompt_text": "Format error bars to 15pt thickness"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_037",
+          "prompt_text": "Format error bars to 12pt thickness"
+        },
+        {
+          "id": "charts_structure_error_bar_standard_deviation_038",
+          "prompt_text": "Format error bars to 200% thickness"
+        }
+      ]
     }
   ]
 }

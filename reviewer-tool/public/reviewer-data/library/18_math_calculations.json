@@ -165,6 +165,145 @@
           "prompt_text": "Change {the costs has} in {last paragraph} to {the costs have}"
         }
       ]
+    },
+    {
+      "subcategory": "cross_column_validation",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "cross-column-validation"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_cross_column_validation_001",
+          "prompt_text": "Validate {column C} sum against {total line}"
+        },
+        {
+          "id": "math_calculations_cross_column_validation_002",
+          "prompt_text": "Cross-check {row 5} total with {breakdown table}"
+        },
+        {
+          "id": "math_calculations_cross_column_validation_003",
+          "prompt_text": "Ensure {subtotals} match {grand total}"
+        }
+      ]
+    },
+    {
+      "subcategory": "date_math_logic",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "date-math-logic"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_date_math_logic_001",
+          "prompt_text": "Calculate {end date} by adding {90 days} to {start date}"
+        },
+        {
+          "id": "math_calculations_date_math_logic_002",
+          "prompt_text": "Calculate {duration} between {date 1} and {date 2}"
+        },
+        {
+          "id": "math_calculations_date_math_logic_003",
+          "prompt_text": "Update {fiscal year} based on {current month}"
+        }
+      ]
+    },
+    {
+      "subcategory": "formula_audit_logic",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "formula-audit-logic"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_formula_audit_logic_001",
+          "prompt_text": "Check formula in cell X for errors"
+        },
+        {
+          "id": "math_calculations_formula_audit_logic_002",
+          "prompt_text": "Audit tax calculation formula"
+        },
+        {
+          "id": "math_calculations_formula_audit_logic_005",
+          "prompt_text": "Validate sum range for column X"
+        },
+        {
+          "id": "math_calculations_formula_audit_logic_006",
+          "prompt_text": "Trace precedents for total value"
+        },
+        {
+          "id": "math_calculations_formula_audit_logic_012",
+          "prompt_text": "Fix circular reference in sheet"
+        }
+      ]
+    },
+    {
+      "subcategory": "fiscal_year_rollup_consistency",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "fiscal-year-rollup-consistency"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_fiscal_year_rollup_consistency_001",
+          "prompt_text": "Check year-over-year growth calculation"
+        },
+        {
+          "id": "math_calculations_fiscal_year_rollup_consistency_002",
+          "prompt_text": "Consolidate BU totals into master FY"
+        },
+        {
+          "id": "math_calculations_fiscal_year_rollup_consistency_004",
+          "prompt_text": "Align fiscal start to Month X"
+        },
+        {
+          "id": "math_calculations_fiscal_year_rollup_consistency_005",
+          "prompt_text": "Verify quarterly sum matches annual"
+        },
+        {
+          "id": "math_calculations_fiscal_year_rollup_consistency_008",
+          "prompt_text": "Roll up Q4 data to FY total"
+        }
+      ]
+    },
+    {
+      "subcategory": "currency_conversion_precision",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "currency-conversion-precision"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_currency_conversion_precision_001",
+          "prompt_text": "Convert USD to EUR at rate X"
+        },
+        {
+          "id": "math_calculations_currency_conversion_precision_002",
+          "prompt_text": "Round converted total to nearest Y"
+        },
+        {
+          "id": "math_calculations_currency_conversion_precision_003",
+          "prompt_text": "Apply daily exchange rate to table"
+        },
+        {
+          "id": "math_calculations_currency_conversion_precision_006",
+          "prompt_text": "Set currency precision to X decimals"
+        },
+        {
+          "id": "math_calculations_currency_conversion_precision_008",
+          "prompt_text": "Check currency rounding in summary"
+        }
+      ]
     }
   ]
 }

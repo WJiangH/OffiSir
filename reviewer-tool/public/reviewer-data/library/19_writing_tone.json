@@ -987,6 +987,68 @@
           "prompt_text": "Use {two decimal places} on {conversion rate callout}"
         }
       ]
+    },
+    {
+      "subcategory": "industry_jargon_finance_legal_tech",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "industry-jargon-finance-legal-tech"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_industry_jargon_finance_legal_tech_001",
+          "prompt_text": "Simplify finance speak for general audience"
+        },
+        {
+          "id": "writing_tone_industry_jargon_finance_legal_tech_002",
+          "prompt_text": "Replace slang with industry term"
+        },
+        {
+          "id": "writing_tone_industry_jargon_finance_legal_tech_003",
+          "prompt_text": "Use legal terminology for disclaimer"
+        },
+        {
+          "id": "writing_tone_industry_jargon_finance_legal_tech_006",
+          "prompt_text": "Define acronym on first use"
+        },
+        {
+          "id": "writing_tone_industry_jargon_finance_legal_tech_008",
+          "prompt_text": "Clarify tech jargon in executive summary"
+        }
+      ]
+    },
+    {
+      "subcategory": "inclusive_language_bias_removal",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "inclusive-language-bias-removal"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_inclusive_language_bias_removal_001",
+          "prompt_text": "Check document for accessibility bias"
+        },
+        {
+          "id": "writing_tone_inclusive_language_bias_removal_002",
+          "prompt_text": "Use people-first language in report"
+        },
+        {
+          "id": "writing_tone_inclusive_language_bias_removal_003",
+          "prompt_text": "Replace exclusive language with inclusive"
+        },
+        {
+          "id": "writing_tone_inclusive_language_bias_removal_004",
+          "prompt_text": "Remove biased phrasing from job description"
+        },
+        {
+          "id": "writing_tone_inclusive_language_bias_removal_005",
+          "prompt_text": "Use gender-neutral terms in policy"
+        }
+      ]
     }
   ]
 }

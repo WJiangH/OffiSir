@@ -768,6 +768,515 @@
           "prompt_text": "Span the heading across both columns at top of the page"
         }
       ]
+    },
+    {
+      "subcategory": "repeat_header_rows",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "repeat-header-rows"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_repeat_header_rows_001",
+          "prompt_text": "Enable repeat header rows for {split tables}"
+        },
+        {
+          "id": "tables_structure_repeat_header_rows_002",
+          "prompt_text": "Set first {two rows} to repeat on new pages"
+        },
+        {
+          "id": "tables_structure_repeat_header_rows_003",
+          "prompt_text": "Disable header repetition for {short tables}"
+        }
+      ]
+    },
+    {
+      "subcategory": "row_break_control",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "row-break-control"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_row_break_control_001",
+          "prompt_text": "Disable row breaks across pages for {data rows}"
+        },
+        {
+          "id": "tables_structure_row_break_control_002",
+          "prompt_text": "Allow row breaks for {long description cells}"
+        },
+        {
+          "id": "tables_structure_row_break_control_003",
+          "prompt_text": "Set keep-with-next for {total rows}"
+        }
+      ]
+    },
+    {
+      "subcategory": "diagonal_border_logic",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "diagonal-border-logic"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_diagonal_border_logic_001",
+          "prompt_text": "Set diagonal line to 0.5\" thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_002",
+          "prompt_text": "Align diagonal to top-left"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_003",
+          "prompt_text": "Add diagonal border to cell"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_004",
+          "prompt_text": "Color diagonal border to 8pt"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_005",
+          "prompt_text": "Color diagonal border to 10px"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_006",
+          "prompt_text": "Set diagonal line to 1.0\" thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_010",
+          "prompt_text": "Remove diagonal strike from empty cells"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_011",
+          "prompt_text": "Color diagonal border to 15pt"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_020",
+          "prompt_text": "Set diagonal line to 2.0\" thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_023",
+          "prompt_text": "Set diagonal line to 10px thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_025",
+          "prompt_text": "Set diagonal line to 50% thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_027",
+          "prompt_text": "Color diagonal border to 1.0\""
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_030",
+          "prompt_text": "Color diagonal border to 100%"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_031",
+          "prompt_text": "Set diagonal line to 1.25\" thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_033",
+          "prompt_text": "Color diagonal border to 12pt"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_036",
+          "prompt_text": "Set diagonal line to 0.25\" thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_049",
+          "prompt_text": "Color diagonal border to 10pt"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_050",
+          "prompt_text": "Color diagonal border to 0.5\""
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_053",
+          "prompt_text": "Set diagonal line to 100% thickness"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_056",
+          "prompt_text": "Color diagonal border to 200%"
+        },
+        {
+          "id": "tables_structure_diagonal_border_logic_058",
+          "prompt_text": "Color diagonal border to 50%"
+        }
+      ]
+    },
+    {
+      "subcategory": "corner_rounding_geometry",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "corner-rounding-geometry"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_corner_rounding_geometry_001",
+          "prompt_text": "Match outer border rounding to 50%"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_002",
+          "prompt_text": "Round table corners to 0.75\" radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_003",
+          "prompt_text": "Round table corners to 0.5\" radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_004",
+          "prompt_text": "Round table corners to 8pt radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_005",
+          "prompt_text": "Set top-right corner to 50% roundness"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_006",
+          "prompt_text": "Match outer border rounding to 200%"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_008",
+          "prompt_text": "Remove rounding from header row"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_009",
+          "prompt_text": "Apply 0.5\" corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_010",
+          "prompt_text": "Match outer border rounding to 15pt"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_011",
+          "prompt_text": "Round table corners to 5px radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_013",
+          "prompt_text": "Apply 80% corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_016",
+          "prompt_text": "Match outer border rounding to 0.25\""
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_017",
+          "prompt_text": "Round table corners to 2.0\" radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_019",
+          "prompt_text": "Round table corners to 80% radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_025",
+          "prompt_text": "Match outer border rounding to 2.0\""
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_027",
+          "prompt_text": "Set top-right corner to 10px roundness"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_030",
+          "prompt_text": "Match outer border rounding to 80%"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_031",
+          "prompt_text": "Match outer border rounding to 0.75\""
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_032",
+          "prompt_text": "Set top-right corner to 0.75\" roundness"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_033",
+          "prompt_text": "Match outer border rounding to 100%"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_034",
+          "prompt_text": "Apply 15pt corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_037",
+          "prompt_text": "Round table corners to 15pt radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_038",
+          "prompt_text": "Round table corners to 1.0\" radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_040",
+          "prompt_text": "Set top-right corner to 100% roundness"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_041",
+          "prompt_text": "Apply 12pt corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_042",
+          "prompt_text": "Apply 1.0\" corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_043",
+          "prompt_text": "Apply 1.25\" corner radius to all cells"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_046",
+          "prompt_text": "Match outer border rounding to 1.25\""
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_048",
+          "prompt_text": "Set top-right corner to 12pt roundness"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_050",
+          "prompt_text": "Round table corners to 200% radius"
+        },
+        {
+          "id": "tables_structure_corner_rounding_geometry_053",
+          "prompt_text": "Apply 200% corner radius to all cells"
+        }
+      ]
+    },
+    {
+      "subcategory": "shading_pattern_banding",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "shading-pattern-banding"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_shading_pattern_banding_001",
+          "prompt_text": "Shift banding start to row X"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_002",
+          "prompt_text": "Set banding color to 80% every 5px rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_003",
+          "prompt_text": "Remove row banding from total row"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_005",
+          "prompt_text": "Apply diagonal shading to image"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_006",
+          "prompt_text": "Apply diagonal shading to callout"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_008",
+          "prompt_text": "Set banding color to 5px every 0.5\" rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_010",
+          "prompt_text": "Set banding color to 100% every 0.5\" rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_014",
+          "prompt_text": "Apply diagonal shading to graph"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_017",
+          "prompt_text": "Add 8pt banding to alternate rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_019",
+          "prompt_text": "Apply diagonal shading to note"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_020",
+          "prompt_text": "Apply diagonal shading to logo"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_022",
+          "prompt_text": "Set banding color to 12pt every 8pt rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_026",
+          "prompt_text": "Add 0.5\" banding to alternate rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_028",
+          "prompt_text": "Set banding color to 5px every 100% rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_029",
+          "prompt_text": "Set banding color to 0.25\" every 80% rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_038",
+          "prompt_text": "Add 1.0\" banding to alternate rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_040",
+          "prompt_text": "Set banding color to 1.0\" every 0.25\" rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_042",
+          "prompt_text": "Apply diagonal shading to title"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_043",
+          "prompt_text": "Add 200% banding to alternate rows"
+        }
+      ]
+    },
+    {
+      "subcategory": "table_of_figures_logic",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "table-of-figures-logic"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_table_of_figures_logic_001",
+          "prompt_text": "Align figure titles to left in list"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_002",
+          "prompt_text": "Include appendix charts in figure list"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_004",
+          "prompt_text": "Generate table of figures at page X"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_006",
+          "prompt_text": "Update figure numbering to sequential"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_007",
+          "prompt_text": "Set leader dots to 15pt for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_009",
+          "prompt_text": "Set leader dots to 1.0\" for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_020",
+          "prompt_text": "Set leader dots to 2.0\" for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_033",
+          "prompt_text": "Set leader dots to 10pt for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_043",
+          "prompt_text": "Set leader dots to 0.75\" for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_051",
+          "prompt_text": "Set leader dots to 0.25\" for figures"
+        },
+        {
+          "id": "tables_structure_table_of_figures_logic_053",
+          "prompt_text": "Set leader dots to 200% for figures"
+        }
+      ]
+    },
+    {
+      "subcategory": "nested_table_hierarchy",
+      "priority": "tables_structure",
+      "doc_type": "both",
+      "tags": [
+        "tables_structure",
+        "nested-table-hierarchy"
+      ],
+      "entries": [
+        {
+          "id": "tables_structure_nested_table_hierarchy_001",
+          "prompt_text": "Match inner table width to 200%% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_002",
+          "prompt_text": "Align inner table to center of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_003",
+          "prompt_text": "Insert nested table into cell X"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_004",
+          "prompt_text": "Match inner table width to 5px% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_005",
+          "prompt_text": "Set nested border to 5px thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_007",
+          "prompt_text": "Match inner table width to 0.5\"% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_008",
+          "prompt_text": "Match inner table width to 1.25\"% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_009",
+          "prompt_text": "Remove padding between nested tables"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_010",
+          "prompt_text": "Match inner table width to 8pt% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_011",
+          "prompt_text": "Set nested border to 80% thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_012",
+          "prompt_text": "Match inner table width to 15pt% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_013",
+          "prompt_text": "Set nested border to 1.25\" thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_014",
+          "prompt_text": "Set nested border to 10pt thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_018",
+          "prompt_text": "Match inner table width to 100%% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_019",
+          "prompt_text": "Set nested border to 100% thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_023",
+          "prompt_text": "Set nested border to 2.0\" thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_036",
+          "prompt_text": "Set nested border to 8pt thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_039",
+          "prompt_text": "Set nested border to 0.75\" thickness"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_047",
+          "prompt_text": "Match inner table width to 2.0\"% of parent"
+        },
+        {
+          "id": "tables_structure_nested_table_hierarchy_048",
+          "prompt_text": "Match inner table width to 0.75\"% of parent"
+        }
+      ]
     }
   ]
 }

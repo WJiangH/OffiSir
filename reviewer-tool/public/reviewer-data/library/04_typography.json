@@ -591,6 +591,681 @@
           "prompt_text": "Match heading case style"
         }
       ]
+    },
+    {
+      "subcategory": "kerning_tracking",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "kerning-tracking"
+      ],
+      "entries": [
+        {
+          "id": "typography_kerning_tracking_001",
+          "prompt_text": "Set character spacing to {tight}"
+        },
+        {
+          "id": "typography_kerning_tracking_002",
+          "prompt_text": "Set tracking to {0.5pt} for {headings}"
+        },
+        {
+          "id": "typography_kerning_tracking_003",
+          "prompt_text": "Adjust kerning for {large titles}"
+        },
+        {
+          "id": "typography_kerning_tracking_004",
+          "prompt_text": "Set character spacing to {expanded} by {1pt}"
+        }
+      ]
+    },
+    {
+      "subcategory": "non_breaking_logic",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "non-breaking-logic"
+      ],
+      "entries": [
+        {
+          "id": "typography_non_breaking_logic_001",
+          "prompt_text": "Set non-breaking space between {unit} and {value}"
+        },
+        {
+          "id": "typography_non_breaking_logic_002",
+          "prompt_text": "Apply non-breaking hyphen to {compound terms}"
+        },
+        {
+          "id": "typography_non_breaking_logic_003",
+          "prompt_text": "Set no-break property for {dates}"
+        },
+        {
+          "id": "typography_non_breaking_logic_004",
+          "prompt_text": "Insert non-breaking space before {currency symbols}"
+        }
+      ]
+    },
+    {
+      "subcategory": "ligatures",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "ligatures"
+      ],
+      "entries": [
+        {
+          "id": "typography_ligatures_001",
+          "prompt_text": "Enable standard ligatures for {body text}"
+        },
+        {
+          "id": "typography_ligatures_002",
+          "prompt_text": "Disable discretionary ligatures in {table cells}"
+        },
+        {
+          "id": "typography_ligatures_003",
+          "prompt_text": "Enable contextual alternates for {script fonts}"
+        }
+      ]
+    },
+    {
+      "subcategory": "character_case_logic",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "character-case-logic"
+      ],
+      "entries": [
+        {
+          "id": "typography_character_case_logic_001",
+          "prompt_text": "Set {acronyms} to {small caps}"
+        },
+        {
+          "id": "typography_character_case_logic_002",
+          "prompt_text": "Change {all-caps} headings to {title case}"
+        },
+        {
+          "id": "typography_character_case_logic_003",
+          "prompt_text": "Apply {small caps} to {abbreviations}"
+        }
+      ]
+    },
+    {
+      "subcategory": "character_scaling_horizontal",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "character-scaling-horizontal"
+      ],
+      "entries": [
+        {
+          "id": "typography_character_scaling_horizontal_001",
+          "prompt_text": "Set font scaling to 0.75\"% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_002",
+          "prompt_text": "Adjust character width to 2.0\"%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_003",
+          "prompt_text": "Adjust character width to 100%%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_004",
+          "prompt_text": "Expand graph to 8pt% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_005",
+          "prompt_text": "Compress caption to 0.25\"% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_006",
+          "prompt_text": "Expand graph to 1.25\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_007",
+          "prompt_text": "Expand note to 0.5\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_008",
+          "prompt_text": "Adjust character width to 8pt%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_009",
+          "prompt_text": "Expand image to 12pt% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_010",
+          "prompt_text": "Adjust character width to 0.25\"%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_011",
+          "prompt_text": "Set font scaling to 10pt% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_012",
+          "prompt_text": "Compress text to 10px% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_013",
+          "prompt_text": "Compress caption to 10pt% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_014",
+          "prompt_text": "Adjust character width to 1.0\"%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_015",
+          "prompt_text": "Adjust character width to 15pt%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_016",
+          "prompt_text": "Compress text to 12pt% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_017",
+          "prompt_text": "Compress title to 100%% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_018",
+          "prompt_text": "Scale chart to 1.0\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_019",
+          "prompt_text": "Expand caption to 5px% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_020",
+          "prompt_text": "Set font scaling to 50%% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_022",
+          "prompt_text": "Expand caption to 2.0\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_023",
+          "prompt_text": "Scale caption to 0.75\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_025",
+          "prompt_text": "Adjust character width to 5px%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_026",
+          "prompt_text": "Adjust character width to 200%%"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_027",
+          "prompt_text": "Compress graph to 10px% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_028",
+          "prompt_text": "Scale graph to 200%% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_029",
+          "prompt_text": "Expand title to 1.25\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_030",
+          "prompt_text": "Compress logo to 5px% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_031",
+          "prompt_text": "Set font scaling to 0.25\"% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_032",
+          "prompt_text": "Compress table to 15pt% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_033",
+          "prompt_text": "Compress text to 1.0\"% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_034",
+          "prompt_text": "Compress logo to 1.0\"% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_035",
+          "prompt_text": "Compress title to 2.0\"% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_036",
+          "prompt_text": "Expand title to 100%% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_038",
+          "prompt_text": "Set font scaling to 200%% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_039",
+          "prompt_text": "Scale image to 5px% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_042",
+          "prompt_text": "Expand table to 50%% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_043",
+          "prompt_text": "Expand graph to 5px% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_044",
+          "prompt_text": "Set font scaling to 10px% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_046",
+          "prompt_text": "Compress title to 10px% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_047",
+          "prompt_text": "Expand note to 200%% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_048",
+          "prompt_text": "Set font scaling to 0.5\"% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_049",
+          "prompt_text": "Set font scaling to 100%% for condensed look"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_050",
+          "prompt_text": "Expand chart to 2.0\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_052",
+          "prompt_text": "Compress graph to 50%% horizontally"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_053",
+          "prompt_text": "Expand text to 0.5\"% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_054",
+          "prompt_text": "Expand text to 5px% width"
+        },
+        {
+          "id": "typography_character_scaling_horizontal_055",
+          "prompt_text": "Scale image to 50%% width"
+        }
+      ]
+    },
+    {
+      "subcategory": "optical_margin_alignment",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "optical-margin-alignment"
+      ],
+      "entries": [
+        {
+          "id": "typography_optical_margin_alignment_001",
+          "prompt_text": "Set punctuation overhang to 100%%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_002",
+          "prompt_text": "Enable optical alignment for body"
+        },
+        {
+          "id": "typography_optical_margin_alignment_003",
+          "prompt_text": "Adjust optical margin to 0.5\" for quotes"
+        },
+        {
+          "id": "typography_optical_margin_alignment_004",
+          "prompt_text": "Set punctuation overhang to 0.75\"%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_005",
+          "prompt_text": "Set punctuation overhang to 12pt%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_006",
+          "prompt_text": "Set punctuation overhang to 1.0\"%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_007",
+          "prompt_text": "Set punctuation overhang to 2.0\"%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_008",
+          "prompt_text": "Adjust optical margin to 1.25\" for quotes"
+        },
+        {
+          "id": "typography_optical_margin_alignment_010",
+          "prompt_text": "Hang bullets to optical edge"
+        },
+        {
+          "id": "typography_optical_margin_alignment_012",
+          "prompt_text": "Fix optical margin in table"
+        },
+        {
+          "id": "typography_optical_margin_alignment_013",
+          "prompt_text": "Set punctuation overhang to 15pt%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_016",
+          "prompt_text": "Fix optical margin in text"
+        },
+        {
+          "id": "typography_optical_margin_alignment_018",
+          "prompt_text": "Set punctuation overhang to 0.25\"%"
+        },
+        {
+          "id": "typography_optical_margin_alignment_019",
+          "prompt_text": "Fix optical margin in title"
+        },
+        {
+          "id": "typography_optical_margin_alignment_025",
+          "prompt_text": "Fix optical margin in caption"
+        },
+        {
+          "id": "typography_optical_margin_alignment_026",
+          "prompt_text": "Adjust optical margin to 200% for quotes"
+        },
+        {
+          "id": "typography_optical_margin_alignment_029",
+          "prompt_text": "Fix optical margin in chart"
+        },
+        {
+          "id": "typography_optical_margin_alignment_031",
+          "prompt_text": "Adjust optical margin to 80% for quotes"
+        },
+        {
+          "id": "typography_optical_margin_alignment_043",
+          "prompt_text": "Adjust optical margin to 2.0\" for quotes"
+        },
+        {
+          "id": "typography_optical_margin_alignment_046",
+          "prompt_text": "Fix optical margin in graph"
+        },
+        {
+          "id": "typography_optical_margin_alignment_049",
+          "prompt_text": "Fix optical margin in logo"
+        }
+      ]
+    },
+    {
+      "subcategory": "hyphenation_dictionaries",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "hyphenation-dictionaries"
+      ],
+      "entries": [
+        {
+          "id": "typography_hyphenation_dictionaries_001",
+          "prompt_text": "Limit consecutive hyphens to 8pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_002",
+          "prompt_text": "Set hyphenation to UK English"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_003",
+          "prompt_text": "Limit consecutive hyphens to 5px"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_004",
+          "prompt_text": "Set hyphenation zone to 15pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_005",
+          "prompt_text": "Limit consecutive hyphens to 50%"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_006",
+          "prompt_text": "Disable hyphenation in captions"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_007",
+          "prompt_text": "Apply medical dictionary for hyphens"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_010",
+          "prompt_text": "Set hyphenation zone to 12pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_013",
+          "prompt_text": "Limit consecutive hyphens to 10pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_021",
+          "prompt_text": "Limit consecutive hyphens to 80%"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_024",
+          "prompt_text": "Set hyphenation zone to 100%"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_028",
+          "prompt_text": "Limit consecutive hyphens to 200%"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_029",
+          "prompt_text": "Limit consecutive hyphens to 12pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_033",
+          "prompt_text": "Set hyphenation zone to 8pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_038",
+          "prompt_text": "Limit consecutive hyphens to 1.0\""
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_043",
+          "prompt_text": "Set hyphenation zone to 10pt"
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_046",
+          "prompt_text": "Limit consecutive hyphens to 0.5\""
+        },
+        {
+          "id": "typography_hyphenation_dictionaries_050",
+          "prompt_text": "Limit consecutive hyphens to 0.25\""
+        }
+      ]
+    },
+    {
+      "subcategory": "kerning_pair_logic",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "kerning-pair-logic"
+      ],
+      "entries": [
+        {
+          "id": "typography_kerning_pair_logic_001",
+          "prompt_text": "Fix kerning in logo text"
+        },
+        {
+          "id": "typography_kerning_pair_logic_003",
+          "prompt_text": "Adjust kerning to optical for table"
+        },
+        {
+          "id": "typography_kerning_pair_logic_004",
+          "prompt_text": "Tighten logo kerning to 12pt"
+        },
+        {
+          "id": "typography_kerning_pair_logic_005",
+          "prompt_text": "Loosen caption kerning to 1.0\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_006",
+          "prompt_text": "Adjust kerning to optical for caption"
+        },
+        {
+          "id": "typography_kerning_pair_logic_008",
+          "prompt_text": "Set kerning to metrics for body"
+        },
+        {
+          "id": "typography_kerning_pair_logic_009",
+          "prompt_text": "Loosen note kerning to 0.75\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_010",
+          "prompt_text": "Tighten chart kerning to 1.25\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_018",
+          "prompt_text": "Loosen logo kerning to 0.5\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_020",
+          "prompt_text": "Adjust kerning to optical for graph"
+        },
+        {
+          "id": "typography_kerning_pair_logic_022",
+          "prompt_text": "Tighten text kerning to 15pt"
+        },
+        {
+          "id": "typography_kerning_pair_logic_024",
+          "prompt_text": "Adjust kerning to optical for note"
+        },
+        {
+          "id": "typography_kerning_pair_logic_025",
+          "prompt_text": "Tighten caption kerning to 5px"
+        },
+        {
+          "id": "typography_kerning_pair_logic_029",
+          "prompt_text": "Adjust kerning to optical for callout"
+        },
+        {
+          "id": "typography_kerning_pair_logic_030",
+          "prompt_text": "Loosen chart kerning to 12pt"
+        },
+        {
+          "id": "typography_kerning_pair_logic_032",
+          "prompt_text": "Loosen text kerning to 0.5\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_034",
+          "prompt_text": "Tighten image kerning to 10px"
+        },
+        {
+          "id": "typography_kerning_pair_logic_035",
+          "prompt_text": "Loosen image kerning to 8pt"
+        },
+        {
+          "id": "typography_kerning_pair_logic_036",
+          "prompt_text": "Loosen text kerning to 200%"
+        },
+        {
+          "id": "typography_kerning_pair_logic_037",
+          "prompt_text": "Tighten logo kerning to 1.0\""
+        },
+        {
+          "id": "typography_kerning_pair_logic_039",
+          "prompt_text": "Adjust kerning to optical for logo"
+        },
+        {
+          "id": "typography_kerning_pair_logic_040",
+          "prompt_text": "Adjust kerning to optical for text"
+        },
+        {
+          "id": "typography_kerning_pair_logic_041",
+          "prompt_text": "Loosen title kerning to 100%"
+        }
+      ]
+    },
+    {
+      "subcategory": "glyph_substitution_ligatures",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "glyph-substitution-ligatures"
+      ],
+      "entries": [
+        {
+          "id": "typography_glyph_substitution_ligatures_001",
+          "prompt_text": "Use tabular lining for numbers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_002",
+          "prompt_text": "Apply oldstyle figures to body"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_003",
+          "prompt_text": "Enable discretionary ligatures for caption"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_004",
+          "prompt_text": "Enable discretionary ligatures for text"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_005",
+          "prompt_text": "Set stylistic set to 100% for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_006",
+          "prompt_text": "Enable discretionary ligatures for image"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_007",
+          "prompt_text": "Set stylistic set to 200% for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_008",
+          "prompt_text": "Disable standard ligatures in technical text"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_010",
+          "prompt_text": "Set stylistic set to 80% for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_011",
+          "prompt_text": "Set stylistic set to 1.0\" for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_012",
+          "prompt_text": "Enable discretionary ligatures for note"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_015",
+          "prompt_text": "Set stylistic set to 10pt for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_017",
+          "prompt_text": "Enable discretionary ligatures for title"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_019",
+          "prompt_text": "Set stylistic set to 10px for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_021",
+          "prompt_text": "Enable discretionary ligatures for graph"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_026",
+          "prompt_text": "Enable discretionary ligatures for logo"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_028",
+          "prompt_text": "Set stylistic set to 0.75\" for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_030",
+          "prompt_text": "Enable discretionary ligatures for callout"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_037",
+          "prompt_text": "Set stylistic set to 50% for headers"
+        },
+        {
+          "id": "typography_glyph_substitution_ligatures_046",
+          "prompt_text": "Set stylistic set to 12pt for headers"
+        }
+      ]
     }
   ]
 }

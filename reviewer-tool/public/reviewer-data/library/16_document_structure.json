@@ -19,10 +19,6 @@
           "prompt_text": "Add bookmark"
         },
         {
-          "id": "document_structure_section_presence_order_003",
-          "prompt_text": "Add bookmark"
-        },
-        {
           "id": "document_structure_section_presence_order_004",
           "prompt_text": "Add clickable link to URL printed in plain text in {references} section"
         },
@@ -172,6 +168,246 @@
         {
           "id": "document_structure_reference_integrity_009",
           "prompt_text": "Remove {see page 12} reference"
+        }
+      ]
+    },
+    {
+      "subcategory": "linked_section_logic",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "linked-section-logic"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_linked_section_logic_001",
+          "prompt_text": "Unlink {Section 3} header from previous"
+        },
+        {
+          "id": "document_structure_linked_section_logic_002",
+          "prompt_text": "Link {Appendix} footer to {main body}"
+        },
+        {
+          "id": "document_structure_linked_section_logic_003",
+          "prompt_text": "Synchronize {odd and even} section headers"
+        }
+      ]
+    },
+    {
+      "subcategory": "section_break_types_continuous",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "section-break-types-continuous"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_section_break_types_continuous_001",
+          "prompt_text": "Set section start to new page"
+        },
+        {
+          "id": "document_structure_section_break_types_continuous_002",
+          "prompt_text": "Insert continuous break before column change"
+        },
+        {
+          "id": "document_structure_section_break_types_continuous_003",
+          "prompt_text": "Remove section break at page X"
+        },
+        {
+          "id": "document_structure_section_break_types_continuous_005",
+          "prompt_text": "Change page break to continuous break"
+        },
+        {
+          "id": "document_structure_section_break_types_continuous_007",
+          "prompt_text": "Fix odd page break for chapters"
+        }
+      ]
+    },
+    {
+      "subcategory": "column_count_variation",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "column-count-variation"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_column_count_variation_001",
+          "prompt_text": "Balance column heights in Sidebar"
+        },
+        {
+          "id": "document_structure_column_count_variation_002",
+          "prompt_text": "Adjust gutter width between columns to 2.0\""
+        },
+        {
+          "id": "document_structure_column_count_variation_003",
+          "prompt_text": "Adjust gutter width between columns to 50%"
+        },
+        {
+          "id": "document_structure_column_count_variation_004",
+          "prompt_text": "Adjust gutter width between columns to 100%"
+        },
+        {
+          "id": "document_structure_column_count_variation_005",
+          "prompt_text": "Add column line to multi-column layout"
+        },
+        {
+          "id": "document_structure_column_count_variation_006",
+          "prompt_text": "Balance column heights in Section 2"
+        },
+        {
+          "id": "document_structure_column_count_variation_008",
+          "prompt_text": "Adjust gutter width between columns to 5px"
+        },
+        {
+          "id": "document_structure_column_count_variation_009",
+          "prompt_text": "Adjust gutter width between columns to 80%"
+        },
+        {
+          "id": "document_structure_column_count_variation_010",
+          "prompt_text": "Set column count to 5px for Footer"
+        },
+        {
+          "id": "document_structure_column_count_variation_011",
+          "prompt_text": "Change body to Y columns"
+        },
+        {
+          "id": "document_structure_column_count_variation_013",
+          "prompt_text": "Balance column heights in Footer"
+        },
+        {
+          "id": "document_structure_column_count_variation_014",
+          "prompt_text": "Adjust gutter width between columns to 1.25\""
+        },
+        {
+          "id": "document_structure_column_count_variation_016",
+          "prompt_text": "Balance column heights in Introduction"
+        },
+        {
+          "id": "document_structure_column_count_variation_021",
+          "prompt_text": "Set column count to 50% for Chapter 1"
+        },
+        {
+          "id": "document_structure_column_count_variation_023",
+          "prompt_text": "Set column count to 1.25\" for Body"
+        },
+        {
+          "id": "document_structure_column_count_variation_024",
+          "prompt_text": "Balance column heights in Header"
+        },
+        {
+          "id": "document_structure_column_count_variation_029",
+          "prompt_text": "Adjust gutter width between columns to 1.0\""
+        },
+        {
+          "id": "document_structure_column_count_variation_032",
+          "prompt_text": "Adjust gutter width between columns to 0.75\""
+        },
+        {
+          "id": "document_structure_column_count_variation_036",
+          "prompt_text": "Set column count to 0.5\" for Body"
+        },
+        {
+          "id": "document_structure_column_count_variation_039",
+          "prompt_text": "Balance column heights in Body"
+        },
+        {
+          "id": "document_structure_column_count_variation_046",
+          "prompt_text": "Adjust gutter width between columns to 12pt"
+        },
+        {
+          "id": "document_structure_column_count_variation_048",
+          "prompt_text": "Set column count to 1.0\" for Chapter 1"
+        },
+        {
+          "id": "document_structure_column_count_variation_051",
+          "prompt_text": "Set column count to 1.0\" for Conclusion"
+        },
+        {
+          "id": "document_structure_column_count_variation_053",
+          "prompt_text": "Balance column heights in Conclusion"
+        },
+        {
+          "id": "document_structure_column_count_variation_055",
+          "prompt_text": "Adjust gutter width between columns to 10px"
+        }
+      ]
+    },
+    {
+      "subcategory": "page_border_geometry",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "page-border-geometry"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_page_border_geometry_001",
+          "prompt_text": "Add page border to section X"
+        },
+        {
+          "id": "document_structure_page_border_geometry_002",
+          "prompt_text": "Offset border 5px from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_004",
+          "prompt_text": "Offset border 0.25\" from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_009",
+          "prompt_text": "Change border style to dashed"
+        },
+        {
+          "id": "document_structure_page_border_geometry_010",
+          "prompt_text": "Set border thickness to 200%"
+        },
+        {
+          "id": "document_structure_page_border_geometry_011",
+          "prompt_text": "Offset border 50% from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_014",
+          "prompt_text": "Align page border to margin"
+        },
+        {
+          "id": "document_structure_page_border_geometry_016",
+          "prompt_text": "Offset border 10px from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_018",
+          "prompt_text": "Set border thickness to 80%"
+        },
+        {
+          "id": "document_structure_page_border_geometry_020",
+          "prompt_text": "Set border thickness to 15pt"
+        },
+        {
+          "id": "document_structure_page_border_geometry_022",
+          "prompt_text": "Set border thickness to 50%"
+        },
+        {
+          "id": "document_structure_page_border_geometry_026",
+          "prompt_text": "Offset border 10pt from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_030",
+          "prompt_text": "Set border thickness to 0.75\""
+        },
+        {
+          "id": "document_structure_page_border_geometry_035",
+          "prompt_text": "Set border thickness to 12pt"
+        },
+        {
+          "id": "document_structure_page_border_geometry_040",
+          "prompt_text": "Offset border 12pt from edge"
+        },
+        {
+          "id": "document_structure_page_border_geometry_046",
+          "prompt_text": "Offset border 20px from edge"
         }
       ]
     }

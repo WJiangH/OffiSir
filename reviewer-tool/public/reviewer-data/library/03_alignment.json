@@ -125,6 +125,426 @@
           "prompt_text": "Clear all manual {tab stops} in {Findings} section and reset to default {0.5-inch} stops"
         }
       ]
+    },
+    {
+      "subcategory": "hanging_indents",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "hanging-indents"
+      ],
+      "entries": [
+        {
+          "id": "alignment_hanging_indents_001",
+          "prompt_text": "Set hanging indent to {0.5 inches} for {bibliography}"
+        },
+        {
+          "id": "alignment_hanging_indents_002",
+          "prompt_text": "Set hanging indent to {0.25 inches} for {bullet lists}"
+        },
+        {
+          "id": "alignment_hanging_indents_003",
+          "prompt_text": "Align hanging indent to {first tab stop}"
+        }
+      ]
+    },
+    {
+      "subcategory": "vertical_text_box_alignment",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "vertical-text-box-alignment"
+      ],
+      "entries": [
+        {
+          "id": "alignment_vertical_text_box_alignment_001",
+          "prompt_text": "Center caption vertically in callout"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_002",
+          "prompt_text": "Match caption vertical center to title"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_003",
+          "prompt_text": "Align text box to top of column"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_004",
+          "prompt_text": "Set vertical alignment to bottom for callout"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_006",
+          "prompt_text": "Set vertical alignment to bottom for caption"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_007",
+          "prompt_text": "Center note vertically in callout"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_010",
+          "prompt_text": "Center image vertically in graph"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_011",
+          "prompt_text": "Set vertical alignment to bottom for note"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_012",
+          "prompt_text": "Set vertical alignment to bottom for text"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_013",
+          "prompt_text": "Set vertical alignment to bottom for graph"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_015",
+          "prompt_text": "Center logo vertically in logo"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_016",
+          "prompt_text": "Shift table to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_017",
+          "prompt_text": "Set vertical alignment to bottom for title"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_018",
+          "prompt_text": "Match text vertical center to title"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_019",
+          "prompt_text": "Set vertical alignment to bottom for table"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_022",
+          "prompt_text": "Shift text to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_023",
+          "prompt_text": "Match table vertical center to callout"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_024",
+          "prompt_text": "Shift title to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_025",
+          "prompt_text": "Shift graph to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_027",
+          "prompt_text": "Shift logo to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_028",
+          "prompt_text": "Match image vertical center to chart"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_030",
+          "prompt_text": "Match title vertical center to table"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_034",
+          "prompt_text": "Shift caption to center of frame"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_035",
+          "prompt_text": "Center note vertically in chart"
+        },
+        {
+          "id": "alignment_vertical_text_box_alignment_038",
+          "prompt_text": "Match table vertical center to text"
+        }
+      ]
+    },
+    {
+      "subcategory": "baseline_column_alignment",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "baseline-column-alignment"
+      ],
+      "entries": [
+        {
+          "id": "alignment_baseline_column_alignment_001",
+          "prompt_text": "Fix column alignment to 5px grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_002",
+          "prompt_text": "Match left column baseline to right"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_003",
+          "prompt_text": "Snap graph to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_004",
+          "prompt_text": "Align columns to bottom baseline"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_005",
+          "prompt_text": "Snap note to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_007",
+          "prompt_text": "Snap chart to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_008",
+          "prompt_text": "Fix column alignment to 1.25\" grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_010",
+          "prompt_text": "Fix column alignment to 1.0\" grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_011",
+          "prompt_text": "Set baseline shift to 80% for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_012",
+          "prompt_text": "Fix column alignment to 0.5\" grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_013",
+          "prompt_text": "Fix column alignment to 0.25\" grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_015",
+          "prompt_text": "Snap callout to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_016",
+          "prompt_text": "Snap logo to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_021",
+          "prompt_text": "Snap text to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_022",
+          "prompt_text": "Snap title to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_023",
+          "prompt_text": "Fix column alignment to 12pt grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_026",
+          "prompt_text": "Set baseline shift to 8pt for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_027",
+          "prompt_text": "Set baseline shift to 200% for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_031",
+          "prompt_text": "Set baseline shift to 10pt for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_032",
+          "prompt_text": "Fix column alignment to 2.0\" grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_033",
+          "prompt_text": "Fix column alignment to 10px grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_035",
+          "prompt_text": "Snap caption to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_036",
+          "prompt_text": "Set baseline shift to 100% for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_037",
+          "prompt_text": "Snap table to baseline grid"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_044",
+          "prompt_text": "Set baseline shift to 1.25\" for headers"
+        },
+        {
+          "id": "alignment_baseline_column_alignment_048",
+          "prompt_text": "Set baseline shift to 1.0\" for headers"
+        }
+      ]
+    },
+    {
+      "subcategory": "grid_snapping_precision",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "grid-snapping-precision"
+      ],
+      "entries": [
+        {
+          "id": "alignment_grid_snapping_precision_001",
+          "prompt_text": "Align callout to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_002",
+          "prompt_text": "Snap chart to 15pt grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_003",
+          "prompt_text": "Fix offset to 80% grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_004",
+          "prompt_text": "Snap text to 5px grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_005",
+          "prompt_text": "Snap center to grid intersection"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_006",
+          "prompt_text": "Fix offset to 0.75\" grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_007",
+          "prompt_text": "Set grid snap to 8pt for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_008",
+          "prompt_text": "Set grid snap to 200% for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_009",
+          "prompt_text": "Snap graph to 0.5\" grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_010",
+          "prompt_text": "Set grid snap to 2.0\" for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_012",
+          "prompt_text": "Align logo to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_013",
+          "prompt_text": "Fix offset to 50% grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_015",
+          "prompt_text": "Align image to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_016",
+          "prompt_text": "Align graph to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_017",
+          "prompt_text": "Fix offset to 10pt grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_019",
+          "prompt_text": "Align chart to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_021",
+          "prompt_text": "Align table to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_022",
+          "prompt_text": "Snap graph to 1.0\" grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_023",
+          "prompt_text": "Snap chart to 5px grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_024",
+          "prompt_text": "Align title to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_025",
+          "prompt_text": "Set grid snap to 15pt for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_026",
+          "prompt_text": "Set grid snap to 100% for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_027",
+          "prompt_text": "Snap text to 10pt grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_028",
+          "prompt_text": "Fix offset to 1.25\" grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_029",
+          "prompt_text": "Snap callout to 0.75\" grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_030",
+          "prompt_text": "Fix offset to 200% grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_031",
+          "prompt_text": "Set grid snap to 5px for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_032",
+          "prompt_text": "Set grid snap to 1.25\" for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_033",
+          "prompt_text": "Snap note to 5px grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_035",
+          "prompt_text": "Set grid snap to 1.0\" for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_038",
+          "prompt_text": "Fix offset to 1.0\" grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_039",
+          "prompt_text": "Fix offset to 0.5\" grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_040",
+          "prompt_text": "Set grid snap to 0.25\" for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_041",
+          "prompt_text": "Align text to closest grid line"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_045",
+          "prompt_text": "Fix offset to 8pt grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_051",
+          "prompt_text": "Set grid snap to 2.25\" for all elements"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_054",
+          "prompt_text": "Fix offset to 2.25\" grid increment"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_056",
+          "prompt_text": "Snap text to 20pt grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_062",
+          "prompt_text": "Snap graph to 0.8\" grid"
+        },
+        {
+          "id": "alignment_grid_snapping_precision_075",
+          "prompt_text": "Fix offset to 20pt grid increment"
+        }
+      ]
     }
   ]
 }

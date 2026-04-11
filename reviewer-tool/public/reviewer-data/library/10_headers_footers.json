@@ -772,6 +772,260 @@
           "prompt_text": "Move {confidentiality notice} from header to footer"
         }
       ]
+    },
+    {
+      "subcategory": "different_first_page_logic",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "different-first-page-logic"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_different_first_page_logic_001",
+          "prompt_text": "Enable different first page for {cover section}"
+        },
+        {
+          "id": "headers_footers_different_first_page_logic_002",
+          "prompt_text": "Remove header from {first page} only"
+        },
+        {
+          "id": "headers_footers_different_first_page_logic_003",
+          "prompt_text": "Set unique footer for {opening page}"
+        }
+      ]
+    },
+    {
+      "subcategory": "mirror_odd_even_headers",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "mirror-odd-even-headers"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_mirror_odd_even_headers_001",
+          "prompt_text": "Enable mirror margins and headers for {printing}"
+        },
+        {
+          "id": "headers_footers_mirror_odd_even_headers_002",
+          "prompt_text": "Set {odd page} header to {right} and {even page} to {left}"
+        },
+        {
+          "id": "headers_footers_mirror_odd_even_headers_003",
+          "prompt_text": "Mirror footer layout for {facing pages}"
+        }
+      ]
+    },
+    {
+      "subcategory": "section_specific_headers",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "section-specific-headers"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_section_specific_headers_001",
+          "prompt_text": "Set header text to section title"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_002",
+          "prompt_text": "Remove title from first page of Conclusion"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_004",
+          "prompt_text": "Remove callout from first page of Introduction"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_005",
+          "prompt_text": "Link section header to previous"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_006",
+          "prompt_text": "Remove text from first page of Chapter 1"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_007",
+          "prompt_text": "Add note to section X only"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_008",
+          "prompt_text": "Align section header to outside"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_011",
+          "prompt_text": "Remove title from first page of Sidebar"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_018",
+          "prompt_text": "Add table to section X only"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_020",
+          "prompt_text": "Remove chart from first page of Section 2"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_021",
+          "prompt_text": "Add title to section X only"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_028",
+          "prompt_text": "Add callout to section X only"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_031",
+          "prompt_text": "Remove note from first page of Body"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_034",
+          "prompt_text": "Remove table from first page of Chapter 1"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_039",
+          "prompt_text": "Add chart to section X only"
+        },
+        {
+          "id": "headers_footers_section_specific_headers_042",
+          "prompt_text": "Remove callout from first page of Section 2"
+        }
+      ]
+    },
+    {
+      "subcategory": "chapter_number_fields",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "chapter-number-fields"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_chapter_number_fields_001",
+          "prompt_text": "Restart chapter count at section X"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_003",
+          "prompt_text": "Align chapter field to right"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_006",
+          "prompt_text": "Format chapter number as Roman Numerals"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_008",
+          "prompt_text": "Set chapter prefix to Chapter "
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_009",
+          "prompt_text": "Insert chapter number into logo"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_017",
+          "prompt_text": "Insert chapter number into image"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_018",
+          "prompt_text": "Insert chapter number into graph"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_025",
+          "prompt_text": "Insert chapter number into chart"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_036",
+          "prompt_text": "Insert chapter number into text"
+        },
+        {
+          "id": "headers_footers_chapter_number_fields_040",
+          "prompt_text": "Insert chapter number into title"
+        }
+      ]
+    },
+    {
+      "subcategory": "page_x_of_y_logic",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "page-x-of-y-logic"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_page_x_of_y_logic_001",
+          "prompt_text": "Add Page X of Y to footer"
+        },
+        {
+          "id": "headers_footers_page_x_of_y_logic_002",
+          "prompt_text": "Set total pages to exclude appendix"
+        },
+        {
+          "id": "headers_footers_page_x_of_y_logic_006",
+          "prompt_text": "Align page count to center"
+        },
+        {
+          "id": "headers_footers_page_x_of_y_logic_008",
+          "prompt_text": "Reset page count at chapter X"
+        },
+        {
+          "id": "headers_footers_page_x_of_y_logic_011",
+          "prompt_text": "Format page x of y as X / Y"
+        }
+      ]
+    },
+    {
+      "subcategory": "draft_watermark_layering",
+      "priority": "headers_footers",
+      "doc_type": "both",
+      "tags": [
+        "headers_footers",
+        "draft-watermark-layering"
+      ],
+      "entries": [
+        {
+          "id": "headers_footers_draft_watermark_layering_001",
+          "prompt_text": "Remove watermark from final pages"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_002",
+          "prompt_text": "Rotate watermark to 45 degrees"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_004",
+          "prompt_text": "Set watermark opacity to 0.75\"%"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_006",
+          "prompt_text": "Set watermark opacity to 200%%"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_010",
+          "prompt_text": "Add DRAFT watermark to background"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_013",
+          "prompt_text": "Set watermark opacity to 80%%"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_022",
+          "prompt_text": "Place watermark behind text"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_029",
+          "prompt_text": "Set watermark opacity to 0.5\"%"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_037",
+          "prompt_text": "Set watermark opacity to 100%%"
+        },
+        {
+          "id": "headers_footers_draft_watermark_layering_041",
+          "prompt_text": "Set watermark opacity to 10pt%"
+        }
+      ]
     }
   ]
 }

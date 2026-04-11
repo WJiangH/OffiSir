@@ -15,6 +15,114 @@
           "prompt_text": "Turn off track changes before making the final round of edits"
         }
       ]
+    },
+    {
+      "subcategory": "style_inheritance_cleanup",
+      "priority": "docx_specific",
+      "doc_type": "both",
+      "tags": [
+        "docx_specific",
+        "style-inheritance-cleanup"
+      ],
+      "entries": [
+        {
+          "id": "docx_specific_style_inheritance_cleanup_001",
+          "prompt_text": "Remove manual overrides and revert to {style defaults}"
+        },
+        {
+          "id": "docx_specific_style_inheritance_cleanup_002",
+          "prompt_text": "Clean up {style hierarchy} in {section headers}"
+        },
+        {
+          "id": "docx_specific_style_inheritance_cleanup_003",
+          "prompt_text": "Link {Heading 2} style to {Heading 1}"
+        }
+      ]
+    },
+    {
+      "subcategory": "template_link_cleanup",
+      "priority": "docx_specific",
+      "doc_type": "both",
+      "tags": [
+        "docx_specific",
+        "template-link-cleanup"
+      ],
+      "entries": [
+        {
+          "id": "docx_specific_template_link_cleanup_001",
+          "prompt_text": "Remove external template reference and embed styles"
+        },
+        {
+          "id": "docx_specific_template_link_cleanup_002",
+          "prompt_text": "Update template path to {local directory}"
+        },
+        {
+          "id": "docx_specific_template_link_cleanup_003",
+          "prompt_text": "Detach from {remote template}"
+        }
+      ]
+    },
+    {
+      "subcategory": "style_set_inheritance",
+      "priority": "docx_specific",
+      "doc_type": "both",
+      "tags": [
+        "docx_specific",
+        "style-set-inheritance"
+      ],
+      "entries": [
+        {
+          "id": "docx_specific_style_set_inheritance_001",
+          "prompt_text": "Link heading styles to Style Set"
+        },
+        {
+          "id": "docx_specific_style_set_inheritance_002",
+          "prompt_text": "Import Style Set from file X"
+        },
+        {
+          "id": "docx_specific_style_set_inheritance_005",
+          "prompt_text": "Update styles to match template"
+        },
+        {
+          "id": "docx_specific_style_set_inheritance_009",
+          "prompt_text": "Apply Style Set X to document"
+        },
+        {
+          "id": "docx_specific_style_set_inheritance_014",
+          "prompt_text": "Remove style overrides from body"
+        }
+      ]
+    },
+    {
+      "subcategory": "section_break_types_continuous",
+      "priority": "docx_specific",
+      "doc_type": "both",
+      "tags": [
+        "docx_specific",
+        "section-break-types-continuous"
+      ],
+      "entries": [
+        {
+          "id": "docx_specific_section_break_types_continuous_001",
+          "prompt_text": "Remove section break at page X"
+        },
+        {
+          "id": "docx_specific_section_break_types_continuous_002",
+          "prompt_text": "Fix odd page break for chapters"
+        },
+        {
+          "id": "docx_specific_section_break_types_continuous_004",
+          "prompt_text": "Set section start to new page"
+        },
+        {
+          "id": "docx_specific_section_break_types_continuous_007",
+          "prompt_text": "Insert continuous break before column change"
+        },
+        {
+          "id": "docx_specific_section_break_types_continuous_010",
+          "prompt_text": "Change page break to continuous break"
+        }
+      ]
     }
   ]
 }

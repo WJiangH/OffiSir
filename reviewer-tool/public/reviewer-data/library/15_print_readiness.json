@@ -27,6 +27,431 @@
           "prompt_text": "Remove all markup"
         }
       ]
+    },
+    {
+      "subcategory": "preflight_fixups_pdf_ua",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "preflight-fixups-pdf-ua"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_preflight_fixups_pdf_ua_001",
+          "prompt_text": "Set PDF/UA identifier for {accessibility compliance}"
+        },
+        {
+          "id": "print_readiness_preflight_fixups_pdf_ua_002",
+          "prompt_text": "Run preflight fixup for {syntax errors}"
+        },
+        {
+          "id": "print_readiness_preflight_fixups_pdf_ua_003",
+          "prompt_text": "Validate {metadata} against {PDF/UA-1}"
+        }
+      ]
+    },
+    {
+      "subcategory": "color_space_conversion",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "color-space-conversion"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_color_space_conversion_001",
+          "prompt_text": "Convert color space to {CMYK} for {printing}"
+        },
+        {
+          "id": "print_readiness_color_space_conversion_002",
+          "prompt_text": "Convert {RGB} images to {Grayscale}"
+        },
+        {
+          "id": "print_readiness_color_space_conversion_003",
+          "prompt_text": "Apply {ICC profile} for {color accuracy}"
+        }
+      ]
+    },
+    {
+      "subcategory": "transparency_flattening",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "transparency-flattening"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_transparency_flattening_001",
+          "prompt_text": "Flatten transparency for {high-res printing}"
+        },
+        {
+          "id": "print_readiness_transparency_flattening_002",
+          "prompt_text": "Set transparency flattener to {high resolution}"
+        },
+        {
+          "id": "print_readiness_transparency_flattening_003",
+          "prompt_text": "Resolve {overprint} issues in {overlays}"
+        }
+      ]
+    },
+    {
+      "subcategory": "artifact_tagging",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "artifact-tagging"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_artifact_tagging_001",
+          "prompt_text": "Tag {decorative images} as {artifacts}"
+        },
+        {
+          "id": "print_readiness_artifact_tagging_002",
+          "prompt_text": "Remove {background elements} from {tag tree}"
+        },
+        {
+          "id": "print_readiness_artifact_tagging_003",
+          "prompt_text": "Mark {redundant text} as {artifact}"
+        }
+      ]
+    },
+    {
+      "subcategory": "reading_order_logic",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "reading-order-logic"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_reading_order_logic_001",
+          "prompt_text": "Fix reading order for {multi-column layout}"
+        },
+        {
+          "id": "print_readiness_reading_order_logic_002",
+          "prompt_text": "Set tab order to {structure tags}"
+        },
+        {
+          "id": "print_readiness_reading_order_logic_003",
+          "prompt_text": "Verify {logical reading flow} in {sidebar}"
+        }
+      ]
+    },
+    {
+      "subcategory": "safe_zone_edge_printing",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "safe-zone-edge-printing"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_safe_zone_edge_printing_001",
+          "prompt_text": "Check 10pt clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_002",
+          "prompt_text": "Ensure 50% margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_003",
+          "prompt_text": "Move caption to 15pt from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_004",
+          "prompt_text": "Set bleed to 10pt for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_005",
+          "prompt_text": "Check 0.75\" clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_006",
+          "prompt_text": "Set bleed to 0.75\" for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_007",
+          "prompt_text": "Set bleed to 100% for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_009",
+          "prompt_text": "Check 8pt clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_010",
+          "prompt_text": "Set bleed to 1.25\" for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_011",
+          "prompt_text": "Ensure 2.0\" margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_012",
+          "prompt_text": "Set bleed to 0.5\" for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_013",
+          "prompt_text": "Ensure 10pt margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_014",
+          "prompt_text": "Ensure 15pt margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_015",
+          "prompt_text": "Keep table 50% inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_017",
+          "prompt_text": "Set bleed to 12pt for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_018",
+          "prompt_text": "Ensure 5px margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_019",
+          "prompt_text": "Set bleed to 8pt for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_020",
+          "prompt_text": "Ensure 80% margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_021",
+          "prompt_text": "Ensure 200% margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_022",
+          "prompt_text": "Set bleed to 80% for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_023",
+          "prompt_text": "Move caption to 100% from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_024",
+          "prompt_text": "Set bleed to 10px for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_025",
+          "prompt_text": "Check 200% clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_027",
+          "prompt_text": "Keep title 100% inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_028",
+          "prompt_text": "Set bleed to 50% for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_029",
+          "prompt_text": "Move table to 8pt from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_031",
+          "prompt_text": "Keep note 200% inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_032",
+          "prompt_text": "Set bleed to 15pt for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_033",
+          "prompt_text": "Check 80% clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_034",
+          "prompt_text": "Keep chart 12pt inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_035",
+          "prompt_text": "Move caption to 1.0\" from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_038",
+          "prompt_text": "Move graph to 15pt from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_039",
+          "prompt_text": "Move note to 100% from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_040",
+          "prompt_text": "Set bleed to 5px for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_041",
+          "prompt_text": "Check 1.0\" clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_042",
+          "prompt_text": "Move graph to 10pt from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_043",
+          "prompt_text": "Keep chart 8pt inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_044",
+          "prompt_text": "Check 15pt clearance from edge"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_045",
+          "prompt_text": "Ensure 0.25\" margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_047",
+          "prompt_text": "Move text to 15pt from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_049",
+          "prompt_text": "Set bleed to 0.25\" for background"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_050",
+          "prompt_text": "Keep callout 10pt inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_052",
+          "prompt_text": "Keep graph 8pt inside safe zone"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_053",
+          "prompt_text": "Ensure 100% margin for trim safety"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_054",
+          "prompt_text": "Move logo to 200% from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_055",
+          "prompt_text": "Move image to 0.25\" from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_056",
+          "prompt_text": "Move image to 100% from trim"
+        },
+        {
+          "id": "print_readiness_safe_zone_edge_printing_058",
+          "prompt_text": "Check 0.5\" clearance from edge"
+        }
+      ]
+    },
+    {
+      "subcategory": "cmyk_process_ink_limits",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "cmyk-process-ink-limits"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_001",
+          "prompt_text": "Reduce cyan in skin tones to 0.5\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_002",
+          "prompt_text": "Set black channel to rich black"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_003",
+          "prompt_text": "Reduce cyan in skin tones to 5px%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_004",
+          "prompt_text": "Reduce cyan in skin tones to 1.25\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_006",
+          "prompt_text": "Adjust CMYK for newsprint"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_009",
+          "prompt_text": "Fix out of gamut colors for CMYK"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_016",
+          "prompt_text": "Limit total ink to 10px%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_017",
+          "prompt_text": "Reduce cyan in skin tones to 10px%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_018",
+          "prompt_text": "Limit total ink to 12pt%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_021",
+          "prompt_text": "Limit total ink to 10pt%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_022",
+          "prompt_text": "Reduce cyan in skin tones to 100%%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_023",
+          "prompt_text": "Limit total ink to 8pt%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_030",
+          "prompt_text": "Limit total ink to 1.0\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_031",
+          "prompt_text": "Limit total ink to 0.75\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_040",
+          "prompt_text": "Reduce cyan in skin tones to 10pt%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_043",
+          "prompt_text": "Limit total ink to 5px%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_050",
+          "prompt_text": "Limit total ink to 80%%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_052",
+          "prompt_text": "Reduce cyan in skin tones to 2.0\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_056",
+          "prompt_text": "Limit total ink to 2.2\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_058",
+          "prompt_text": "Limit total ink to 20pt%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_060",
+          "prompt_text": "Limit total ink to 20px%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_063",
+          "prompt_text": "Reduce cyan in skin tones to 2.25\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_095",
+          "prompt_text": "Reduce cyan in skin tones to 0.8\"%"
+        },
+        {
+          "id": "print_readiness_cmyk_process_ink_limits_118",
+          "prompt_text": "Limit total ink to 22pt%"
+        }
+      ]
     }
   ]
 }

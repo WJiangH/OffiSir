@@ -50,6 +50,100 @@
           "prompt_text": "Apply the {standard title and content layout} to {new slide}"
         }
       ]
+    },
+    {
+      "subcategory": "master_slide_inheritance",
+      "priority": "pptx_specific",
+      "doc_type": "both",
+      "tags": [
+        "pptx_specific",
+        "master-slide-inheritance"
+      ],
+      "entries": [
+        {
+          "id": "pptx_specific_master_slide_inheritance_001",
+          "prompt_text": "Override master font on title slide"
+        },
+        {
+          "id": "pptx_specific_master_slide_inheritance_002",
+          "prompt_text": "Check placeholder inheritance from master"
+        },
+        {
+          "id": "pptx_specific_master_slide_inheritance_003",
+          "prompt_text": "Reset slide layout to master"
+        },
+        {
+          "id": "pptx_specific_master_slide_inheritance_011",
+          "prompt_text": "Link slide to master layout X"
+        },
+        {
+          "id": "pptx_specific_master_slide_inheritance_013",
+          "prompt_text": "Apply master background to all slides"
+        }
+      ]
+    },
+    {
+      "subcategory": "z_order_layering",
+      "priority": "pptx_specific",
+      "doc_type": "both",
+      "tags": [
+        "pptx_specific",
+        "z-order-layering"
+      ],
+      "entries": [
+        {
+          "id": "pptx_specific_z_order_layering_001",
+          "prompt_text": "Move note to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_002",
+          "prompt_text": "Bring text box forward one layer"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_003",
+          "prompt_text": "Send logo to back"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_005",
+          "prompt_text": "Move table to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_006",
+          "prompt_text": "Move graph to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_007",
+          "prompt_text": "Align layers by z-order"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_011",
+          "prompt_text": "Send background backward one layer"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_013",
+          "prompt_text": "Move caption to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_015",
+          "prompt_text": "Send title to back"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_031",
+          "prompt_text": "Move title to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_039",
+          "prompt_text": "Move callout to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_042",
+          "prompt_text": "Move logo to front"
+        },
+        {
+          "id": "pptx_specific_z_order_layering_047",
+          "prompt_text": "Move text to front"
+        }
+      ]
     }
   ]
 }

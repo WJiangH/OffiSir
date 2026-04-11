@@ -294,6 +294,168 @@
         {
           "id": "tables_data_unit_label_placement_001",
           "prompt_text": "Remove italic from {header row} in {summary table}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_002",
+          "prompt_text": "Set units to {thousands} in {header row}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_003",
+          "prompt_text": "Move {currency symbol} to {header cell}"
+        }
+      ]
+    },
+    {
+      "subcategory": "table_of_figures_logic",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "table-of-figures-logic"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_table_of_figures_logic_001",
+          "prompt_text": "Generate table of figures at page X"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_002",
+          "prompt_text": "Include appendix charts in figure list"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_004",
+          "prompt_text": "Set leader dots to 10pt for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_005",
+          "prompt_text": "Set leader dots to 100% for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_008",
+          "prompt_text": "Align figure titles to left in list"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_010",
+          "prompt_text": "Update figure numbering to sequential"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_012",
+          "prompt_text": "Set leader dots to 12pt for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_016",
+          "prompt_text": "Set leader dots to 0.75\" for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_024",
+          "prompt_text": "Set leader dots to 0.5\" for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_028",
+          "prompt_text": "Set leader dots to 1.25\" for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_031",
+          "prompt_text": "Set leader dots to 1.0\" for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_032",
+          "prompt_text": "Set leader dots to 15pt for figures"
+        },
+        {
+          "id": "tables_data_table_of_figures_logic_035",
+          "prompt_text": "Set leader dots to 80% for figures"
+        }
+      ]
+    },
+    {
+      "subcategory": "nested_table_hierarchy",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "nested-table-hierarchy"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_nested_table_hierarchy_001",
+          "prompt_text": "Set nested border to 12pt thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_002",
+          "prompt_text": "Insert nested table into cell X"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_004",
+          "prompt_text": "Match inner table width to 50%% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_005",
+          "prompt_text": "Align inner table to center of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_006",
+          "prompt_text": "Set nested border to 10px thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_008",
+          "prompt_text": "Set nested border to 0.25\" thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_010",
+          "prompt_text": "Match inner table width to 8pt% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_011",
+          "prompt_text": "Remove padding between nested tables"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_012",
+          "prompt_text": "Set nested border to 1.0\" thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_016",
+          "prompt_text": "Match inner table width to 2.0\"% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_018",
+          "prompt_text": "Set nested border to 0.75\" thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_028",
+          "prompt_text": "Match inner table width to 10pt% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_034",
+          "prompt_text": "Set nested border to 2.0\" thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_035",
+          "prompt_text": "Match inner table width to 80%% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_037",
+          "prompt_text": "Match inner table width to 10px% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_039",
+          "prompt_text": "Set nested border to 15pt thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_041",
+          "prompt_text": "Match inner table width to 0.5\"% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_055",
+          "prompt_text": "Match inner table width to 0.75\"% of parent"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_058",
+          "prompt_text": "Set nested border to 8pt thickness"
+        },
+        {
+          "id": "tables_data_nested_table_hierarchy_074",
+          "prompt_text": "Match inner table width to 20pt% of parent"
         }
       ]
     }
