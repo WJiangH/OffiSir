@@ -509,11 +509,7 @@
         },
         {
           "id": "spacing_baseline_column_alignment_006",
-          "prompt_text": "Set baseline shift to 15pt for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_008",
-          "prompt_text": "Set baseline shift to 5px for headers"
+          "prompt_text": "Set baseline shift to {15pt} for headers"
         },
         {
           "id": "spacing_baseline_column_alignment_009",
@@ -533,15 +529,11 @@
         },
         {
           "id": "spacing_baseline_column_alignment_017",
-          "prompt_text": "Fix column alignment to 10px grid"
+          "prompt_text": "Fix column alignment to {10px} grid"
         },
         {
           "id": "spacing_baseline_column_alignment_020",
           "prompt_text": "Set baseline shift to 100% for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_023",
-          "prompt_text": "Set baseline shift to 10pt for headers"
         },
         {
           "id": "spacing_baseline_column_alignment_024",
@@ -560,24 +552,12 @@
           "prompt_text": "Set baseline shift to 0.25\" for headers"
         },
         {
-          "id": "spacing_baseline_column_alignment_034",
-          "prompt_text": "Set baseline shift to 10px for headers"
-        },
-        {
           "id": "spacing_baseline_column_alignment_039",
           "prompt_text": "Snap callout to baseline grid"
         },
         {
           "id": "spacing_baseline_column_alignment_040",
           "prompt_text": "Snap title to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_041",
-          "prompt_text": "Fix column alignment to 12pt grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_044",
-          "prompt_text": "Fix column alignment to 8pt grid"
         },
         {
           "id": "spacing_baseline_column_alignment_046",
@@ -632,15 +612,11 @@
         },
         {
           "id": "spacing_grid_snapping_precision_011",
-          "prompt_text": "Fix offset to 10px grid increment"
+          "prompt_text": "Fix offset to {10px} grid increment"
         },
         {
           "id": "spacing_grid_snapping_precision_012",
           "prompt_text": "Snap title to 2.0\" grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_013",
-          "prompt_text": "Fix offset to 10pt grid increment"
         },
         {
           "id": "spacing_grid_snapping_precision_014",
@@ -648,7 +624,7 @@
         },
         {
           "id": "spacing_grid_snapping_precision_017",
-          "prompt_text": "Set grid snap to 10px for all elements"
+          "prompt_text": "Set grid snap to {10px} for all elements"
         },
         {
           "id": "spacing_grid_snapping_precision_018",
@@ -676,7 +652,7 @@
         },
         {
           "id": "spacing_grid_snapping_precision_027",
-          "prompt_text": "Snap image to 12pt grid"
+          "prompt_text": "Snap image to {12pt} grid"
         },
         {
           "id": "spacing_grid_snapping_precision_028",
@@ -688,11 +664,7 @@
         },
         {
           "id": "spacing_grid_snapping_precision_031",
-          "prompt_text": "Snap logo to 5px grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_032",
-          "prompt_text": "Set grid snap to 8pt for all elements"
+          "prompt_text": "Snap logo to {5px} grid"
         },
         {
           "id": "spacing_grid_snapping_precision_033",
@@ -701,14 +673,6 @@
         {
           "id": "spacing_grid_snapping_precision_035",
           "prompt_text": "Snap logo to 200% grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_036",
-          "prompt_text": "Fix offset to 12pt grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_037",
-          "prompt_text": "Set grid snap to 15pt for all elements"
         },
         {
           "id": "spacing_grid_snapping_precision_038",
@@ -720,7 +684,7 @@
         },
         {
           "id": "spacing_grid_snapping_precision_042",
-          "prompt_text": "Snap caption to 5px grid"
+          "prompt_text": "Snap caption to {5px} grid"
         },
         {
           "id": "spacing_grid_snapping_precision_043",
@@ -743,16 +707,8 @@
           "prompt_text": "Fix offset to 200% grid increment"
         },
         {
-          "id": "spacing_grid_snapping_precision_053",
-          "prompt_text": "Fix offset to 5px grid increment"
-        },
-        {
           "id": "spacing_grid_snapping_precision_055",
           "prompt_text": "Fix offset to 2.0\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_057",
-          "prompt_text": "Snap caption to 8pt grid"
         },
         {
           "id": "spacing_grid_snapping_precision_058",

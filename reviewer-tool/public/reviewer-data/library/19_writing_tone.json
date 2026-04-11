@@ -13,14 +13,6 @@
         {
           "id": "writing_tone_ai_ism_purging_001",
           "prompt_text": "Replace {cutting-edge} with {new} in {product description}"
-        },
-        {
-          "id": "writing_tone_ai_ism_purging_002",
-          "prompt_text": "Replace {innovative} with {new} in {sidebar callout}"
-        },
-        {
-          "id": "writing_tone_ai_ism_purging_003",
-          "prompt_text": "Replace {leverage} with {use} in {second paragraph}"
         }
       ]
     },
@@ -38,10 +30,6 @@
           "prompt_text": "Delete {At end of the day} from {closing sentence}"
         },
         {
-          "id": "writing_tone_filler_phrase_deletion_002",
-          "prompt_text": "Delete {Needless to say} from {risk assessment paragraph}"
-        },
-        {
           "id": "writing_tone_filler_phrase_deletion_003",
           "prompt_text": "Add missing {conclusion} section at end of the report"
         },
@@ -50,20 +38,8 @@
           "prompt_text": "Change {I believe} in {conclusion} to {the evidence indicates}"
         },
         {
-          "id": "writing_tone_filler_phrase_deletion_005",
-          "prompt_text": "Change {will indicate} in {conclusion} to {indicates}"
-        },
-        {
           "id": "writing_tone_filler_phrase_deletion_006",
           "prompt_text": "Combine two short conclusion paragraphs into one"
-        },
-        {
-          "id": "writing_tone_filler_phrase_deletion_007",
-          "prompt_text": "Delete {It goes without saying that} from {conclusion}"
-        },
-        {
-          "id": "writing_tone_filler_phrase_deletion_008",
-          "prompt_text": "Delete {It is important to note that} from {paragraph 4}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_009",
@@ -89,16 +65,8 @@
           "prompt_text": "Replace {doesn't} in {closing paragraph} with {does not}"
         },
         {
-          "id": "writing_tone_formality_active_voice_003",
-          "prompt_text": "Replace {won't} in {risk section} with {will not}"
-        },
-        {
           "id": "writing_tone_formality_active_voice_004",
           "prompt_text": "Change casual sentence in {third paragraph} to a formal business sentence"
-        },
-        {
-          "id": "writing_tone_formality_active_voice_005",
-          "prompt_text": "Change {my analysis} in {sidebar} to {the analysis}"
         },
         {
           "id": "writing_tone_formality_active_voice_006",
@@ -219,10 +187,6 @@
           "prompt_text": "Add missing apostrophe to {clients} in phrase {clients needs} in {paragraph 3}"
         },
         {
-          "id": "writing_tone_typos_grammar_017",
-          "prompt_text": "Add missing apostrophe to {managers} in phrase {managers report} in {closing paragraph}"
-        },
-        {
           "id": "writing_tone_typos_grammar_018",
           "prompt_text": "Add missing category label to {last bar}"
         },
@@ -335,80 +299,12 @@
           "prompt_text": "Change {0.18} in {callout box} to {18%}"
         },
         {
-          "id": "writing_tone_typos_grammar_046",
-          "prompt_text": "Change {data are} in {methodology section} to {data is}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_047",
-          "prompt_text": "Change {definately} in {paragraph 5} to {definitely}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_048",
-          "prompt_text": "Change {each of the items were} in {findings} to {each of the items was}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_049",
-          "prompt_text": "Change {has been running} in {active-status section} to {is running}"
-        },
-        {
           "id": "writing_tone_typos_grammar_050",
           "prompt_text": "Change {is implementing} in past-tense recap to {implemented}"
         },
         {
-          "id": "writing_tone_typos_grammar_051",
-          "prompt_text": "Change {it's} in {data note} to {its}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_052",
-          "prompt_text": "Change {its} in {opening line} to {it's}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_053",
-          "prompt_text": "Change {launched} in {forward-looking section} to {will launch}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_054",
-          "prompt_text": "Change {liason} in {contact section} to {liaison}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_055",
-          "prompt_text": "Change {management have} in {paragraph 4} to {management has}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_056",
-          "prompt_text": "Change {neccessary} in {closing paragraph} to {necessary}"
-        },
-        {
           "id": "writing_tone_typos_grammar_057",
           "prompt_text": "Change {neither option are} in recommendation to {neither option is}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_058",
-          "prompt_text": "Change {recieve} in {paragraph 1} to {receive}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_059",
-          "prompt_text": "Change {reported} in {paragraph 2} to {reports}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_060",
-          "prompt_text": "Change {seperate} in {sidebar note} to {separate}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_061",
-          "prompt_text": "Change {shouldn't} in {footnote 2} to {should not}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_062",
-          "prompt_text": "Change {the results shows} in {paragraph 3} to {the results show}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_063",
-          "prompt_text": "Change {who's} in {paragraph 3} to {whose}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_064",
-          "prompt_text": "Change {will review} in {findings section} to {reviewed}"
         },
         {
           "id": "writing_tone_typos_grammar_065",
@@ -513,10 +409,6 @@
         {
           "id": "writing_tone_typos_grammar_090",
           "prompt_text": "Make {pull quote} text {16pt}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_091",
-          "prompt_text": "Make {report title} {24pt}"
         },
         {
           "id": "writing_tone_typos_grammar_092",
@@ -803,80 +695,12 @@
           "prompt_text": "Replace {Journal of Placeholder Studies} in {footnote 2} with {Harvard Business Review}"
         },
         {
-          "id": "writing_tone_typos_grammar_163",
-          "prompt_text": "Replace {XX percent} in {callout box} with {18 percent}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_164",
-          "prompt_text": "Replace {YYYY} in {copyright line} with {2025}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_165",
-          "prompt_text": "Replace {bandwidth} in {paragraph 5} with {capacity}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_166",
-          "prompt_text": "Replace {boil the ocean} in {scope section} with {take on too much}"
-        },
-        {
           "id": "writing_tone_typos_grammar_167",
           "prompt_text": "Replace {catalyze} with {start} in {opening paragraph}"
         },
         {
-          "id": "writing_tone_typos_grammar_168",
-          "prompt_text": "Replace {circle back} in {paragraph 2} with {revisit}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_169",
-          "prompt_text": "Replace {deep dive} in {methods section} with {detailed review}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_170",
-          "prompt_text": "Replace {gonna} in {action item} with {going to}"
-        },
-        {
           "id": "writing_tone_typos_grammar_171",
           "prompt_text": "Replace {low-hanging fruit} in recommendations with {quick wins}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_172",
-          "prompt_text": "Replace {net-net} in {closing line} with {bottom line}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_173",
-          "prompt_text": "Replace {operationalize} with {put into practice} in {methods section}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_174",
-          "prompt_text": "Replace {optimize} with {improve} in {recommendation section}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_175",
-          "prompt_text": "Replace {our team thinks} in {paragraph 5} with {the data suggests}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_176",
-          "prompt_text": "Replace {paradigm shift} in {strategy section} with {major change}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_177",
-          "prompt_text": "Replace {seamless} with {smooth} in {integration paragraph}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_178",
-          "prompt_text": "Replace {spearhead} with {lead} in {project timeline}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_179",
-          "prompt_text": "Replace {thought leadership} in {sidebar} with {expert guidance}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_180",
-          "prompt_text": "Replace {transformative} with {major} in {impact section}"
-        },
-        {
-          "id": "writing_tone_typos_grammar_181",
-          "prompt_text": "Replace {you can see} in {paragraph 3} with {the report shows}"
         },
         {
           "id": "writing_tone_typos_grammar_182",

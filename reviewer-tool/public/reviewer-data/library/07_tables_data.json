@@ -27,10 +27,6 @@
           "prompt_text": "Add {shaded fill} to {totals row}"
         },
         {
-          "id": "tables_data_decimal_place_consistency_005",
-          "prompt_text": "Add dollar sign to every value in {budget table}"
-        },
-        {
           "id": "tables_data_decimal_place_consistency_006",
           "prompt_text": "Add dollar sign to {total row} in {cost breakdown}"
         },
@@ -69,14 +65,6 @@
         {
           "id": "tables_data_decimal_place_consistency_015",
           "prompt_text": "Change {date column} to {MM/DD/YYYY}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_016",
-          "prompt_text": "Change {score column} to {one decimal}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_017",
-          "prompt_text": "Change {summary callout} to {two decimal places}"
         },
         {
           "id": "tables_data_decimal_place_consistency_018",
@@ -186,10 +174,6 @@
           "prompt_text": "Change grand total in {footer callout} to {$3.8M}"
         },
         {
-          "id": "tables_data_currency_symbol_consistency_002",
-          "prompt_text": "Change grand total in {Table 2} to {$3.8M}"
-        },
-        {
           "id": "tables_data_currency_symbol_consistency_003",
           "prompt_text": "Change total in {last row} to {$4.1M}"
         },
@@ -204,14 +188,6 @@
         {
           "id": "tables_data_currency_symbol_consistency_006",
           "prompt_text": "Change {currency values} in {column D} to {dollar symbols}"
-        },
-        {
-          "id": "tables_data_currency_symbol_consistency_007",
-          "prompt_text": "Change {revenue figure} in {executive summary} to {$11.4M}"
-        },
-        {
-          "id": "tables_data_currency_symbol_consistency_008",
-          "prompt_text": "Change {revenue total} in {summary section} to {$4.8M}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_009",
@@ -324,7 +300,7 @@
         },
         {
           "id": "tables_data_table_of_figures_logic_004",
-          "prompt_text": "Set leader dots to 10pt for figures"
+          "prompt_text": "Set leader dots to {10pt} for figures"
         },
         {
           "id": "tables_data_table_of_figures_logic_005",
@@ -337,10 +313,6 @@
         {
           "id": "tables_data_table_of_figures_logic_010",
           "prompt_text": "Update figure numbering to sequential"
-        },
-        {
-          "id": "tables_data_table_of_figures_logic_012",
-          "prompt_text": "Set leader dots to 12pt for figures"
         },
         {
           "id": "tables_data_table_of_figures_logic_016",
@@ -359,10 +331,6 @@
           "prompt_text": "Set leader dots to 1.0\" for figures"
         },
         {
-          "id": "tables_data_table_of_figures_logic_032",
-          "prompt_text": "Set leader dots to 15pt for figures"
-        },
-        {
           "id": "tables_data_table_of_figures_logic_035",
           "prompt_text": "Set leader dots to 80% for figures"
         }
@@ -379,7 +347,7 @@
       "entries": [
         {
           "id": "tables_data_nested_table_hierarchy_001",
-          "prompt_text": "Set nested border to 12pt thickness"
+          "prompt_text": "Set nested border to {12pt} thickness"
         },
         {
           "id": "tables_data_nested_table_hierarchy_002",
@@ -394,16 +362,12 @@
           "prompt_text": "Align inner table to center of parent"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_006",
-          "prompt_text": "Set nested border to 10px thickness"
-        },
-        {
           "id": "tables_data_nested_table_hierarchy_008",
           "prompt_text": "Set nested border to 0.25\" thickness"
         },
         {
           "id": "tables_data_nested_table_hierarchy_010",
-          "prompt_text": "Match inner table width to 8pt% of parent"
+          "prompt_text": "Match inner table width to {8pt}% of parent"
         },
         {
           "id": "tables_data_nested_table_hierarchy_011",
@@ -422,10 +386,6 @@
           "prompt_text": "Set nested border to 0.75\" thickness"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_028",
-          "prompt_text": "Match inner table width to 10pt% of parent"
-        },
-        {
           "id": "tables_data_nested_table_hierarchy_034",
           "prompt_text": "Set nested border to 2.0\" thickness"
         },
@@ -434,28 +394,12 @@
           "prompt_text": "Match inner table width to 80%% of parent"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_037",
-          "prompt_text": "Match inner table width to 10px% of parent"
-        },
-        {
-          "id": "tables_data_nested_table_hierarchy_039",
-          "prompt_text": "Set nested border to 15pt thickness"
-        },
-        {
           "id": "tables_data_nested_table_hierarchy_041",
           "prompt_text": "Match inner table width to 0.5\"% of parent"
         },
         {
           "id": "tables_data_nested_table_hierarchy_055",
           "prompt_text": "Match inner table width to 0.75\"% of parent"
-        },
-        {
-          "id": "tables_data_nested_table_hierarchy_058",
-          "prompt_text": "Set nested border to 8pt thickness"
-        },
-        {
-          "id": "tables_data_nested_table_hierarchy_074",
-          "prompt_text": "Match inner table width to 20pt% of parent"
         }
       ]
     }

@@ -154,7 +154,7 @@
       "entries": [
         {
           "id": "print_readiness_safe_zone_edge_printing_001",
-          "prompt_text": "Check 10pt clearance from edge"
+          "prompt_text": "Check {10pt} clearance from edge"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_002",
@@ -162,11 +162,11 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_003",
-          "prompt_text": "Move caption to 15pt from trim"
+          "prompt_text": "Move caption to {15pt} from trim"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_004",
-          "prompt_text": "Set bleed to 10pt for background"
+          "prompt_text": "Set bleed to {10pt} for background"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_005",
@@ -179,10 +179,6 @@
         {
           "id": "print_readiness_safe_zone_edge_printing_007",
           "prompt_text": "Set bleed to 100% for background"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_009",
-          "prompt_text": "Check 8pt clearance from edge"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_010",
@@ -198,27 +194,11 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_013",
-          "prompt_text": "Ensure 10pt margin for trim safety"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_014",
-          "prompt_text": "Ensure 15pt margin for trim safety"
+          "prompt_text": "Ensure {10pt} margin for trim safety"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_015",
-          "prompt_text": "Keep table 50% inside safe zone"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_017",
-          "prompt_text": "Set bleed to 12pt for background"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_018",
-          "prompt_text": "Ensure 5px margin for trim safety"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_019",
-          "prompt_text": "Set bleed to 8pt for background"
+          "prompt_text": "Keep {table 50}% inside safe zone"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_020",
@@ -237,10 +217,6 @@
           "prompt_text": "Move caption to 100% from trim"
         },
         {
-          "id": "print_readiness_safe_zone_edge_printing_024",
-          "prompt_text": "Set bleed to 10px for background"
-        },
-        {
           "id": "print_readiness_safe_zone_edge_printing_025",
           "prompt_text": "Check 200% clearance from edge"
         },
@@ -254,15 +230,11 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_029",
-          "prompt_text": "Move table to 8pt from trim"
+          "prompt_text": "Move table to {8pt} from trim"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_031",
           "prompt_text": "Keep note 200% inside safe zone"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_032",
-          "prompt_text": "Set bleed to 15pt for background"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_033",
@@ -270,7 +242,7 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_034",
-          "prompt_text": "Keep chart 12pt inside safe zone"
+          "prompt_text": "Keep chart {12pt} inside safe zone"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_035",
@@ -278,31 +250,15 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_038",
-          "prompt_text": "Move graph to 15pt from trim"
+          "prompt_text": "Move graph to {15pt} from trim"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_039",
           "prompt_text": "Move note to 100% from trim"
         },
         {
-          "id": "print_readiness_safe_zone_edge_printing_040",
-          "prompt_text": "Set bleed to 5px for background"
-        },
-        {
           "id": "print_readiness_safe_zone_edge_printing_041",
           "prompt_text": "Check 1.0\" clearance from edge"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_042",
-          "prompt_text": "Move graph to 10pt from trim"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_043",
-          "prompt_text": "Keep chart 8pt inside safe zone"
-        },
-        {
-          "id": "print_readiness_safe_zone_edge_printing_044",
-          "prompt_text": "Check 15pt clearance from edge"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_045",
@@ -310,7 +266,7 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_047",
-          "prompt_text": "Move text to 15pt from trim"
+          "prompt_text": "Move text to {15pt} from trim"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_049",
@@ -318,11 +274,11 @@
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_050",
-          "prompt_text": "Keep callout 10pt inside safe zone"
+          "prompt_text": "Keep callout {10pt} inside safe zone"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_052",
-          "prompt_text": "Keep graph 8pt inside safe zone"
+          "prompt_text": "Keep graph {8pt} inside safe zone"
         },
         {
           "id": "print_readiness_safe_zone_edge_printing_053",
@@ -365,7 +321,7 @@
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_003",
-          "prompt_text": "Reduce cyan in skin tones to 5px%"
+          "prompt_text": "Reduce cyan in skin tones to {5px}%"
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_004",
@@ -381,27 +337,11 @@
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_016",
-          "prompt_text": "Limit total ink to 10px%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_017",
-          "prompt_text": "Reduce cyan in skin tones to 10px%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_018",
-          "prompt_text": "Limit total ink to 12pt%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_021",
-          "prompt_text": "Limit total ink to 10pt%"
+          "prompt_text": "Limit total ink to {10px}%"
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_022",
           "prompt_text": "Reduce cyan in skin tones to 100%%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_023",
-          "prompt_text": "Limit total ink to 8pt%"
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_030",
@@ -410,14 +350,6 @@
         {
           "id": "print_readiness_cmyk_process_ink_limits_031",
           "prompt_text": "Limit total ink to 0.75\"%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_040",
-          "prompt_text": "Reduce cyan in skin tones to 10pt%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_043",
-          "prompt_text": "Limit total ink to 5px%"
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_050",
@@ -432,24 +364,12 @@
           "prompt_text": "Limit total ink to 2.2\"%"
         },
         {
-          "id": "print_readiness_cmyk_process_ink_limits_058",
-          "prompt_text": "Limit total ink to 20pt%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_060",
-          "prompt_text": "Limit total ink to 20px%"
-        },
-        {
           "id": "print_readiness_cmyk_process_ink_limits_063",
           "prompt_text": "Reduce cyan in skin tones to 2.25\"%"
         },
         {
           "id": "print_readiness_cmyk_process_ink_limits_095",
           "prompt_text": "Reduce cyan in skin tones to 0.8\"%"
-        },
-        {
-          "id": "print_readiness_cmyk_process_ink_limits_118",
-          "prompt_text": "Limit total ink to 22pt%"
         }
       ]
     }

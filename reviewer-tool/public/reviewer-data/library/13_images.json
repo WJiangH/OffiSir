@@ -211,10 +211,6 @@
           "prompt_text": "Remove {crop marks} from screen-only version of the PDF"
         },
         {
-          "id": "images_image_resolution_quality_051",
-          "prompt_text": "Remove {extra logo} from {running header}"
-        },
-        {
           "id": "images_image_resolution_quality_052",
           "prompt_text": "Remove {image}-only {text layer} and export the live text"
         },
@@ -308,7 +304,7 @@
         },
         {
           "id": "images_image_resolution_quality_075",
-          "prompt_text": "Shrink {hero image} to {5 inches wide}"
+          "prompt_text": "Shrink {hero image} to {5 inches} wide}"
         },
         {
           "id": "images_image_resolution_quality_076",
@@ -636,7 +632,7 @@
         },
         {
           "id": "images_vector_raster_rasterization_007",
-          "prompt_text": "Set raster resolution to 10pt for export"
+          "prompt_text": "Set raster resolution to {10pt} for export"
         },
         {
           "id": "images_vector_raster_rasterization_008",
@@ -651,20 +647,8 @@
           "prompt_text": "Convert SVG to PNG for compatibility"
         },
         {
-          "id": "images_vector_raster_rasterization_022",
-          "prompt_text": "Set raster resolution to 5px for export"
-        },
-        {
-          "id": "images_vector_raster_rasterization_026",
-          "prompt_text": "Set raster resolution to 8pt for export"
-        },
-        {
           "id": "images_vector_raster_rasterization_034",
           "prompt_text": "Set raster resolution to 0.5\" for export"
-        },
-        {
-          "id": "images_vector_raster_rasterization_035",
-          "prompt_text": "Set raster resolution to 15pt for export"
         },
         {
           "id": "images_vector_raster_rasterization_046",
@@ -719,7 +703,7 @@
         },
         {
           "id": "images_transparency_masking_018",
-          "prompt_text": "Set mask feather to 12pt"
+          "prompt_text": "Set mask feather to {12pt}"
         },
         {
           "id": "images_transparency_masking_019",
@@ -746,10 +730,6 @@
           "prompt_text": "Remove mask from graph"
         },
         {
-          "id": "images_transparency_masking_033",
-          "prompt_text": "Set mask feather to 10px"
-        },
-        {
           "id": "images_transparency_masking_036",
           "prompt_text": "Remove mask from image"
         },
@@ -764,10 +744,6 @@
         {
           "id": "images_transparency_masking_046",
           "prompt_text": "Remove mask from chart"
-        },
-        {
-          "id": "images_transparency_masking_047",
-          "prompt_text": "Set mask feather to 8pt"
         }
       ]
     },
@@ -798,23 +774,15 @@
         },
         {
           "id": "images_complex_flowchart_alt_text_009",
-          "prompt_text": "Set alt text for diagram to 10pt"
+          "prompt_text": "Set alt text for diagram to {10pt}"
         },
         {
           "id": "images_complex_flowchart_alt_text_011",
           "prompt_text": "Fix accessibility label for complex chart"
         },
         {
-          "id": "images_complex_flowchart_alt_text_022",
-          "prompt_text": "Set alt text for diagram to 5px"
-        },
-        {
           "id": "images_complex_flowchart_alt_text_035",
           "prompt_text": "Set alt text for diagram to 0.75\""
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_038",
-          "prompt_text": "Set alt text for diagram to 15pt"
         },
         {
           "id": "images_complex_flowchart_alt_text_042",

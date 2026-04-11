@@ -95,18 +95,6 @@
           "prompt_text": "Change {accomodate} in {action list} to {accommodate}"
         },
         {
-          "id": "lists_bullet_style_consistency_022",
-          "prompt_text": "Change {dept} in {bullet 5} to {department}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_023",
-          "prompt_text": "Change {the list of tasks are} in {reference section} to {the list of tasks is}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_024",
-          "prompt_text": "Change {the team are} in {bullet 2} to {the team is}"
-        },
-        {
           "id": "lists_bullet_style_consistency_025",
           "prompt_text": "Continue the {numbering} from {first list} into {second list}"
         },
@@ -247,24 +235,8 @@
           "prompt_text": "Replace {empower} with {allow} in {bullet 4}"
         },
         {
-          "id": "lists_bullet_style_consistency_060",
-          "prompt_text": "Replace {holistic} with {complete} in {overview section}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_061",
-          "prompt_text": "Replace {streamline} with {simplify} in {action list}"
-        },
-        {
           "id": "lists_bullet_style_consistency_062",
           "prompt_text": "Replace {utilize} with {use} in {bullet} under Findings"
-        },
-        {
-          "id": "lists_bullet_style_consistency_063",
-          "prompt_text": "Replace {value-add} in {bullet 3} with {benefit}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_064",
-          "prompt_text": "Replace {you should} in {action list} with {the team should}"
         },
         {
           "id": "lists_bullet_style_consistency_065",
@@ -379,10 +351,6 @@
           "prompt_text": "Use {em dash bullets}"
         },
         {
-          "id": "lists_bullet_style_consistency_093",
-          "prompt_text": "Use {open circle bullets}"
-        },
-        {
           "id": "lists_bullet_style_consistency_094",
           "prompt_text": "Use {teal} on both the {bullets} and {divider line}"
         }
@@ -403,7 +371,7 @@
         },
         {
           "id": "lists_list_indentation_alignment_002",
-          "prompt_text": "Fix broken hanging indent on item {{3} in} the {action list}"
+          "prompt_text": "Fix broken hanging indent on item {3} in} the {action list}"
         },
         {
           "id": "lists_list_indentation_alignment_003",
@@ -540,11 +508,7 @@
         },
         {
           "id": "lists_multi_level_numbering_overrides_007",
-          "prompt_text": "Set indent for level X to 15pt"
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_008",
-          "prompt_text": "Set indent for level X to 8pt"
+          "prompt_text": "Set indent for level X to {15pt}"
         },
         {
           "id": "lists_multi_level_numbering_overrides_009",
@@ -555,20 +519,8 @@
           "prompt_text": "Set indent for level X to 2.0\""
         },
         {
-          "id": "lists_multi_level_numbering_overrides_016",
-          "prompt_text": "Set indent for level X to 12pt"
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_017",
-          "prompt_text": "Set indent for level X to 10px"
-        },
-        {
           "id": "lists_multi_level_numbering_overrides_025",
           "prompt_text": "Set indent for level X to 80%"
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_039",
-          "prompt_text": "Set indent for level X to 10pt"
         },
         {
           "id": "lists_multi_level_numbering_overrides_044",
@@ -577,10 +529,6 @@
         {
           "id": "lists_multi_level_numbering_overrides_045",
           "prompt_text": "Set indent for level X to 100%"
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_046",
-          "prompt_text": "Set indent for level X to 5px"
         }
       ]
     },
@@ -599,7 +547,7 @@
         },
         {
           "id": "lists_restart_numbering_logic_003",
-          "prompt_text": "Set start value to 5px for list"
+          "prompt_text": "Set start value to {5px} for list"
         },
         {
           "id": "lists_restart_numbering_logic_004",
@@ -608,10 +556,6 @@
         {
           "id": "lists_restart_numbering_logic_006",
           "prompt_text": "Fix numbering sequence in appendix"
-        },
-        {
-          "id": "lists_restart_numbering_logic_008",
-          "prompt_text": "Set start value to 10pt for list"
         },
         {
           "id": "lists_restart_numbering_logic_009",
@@ -623,7 +567,7 @@
         },
         {
           "id": "lists_restart_numbering_logic_015",
-          "prompt_text": "Restart list numbering at 12pt"
+          "prompt_text": "Restart list numbering at {12pt}"
         },
         {
           "id": "lists_restart_numbering_logic_018",
@@ -646,16 +590,8 @@
           "prompt_text": "Restart list numbering at 200%"
         },
         {
-          "id": "lists_restart_numbering_logic_029",
-          "prompt_text": "Restart list numbering at 5px"
-        },
-        {
           "id": "lists_restart_numbering_logic_032",
           "prompt_text": "Set start value to 200% for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_035",
-          "prompt_text": "Restart list numbering at 8pt"
         },
         {
           "id": "lists_restart_numbering_logic_036",
@@ -672,14 +608,6 @@
         {
           "id": "lists_restart_numbering_logic_040",
           "prompt_text": "Restart list numbering at 100%"
-        },
-        {
-          "id": "lists_restart_numbering_logic_041",
-          "prompt_text": "Restart list numbering at 10px"
-        },
-        {
-          "id": "lists_restart_numbering_logic_053",
-          "prompt_text": "Set start value to 8pt for list"
         },
         {
           "id": "lists_restart_numbering_logic_055",
@@ -702,15 +630,11 @@
       "entries": [
         {
           "id": "lists_bullet_text_position_offset_001",
-          "prompt_text": "Set first line indent to 10pt for list"
+          "prompt_text": "Set first line indent to {10pt} for list"
         },
         {
           "id": "lists_bullet_text_position_offset_002",
-          "prompt_text": "Move bullet 0.25\" to left"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_003",
-          "prompt_text": "Set first line indent to 10px for list"
+          "prompt_text": "Move {bullet 0}.25\" to left"
         },
         {
           "id": "lists_bullet_text_position_offset_004",
@@ -718,7 +642,7 @@
         },
         {
           "id": "lists_bullet_text_position_offset_006",
-          "prompt_text": "Move bullet 15pt to left"
+          "prompt_text": "Move bullet {15pt} to left"
         },
         {
           "id": "lists_bullet_text_position_offset_007",
@@ -734,7 +658,7 @@
         },
         {
           "id": "lists_bullet_text_position_offset_013",
-          "prompt_text": "Set bullet offset to 10px"
+          "prompt_text": "Set bullet offset to {10px}"
         },
         {
           "id": "lists_bullet_text_position_offset_014",
@@ -745,24 +669,12 @@
           "prompt_text": "Adjust text indent to 1.0\" from bullet"
         },
         {
-          "id": "lists_bullet_text_position_offset_016",
-          "prompt_text": "Set bullet offset to 10pt"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_020",
-          "prompt_text": "Move bullet 5px to left"
-        },
-        {
           "id": "lists_bullet_text_position_offset_021",
-          "prompt_text": "Move bullet 80% to left"
+          "prompt_text": "Move {bullet 80}% to left"
         },
         {
           "id": "lists_bullet_text_position_offset_022",
           "prompt_text": "Set bullet offset to 0.75\""
-        },
-        {
-          "id": "lists_bullet_text_position_offset_023",
-          "prompt_text": "Move bullet 50% to left"
         },
         {
           "id": "lists_bullet_text_position_offset_024",
@@ -773,28 +685,12 @@
           "prompt_text": "Set bullet offset to 2.0\""
         },
         {
-          "id": "lists_bullet_text_position_offset_026",
-          "prompt_text": "Set first line indent to 15pt for list"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_027",
-          "prompt_text": "Set bullet offset to 5px"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_031",
-          "prompt_text": "Move bullet 10px to left"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_032",
-          "prompt_text": "Move bullet 10pt to left"
-        },
-        {
           "id": "lists_bullet_text_position_offset_034",
           "prompt_text": "Set bullet offset to 200%"
         },
         {
           "id": "lists_bullet_text_position_offset_035",
-          "prompt_text": "Adjust text indent to 8pt from bullet"
+          "prompt_text": "Adjust text indent to {8pt} from bullet"
         },
         {
           "id": "lists_bullet_text_position_offset_036",

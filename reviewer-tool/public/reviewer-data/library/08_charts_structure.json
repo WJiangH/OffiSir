@@ -75,10 +75,6 @@
           "prompt_text": "Add {4pt} of space between {chart} and {source line}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_017",
-          "prompt_text": "Add {Source: Company internal data} below {chart}"
-        },
-        {
           "id": "charts_structure_chart_type_appropriateness_018",
           "prompt_text": "Align {chart} directly under {section intro paragraph}"
         },
@@ -143,22 +139,6 @@
           "prompt_text": "Change {stacked bar} total for {June} to {$365K}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_034",
-          "prompt_text": "Change {First Quarter 2025} in {chart note} to {Q1 FY2025}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_035",
-          "prompt_text": "Change {independant} in {chart caption} to {independent}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_036",
-          "prompt_text": "Change {we're seeing} in {chart note} to {the chart shows}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_037",
-          "prompt_text": "Change {were} in {chart note} to {was}"
-        },
-        {
           "id": "charts_structure_chart_type_appropriateness_038",
           "prompt_text": "Crop the {chart} image to remove extra white space on right"
         },
@@ -208,7 +188,7 @@
         },
         {
           "id": "charts_structure_chart_type_appropriateness_050",
-          "prompt_text": "Move {bar chart} {source line} directly below {chart} with 4pt spacing"
+          "prompt_text": "Move {bar chart} {source line} directly below {chart} with {4pt} spacing"
         },
         {
           "id": "charts_structure_chart_type_appropriateness_051",
@@ -394,10 +374,6 @@
           "prompt_text": "Change {chart title value} to {$4.1M}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_006",
-          "prompt_text": "Change {chart title} to {Q1 Revenue by Region}"
-        },
-        {
           "id": "charts_structure_chart_title_descriptive_007",
           "prompt_text": "Left-align {chart titles}"
         },
@@ -481,10 +457,6 @@
           "prompt_text": "Add {y-axis label} that says {Revenue ($M)}"
         },
         {
-          "id": "charts_structure_axis_labeling_002",
-          "prompt_text": "Add {x-axis label} that says {Month}"
-        },
-        {
           "id": "charts_structure_axis_labeling_003",
           "prompt_text": "Add missing {March} label on {x-axis}"
         },
@@ -531,10 +503,6 @@
         {
           "id": "charts_structure_axis_labeling_014",
           "prompt_text": "Change {x-axis} dates to {Jan Feb Mar Apr}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_015",
-          "prompt_text": "Change {y-axis label} to {Revenue ($K)}"
         },
         {
           "id": "charts_structure_axis_labeling_016",
@@ -716,7 +684,7 @@
         },
         {
           "id": "charts_structure_waterfall_axis_logic_011",
-          "prompt_text": "Adjust connector lines to 12pt weight"
+          "prompt_text": "Adjust connector lines to {12pt} weight"
         },
         {
           "id": "charts_structure_waterfall_axis_logic_014",
@@ -736,7 +704,7 @@
         },
         {
           "id": "charts_structure_waterfall_axis_logic_027",
-          "prompt_text": "Set waterfall start to 5px"
+          "prompt_text": "Set waterfall start to {5px}"
         },
         {
           "id": "charts_structure_waterfall_axis_logic_028",
@@ -747,20 +715,12 @@
           "prompt_text": "Set waterfall start to 2.0\""
         },
         {
-          "id": "charts_structure_waterfall_axis_logic_031",
-          "prompt_text": "Set waterfall start to 10px"
-        },
-        {
           "id": "charts_structure_waterfall_axis_logic_032",
           "prompt_text": "Set waterfall start to 0.5\""
         },
         {
           "id": "charts_structure_waterfall_axis_logic_033",
           "prompt_text": "Adjust connector lines to 200% weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_035",
-          "prompt_text": "Adjust connector lines to 5px weight"
         },
         {
           "id": "charts_structure_waterfall_axis_logic_041",
@@ -803,7 +763,7 @@
         },
         {
           "id": "charts_structure_pareto_distribution_formatting_003",
-          "prompt_text": "Color 80% mark to 10px"
+          "prompt_text": "Color 80% mark to {10px}"
         },
         {
           "id": "charts_structure_pareto_distribution_formatting_004",
@@ -836,10 +796,6 @@
         {
           "id": "charts_structure_pareto_distribution_formatting_029",
           "prompt_text": "Color 80% mark to 50%"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_040",
-          "prompt_text": "Color 80% mark to 5px"
         }
       ]
     },
@@ -874,7 +830,7 @@
         },
         {
           "id": "charts_structure_treemap_nesting_depth_010",
-          "prompt_text": "Adjust treemap padding to 10pt"
+          "prompt_text": "Adjust treemap padding to {10pt}"
         },
         {
           "id": "charts_structure_treemap_nesting_depth_013",
@@ -883,10 +839,6 @@
         {
           "id": "charts_structure_treemap_nesting_depth_014",
           "prompt_text": "Adjust treemap padding to 2.0\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_017",
-          "prompt_text": "Adjust treemap padding to 8pt"
         },
         {
           "id": "charts_structure_treemap_nesting_depth_021",
@@ -905,10 +857,6 @@
           "prompt_text": "Adjust treemap padding to 0.5\""
         },
         {
-          "id": "charts_structure_treemap_nesting_depth_036",
-          "prompt_text": "Adjust treemap padding to 10px"
-        },
-        {
           "id": "charts_structure_treemap_nesting_depth_040",
           "prompt_text": "Adjust treemap padding to 0.25\""
         },
@@ -922,11 +870,7 @@
         },
         {
           "id": "charts_structure_treemap_nesting_depth_057",
-          "prompt_text": "Set treemap depth to 10pt levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_059",
-          "prompt_text": "Adjust treemap padding to 5px"
+          "prompt_text": "Set treemap depth to {10pt} levels"
         }
       ]
     },
@@ -957,11 +901,7 @@
         },
         {
           "id": "charts_structure_axis_break_symbols_008",
-          "prompt_text": "Gap break area by 12pt"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_012",
-          "prompt_text": "Gap break area by 10px"
+          "prompt_text": "Gap break area by {12pt}"
         },
         {
           "id": "charts_structure_axis_break_symbols_013",
@@ -969,7 +909,7 @@
         },
         {
           "id": "charts_structure_axis_break_symbols_014",
-          "prompt_text": "Color break symbol to 8pt"
+          "prompt_text": "Color break symbol to {8pt}"
         },
         {
           "id": "charts_structure_axis_break_symbols_016",
@@ -990,14 +930,6 @@
         {
           "id": "charts_structure_axis_break_symbols_027",
           "prompt_text": "Gap break area by 2.0\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_030",
-          "prompt_text": "Color break symbol to 10pt"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_033",
-          "prompt_text": "Gap break area by 15pt"
         },
         {
           "id": "charts_structure_axis_break_symbols_035",
@@ -1036,7 +968,7 @@
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_004",
-          "prompt_text": "Format error bars to 10px thickness"
+          "prompt_text": "Format error bars to {10px} thickness"
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_005",
@@ -1048,23 +980,15 @@
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_009",
-          "prompt_text": "Set error bar color to 12pt"
+          "prompt_text": "Set error bar color to {12pt}"
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_011",
-          "prompt_text": "Set error amount to 8pt standard deviations"
+          "prompt_text": "Set error amount to {8pt} standard deviations"
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_013",
           "prompt_text": "Set error bar color to 100%"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_014",
-          "prompt_text": "Set error bar color to 15pt"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_015",
-          "prompt_text": "Set error amount to 10pt standard deviations"
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_017",
@@ -1083,24 +1007,8 @@
           "prompt_text": "Set error amount to 0.25\" standard deviations"
         },
         {
-          "id": "charts_structure_error_bar_standard_deviation_027",
-          "prompt_text": "Set error bar color to 10px"
-        },
-        {
           "id": "charts_structure_error_bar_standard_deviation_029",
           "prompt_text": "Set error amount to 1.0\" standard deviations"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_032",
-          "prompt_text": "Set error bar color to 10pt"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_035",
-          "prompt_text": "Format error bars to 15pt thickness"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_037",
-          "prompt_text": "Format error bars to 12pt thickness"
         },
         {
           "id": "charts_structure_error_bar_standard_deviation_038",

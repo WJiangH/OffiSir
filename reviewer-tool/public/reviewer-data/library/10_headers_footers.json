@@ -51,24 +51,8 @@
           "prompt_text": "Change page number format to {1 of 1}"
         },
         {
-          "id": "headers_footers_page_number_presence_011",
-          "prompt_text": "Change page number format to {A-1}"
-        },
-        {
           "id": "headers_footers_page_number_presence_012",
           "prompt_text": "Change page number to {3}"
-        },
-        {
-          "id": "headers_footers_page_number_presence_013",
-          "prompt_text": "Change page number to {5}"
-        },
-        {
-          "id": "headers_footers_page_number_presence_014",
-          "prompt_text": "Change page number to {8}"
-        },
-        {
-          "id": "headers_footers_page_number_presence_015",
-          "prompt_text": "Change page number to {1}"
         },
         {
           "id": "headers_footers_page_number_presence_016",
@@ -77,10 +61,6 @@
         {
           "id": "headers_footers_page_number_presence_017",
           "prompt_text": "Change page number prefix to {Appendix}"
-        },
-        {
-          "id": "headers_footers_page_number_presence_018",
-          "prompt_text": "Change page number to {7}"
         },
         {
           "id": "headers_footers_page_number_presence_019",
@@ -285,10 +265,6 @@
           "prompt_text": "Change {footer divider line} weight to {0.5pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_013",
-          "prompt_text": "Change {header divider line} color"
-        },
-        {
           "id": "headers_footers_header_footer_consistency_014",
           "prompt_text": "Change {header divider line} to {0.5pt} weight"
         },
@@ -299,10 +275,6 @@
         {
           "id": "headers_footers_header_footer_consistency_016",
           "prompt_text": "Change {Project Alpha} in {closing paragraph} to {Project Alpha-1}"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_017",
-          "prompt_text": "Change {occurence} in {footer note} to {occurrence}"
         },
         {
           "id": "headers_footers_header_footer_consistency_018",
@@ -493,10 +465,6 @@
           "prompt_text": "Remove {footer divider line}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_065",
-          "prompt_text": "Remove {header divider line}"
-        },
-        {
           "id": "headers_footers_header_footer_consistency_066",
           "prompt_text": "Replace the old office address in footer with {new headquarters address}"
         },
@@ -535,10 +503,6 @@
         {
           "id": "headers_footers_header_footer_consistency_075",
           "prompt_text": "Set every {H1 header} to {20pt}"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_076",
-          "prompt_text": "Set every {H2 header} to {16pt}"
         },
         {
           "id": "headers_footers_header_footer_consistency_077",
@@ -599,10 +563,6 @@
         {
           "id": "headers_footers_header_footer_consistency_091",
           "prompt_text": "Add {document title}"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_092",
-          "prompt_text": "Add {Draft 3} to {running header}"
         },
         {
           "id": "headers_footers_header_footer_consistency_093",
@@ -729,10 +689,6 @@
           "prompt_text": "Set footer text to {8pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_124",
-          "prompt_text": "Set footer text to {CONFIDENTIAL | Greenfield Industries}"
-        },
-        {
           "id": "headers_footers_header_footer_consistency_125",
           "prompt_text": "Shorten the {running header} to {first five words} of the {title}"
         },
@@ -846,7 +802,7 @@
         },
         {
           "id": "headers_footers_section_specific_headers_006",
-          "prompt_text": "Remove text from first page of Chapter 1"
+          "prompt_text": "Remove text from first page of {Chapter 1}"
         },
         {
           "id": "headers_footers_section_specific_headers_007",
@@ -866,7 +822,7 @@
         },
         {
           "id": "headers_footers_section_specific_headers_020",
-          "prompt_text": "Remove chart from first page of Section 2"
+          "prompt_text": "Remove chart from first page of {Section 2}"
         },
         {
           "id": "headers_footers_section_specific_headers_021",
@@ -882,7 +838,7 @@
         },
         {
           "id": "headers_footers_section_specific_headers_034",
-          "prompt_text": "Remove table from first page of Chapter 1"
+          "prompt_text": "Remove table from first page of {Chapter 1}"
         },
         {
           "id": "headers_footers_section_specific_headers_039",
@@ -890,7 +846,7 @@
         },
         {
           "id": "headers_footers_section_specific_headers_042",
-          "prompt_text": "Remove callout from first page of Section 2"
+          "prompt_text": "Remove callout from first page of {Section 2}"
         }
       ]
     },
@@ -1023,7 +979,7 @@
         },
         {
           "id": "headers_footers_draft_watermark_layering_041",
-          "prompt_text": "Set watermark opacity to 10pt%"
+          "prompt_text": "Set watermark opacity to {10pt}%"
         }
       ]
     }

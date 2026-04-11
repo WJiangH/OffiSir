@@ -24,7 +24,7 @@
         },
         {
           "id": "tables_formatting_border_consistency_004",
-          "prompt_text": "Add {2pt bottom border} under {header row} in {Table 2}"
+          "prompt_text": "Add {2pt} bottom border} under {header row} in {Table 2}"
         },
         {
           "id": "tables_formatting_border_consistency_005",
@@ -77,10 +77,6 @@
         {
           "id": "tables_formatting_border_consistency_017",
           "prompt_text": "Change {caption} to {Table 1}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_018",
-          "prompt_text": "Change {header row fill} to {light gray}"
         },
         {
           "id": "tables_formatting_border_consistency_019",
@@ -140,7 +136,7 @@
         },
         {
           "id": "tables_formatting_border_consistency_033",
-          "prompt_text": "Set {header row} bottom border to {2pt} {dark gray} and row dividers to 0.5pt light gray"
+          "prompt_text": "Set {header row} bottom border to {2pt} {dark gray} and row dividers to {0.5pt} light gray"
         },
         {
           "id": "tables_formatting_border_consistency_034",
@@ -249,10 +245,6 @@
         {
           "id": "tables_formatting_cell_vertical_alignment_002",
           "prompt_text": "Set vertical alignment to {top} for {header rows}"
-        },
-        {
-          "id": "tables_formatting_cell_vertical_alignment_003",
-          "prompt_text": "Set vertical alignment to {bottom} for {footer rows}"
         }
       ]
     },
@@ -306,7 +298,7 @@
         },
         {
           "id": "tables_formatting_diagonal_border_logic_007",
-          "prompt_text": "Set diagonal line to 5px thickness"
+          "prompt_text": "Set diagonal line to {5px} thickness"
         },
         {
           "id": "tables_formatting_diagonal_border_logic_008",
@@ -321,28 +313,16 @@
           "prompt_text": "Remove diagonal strike from empty cells"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_015",
-          "prompt_text": "Set diagonal line to 8pt thickness"
-        },
-        {
           "id": "tables_formatting_diagonal_border_logic_019",
           "prompt_text": "Set diagonal line to 0.25\" thickness"
         },
         {
           "id": "tables_formatting_diagonal_border_logic_022",
-          "prompt_text": "Color diagonal border to 5px"
+          "prompt_text": "Color diagonal border to {5px}"
         },
         {
           "id": "tables_formatting_diagonal_border_logic_023",
           "prompt_text": "Color diagonal border to 1.25\""
-        },
-        {
-          "id": "tables_formatting_diagonal_border_logic_024",
-          "prompt_text": "Color diagonal border to 15pt"
-        },
-        {
-          "id": "tables_formatting_diagonal_border_logic_029",
-          "prompt_text": "Set diagonal line to 12pt thickness"
         },
         {
           "id": "tables_formatting_diagonal_border_logic_042",
@@ -351,10 +331,6 @@
         {
           "id": "tables_formatting_diagonal_border_logic_046",
           "prompt_text": "Color diagonal border to 80%"
-        },
-        {
-          "id": "tables_formatting_diagonal_border_logic_049",
-          "prompt_text": "Color diagonal border to 10pt"
         }
       ]
     },
@@ -377,7 +353,7 @@
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_003",
-          "prompt_text": "Apply 10pt corner radius to all cells"
+          "prompt_text": "Apply {10pt} corner radius to all cells"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_004",
@@ -389,7 +365,7 @@
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_006",
-          "prompt_text": "Set top-right corner to 15pt roundness"
+          "prompt_text": "Set top-right corner to {15pt} roundness"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_007",
@@ -401,7 +377,7 @@
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_010",
-          "prompt_text": "Match outer border rounding to 12pt"
+          "prompt_text": "Match outer border rounding to {12pt}"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_011",
@@ -413,15 +389,7 @@
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_015",
-          "prompt_text": "Round table corners to 15pt radius"
-        },
-        {
-          "id": "tables_formatting_corner_rounding_geometry_017",
-          "prompt_text": "Apply 8pt corner radius to all cells"
-        },
-        {
-          "id": "tables_formatting_corner_rounding_geometry_019",
-          "prompt_text": "Set top-right corner to 10pt roundness"
+          "prompt_text": "Round table corners to {15pt} radius"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_020",
@@ -444,16 +412,8 @@
           "prompt_text": "Round table corners to 200% radius"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_028",
-          "prompt_text": "Round table corners to 10pt radius"
-        },
-        {
           "id": "tables_formatting_corner_rounding_geometry_030",
           "prompt_text": "Match outer border rounding to 1.25\""
-        },
-        {
-          "id": "tables_formatting_corner_rounding_geometry_034",
-          "prompt_text": "Match outer border rounding to 15pt"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_035",
@@ -462,10 +422,6 @@
         {
           "id": "tables_formatting_corner_rounding_geometry_037",
           "prompt_text": "Match outer border rounding to 0.25\""
-        },
-        {
-          "id": "tables_formatting_corner_rounding_geometry_039",
-          "prompt_text": "Set top-right corner to 8pt roundness"
         },
         {
           "id": "tables_formatting_corner_rounding_geometry_041",
@@ -488,7 +444,7 @@
       "entries": [
         {
           "id": "tables_formatting_shading_pattern_banding_001",
-          "prompt_text": "Add 10px banding to alternate rows"
+          "prompt_text": "Add {10px} banding to alternate rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_002",
@@ -520,15 +476,15 @@
         },
         {
           "id": "tables_formatting_shading_pattern_banding_009",
-          "prompt_text": "Set banding color to 5px every 10px rows"
+          "prompt_text": "Set banding color to {5px} every {10px} rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_011",
-          "prompt_text": "Set banding color to 8pt every 2.0\" rows"
+          "prompt_text": "Set banding color to {8pt} every 2.0\" rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_013",
-          "prompt_text": "Set banding color to 1.25\" every 10pt rows"
+          "prompt_text": "Set banding color to 1.25\" every {10pt} rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_014",
@@ -540,7 +496,7 @@
         },
         {
           "id": "tables_formatting_shading_pattern_banding_019",
-          "prompt_text": "Set banding color to 5px every 100% rows"
+          "prompt_text": "Set banding color to {5px} every 100% rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_020",
@@ -548,27 +504,15 @@
         },
         {
           "id": "tables_formatting_shading_pattern_banding_021",
-          "prompt_text": "Set banding color to 5px every 0.5\" rows"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_023",
-          "prompt_text": "Add 5px banding to alternate rows"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_024",
-          "prompt_text": "Add 12pt banding to alternate rows"
+          "prompt_text": "Set banding color to {5px} every 0.5\" rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_025",
-          "prompt_text": "Set banding color to 10pt every 80% rows"
+          "prompt_text": "Set banding color to {10pt} every 80% rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_026",
           "prompt_text": "Set banding color to 2.0\" every 80% rows"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_028",
-          "prompt_text": "Add 8pt banding to alternate rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_032",
@@ -591,12 +535,8 @@
           "prompt_text": "Apply diagonal shading to title"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_041",
-          "prompt_text": "Add 15pt banding to alternate rows"
-        },
-        {
           "id": "tables_formatting_shading_pattern_banding_045",
-          "prompt_text": "Set banding color to 12pt every 0.75\" rows"
+          "prompt_text": "Set banding color to {12pt} every 0.75\" rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_046",
@@ -604,7 +544,7 @@
         },
         {
           "id": "tables_formatting_shading_pattern_banding_052",
-          "prompt_text": "Set banding color to 0.5\" every 8pt rows"
+          "prompt_text": "Set banding color to 0.5\" every {8pt} rows"
         },
         {
           "id": "tables_formatting_shading_pattern_banding_054",

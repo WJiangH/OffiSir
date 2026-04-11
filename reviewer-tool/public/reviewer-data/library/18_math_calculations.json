@@ -39,14 +39,6 @@
           "prompt_text": "Change {Neutral} in {survey response breakdown} to {20%}"
         },
         {
-          "id": "math_calculations_totals_verification_008",
-          "prompt_text": "Change {increases} in {historical summary} to {increased}"
-        },
-        {
-          "id": "math_calculations_totals_verification_009",
-          "prompt_text": "Change {it's} in {executive summary} to {it is}"
-        },
-        {
           "id": "math_calculations_totals_verification_010",
           "prompt_text": "Change {the number of errors are} in summary to {the number of errors is}"
         },
@@ -87,20 +79,8 @@
           "prompt_text": "Replace {comprehensive} with {full} in {executive summary}"
         },
         {
-          "id": "math_calculations_totals_verification_020",
-          "prompt_text": "Replace {groundbreaking} with {new} in {research summary}"
-        },
-        {
           "id": "math_calculations_totals_verification_021",
           "prompt_text": "Replace {move needle} in summary with {make progress}"
-        },
-        {
-          "id": "math_calculations_totals_verification_022",
-          "prompt_text": "Replace {scalable} with {flexible} in {architecture summary}"
-        },
-        {
-          "id": "math_calculations_totals_verification_023",
-          "prompt_text": "Replace {synergize} with {combine} in {strategy summary}"
         },
         {
           "id": "math_calculations_totals_verification_024",

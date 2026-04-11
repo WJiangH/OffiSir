@@ -140,10 +140,6 @@
           "prompt_text": "Set hanging indent to {0.5 inches} for {bibliography}"
         },
         {
-          "id": "alignment_hanging_indents_002",
-          "prompt_text": "Set hanging indent to {0.25 inches} for {bullet lists}"
-        },
-        {
           "id": "alignment_hanging_indents_003",
           "prompt_text": "Align hanging indent to {first tab stop}"
         }
@@ -271,7 +267,7 @@
       "entries": [
         {
           "id": "alignment_baseline_column_alignment_001",
-          "prompt_text": "Fix column alignment to 5px grid"
+          "prompt_text": "Fix column alignment to {5px} grid"
         },
         {
           "id": "alignment_baseline_column_alignment_002",
@@ -330,28 +326,16 @@
           "prompt_text": "Snap title to baseline grid"
         },
         {
-          "id": "alignment_baseline_column_alignment_023",
-          "prompt_text": "Fix column alignment to 12pt grid"
-        },
-        {
           "id": "alignment_baseline_column_alignment_026",
-          "prompt_text": "Set baseline shift to 8pt for headers"
+          "prompt_text": "Set baseline shift to {8pt} for headers"
         },
         {
           "id": "alignment_baseline_column_alignment_027",
           "prompt_text": "Set baseline shift to 200% for headers"
         },
         {
-          "id": "alignment_baseline_column_alignment_031",
-          "prompt_text": "Set baseline shift to 10pt for headers"
-        },
-        {
           "id": "alignment_baseline_column_alignment_032",
           "prompt_text": "Fix column alignment to 2.0\" grid"
-        },
-        {
-          "id": "alignment_baseline_column_alignment_033",
-          "prompt_text": "Fix column alignment to 10px grid"
         },
         {
           "id": "alignment_baseline_column_alignment_035",
@@ -390,7 +374,7 @@
         },
         {
           "id": "alignment_grid_snapping_precision_002",
-          "prompt_text": "Snap chart to 15pt grid"
+          "prompt_text": "Snap chart to {15pt} grid"
         },
         {
           "id": "alignment_grid_snapping_precision_003",
@@ -398,7 +382,7 @@
         },
         {
           "id": "alignment_grid_snapping_precision_004",
-          "prompt_text": "Snap text to 5px grid"
+          "prompt_text": "Snap text to {5px} grid"
         },
         {
           "id": "alignment_grid_snapping_precision_005",
@@ -410,7 +394,7 @@
         },
         {
           "id": "alignment_grid_snapping_precision_007",
-          "prompt_text": "Set grid snap to 8pt for all elements"
+          "prompt_text": "Set grid snap to {8pt} for all elements"
         },
         {
           "id": "alignment_grid_snapping_precision_008",
@@ -442,7 +426,7 @@
         },
         {
           "id": "alignment_grid_snapping_precision_017",
-          "prompt_text": "Fix offset to 10pt grid increment"
+          "prompt_text": "Fix offset to {10pt} grid increment"
         },
         {
           "id": "alignment_grid_snapping_precision_019",
@@ -457,24 +441,12 @@
           "prompt_text": "Snap graph to 1.0\" grid"
         },
         {
-          "id": "alignment_grid_snapping_precision_023",
-          "prompt_text": "Snap chart to 5px grid"
-        },
-        {
           "id": "alignment_grid_snapping_precision_024",
           "prompt_text": "Align title to closest grid line"
         },
         {
-          "id": "alignment_grid_snapping_precision_025",
-          "prompt_text": "Set grid snap to 15pt for all elements"
-        },
-        {
           "id": "alignment_grid_snapping_precision_026",
           "prompt_text": "Set grid snap to 100% for all elements"
-        },
-        {
-          "id": "alignment_grid_snapping_precision_027",
-          "prompt_text": "Snap text to 10pt grid"
         },
         {
           "id": "alignment_grid_snapping_precision_028",
@@ -489,16 +461,12 @@
           "prompt_text": "Fix offset to 200% grid increment"
         },
         {
-          "id": "alignment_grid_snapping_precision_031",
-          "prompt_text": "Set grid snap to 5px for all elements"
-        },
-        {
           "id": "alignment_grid_snapping_precision_032",
           "prompt_text": "Set grid snap to 1.25\" for all elements"
         },
         {
           "id": "alignment_grid_snapping_precision_033",
-          "prompt_text": "Snap note to 5px grid"
+          "prompt_text": "Snap note to {5px} grid"
         },
         {
           "id": "alignment_grid_snapping_precision_035",
@@ -521,10 +489,6 @@
           "prompt_text": "Align text to closest grid line"
         },
         {
-          "id": "alignment_grid_snapping_precision_045",
-          "prompt_text": "Fix offset to 8pt grid increment"
-        },
-        {
           "id": "alignment_grid_snapping_precision_051",
           "prompt_text": "Set grid snap to 2.25\" for all elements"
         },
@@ -533,16 +497,8 @@
           "prompt_text": "Fix offset to 2.25\" grid increment"
         },
         {
-          "id": "alignment_grid_snapping_precision_056",
-          "prompt_text": "Snap text to 20pt grid"
-        },
-        {
           "id": "alignment_grid_snapping_precision_062",
           "prompt_text": "Snap graph to 0.8\" grid"
-        },
-        {
-          "id": "alignment_grid_snapping_precision_075",
-          "prompt_text": "Fix offset to 20pt grid increment"
         }
       ]
     }

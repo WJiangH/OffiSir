@@ -59,10 +59,6 @@
           "prompt_text": "Change {two chart series} to {dark gray and light gray} with {patterns}"
         },
         {
-          "id": "charts_visual_quality_data_label_readability_013",
-          "prompt_text": "Change {x-axis label} font"
-        },
-        {
           "id": "charts_visual_quality_data_label_readability_014",
           "prompt_text": "Embed the {chart} label font in PDF export"
         },
@@ -157,11 +153,11 @@
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_002",
-          "prompt_text": "Adjust connector lines to 15pt weight"
+          "prompt_text": "Adjust connector lines to {15pt} weight"
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_003",
-          "prompt_text": "Set waterfall start to 10pt"
+          "prompt_text": "Set waterfall start to {10pt}"
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_004",
@@ -176,20 +172,12 @@
           "prompt_text": "Show total column in waterfall"
         },
         {
-          "id": "charts_visual_quality_waterfall_axis_logic_009",
-          "prompt_text": "Adjust connector lines to 10pt weight"
-        },
-        {
           "id": "charts_visual_quality_waterfall_axis_logic_012",
           "prompt_text": "Adjust connector lines to 0.5\" weight"
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_014",
           "prompt_text": "Adjust connector lines to 0.25\" weight"
-        },
-        {
-          "id": "charts_visual_quality_waterfall_axis_logic_019",
-          "prompt_text": "Adjust connector lines to 8pt weight"
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_022",
@@ -204,16 +192,8 @@
           "prompt_text": "Set waterfall start to 0.5\""
         },
         {
-          "id": "charts_visual_quality_waterfall_axis_logic_029",
-          "prompt_text": "Set waterfall start to 10px"
-        },
-        {
           "id": "charts_visual_quality_waterfall_axis_logic_036",
           "prompt_text": "Set waterfall start to 200%"
-        },
-        {
-          "id": "charts_visual_quality_waterfall_axis_logic_041",
-          "prompt_text": "Set waterfall start to 12pt"
         },
         {
           "id": "charts_visual_quality_waterfall_axis_logic_048",
@@ -240,7 +220,7 @@
         },
         {
           "id": "charts_visual_quality_pareto_distribution_formatting_003",
-          "prompt_text": "Color 80% mark to 10pt"
+          "prompt_text": "Color 80% mark to {10pt}"
         },
         {
           "id": "charts_visual_quality_pareto_distribution_formatting_005",
@@ -255,10 +235,6 @@
           "prompt_text": "Color 80% mark to 0.75\""
         },
         {
-          "id": "charts_visual_quality_pareto_distribution_formatting_013",
-          "prompt_text": "Color 80% mark to 8pt"
-        },
-        {
           "id": "charts_visual_quality_pareto_distribution_formatting_015",
           "prompt_text": "Align pareto bars to left axis"
         },
@@ -267,20 +243,12 @@
           "prompt_text": "Color 80% mark to 0.25\""
         },
         {
-          "id": "charts_visual_quality_pareto_distribution_formatting_031",
-          "prompt_text": "Color 80% mark to 5px"
-        },
-        {
           "id": "charts_visual_quality_pareto_distribution_formatting_037",
           "prompt_text": "Color 80% mark to 200%"
         },
         {
           "id": "charts_visual_quality_pareto_distribution_formatting_041",
           "prompt_text": "Color 80% mark to 50%"
-        },
-        {
-          "id": "charts_visual_quality_pareto_distribution_formatting_042",
-          "prompt_text": "Color 80% mark to 12pt"
         },
         {
           "id": "charts_visual_quality_pareto_distribution_formatting_043",
@@ -327,15 +295,11 @@
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_010",
-          "prompt_text": "Set treemap depth to 15pt levels"
+          "prompt_text": "Set treemap depth to {15pt} levels"
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_013",
           "prompt_text": "Set treemap depth to 0.25\" levels"
-        },
-        {
-          "id": "charts_visual_quality_treemap_nesting_depth_014",
-          "prompt_text": "Set treemap depth to 12pt levels"
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_015",
@@ -347,39 +311,23 @@
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_021",
-          "prompt_text": "Adjust treemap padding to 15pt"
+          "prompt_text": "Adjust treemap padding to {15pt}"
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_022",
           "prompt_text": "Set treemap depth to 200% levels"
         },
         {
-          "id": "charts_visual_quality_treemap_nesting_depth_024",
-          "prompt_text": "Adjust treemap padding to 12pt"
-        },
-        {
           "id": "charts_visual_quality_treemap_nesting_depth_029",
           "prompt_text": "Adjust treemap padding to 200%"
-        },
-        {
-          "id": "charts_visual_quality_treemap_nesting_depth_030",
-          "prompt_text": "Set treemap depth to 8pt levels"
         },
         {
           "id": "charts_visual_quality_treemap_nesting_depth_033",
           "prompt_text": "Adjust treemap padding to 0.5\""
         },
         {
-          "id": "charts_visual_quality_treemap_nesting_depth_037",
-          "prompt_text": "Adjust treemap padding to 10pt"
-        },
-        {
           "id": "charts_visual_quality_treemap_nesting_depth_041",
           "prompt_text": "Set treemap depth to 50% levels"
-        },
-        {
-          "id": "charts_visual_quality_treemap_nesting_depth_043",
-          "prompt_text": "Set treemap depth to 10pt levels"
         }
       ]
     },
@@ -426,19 +374,11 @@
         },
         {
           "id": "charts_visual_quality_axis_break_symbols_015",
-          "prompt_text": "Gap break area by 10pt"
-        },
-        {
-          "id": "charts_visual_quality_axis_break_symbols_016",
-          "prompt_text": "Gap break area by 10px"
+          "prompt_text": "Gap break area by {10pt}"
         },
         {
           "id": "charts_visual_quality_axis_break_symbols_018",
           "prompt_text": "Color break symbol to 0.75\""
-        },
-        {
-          "id": "charts_visual_quality_axis_break_symbols_020",
-          "prompt_text": "Gap break area by 5px"
         },
         {
           "id": "charts_visual_quality_axis_break_symbols_021",
@@ -447,10 +387,6 @@
         {
           "id": "charts_visual_quality_axis_break_symbols_022",
           "prompt_text": "Gap break area by 50%"
-        },
-        {
-          "id": "charts_visual_quality_axis_break_symbols_031",
-          "prompt_text": "Gap break area by 15pt"
         },
         {
           "id": "charts_visual_quality_axis_break_symbols_034",
@@ -497,15 +433,15 @@
         },
         {
           "id": "charts_visual_quality_error_bar_standard_deviation_007",
-          "prompt_text": "Set error bar color to 12pt"
+          "prompt_text": "Set error bar color to {12pt}"
         },
         {
           "id": "charts_visual_quality_error_bar_standard_deviation_009",
-          "prompt_text": "Set error amount to 5px standard deviations"
+          "prompt_text": "Set error amount to {5px} standard deviations"
         },
         {
           "id": "charts_visual_quality_error_bar_standard_deviation_010",
-          "prompt_text": "Format error bars to 10pt thickness"
+          "prompt_text": "Format error bars to {10pt} thickness"
         },
         {
           "id": "charts_visual_quality_error_bar_standard_deviation_012",
@@ -536,10 +472,6 @@
           "prompt_text": "Set error amount to 0.25\" standard deviations"
         },
         {
-          "id": "charts_visual_quality_error_bar_standard_deviation_028",
-          "prompt_text": "Set error bar color to 5px"
-        },
-        {
           "id": "charts_visual_quality_error_bar_standard_deviation_031",
           "prompt_text": "Set error amount to 0.75\" standard deviations"
         },
@@ -550,14 +482,6 @@
         {
           "id": "charts_visual_quality_error_bar_standard_deviation_035",
           "prompt_text": "Set error bar color to 0.5\""
-        },
-        {
-          "id": "charts_visual_quality_error_bar_standard_deviation_038",
-          "prompt_text": "Set error amount to 10px standard deviations"
-        },
-        {
-          "id": "charts_visual_quality_error_bar_standard_deviation_040",
-          "prompt_text": "Set error amount to 15pt standard deviations"
         }
       ]
     }

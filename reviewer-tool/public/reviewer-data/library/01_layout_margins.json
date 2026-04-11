@@ -87,10 +87,6 @@
           "prompt_text": "Set {right margin} to {1 inch}"
         },
         {
-          "id": "layout_margins_margin_consistency_021",
-          "prompt_text": "Set {top margin} to {1 inch}"
-        },
-        {
           "id": "layout_margins_margin_consistency_022",
           "prompt_text": "Set uniform {1-inch} margins on all four sides"
         }
@@ -335,19 +331,15 @@
       "entries": [
         {
           "id": "layout_margins_asymmetrical_margins_001",
-          "prompt_text": "Set top margin to 15pt in header section"
+          "prompt_text": "Set top margin to {15pt} in header section"
         },
         {
           "id": "layout_margins_asymmetrical_margins_002",
-          "prompt_text": "Adjust inner margin to 10px for binding"
+          "prompt_text": "Adjust inner margin to {10px} for binding"
         },
         {
           "id": "layout_margins_asymmetrical_margins_003",
           "prompt_text": "Shift right margin to 100% on even pages"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_004",
-          "prompt_text": "Set top margin to 8pt in header section"
         },
         {
           "id": "layout_margins_asymmetrical_margins_005",
@@ -371,11 +363,7 @@
         },
         {
           "id": "layout_margins_asymmetrical_margins_011",
-          "prompt_text": "Increase outer margin to 15pt on odd pages"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_012",
-          "prompt_text": "Set top margin to 5px in header section"
+          "prompt_text": "Increase outer margin to {15pt} on odd pages"
         },
         {
           "id": "layout_margins_asymmetrical_margins_013",
@@ -391,7 +379,7 @@
         },
         {
           "id": "layout_margins_asymmetrical_margins_017",
-          "prompt_text": "Change Body left margin to 10pt"
+          "prompt_text": "Change Body left margin to {10pt}"
         },
         {
           "id": "layout_margins_asymmetrical_margins_019",
@@ -400,10 +388,6 @@
         {
           "id": "layout_margins_asymmetrical_margins_022",
           "prompt_text": "Set top margin to 0.25\" in header section"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_023",
-          "prompt_text": "Adjust inner margin to 15pt for binding"
         },
         {
           "id": "layout_margins_asymmetrical_margins_024",
@@ -419,7 +403,7 @@
         },
         {
           "id": "layout_margins_asymmetrical_margins_028",
-          "prompt_text": "Set left margin to 12pt"
+          "prompt_text": "Set left margin to {12pt}"
         },
         {
           "id": "layout_margins_asymmetrical_margins_031",
@@ -430,20 +414,12 @@
           "prompt_text": "Increase outer margin to 0.75\" on odd pages"
         },
         {
-          "id": "layout_margins_asymmetrical_margins_033",
-          "prompt_text": "Adjust inner margin to 8pt for binding"
-        },
-        {
           "id": "layout_margins_asymmetrical_margins_034",
           "prompt_text": "Increase outer margin to 2.0\" on odd pages"
         },
         {
           "id": "layout_margins_asymmetrical_margins_037",
           "prompt_text": "Shift right margin to 200% on even pages"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_039",
-          "prompt_text": "Set left margin to 10px"
         },
         {
           "id": "layout_margins_asymmetrical_margins_040",
@@ -454,14 +430,6 @@
           "prompt_text": "Increase outer margin to 200% on odd pages"
         },
         {
-          "id": "layout_margins_asymmetrical_margins_042",
-          "prompt_text": "Adjust inner margin to 10pt for binding"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_043",
-          "prompt_text": "Set left margin to 8pt"
-        },
-        {
           "id": "layout_margins_asymmetrical_margins_044",
           "prompt_text": "Adjust inner margin to 100% for binding"
         },
@@ -470,36 +438,16 @@
           "prompt_text": "Adjust inner margin to 50% for binding"
         },
         {
-          "id": "layout_margins_asymmetrical_margins_046",
-          "prompt_text": "Change Body left margin to 12pt"
-        },
-        {
           "id": "layout_margins_asymmetrical_margins_048",
-          "prompt_text": "Shift right margin to 10pt on even pages"
+          "prompt_text": "Shift right margin to {10pt} on even pages"
         },
         {
           "id": "layout_margins_asymmetrical_margins_050",
-          "prompt_text": "Change Section 2 left margin to 8pt"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_051",
-          "prompt_text": "Increase outer margin to 5px on odd pages"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_054",
-          "prompt_text": "Adjust inner margin to 12pt for binding"
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_055",
-          "prompt_text": "Adjust inner margin to 5px for binding"
+          "prompt_text": "Change {Section 2} left margin to {8pt}"
         },
         {
           "id": "layout_margins_asymmetrical_margins_057",
-          "prompt_text": "Change Chapter 1 left margin to 1.0\""
-        },
-        {
-          "id": "layout_margins_asymmetrical_margins_058",
-          "prompt_text": "Change Body left margin to 15pt"
+          "prompt_text": "Change {Chapter 1} left margin to 1.0\""
         }
       ]
     },
@@ -522,7 +470,7 @@
         },
         {
           "id": "layout_margins_gutter_binding_clearance_003",
-          "prompt_text": "Adjust inside gutter to 12pt"
+          "prompt_text": "Adjust inside gutter to {12pt}"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_004",
@@ -530,7 +478,7 @@
         },
         {
           "id": "layout_margins_gutter_binding_clearance_005",
-          "prompt_text": "Increase gutter to 10pt for spiral binding"
+          "prompt_text": "Increase gutter to {10pt} for spiral binding"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_006",
@@ -550,15 +498,11 @@
         },
         {
           "id": "layout_margins_gutter_binding_clearance_011",
-          "prompt_text": "Clear 10px for perfect binding gutter"
+          "prompt_text": "Clear {10px} for perfect binding gutter"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_012",
           "prompt_text": "Clear 0.5\" for perfect binding gutter"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_013",
-          "prompt_text": "Increase gutter to 5px for spiral binding"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_014",
@@ -566,7 +510,7 @@
         },
         {
           "id": "layout_margins_gutter_binding_clearance_016",
-          "prompt_text": "Set gutter to 5px on top edge"
+          "prompt_text": "Set gutter to {5px} on top edge"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_017",
@@ -577,16 +521,8 @@
           "prompt_text": "Clear 50% for perfect binding gutter"
         },
         {
-          "id": "layout_margins_gutter_binding_clearance_019",
-          "prompt_text": "Clear 8pt for perfect binding gutter"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_020",
-          "prompt_text": "Adjust inside gutter to 15pt"
-        },
-        {
           "id": "layout_margins_gutter_binding_clearance_022",
-          "prompt_text": "Add 15pt gutter to left edge"
+          "prompt_text": "Add {15pt} gutter to left edge"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_023",
@@ -597,24 +533,12 @@
           "prompt_text": "Adjust inside gutter to 0.75\""
         },
         {
-          "id": "layout_margins_gutter_binding_clearance_025",
-          "prompt_text": "Set gutter to 15pt on top edge"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_027",
-          "prompt_text": "Add 12pt gutter to left edge"
-        },
-        {
           "id": "layout_margins_gutter_binding_clearance_028",
           "prompt_text": "Increase gutter to 200% for spiral binding"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_029",
           "prompt_text": "Increase gutter to 0.75\" for spiral binding"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_030",
-          "prompt_text": "Add 8pt gutter to left edge"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_031",
@@ -625,28 +549,12 @@
           "prompt_text": "Add 50% gutter to left edge"
         },
         {
-          "id": "layout_margins_gutter_binding_clearance_035",
-          "prompt_text": "Increase gutter to 12pt for spiral binding"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_036",
-          "prompt_text": "Set gutter to 10pt on top edge"
-        },
-        {
           "id": "layout_margins_gutter_binding_clearance_037",
           "prompt_text": "Increase gutter to 0.5\" for spiral binding"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_039",
           "prompt_text": "Add 80% gutter to left edge"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_040",
-          "prompt_text": "Set gutter to 12pt on top edge"
-        },
-        {
-          "id": "layout_margins_gutter_binding_clearance_041",
-          "prompt_text": "Adjust inside gutter to 10pt"
         },
         {
           "id": "layout_margins_gutter_binding_clearance_042",
@@ -673,15 +581,15 @@
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_002",
-          "prompt_text": "Keep text 15pt inside safe zone"
+          "prompt_text": "Keep text {15pt} inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_003",
-          "prompt_text": "Ensure 10px margin for trim safety"
+          "prompt_text": "Ensure {10px} margin for trim safety"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_004",
-          "prompt_text": "Set bleed to 10px for background"
+          "prompt_text": "Set bleed to {10px} for background"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_005",
@@ -705,15 +613,11 @@
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_012",
-          "prompt_text": "Check 12pt clearance from edge"
+          "prompt_text": "Check {12pt} clearance from edge"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_013",
-          "prompt_text": "Keep table 1.25\" inside safe zone"
-        },
-        {
-          "id": "layout_margins_safe_zone_edge_printing_014",
-          "prompt_text": "Check 10pt clearance from edge"
+          "prompt_text": "Keep {table 1}.25\" inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_015",
@@ -725,7 +629,7 @@
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_017",
-          "prompt_text": "Keep table 8pt inside safe zone"
+          "prompt_text": "Keep table {8pt} inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_018",
@@ -744,12 +648,8 @@
           "prompt_text": "Keep caption 50% inside safe zone"
         },
         {
-          "id": "layout_margins_safe_zone_edge_printing_023",
-          "prompt_text": "Ensure 12pt margin for trim safety"
-        },
-        {
           "id": "layout_margins_safe_zone_edge_printing_025",
-          "prompt_text": "Keep title 15pt inside safe zone"
+          "prompt_text": "Keep title {15pt} inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_026",
@@ -773,23 +673,15 @@
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_033",
-          "prompt_text": "Move table to 8pt from trim"
-        },
-        {
-          "id": "layout_margins_safe_zone_edge_printing_034",
-          "prompt_text": "Set bleed to 8pt for background"
+          "prompt_text": "Move table to {8pt} from trim"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_035",
-          "prompt_text": "Keep image 2.0\" inside safe zone"
+          "prompt_text": "Keep {image 2}.0\" inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_036",
-          "prompt_text": "Keep graph 8pt inside safe zone"
-        },
-        {
-          "id": "layout_margins_safe_zone_edge_printing_037",
-          "prompt_text": "Set bleed to 10pt for background"
+          "prompt_text": "Keep graph {8pt} inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_038",
@@ -808,12 +700,8 @@
           "prompt_text": "Check 0.5\" clearance from edge"
         },
         {
-          "id": "layout_margins_safe_zone_edge_printing_042",
-          "prompt_text": "Check 10px clearance from edge"
-        },
-        {
           "id": "layout_margins_safe_zone_edge_printing_043",
-          "prompt_text": "Move callout to 5px from trim"
+          "prompt_text": "Move callout to {5px} from trim"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_044",
@@ -832,16 +720,8 @@
           "prompt_text": "Set bleed to 80% for background"
         },
         {
-          "id": "layout_margins_safe_zone_edge_printing_049",
-          "prompt_text": "Check 8pt clearance from edge"
-        },
-        {
           "id": "layout_margins_safe_zone_edge_printing_050",
           "prompt_text": "Set bleed to 50% for background"
-        },
-        {
-          "id": "layout_margins_safe_zone_edge_printing_051",
-          "prompt_text": "Keep title 12pt inside safe zone"
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_052",
@@ -849,7 +729,7 @@
         },
         {
           "id": "layout_margins_safe_zone_edge_printing_053",
-          "prompt_text": "Move note to 10pt from trim"
+          "prompt_text": "Move note to {10pt} from trim"
         }
       ]
     }

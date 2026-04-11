@@ -220,15 +220,7 @@
         },
         {
           "id": "colors_branding_cmyk_process_ink_limits_021",
-          "prompt_text": "Limit total ink to 8pt%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_022",
-          "prompt_text": "Limit total ink to 15pt%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_023",
-          "prompt_text": "Limit total ink to 10px%"
+          "prompt_text": "Limit total ink to {8pt}%"
         },
         {
           "id": "colors_branding_cmyk_process_ink_limits_026",
@@ -239,28 +231,8 @@
           "prompt_text": "Reduce cyan in skin tones to 1.25\"%"
         },
         {
-          "id": "colors_branding_cmyk_process_ink_limits_035",
-          "prompt_text": "Limit total ink to 12pt%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_038",
-          "prompt_text": "Limit total ink to 10pt%"
-        },
-        {
           "id": "colors_branding_cmyk_process_ink_limits_042",
-          "prompt_text": "Reduce cyan in skin tones to 10px%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_043",
-          "prompt_text": "Reduce cyan in skin tones to 15pt%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_051",
-          "prompt_text": "Reduce cyan in skin tones to 5px%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_054",
-          "prompt_text": "Reduce cyan in skin tones to 10pt%"
+          "prompt_text": "Reduce cyan in skin tones to {10px}%"
         },
         {
           "id": "colors_branding_cmyk_process_ink_limits_057",
@@ -283,11 +255,11 @@
       "entries": [
         {
           "id": "colors_branding_gradient_stop_interpolation_001",
-          "prompt_text": "Change stop color to 5px"
+          "prompt_text": "Change stop color to {5px}"
         },
         {
           "id": "colors_branding_gradient_stop_interpolation_002",
-          "prompt_text": "Adjust gradient midpoint to 12pt%"
+          "prompt_text": "Adjust gradient midpoint to {12pt}%"
         },
         {
           "id": "colors_branding_gradient_stop_interpolation_003",
@@ -310,10 +282,6 @@
           "prompt_text": "Add gradient stop at 0.25\"%"
         },
         {
-          "id": "colors_branding_gradient_stop_interpolation_013",
-          "prompt_text": "Adjust gradient midpoint to 5px%"
-        },
-        {
           "id": "colors_branding_gradient_stop_interpolation_015",
           "prompt_text": "Add gradient stop at 100%%"
         },
@@ -327,15 +295,7 @@
         },
         {
           "id": "colors_branding_gradient_stop_interpolation_022",
-          "prompt_text": "Add gradient stop at 12pt%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_025",
-          "prompt_text": "Adjust gradient midpoint to 10px%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_027",
-          "prompt_text": "Change stop color to 10pt"
+          "prompt_text": "Add gradient stop at {12pt}%"
         },
         {
           "id": "colors_branding_gradient_stop_interpolation_029",
@@ -350,20 +310,8 @@
           "prompt_text": "Change stop color to 1.25\""
         },
         {
-          "id": "colors_branding_gradient_stop_interpolation_039",
-          "prompt_text": "Add gradient stop at 5px%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_040",
-          "prompt_text": "Add gradient stop at 10px%"
-        },
-        {
           "id": "colors_branding_gradient_stop_interpolation_047",
           "prompt_text": "Change stop color to 0.25\""
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_048",
-          "prompt_text": "Add gradient stop at 10pt%"
         },
         {
           "id": "colors_branding_gradient_stop_interpolation_049",
@@ -372,14 +320,6 @@
         {
           "id": "colors_branding_gradient_stop_interpolation_051",
           "prompt_text": "Adjust gradient midpoint to 200%%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_052",
-          "prompt_text": "Adjust gradient midpoint to 15pt%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_054",
-          "prompt_text": "Change stop color to 15pt"
         }
       ]
     },
@@ -402,7 +342,7 @@
         },
         {
           "id": "colors_branding_opacity_overlay_blending_004",
-          "prompt_text": "Adjust box opacity to 5px%"
+          "prompt_text": "Adjust box opacity to {5px}%"
         },
         {
           "id": "colors_branding_opacity_overlay_blending_005",
@@ -419,14 +359,6 @@
         {
           "id": "colors_branding_opacity_overlay_blending_010",
           "prompt_text": "Remove transparency from graph"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_011",
-          "prompt_text": "Adjust box opacity to 15pt%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_013",
-          "prompt_text": "Adjust box opacity to 10pt%"
         },
         {
           "id": "colors_branding_opacity_overlay_blending_014",
