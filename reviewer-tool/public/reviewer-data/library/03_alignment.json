@@ -1,0 +1,130 @@
+{
+  "category": "alignment",
+  "groups": [
+    {
+      "subcategory": "body_text_alignment",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "body-text-alignment"
+      ],
+      "entries": [
+        {
+          "id": "alignment_body_text_alignment_001",
+          "prompt_text": "Align footnote block left edge with body left margin"
+        },
+        {
+          "id": "alignment_body_text_alignment_002",
+          "prompt_text": "Center the content block horizontally on page"
+        },
+        {
+          "id": "alignment_body_text_alignment_003",
+          "prompt_text": "Center the {report title} and keep section headers left-aligned"
+        },
+        {
+          "id": "alignment_body_text_alignment_004",
+          "prompt_text": "Drop {sidebar} box down"
+        },
+        {
+          "id": "alignment_body_text_alignment_005",
+          "prompt_text": "Left-align all {body paragraphs} in {Findings section}"
+        },
+        {
+          "id": "alignment_body_text_alignment_006",
+          "prompt_text": "Left-align appendix body text"
+        },
+        {
+          "id": "alignment_body_text_alignment_007",
+          "prompt_text": "Left-align conclusion paragraph"
+        },
+        {
+          "id": "alignment_body_text_alignment_008",
+          "prompt_text": "Left-align disclaimer text at bottom of the page"
+        },
+        {
+          "id": "alignment_body_text_alignment_009",
+          "prompt_text": "Left-align right-aligned paragraph in {sidebar}"
+        },
+        {
+          "id": "alignment_body_text_alignment_010",
+          "prompt_text": "Left-align text in {callout box}"
+        },
+        {
+          "id": "alignment_body_text_alignment_011",
+          "prompt_text": "Left-align {Appendix} headers"
+        },
+        {
+          "id": "alignment_body_text_alignment_012",
+          "prompt_text": "Left-align {centered paragraph} in {Recommendations section}"
+        },
+        {
+          "id": "alignment_body_text_alignment_013",
+          "prompt_text": "Left-align {executive summary paragraphs}"
+        },
+        {
+          "id": "alignment_body_text_alignment_014",
+          "prompt_text": "Move {quote} attribution"
+        },
+        {
+          "id": "alignment_body_text_alignment_015",
+          "prompt_text": "Place author name on same line"
+        },
+        {
+          "id": "alignment_body_text_alignment_016",
+          "prompt_text": "Pull headshot up"
+        },
+        {
+          "id": "alignment_body_text_alignment_017",
+          "prompt_text": "Pull right-aligned date line inside the right margin by {0.1 inches}"
+        },
+        {
+          "id": "alignment_body_text_alignment_018",
+          "prompt_text": "Switch all {justified body text} to {left-aligned}"
+        }
+      ]
+    },
+    {
+      "subcategory": "header_alignment",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "header-alignment"
+      ],
+      "entries": [
+        {
+          "id": "alignment_header_alignment_001",
+          "prompt_text": "Center the {report title}"
+        },
+        {
+          "id": "alignment_header_alignment_002",
+          "prompt_text": "Center the {title} horizontally between {margins}"
+        },
+        {
+          "id": "alignment_header_alignment_003",
+          "prompt_text": "Move {title} block from center of the page to top left"
+        },
+        {
+          "id": "alignment_header_alignment_004",
+          "prompt_text": "Shift {report title} left"
+        }
+      ]
+    },
+    {
+      "subcategory": "tab_stop_consistency",
+      "priority": "alignment",
+      "doc_type": "both",
+      "tags": [
+        "alignment",
+        "tab-stop-consistency"
+      ],
+      "entries": [
+        {
+          "id": "alignment_tab_stop_consistency_001",
+          "prompt_text": "Clear all manual {tab stops} in {Findings} section and reset to default {0.5-inch} stops"
+        }
+      ]
+    }
+  ]
+}

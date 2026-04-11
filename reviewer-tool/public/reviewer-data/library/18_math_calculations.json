@@ -1,0 +1,170 @@
+{
+  "category": "math_calculations",
+  "groups": [
+    {
+      "subcategory": "totals_verification",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "totals-verification"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_totals_verification_001",
+          "prompt_text": "Add colon after {label} {Summary} at top of the document"
+        },
+        {
+          "id": "math_calculations_totals_verification_002",
+          "prompt_text": "Add missing {executive summary} before {findings section}"
+        },
+        {
+          "id": "math_calculations_totals_verification_003",
+          "prompt_text": "Add {14pt} below executive summary before findings begin"
+        },
+        {
+          "id": "math_calculations_totals_verification_004",
+          "prompt_text": "Change expense subtotal to {$385K} to include the {travel line item}"
+        },
+        {
+          "id": "math_calculations_totals_verification_005",
+          "prompt_text": "Change subtotal under {Operating Costs} to {$1.24M}"
+        },
+        {
+          "id": "math_calculations_totals_verification_006",
+          "prompt_text": "Change {totals label} to {Total}"
+        },
+        {
+          "id": "math_calculations_totals_verification_007",
+          "prompt_text": "Change {Neutral} in {survey response breakdown} to {20%}"
+        },
+        {
+          "id": "math_calculations_totals_verification_008",
+          "prompt_text": "Change {increases} in {historical summary} to {increased}"
+        },
+        {
+          "id": "math_calculations_totals_verification_009",
+          "prompt_text": "Change {it's} in {executive summary} to {it is}"
+        },
+        {
+          "id": "math_calculations_totals_verification_010",
+          "prompt_text": "Change {the number of errors are} in summary to {the number of errors is}"
+        },
+        {
+          "id": "math_calculations_totals_verification_011",
+          "prompt_text": "Correct the {total price} in {line item} by multiplying {price} by quantity"
+        },
+        {
+          "id": "math_calculations_totals_verification_012",
+          "prompt_text": "Define {KPI} on {first use} in {opening paragraph}"
+        },
+        {
+          "id": "math_calculations_totals_verification_013",
+          "prompt_text": "Expand {LTV} on first use in {financial summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_014",
+          "prompt_text": "Move {executive summary} to top of the page, before {findings}"
+        },
+        {
+          "id": "math_calculations_totals_verification_015",
+          "prompt_text": "Remove highlighted {placeholder text} from {executive summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_016",
+          "prompt_text": "Remove {board summary} section"
+        },
+        {
+          "id": "math_calculations_totals_verification_017",
+          "prompt_text": "Replace the abbreviation {ROI} in {executive summary} with {return on investment}"
+        },
+        {
+          "id": "math_calculations_totals_verification_018",
+          "prompt_text": "Replace {Lorem ipsum} in {sidebar} with key takeaway text"
+        },
+        {
+          "id": "math_calculations_totals_verification_019",
+          "prompt_text": "Replace {comprehensive} with {full} in {executive summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_020",
+          "prompt_text": "Replace {groundbreaking} with {new} in {research summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_021",
+          "prompt_text": "Replace {move needle} in summary with {make progress}"
+        },
+        {
+          "id": "math_calculations_totals_verification_022",
+          "prompt_text": "Replace {scalable} with {flexible} in {architecture summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_023",
+          "prompt_text": "Replace {synergize} with {combine} in {strategy summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_024",
+          "prompt_text": "Set every {percentage} in {summary box} to {one decimal place}"
+        },
+        {
+          "id": "math_calculations_totals_verification_025",
+          "prompt_text": "Shorten the {executive summary} to three sentences"
+        },
+        {
+          "id": "math_calculations_totals_verification_026",
+          "prompt_text": "Shorten the {executive summary} to {three sentences}"
+        },
+        {
+          "id": "math_calculations_totals_verification_027",
+          "prompt_text": "Spell out {CAC} on first use in {executive summary}"
+        },
+        {
+          "id": "math_calculations_totals_verification_028",
+          "prompt_text": "Split {45-word sentence} in {executive summary} into {two shorter ones}"
+        }
+      ]
+    },
+    {
+      "subcategory": "percentage_sums_100",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "percentage-sums-100"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_percentage_sums_100_001",
+          "prompt_text": "Add missing {budget breakdown} section after {timeline}"
+        }
+      ]
+    },
+    {
+      "subcategory": "growth_rate_arithmetic",
+      "priority": "math_calculations",
+      "doc_type": "both",
+      "tags": [
+        "math_calculations",
+        "growth-rate-arithmetic"
+      ],
+      "entries": [
+        {
+          "id": "math_calculations_growth_rate_arithmetic_001",
+          "prompt_text": "Change Q2 vs Q1 delta to {-3%}"
+        },
+        {
+          "id": "math_calculations_growth_rate_arithmetic_002",
+          "prompt_text": "Change revenue callout to {$3.2M}"
+        },
+        {
+          "id": "math_calculations_growth_rate_arithmetic_003",
+          "prompt_text": "Change {Q3} variance to {$25K}"
+        },
+        {
+          "id": "math_calculations_growth_rate_arithmetic_004",
+          "prompt_text": "Change {the costs has} in {last paragraph} to {the costs have}"
+        }
+      ]
+    }
+  ]
+}

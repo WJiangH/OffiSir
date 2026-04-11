@@ -1,0 +1,23 @@
+[
+  "/reviewer-data/library/01_layout_margins.json",
+  "/reviewer-data/library/02_spacing.json",
+  "/reviewer-data/library/03_alignment.json",
+  "/reviewer-data/library/04_typography.json",
+  "/reviewer-data/library/05_tables_structure.json",
+  "/reviewer-data/library/06_tables_formatting.json",
+  "/reviewer-data/library/07_tables_data.json",
+  "/reviewer-data/library/08_charts_structure.json",
+  "/reviewer-data/library/09_charts_visual_quality.json",
+  "/reviewer-data/library/10_headers_footers.json",
+  "/reviewer-data/library/11_colors_branding.json",
+  "/reviewer-data/library/12_lists.json",
+  "/reviewer-data/library/13_images.json",
+  "/reviewer-data/library/14_page_flow.json",
+  "/reviewer-data/library/15_print_readiness.json",
+  "/reviewer-data/library/16_document_structure.json",
+  "/reviewer-data/library/17_content_accuracy.json",
+  "/reviewer-data/library/18_math_calculations.json",
+  "/reviewer-data/library/19_writing_tone.json",
+  "/reviewer-data/library/20_pptx_specific.json",
+  "/reviewer-data/library/21_docx_specific.json"
+]

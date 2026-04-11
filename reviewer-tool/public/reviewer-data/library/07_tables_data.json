@@ -1,0 +1,301 @@
+{
+  "category": "tables_data",
+  "groups": [
+    {
+      "subcategory": "decimal_place_consistency",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "decimal-place-consistency"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_decimal_place_consistency_001",
+          "prompt_text": "Add dollar sign to every value in {cost column}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_002",
+          "prompt_text": "Add sub{totals row} above grand total"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_003",
+          "prompt_text": "Add {double bottom border} under {totals row}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_004",
+          "prompt_text": "Add {shaded fill} to {totals row}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_005",
+          "prompt_text": "Add dollar sign to every value in {budget table}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_006",
+          "prompt_text": "Add dollar sign to {total row} in {cost breakdown}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_007",
+          "prompt_text": "Align {decimal points} in {numerical column}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_008",
+          "prompt_text": "Change all dates in {milestones table} to {MM/DD/YYYY}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_009",
+          "prompt_text": "Change all percentages in {Table 1} to {one decimal place}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_010",
+          "prompt_text": "Change all {dates} in {review table} to {MM/DD/YYYY}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_011",
+          "prompt_text": "Change blank total cell to {0}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_012",
+          "prompt_text": "Change empty date cell in timeline to an em dash"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_013",
+          "prompt_text": "Change footer date to {MM/DD/YYYY}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_014",
+          "prompt_text": "Change {ARR row} to currency format with no decimals"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_015",
+          "prompt_text": "Change {date column} to {MM/DD/YYYY}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_016",
+          "prompt_text": "Change {score column} to {one decimal}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_017",
+          "prompt_text": "Change {summary callout} to {two decimal places}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_018",
+          "prompt_text": "Make every date in {review table} use {MM/DD/YYYY}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_019",
+          "prompt_text": "Make {bottom border} of the {totals row} {2pt}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_020",
+          "prompt_text": "Make {totals row} bold with a {top border}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_021",
+          "prompt_text": "Move {executive summary} before {table of contents}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_022",
+          "prompt_text": "Place {totals row} directly below last data row with no gap"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_023",
+          "prompt_text": "Remove wrong apostrophe from plural {KPIs} in {summary table}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_024",
+          "prompt_text": "Right-align all dollar amounts in {table}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_025",
+          "prompt_text": "Right-align all {dollar amounts} in {column C}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_026",
+          "prompt_text": "Right-align date column in schedule table"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_027",
+          "prompt_text": "Right-align total value with data column above it"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_028",
+          "prompt_text": "Round every value in {average column} to {two decimal places}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_029",
+          "prompt_text": "Round the {GPA values} in {table} to {two decimal places}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_030",
+          "prompt_text": "Set decimal tab stop at {4 inches}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_031",
+          "prompt_text": "Set keep-together on two-row summary table"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_032",
+          "prompt_text": "Set {column} {totals row} to bold"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_033",
+          "prompt_text": "Set {totals row} height"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_034",
+          "prompt_text": "Sort the {timeline table} by date to latest"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_035",
+          "prompt_text": "Update headcount total at bottom of the {staffing table} to {147}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_036",
+          "prompt_text": "Update {total sum} in {column E} to {100}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_037",
+          "prompt_text": "Use heavier border around the highlighted {total} row"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_038",
+          "prompt_text": "Use {one decimal place} for every percentage in {variance column}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_039",
+          "prompt_text": "Use {one decimal place} for every value in {growth column}"
+        },
+        {
+          "id": "tables_data_decimal_place_consistency_040",
+          "prompt_text": "Use {two decimal places} for every ratio in {efficiency table}"
+        }
+      ]
+    },
+    {
+      "subcategory": "currency_symbol_consistency",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "currency-symbol-consistency"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_currency_symbol_consistency_001",
+          "prompt_text": "Change grand total in {footer callout} to {$3.8M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_002",
+          "prompt_text": "Change grand total in {Table 2} to {$3.8M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_003",
+          "prompt_text": "Change total in {last row} to {$4.1M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_004",
+          "prompt_text": "Change {Regional Total} in text to {$2.1M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_005",
+          "prompt_text": "Change {column} total in {Q2 budget table} to {$1.25M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_006",
+          "prompt_text": "Change {currency values} in {column D} to {dollar symbols}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_007",
+          "prompt_text": "Change {revenue figure} in {executive summary} to {$11.4M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_008",
+          "prompt_text": "Change {revenue total} in {summary section} to {$4.8M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_009",
+          "prompt_text": "Change {row} total for {Region 3} to {$780K}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_010",
+          "prompt_text": "Fix total in {last row} to {$4.1M}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_011",
+          "prompt_text": "Remove cents from every currency value in {summary table}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_012",
+          "prompt_text": "Replace {US dollars} in footnote with {USD}"
+        }
+      ]
+    },
+    {
+      "subcategory": "percentage_format",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "percentage-format"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_percentage_format_001",
+          "prompt_text": "Add percent sign to every value in {margin column}"
+        },
+        {
+          "id": "tables_data_percentage_format_002",
+          "prompt_text": "Add percent sign to {churn value} in {KPI table}"
+        },
+        {
+          "id": "tables_data_percentage_format_003",
+          "prompt_text": "Change light gray row shading in {Table 1} to {30 percent gray}"
+        },
+        {
+          "id": "tables_data_percentage_format_004",
+          "prompt_text": "Change {Services} row in {summary table} to {25%}"
+        },
+        {
+          "id": "tables_data_percentage_format_005",
+          "prompt_text": "Change {growth column}"
+        },
+        {
+          "id": "tables_data_percentage_format_006",
+          "prompt_text": "Move percent sign into header and leave the cells numeric"
+        },
+        {
+          "id": "tables_data_percentage_format_007",
+          "prompt_text": "Reduce full-width image to {80 percent} of the {column} width"
+        },
+        {
+          "id": "tables_data_percentage_format_008",
+          "prompt_text": "Right-align percentage column in {Table 2}"
+        },
+        {
+          "id": "tables_data_percentage_format_009",
+          "prompt_text": "Right-align {percentage column} in {variance table}"
+        },
+        {
+          "id": "tables_data_percentage_format_010",
+          "prompt_text": "Scale the content to {95 percent}"
+        }
+      ]
+    },
+    {
+      "subcategory": "unit_label_placement",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "unit-label-placement"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_unit_label_placement_001",
+          "prompt_text": "Remove italic from {header row} in {summary table}"
+        }
+      ]
+    }
+  ]
+}

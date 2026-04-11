@@ -1,0 +1,237 @@
+{
+  "category": "tables_formatting",
+  "groups": [
+    {
+      "subcategory": "border_consistency",
+      "priority": "tables_formatting",
+      "doc_type": "both",
+      "tags": [
+        "tables_formatting",
+        "border-consistency"
+      ],
+      "entries": [
+        {
+          "id": "tables_formatting_border_consistency_001",
+          "prompt_text": "Add caption to unlabeled table under {Budget} section"
+        },
+        {
+          "id": "tables_formatting_border_consistency_002",
+          "prompt_text": "Add {1pt} border around every cell in {schedule table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_003",
+          "prompt_text": "Add {1pt} right border to {last column}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_004",
+          "prompt_text": "Add {2pt bottom border} under {header row} in {Table 2}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_005",
+          "prompt_text": "Add {caption} above {Table 2}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_006",
+          "prompt_text": "Add {horizontal rule} after {table} of contents"
+        },
+        {
+          "id": "tables_formatting_border_consistency_007",
+          "prompt_text": "Add {shaded fill} to {header row} in {pricing table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_008",
+          "prompt_text": "Add {vertical rule} between two text columns"
+        },
+        {
+          "id": "tables_formatting_border_consistency_009",
+          "prompt_text": "Add thin {horizontal borders} between {data rows} in {Table 1}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_010",
+          "prompt_text": "Add {4pt} of space between {caption} and {table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_011",
+          "prompt_text": "Add {6pt} below {table caption} before {table} starts"
+        },
+        {
+          "id": "tables_formatting_border_consistency_012",
+          "prompt_text": "Change all {table borders} to a {single thin line}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_013",
+          "prompt_text": "Change dashed borders in {Table 3} to solid lines"
+        },
+        {
+          "id": "tables_formatting_border_consistency_014",
+          "prompt_text": "Change gridline color to {light gray}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_015",
+          "prompt_text": "Change highlight fill in {Table 2} to a {lighter gray}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_016",
+          "prompt_text": "Change light blue table header fill to dark gray"
+        },
+        {
+          "id": "tables_formatting_border_consistency_017",
+          "prompt_text": "Change {caption} to {Table 1}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_018",
+          "prompt_text": "Change {header row fill} to {light gray}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_019",
+          "prompt_text": "Change {page divider line} to same {gray}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_020",
+          "prompt_text": "Change {table of contents} link color"
+        },
+        {
+          "id": "tables_formatting_border_consistency_021",
+          "prompt_text": "Keep {header row} {white} text on a {dark} fill"
+        },
+        {
+          "id": "tables_formatting_border_consistency_022",
+          "prompt_text": "Left-align {table caption} with left edge of the {table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_023",
+          "prompt_text": "Left-align {table caption} with {table edge}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_024",
+          "prompt_text": "Left-align {table} notes"
+        },
+        {
+          "id": "tables_formatting_border_consistency_025",
+          "prompt_text": "Make all {table caption}s {10pt}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_026",
+          "prompt_text": "Match {border} weight on every cell in {forecast table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_027",
+          "prompt_text": "Move {caption} below {Table 3}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_028",
+          "prompt_text": "Remove bold from {Table 3} caption"
+        },
+        {
+          "id": "tables_formatting_border_consistency_029",
+          "prompt_text": "Remove {heavy outer border} around the {comparison table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_030",
+          "prompt_text": "Remove {vertical borders} from {data table}"
+        },
+        {
+          "id": "tables_formatting_border_consistency_031",
+          "prompt_text": "Remove vertical borders and keep only horizontal row dividers"
+        },
+        {
+          "id": "tables_formatting_border_consistency_032",
+          "prompt_text": "Set all {table caption}s to {10pt} italic"
+        },
+        {
+          "id": "tables_formatting_border_consistency_033",
+          "prompt_text": "Set {header row} bottom border to {2pt} {dark gray} and row dividers to 0.5pt light gray"
+        },
+        {
+          "id": "tables_formatting_border_consistency_034",
+          "prompt_text": "Switch {table title} color from {green} to same {navy}"
+        }
+      ]
+    },
+    {
+      "subcategory": "cell_padding",
+      "priority": "tables_formatting",
+      "doc_type": "both",
+      "tags": [
+        "tables_formatting",
+        "cell-padding"
+      ],
+      "entries": [
+        {
+          "id": "tables_formatting_cell_padding_001",
+          "prompt_text": "Add {3pt} of bottom padding to every cell in {roster table}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_002",
+          "prompt_text": "Add {4pt} of padding to every cell in {metrics table}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_003",
+          "prompt_text": "Add {6pt} of left padding in {first column} of {Table 3}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_004",
+          "prompt_text": "Add {8pt} of left and right padding to every cell in {comparison table}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_005",
+          "prompt_text": "Increase {vertical padding} in {header row} to {6pt}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_006",
+          "prompt_text": "Match {top and bottom cell padding} across every {row}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_007",
+          "prompt_text": "Reduce internal cell padding in {table} to {2pt}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_008",
+          "prompt_text": "Remove extra top padding in first data row"
+        },
+        {
+          "id": "tables_formatting_cell_padding_009",
+          "prompt_text": "Set even {padding} on all {four sides} of every cell in {Table 1}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_010",
+          "prompt_text": "Shrink five-row table cell padding to {2pt}"
+        }
+      ]
+    },
+    {
+      "subcategory": "column_width_proportions",
+      "priority": "tables_formatting",
+      "doc_type": "both",
+      "tags": [
+        "tables_formatting",
+        "column-width-proportions"
+      ],
+      "entries": [
+        {
+          "id": "tables_formatting_column_width_proportions_001",
+          "prompt_text": "Enlarge {Figure 2} to fill the {full column} width"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_002",
+          "prompt_text": "Set {table} to fill the {width} between {margins}"
+        }
+      ]
+    },
+    {
+      "subcategory": "alternating_row_shading",
+      "priority": "tables_formatting",
+      "doc_type": "both",
+      "tags": [
+        "tables_formatting",
+        "alternating-row-shading"
+      ],
+      "entries": [
+        {
+          "id": "tables_formatting_alternating_row_shading_001",
+          "prompt_text": "Use {light gray} fill on alternating table rows"
+        }
+      ]
+    }
+  ]
+}

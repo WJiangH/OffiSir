@@ -1,0 +1,328 @@
+{
+  "category": "layout_margins",
+  "groups": [
+    {
+      "subcategory": "margin_consistency",
+      "priority": "layout_margins",
+      "doc_type": "both",
+      "tags": [
+        "layout_margins",
+        "margin-consistency"
+      ],
+      "entries": [
+        {
+          "id": "layout_margins_margin_consistency_001",
+          "prompt_text": "Change {margin improvement callout} to {2.5 pp}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_002",
+          "prompt_text": "Cut background fill at margin"
+        },
+        {
+          "id": "layout_margins_margin_consistency_003",
+          "prompt_text": "Delete three unresolved comments in margin"
+        },
+        {
+          "id": "layout_margins_margin_consistency_004",
+          "prompt_text": "Increase top margin to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_005",
+          "prompt_text": "Increase {bottom margin} to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_006",
+          "prompt_text": "Move {callout box} left edge to {1-inch} left margin"
+        },
+        {
+          "id": "layout_margins_margin_consistency_007",
+          "prompt_text": "Remove repeated sentence about {margin pressure} in {conclusion}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_008",
+          "prompt_text": "Set all four margins to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_009",
+          "prompt_text": "Set all four margins to {1 inch} on landscape layout"
+        },
+        {
+          "id": "layout_margins_margin_consistency_010",
+          "prompt_text": "Set equal {1 inch} margins on all four sides"
+        },
+        {
+          "id": "layout_margins_margin_consistency_011",
+          "prompt_text": "Set bottom margin to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_012",
+          "prompt_text": "Set inside margin to {1.25 inches} and outside margin to {0.75 inches}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_013",
+          "prompt_text": "Set left and right margins to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_014",
+          "prompt_text": "Set left margin on landscape layout to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_015",
+          "prompt_text": "Set left margin to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_016",
+          "prompt_text": "Set left margin to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_017",
+          "prompt_text": "Set margins in appendix section to {1 inch} on all sides"
+        },
+        {
+          "id": "layout_margins_margin_consistency_018",
+          "prompt_text": "Set right margin to {1 inch} on landscape layout"
+        },
+        {
+          "id": "layout_margins_margin_consistency_019",
+          "prompt_text": "Set top margin to {1 inch} on landscape layout"
+        },
+        {
+          "id": "layout_margins_margin_consistency_020",
+          "prompt_text": "Set {right margin} to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_021",
+          "prompt_text": "Set {top margin} to {1 inch}"
+        },
+        {
+          "id": "layout_margins_margin_consistency_022",
+          "prompt_text": "Set uniform {1-inch} margins on all four sides"
+        }
+      ]
+    },
+    {
+      "subcategory": "margin_adjust_individual",
+      "priority": "layout_margins",
+      "doc_type": "both",
+      "tags": [
+        "layout_margins",
+        "margin-adjust-individual"
+      ],
+      "entries": [
+        {
+          "id": "layout_margins_margin_adjust_individual_001",
+          "prompt_text": "Add {0.3 inch} gutter to left margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_002",
+          "prompt_text": "Add {0.75 inch} left margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_003",
+          "prompt_text": "Add {0.2 inches} to bottom margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_004",
+          "prompt_text": "Add {0.25 inches} to top margin in appendix section"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_005",
+          "prompt_text": "Extend the accent stripe on left margin past trim edge"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_006",
+          "prompt_text": "Increase left margin to {1.25 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_007",
+          "prompt_text": "Indent the {block quote} {0.5 inches} from both {left and right margins}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_008",
+          "prompt_text": "Match {sidebar} right edge to body text right margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_009",
+          "prompt_text": "Move {copyright line} up"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_010",
+          "prompt_text": "Move {pull quote} to right margin area"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_011",
+          "prompt_text": "Move {sidebar} right edge {0.2 inches} inside the right margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_012",
+          "prompt_text": "Move {source note} inside the bottom margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_013",
+          "prompt_text": "Pull last paragraph up"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_014",
+          "prompt_text": "Pull {quote} block in {0.3 inches} from left margin"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_015",
+          "prompt_text": "Push footnotes up"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_016",
+          "prompt_text": "Reduce bottom margin to {0.5 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_017",
+          "prompt_text": "Reduce top margin to {0.5 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_018",
+          "prompt_text": "Reduce {sidebar} bottom margin to {6pt}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_019",
+          "prompt_text": "Set bottom margin to {0.75 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_020",
+          "prompt_text": "Set left and right margins to {0.75 inches} each"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_021",
+          "prompt_text": "Set left margin to {1.25 inches} and right margin to {0.75 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_022",
+          "prompt_text": "Set right margin to {0.75 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_023",
+          "prompt_text": "Set top margin to {0.75 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_024",
+          "prompt_text": "Set {left margin} to {1.25 inches}"
+        },
+        {
+          "id": "layout_margins_margin_adjust_individual_025",
+          "prompt_text": "Shift {sidebar} to {right margin} of the page"
+        }
+      ]
+    },
+    {
+      "subcategory": "gutter_binding_space",
+      "priority": "layout_margins",
+      "doc_type": "both",
+      "tags": [
+        "layout_margins",
+        "gutter-binding-space"
+      ],
+      "entries": [
+        {
+          "id": "layout_margins_gutter_binding_space_001",
+          "prompt_text": "Add {0.25 inch} gutter on inside margin"
+        },
+        {
+          "id": "layout_margins_gutter_binding_space_002",
+          "prompt_text": "Remove gutter margin"
+        },
+        {
+          "id": "layout_margins_gutter_binding_space_003",
+          "prompt_text": "Increase gutter by {0.25 inches}"
+        },
+        {
+          "id": "layout_margins_gutter_binding_space_004",
+          "prompt_text": "Increase gutter to {0.5 inches} for spiral binding"
+        },
+        {
+          "id": "layout_margins_gutter_binding_space_005",
+          "prompt_text": "Move gutter from top to left side"
+        },
+        {
+          "id": "layout_margins_gutter_binding_space_006",
+          "prompt_text": "Move gutter from top to left side for side binding"
+        }
+      ]
+    },
+    {
+      "subcategory": "trim_bleed_slug",
+      "priority": "layout_margins",
+      "doc_type": "both",
+      "tags": [
+        "layout_margins",
+        "trim-bleed-slug"
+      ],
+      "entries": [
+        {
+          "id": "layout_margins_trim_bleed_slug_001",
+          "prompt_text": "Add bleed marks to PDF export settings"
+        },
+        {
+          "id": "layout_margins_trim_bleed_slug_002",
+          "prompt_text": "Move barcode {0.25 inches} inside the back cover trim"
+        },
+        {
+          "id": "layout_margins_trim_bleed_slug_003",
+          "prompt_text": "Pull {copyright line} above bottom trim by {0.15 inches}"
+        },
+        {
+          "id": "layout_margins_trim_bleed_slug_004",
+          "prompt_text": "Set slug area to {0.5 inches} outside the trim for printer notes"
+        },
+        {
+          "id": "layout_margins_trim_bleed_slug_005",
+          "prompt_text": "Shift footnote {0.2 inches} above bottom trim line"
+        },
+        {
+          "id": "layout_margins_trim_bleed_slug_006",
+          "prompt_text": "Trim the {background section} down to {one paragraph}"
+        }
+      ]
+    },
+    {
+      "subcategory": "page_orientation",
+      "priority": "layout_margins",
+      "doc_type": "both",
+      "tags": [
+        "layout_margins",
+        "page-orientation"
+      ],
+      "entries": [
+        {
+          "id": "layout_margins_page_orientation_001",
+          "prompt_text": "Change one-page memo back to portrait"
+        },
+        {
+          "id": "layout_margins_page_orientation_002",
+          "prompt_text": "Change page orientation to landscape"
+        },
+        {
+          "id": "layout_margins_page_orientation_003",
+          "prompt_text": "Change page to landscape orientation"
+        },
+        {
+          "id": "layout_margins_page_orientation_004",
+          "prompt_text": "Change {page} to {wide orientation}"
+        },
+        {
+          "id": "layout_margins_page_orientation_005",
+          "prompt_text": "Keep page in portrait orientation"
+        },
+        {
+          "id": "layout_margins_page_orientation_007",
+          "prompt_text": "Set page orientation to portrait"
+        },
+        {
+          "id": "layout_margins_page_orientation_008",
+          "prompt_text": "Switch {page} back to {portrait orientation}"
+        },
+        {
+          "id": "layout_margins_page_orientation_009",
+          "prompt_text": "Switch to landscape"
+        }
+      ]
+    }
+  ]
+}

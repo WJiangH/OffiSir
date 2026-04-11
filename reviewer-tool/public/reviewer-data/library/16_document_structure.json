@@ -1,0 +1,179 @@
+{
+  "category": "document_structure",
+  "groups": [
+    {
+      "subcategory": "section_presence_order",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "section-presence-order"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_section_presence_order_001",
+          "prompt_text": "Add back-to-top link at bottom of the {references} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_002",
+          "prompt_text": "Add bookmark"
+        },
+        {
+          "id": "document_structure_section_presence_order_003",
+          "prompt_text": "Add bookmark"
+        },
+        {
+          "id": "document_structure_section_presence_order_004",
+          "prompt_text": "Add clickable link to URL printed in plain text in {references} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_005",
+          "prompt_text": "Add footer below {references} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_006",
+          "prompt_text": "Add footer with company name and date below {appendix} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_007",
+          "prompt_text": "Add glossary entry"
+        },
+        {
+          "id": "document_structure_section_presence_order_008",
+          "prompt_text": "Add {horizontal rule} before {References} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_009",
+          "prompt_text": "Add {text layer} to scanned {reference} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_010",
+          "prompt_text": "Add bookmarks for each subsection under {References}"
+        },
+        {
+          "id": "document_structure_section_presence_order_011",
+          "prompt_text": "Add bookmarks"
+        },
+        {
+          "id": "document_structure_section_presence_order_012",
+          "prompt_text": "Add dot leaders between TOC entries and their section numbers"
+        },
+        {
+          "id": "document_structure_section_presence_order_013",
+          "prompt_text": "Add missing glossary entry"
+        },
+        {
+          "id": "document_structure_section_presence_order_014",
+          "prompt_text": "Add missing page number below {glossary} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_015",
+          "prompt_text": "Add missing {acknowledgments} section before {references}"
+        },
+        {
+          "id": "document_structure_section_presence_order_016",
+          "prompt_text": "Add page number below {references} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_017",
+          "prompt_text": "Add {running header} above {appendix} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_018",
+          "prompt_text": "Change page number to {A-1}"
+        },
+        {
+          "id": "document_structure_section_presence_order_019",
+          "prompt_text": "Delete trailing {page break} after {references section}"
+        },
+        {
+          "id": "document_structure_section_presence_order_020",
+          "prompt_text": "Delete {glossary} section"
+        },
+        {
+          "id": "document_structure_section_presence_order_021",
+          "prompt_text": "Fix bookmark for {Section 3} that jumps to wrong location"
+        },
+        {
+          "id": "document_structure_section_presence_order_022",
+          "prompt_text": "Put references after conclusion"
+        },
+        {
+          "id": "document_structure_section_presence_order_023",
+          "prompt_text": "Put {glossary} after {main body}"
+        },
+        {
+          "id": "document_structure_section_presence_order_024",
+          "prompt_text": "Remove broken link in {references} section that leads to a {404}"
+        },
+        {
+          "id": "document_structure_section_presence_order_025",
+          "prompt_text": "Remove clickable border box around the footnote link"
+        },
+        {
+          "id": "document_structure_section_presence_order_026",
+          "prompt_text": "Remove {appendix section} at bottom"
+        },
+        {
+          "id": "document_structure_section_presence_order_027",
+          "prompt_text": "Rename the {Bookmark 1} label"
+        },
+        {
+          "id": "document_structure_section_presence_order_028",
+          "prompt_text": "Restart the {reference} section numbering at {R-1}"
+        },
+        {
+          "id": "document_structure_section_presence_order_029",
+          "prompt_text": "Set PDF to open with bookmark panel visible"
+        }
+      ]
+    },
+    {
+      "subcategory": "reference_integrity",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "reference-integrity"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_reference_integrity_001",
+          "prompt_text": "Add publication year to every reference entry"
+        },
+        {
+          "id": "document_structure_reference_integrity_002",
+          "prompt_text": "Change URL in {reference 4} from a dead link to archived version"
+        },
+        {
+          "id": "document_structure_reference_integrity_003",
+          "prompt_text": "Change {Author Name} in {reference 3} to {Chen, R. et al.}"
+        },
+        {
+          "id": "document_structure_reference_integrity_004",
+          "prompt_text": "Cut {reference paragraph} at {bottom}"
+        },
+        {
+          "id": "document_structure_reference_integrity_005",
+          "prompt_text": "Move footnote reference sentence directly below paragraph that cites it"
+        },
+        {
+          "id": "document_structure_reference_integrity_006",
+          "prompt_text": "Move {acknowledgments} to end of the document after {references}"
+        },
+        {
+          "id": "document_structure_reference_integrity_007",
+          "prompt_text": "Move {appendix} after {references}"
+        },
+        {
+          "id": "document_structure_reference_integrity_008",
+          "prompt_text": "Remove {see Appendix B} reference"
+        },
+        {
+          "id": "document_structure_reference_integrity_009",
+          "prompt_text": "Remove {see page 12} reference"
+        }
+      ]
+    }
+  ]
+}

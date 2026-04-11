@@ -1,0 +1,20 @@
+{
+  "category": "docx_specific",
+  "groups": [
+    {
+      "subcategory": "heading_style_application",
+      "priority": "docx_specific",
+      "doc_type": "both",
+      "tags": [
+        "docx_specific",
+        "heading-style-application"
+      ],
+      "entries": [
+        {
+          "id": "docx_specific_heading_style_application_001",
+          "prompt_text": "Turn off track changes before making the final round of edits"
+        }
+      ]
+    }
+  ]
+}

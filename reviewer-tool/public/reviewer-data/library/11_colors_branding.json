@@ -1,0 +1,134 @@
+{
+  "category": "colors_branding",
+  "groups": [
+    {
+      "subcategory": "hex_code_accuracy",
+      "priority": "colors_branding",
+      "doc_type": "both",
+      "tags": [
+        "colors_branding",
+        "hex-code-accuracy"
+      ],
+      "entries": [
+        {
+          "id": "colors_branding_hex_code_accuracy_001",
+          "prompt_text": "Add color bar to bottom trim area for press calibration"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_002",
+          "prompt_text": "Change watermark color to {light gray}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_003",
+          "prompt_text": "Change {accent line} under {title} to {teal}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_004",
+          "prompt_text": "Change {email link} color from {teal} to same {blue}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_005",
+          "prompt_text": "Change {line} colors"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_006",
+          "prompt_text": "Change {pale blue} body text in {title} block to {navy}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_007",
+          "prompt_text": "Change {section headers} to {navy}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_008",
+          "prompt_text": "Change {white text} in {yellow box} to {charcoal}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_009",
+          "prompt_text": "Darken the {light gray body text} to {charcoal}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_010",
+          "prompt_text": "Extend the side color panel to bottom edge of the page"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_011",
+          "prompt_text": "Limit the {page} to {four colors} total"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_012",
+          "prompt_text": "Remove gradient fill from bars and use flat color"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_013",
+          "prompt_text": "Remove half-bleed color band and stop it at margin"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_014",
+          "prompt_text": "Set {source line} color to {dark gray}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_015",
+          "prompt_text": "Use same link color in body text and {footnotes}"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_016",
+          "prompt_text": "Use {navy} for all cross-reference links in document"
+        },
+        {
+          "id": "colors_branding_hex_code_accuracy_017",
+          "prompt_text": "Use {teal} for all three {metric callouts}"
+        }
+      ]
+    },
+    {
+      "subcategory": "consistent_color_usage",
+      "priority": "colors_branding",
+      "doc_type": "both",
+      "tags": [
+        "colors_branding",
+        "consistent-color-usage"
+      ],
+      "entries": [
+        {
+          "id": "colors_branding_consistent_color_usage_001",
+          "prompt_text": "Limit accent colors to {teal} and {gold} only"
+        }
+      ]
+    },
+    {
+      "subcategory": "brand_palette_adherence",
+      "priority": "colors_branding",
+      "doc_type": "both",
+      "tags": [
+        "colors_branding",
+        "brand-palette-adherence"
+      ],
+      "entries": [
+        {
+          "id": "colors_branding_brand_palette_adherence_001",
+          "prompt_text": "Change {border} color on {callout boxes} from {orange} to brand teal"
+        },
+        {
+          "id": "colors_branding_brand_palette_adherence_002",
+          "prompt_text": "Change {hyperlink color} to brand {blue}"
+        },
+        {
+          "id": "colors_branding_brand_palette_adherence_003",
+          "prompt_text": "Change {title} color from {light blue} to brand {navy}"
+        },
+        {
+          "id": "colors_branding_brand_palette_adherence_004",
+          "prompt_text": "Move brand color bar to top edge of the page"
+        },
+        {
+          "id": "colors_branding_brand_palette_adherence_005",
+          "prompt_text": "Remove default {purple} from {visited link} and use {brand blue}"
+        },
+        {
+          "id": "colors_branding_brand_palette_adherence_006",
+          "prompt_text": "Remove off-brand {teal} and replace it with approved brand {green}"
+        }
+      ]
+    }
+  ]
+}

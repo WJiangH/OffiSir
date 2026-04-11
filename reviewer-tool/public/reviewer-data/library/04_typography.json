@@ -1,0 +1,596 @@
+{
+  "category": "typography",
+  "groups": [
+    {
+      "subcategory": "font_size_hierarchy",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "font-size-hierarchy"
+      ],
+      "entries": [
+        {
+          "id": "typography_font_size_hierarchy_001",
+          "prompt_text": "Add section numbers to unnumbered {References} and {Glossary} headings"
+        },
+        {
+          "id": "typography_font_size_hierarchy_002",
+          "prompt_text": "Add missing page number below {appendix} heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_003",
+          "prompt_text": "Add {18pt} above every H1 heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_004",
+          "prompt_text": "Add {24pt} of space above {Appendix} heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_005",
+          "prompt_text": "Align numbered headings to same tab stop"
+        },
+        {
+          "id": "typography_font_size_hierarchy_006",
+          "prompt_text": "Apply the {List Bullet} style to manual bullet paragraphs in {findings}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_007",
+          "prompt_text": "Apply the {Normal} style to manually formatted body paragraphs under {Recommendations}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_008",
+          "prompt_text": "Apply {Heading 1 style} to every {top-level section header}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_009",
+          "prompt_text": "Apply {Heading 2} style to each subsection header in body"
+        },
+        {
+          "id": "typography_font_size_hierarchy_010",
+          "prompt_text": "Break {nine-item list} into two groups with a subheading each"
+        },
+        {
+          "id": "typography_font_size_hierarchy_011",
+          "prompt_text": "Capitalize the {running header} text"
+        },
+        {
+          "id": "typography_font_size_hierarchy_012",
+          "prompt_text": "Center the {title heading} at {top of the page}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_013",
+          "prompt_text": "Change disclaimer paragraph to same font"
+        },
+        {
+          "id": "typography_font_size_hierarchy_014",
+          "prompt_text": "Change footer font size to {8pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_015",
+          "prompt_text": "Change market size in {title block} to {$6.5B}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_016",
+          "prompt_text": "Change month over month delta in {churn callout} to {minus 1.4 points}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_017",
+          "prompt_text": "Change numbering style in {References} section to {a b c}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_018",
+          "prompt_text": "Change page number to {i}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_019",
+          "prompt_text": "Change page number size to {9pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_020",
+          "prompt_text": "Change page size to {US Letter}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_021",
+          "prompt_text": "Change page size to {A4}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_022",
+          "prompt_text": "Change plural {departments'} to singular {department's} in heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_023",
+          "prompt_text": "Change roman numeral page number to lowercase ({i}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_024",
+          "prompt_text": "Change sub-items under {step 2} to lowercase letters"
+        },
+        {
+          "id": "typography_font_size_hierarchy_025",
+          "prompt_text": "Change subheading color from {black} to brand {dark blue}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_026",
+          "prompt_text": "Change {Q3} data point to {27}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_027",
+          "prompt_text": "Change {appendix heading} color to same {navy}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_028",
+          "prompt_text": "Change {block quote} under {Background} from {Normal} to Quote style"
+        },
+        {
+          "id": "typography_font_size_hierarchy_029",
+          "prompt_text": "Change {sidebar heading} color"
+        },
+        {
+          "id": "typography_font_size_hierarchy_030",
+          "prompt_text": "Change {recomendation} in heading to {recommendation}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_031",
+          "prompt_text": "Embed all fonts as subsets"
+        },
+        {
+          "id": "typography_font_size_hierarchy_032",
+          "prompt_text": "Embed the body font in PDF export"
+        },
+        {
+          "id": "typography_font_size_hierarchy_033",
+          "prompt_text": "Embed the heading font"
+        },
+        {
+          "id": "typography_font_size_hierarchy_034",
+          "prompt_text": "Embed the monospace font used in code block under {Methods}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_035",
+          "prompt_text": "Ensure {6pt} size difference between {headings} and {body text}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_036",
+          "prompt_text": "Fix TOC entry"
+        },
+        {
+          "id": "typography_font_size_hierarchy_037",
+          "prompt_text": "Keep {Methods heading} and its {first paragraph} together with no gap"
+        },
+        {
+          "id": "typography_font_size_hierarchy_038",
+          "prompt_text": "Left-align all {H2 subheadings}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_039",
+          "prompt_text": "Left-align H3 headings"
+        },
+        {
+          "id": "typography_font_size_hierarchy_040",
+          "prompt_text": "Left-align centered {Appendix} section heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_041",
+          "prompt_text": "Lowercase the random capital in middle of {paragraph 4}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_042",
+          "prompt_text": "Lowercase the word {Board} in generic reference in {paragraph 2}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_043",
+          "prompt_text": "Lowercase the word {Following} in middle of the sentence under {Background}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_044",
+          "prompt_text": "Make all bullet text the same size across the three lists"
+        },
+        {
+          "id": "typography_font_size_hierarchy_045",
+          "prompt_text": "Make page number and footer text the same size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_046",
+          "prompt_text": "Make sub-bullets one size smaller than the top-level bullets"
+        },
+        {
+          "id": "typography_font_size_hierarchy_047",
+          "prompt_text": "Make two disclaimer paragraphs the same size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_048",
+          "prompt_text": "Make {Findings} header the same size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_049",
+          "prompt_text": "Make {document title} two sizes larger than the section headers"
+        },
+        {
+          "id": "typography_font_size_hierarchy_050",
+          "prompt_text": "Make {sidebar} heading align with left edge of the {sidebar} text"
+        },
+        {
+          "id": "typography_font_size_hierarchy_051",
+          "prompt_text": "Match footer font to {running header} font"
+        },
+        {
+          "id": "typography_font_size_hierarchy_052",
+          "prompt_text": "Match page number font to body font"
+        },
+        {
+          "id": "typography_font_size_hierarchy_053",
+          "prompt_text": "Match section number format between {Findings} and {Recommendations} headings"
+        },
+        {
+          "id": "typography_font_size_hierarchy_054",
+          "prompt_text": "Match size of the {two callout headings}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_055",
+          "prompt_text": "Match {Recommendations} header size to {Findings} header"
+        },
+        {
+          "id": "typography_font_size_hierarchy_056",
+          "prompt_text": "Match {bar} colors to brand palette in style guide"
+        },
+        {
+          "id": "typography_font_size_hierarchy_057",
+          "prompt_text": "Match {callout box} heading font to section headers"
+        },
+        {
+          "id": "typography_font_size_hierarchy_058",
+          "prompt_text": "Match {sidebar} font to rest of the document"
+        },
+        {
+          "id": "typography_font_size_hierarchy_059",
+          "prompt_text": "Move first heading down"
+        },
+        {
+          "id": "typography_font_size_hierarchy_060",
+          "prompt_text": "Push heading numbers inside the left margin line"
+        },
+        {
+          "id": "typography_font_size_hierarchy_061",
+          "prompt_text": "Reduce gap between H3 subheading and its first paragraph to {4pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_062",
+          "prompt_text": "Reduce space after {Findings} heading to {6pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_063",
+          "prompt_text": "Reduce {blank band} between {header rule} and first heading to {6pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_064",
+          "prompt_text": "Remove direct font override from {title} style"
+        },
+        {
+          "id": "typography_font_size_hierarchy_065",
+          "prompt_text": "Remove duplicate font entry that inflates the PDF file size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_066",
+          "prompt_text": "Remove fallback serif font from footer"
+        },
+        {
+          "id": "typography_font_size_hierarchy_067",
+          "prompt_text": "Remove first-line indent from paragraphs that follow a heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_068",
+          "prompt_text": "Remove inline font-size override on {Heading 3} lines"
+        },
+        {
+          "id": "typography_font_size_hierarchy_069",
+          "prompt_text": "Remove stale bookmark that points to a deleted section"
+        },
+        {
+          "id": "typography_font_size_hierarchy_070",
+          "prompt_text": "Remove substituted serif font from PDF footer"
+        },
+        {
+          "id": "typography_font_size_hierarchy_071",
+          "prompt_text": "Remove {teal} from {H3 headings} and use same {navy} as H1"
+        },
+        {
+          "id": "typography_font_size_hierarchy_072",
+          "prompt_text": "Replace the missing symbol font in {bullet list} with an embedded alternative"
+        },
+        {
+          "id": "typography_font_size_hierarchy_073",
+          "prompt_text": "Set all {body paragraphs} to same {sans-serif font}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_074",
+          "prompt_text": "Set every body paragraph under {Findings} to same font size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_075",
+          "prompt_text": "Set every sidebar heading to {13pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_076",
+          "prompt_text": "Set page number to same font"
+        },
+        {
+          "id": "typography_font_size_hierarchy_077",
+          "prompt_text": "Set page size to {8.5 by 11 inches} in export settings"
+        },
+        {
+          "id": "typography_font_size_hierarchy_078",
+          "prompt_text": "Set paper size to {A4}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_079",
+          "prompt_text": "Set reference section labels to one consistent size"
+        },
+        {
+          "id": "typography_font_size_hierarchy_080",
+          "prompt_text": "Set {callout box} heading to {15pt}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_081",
+          "prompt_text": "Set {0pt} between heading and {rule} line below it"
+        },
+        {
+          "id": "typography_font_size_hierarchy_082",
+          "prompt_text": "Set {10pt} above and {6pt} below for all H3 headings"
+        },
+        {
+          "id": "typography_font_size_hierarchy_083",
+          "prompt_text": "Set {18pt} of space above every {major section heading}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_084",
+          "prompt_text": "Set {6pt} below every H2 heading"
+        },
+        {
+          "id": "typography_font_size_hierarchy_085",
+          "prompt_text": "Set {6pt} below every {section heading}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_086",
+          "prompt_text": "Start every sub-bullet with a lowercase word"
+        },
+        {
+          "id": "typography_font_size_hierarchy_087",
+          "prompt_text": "Strip the direct color override from subtitle and let the style control it"
+        },
+        {
+          "id": "typography_font_size_hierarchy_088",
+          "prompt_text": "Use same bullet style in {Risks} section"
+        },
+        {
+          "id": "typography_font_size_hierarchy_089",
+          "prompt_text": "Use same {blue} on {title heading} and {body headings}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_090",
+          "prompt_text": "Use {charcoal} for all {headings}"
+        },
+        {
+          "id": "typography_font_size_hierarchy_091",
+          "prompt_text": "Change bullets in {summary box} to sentence case"
+        },
+        {
+          "id": "typography_font_size_hierarchy_092",
+          "prompt_text": "Change footer text to sentence case"
+        },
+        {
+          "id": "typography_font_size_hierarchy_093",
+          "prompt_text": "Change {bullet labels} in {sidebar} to {sentence case}"
+        }
+      ]
+    },
+    {
+      "subcategory": "pptx_font_minimums",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "pptx-font-minimums"
+      ],
+      "entries": [
+        {
+          "id": "typography_pptx_font_minimums_001",
+          "prompt_text": "Reduce sub-bullet font to {10pt} under {12pt} top-level items"
+        }
+      ]
+    },
+    {
+      "subcategory": "font_family_consistency",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "font-family-consistency"
+      ],
+      "entries": [
+        {
+          "id": "typography_font_family_consistency_001",
+          "prompt_text": "Set footer text to {9pt} {Arial}"
+        },
+        {
+          "id": "typography_font_family_consistency_002",
+          "prompt_text": "Change all {body text} to {Arial}"
+        },
+        {
+          "id": "typography_font_family_consistency_003",
+          "prompt_text": "Change footer font from {Times New Roman} to same sans-serif"
+        },
+        {
+          "id": "typography_font_family_consistency_004",
+          "prompt_text": "Change page number to same font family"
+        },
+        {
+          "id": "typography_font_family_consistency_005",
+          "prompt_text": "Change {quote} block to same font family"
+        },
+        {
+          "id": "typography_font_family_consistency_006",
+          "prompt_text": "Switch {body text} to {Calibri}"
+        }
+      ]
+    },
+    {
+      "subcategory": "font_style_usage",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "font-style-usage"
+      ],
+      "entries": [
+        {
+          "id": "typography_font_style_usage_001",
+          "prompt_text": "Add italics to disclaimer paragraph at bottom"
+        },
+        {
+          "id": "typography_font_style_usage_002",
+          "prompt_text": "Bold the company name in footer and leave the rest regular weight"
+        },
+        {
+          "id": "typography_font_style_usage_003",
+          "prompt_text": "Bold the first sentence of every bullet in summary list"
+        },
+        {
+          "id": "typography_font_style_usage_004",
+          "prompt_text": "Change hyperlink color to dark gray and add underline for grayscale printing"
+        },
+        {
+          "id": "typography_font_style_usage_005",
+          "prompt_text": "Change light green status badge fill to {25 percent gray} with a bold label"
+        },
+        {
+          "id": "typography_font_style_usage_006",
+          "prompt_text": "Change page number to regular"
+        },
+        {
+          "id": "typography_font_style_usage_007",
+          "prompt_text": "Change second-level bullets to regular weight"
+        },
+        {
+          "id": "typography_font_style_usage_008",
+          "prompt_text": "Change underline color on {key terms} from {red} to brand {blue}"
+        },
+        {
+          "id": "typography_font_style_usage_009",
+          "prompt_text": "Fix bold weight that dropped to regular in heading after export"
+        },
+        {
+          "id": "typography_font_style_usage_010",
+          "prompt_text": "Fix italic style that renders as oblique in exported PDF"
+        },
+        {
+          "id": "typography_font_style_usage_011",
+          "prompt_text": "Italicize the {confidentiality notice} in footer"
+        },
+        {
+          "id": "typography_font_style_usage_012",
+          "prompt_text": "Italicize the {quote} text in {pull quote} box"
+        },
+        {
+          "id": "typography_font_style_usage_013",
+          "prompt_text": "Italicize the {source line} text"
+        },
+        {
+          "id": "typography_font_style_usage_014",
+          "prompt_text": "Make KPI values in dashboard bold"
+        },
+        {
+          "id": "typography_font_style_usage_015",
+          "prompt_text": "Make {callout box} header bold and body regular"
+        },
+        {
+          "id": "typography_font_style_usage_016",
+          "prompt_text": "Make {metric labels} bold and leave the {values} regular"
+        },
+        {
+          "id": "typography_font_style_usage_017",
+          "prompt_text": "Remove italics from body paragraph under {Recommendations}"
+        },
+        {
+          "id": "typography_font_style_usage_018",
+          "prompt_text": "Remove bold from page number"
+        },
+        {
+          "id": "typography_font_style_usage_019",
+          "prompt_text": "Remove bold from random word in paragraph {2}"
+        },
+        {
+          "id": "typography_font_style_usage_020",
+          "prompt_text": "Remove bold from second paragraph under {Methodology}"
+        },
+        {
+          "id": "typography_font_style_usage_021",
+          "prompt_text": "Remove manual bold formatting from {Heading 2} lines"
+        },
+        {
+          "id": "typography_font_style_usage_022",
+          "prompt_text": "Remove underline from hyperlinks and use color only"
+        },
+        {
+          "id": "typography_font_style_usage_023",
+          "prompt_text": "Remove underline from link text in {Resources} section"
+        },
+        {
+          "id": "typography_font_style_usage_024",
+          "prompt_text": "Remove underline from {Findings} header"
+        },
+        {
+          "id": "typography_font_style_usage_025",
+          "prompt_text": "Remove {underline} from all {section headers}"
+        },
+        {
+          "id": "typography_font_style_usage_026",
+          "prompt_text": "Set cover page title to {28pt} bold"
+        }
+      ]
+    },
+    {
+      "subcategory": "case_consistency",
+      "priority": "typography",
+      "doc_type": "both",
+      "tags": [
+        "typography",
+        "case-consistency"
+      ],
+      "entries": [
+        {
+          "id": "typography_case_consistency_001",
+          "prompt_text": "Change all-caps {RECOMMENDATIONS} heading to title case"
+        },
+        {
+          "id": "typography_case_consistency_002",
+          "prompt_text": "Change button labels to title case"
+        },
+        {
+          "id": "typography_case_consistency_003",
+          "prompt_text": "Change full sentence in {callout box} from ALL CAPS to title case"
+        },
+        {
+          "id": "typography_case_consistency_004",
+          "prompt_text": "Change tab labels to title case"
+        },
+        {
+          "id": "typography_case_consistency_005",
+          "prompt_text": "Change {section headers} to {title case}"
+        },
+        {
+          "id": "typography_case_consistency_006",
+          "prompt_text": "Change {sidebar} heading from ALL CAPS to title case"
+        },
+        {
+          "id": "typography_case_consistency_007",
+          "prompt_text": "Make section headers title case"
+        },
+        {
+          "id": "typography_case_consistency_008",
+          "prompt_text": "Match heading case style"
+        }
+      ]
+    }
+  ]
+}

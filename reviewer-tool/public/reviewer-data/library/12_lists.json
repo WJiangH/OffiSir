@@ -1,0 +1,521 @@
+{
+  "category": "lists",
+  "groups": [
+    {
+      "subcategory": "bullet_style_consistency",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "bullet-style-consistency"
+      ],
+      "entries": [
+        {
+          "id": "lists_bullet_style_consistency_001",
+          "prompt_text": "Add colon at end of the lead-in sentence before {list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_002",
+          "prompt_text": "Add period to {last bullet} in {action list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_003",
+          "prompt_text": "Add missing Oxford comma in {list} under {Key Findings}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_004",
+          "prompt_text": "Add missing {item number 3} in {rollout list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_005",
+          "prompt_text": "Add missing {recommendation list} below {findings} section"
+        },
+        {
+          "id": "lists_bullet_style_consistency_006",
+          "prompt_text": "Add {4pt} of space between each {bullet} in {Findings list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_007",
+          "prompt_text": "Add {6pt} before {first bullet} item in each list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_008",
+          "prompt_text": "Add {6pt} of space after {last bullet} before next paragraph"
+        },
+        {
+          "id": "lists_bullet_style_consistency_009",
+          "prompt_text": "Add {8pt} between {list} and paragraph below it"
+        },
+        {
+          "id": "lists_bullet_style_consistency_010",
+          "prompt_text": "Add {8pt} of space before {list} starts"
+        },
+        {
+          "id": "lists_bullet_style_consistency_011",
+          "prompt_text": "Add {periods} to every {bullet} in {action list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_012",
+          "prompt_text": "Align sub-bullets in {Risks} section with sub-bullets in {Benefits} section"
+        },
+        {
+          "id": "lists_bullet_style_consistency_013",
+          "prompt_text": "Align {bullet list} with {left margin}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_014",
+          "prompt_text": "Capitalize the {first word} of every {bullet}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_015",
+          "prompt_text": "Change every {top-level bullet} to a {solid round bullet}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_016",
+          "prompt_text": "Change checkmark bullets in {status list} to {round bullets}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_017",
+          "prompt_text": "Change gerund bullets under {Process}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_018",
+          "prompt_text": "Change inline citation to {Jones 2024}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_019",
+          "prompt_text": "Change numbered priority list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_020",
+          "prompt_text": "Change third-level bullet in {References} section to a {square bullet}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_021",
+          "prompt_text": "Change {accomodate} in {action list} to {accommodate}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_022",
+          "prompt_text": "Change {dept} in {bullet 5} to {department}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_023",
+          "prompt_text": "Change {the list of tasks are} in {reference section} to {the list of tasks is}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_024",
+          "prompt_text": "Change {the team are} in {bullet 2} to {the team is}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_025",
+          "prompt_text": "Continue the {numbering} from {first list} into {second list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_026",
+          "prompt_text": "Cut longest bullet in {Risks} list to {12 words}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_027",
+          "prompt_text": "Cut {Benefits} list to {five}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_028",
+          "prompt_text": "Fix double-spaced checklist items to single spacing"
+        },
+        {
+          "id": "lists_bullet_style_consistency_029",
+          "prompt_text": "Fix duplicate {number 4} in {process list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_030",
+          "prompt_text": "Fix missing article in {first recommendation bullet}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_031",
+          "prompt_text": "Increase left margin of the {entire list} by {0.5 inches}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_032",
+          "prompt_text": "Make every item in checklist a complete sentence"
+        },
+        {
+          "id": "lists_bullet_style_consistency_033",
+          "prompt_text": "Make spacing between all bullet items {4pt}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_034",
+          "prompt_text": "Make {second line} of each long bullet hang under text"
+        },
+        {
+          "id": "lists_bullet_style_consistency_035",
+          "prompt_text": "Match space between bullets in {Risks} list to {Benefits} list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_036",
+          "prompt_text": "Match {bullet list} left edge to paragraph left margin"
+        },
+        {
+          "id": "lists_bullet_style_consistency_037",
+          "prompt_text": "Match {bullet} color at each level to text color at that level"
+        },
+        {
+          "id": "lists_bullet_style_consistency_038",
+          "prompt_text": "Match {bullet} symbol in {Recommendations} list to {Findings} list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_039",
+          "prompt_text": "Merge last two bullets in {action list} into one"
+        },
+        {
+          "id": "lists_bullet_style_consistency_040",
+          "prompt_text": "Move source list into a footnote"
+        },
+        {
+          "id": "lists_bullet_style_consistency_041",
+          "prompt_text": "Move {bullet list} left"
+        },
+        {
+          "id": "lists_bullet_style_consistency_042",
+          "prompt_text": "Nest the subsection bookmarks under their parent section bookmarks"
+        },
+        {
+          "id": "lists_bullet_style_consistency_043",
+          "prompt_text": "Pull second-level {numbered list} items in {0.5 inches} from left margin"
+        },
+        {
+          "id": "lists_bullet_style_consistency_044",
+          "prompt_text": "Raise the {last bullet} {0.1 inches}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_045",
+          "prompt_text": "Reduce {bullet list} spacing to {4pt} between items"
+        },
+        {
+          "id": "lists_bullet_style_consistency_046",
+          "prompt_text": "Reduce {line} spacing inside multi-line bullet items to {1.0}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_047",
+          "prompt_text": "Remove dash bullets and use real bullet symbols"
+        },
+        {
+          "id": "lists_bullet_style_consistency_048",
+          "prompt_text": "Remove double spacing between numbered items"
+        },
+        {
+          "id": "lists_bullet_style_consistency_049",
+          "prompt_text": "Remove extra white space between {bullet list} and next paragraph"
+        },
+        {
+          "id": "lists_bullet_style_consistency_050",
+          "prompt_text": "Remove mixed bullet symbols from {action list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_051",
+          "prompt_text": "Remove parentheses from numbered items and use period instead"
+        },
+        {
+          "id": "lists_bullet_style_consistency_052",
+          "prompt_text": "Remove periods from short fragment bullets in {sidebar}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_053",
+          "prompt_text": "Remove sixth item from {top 5 list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_054",
+          "prompt_text": "Remove trailing commas from bulleted items under {Scope}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_055",
+          "prompt_text": "Remove {double blank line} before {numbered list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_056",
+          "prompt_text": "Remove {duplicate bullet} in {Scope} section"
+        },
+        {
+          "id": "lists_bullet_style_consistency_057",
+          "prompt_text": "Renumber the checklist from {1 through 5}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_058",
+          "prompt_text": "Replace {can't} in {bullet 3} with {cannot}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_059",
+          "prompt_text": "Replace {empower} with {allow} in {bullet 4}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_060",
+          "prompt_text": "Replace {holistic} with {complete} in {overview section}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_061",
+          "prompt_text": "Replace {streamline} with {simplify} in {action list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_062",
+          "prompt_text": "Replace {utilize} with {use} in {bullet} under Findings"
+        },
+        {
+          "id": "lists_bullet_style_consistency_063",
+          "prompt_text": "Replace {value-add} in {bullet 3} with {benefit}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_064",
+          "prompt_text": "Replace {you should} in {action list} with {the team should}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_065",
+          "prompt_text": "Restart the {numbered list} at {1} under {Next Steps}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_066",
+          "prompt_text": "Set distinct bullet shape for each nesting level"
+        },
+        {
+          "id": "lists_bullet_style_consistency_067",
+          "prompt_text": "Set left tab stop at {2.5 inches} for every value in key facts list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_068",
+          "prompt_text": "Set right-aligned tab stop at {6 inches} with a dotted leader in reference list"
+        },
+        {
+          "id": "lists_bullet_style_consistency_069",
+          "prompt_text": "Set each nested bullet level {0.25 inches} deeper than its parent"
+        },
+        {
+          "id": "lists_bullet_style_consistency_070",
+          "prompt_text": "Set action item list to {1.15} line spacing"
+        },
+        {
+          "id": "lists_bullet_style_consistency_071",
+          "prompt_text": "Set definition list line spacing to {1.15}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_072",
+          "prompt_text": "Set reference list entries to single line spacing"
+        },
+        {
+          "id": "lists_bullet_style_consistency_073",
+          "prompt_text": "Set source list to {1.0} line spacing"
+        },
+        {
+          "id": "lists_bullet_style_consistency_074",
+          "prompt_text": "Set sub-bullet line spacing to {1.15}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_075",
+          "prompt_text": "Set {bullet list} line spacing to {1.15}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_076",
+          "prompt_text": "Set {bullet list} text to same typeface"
+        },
+        {
+          "id": "lists_bullet_style_consistency_077",
+          "prompt_text": "Set {line} spacing inside multi-line bullets to single"
+        },
+        {
+          "id": "lists_bullet_style_consistency_078",
+          "prompt_text": "Set {numbered list} items to {1.15} line spacing"
+        },
+        {
+          "id": "lists_bullet_style_consistency_079",
+          "prompt_text": "Set {numbered list} left edge to {0.5 inches} from margin"
+        },
+        {
+          "id": "lists_bullet_style_consistency_080",
+          "prompt_text": "Set {0pt} after {last item} in {numbered list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_081",
+          "prompt_text": "Set {2pt} between sub-bullet items"
+        },
+        {
+          "id": "lists_bullet_style_consistency_082",
+          "prompt_text": "Set {4pt} after each numbered step in {action list}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_083",
+          "prompt_text": "Set {4pt} between each checklist item"
+        },
+        {
+          "id": "lists_bullet_style_consistency_084",
+          "prompt_text": "Shorten the {40-word recommendation bullet} to under {20 words}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_085",
+          "prompt_text": "Shorten the {long bullet} in {action list} to {one sentence}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_086",
+          "prompt_text": "Split {40-word bullet} in summary into two bullets"
+        },
+        {
+          "id": "lists_bullet_style_consistency_087",
+          "prompt_text": "Tighten vertical space between sub-bullets to {2pt}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_088",
+          "prompt_text": "Trim every bullet in {overview list} to one line"
+        },
+        {
+          "id": "lists_bullet_style_consistency_089",
+          "prompt_text": "Turn the fragment in {bullet 3} into a complete sentence with a subject"
+        },
+        {
+          "id": "lists_bullet_style_consistency_090",
+          "prompt_text": "Turn the {one-item list} under {Notes} into a {sentence}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_091",
+          "prompt_text": "Use same three-level bullet scheme in both the {Risks} and {Benefits} sections"
+        },
+        {
+          "id": "lists_bullet_style_consistency_092",
+          "prompt_text": "Use {em dash bullets}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_093",
+          "prompt_text": "Use {open circle bullets}"
+        },
+        {
+          "id": "lists_bullet_style_consistency_094",
+          "prompt_text": "Use {teal} on both the {bullets} and {divider line}"
+        }
+      ]
+    },
+    {
+      "subcategory": "list_indentation_alignment",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "list-indentation-alignment"
+      ],
+      "entries": [
+        {
+          "id": "lists_list_indentation_alignment_001",
+          "prompt_text": "Align {numbered items} to same {left indent}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_002",
+          "prompt_text": "Fix broken hanging indent on item {{3} in} the {action list}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_003",
+          "prompt_text": "Indent each nesting level by an additional {0.25 inches}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_004",
+          "prompt_text": "Indent the sub-list under {item 2} by {0.25 inches}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_005",
+          "prompt_text": "Pull {third bullet} back to same left indent as {bullets 1, 2, and 4}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_006",
+          "prompt_text": "Remove extra indent on {last item} in {Risks} list"
+        },
+        {
+          "id": "lists_list_indentation_alignment_007",
+          "prompt_text": "Set {0.25-inch} hanging indent on all {numbered list} items"
+        },
+        {
+          "id": "lists_list_indentation_alignment_008",
+          "prompt_text": "Set {0.25-inch} hanging indent on all {reference list entries}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_009",
+          "prompt_text": "Set definition list left indent to {0 inches}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_010",
+          "prompt_text": "Set left indent to {0.25 inches} on every bullet item in {Findings} list"
+        },
+        {
+          "id": "lists_list_indentation_alignment_011",
+          "prompt_text": "Set numbered action items to a {0.25-inch} left indent"
+        },
+        {
+          "id": "lists_list_indentation_alignment_012",
+          "prompt_text": "Set sub-bullet indent to {0.25 inches} deeper than the parent bullet"
+        }
+      ]
+    },
+    {
+      "subcategory": "parallel_grammatical_structure",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "parallel-grammatical-structure"
+      ],
+      "entries": [
+        {
+          "id": "lists_parallel_grammatical_structure_001",
+          "prompt_text": "Capitalize the proper noun in {third bullet}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_002",
+          "prompt_text": "Delete {In order to} from {first bullet} and start with verb"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_003",
+          "prompt_text": "Make every {bullet} in {Findings list} start with a {verb}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_004",
+          "prompt_text": "Make two bullets under {Benefits} use same grammatical form"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_005",
+          "prompt_text": "Remove comma between subject and verb in {first bullet}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_006",
+          "prompt_text": "Rewrite mixed noun/verb bullets in summary to all start with nouns"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_007",
+          "prompt_text": "Rewrite {item 3} in {action list}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_008",
+          "prompt_text": "Start every numbered step with an imperative verb"
+        }
+      ]
+    },
+    {
+      "subcategory": "list_punctuation_consistency",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "list-punctuation-consistency"
+      ],
+      "entries": [
+        {
+          "id": "lists_list_punctuation_consistency_001",
+          "prompt_text": "Make {numbered list} punctuation match from {item 1} through {item 5}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_002",
+          "prompt_text": "Remove semicolons at end of each bullet and use periods instead"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_003",
+          "prompt_text": "Remove semicolons from {three bullets} in {sidebar}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_004",
+          "prompt_text": "Replace the semicolons and trailing and with periods on each bullet"
+        }
+      ]
+    }
+  ]
+}

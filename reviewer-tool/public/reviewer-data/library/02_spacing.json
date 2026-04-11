@@ -1,0 +1,262 @@
+{
+  "category": "spacing",
+  "groups": [
+    {
+      "subcategory": "line_spacing_consistency",
+      "priority": "spacing",
+      "doc_type": "both",
+      "tags": [
+        "spacing",
+        "line-spacing-consistency"
+      ],
+      "entries": [
+        {
+          "id": "spacing_line_spacing_consistency_001",
+          "prompt_text": "Change all {body paragraphs} to {1.15} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_002",
+          "prompt_text": "Change recommendation text from double spacing to {1.15}"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_003",
+          "prompt_text": "Fix single-spaced paragraph in {Findings} section to {1.15} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_004",
+          "prompt_text": "Reduce {line spacing} in {conclusion paragraph} to {1.15}"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_005",
+          "prompt_text": "Set all body text to {1.15} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_006",
+          "prompt_text": "Set endnote line spacing to single"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_007",
+          "prompt_text": "Set {body text} in {Findings section} to {1.15} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_008",
+          "prompt_text": "Set {callout box} text to {1.15} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_009",
+          "prompt_text": "Set {executive summary} line spacing to {1.15}"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_010",
+          "prompt_text": "Set {quote} block line spacing to {1.15}"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_011",
+          "prompt_text": "Set {sidebar body text} to {1.0} line spacing"
+        },
+        {
+          "id": "spacing_line_spacing_consistency_012",
+          "prompt_text": "Tighten {line spacing} in {body} to {1.15}"
+        }
+      ]
+    },
+    {
+      "subcategory": "paragraph_spacing_consistency",
+      "priority": "spacing",
+      "doc_type": "both",
+      "tags": [
+        "spacing",
+        "paragraph-spacing-consistency"
+      ],
+      "entries": [
+        {
+          "id": "spacing_paragraph_spacing_consistency_001",
+          "prompt_text": "Add {0.5-inch} first-line indent to every body paragraph"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_002",
+          "prompt_text": "Add {10pt} of space between each {callout box} and surrounding text"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_003",
+          "prompt_text": "Add {8pt} of breathing room above and below {divider} line"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_004",
+          "prompt_text": "Match first-line indent on all body paragraphs to {0.25 inches}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_005",
+          "prompt_text": "Match spacing between each bar group"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_006",
+          "prompt_text": "Move subtitle directly under {title} with no extra gap"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_007",
+          "prompt_text": "Reduce gap between bars to {50%} of the {bar} width"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_008",
+          "prompt_text": "Remove extra blank space at top that the converter added"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_009",
+          "prompt_text": "Remove extra indent on second paragraph under {Results}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_010",
+          "prompt_text": "Remove first-line indent from {callout box} text"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_011",
+          "prompt_text": "Remove space between dollar sign and each amount"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_012",
+          "prompt_text": "Remove {first-line indent} from {executive summary paragraphs}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_013",
+          "prompt_text": "Set {0.2-inch} hanging indent on footnotes"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_014",
+          "prompt_text": "Set {0.5-inch} hanging indent on glossary definitions"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_015",
+          "prompt_text": "Set appendix note block left indent to {0.5 inches}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_016",
+          "prompt_text": "Set bibliography entries to a {0.5-inch} hanging indent"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_017",
+          "prompt_text": "Set copyright notice to single spacing"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_018",
+          "prompt_text": "Set first-line indent in appendix to {0.25 inches}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_019",
+          "prompt_text": "Set right indent on both {callout box}es to {0.3 inches}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_020",
+          "prompt_text": "Set {first-line indent} in {body paragraphs} to {0.25 inches}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_021",
+          "prompt_text": "Shorten the {sidebar} box by one line"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_022",
+          "prompt_text": "Add {12pt} of space between section divider and next paragraph"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_023",
+          "prompt_text": "Add {8pt} of space after each paragraph in {sidebar}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_024",
+          "prompt_text": "Move data notes below {title} block with {12pt} spacing between them"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_025",
+          "prompt_text": "Reduce gap between conclusion paragraph and signature block to {12pt}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_026",
+          "prompt_text": "Reduce paragraph spacing to {6pt} in {closing} section"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_027",
+          "prompt_text": "Reduce space after last body paragraph to {0pt}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_028",
+          "prompt_text": "Reduce space after {final paragraph} to {6pt}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_029",
+          "prompt_text": "Reduce {blank space} under {title} by {12pt}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_030",
+          "prompt_text": "Remove blank space at top of the closing section"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_031",
+          "prompt_text": "Remove extra {12pt} gap between first and second paragraphs in {Recommendations} section"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_032",
+          "prompt_text": "Remove {12pt} gap between {two short paragraphs} in {intro}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_033",
+          "prompt_text": "Remove {blank space} after {last section}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_034",
+          "prompt_text": "Set appendix paragraph after-spacing to {6pt}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_035",
+          "prompt_text": "Set {0pt} space before and {6pt} space after for every {body paragraph}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_036",
+          "prompt_text": "Set {6pt} after-spacing between two callout paragraphs"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_037",
+          "prompt_text": "Set {6pt} space after each {body paragraph} in {Executive Summary}"
+        },
+        {
+          "id": "spacing_paragraph_spacing_consistency_038",
+          "prompt_text": "Tighten gap between signature line and date to {6pt}"
+        }
+      ]
+    },
+    {
+      "subcategory": "section_spacing",
+      "priority": "spacing",
+      "doc_type": "both",
+      "tags": [
+        "spacing",
+        "section-spacing"
+      ],
+      "entries": [
+        {
+          "id": "spacing_section_spacing_001",
+          "prompt_text": "Remove blank space in bottom half by tightening spacing above to {6pt} between sections"
+        },
+        {
+          "id": "spacing_section_spacing_002",
+          "prompt_text": "Tighten space before {References} section to {12pt}"
+        },
+        {
+          "id": "spacing_section_spacing_003",
+          "prompt_text": "Add {18pt} of space between executive summary and findings block"
+        },
+        {
+          "id": "spacing_section_spacing_004",
+          "prompt_text": "Reduce gap between {title} block and first body section to {24pt}"
+        },
+        {
+          "id": "spacing_section_spacing_005",
+          "prompt_text": "Set gap between {Methods} and {Results} sections to {18pt}"
+        },
+        {
+          "id": "spacing_section_spacing_006",
+          "prompt_text": "Set spacing above each {section break} line to {18pt}"
+        }
+      ]
+    }
+  ]
+}

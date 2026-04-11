@@ -1,0 +1,32 @@
+{
+  "category": "print_readiness",
+  "groups": [
+    {
+      "subcategory": "printable_area_safety",
+      "priority": "print_readiness",
+      "doc_type": "both",
+      "tags": [
+        "print_readiness",
+        "printable-area-safety"
+      ],
+      "entries": [
+        {
+          "id": "print_readiness_printable_area_safety_001",
+          "prompt_text": "Add registration marks to print-ready export"
+        },
+        {
+          "id": "print_readiness_printable_area_safety_002",
+          "prompt_text": "Darken the watermark text"
+        },
+        {
+          "id": "print_readiness_printable_area_safety_003",
+          "prompt_text": "Disable printing permissions on {confidential draft} PDF"
+        },
+        {
+          "id": "print_readiness_printable_area_safety_004",
+          "prompt_text": "Remove all markup"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "category": "content_accuracy",
+  "groups": [
+    {
+      "subcategory": "fact_verification",
+      "priority": "content_accuracy",
+      "doc_type": "both",
+      "tags": [
+        "content_accuracy",
+        "fact-verification"
+      ],
+      "entries": [
+        {
+          "id": "content_accuracy_fact_verification_001",
+          "prompt_text": "Delete {Due to fact that} from {paragraph 3} and start with {Because}"
+        }
+      ]
+    },
+    {
+      "subcategory": "source_plausibility",
+      "priority": "content_accuracy",
+      "doc_type": "both",
+      "tags": [
+        "content_accuracy",
+        "source-plausibility"
+      ],
+      "entries": [
+        {
+          "id": "content_accuracy_source_plausibility_001",
+          "prompt_text": "Remove comma after year in parenthetical citation under {Findings}"
+        }
+      ]
+    }
+  ]
+}

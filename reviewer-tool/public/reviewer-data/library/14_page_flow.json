@@ -1,0 +1,28 @@
+{
+  "category": "page_flow",
+  "groups": [
+    {
+      "subcategory": "logical_section_breaks",
+      "priority": "page_flow",
+      "doc_type": "both",
+      "tags": [
+        "page_flow",
+        "logical-section-breaks"
+      ],
+      "entries": [
+        {
+          "id": "page_flow_logical_section_breaks_001",
+          "prompt_text": "Delete extra {page break} at end of the document"
+        },
+        {
+          "id": "page_flow_logical_section_breaks_002",
+          "prompt_text": "Remove extra {page break} after {title} that pushes {content} down"
+        },
+        {
+          "id": "page_flow_logical_section_breaks_003",
+          "prompt_text": "Remove unnecessary {section break} in middle of the introduction"
+        }
+      ]
+    }
+  ]
+}

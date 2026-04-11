@@ -1,0 +1,500 @@
+[
+  {
+    "id": "layout_margins",
+    "label": "Layout and margins",
+    "description": "Page layout, orientation, and margin consistency",
+    "priority_group": "layout_margins",
+    "subcategories": [
+      {
+        "id": "margin_consistency",
+        "label": "Margin Consistency",
+        "description": "Ensure consistent margins across pages and elements"
+      },
+      {
+        "id": "margin_adjust_individual",
+        "label": "Margin Adjustments",
+        "description": "Fix specific margin issues for elements"
+      },
+      {
+        "id": "gutter_binding_space",
+        "label": "Gutter and Binding",
+        "description": "Gutter settings for print and binding clearance"
+      },
+      {
+        "id": "trim_bleed_slug",
+        "label": "Trim and Bleed",
+        "description": "Bleed area and trim marks for print readiness"
+      },
+      {
+        "id": "page_orientation",
+        "label": "Page Orientation",
+        "description": "Portrait and landscape orientation settings"
+      }
+    ]
+  },
+  {
+    "id": "spacing",
+    "label": "Spacing",
+    "description": "Line spacing, paragraph spacing, and section gaps",
+    "priority_group": "spacing",
+    "subcategories": [
+      {
+        "id": "line_spacing_consistency",
+        "label": "Line Spacing",
+        "description": "Consistent line spacing across body text and sections"
+      },
+      {
+        "id": "paragraph_spacing_consistency",
+        "label": "Paragraph Spacing",
+        "description": "Space before and after paragraphs and indents"
+      },
+      {
+        "id": "section_spacing",
+        "label": "Section Spacing",
+        "description": "Breathing room between major document sections"
+      }
+    ]
+  },
+  {
+    "id": "alignment",
+    "label": "Alignment",
+    "description": "Text alignment, headers, and tab stop consistency",
+    "priority_group": "alignment",
+    "subcategories": [
+      {
+        "id": "body_text_alignment",
+        "label": "Body Text Alignment",
+        "description": "Left, center, and justified text alignment"
+      },
+      {
+        "id": "header_alignment",
+        "label": "Header Alignment",
+        "description": "Alignment of titles and section headers"
+      },
+      {
+        "id": "tab_stop_consistency",
+        "label": "Tab Stop Consistency",
+        "description": "Cleanup and standardization of manual tab stops"
+      }
+    ]
+  },
+  {
+    "id": "typography",
+    "label": "Typography",
+    "description": "Font hierarchy, sizes, styles, and consistency",
+    "priority_group": "typography",
+    "subcategories": [
+      {
+        "id": "font_size_hierarchy",
+        "label": "Font Size Hierarchy",
+        "description": "Consistent sizing for titles, headers, and body"
+      },
+      {
+        "id": "pptx_font_minimums",
+        "label": "Presentation Minimums",
+        "description": "Minimum font sizes for presentation readability"
+      },
+      {
+        "id": "font_family_consistency",
+        "label": "Font Family",
+        "description": "Standardize font families throughout the document"
+      },
+      {
+        "id": "font_style_usage",
+        "label": "Font Styles",
+        "description": "Bold, italics, and underline usage rules"
+      },
+      {
+        "id": "case_consistency",
+        "label": "Case Consistency",
+        "description": "Standardize Title Case, ALL CAPS, and sentence case"
+      }
+    ]
+  },
+  {
+    "id": "tables_structure",
+    "label": "Table structure",
+    "description": "Header rows, column utilization, and merged cells",
+    "priority_group": "tables_structure",
+    "subcategories": [
+      {
+        "id": "header_row_distinction",
+        "label": "Header Row Distinction",
+        "description": "Styling and presence of table header rows"
+      },
+      {
+        "id": "header_descriptive_labels",
+        "label": "Header Labels",
+        "description": "Descriptive and accurate column labeling"
+      },
+      {
+        "id": "column_row_utilization",
+        "label": "Column/Row Utilization",
+        "description": "Logical sizing and content placement in tables"
+      },
+      {
+        "id": "merged_cell_reduction",
+        "label": "Merged Cells",
+        "description": "Cleanup of unnecessary or problematic merged cells"
+      }
+    ]
+  },
+  {
+    "id": "tables_formatting",
+    "label": "Table formatting",
+    "description": "Borders, padding, and visual proportions",
+    "priority_group": "tables_formatting",
+    "subcategories": [
+      {
+        "id": "border_consistency",
+        "label": "Border Consistency",
+        "description": "Standardize table border weights and styles"
+      },
+      {
+        "id": "cell_padding",
+        "label": "Cell Padding",
+        "description": "Internal spacing for table data readability"
+      },
+      {
+        "id": "column_width_proportions",
+        "label": "Width Proportions",
+        "description": "Logical column width balancing"
+      },
+      {
+        "id": "alternating_row_shading",
+        "label": "Row Shading",
+        "description": "Zebra striping and alternating row highlights"
+      }
+    ]
+  },
+  {
+    "id": "tables_data",
+    "label": "Table data",
+    "description": "Numeric precision, currency, and unit formatting",
+    "priority_group": "tables_data",
+    "subcategories": [
+      {
+        "id": "decimal_place_consistency",
+        "label": "Decimal Consistency",
+        "description": "Standardize decimal places for numeric data"
+      },
+      {
+        "id": "currency_symbol_consistency",
+        "label": "Currency Format",
+        "description": "Consistent use of currency symbols and codes"
+      },
+      {
+        "id": "percentage_format",
+        "label": "Percentage Format",
+        "description": "Consistent percentage labeling and precision"
+      },
+      {
+        "id": "unit_label_placement",
+        "label": "Unit Labels",
+        "description": "Proper placement of units (e.g., in headers vs. cells)"
+      }
+    ]
+  },
+  {
+    "id": "charts_structure",
+    "label": "Chart structure",
+    "description": "Chart types, titles, and axis labeling",
+    "priority_group": "charts_structure",
+    "subcategories": [
+      {
+        "id": "chart_type_appropriateness",
+        "label": "Chart Type",
+        "description": "Ensuring the right chart type for the data"
+      },
+      {
+        "id": "chart_title_descriptive",
+        "label": "Chart Titles",
+        "description": "Descriptive and properly positioned chart titles"
+      },
+      {
+        "id": "axis_labeling",
+        "label": "Axis Labeling",
+        "description": "Clear and accurate labeling for X and Y axes"
+      },
+      {
+        "id": "legend_clarity",
+        "label": "Legend Clarity",
+        "description": "Positioning and clarity of chart legends"
+      }
+    ]
+  },
+  {
+    "id": "charts_visual_quality",
+    "label": "Chart visual quality",
+    "description": "Data label readability, spacing, and color distinction",
+    "priority_group": "charts_visual_quality",
+    "subcategories": [
+      {
+        "id": "data_label_readability",
+        "label": "Data Labels",
+        "description": "Legible data values and markers on charts"
+      },
+      {
+        "id": "bar_width_spacing",
+        "label": "Bar Spacing",
+        "description": "Proper width and spacing for bar/column charts"
+      },
+      {
+        "id": "color_distinction",
+        "label": "Color Distinction",
+        "description": "Sufficient contrast and brand-aligned chart colors"
+      }
+    ]
+  },
+  {
+    "id": "headers_footers",
+    "label": "Headers and footers",
+    "description": "Page numbers, header/footer consistency, and confidentiality",
+    "priority_group": "headers_footers",
+    "subcategories": [
+      {
+        "id": "page_number_presence",
+        "label": "Page Numbers",
+        "description": "Placement and sequence of page numbers"
+      },
+      {
+        "id": "page_number_format",
+        "label": "Number Format",
+        "description": "Style of page numbering (e.g., 1 vs. i vs. Page 1)"
+      },
+      {
+        "id": "header_footer_consistency",
+        "label": "HF Consistency",
+        "description": "Consistent text and styling across all pages"
+      },
+      {
+        "id": "confidentiality_footer",
+        "label": "Confidentiality",
+        "description": "Presence of confidentiality notices and labels"
+      }
+    ]
+  },
+  {
+    "id": "colors_branding",
+    "label": "Colors and branding",
+    "description": "Brand palette adherence and color accuracy",
+    "priority_group": "colors_branding",
+    "subcategories": [
+      {
+        "id": "hex_code_accuracy",
+        "label": "Hex Accuracy",
+        "description": "Use of correct brand hex codes"
+      },
+      {
+        "id": "consistent_color_usage",
+        "label": "Consistent Color",
+        "description": "Consistent application of the color palette"
+      },
+      {
+        "id": "brand_palette_adherence",
+        "label": "Brand Adherence",
+        "description": "Ensuring all colors align with brand guidelines"
+      }
+    ]
+  },
+  {
+    "id": "lists",
+    "label": "Lists",
+    "description": "Bullet style, indentation, and parallel structure",
+    "priority_group": "lists",
+    "subcategories": [
+      {
+        "id": "bullet_style_consistency",
+        "label": "Bullet Consistency",
+        "description": "Standardize bullet symbols and hierarchy"
+      },
+      {
+        "id": "list_indentation_alignment",
+        "label": "List Alignment",
+        "description": "Proper indentation and hanging indents"
+      },
+      {
+        "id": "parallel_grammatical_structure",
+        "label": "Parallel Structure",
+        "description": "Consistent grammatical form in list items"
+      },
+      {
+        "id": "list_punctuation_consistency",
+        "label": "List Punctuation",
+        "description": "Standardize ending punctuation for bullets"
+      }
+    ]
+  },
+  {
+    "id": "images",
+    "label": "Images",
+    "description": "Image quality, placement, captions, and borders",
+    "priority_group": "images",
+    "subcategories": [
+      {
+        "id": "image_resolution_quality",
+        "label": "Image Quality",
+        "description": "Ensuring high resolution and clear visuals"
+      },
+      {
+        "id": "aspect_ratio_preservation",
+        "label": "Aspect Ratio",
+        "description": "Fixing squished or stretched images"
+      },
+      {
+        "id": "caption_consistency",
+        "label": "Caption Consistency",
+        "description": "Standardize figure captions and cross-references"
+      }
+    ]
+  },
+  {
+    "id": "page_flow",
+    "label": "Page flow",
+    "description": "Logical section breaks and document flow",
+    "priority_group": "page_flow",
+    "subcategories": [
+      {
+        "id": "logical_section_breaks",
+        "label": "Section Breaks",
+        "description": "Clean page breaks and section transitions"
+      }
+    ]
+  },
+  {
+    "id": "print_readiness",
+    "label": "Print readiness",
+    "description": "Printable area safety and export settings",
+    "priority_group": "print_readiness",
+    "subcategories": [
+      {
+        "id": "printable_area_safety",
+        "label": "Printable Area",
+        "description": "Ensuring content stays within printable margins"
+      }
+    ]
+  },
+  {
+    "id": "document_structure",
+    "label": "Document structure",
+    "description": "Section presence, ordering, and reference integrity",
+    "priority_group": "document_structure",
+    "subcategories": [
+      {
+        "id": "section_presence_order",
+        "label": "Presence/Order",
+        "description": "Ensuring all required sections are present and ordered"
+      },
+      {
+        "id": "reference_integrity",
+        "label": "Reference Integrity",
+        "description": "Fixing broken links and citation inconsistencies"
+      }
+    ]
+  },
+  {
+    "id": "content_accuracy",
+    "label": "Content accuracy",
+    "description": "Fact verification and source plausibility",
+    "priority_group": "content_accuracy",
+    "subcategories": [
+      {
+        "id": "fact_verification",
+        "label": "Fact Verification",
+        "description": "Checking claims against available data"
+      },
+      {
+        "id": "source_plausibility",
+        "label": "Source Plausibility",
+        "description": "Ensuring citations are credible and accurate"
+      }
+    ]
+  },
+  {
+    "id": "math_calculations",
+    "label": "Math calculations",
+    "description": "Totals verification and arithmetic accuracy",
+    "priority_group": "math_calculations",
+    "subcategories": [
+      {
+        "id": "totals_verification",
+        "label": "Totals Verification",
+        "description": "Ensuring sums match individual line items"
+      },
+      {
+        "id": "percentage_sums_100",
+        "label": "Percentage Sums",
+        "description": "Ensuring breakdown percentages add to 100%"
+      },
+      {
+        "id": "growth_rate_arithmetic",
+        "label": "Growth Rates",
+        "description": "Checking arithmetic for deltas and growth rates"
+      }
+    ]
+  },
+  {
+    "id": "writing_tone",
+    "label": "Writing tone",
+    "description": "AI purging, formality, and grammar",
+    "priority_group": "writing_tone",
+    "subcategories": [
+      {
+        "id": "ai_ism_purging",
+        "label": "AI-ism Purging",
+        "description": "Removing characteristic AI phrasing and verbs"
+      },
+      {
+        "id": "filler_phrase_deletion",
+        "label": "Filler Phrases",
+        "description": "Removing corporate jargon and empty fluff"
+      },
+      {
+        "id": "formality_active_voice",
+        "label": "Active Voice",
+        "description": "Converting passive voice to active for impact"
+      },
+      {
+        "id": "sentence_length_limit",
+        "label": "Sentence Length",
+        "description": "Breaking down long, complex run-on sentences"
+      },
+      {
+        "id": "typos_grammar",
+        "label": "Typos/Grammar",
+        "description": "Fixing spelling, punctuation, and syntax errors"
+      }
+    ]
+  },
+  {
+    "id": "pptx_specific",
+    "label": "PPTX specific",
+    "description": "Speaker notes and visual balance for presentations",
+    "priority_group": "pptx_specific",
+    "subcategories": [
+      {
+        "id": "speaker_note_presence",
+        "label": "Speaker Notes",
+        "description": "Presence and placement of presentation notes"
+      },
+      {
+        "id": "visual_balance_layout",
+        "label": "Visual Balance",
+        "description": "Alignment and layout optimization for slides"
+      }
+    ]
+  },
+  {
+    "id": "docx_specific",
+    "label": "DOCX specific",
+    "description": "Word-specific styles and features",
+    "priority_group": "docx_specific",
+    "subcategories": [
+      {
+        "id": "heading_style_application",
+        "label": "Style Application",
+        "description": "Correct usage of Word heading and body styles"
+      }
+    ]
+  }
+]

@@ -1,0 +1,992 @@
+{
+  "category": "writing_tone",
+  "groups": [
+    {
+      "subcategory": "ai_ism_purging",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "ai-ism-purging"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_ai_ism_purging_001",
+          "prompt_text": "Replace {cutting-edge} with {new} in {product description}"
+        },
+        {
+          "id": "writing_tone_ai_ism_purging_002",
+          "prompt_text": "Replace {innovative} with {new} in {sidebar callout}"
+        },
+        {
+          "id": "writing_tone_ai_ism_purging_003",
+          "prompt_text": "Replace {leverage} with {use} in {second paragraph}"
+        }
+      ]
+    },
+    {
+      "subcategory": "filler_phrase_deletion",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "filler-phrase-deletion"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_filler_phrase_deletion_001",
+          "prompt_text": "Delete {At end of the day} from {closing sentence}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_002",
+          "prompt_text": "Delete {Needless to say} from {risk assessment paragraph}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_003",
+          "prompt_text": "Add missing {conclusion} section at end of the report"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_004",
+          "prompt_text": "Change {I believe} in {conclusion} to {the evidence indicates}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_005",
+          "prompt_text": "Change {will indicate} in {conclusion} to {indicates}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_006",
+          "prompt_text": "Combine two short conclusion paragraphs into one"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_007",
+          "prompt_text": "Delete {It goes without saying that} from {conclusion}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_008",
+          "prompt_text": "Delete {It is important to note that} from {paragraph 4}"
+        },
+        {
+          "id": "writing_tone_filler_phrase_deletion_009",
+          "prompt_text": "Replace {facilitate} with {help} in {conclusion}"
+        }
+      ]
+    },
+    {
+      "subcategory": "formality_active_voice",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "formality-active-voice"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_formality_active_voice_001",
+          "prompt_text": "Change {we'll} in {opening paragraph} to {we will}"
+        },
+        {
+          "id": "writing_tone_formality_active_voice_002",
+          "prompt_text": "Replace {doesn't} in {closing paragraph} with {does not}"
+        },
+        {
+          "id": "writing_tone_formality_active_voice_003",
+          "prompt_text": "Replace {won't} in {risk section} with {will not}"
+        },
+        {
+          "id": "writing_tone_formality_active_voice_004",
+          "prompt_text": "Change casual sentence in {third paragraph} to a formal business sentence"
+        },
+        {
+          "id": "writing_tone_formality_active_voice_005",
+          "prompt_text": "Change {my analysis} in {sidebar} to {the analysis}"
+        },
+        {
+          "id": "writing_tone_formality_active_voice_006",
+          "prompt_text": "Rewrite {first paragraph} in third-person formal report voice"
+        }
+      ]
+    },
+    {
+      "subcategory": "sentence_length_limit",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "sentence-length-limit"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_sentence_length_limit_001",
+          "prompt_text": "Break run-on in {closing paragraph} at {second clause}"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_002",
+          "prompt_text": "Break {seven-sentence paragraph} under {Risks} into {two paragraphs}"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_003",
+          "prompt_text": "Break {six-line paragraph} under {Results} into {two paragraphs} at topic shift"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_004",
+          "prompt_text": "Split comma splice in {opening paragraph} into {two sentences}"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_005",
+          "prompt_text": "Split three-clause run-on in {risk section} into {two sentences}"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_006",
+          "prompt_text": "Split triple-clause sentence in {footnote 1} into {two sentences}"
+        },
+        {
+          "id": "writing_tone_sentence_length_limit_007",
+          "prompt_text": "Split {38-word sentence} in {paragraph 2} into {two sentences}"
+        }
+      ]
+    },
+    {
+      "subcategory": "typos_grammar",
+      "priority": "writing_tone",
+      "doc_type": "both",
+      "tags": [
+        "writing_tone",
+        "typos-grammar"
+      ],
+      "entries": [
+        {
+          "id": "writing_tone_typos_grammar_001",
+          "prompt_text": "Accept all {tracked changes} before {final export}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_002",
+          "prompt_text": "Accept the tracked insertion in {paragraph 4} and reject the one in {paragraph 5}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_003",
+          "prompt_text": "Add comma after introductory phrase in {opening sentence}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_004",
+          "prompt_text": "Add comma after {Therefore} at start of the {last paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_005",
+          "prompt_text": "Add comma before {but} in second sentence of {paragraph 3}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_006",
+          "prompt_text": "Add conjunction between two independent clauses in footnote"
+        },
+        {
+          "id": "writing_tone_typos_grammar_007",
+          "prompt_text": "Add footnote"
+        },
+        {
+          "id": "writing_tone_typos_grammar_008",
+          "prompt_text": "Add password to restrict editing of the final PDF"
+        },
+        {
+          "id": "writing_tone_typos_grammar_009",
+          "prompt_text": "Add period and start a new sentence where the run-on begins in {paragraph 5}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_010",
+          "prompt_text": "Add {horizontal rule} before {Findings section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_011",
+          "prompt_text": "Add periods to {three callout sentences}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_012",
+          "prompt_text": "Add apostrophe in phrase {team's plan}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_013",
+          "prompt_text": "Add apostrophe to {companys} in {sidebar}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_014",
+          "prompt_text": "Add apostrophe to {years} in phrase {three years experience} in bio"
+        },
+        {
+          "id": "writing_tone_typos_grammar_015",
+          "prompt_text": "Add full name for {TAM} the first time it appears in {market section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_016",
+          "prompt_text": "Add missing apostrophe to {clients} in phrase {clients needs} in {paragraph 3}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_017",
+          "prompt_text": "Add missing apostrophe to {managers} in phrase {managers report} in {closing paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_018",
+          "prompt_text": "Add missing category label to {last bar}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_019",
+          "prompt_text": "Add missing {limitations paragraph} at end of the {methodology}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_020",
+          "prompt_text": "Add missing {methodology} section before {results}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_021",
+          "prompt_text": "Add missing {next steps} section at end of the {findings}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_022",
+          "prompt_text": "Add missing {risk section} under {timeline}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_023",
+          "prompt_text": "Add page number below section divider"
+        },
+        {
+          "id": "writing_tone_typos_grammar_024",
+          "prompt_text": "Add {missing comma} after {However} in {paragraph 4}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_025",
+          "prompt_text": "Add {12pt} above {Recommendations section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_026",
+          "prompt_text": "Add {6pt} before and after each {body paragraph} in {Findings section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_027",
+          "prompt_text": "Add {page 1} in {bottom right} corner"
+        },
+        {
+          "id": "writing_tone_typos_grammar_028",
+          "prompt_text": "Anchor the {stat highlight} box to top right corner of the page"
+        },
+        {
+          "id": "writing_tone_typos_grammar_029",
+          "prompt_text": "Bump the {main title} up to {26pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_030",
+          "prompt_text": "Capitalize the first word after colon in {subtitle}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_031",
+          "prompt_text": "Change Roman numeral section labels to Arabic numerals"
+        },
+        {
+          "id": "writing_tone_typos_grammar_032",
+          "prompt_text": "Change fiscal year label to {FY 2025}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_033",
+          "prompt_text": "Change pale yellow callout fill to a medium gray"
+        },
+        {
+          "id": "writing_tone_typos_grammar_034",
+          "prompt_text": "Change percent change in {sidebar} to {18%}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_035",
+          "prompt_text": "Change sentence under {Findings} to a complete sentence"
+        },
+        {
+          "id": "writing_tone_typos_grammar_036",
+          "prompt_text": "Change subsection label to {3.1}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_037",
+          "prompt_text": "Change timeline dates to {MM/DD/YYYY}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_038",
+          "prompt_text": "Change {EUR values} in footnote"
+        },
+        {
+          "id": "writing_tone_typos_grammar_039",
+          "prompt_text": "Change {Hardware} percentage in {sidebar} to {25%}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_040",
+          "prompt_text": "Change {market share callout} to {100%}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_041",
+          "prompt_text": "Change {medium gray} footnote text to {dark gray}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_042",
+          "prompt_text": "Change {red and green indicators} to {dark gray and light gray} with {labels}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_043",
+          "prompt_text": "Change {source line} to read {Source: Company filings, 2024}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_044",
+          "prompt_text": "Change {title block} background to {white}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_045",
+          "prompt_text": "Change {0.18} in {callout box} to {18%}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_046",
+          "prompt_text": "Change {data are} in {methodology section} to {data is}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_047",
+          "prompt_text": "Change {definately} in {paragraph 5} to {definitely}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_048",
+          "prompt_text": "Change {each of the items were} in {findings} to {each of the items was}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_049",
+          "prompt_text": "Change {has been running} in {active-status section} to {is running}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_050",
+          "prompt_text": "Change {is implementing} in past-tense recap to {implemented}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_051",
+          "prompt_text": "Change {it's} in {data note} to {its}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_052",
+          "prompt_text": "Change {its} in {opening line} to {it's}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_053",
+          "prompt_text": "Change {launched} in {forward-looking section} to {will launch}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_054",
+          "prompt_text": "Change {liason} in {contact section} to {liaison}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_055",
+          "prompt_text": "Change {management have} in {paragraph 4} to {management has}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_056",
+          "prompt_text": "Change {neccessary} in {closing paragraph} to {necessary}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_057",
+          "prompt_text": "Change {neither option are} in recommendation to {neither option is}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_058",
+          "prompt_text": "Change {recieve} in {paragraph 1} to {receive}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_059",
+          "prompt_text": "Change {reported} in {paragraph 2} to {reports}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_060",
+          "prompt_text": "Change {seperate} in {sidebar note} to {separate}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_061",
+          "prompt_text": "Change {shouldn't} in {footnote 2} to {should not}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_062",
+          "prompt_text": "Change {the results shows} in {paragraph 3} to {the results show}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_063",
+          "prompt_text": "Change {who's} in {paragraph 3} to {whose}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_064",
+          "prompt_text": "Change {will review} in {findings section} to {reviewed}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_065",
+          "prompt_text": "Condense {methodology} detail to {two} sentences"
+        },
+        {
+          "id": "writing_tone_typos_grammar_066",
+          "prompt_text": "Cut out-of-scope {competitor analysis} from report"
+        },
+        {
+          "id": "writing_tone_typos_grammar_067",
+          "prompt_text": "Cut repeated phrase {market momentum} from {sidebar}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_068",
+          "prompt_text": "Cut {50-word sentence} in {methodology section} down to {25 words}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_069",
+          "prompt_text": "Cut {background} section to {three} sentences"
+        },
+        {
+          "id": "writing_tone_typos_grammar_070",
+          "prompt_text": "Delete {six empty paragraph marks} at {bottom} of the {document}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_071",
+          "prompt_text": "Delete {As previously mentioned} from start of {paragraph 6}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_072",
+          "prompt_text": "Delete {It should be noted that} from footnote"
+        },
+        {
+          "id": "writing_tone_typos_grammar_073",
+          "prompt_text": "Delete {Moving forward} from opening of the {action plan}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_074",
+          "prompt_text": "Drop body paragraphs under {Methodology} to {10pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_075",
+          "prompt_text": "Drop watermark behind the body text"
+        },
+        {
+          "id": "writing_tone_typos_grammar_076",
+          "prompt_text": "Drop {title} page tagline to {11pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_077",
+          "prompt_text": "Ensure {content} reaches at least a {50% fill rate} on {page}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_078",
+          "prompt_text": "Fix skipped numbering that jumps to {2.5}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_079",
+          "prompt_text": "Fix {section numbering} to run {1 1.1 1.2 2}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_080",
+          "prompt_text": "Increase body text to {11pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_081",
+          "prompt_text": "Increase {border} weight on {callout box} from hairline to {1pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_082",
+          "prompt_text": "Keep footnote block directly below paragraph that cites it"
+        },
+        {
+          "id": "writing_tone_typos_grammar_083",
+          "prompt_text": "Make every bar the same width"
+        },
+        {
+          "id": "writing_tone_typos_grammar_084",
+          "prompt_text": "Make email address in {contact} section clickable"
+        },
+        {
+          "id": "writing_tone_typos_grammar_085",
+          "prompt_text": "Make footnote text {2pt} smaller than the body text"
+        },
+        {
+          "id": "writing_tone_typos_grammar_086",
+          "prompt_text": "Make phone number on {contact} page callable on mobile"
+        },
+        {
+          "id": "writing_tone_typos_grammar_087",
+          "prompt_text": "Make third-level items {gray} text"
+        },
+        {
+          "id": "writing_tone_typos_grammar_088",
+          "prompt_text": "Make {data labels} {11pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_089",
+          "prompt_text": "Make {negative bars} {red} and {positive bars} dark blue"
+        },
+        {
+          "id": "writing_tone_typos_grammar_090",
+          "prompt_text": "Make {pull quote} text {16pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_091",
+          "prompt_text": "Make {report title} {24pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_092",
+          "prompt_text": "Make {section header} at least {4pt} larger than the {body text}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_093",
+          "prompt_text": "Make {title} page date line {12pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_094",
+          "prompt_text": "Match {background fill} on both {sidebar boxes}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_095",
+          "prompt_text": "Match {key takeaway box} background to same {light gray}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_096",
+          "prompt_text": "Merge two closing paragraphs into one"
+        },
+        {
+          "id": "writing_tone_typos_grammar_097",
+          "prompt_text": "Move apostrophe in {employee's goals} to {employees'}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_098",
+          "prompt_text": "Move closing note up {0.4 inches}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_099",
+          "prompt_text": "Move date line to sit right below {title}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_100",
+          "prompt_text": "Move recommendation box to bottom of the page"
+        },
+        {
+          "id": "writing_tone_typos_grammar_101",
+          "prompt_text": "Move warning callout above procedure steps"
+        },
+        {
+          "id": "writing_tone_typos_grammar_102",
+          "prompt_text": "Move {background} section before {methodology}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_103",
+          "prompt_text": "Move {callout box} below {second paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_104",
+          "prompt_text": "Move {data labels} above {bars}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_105",
+          "prompt_text": "Move {recommendations} section below {findings} section"
+        },
+        {
+          "id": "writing_tone_typos_grammar_106",
+          "prompt_text": "Move {scope} section between {introduction} and {background}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_107",
+          "prompt_text": "Move {sidebar} box {0.2 inches} away from left edge"
+        },
+        {
+          "id": "writing_tone_typos_grammar_108",
+          "prompt_text": "Move {sidebar} {text box} {0.3 inches} away from right edge"
+        },
+        {
+          "id": "writing_tone_typos_grammar_109",
+          "prompt_text": "Move {title} block up {0.25 inches}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_110",
+          "prompt_text": "Place confidentiality banner across the bottom of the page"
+        },
+        {
+          "id": "writing_tone_typos_grammar_111",
+          "prompt_text": "Place definition box inline with text"
+        },
+        {
+          "id": "writing_tone_typos_grammar_112",
+          "prompt_text": "Place key takeaway box at top of the section"
+        },
+        {
+          "id": "writing_tone_typos_grammar_113",
+          "prompt_text": "Place section name in left side of the header"
+        },
+        {
+          "id": "writing_tone_typos_grammar_114",
+          "prompt_text": "Place {abstract} on first page before {introduction}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_115",
+          "prompt_text": "Place {definitions} section before first use of technical terms in body"
+        },
+        {
+          "id": "writing_tone_typos_grammar_116",
+          "prompt_text": "Place {title} block in top third of the page"
+        },
+        {
+          "id": "writing_tone_typos_grammar_117",
+          "prompt_text": "Pull document number up next to {title} on one line"
+        },
+        {
+          "id": "writing_tone_typos_grammar_118",
+          "prompt_text": "Pull {title} block down {0.15 inches} from top edge"
+        },
+        {
+          "id": "writing_tone_typos_grammar_119",
+          "prompt_text": "Push background gradient {0.125 inches} past each edge"
+        },
+        {
+          "id": "writing_tone_typos_grammar_120",
+          "prompt_text": "Push body text start down to {1.25 inches} from top edge"
+        },
+        {
+          "id": "writing_tone_typos_grammar_121",
+          "prompt_text": "Put cover block at top and start the report body after a {horizontal rule}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_122",
+          "prompt_text": "Put {limitations} paragraph after {findings}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_123",
+          "prompt_text": "Put {methodology section} before {findings}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_124",
+          "prompt_text": "Re-export the PDF without the shifted {text box}es in {Findings} section"
+        },
+        {
+          "id": "writing_tone_typos_grammar_125",
+          "prompt_text": "Reduce disclaimer text at bottom of the document to {7pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_126",
+          "prompt_text": "Reduce subtitle on {title} page to {18pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_127",
+          "prompt_text": "Remove author name from PDF metadata before distributing"
+        },
+        {
+          "id": "writing_tone_typos_grammar_128",
+          "prompt_text": "Remove comma splice between two clauses in {sidebar}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_129",
+          "prompt_text": "Remove dark background behind the {footnote block}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_130",
+          "prompt_text": "Remove double exclamation mark in {closing note}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_131",
+          "prompt_text": "Remove duplicate findings paragraph that appears twice in report"
+        },
+        {
+          "id": "writing_tone_typos_grammar_132",
+          "prompt_text": "Remove duplicate section number under {Methods}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_133",
+          "prompt_text": "Remove empty {paragraph marks} between {Findings} and {Recommendations} sections"
+        },
+        {
+          "id": "writing_tone_typos_grammar_134",
+          "prompt_text": "Remove extra zero from percentage in footnote"
+        },
+        {
+          "id": "writing_tone_typos_grammar_135",
+          "prompt_text": "Remove footer from below section divider"
+        },
+        {
+          "id": "writing_tone_typos_grammar_136",
+          "prompt_text": "Remove gradient background from {title block} and use flat {white}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_137",
+          "prompt_text": "Remove hidden {text layer} that duplicates the visible content"
+        },
+        {
+          "id": "writing_tone_typos_grammar_138",
+          "prompt_text": "Remove old creation date from metadata and set it to today"
+        },
+        {
+          "id": "writing_tone_typos_grammar_139",
+          "prompt_text": "Remove period from {title}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_140",
+          "prompt_text": "Remove red strikethrough text left from a rejected edit in {Findings} section"
+        },
+        {
+          "id": "writing_tone_typos_grammar_141",
+          "prompt_text": "Remove repeated {introduction text} that appears a second time below findings"
+        },
+        {
+          "id": "writing_tone_typos_grammar_142",
+          "prompt_text": "Remove reviewer name from comment metadata before sharing"
+        },
+        {
+          "id": "writing_tone_typos_grammar_143",
+          "prompt_text": "Remove second-person address in {opening sentence}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_144",
+          "prompt_text": "Remove thin white line cutting through the background fill"
+        },
+        {
+          "id": "writing_tone_typos_grammar_145",
+          "prompt_text": "Remove tracked revision history stored in PDF metadata"
+        },
+        {
+          "id": "writing_tone_typos_grammar_146",
+          "prompt_text": "Remove trailing ellipsis from last sentence in {sidebar}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_147",
+          "prompt_text": "Remove trailing period from every section number"
+        },
+        {
+          "id": "writing_tone_typos_grammar_148",
+          "prompt_text": "Remove word page and leave the numeral only"
+        },
+        {
+          "id": "writing_tone_typos_grammar_149",
+          "prompt_text": "Remove {data labels} that overlap the bars"
+        },
+        {
+          "id": "writing_tone_typos_grammar_150",
+          "prompt_text": "Remove {extra blank line} between {items 3 and 4}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_151",
+          "prompt_text": "Remove {footnote 3} callout"
+        },
+        {
+          "id": "writing_tone_typos_grammar_152",
+          "prompt_text": "Remove {red} accent from {pull quote}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_153",
+          "prompt_text": "Remove {yellow} background from {callout box}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_154",
+          "prompt_text": "Remove {I} from {recommendation section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_155",
+          "prompt_text": "Remove {I} from {recommendation section} and rewrite it in a team voice"
+        },
+        {
+          "id": "writing_tone_typos_grammar_156",
+          "prompt_text": "Renumber the steps after deleted item"
+        },
+        {
+          "id": "writing_tone_typos_grammar_157",
+          "prompt_text": "Replace the conversational line under {Next Steps} with a neutral business line"
+        },
+        {
+          "id": "writing_tone_typos_grammar_158",
+          "prompt_text": "Replace the grainy headshot with a {300 dpi} version"
+        },
+        {
+          "id": "writing_tone_typos_grammar_159",
+          "prompt_text": "Replace the multiple tabs in address block with a single left tab at {2 inches}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_160",
+          "prompt_text": "Replace the slang term {ballpark} in {sidebar} with {approximate}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_161",
+          "prompt_text": "Replace the {bracketed instructions} in methodology section with actual content"
+        },
+        {
+          "id": "writing_tone_typos_grammar_162",
+          "prompt_text": "Replace {Journal of Placeholder Studies} in {footnote 2} with {Harvard Business Review}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_163",
+          "prompt_text": "Replace {XX percent} in {callout box} with {18 percent}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_164",
+          "prompt_text": "Replace {YYYY} in {copyright line} with {2025}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_165",
+          "prompt_text": "Replace {bandwidth} in {paragraph 5} with {capacity}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_166",
+          "prompt_text": "Replace {boil the ocean} in {scope section} with {take on too much}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_167",
+          "prompt_text": "Replace {catalyze} with {start} in {opening paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_168",
+          "prompt_text": "Replace {circle back} in {paragraph 2} with {revisit}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_169",
+          "prompt_text": "Replace {deep dive} in {methods section} with {detailed review}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_170",
+          "prompt_text": "Replace {gonna} in {action item} with {going to}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_171",
+          "prompt_text": "Replace {low-hanging fruit} in recommendations with {quick wins}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_172",
+          "prompt_text": "Replace {net-net} in {closing line} with {bottom line}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_173",
+          "prompt_text": "Replace {operationalize} with {put into practice} in {methods section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_174",
+          "prompt_text": "Replace {optimize} with {improve} in {recommendation section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_175",
+          "prompt_text": "Replace {our team thinks} in {paragraph 5} with {the data suggests}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_176",
+          "prompt_text": "Replace {paradigm shift} in {strategy section} with {major change}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_177",
+          "prompt_text": "Replace {seamless} with {smooth} in {integration paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_178",
+          "prompt_text": "Replace {spearhead} with {lead} in {project timeline}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_179",
+          "prompt_text": "Replace {thought leadership} in {sidebar} with {expert guidance}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_180",
+          "prompt_text": "Replace {transformative} with {major} in {impact section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_181",
+          "prompt_text": "Replace {you can see} in {paragraph 3} with {the report shows}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_182",
+          "prompt_text": "Run OCR on scanned document"
+        },
+        {
+          "id": "writing_tone_typos_grammar_183",
+          "prompt_text": "Set all body text to {11pt} across the document"
+        },
+        {
+          "id": "writing_tone_typos_grammar_184",
+          "prompt_text": "Set all section headers to same typeface"
+        },
+        {
+          "id": "writing_tone_typos_grammar_185",
+          "prompt_text": "Set PDF subject field to project name"
+        },
+        {
+          "id": "writing_tone_typos_grammar_186",
+          "prompt_text": "Set PDF title in document properties"
+        },
+        {
+          "id": "writing_tone_typos_grammar_187",
+          "prompt_text": "Set body text under {Findings} to {12pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_188",
+          "prompt_text": "Set highlight bar to {orange} and rest to {light gray}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_189",
+          "prompt_text": "Set project name on cover to {30pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_190",
+          "prompt_text": "Set {body text} to {10pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_191",
+          "prompt_text": "Set {horizontal rule} to span the same width"
+        },
+        {
+          "id": "writing_tone_typos_grammar_192",
+          "prompt_text": "Set {4pt} between each definition term and its description"
+        },
+        {
+          "id": "writing_tone_typos_grammar_193",
+          "prompt_text": "Set {keep-with-next} on {last paragraph}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_194",
+          "prompt_text": "Shorten the {closing paragraph} to {three sentences}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_195",
+          "prompt_text": "Shrink report subtitle to {16pt}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_196",
+          "prompt_text": "Shrink {bio} paragraph to {two} sentences"
+        },
+        {
+          "id": "writing_tone_typos_grammar_197",
+          "prompt_text": "Spell out the month in {title date}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_198",
+          "prompt_text": "Spread {three body sections} evenly across the {lower half} of the page"
+        },
+        {
+          "id": "writing_tone_typos_grammar_199",
+          "prompt_text": "Swap {risk section} and {timeline}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_200",
+          "prompt_text": "Use Roman numerals"
+        },
+        {
+          "id": "writing_tone_typos_grammar_201",
+          "prompt_text": "Use lighter fill behind the {dark blue} callout text"
+        },
+        {
+          "id": "writing_tone_typos_grammar_202",
+          "prompt_text": "Use one name"
+        },
+        {
+          "id": "writing_tone_typos_grammar_203",
+          "prompt_text": "Use past tense across the full {project recap section}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_204",
+          "prompt_text": "Use non-compressed version of the map graphic"
+        },
+        {
+          "id": "writing_tone_typos_grammar_205",
+          "prompt_text": "Use same {light gray} background on both {section header bands}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_206",
+          "prompt_text": "Use {March 2025} format"
+        },
+        {
+          "id": "writing_tone_typos_grammar_207",
+          "prompt_text": "Use {gold} only on {key metric callouts}"
+        },
+        {
+          "id": "writing_tone_typos_grammar_208",
+          "prompt_text": "Use {two decimal places} on {conversion rate callout}"
+        }
+      ]
+    }
+  ]
+}

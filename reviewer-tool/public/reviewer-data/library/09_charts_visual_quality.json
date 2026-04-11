@@ -1,0 +1,146 @@
+{
+  "category": "charts_visual_quality",
+  "groups": [
+    {
+      "subcategory": "data_label_readability",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "data-label-readability"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_data_label_readability_001",
+          "prompt_text": "Add dot pattern to {third} pie slice"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_002",
+          "prompt_text": "Add {stripe pattern} to {secondary bar series}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_003",
+          "prompt_text": "Add light {horizontal gridlines} across the {plot area}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_004",
+          "prompt_text": "Add {data markers} to every {point} in {trend line}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_005",
+          "prompt_text": "Change data markers to {circles}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_006",
+          "prompt_text": "Change {axis labels} on {bar chart}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_007",
+          "prompt_text": "Change {chart legend swatches} to {navy}, {teal}, and light gray"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_008",
+          "prompt_text": "Change {chart title} font"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_009",
+          "prompt_text": "Change {chart title} to same {font}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_010",
+          "prompt_text": "Change {legend} text to same font"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_011",
+          "prompt_text": "Change {stacked bar} fills to alternating stripe and solid patterns"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_012",
+          "prompt_text": "Change {two chart series} to {dark gray and light gray} with {patterns}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_013",
+          "prompt_text": "Change {x-axis label} font"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_014",
+          "prompt_text": "Embed the {chart} label font in PDF export"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_015",
+          "prompt_text": "Increase data markers to {8pt} {circles}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_016",
+          "prompt_text": "Make {gridlines} thinner than the {axis} lines"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_017",
+          "prompt_text": "Remove all {gridlines} from {pie chart}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_018",
+          "prompt_text": "Remove vertical {gridlines} from {bar chart}"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_019",
+          "prompt_text": "Set {data label} font"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_020",
+          "prompt_text": "Use crosshatch fill"
+        },
+        {
+          "id": "charts_visual_quality_data_label_readability_021",
+          "prompt_text": "Use {distinct marker shapes} for each {series} in {scatter plot}"
+        }
+      ]
+    },
+    {
+      "subcategory": "bar_width_spacing",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "bar-width-spacing"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_bar_width_spacing_001",
+          "prompt_text": "Match gridline spacing to {y-axis} {tick marks}"
+        }
+      ]
+    },
+    {
+      "subcategory": "color_distinction",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "color-distinction"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_color_distinction_001",
+          "prompt_text": "Change gridline color in {chart} to {light gray}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_002",
+          "prompt_text": "Change {two series colors} to {dark blue} and {light gray}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_003",
+          "prompt_text": "Match {line chart} colors to colors used in {table headers}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_004",
+          "prompt_text": "Use same color"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_005",
+          "prompt_text": "Use {grayscale distinguishable patterns} for all {chart series}"
+        }
+      ]
+    }
+  ]
+}
