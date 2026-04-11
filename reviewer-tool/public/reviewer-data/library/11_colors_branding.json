@@ -12,70 +12,66 @@
       "entries": [
         {
           "id": "colors_branding_hex_code_accuracy_001",
-          "prompt_text": "Add color bar to bottom trim area for press calibration"
+          "prompt_text": "Change background text color to {light gray}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_002",
-          "prompt_text": "Change watermark color to {light gray}"
-        },
-        {
-          "id": "colors_branding_hex_code_accuracy_003",
           "prompt_text": "Change {accent line} under {title} to {teal}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_004",
+          "id": "colors_branding_hex_code_accuracy_003",
           "prompt_text": "Change {email link} color from {teal} to same {blue}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_005",
+          "id": "colors_branding_hex_code_accuracy_004",
           "prompt_text": "Change {line} colors"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_006",
+          "id": "colors_branding_hex_code_accuracy_005",
           "prompt_text": "Change {pale blue} body text in {title} block to {navy}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_007",
+          "id": "colors_branding_hex_code_accuracy_006",
           "prompt_text": "Change {section headers} to {navy}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_008",
+          "id": "colors_branding_hex_code_accuracy_007",
           "prompt_text": "Change {white text} in {yellow box} to {charcoal}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_009",
+          "id": "colors_branding_hex_code_accuracy_008",
           "prompt_text": "Darken the {light gray body text} to {charcoal}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_010",
+          "id": "colors_branding_hex_code_accuracy_009",
           "prompt_text": "Extend the side color panel to bottom edge of the page"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_011",
+          "id": "colors_branding_hex_code_accuracy_010",
           "prompt_text": "Limit the {page} to {four colors} total"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_012",
+          "id": "colors_branding_hex_code_accuracy_011",
           "prompt_text": "Remove gradient fill from bars and use flat color"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_013",
-          "prompt_text": "Remove half-bleed color band and stop it at margin"
+          "id": "colors_branding_hex_code_accuracy_012",
+          "prompt_text": "Stop the color band at the margin instead of extending to the page edge"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_014",
+          "id": "colors_branding_hex_code_accuracy_013",
           "prompt_text": "Set {source line} color to {dark gray}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_015",
+          "id": "colors_branding_hex_code_accuracy_014",
           "prompt_text": "Use same link color in body text and {footnotes}"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_016",
+          "id": "colors_branding_hex_code_accuracy_015",
           "prompt_text": "Use {navy} for all cross-reference links in document"
         },
         {
-          "id": "colors_branding_hex_code_accuracy_017",
+          "id": "colors_branding_hex_code_accuracy_016",
           "prompt_text": "Use {teal} for all three {metric callouts}"
         }
       ]
@@ -106,7 +102,7 @@
       "entries": [
         {
           "id": "colors_branding_brand_palette_adherence_001",
-          "prompt_text": "Change {border} color on {callout boxes} from {orange} to brand teal"
+          "prompt_text": "Change {border} color on {callout boxes} from {orange} to brand {teal}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_002",
@@ -127,298 +123,6 @@
         {
           "id": "colors_branding_brand_palette_adherence_006",
           "prompt_text": "Remove off-brand {teal} and replace it with approved brand {green}"
-        }
-      ]
-    },
-    {
-      "subcategory": "pantone_spot_color_matching",
-      "priority": "colors_branding",
-      "doc_type": "both",
-      "tags": [
-        "colors_branding",
-        "pantone-spot-color-matching"
-      ],
-      "entries": [
-        {
-          "id": "colors_branding_pantone_spot_color_matching_001",
-          "prompt_text": "Map spot color to nearest Pantone"
-        },
-        {
-          "id": "colors_branding_pantone_spot_color_matching_002",
-          "prompt_text": "Set logo color to Pantone X"
-        },
-        {
-          "id": "colors_branding_pantone_spot_color_matching_004",
-          "prompt_text": "Check Pantone coverage on coated paper"
-        },
-        {
-          "id": "colors_branding_pantone_spot_color_matching_005",
-          "prompt_text": "Define custom Pantone for brand"
-        },
-        {
-          "id": "colors_branding_pantone_spot_color_matching_008",
-          "prompt_text": "Convert RGB to Pantone for print"
-        }
-      ]
-    },
-    {
-      "subcategory": "cmyk_process_ink_limits",
-      "priority": "colors_branding",
-      "doc_type": "both",
-      "tags": [
-        "colors_branding",
-        "cmyk-process-ink-limits"
-      ],
-      "entries": [
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_001",
-          "prompt_text": "Adjust CMYK for newsprint"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_002",
-          "prompt_text": "Limit total ink to 2.0\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_003",
-          "prompt_text": "Set black channel to rich black"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_006",
-          "prompt_text": "Reduce cyan in skin tones to 0.25\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_008",
-          "prompt_text": "Reduce cyan in skin tones to 0.75\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_010",
-          "prompt_text": "Fix out of gamut colors for CMYK"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_014",
-          "prompt_text": "Reduce cyan in skin tones to 50%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_015",
-          "prompt_text": "Limit total ink to 1.25\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_016",
-          "prompt_text": "Reduce cyan in skin tones to 80%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_017",
-          "prompt_text": "Limit total ink to 0.25\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_019",
-          "prompt_text": "Limit total ink to 50%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_020",
-          "prompt_text": "Limit total ink to 200%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_021",
-          "prompt_text": "Limit total ink to {8pt}%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_026",
-          "prompt_text": "Limit total ink to 100%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_028",
-          "prompt_text": "Reduce cyan in skin tones to 1.25\"%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_042",
-          "prompt_text": "Reduce cyan in skin tones to {10px}%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_057",
-          "prompt_text": "Reduce cyan in skin tones to 100%%"
-        },
-        {
-          "id": "colors_branding_cmyk_process_ink_limits_059",
-          "prompt_text": "Reduce cyan in skin tones to 1.0\"%"
-        }
-      ]
-    },
-    {
-      "subcategory": "gradient_stop_interpolation",
-      "priority": "colors_branding",
-      "doc_type": "both",
-      "tags": [
-        "colors_branding",
-        "gradient-stop-interpolation"
-      ],
-      "entries": [
-        {
-          "id": "colors_branding_gradient_stop_interpolation_001",
-          "prompt_text": "Change stop color to {5px}"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_002",
-          "prompt_text": "Adjust gradient midpoint to {12pt}%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_003",
-          "prompt_text": "Adjust gradient midpoint to 100%%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_005",
-          "prompt_text": "Set interpolation to smooth for gradient"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_006",
-          "prompt_text": "Reverse gradient direction"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_008",
-          "prompt_text": "Change stop color to 200%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_009",
-          "prompt_text": "Add gradient stop at 0.25\"%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_015",
-          "prompt_text": "Add gradient stop at 100%%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_016",
-          "prompt_text": "Change stop color to 0.5\""
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_017",
-          "prompt_text": "Change stop color to 100%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_022",
-          "prompt_text": "Add gradient stop at {12pt}%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_029",
-          "prompt_text": "Add gradient stop at 1.0\"%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_032",
-          "prompt_text": "Adjust gradient midpoint to 0.25\"%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_036",
-          "prompt_text": "Change stop color to 1.25\""
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_047",
-          "prompt_text": "Change stop color to 0.25\""
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_049",
-          "prompt_text": "Add gradient stop at 2.0\"%"
-        },
-        {
-          "id": "colors_branding_gradient_stop_interpolation_051",
-          "prompt_text": "Adjust gradient midpoint to 200%%"
-        }
-      ]
-    },
-    {
-      "subcategory": "opacity_overlay_blending",
-      "priority": "colors_branding",
-      "doc_type": "both",
-      "tags": [
-        "colors_branding",
-        "opacity-overlay-blending"
-      ],
-      "entries": [
-        {
-          "id": "colors_branding_opacity_overlay_blending_001",
-          "prompt_text": "Set overlay to Multiply mode"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_003",
-          "prompt_text": "Remove transparency from table"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_004",
-          "prompt_text": "Adjust box opacity to {5px}%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_005",
-          "prompt_text": "Remove transparency from title"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_006",
-          "prompt_text": "Set layer blend to Screen"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_007",
-          "prompt_text": "Apply soft light blend to chart"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_010",
-          "prompt_text": "Remove transparency from graph"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_014",
-          "prompt_text": "Adjust box opacity to 200%%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_016",
-          "prompt_text": "Apply soft light blend to note"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_018",
-          "prompt_text": "Remove transparency from caption"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_022",
-          "prompt_text": "Remove transparency from logo"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_024",
-          "prompt_text": "Remove transparency from image"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_025",
-          "prompt_text": "Remove transparency from chart"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_026",
-          "prompt_text": "Apply soft light blend to caption"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_027",
-          "prompt_text": "Adjust box opacity to 100%%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_028",
-          "prompt_text": "Adjust box opacity to 50%%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_032",
-          "prompt_text": "Remove transparency from note"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_033",
-          "prompt_text": "Apply soft light blend to text"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_034",
-          "prompt_text": "Adjust box opacity to 1.0\"%"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_040",
-          "prompt_text": "Apply soft light blend to image"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_048",
-          "prompt_text": "Apply soft light blend to callout"
-        },
-        {
-          "id": "colors_branding_opacity_overlay_blending_057",
-          "prompt_text": "Remove transparency from text"
         }
       ]
     }

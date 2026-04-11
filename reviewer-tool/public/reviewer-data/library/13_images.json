@@ -40,306 +40,282 @@
         },
         {
           "id": "images_image_resolution_quality_008",
-          "prompt_text": "Add {0.125 inches} of {bleed} on all {four sides} of the cover image"
+          "prompt_text": "Add {0.125 inches} of {full-width} on all {four sides} of the cover image"
         },
         {
           "id": "images_image_resolution_quality_009",
-          "prompt_text": "Add {crop marks} to all {four corners} of the {page}"
-        },
-        {
-          "id": "images_image_resolution_quality_010",
           "prompt_text": "Align {image} left edge with text left margin"
         },
         {
-          "id": "images_image_resolution_quality_011",
+          "id": "images_image_resolution_quality_010",
           "prompt_text": "Center the client logo below {title}"
         },
         {
-          "id": "images_image_resolution_quality_012",
-          "prompt_text": "Change crop mark weight to {0.25pt}"
-        },
-        {
-          "id": "images_image_resolution_quality_013",
+          "id": "images_image_resolution_quality_011",
           "prompt_text": "Change {icon} colors to brand {navy} and {teal}"
         },
         {
-          "id": "images_image_resolution_quality_014",
+          "id": "images_image_resolution_quality_012",
           "prompt_text": "Change {image} wrap to square wrap with {0.1 inches} of padding"
         },
         {
-          "id": "images_image_resolution_quality_015",
+          "id": "images_image_resolution_quality_013",
           "prompt_text": "Change {image} wrap to tight on right"
         },
         {
-          "id": "images_image_resolution_quality_016",
+          "id": "images_image_resolution_quality_014",
           "prompt_text": "Crop the white border off {screenshot} in {Findings} section"
         },
         {
-          "id": "images_image_resolution_quality_017",
+          "id": "images_image_resolution_quality_015",
           "prompt_text": "Crop the {product image} to remove {excess background} on all four sides"
         },
         {
-          "id": "images_image_resolution_quality_018",
+          "id": "images_image_resolution_quality_016",
           "prompt_text": "Drop inline icon down {2pt} to sit on text baseline"
         },
         {
-          "id": "images_image_resolution_quality_019",
+          "id": "images_image_resolution_quality_017",
           "prompt_text": "Drop {title} block down {0.5 inches}"
         },
         {
-          "id": "images_image_resolution_quality_020",
+          "id": "images_image_resolution_quality_018",
           "prompt_text": "Extend the background image to page edge"
         },
         {
-          "id": "images_image_resolution_quality_021",
-          "prompt_text": "Extend the section divider image to bleed on top, left, and right sides"
+          "id": "images_image_resolution_quality_019",
+          "prompt_text": "Extend the section divider image to full-width on top, left, and right sides"
         },
         {
-          "id": "images_image_resolution_quality_022",
+          "id": "images_image_resolution_quality_020",
           "prompt_text": "Fix wrapped text in bullet {5}"
         },
         {
-          "id": "images_image_resolution_quality_023",
-          "prompt_text": "Fix {image} resolution that dropped to {72 dpi} after export"
-        },
-        {
-          "id": "images_image_resolution_quality_024",
+          "id": "images_image_resolution_quality_021",
           "prompt_text": "Increase wrap margin to {0.15 inches} on all sides of the {photo}"
         },
         {
-          "id": "images_image_resolution_quality_025",
+          "id": "images_image_resolution_quality_022",
           "prompt_text": "Make all {product photos} the same height at {2 inches}"
         },
         {
-          "id": "images_image_resolution_quality_026",
+          "id": "images_image_resolution_quality_023",
           "prompt_text": "Make {icon} {0.25 inches} square"
         },
         {
-          "id": "images_image_resolution_quality_027",
+          "id": "images_image_resolution_quality_024",
           "prompt_text": "Match {border} style on all {product image}s to a thin {light gray} line"
         },
         {
-          "id": "images_image_resolution_quality_028",
+          "id": "images_image_resolution_quality_025",
           "prompt_text": "Match {logo color} to {header color}"
         },
         {
-          "id": "images_image_resolution_quality_029",
+          "id": "images_image_resolution_quality_026",
           "prompt_text": "Move footer logo to center-bottom of the page"
         },
         {
-          "id": "images_image_resolution_quality_030",
+          "id": "images_image_resolution_quality_027",
           "prompt_text": "Move partner logo to right side of the header bar"
         },
         {
-          "id": "images_image_resolution_quality_031",
-          "prompt_text": "Move text block away from full-bleed image edge"
+          "id": "images_image_resolution_quality_028",
+          "prompt_text": "Move text block away from full-width image edge"
         },
         {
-          "id": "images_image_resolution_quality_032",
+          "id": "images_image_resolution_quality_029",
           "prompt_text": "Move {logo} away from right edge by {0.25 inches}"
         },
         {
-          "id": "images_image_resolution_quality_033",
+          "id": "images_image_resolution_quality_030",
           "prompt_text": "Move {logo} from footer to header"
         },
         {
-          "id": "images_image_resolution_quality_034",
-          "prompt_text": "Move {logo} off {bleed area} and into safe zone"
-        },
-        {
-          "id": "images_image_resolution_quality_035",
+          "id": "images_image_resolution_quality_031",
           "prompt_text": "Move {logo} to top left corner of the page"
         },
         {
-          "id": "images_image_resolution_quality_036",
+          "id": "images_image_resolution_quality_032",
           "prompt_text": "Move {logo} {0.25 inches} away from top right corner"
         },
         {
-          "id": "images_image_resolution_quality_037",
+          "id": "images_image_resolution_quality_033",
           "prompt_text": "Move {product image} to right side of the text block"
         },
         {
-          "id": "images_image_resolution_quality_038",
+          "id": "images_image_resolution_quality_034",
           "prompt_text": "Place full-width image after section intro"
         },
         {
-          "id": "images_image_resolution_quality_039",
+          "id": "images_image_resolution_quality_035",
           "prompt_text": "Place {logo} on {same line}"
         },
         {
-          "id": "images_image_resolution_quality_040",
+          "id": "images_image_resolution_quality_036",
           "prompt_text": "Pull cover photo to full edge with no white strip"
         },
         {
-          "id": "images_image_resolution_quality_041",
+          "id": "images_image_resolution_quality_037",
           "prompt_text": "Pull wrapped line in {numbered list} under {first line text}"
         },
         {
-          "id": "images_image_resolution_quality_042",
+          "id": "images_image_resolution_quality_038",
           "prompt_text": "Pull wrapped line in {item 4} under {first line} text"
         },
         {
-          "id": "images_image_resolution_quality_043",
+          "id": "images_image_resolution_quality_039",
           "prompt_text": "Reduce {logo} to {0.5 inches} tall in header"
         },
         {
-          "id": "images_image_resolution_quality_044",
+          "id": "images_image_resolution_quality_040",
           "prompt_text": "Remove drop shadow from product photo"
         },
         {
-          "id": "images_image_resolution_quality_045",
+          "id": "images_image_resolution_quality_041",
           "prompt_text": "Remove reflection effect from {logo} image"
         },
         {
-          "id": "images_image_resolution_quality_046",
-          "prompt_text": "Remove stale {crop marks} left from old page size"
-        },
-        {
-          "id": "images_image_resolution_quality_047",
+          "id": "images_image_resolution_quality_042",
           "prompt_text": "Remove text overlap on left side of the {image}"
         },
         {
-          "id": "images_image_resolution_quality_048",
+          "id": "images_image_resolution_quality_043",
           "prompt_text": "Remove text wrap and place {image} on its own line"
         },
         {
-          "id": "images_image_resolution_quality_049",
+          "id": "images_image_resolution_quality_044",
           "prompt_text": "Remove {border} from {hero image}"
         },
         {
-          "id": "images_image_resolution_quality_050",
-          "prompt_text": "Remove {crop marks} from screen-only version of the PDF"
-        },
-        {
-          "id": "images_image_resolution_quality_052",
+          "id": "images_image_resolution_quality_045",
           "prompt_text": "Remove {image}-only {text layer} and export the live text"
         },
         {
-          "id": "images_image_resolution_quality_053",
+          "id": "images_image_resolution_quality_046",
           "prompt_text": "Replace the fuzzy icon set with crisp SVG versions"
         },
         {
-          "id": "images_image_resolution_quality_054",
+          "id": "images_image_resolution_quality_047",
           "prompt_text": "Replace the soft background image with original uncompressed file"
         },
         {
-          "id": "images_image_resolution_quality_055",
-          "prompt_text": "Replace the {blurry image} under {Findings heading} with a {300 dpi version}"
+          "id": "images_image_resolution_quality_048",
+          "prompt_text": "Replace the {blurry image} under {Findings heading} with a higher resolution version of the}"
         },
         {
-          "id": "images_image_resolution_quality_056",
+          "id": "images_image_resolution_quality_049",
           "prompt_text": "Replace the {broken image} placeholder at bottom of the page with final graphic file"
         },
         {
-          "id": "images_image_resolution_quality_057",
+          "id": "images_image_resolution_quality_050",
           "prompt_text": "Replace the {full-color logo} with {single-color version} in header"
         },
         {
-          "id": "images_image_resolution_quality_058",
-          "prompt_text": "Replace the {pixelated product photo} in {sidebar} with a {300 dpi version}"
+          "id": "images_image_resolution_quality_051",
+          "prompt_text": "Replace the {pixelated product photo} in {sidebar} with a higher resolution version of the}"
         },
         {
-          "id": "images_image_resolution_quality_059",
+          "id": "images_image_resolution_quality_052",
           "prompt_text": "Resize the full-width image to {5 inches} wide"
         },
         {
-          "id": "images_image_resolution_quality_060",
+          "id": "images_image_resolution_quality_053",
           "prompt_text": "Rotate the sideways diagram {90 degrees} clockwise"
         },
         {
-          "id": "images_image_resolution_quality_061",
+          "id": "images_image_resolution_quality_054",
           "prompt_text": "Rotate the tilted scan image {2 degrees} clockwise to straighten it"
         },
         {
-          "id": "images_image_resolution_quality_062",
+          "id": "images_image_resolution_quality_055",
           "prompt_text": "Round the corners on {team photo} to {4pt}"
         },
         {
-          "id": "images_image_resolution_quality_063",
+          "id": "images_image_resolution_quality_056",
           "prompt_text": "Scale the diagram down to {3 inches} wide"
         },
         {
-          "id": "images_image_resolution_quality_064",
+          "id": "images_image_resolution_quality_057",
           "prompt_text": "Set hanging indent"
         },
         {
-          "id": "images_image_resolution_quality_065",
+          "id": "images_image_resolution_quality_058",
           "prompt_text": "Set {hanging indent}"
         },
         {
-          "id": "images_image_resolution_quality_066",
+          "id": "images_image_resolution_quality_059",
           "prompt_text": "Set all headshot photos to {1 inch} by {1 inch}"
         },
         {
-          "id": "images_image_resolution_quality_067",
-          "prompt_text": "Set crop mark offset to {0.125 inches} from trim edge"
+          "id": "images_image_resolution_quality_060",
+          "prompt_text": "Move the diagram {0.125 inches} away from the page edge"
         },
         {
-          "id": "images_image_resolution_quality_068",
+          "id": "images_image_resolution_quality_061",
           "prompt_text": "Set diagram to top-and-bottom wrap"
         },
         {
-          "id": "images_image_resolution_quality_069",
+          "id": "images_image_resolution_quality_062",
           "prompt_text": "Set {body text} to wrap cleanly around the {right side} of the {image}"
         },
         {
-          "id": "images_image_resolution_quality_070",
+          "id": "images_image_resolution_quality_063",
           "prompt_text": "Set {sidebar} image to square wrap with text on left"
         },
         {
-          "id": "images_image_resolution_quality_071",
+          "id": "images_image_resolution_quality_064",
           "prompt_text": "Shift background image down {0.5 inches} to center it on page"
         },
         {
-          "id": "images_image_resolution_quality_072",
+          "id": "images_image_resolution_quality_065",
           "prompt_text": "Shift {screenshot} left {0.2 inches}"
         },
         {
-          "id": "images_image_resolution_quality_073",
+          "id": "images_image_resolution_quality_066",
           "prompt_text": "Shrink full-width image {0.25 inches} on each side to sit inside the margins"
         },
         {
-          "id": "images_image_resolution_quality_074",
+          "id": "images_image_resolution_quality_067",
           "prompt_text": "Shrink oversized image"
         },
         {
-          "id": "images_image_resolution_quality_075",
-          "prompt_text": "Shrink {hero image} to {5 inches} wide}"
+          "id": "images_image_resolution_quality_068",
+          "prompt_text": "Shrink {hero image} to {5 inches} wide"
         },
         {
-          "id": "images_image_resolution_quality_076",
+          "id": "images_image_resolution_quality_069",
           "prompt_text": "Shrink {logo} to {0.5 inches} tall and keep it in header"
         },
         {
-          "id": "images_image_resolution_quality_077",
+          "id": "images_image_resolution_quality_070",
           "prompt_text": "Strip the GPS coordinates from embedded image metadata"
         },
         {
-          "id": "images_image_resolution_quality_078",
+          "id": "images_image_resolution_quality_071",
           "prompt_text": "Swap low-res screenshot in {Appendix} section"
         },
         {
-          "id": "images_image_resolution_quality_079",
+          "id": "images_image_resolution_quality_072",
           "prompt_text": "Switch {icon} to inline with heading"
         },
         {
-          "id": "images_image_resolution_quality_080",
-          "prompt_text": "Trim the empty space above and below diagram"
+          "id": "images_image_resolution_quality_073",
+          "prompt_text": "Remove the empty space above and below the diagram"
         },
         {
-          "id": "images_image_resolution_quality_081",
-          "prompt_text": "Upload a {300 dpi} version of the {product image} in {Recommendations} section"
+          "id": "images_image_resolution_quality_074",
+          "prompt_text": "Upload a higher resolution version of the {product image} in {Recommendations} section"
         },
         {
-          "id": "images_image_resolution_quality_082",
+          "id": "images_image_resolution_quality_075",
           "prompt_text": "Use {reverse logo} on dark backgrounds and {standard logo} on white"
         },
         {
-          "id": "images_image_resolution_quality_083",
+          "id": "images_image_resolution_quality_076",
           "prompt_text": "Use {vector version} of the {logo}"
         },
         {
-          "id": "images_image_resolution_quality_084",
+          "id": "images_image_resolution_quality_077",
           "prompt_text": "Use {white logo} on dark background"
         }
       ]
@@ -474,7 +450,7 @@
         },
         {
           "id": "images_caption_consistency_024",
-          "prompt_text": "Pull {caption} text {0.2 inches} inside the trim line"
+          "prompt_text": "Pull {caption} text {0.2 inches} inside the page edge"
         },
         {
           "id": "images_caption_consistency_025",
@@ -556,237 +532,60 @@
           "prompt_text": "Set JPEG quality to High"
         },
         {
-          "id": "images_compression_artifact_cleanup_007",
+          "id": "images_compression_artifact_cleanup_005",
           "prompt_text": "Fix pixelation in note"
         },
         {
-          "id": "images_compression_artifact_cleanup_014",
+          "id": "images_compression_artifact_cleanup_006",
           "prompt_text": "Reduce compression artifacts in chart"
         },
         {
-          "id": "images_compression_artifact_cleanup_016",
+          "id": "images_compression_artifact_cleanup_007",
           "prompt_text": "Denoise background of photo"
         },
         {
-          "id": "images_compression_artifact_cleanup_019",
+          "id": "images_compression_artifact_cleanup_008",
           "prompt_text": "Fix pixelation in graph"
         },
         {
-          "id": "images_compression_artifact_cleanup_020",
+          "id": "images_compression_artifact_cleanup_009",
           "prompt_text": "Reduce compression artifacts in graph"
         },
         {
-          "id": "images_compression_artifact_cleanup_021",
+          "id": "images_compression_artifact_cleanup_010",
           "prompt_text": "Fix pixelation in logo"
         },
         {
-          "id": "images_compression_artifact_cleanup_022",
+          "id": "images_compression_artifact_cleanup_011",
           "prompt_text": "Fix pixelation in callout"
         },
         {
-          "id": "images_compression_artifact_cleanup_024",
+          "id": "images_compression_artifact_cleanup_012",
           "prompt_text": "Fix pixelation in title"
         },
         {
-          "id": "images_compression_artifact_cleanup_032",
+          "id": "images_compression_artifact_cleanup_013",
           "prompt_text": "Reduce compression artifacts in image"
         },
         {
-          "id": "images_compression_artifact_cleanup_035",
+          "id": "images_compression_artifact_cleanup_014",
           "prompt_text": "Fix pixelation in table"
         },
         {
-          "id": "images_compression_artifact_cleanup_037",
+          "id": "images_compression_artifact_cleanup_015",
           "prompt_text": "Reduce compression artifacts in logo"
         },
         {
-          "id": "images_compression_artifact_cleanup_051",
+          "id": "images_compression_artifact_cleanup_016",
           "prompt_text": "Fix pixelation in caption"
         },
         {
-          "id": "images_compression_artifact_cleanup_058",
+          "id": "images_compression_artifact_cleanup_017",
           "prompt_text": "Fix pixelation in chart"
         },
         {
-          "id": "images_compression_artifact_cleanup_059",
+          "id": "images_compression_artifact_cleanup_018",
           "prompt_text": "Reduce compression artifacts in note"
-        }
-      ]
-    },
-    {
-      "subcategory": "vector_raster_rasterization",
-      "priority": "images",
-      "doc_type": "both",
-      "tags": [
-        "images",
-        "vector-raster-rasterization"
-      ],
-      "entries": [
-        {
-          "id": "images_vector_raster_rasterization_001",
-          "prompt_text": "Flatten transparency in raster image"
-        },
-        {
-          "id": "images_vector_raster_rasterization_003",
-          "prompt_text": "Rasterize vector effect to 300 dpi"
-        },
-        {
-          "id": "images_vector_raster_rasterization_007",
-          "prompt_text": "Set raster resolution to {10pt} for export"
-        },
-        {
-          "id": "images_vector_raster_rasterization_008",
-          "prompt_text": "Embed raster version of complex vector"
-        },
-        {
-          "id": "images_vector_raster_rasterization_011",
-          "prompt_text": "Set raster resolution to 50% for export"
-        },
-        {
-          "id": "images_vector_raster_rasterization_012",
-          "prompt_text": "Convert SVG to PNG for compatibility"
-        },
-        {
-          "id": "images_vector_raster_rasterization_034",
-          "prompt_text": "Set raster resolution to 0.5\" for export"
-        },
-        {
-          "id": "images_vector_raster_rasterization_046",
-          "prompt_text": "Set raster resolution to 80% for export"
-        }
-      ]
-    },
-    {
-      "subcategory": "transparency_masking",
-      "priority": "images",
-      "doc_type": "both",
-      "tags": [
-        "images",
-        "transparency-masking"
-      ],
-      "entries": [
-        {
-          "id": "images_transparency_masking_001",
-          "prompt_text": "Apply gradient mask to bottom edge"
-        },
-        {
-          "id": "images_transparency_masking_002",
-          "prompt_text": "Invert transparency mask"
-        },
-        {
-          "id": "images_transparency_masking_006",
-          "prompt_text": "Set mask feather to 1.0\""
-        },
-        {
-          "id": "images_transparency_masking_007",
-          "prompt_text": "Set mask feather to 2.0\""
-        },
-        {
-          "id": "images_transparency_masking_009",
-          "prompt_text": "Set mask feather to 0.5\""
-        },
-        {
-          "id": "images_transparency_masking_010",
-          "prompt_text": "Set mask feather to 80%"
-        },
-        {
-          "id": "images_transparency_masking_014",
-          "prompt_text": "Set mask feather to 1.25\""
-        },
-        {
-          "id": "images_transparency_masking_016",
-          "prompt_text": "Remove mask from title"
-        },
-        {
-          "id": "images_transparency_masking_017",
-          "prompt_text": "Remove mask from table"
-        },
-        {
-          "id": "images_transparency_masking_018",
-          "prompt_text": "Set mask feather to {12pt}"
-        },
-        {
-          "id": "images_transparency_masking_019",
-          "prompt_text": "Set mask feather to 100%"
-        },
-        {
-          "id": "images_transparency_masking_020",
-          "prompt_text": "Add alpha mask to title"
-        },
-        {
-          "id": "images_transparency_masking_021",
-          "prompt_text": "Add alpha mask to callout"
-        },
-        {
-          "id": "images_transparency_masking_027",
-          "prompt_text": "Set mask feather to 200%"
-        },
-        {
-          "id": "images_transparency_masking_031",
-          "prompt_text": "Add alpha mask to text"
-        },
-        {
-          "id": "images_transparency_masking_032",
-          "prompt_text": "Remove mask from graph"
-        },
-        {
-          "id": "images_transparency_masking_036",
-          "prompt_text": "Remove mask from image"
-        },
-        {
-          "id": "images_transparency_masking_039",
-          "prompt_text": "Set mask feather to 0.75\""
-        },
-        {
-          "id": "images_transparency_masking_043",
-          "prompt_text": "Add alpha mask to image"
-        },
-        {
-          "id": "images_transparency_masking_046",
-          "prompt_text": "Remove mask from chart"
-        }
-      ]
-    },
-    {
-      "subcategory": "complex_flowchart_alt_text",
-      "priority": "images",
-      "doc_type": "both",
-      "tags": [
-        "images",
-        "complex-flowchart-alt-text"
-      ],
-      "entries": [
-        {
-          "id": "images_complex_flowchart_alt_text_001",
-          "prompt_text": "Include step sequence in description"
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_002",
-          "prompt_text": "Add alt text to flowchart"
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_004",
-          "prompt_text": "Describe process flow in metadata"
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_007",
-          "prompt_text": "Set alt text for diagram to 1.0\""
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_009",
-          "prompt_text": "Set alt text for diagram to {10pt}"
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_011",
-          "prompt_text": "Fix accessibility label for complex chart"
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_035",
-          "prompt_text": "Set alt text for diagram to 0.75\""
-        },
-        {
-          "id": "images_complex_flowchart_alt_text_042",
-          "prompt_text": "Set alt text for diagram to 80%"
         }
       ]
     }

@@ -75,271 +75,271 @@
           "prompt_text": "Add {4pt} of space between {chart} and {source line}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_018",
+          "id": "charts_structure_chart_type_appropriateness_017",
           "prompt_text": "Align {chart} directly under {section intro paragraph}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_019",
+          "id": "charts_structure_chart_type_appropriateness_018",
           "prompt_text": "Align {chart} left edge with body text left margin"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_020",
+          "id": "charts_structure_chart_type_appropriateness_019",
           "prompt_text": "Break run-on sentence in {chart note} into {two parts}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_021",
+          "id": "charts_structure_chart_type_appropriateness_020",
           "prompt_text": "Center the {chart} between left and right margins"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_022",
+          "id": "charts_structure_chart_type_appropriateness_021",
           "prompt_text": "Change leader in {conclusion sentence} to {EMEA}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_023",
+          "id": "charts_structure_chart_type_appropriateness_022",
           "prompt_text": "Change pie slice for {Other} to {medium gray}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_024",
+          "id": "charts_structure_chart_type_appropriateness_023",
           "prompt_text": "Change top segment of the {stacked bar} to {20%}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_025",
+          "id": "charts_structure_chart_type_appropriateness_024",
           "prompt_text": "Change {Enterprise} segment in {donut chart} to {35%}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_026",
+          "id": "charts_structure_chart_type_appropriateness_025",
           "prompt_text": "Change {Ops} allocation in {budget chart} to {20%}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_027",
+          "id": "charts_structure_chart_type_appropriateness_026",
           "prompt_text": "Change {Other slice} in {pie chart} to {12%}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_028",
+          "id": "charts_structure_chart_type_appropriateness_027",
           "prompt_text": "Change {Other} slice in {pie chart} to {12%}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_029",
+          "id": "charts_structure_chart_type_appropriateness_028",
           "prompt_text": "Change {Yes/No column} to {checkmarks and X marks}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_030",
+          "id": "charts_structure_chart_type_appropriateness_029",
           "prompt_text": "Change {chart} bars to same {navy}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_031",
+          "id": "charts_structure_chart_type_appropriateness_030",
           "prompt_text": "Change {chart} total to {$4.5M}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_032",
+          "id": "charts_structure_chart_type_appropriateness_031",
           "prompt_text": "Change {pie chart segments} from default rainbow to {navy}, {teal}, and gray"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_033",
+          "id": "charts_structure_chart_type_appropriateness_032",
           "prompt_text": "Change {stacked bar} total for {June} to {$365K}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_038",
+          "id": "charts_structure_chart_type_appropriateness_033",
           "prompt_text": "Crop the {chart} image to remove extra white space on right"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_039",
+          "id": "charts_structure_chart_type_appropriateness_034",
           "prompt_text": "Ensure {chart segments} are distinguishable in {grayscale}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_040",
+          "id": "charts_structure_chart_type_appropriateness_035",
           "prompt_text": "Expand {chart} to {full width} of the {content area}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_041",
+          "id": "charts_structure_chart_type_appropriateness_036",
           "prompt_text": "Fix {line chart} label for {Q2} to {18.4}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_042",
+          "id": "charts_structure_chart_type_appropriateness_037",
           "prompt_text": "Group the two small pie slices into {Other}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_043",
+          "id": "charts_structure_chart_type_appropriateness_038",
           "prompt_text": "Italicize the {source line} under {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_044",
+          "id": "charts_structure_chart_type_appropriateness_039",
           "prompt_text": "Left-align body paragraph under {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_045",
+          "id": "charts_structure_chart_type_appropriateness_040",
           "prompt_text": "Make {revenue chart} and {cost chart} the same height"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_046",
+          "id": "charts_structure_chart_type_appropriateness_041",
           "prompt_text": "Make {source line} the same size on all three charts"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_047",
+          "id": "charts_structure_chart_type_appropriateness_042",
           "prompt_text": "Make {source line}s under all charts the same size"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_048",
+          "id": "charts_structure_chart_type_appropriateness_043",
           "prompt_text": "Match width of the {chart} to {table} below it"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_049",
+          "id": "charts_structure_chart_type_appropriateness_044",
           "prompt_text": "Move data table below {chart} it summarizes"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_050",
+          "id": "charts_structure_chart_type_appropriateness_045",
           "prompt_text": "Move {bar chart} {source line} directly below {chart} with {4pt} spacing"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_051",
+          "id": "charts_structure_chart_type_appropriateness_046",
           "prompt_text": "Move {chart commentary} under {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_052",
+          "id": "charts_structure_chart_type_appropriateness_047",
           "prompt_text": "Move {chart} commentary below {table}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_053",
-          "prompt_text": "Move {chart} {source line} {0.2 inches} above bottom trim edge"
+          "id": "charts_structure_chart_type_appropriateness_048",
+          "prompt_text": "Move {chart} {source line} {0.2 inches} above bottom page edge"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_054",
+          "id": "charts_structure_chart_type_appropriateness_049",
           "prompt_text": "Move {source line} to left edge of the {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_055",
+          "id": "charts_structure_chart_type_appropriateness_050",
           "prompt_text": "Place {bar chart} next to paragraph that references it"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_056",
+          "id": "charts_structure_chart_type_appropriateness_051",
           "prompt_text": "Pull {chart} left edge in"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_057",
+          "id": "charts_structure_chart_type_appropriateness_052",
           "prompt_text": "Pull {chart} right edge inside the right margin"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_058",
+          "id": "charts_structure_chart_type_appropriateness_053",
           "prompt_text": "Pull {chart} up {0.5 inches}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_059",
+          "id": "charts_structure_chart_type_appropriateness_054",
           "prompt_text": "Pull {source note} directly under {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_060",
+          "id": "charts_structure_chart_type_appropriateness_055",
           "prompt_text": "Re-sort the {bar chart} to smallest"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_061",
+          "id": "charts_structure_chart_type_appropriateness_056",
           "prompt_text": "Reduce gap between two stacked charts to {12pt}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_062",
+          "id": "charts_structure_chart_type_appropriateness_057",
           "prompt_text": "Reduce gap between {table} and {chart} to {18pt}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_063",
+          "id": "charts_structure_chart_type_appropriateness_058",
           "prompt_text": "Remove drop shadow around the {chart} frame"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_064",
+          "id": "charts_structure_chart_type_appropriateness_059",
           "prompt_text": "Remove exploded slice from {pie chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_065",
+          "id": "charts_structure_chart_type_appropriateness_060",
           "prompt_text": "Remove extra comma before {and} in {chart caption}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_066",
+          "id": "charts_structure_chart_type_appropriateness_061",
           "prompt_text": "Remove faint conversion lines behind the {chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_067",
+          "id": "charts_structure_chart_type_appropriateness_062",
           "prompt_text": "Remove {3D effect} from {bar chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_068",
+          "id": "charts_structure_chart_type_appropriateness_063",
           "prompt_text": "Remove {border} around the {chart} area"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_069",
+          "id": "charts_structure_chart_type_appropriateness_064",
           "prompt_text": "Remove {bright green} from {stacked bar} and use brand {dark green}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_070",
+          "id": "charts_structure_chart_type_appropriateness_065",
           "prompt_text": "Replace the compressed chart image with original high-res export"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_071",
+          "id": "charts_structure_chart_type_appropriateness_066",
           "prompt_text": "Replace the default {blue} chart background with {white}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_072",
+          "id": "charts_structure_chart_type_appropriateness_067",
           "prompt_text": "Replace {robust} with {strong} in {chart commentary}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_073",
+          "id": "charts_structure_chart_type_appropriateness_068",
           "prompt_text": "Resize the two side-by-side charts to {3 inches} wide each"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_074",
+          "id": "charts_structure_chart_type_appropriateness_069",
           "prompt_text": "Resize the {pie chart} to {3 inches} wide"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_075",
+          "id": "charts_structure_chart_type_appropriateness_070",
           "prompt_text": "Resolve the comment thread on {chart} caption"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_076",
+          "id": "charts_structure_chart_type_appropriateness_071",
           "prompt_text": "Right-align {chart} {source note}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_077",
+          "id": "charts_structure_chart_type_appropriateness_072",
           "prompt_text": "Set all three charts to {4 inches} wide"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_078",
+          "id": "charts_structure_chart_type_appropriateness_073",
           "prompt_text": "Set {axis labels} on {bar chart} to sentence case"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_079",
+          "id": "charts_structure_chart_type_appropriateness_074",
           "prompt_text": "Set {chart} {source line} to single line spacing"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_080",
+          "id": "charts_structure_chart_type_appropriateness_075",
           "prompt_text": "Set {source line} under {chart} to {9pt}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_081",
+          "id": "charts_structure_chart_type_appropriateness_076",
           "prompt_text": "Set {6pt} between {chart} and its {source line}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_082",
+          "id": "charts_structure_chart_type_appropriateness_077",
           "prompt_text": "Shift {pie chart} right"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_083",
+          "id": "charts_structure_chart_type_appropriateness_078",
           "prompt_text": "Shrink {chart} to leave room"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_084",
+          "id": "charts_structure_chart_type_appropriateness_079",
           "prompt_text": "Split fused sentence in {chart note} with a semicolon"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_085",
-          "prompt_text": "Trim the {case study} box to {four} lines"
+          "id": "charts_structure_chart_type_appropriateness_080",
+          "prompt_text": "Shorten the {case study} box to {four} lines"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_086",
+          "id": "charts_structure_chart_type_appropriateness_081",
           "prompt_text": "Update {pie chart}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_087",
+          "id": "charts_structure_chart_type_appropriateness_082",
           "prompt_text": "Use dashed line"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_088",
+          "id": "charts_structure_chart_type_appropriateness_083",
           "prompt_text": "Use {navy} for Revenue and {teal} for Costs in both charts"
         }
       ]
@@ -374,71 +374,71 @@
           "prompt_text": "Change {chart title value} to {$4.1M}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_007",
+          "id": "charts_structure_chart_title_descriptive_006",
           "prompt_text": "Left-align {chart titles}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_008",
+          "id": "charts_structure_chart_title_descriptive_007",
           "prompt_text": "Left-align {chart title} with {chart} edge"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_009",
+          "id": "charts_structure_chart_title_descriptive_008",
           "prompt_text": "Left-align {chart} subtitle under {chart title}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_010",
+          "id": "charts_structure_chart_title_descriptive_009",
           "prompt_text": "Left-align {chart} {source line} with {chart title}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_011",
+          "id": "charts_structure_chart_title_descriptive_010",
           "prompt_text": "Make {chart title} sentence case"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_012",
-          "prompt_text": "Move {chart title} {0.2 inches} down from top trim edge"
+          "id": "charts_structure_chart_title_descriptive_011",
+          "prompt_text": "Move {chart title} {0.2 inches} down from top page edge"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_013",
+          "id": "charts_structure_chart_title_descriptive_012",
           "prompt_text": "Move {chart title} {6pt} closer to {plot area}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_014",
+          "id": "charts_structure_chart_title_descriptive_013",
           "prompt_text": "Place {chart title} directly above {chart} image with {4pt} spacing"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_015",
+          "id": "charts_structure_chart_title_descriptive_014",
           "prompt_text": "Pull {chart title} {6pt} closer to {chart}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_016",
+          "id": "charts_structure_chart_title_descriptive_015",
           "prompt_text": "Remove bold from {chart} subtitle"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_017",
+          "id": "charts_structure_chart_title_descriptive_016",
           "prompt_text": "Remove percent sign from {chart axis labels} and add it to {axis title}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_018",
+          "id": "charts_structure_chart_title_descriptive_017",
           "prompt_text": "Remove subtitle from {revenue chart}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_019",
+          "id": "charts_structure_chart_title_descriptive_018",
           "prompt_text": "Replace the {placeholder chart title} with {Monthly Recurring Revenue (MRR)}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_020",
+          "id": "charts_structure_chart_title_descriptive_019",
           "prompt_text": "Replace {Q3} in {chart title} with {Third Quarter}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_021",
+          "id": "charts_structure_chart_title_descriptive_020",
           "prompt_text": "Set {chart title} to {14pt} bold"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_022",
+          "id": "charts_structure_chart_title_descriptive_021",
           "prompt_text": "Set {4pt} between {chart title} and top of the {chart}"
         },
         {
-          "id": "charts_structure_chart_title_descriptive_023",
+          "id": "charts_structure_chart_title_descriptive_022",
           "prompt_text": "Shorten the {chart title}"
         }
       ]
@@ -457,119 +457,119 @@
           "prompt_text": "Add {y-axis label} that says {Revenue ($M)}"
         },
         {
-          "id": "charts_structure_axis_labeling_003",
+          "id": "charts_structure_axis_labeling_002",
           "prompt_text": "Add missing {March} label on {x-axis}"
         },
         {
-          "id": "charts_structure_axis_labeling_004",
+          "id": "charts_structure_axis_labeling_003",
           "prompt_text": "Add value labels to top of each {stacked bar}"
         },
         {
-          "id": "charts_structure_axis_labeling_005",
+          "id": "charts_structure_axis_labeling_004",
           "prompt_text": "Add {data labels} only to final data point in each series"
         },
         {
-          "id": "charts_structure_axis_labeling_006",
+          "id": "charts_structure_axis_labeling_005",
           "prompt_text": "Add {percentage labels} to each {pie slice}"
         },
         {
-          "id": "charts_structure_axis_labeling_007",
+          "id": "charts_structure_axis_labeling_006",
           "prompt_text": "Bold only the {label} text in {legend}, not the values"
         },
         {
-          "id": "charts_structure_axis_labeling_008",
+          "id": "charts_structure_axis_labeling_007",
           "prompt_text": "Cap the {y-axis} at {100}"
         },
         {
-          "id": "charts_structure_axis_labeling_009",
+          "id": "charts_structure_axis_labeling_008",
           "prompt_text": "Change pie slice label for {Support} to {24%}"
         },
         {
-          "id": "charts_structure_axis_labeling_010",
+          "id": "charts_structure_axis_labeling_009",
           "prompt_text": "Change side labels in {chart} legend from ALL CAPS to sentence case"
         },
         {
-          "id": "charts_structure_axis_labeling_011",
+          "id": "charts_structure_axis_labeling_010",
           "prompt_text": "Change {Q3 label} in {chart} to {$1.3M}"
         },
         {
-          "id": "charts_structure_axis_labeling_012",
+          "id": "charts_structure_axis_labeling_011",
           "prompt_text": "Change {chart labels} to {one decimal place}"
         },
         {
-          "id": "charts_structure_axis_labeling_013",
+          "id": "charts_structure_axis_labeling_012",
           "prompt_text": "Change {chart} {axis labels} to {dark gray}"
         },
         {
-          "id": "charts_structure_axis_labeling_014",
+          "id": "charts_structure_axis_labeling_013",
           "prompt_text": "Change {x-axis} dates to {Jan Feb Mar Apr}"
         },
         {
-          "id": "charts_structure_axis_labeling_016",
+          "id": "charts_structure_axis_labeling_014",
           "prompt_text": "Change {y-axis} to increments of {10}"
         },
         {
-          "id": "charts_structure_axis_labeling_017",
+          "id": "charts_structure_axis_labeling_015",
           "prompt_text": "Fix {clipped legend} labels in exported PDF"
         },
         {
-          "id": "charts_structure_axis_labeling_018",
+          "id": "charts_structure_axis_labeling_016",
           "prompt_text": "Make {y-axis} start at {0}"
         },
         {
-          "id": "charts_structure_axis_labeling_019",
+          "id": "charts_structure_axis_labeling_017",
           "prompt_text": "Match size of both chart {axis labels}"
         },
         {
-          "id": "charts_structure_axis_labeling_020",
+          "id": "charts_structure_axis_labeling_018",
           "prompt_text": "Match {legend} labels to {table} column names"
         },
         {
-          "id": "charts_structure_axis_labeling_021",
+          "id": "charts_structure_axis_labeling_019",
           "prompt_text": "Match {y-axis} scale on both charts"
         },
         {
-          "id": "charts_structure_axis_labeling_022",
+          "id": "charts_structure_axis_labeling_020",
           "prompt_text": "Move {legend} labels to left-aligned inside the {legend} box"
         },
         {
-          "id": "charts_structure_axis_labeling_023",
+          "id": "charts_structure_axis_labeling_021",
           "prompt_text": "Remove extra whitespace above tallest bar on {y-axis}"
         },
         {
-          "id": "charts_structure_axis_labeling_024",
+          "id": "charts_structure_axis_labeling_022",
           "prompt_text": "Remove redundant {y-axis label} from single-metric chart"
         },
         {
-          "id": "charts_structure_axis_labeling_025",
+          "id": "charts_structure_axis_labeling_023",
           "prompt_text": "Rename the {legend} label {Series 1} to {North Region}"
         },
         {
-          "id": "charts_structure_axis_labeling_026",
+          "id": "charts_structure_axis_labeling_024",
           "prompt_text": "Rotate the {x-axis tick labels} {45 degrees}"
         },
         {
-          "id": "charts_structure_axis_labeling_027",
+          "id": "charts_structure_axis_labeling_025",
           "prompt_text": "Set {axis label} text to {10pt}"
         },
         {
-          "id": "charts_structure_axis_labeling_028",
+          "id": "charts_structure_axis_labeling_026",
           "prompt_text": "Set {x-axis} tick labels to sentence case"
         },
         {
-          "id": "charts_structure_axis_labeling_029",
+          "id": "charts_structure_axis_labeling_027",
           "prompt_text": "Set {x-axis}"
         },
         {
-          "id": "charts_structure_axis_labeling_030",
+          "id": "charts_structure_axis_labeling_028",
           "prompt_text": "Set {y-axis} {tick marks} at even {5 point} intervals"
         },
         {
-          "id": "charts_structure_axis_labeling_031",
+          "id": "charts_structure_axis_labeling_029",
           "prompt_text": "Shorten the {y-axis} tick labels to abbreviations like {$1M}"
         },
         {
-          "id": "charts_structure_axis_labeling_032",
+          "id": "charts_structure_axis_labeling_030",
           "prompt_text": "Use {Q1 2025} format"
         }
       ]
@@ -654,365 +654,6 @@
         {
           "id": "charts_structure_legend_clarity_018",
           "prompt_text": "Use heavier line weight"
-        }
-      ]
-    },
-    {
-      "subcategory": "waterfall_axis_logic",
-      "priority": "charts_structure",
-      "doc_type": "both",
-      "tags": [
-        "charts_structure",
-        "waterfall-axis-logic"
-      ],
-      "entries": [
-        {
-          "id": "charts_structure_waterfall_axis_logic_001",
-          "prompt_text": "Align waterfall labels to top"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_002",
-          "prompt_text": "Color increase to green and decrease to red"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_003",
-          "prompt_text": "Set waterfall start to 1.25\""
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_004",
-          "prompt_text": "Show total column in waterfall"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_011",
-          "prompt_text": "Adjust connector lines to {12pt} weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_014",
-          "prompt_text": "Set waterfall start to 50%"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_018",
-          "prompt_text": "Adjust connector lines to 2.0\" weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_019",
-          "prompt_text": "Adjust connector lines to 50% weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_025",
-          "prompt_text": "Set waterfall start to 80%"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_027",
-          "prompt_text": "Set waterfall start to {5px}"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_028",
-          "prompt_text": "Adjust connector lines to 100% weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_029",
-          "prompt_text": "Set waterfall start to 2.0\""
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_032",
-          "prompt_text": "Set waterfall start to 0.5\""
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_033",
-          "prompt_text": "Adjust connector lines to 200% weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_041",
-          "prompt_text": "Adjust connector lines to 1.0\" weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_043",
-          "prompt_text": "Adjust connector lines to 0.25\" weight"
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_049",
-          "prompt_text": "Set waterfall start to 1.0\""
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_050",
-          "prompt_text": "Set waterfall start to 0.75\""
-        },
-        {
-          "id": "charts_structure_waterfall_axis_logic_051",
-          "prompt_text": "Adjust connector lines to 0.75\" weight"
-        }
-      ]
-    },
-    {
-      "subcategory": "pareto_distribution_formatting",
-      "priority": "charts_structure",
-      "doc_type": "both",
-      "tags": [
-        "charts_structure",
-        "pareto-distribution-formatting"
-      ],
-      "entries": [
-        {
-          "id": "charts_structure_pareto_distribution_formatting_001",
-          "prompt_text": "Align pareto bars to left axis"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_002",
-          "prompt_text": "Sort pareto bars to descending"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_003",
-          "prompt_text": "Color 80% mark to {10px}"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_004",
-          "prompt_text": "Add cumulative percentage to pareto"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_007",
-          "prompt_text": "Set secondary axis to 100%"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_012",
-          "prompt_text": "Color 80% mark to 0.25\""
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_018",
-          "prompt_text": "Color 80% mark to 200%"
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_020",
-          "prompt_text": "Color 80% mark to 0.75\""
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_021",
-          "prompt_text": "Color 80% mark to 1.25\""
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_022",
-          "prompt_text": "Color 80% mark to 1.0\""
-        },
-        {
-          "id": "charts_structure_pareto_distribution_formatting_029",
-          "prompt_text": "Color 80% mark to 50%"
-        }
-      ]
-    },
-    {
-      "subcategory": "treemap_nesting_depth",
-      "priority": "charts_structure",
-      "doc_type": "both",
-      "tags": [
-        "charts_structure",
-        "treemap-nesting-depth"
-      ],
-      "entries": [
-        {
-          "id": "charts_structure_treemap_nesting_depth_001",
-          "prompt_text": "Adjust treemap padding to 0.75\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_002",
-          "prompt_text": "Color treemap leaves by value"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_003",
-          "prompt_text": "Set treemap depth to 80% levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_006",
-          "prompt_text": "Group treemap by category"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_007",
-          "prompt_text": "Adjust treemap padding to 1.25\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_010",
-          "prompt_text": "Adjust treemap padding to {10pt}"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_013",
-          "prompt_text": "Adjust treemap padding to 80%"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_014",
-          "prompt_text": "Adjust treemap padding to 2.0\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_021",
-          "prompt_text": "Show labels only for level X"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_024",
-          "prompt_text": "Set treemap depth to 1.25\" levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_032",
-          "prompt_text": "Set treemap depth to 2.0\" levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_035",
-          "prompt_text": "Adjust treemap padding to 0.5\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_040",
-          "prompt_text": "Adjust treemap padding to 0.25\""
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_043",
-          "prompt_text": "Set treemap depth to 0.25\" levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_045",
-          "prompt_text": "Set treemap depth to 1.0\" levels"
-        },
-        {
-          "id": "charts_structure_treemap_nesting_depth_057",
-          "prompt_text": "Set treemap depth to {10pt} levels"
-        }
-      ]
-    },
-    {
-      "subcategory": "axis_break_symbols",
-      "priority": "charts_structure",
-      "doc_type": "both",
-      "tags": [
-        "charts_structure",
-        "axis-break-symbols"
-      ],
-      "entries": [
-        {
-          "id": "charts_structure_axis_break_symbols_001",
-          "prompt_text": "Set break symbol to double slash"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_003",
-          "prompt_text": "Add axis break at value X"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_004",
-          "prompt_text": "Remove axis break from Y axis"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_006",
-          "prompt_text": "Gap break area by 1.25\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_008",
-          "prompt_text": "Gap break area by {12pt}"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_013",
-          "prompt_text": "Gap break area by 200%"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_014",
-          "prompt_text": "Color break symbol to {8pt}"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_016",
-          "prompt_text": "Gap break area by 0.25\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_018",
-          "prompt_text": "Color break symbol to 100%"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_019",
-          "prompt_text": "Color break symbol to 1.0\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_023",
-          "prompt_text": "Color break symbol to 200%"
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_027",
-          "prompt_text": "Gap break area by 2.0\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_035",
-          "prompt_text": "Gap break area by 1.0\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_038",
-          "prompt_text": "Color break symbol to 1.25\""
-        },
-        {
-          "id": "charts_structure_axis_break_symbols_039",
-          "prompt_text": "Color break symbol to 0.5\""
-        }
-      ]
-    },
-    {
-      "subcategory": "error_bar_standard_deviation",
-      "priority": "charts_structure",
-      "doc_type": "both",
-      "tags": [
-        "charts_structure",
-        "error-bar-standard-deviation"
-      ],
-      "entries": [
-        {
-          "id": "charts_structure_error_bar_standard_deviation_001",
-          "prompt_text": "Hide error bar caps"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_002",
-          "prompt_text": "Add error bars to series X"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_003",
-          "prompt_text": "Set error bar color to 80%"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_004",
-          "prompt_text": "Format error bars to {10px} thickness"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_005",
-          "prompt_text": "Set error amount to 80% standard deviations"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_008",
-          "prompt_text": "Set error bar color to 0.75\""
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_009",
-          "prompt_text": "Set error bar color to {12pt}"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_011",
-          "prompt_text": "Set error amount to {8pt} standard deviations"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_013",
-          "prompt_text": "Set error bar color to 100%"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_017",
-          "prompt_text": "Format error bars to 0.75\" thickness"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_018",
-          "prompt_text": "Set error bar color to 2.0\""
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_019",
-          "prompt_text": "Format error bars to 1.0\" thickness"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_024",
-          "prompt_text": "Set error amount to 0.25\" standard deviations"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_029",
-          "prompt_text": "Set error amount to 1.0\" standard deviations"
-        },
-        {
-          "id": "charts_structure_error_bar_standard_deviation_038",
-          "prompt_text": "Format error bars to 200% thickness"
         }
       ]
     }

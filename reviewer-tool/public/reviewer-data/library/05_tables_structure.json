@@ -205,515 +205,515 @@
           "prompt_text": "Add {12pt} of space above {table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_015",
+          "id": "tables_structure_column_row_utilization_014",
           "prompt_text": "Add {12pt} of space between {table} and paragraph below it"
         },
         {
-          "id": "tables_structure_column_row_utilization_016",
+          "id": "tables_structure_column_row_utilization_015",
           "prompt_text": "Add {18pt} below {Table 2} before next paragraph"
         },
         {
-          "id": "tables_structure_column_row_utilization_018",
+          "id": "tables_structure_column_row_utilization_016",
           "prompt_text": "Add {Source: Company internal data, Q1 2025} below {data table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_019",
+          "id": "tables_structure_column_row_utilization_017",
           "prompt_text": "Add {Table 3} where the {second paragraph} calls for it"
         },
         {
-          "id": "tables_structure_column_row_utilization_020",
+          "id": "tables_structure_column_row_utilization_018",
           "prompt_text": "Add {commas} to every {five digit value} in {budget column}"
         },
         {
-          "id": "tables_structure_column_row_utilization_021",
+          "id": "tables_structure_column_row_utilization_019",
           "prompt_text": "Add {sq ft} to {area column} values"
         },
         {
-          "id": "tables_structure_column_row_utilization_022",
+          "id": "tables_structure_column_row_utilization_020",
           "prompt_text": "Add {two more data points} to {results table} to cover all {five regions}"
         },
         {
-          "id": "tables_structure_column_row_utilization_023",
+          "id": "tables_structure_column_row_utilization_021",
           "prompt_text": "Break three-column layout into two columns"
         },
         {
-          "id": "tables_structure_column_row_utilization_024",
+          "id": "tables_structure_column_row_utilization_022",
           "prompt_text": "Center the header text in every column of the {roster table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_025",
+          "id": "tables_structure_column_row_utilization_023",
           "prompt_text": "Center the {column} headers in every table"
         },
         {
-          "id": "tables_structure_column_row_utilization_026",
+          "id": "tables_structure_column_row_utilization_024",
           "prompt_text": "Center the {diagram} between {two text columns}"
         },
         {
-          "id": "tables_structure_column_row_utilization_027",
+          "id": "tables_structure_column_row_utilization_025",
           "prompt_text": "Center the {full table block} on {page}"
         },
         {
-          "id": "tables_structure_column_row_utilization_028",
+          "id": "tables_structure_column_row_utilization_026",
           "prompt_text": "Center the {status icons} in {column D}"
         },
         {
-          "id": "tables_structure_column_row_utilization_029",
+          "id": "tables_structure_column_row_utilization_027",
           "prompt_text": "Center-align status column values"
         },
         {
-          "id": "tables_structure_column_row_utilization_030",
+          "id": "tables_structure_column_row_utilization_028",
           "prompt_text": "Change cost figure in {callout box} to {$3.1M}"
         },
         {
-          "id": "tables_structure_column_row_utilization_031",
+          "id": "tables_structure_column_row_utilization_029",
           "prompt_text": "Change empty cells in {status column} to {em dashes}"
         },
         {
-          "id": "tables_structure_column_row_utilization_032",
+          "id": "tables_structure_column_row_utilization_030",
           "prompt_text": "Change growth rate in footnote to {18%}"
         },
         {
-          "id": "tables_structure_column_row_utilization_033",
+          "id": "tables_structure_column_row_utilization_031",
           "prompt_text": "Change headcount in {opening paragraph} to {147}"
         },
         {
-          "id": "tables_structure_column_row_utilization_034",
+          "id": "tables_structure_column_row_utilization_032",
           "prompt_text": "Change header in {column E} to {Comments}"
         },
         {
-          "id": "tables_structure_column_row_utilization_035",
+          "id": "tables_structure_column_row_utilization_033",
           "prompt_text": "Change mixed tenses in {timeline table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_036",
+          "id": "tables_structure_column_row_utilization_034",
           "prompt_text": "Change mixed use of {hrs} and {hours} to {hours}"
         },
         {
-          "id": "tables_structure_column_row_utilization_037",
+          "id": "tables_structure_column_row_utilization_035",
           "prompt_text": "Change year over year delta in {MRR row} to {12%}"
         },
         {
-          "id": "tables_structure_column_row_utilization_038",
+          "id": "tables_structure_column_row_utilization_036",
           "prompt_text": "Change zero values in {table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_039",
+          "id": "tables_structure_column_row_utilization_037",
           "prompt_text": "Change {May bar value} to {$118K}"
         },
         {
-          "id": "tables_structure_column_row_utilization_040",
+          "id": "tables_structure_column_row_utilization_038",
           "prompt_text": "Change {YoY growth rate} in {callout} to {15%}"
         },
         {
-          "id": "tables_structure_column_row_utilization_044",
+          "id": "tables_structure_column_row_utilization_039",
           "prompt_text": "Change {light green} text in {table} to a darker shade"
         },
         {
-          "id": "tables_structure_column_row_utilization_045",
+          "id": "tables_structure_column_row_utilization_040",
           "prompt_text": "Change {table} of contents font"
         },
         {
-          "id": "tables_structure_column_row_utilization_049",
+          "id": "tables_structure_column_row_utilization_041",
           "prompt_text": "Change {kg} to {kilograms} in {table} header"
         },
         {
-          "id": "tables_structure_column_row_utilization_050",
+          "id": "tables_structure_column_row_utilization_042",
           "prompt_text": "Define {MRR} before"
         },
         {
-          "id": "tables_structure_column_row_utilization_051",
+          "id": "tables_structure_column_row_utilization_043",
           "prompt_text": "Delete {2 inch} gap between {table} of contents and introduction"
         },
         {
-          "id": "tables_structure_column_row_utilization_052",
+          "id": "tables_structure_column_row_utilization_044",
           "prompt_text": "Fix garbled copy-paste text in data table"
         },
         {
-          "id": "tables_structure_column_row_utilization_053",
+          "id": "tables_structure_column_row_utilization_045",
           "prompt_text": "Fix internal link to {Table 2}"
         },
         {
-          "id": "tables_structure_column_row_utilization_054",
+          "id": "tables_structure_column_row_utilization_046",
           "prompt_text": "Fix missing characters in {table} header after export"
         },
         {
-          "id": "tables_structure_column_row_utilization_055",
+          "id": "tables_structure_column_row_utilization_047",
           "prompt_text": "Fix overlapping text in two-column layout after conversion"
         },
         {
-          "id": "tables_structure_column_row_utilization_056",
+          "id": "tables_structure_column_row_utilization_048",
           "prompt_text": "Fix reversed reading order in two-column section"
         },
         {
-          "id": "tables_structure_column_row_utilization_057",
+          "id": "tables_structure_column_row_utilization_049",
           "prompt_text": "Fix {clipped table} that cuts off last two rows in PDF export"
         },
         {
-          "id": "tables_structure_column_row_utilization_058",
+          "id": "tables_structure_column_row_utilization_050",
           "prompt_text": "Increase {row} height on wrapped-text row by {6pt}"
         },
         {
-          "id": "tables_structure_column_row_utilization_059",
+          "id": "tables_structure_column_row_utilization_051",
           "prompt_text": "Keep section header and {first table} row together with no break between them"
         },
         {
-          "id": "tables_structure_column_row_utilization_060",
+          "id": "tables_structure_column_row_utilization_052",
           "prompt_text": "Keep {table} title and {first row} together with no gap between them"
         },
         {
-          "id": "tables_structure_column_row_utilization_061",
+          "id": "tables_structure_column_row_utilization_053",
           "prompt_text": "Keep {table} width inside the left and right margins"
         },
         {
-          "id": "tables_structure_column_row_utilization_062",
+          "id": "tables_structure_column_row_utilization_054",
           "prompt_text": "Left-align description column in all tables"
         },
         {
-          "id": "tables_structure_column_row_utilization_063",
+          "id": "tables_structure_column_row_utilization_055",
           "prompt_text": "Left-align {table} of contents heading"
         },
         {
-          "id": "tables_structure_column_row_utilization_064",
+          "id": "tables_structure_column_row_utilization_056",
           "prompt_text": "Left-align {table} with body text margin"
         },
         {
-          "id": "tables_structure_column_row_utilization_065",
+          "id": "tables_structure_column_row_utilization_057",
           "prompt_text": "Make all three column headers in layout the same size"
         },
         {
-          "id": "tables_structure_column_row_utilization_066",
+          "id": "tables_structure_column_row_utilization_058",
           "prompt_text": "Make every table cell in {column B} the same size"
         },
         {
-          "id": "tables_structure_column_row_utilization_067",
+          "id": "tables_structure_column_row_utilization_059",
           "prompt_text": "Make text in PDF selectable"
         },
         {
-          "id": "tables_structure_column_row_utilization_068",
+          "id": "tables_structure_column_row_utilization_060",
           "prompt_text": "Make {callout box} width match body text column width"
         },
         {
-          "id": "tables_structure_column_row_utilization_069",
+          "id": "tables_structure_column_row_utilization_061",
           "prompt_text": "Make {first column} {30%} of the {table} width"
         },
         {
-          "id": "tables_structure_column_row_utilization_070",
+          "id": "tables_structure_column_row_utilization_062",
           "prompt_text": "Make {left column} narrower and {right column} wider"
         },
         {
-          "id": "tables_structure_column_row_utilization_071",
+          "id": "tables_structure_column_row_utilization_063",
           "prompt_text": "Make {table cell text} use same {font}"
         },
         {
-          "id": "tables_structure_column_row_utilization_072",
+          "id": "tables_structure_column_row_utilization_064",
           "prompt_text": "Make {table} note text {8pt}"
         },
         {
-          "id": "tables_structure_column_row_utilization_073",
+          "id": "tables_structure_column_row_utilization_065",
           "prompt_text": "Make {table} of contents entries clickable hyperlinks"
         },
         {
-          "id": "tables_structure_column_row_utilization_074",
+          "id": "tables_structure_column_row_utilization_066",
           "prompt_text": "Make {columns C and D} the same width"
         },
         {
-          "id": "tables_structure_column_row_utilization_075",
+          "id": "tables_structure_column_row_utilization_067",
           "prompt_text": "Match width of {Table 2} to {Table 1}"
         },
         {
-          "id": "tables_structure_column_row_utilization_076",
+          "id": "tables_structure_column_row_utilization_068",
           "prompt_text": "Match {row height} across every {data row} in {Table 2}"
         },
         {
-          "id": "tables_structure_column_row_utilization_077",
+          "id": "tables_structure_column_row_utilization_069",
           "prompt_text": "Move {budget} table from {appendix} into main body after {timeline}"
         },
         {
-          "id": "tables_structure_column_row_utilization_078",
+          "id": "tables_structure_column_row_utilization_070",
           "prompt_text": "Move {callout box} below {table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_079",
+          "id": "tables_structure_column_row_utilization_071",
           "prompt_text": "Move {data sources paragraph} above {results table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_080",
+          "id": "tables_structure_column_row_utilization_072",
           "prompt_text": "Move {full table} down {12pt} under section intro"
         },
         {
-          "id": "tables_structure_column_row_utilization_081",
+          "id": "tables_structure_column_row_utilization_073",
           "prompt_text": "Move {icon} row up to {6pt} below paragraph above it"
         },
         {
-          "id": "tables_structure_column_row_utilization_082",
+          "id": "tables_structure_column_row_utilization_074",
           "prompt_text": "Move {source note} directly below {table} with {4pt} spacing"
         },
         {
-          "id": "tables_structure_column_row_utilization_084",
+          "id": "tables_structure_column_row_utilization_075",
           "prompt_text": "Move {table} left edge inside the left margin"
         },
         {
-          "id": "tables_structure_column_row_utilization_085",
+          "id": "tables_structure_column_row_utilization_076",
           "prompt_text": "Move {table} left to line up with text column"
         },
         {
-          "id": "tables_structure_column_row_utilization_086",
+          "id": "tables_structure_column_row_utilization_077",
           "prompt_text": "Move {table} of contents above first body section"
         },
         {
-          "id": "tables_structure_column_row_utilization_087",
+          "id": "tables_structure_column_row_utilization_078",
           "prompt_text": "Move {table} {0.15 inches} left"
         },
         {
-          "id": "tables_structure_column_row_utilization_088",
+          "id": "tables_structure_column_row_utilization_079",
           "prompt_text": "Move {Table 2} directly below its heading with {6pt} of space between them"
         },
         {
-          "id": "tables_structure_column_row_utilization_089",
+          "id": "tables_structure_column_row_utilization_080",
           "prompt_text": "Move {Table 2} directly below paragraph that references it"
         },
         {
-          "id": "tables_structure_column_row_utilization_090",
+          "id": "tables_structure_column_row_utilization_081",
           "prompt_text": "Move {Table 2} to directly after paragraph that references it"
         },
         {
-          "id": "tables_structure_column_row_utilization_091",
+          "id": "tables_structure_column_row_utilization_082",
           "prompt_text": "Place {Table 1} immediately after paragraph that introduces it"
         },
         {
-          "id": "tables_structure_column_row_utilization_092",
+          "id": "tables_structure_column_row_utilization_083",
           "prompt_text": "Pull tip box out of the body column and into left margin"
         },
         {
-          "id": "tables_structure_column_row_utilization_093",
+          "id": "tables_structure_column_row_utilization_084",
           "prompt_text": "Pull {table} left edge inside the {left margin}"
         },
         {
-          "id": "tables_structure_column_row_utilization_094",
+          "id": "tables_structure_column_row_utilization_085",
           "prompt_text": "Put {revision history} table at end of the document before {appendix}"
         },
         {
-          "id": "tables_structure_column_row_utilization_095",
+          "id": "tables_structure_column_row_utilization_086",
           "prompt_text": "Reduce 30-row table column widths"
         },
         {
-          "id": "tables_structure_column_row_utilization_096",
+          "id": "tables_structure_column_row_utilization_087",
           "prompt_text": "Reduce gap between {table} title and {table} to {6pt}"
         },
         {
-          "id": "tables_structure_column_row_utilization_097",
+          "id": "tables_structure_column_row_utilization_088",
           "prompt_text": "Reduce space between {table} of contents and first section to {18pt}"
         },
         {
-          "id": "tables_structure_column_row_utilization_098",
+          "id": "tables_structure_column_row_utilization_089",
           "prompt_text": "Reduce {table} font size to {9pt}"
         },
         {
-          "id": "tables_structure_column_row_utilization_099",
+          "id": "tables_structure_column_row_utilization_090",
           "prompt_text": "Refresh the {table of contents}"
         },
         {
-          "id": "tables_structure_column_row_utilization_100",
+          "id": "tables_structure_column_row_utilization_091",
           "prompt_text": "Remove every other horizontal gridline"
         },
         {
-          "id": "tables_structure_column_row_utilization_101",
+          "id": "tables_structure_column_row_utilization_092",
           "prompt_text": "Remove extra {page break} after {table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_102",
+          "id": "tables_structure_column_row_utilization_093",
           "prompt_text": "Remove extra {section break} that adds blank space after {table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_103",
+          "id": "tables_structure_column_row_utilization_094",
           "prompt_text": "Remove footer from below {table} of contents"
         },
         {
-          "id": "tables_structure_column_row_utilization_104",
+          "id": "tables_structure_column_row_utilization_095",
           "prompt_text": "Remove manual tabs in contact list and align columns with a table"
         },
         {
-          "id": "tables_structure_column_row_utilization_105",
+          "id": "tables_structure_column_row_utilization_096",
           "prompt_text": "Remove repeated {km} unit from every cell and keep it in header"
         },
         {
-          "id": "tables_structure_column_row_utilization_106",
+          "id": "tables_structure_column_row_utilization_097",
           "prompt_text": "Remove trailing zeros from values in {column E}"
         },
         {
-          "id": "tables_structure_column_row_utilization_107",
+          "id": "tables_structure_column_row_utilization_098",
           "prompt_text": "Remove trailing zeros from whole number values in {column C}"
         },
         {
-          "id": "tables_structure_column_row_utilization_108",
+          "id": "tables_structure_column_row_utilization_099",
           "prompt_text": "Remove two-column layout and go back to a single column"
         },
         {
-          "id": "tables_structure_column_row_utilization_109",
+          "id": "tables_structure_column_row_utilization_100",
           "prompt_text": "Remove {1.5 inch} blank gap below landscape table"
         },
         {
-          "id": "tables_structure_column_row_utilization_110",
+          "id": "tables_structure_column_row_utilization_101",
           "prompt_text": "Remove {TODO note} in margin next to budget table"
         },
         {
-          "id": "tables_structure_column_row_utilization_111",
+          "id": "tables_structure_column_row_utilization_102",
           "prompt_text": "Remove {running header} from above {table} of contents"
         },
         {
-          "id": "tables_structure_column_row_utilization_112",
-          "prompt_text": "Remove {see {Table 4} reference"
+          "id": "tables_structure_column_row_utilization_103",
+          "prompt_text": "Remove {see Table 4} reference"
         },
         {
-          "id": "tables_structure_column_row_utilization_113",
+          "id": "tables_structure_column_row_utilization_104",
           "prompt_text": "Remove {kg} from individual cells and put it in {column header}"
         },
         {
-          "id": "tables_structure_column_row_utilization_114",
+          "id": "tables_structure_column_row_utilization_105",
           "prompt_text": "Replace the arrow bullets in {sidebar} with {round bullets}"
         },
         {
-          "id": "tables_structure_column_row_utilization_115",
+          "id": "tables_structure_column_row_utilization_106",
           "prompt_text": "Replace the blank cells in {Q4 column} with a dash"
         },
         {
-          "id": "tables_structure_column_row_utilization_116",
+          "id": "tables_structure_column_row_utilization_107",
           "prompt_text": "Replace {TBD} in {timeline table} with {June 30, 2025}"
         },
         {
-          "id": "tables_structure_column_row_utilization_117",
+          "id": "tables_structure_column_row_utilization_108",
           "prompt_text": "Replace {best-in-class} with {top} in {comparison table note}"
         },
         {
-          "id": "tables_structure_column_row_utilization_118",
+          "id": "tables_structure_column_row_utilization_109",
           "prompt_text": "Right-align every numeric column in {budget table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_119",
+          "id": "tables_structure_column_row_utilization_110",
           "prompt_text": "Right-align currency values in {last column}"
         },
         {
-          "id": "tables_structure_column_row_utilization_120",
+          "id": "tables_structure_column_row_utilization_111",
           "prompt_text": "Right-align section numbers in {table} of contents"
         },
         {
-          "id": "tables_structure_column_row_utilization_121",
+          "id": "tables_structure_column_row_utilization_112",
           "prompt_text": "Rotate the wide pricing table to landscape"
         },
         {
-          "id": "tables_structure_column_row_utilization_122",
+          "id": "tables_structure_column_row_utilization_113",
           "prompt_text": "Set every data row to same fixed height"
         },
         {
-          "id": "tables_structure_column_row_utilization_123",
+          "id": "tables_structure_column_row_utilization_114",
           "prompt_text": "Set {column break}"
         },
         {
-          "id": "tables_structure_column_row_utilization_124",
+          "id": "tables_structure_column_row_utilization_115",
           "prompt_text": "Set {column gap} to {0.3 inches}"
         },
         {
-          "id": "tables_structure_column_row_utilization_125",
+          "id": "tables_structure_column_row_utilization_116",
           "prompt_text": "Set {table} notes under {Table 1} to single spacing"
         },
         {
-          "id": "tables_structure_column_row_utilization_126",
+          "id": "tables_structure_column_row_utilization_117",
           "prompt_text": "Set {table} of contents"
         },
         {
-          "id": "tables_structure_column_row_utilization_127",
+          "id": "tables_structure_column_row_utilization_118",
           "prompt_text": "Set {10pt} between {table} footer notes and next section"
         },
         {
-          "id": "tables_structure_column_row_utilization_128",
+          "id": "tables_structure_column_row_utilization_119",
           "prompt_text": "Set {12pt} above and {12pt} below every table in document"
         },
         {
-          "id": "tables_structure_column_row_utilization_129",
+          "id": "tables_structure_column_row_utilization_120",
           "prompt_text": "Set {rows 3 through 5} to same height"
         },
         {
-          "id": "tables_structure_column_row_utilization_130",
+          "id": "tables_structure_column_row_utilization_121",
           "prompt_text": "Shrink {table width} to {80%} of the {text area}"
         },
         {
-          "id": "tables_structure_column_row_utilization_131",
+          "id": "tables_structure_column_row_utilization_122",
           "prompt_text": "Split remaining space evenly across the {last three columns}"
         },
         {
-          "id": "tables_structure_column_row_utilization_132",
+          "id": "tables_structure_column_row_utilization_123",
           "prompt_text": "Split {body text} into {two equal columns}"
         },
         {
-          "id": "tables_structure_column_row_utilization_133",
-          "prompt_text": "Swap rows {1} and {2} in} the leaderboard"
+          "id": "tables_structure_column_row_utilization_124",
+          "prompt_text": "Swap rows {1} and {2} in the leaderboard"
         },
         {
-          "id": "tables_structure_column_row_utilization_134",
+          "id": "tables_structure_column_row_utilization_125",
           "prompt_text": "Switch page to landscape"
         },
         {
-          "id": "tables_structure_column_row_utilization_135",
+          "id": "tables_structure_column_row_utilization_126",
           "prompt_text": "Tag the {budget} table"
         },
         {
-          "id": "tables_structure_column_row_utilization_136",
+          "id": "tables_structure_column_row_utilization_127",
           "prompt_text": "Top-align all cell content in data table"
         },
         {
-          "id": "tables_structure_column_row_utilization_137",
+          "id": "tables_structure_column_row_utilization_128",
           "prompt_text": "Top-align all cells in {description column}"
         },
         {
-          "id": "tables_structure_column_row_utilization_138",
-          "prompt_text": "Trim the {table}"
+          "id": "tables_structure_column_row_utilization_129",
+          "prompt_text": "Shorten the {table} to fit within the page margins"
         },
         {
-          "id": "tables_structure_column_row_utilization_139",
+          "id": "tables_structure_column_row_utilization_130",
           "prompt_text": "Use minus signs for every negative number in {variance table}"
         },
         {
-          "id": "tables_structure_column_row_utilization_140",
+          "id": "tables_structure_column_row_utilization_131",
           "prompt_text": "Use parentheses"
         },
         {
-          "id": "tables_structure_column_row_utilization_141",
+          "id": "tables_structure_column_row_utilization_132",
           "prompt_text": "Use red parentheses"
         },
         {
-          "id": "tables_structure_column_row_utilization_142",
+          "id": "tables_structure_column_row_utilization_133",
           "prompt_text": "Use {parentheses} for every {negative number} in {column D}"
         },
         {
-          "id": "tables_structure_column_row_utilization_143",
+          "id": "tables_structure_column_row_utilization_134",
           "prompt_text": "Vertically center the text in every cell of {Table 1}"
         },
         {
-          "id": "tables_structure_column_row_utilization_144",
+          "id": "tables_structure_column_row_utilization_135",
           "prompt_text": "Widen the {description column} and narrow the {ID column}"
         },
         {
-          "id": "tables_structure_column_row_utilization_145",
+          "id": "tables_structure_column_row_utilization_136",
           "prompt_text": "Widen {column B}"
         },
         {
-          "id": "tables_structure_column_row_utilization_146",
+          "id": "tables_structure_column_row_utilization_137",
           "prompt_text": "Change ranking in {sidebar}"
         },
         {
-          "id": "tables_structure_column_row_utilization_147",
+          "id": "tables_structure_column_row_utilization_138",
           "prompt_text": "Reduce {extra row} height in {third row}"
         },
         {
-          "id": "tables_structure_column_row_utilization_148",
+          "id": "tables_structure_column_row_utilization_139",
           "prompt_text": "Reduce {row} height in empty rows at bottom"
         },
         {
-          "id": "tables_structure_column_row_utilization_149",
+          "id": "tables_structure_column_row_utilization_140",
           "prompt_text": "Remove duplicate {Findings} entry from {table} of contents"
         },
         {
-          "id": "tables_structure_column_row_utilization_150",
+          "id": "tables_structure_column_row_utilization_141",
           "prompt_text": "Sort the {ranked table} to {lowest margin}"
         }
       ]
@@ -790,7 +790,7 @@
       "entries": [
         {
           "id": "tables_structure_diagonal_border_logic_001",
-          "prompt_text": "Set diagonal line to 0.5\" thickness"
+          "prompt_text": "Set diagonal line to {0.5}\" thickness"
         },
         {
           "id": "tables_structure_diagonal_border_logic_002",
@@ -805,56 +805,24 @@
           "prompt_text": "Color diagonal border to {8pt}"
         },
         {
-          "id": "tables_structure_diagonal_border_logic_006",
-          "prompt_text": "Set diagonal line to 1.0\" thickness"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_010",
+          "id": "tables_structure_diagonal_border_logic_005",
           "prompt_text": "Remove diagonal strike from empty cells"
         },
         {
-          "id": "tables_structure_diagonal_border_logic_020",
-          "prompt_text": "Set diagonal line to 2.0\" thickness"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_023",
+          "id": "tables_structure_diagonal_border_logic_006",
           "prompt_text": "Set diagonal line to {10px} thickness"
         },
         {
-          "id": "tables_structure_diagonal_border_logic_025",
-          "prompt_text": "Set diagonal line to 50% thickness"
+          "id": "tables_structure_diagonal_border_logic_007",
+          "prompt_text": "Set diagonal line to {50%} thickness"
         },
         {
-          "id": "tables_structure_diagonal_border_logic_027",
-          "prompt_text": "Color diagonal border to 1.0\""
+          "id": "tables_structure_diagonal_border_logic_008",
+          "prompt_text": "Color diagonal border to {1.0}\""
         },
         {
-          "id": "tables_structure_diagonal_border_logic_030",
-          "prompt_text": "Color diagonal border to 100%"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_031",
-          "prompt_text": "Set diagonal line to 1.25\" thickness"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_036",
-          "prompt_text": "Set diagonal line to 0.25\" thickness"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_050",
-          "prompt_text": "Color diagonal border to 0.5\""
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_053",
-          "prompt_text": "Set diagonal line to 100% thickness"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_056",
-          "prompt_text": "Color diagonal border to 200%"
-        },
-        {
-          "id": "tables_structure_diagonal_border_logic_058",
-          "prompt_text": "Color diagonal border to 50%"
+          "id": "tables_structure_diagonal_border_logic_009",
+          "prompt_text": "Color diagonal border to {100%}"
         }
       ]
     },
@@ -869,111 +837,55 @@
       "entries": [
         {
           "id": "tables_structure_corner_rounding_geometry_001",
-          "prompt_text": "Match outer border rounding to 50%"
+          "prompt_text": "Match outer border rounding to {50%}"
         },
         {
           "id": "tables_structure_corner_rounding_geometry_002",
-          "prompt_text": "Round table corners to 0.75\" radius"
+          "prompt_text": "Round table corners to {0.75}\" radius"
         },
         {
           "id": "tables_structure_corner_rounding_geometry_003",
-          "prompt_text": "Round table corners to 0.5\" radius"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_004",
           "prompt_text": "Round table corners to {8pt} radius"
         },
         {
+          "id": "tables_structure_corner_rounding_geometry_004",
+          "prompt_text": "Set top-right corner to {50%} roundness"
+        },
+        {
           "id": "tables_structure_corner_rounding_geometry_005",
-          "prompt_text": "Set top-right corner to 50% roundness"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_006",
-          "prompt_text": "Match outer border rounding to 200%"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_008",
           "prompt_text": "Remove rounding from header row"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_009",
-          "prompt_text": "Apply 0.5\" corner radius to all cells"
+          "id": "tables_structure_corner_rounding_geometry_006",
+          "prompt_text": "Apply {0.5}\" corner radius to all cells"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_010",
+          "id": "tables_structure_corner_rounding_geometry_007",
           "prompt_text": "Match outer border rounding to {15pt}"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_013",
-          "prompt_text": "Apply 80% corner radius to all cells"
+          "id": "tables_structure_corner_rounding_geometry_008",
+          "prompt_text": "Apply {80%} corner radius to all cells"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_016",
-          "prompt_text": "Match outer border rounding to 0.25\""
+          "id": "tables_structure_corner_rounding_geometry_009",
+          "prompt_text": "Match outer border rounding to {0.25}\""
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_017",
-          "prompt_text": "Round table corners to 2.0\" radius"
+          "id": "tables_structure_corner_rounding_geometry_010",
+          "prompt_text": "Round table corners to {80%} radius"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_019",
-          "prompt_text": "Round table corners to 80% radius"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_025",
-          "prompt_text": "Match outer border rounding to 2.0\""
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_027",
+          "id": "tables_structure_corner_rounding_geometry_011",
           "prompt_text": "Set top-right corner to {10px} roundness"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_030",
-          "prompt_text": "Match outer border rounding to 80%"
+          "id": "tables_structure_corner_rounding_geometry_012",
+          "prompt_text": "Set top-right corner to {0.75}\" roundness"
         },
         {
-          "id": "tables_structure_corner_rounding_geometry_031",
-          "prompt_text": "Match outer border rounding to 0.75\""
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_032",
-          "prompt_text": "Set top-right corner to 0.75\" roundness"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_033",
-          "prompt_text": "Match outer border rounding to 100%"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_034",
+          "id": "tables_structure_corner_rounding_geometry_013",
           "prompt_text": "Apply {15pt} corner radius to all cells"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_038",
-          "prompt_text": "Round table corners to 1.0\" radius"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_040",
-          "prompt_text": "Set top-right corner to 100% roundness"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_042",
-          "prompt_text": "Apply 1.0\" corner radius to all cells"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_043",
-          "prompt_text": "Apply 1.25\" corner radius to all cells"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_046",
-          "prompt_text": "Match outer border rounding to 1.25\""
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_050",
-          "prompt_text": "Round table corners to 200% radius"
-        },
-        {
-          "id": "tables_structure_corner_rounding_geometry_053",
-          "prompt_text": "Apply 200% corner radius to all cells"
         }
       ]
     },
@@ -992,75 +904,71 @@
         },
         {
           "id": "tables_structure_shading_pattern_banding_002",
-          "prompt_text": "Set banding color to 80% every {5px} rows"
+          "prompt_text": "Set banding color to {80%} every {5px} rows"
         },
         {
           "id": "tables_structure_shading_pattern_banding_003",
           "prompt_text": "Remove row banding from total row"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_005",
+          "id": "tables_structure_shading_pattern_banding_004",
           "prompt_text": "Apply diagonal shading to image"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_006",
+          "id": "tables_structure_shading_pattern_banding_005",
           "prompt_text": "Apply diagonal shading to callout"
         },
         {
+          "id": "tables_structure_shading_pattern_banding_006",
+          "prompt_text": "Set banding color to {5px} every {0.5}\" rows"
+        },
+        {
+          "id": "tables_structure_shading_pattern_banding_007",
+          "prompt_text": "Set banding color to {100%} every {0.5}\" rows"
+        },
+        {
           "id": "tables_structure_shading_pattern_banding_008",
-          "prompt_text": "Set banding color to {5px} every 0.5\" rows"
-        },
-        {
-          "id": "tables_structure_shading_pattern_banding_010",
-          "prompt_text": "Set banding color to 100% every 0.5\" rows"
-        },
-        {
-          "id": "tables_structure_shading_pattern_banding_014",
           "prompt_text": "Apply diagonal shading to graph"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_017",
+          "id": "tables_structure_shading_pattern_banding_009",
           "prompt_text": "Add {8pt} banding to alternate rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_019",
+          "id": "tables_structure_shading_pattern_banding_010",
           "prompt_text": "Apply diagonal shading to note"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_020",
+          "id": "tables_structure_shading_pattern_banding_011",
           "prompt_text": "Apply diagonal shading to logo"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_022",
+          "id": "tables_structure_shading_pattern_banding_012",
           "prompt_text": "Set banding color to {12pt} every {8pt} rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_026",
-          "prompt_text": "Add 0.5\" banding to alternate rows"
+          "id": "tables_structure_shading_pattern_banding_013",
+          "prompt_text": "Add {0.5}\" banding to alternate rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_028",
-          "prompt_text": "Set banding color to {5px} every 100% rows"
+          "id": "tables_structure_shading_pattern_banding_014",
+          "prompt_text": "Set banding color to {5px} every {100%} rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_029",
-          "prompt_text": "Set banding color to 0.25\" every 80% rows"
+          "id": "tables_structure_shading_pattern_banding_015",
+          "prompt_text": "Set banding color to {0.25}\" every {80%} rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_038",
-          "prompt_text": "Add 1.0\" banding to alternate rows"
+          "id": "tables_structure_shading_pattern_banding_016",
+          "prompt_text": "Set banding color to {1.0}\" every {0.25}\" rows"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_040",
-          "prompt_text": "Set banding color to 1.0\" every 0.25\" rows"
-        },
-        {
-          "id": "tables_structure_shading_pattern_banding_042",
+          "id": "tables_structure_shading_pattern_banding_017",
           "prompt_text": "Apply diagonal shading to title"
         },
         {
-          "id": "tables_structure_shading_pattern_banding_043",
-          "prompt_text": "Add 200% banding to alternate rows"
+          "id": "tables_structure_shading_pattern_banding_018",
+          "prompt_text": "Add {200%} banding to alternate rows"
         }
       ]
     },
@@ -1082,36 +990,24 @@
           "prompt_text": "Include appendix charts in figure list"
         },
         {
-          "id": "tables_structure_table_of_figures_logic_004",
+          "id": "tables_structure_table_of_figures_logic_003",
           "prompt_text": "Generate table of figures at page X"
         },
         {
-          "id": "tables_structure_table_of_figures_logic_006",
+          "id": "tables_structure_table_of_figures_logic_004",
           "prompt_text": "Update figure numbering to sequential"
         },
         {
-          "id": "tables_structure_table_of_figures_logic_007",
+          "id": "tables_structure_table_of_figures_logic_005",
           "prompt_text": "Set leader dots to {15pt} for figures"
         },
         {
-          "id": "tables_structure_table_of_figures_logic_009",
-          "prompt_text": "Set leader dots to 1.0\" for figures"
+          "id": "tables_structure_table_of_figures_logic_006",
+          "prompt_text": "Set leader dots to {1.0}\" for figures"
         },
         {
-          "id": "tables_structure_table_of_figures_logic_020",
-          "prompt_text": "Set leader dots to 2.0\" for figures"
-        },
-        {
-          "id": "tables_structure_table_of_figures_logic_043",
-          "prompt_text": "Set leader dots to 0.75\" for figures"
-        },
-        {
-          "id": "tables_structure_table_of_figures_logic_051",
-          "prompt_text": "Set leader dots to 0.25\" for figures"
-        },
-        {
-          "id": "tables_structure_table_of_figures_logic_053",
-          "prompt_text": "Set leader dots to 200% for figures"
+          "id": "tables_structure_table_of_figures_logic_007",
+          "prompt_text": "Set leader dots to {200%} for figures"
         }
       ]
     },
@@ -1126,7 +1022,7 @@
       "entries": [
         {
           "id": "tables_structure_nested_table_hierarchy_001",
-          "prompt_text": "Match inner table width to 200%% of parent"
+          "prompt_text": "Match inner table width to {200%}% of parent"
         },
         {
           "id": "tables_structure_nested_table_hierarchy_002",
@@ -1145,48 +1041,20 @@
           "prompt_text": "Set nested border to {5px} thickness"
         },
         {
+          "id": "tables_structure_nested_table_hierarchy_006",
+          "prompt_text": "Match inner table width to {0.5}\"% of parent"
+        },
+        {
           "id": "tables_structure_nested_table_hierarchy_007",
-          "prompt_text": "Match inner table width to 0.5\"% of parent"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_008",
-          "prompt_text": "Match inner table width to 1.25\"% of parent"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_009",
           "prompt_text": "Remove padding between nested tables"
         },
         {
-          "id": "tables_structure_nested_table_hierarchy_011",
-          "prompt_text": "Set nested border to 80% thickness"
+          "id": "tables_structure_nested_table_hierarchy_008",
+          "prompt_text": "Set nested border to {80%} thickness"
         },
         {
-          "id": "tables_structure_nested_table_hierarchy_013",
-          "prompt_text": "Set nested border to 1.25\" thickness"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_018",
-          "prompt_text": "Match inner table width to 100%% of parent"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_019",
-          "prompt_text": "Set nested border to 100% thickness"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_023",
-          "prompt_text": "Set nested border to 2.0\" thickness"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_039",
-          "prompt_text": "Set nested border to 0.75\" thickness"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_047",
-          "prompt_text": "Match inner table width to 2.0\"% of parent"
-        },
-        {
-          "id": "tables_structure_nested_table_hierarchy_048",
-          "prompt_text": "Match inner table width to 0.75\"% of parent"
+          "id": "tables_structure_nested_table_hierarchy_009",
+          "prompt_text": "Set nested border to {1.25}\" thickness"
         }
       ]
     }

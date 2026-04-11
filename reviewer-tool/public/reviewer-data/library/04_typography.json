@@ -91,291 +91,291 @@
           "prompt_text": "Change page size to {US Letter}"
         },
         {
-          "id": "typography_font_size_hierarchy_022",
+          "id": "typography_font_size_hierarchy_021",
           "prompt_text": "Change plural {departments'} to singular {department's} in heading"
         },
         {
-          "id": "typography_font_size_hierarchy_023",
+          "id": "typography_font_size_hierarchy_022",
           "prompt_text": "Change roman numeral page number to lowercase ({i}"
         },
         {
-          "id": "typography_font_size_hierarchy_024",
+          "id": "typography_font_size_hierarchy_023",
           "prompt_text": "Change sub-items under {step 2} to lowercase letters"
         },
         {
-          "id": "typography_font_size_hierarchy_025",
+          "id": "typography_font_size_hierarchy_024",
           "prompt_text": "Change subheading color from {black} to brand {dark blue}"
         },
         {
-          "id": "typography_font_size_hierarchy_026",
+          "id": "typography_font_size_hierarchy_025",
           "prompt_text": "Change {Q3} data point to {27}"
         },
         {
-          "id": "typography_font_size_hierarchy_027",
+          "id": "typography_font_size_hierarchy_026",
           "prompt_text": "Change {appendix heading} color to same {navy}"
         },
         {
-          "id": "typography_font_size_hierarchy_028",
+          "id": "typography_font_size_hierarchy_027",
           "prompt_text": "Change {block quote} under {Background} from {Normal} to Quote style"
         },
         {
-          "id": "typography_font_size_hierarchy_029",
+          "id": "typography_font_size_hierarchy_028",
           "prompt_text": "Change {sidebar heading} color"
         },
         {
-          "id": "typography_font_size_hierarchy_030",
+          "id": "typography_font_size_hierarchy_029",
           "prompt_text": "Change {recomendation} in heading to {recommendation}"
         },
         {
-          "id": "typography_font_size_hierarchy_031",
+          "id": "typography_font_size_hierarchy_030",
           "prompt_text": "Embed all fonts as subsets"
         },
         {
-          "id": "typography_font_size_hierarchy_032",
+          "id": "typography_font_size_hierarchy_031",
           "prompt_text": "Embed the body font in PDF export"
         },
         {
-          "id": "typography_font_size_hierarchy_033",
+          "id": "typography_font_size_hierarchy_032",
           "prompt_text": "Embed the heading font"
         },
         {
-          "id": "typography_font_size_hierarchy_034",
+          "id": "typography_font_size_hierarchy_033",
           "prompt_text": "Embed the monospace font used in code block under {Methods}"
         },
         {
-          "id": "typography_font_size_hierarchy_035",
+          "id": "typography_font_size_hierarchy_034",
           "prompt_text": "Ensure {6pt} size difference between {headings} and {body text}"
         },
         {
-          "id": "typography_font_size_hierarchy_036",
+          "id": "typography_font_size_hierarchy_035",
           "prompt_text": "Fix TOC entry"
         },
         {
-          "id": "typography_font_size_hierarchy_037",
+          "id": "typography_font_size_hierarchy_036",
           "prompt_text": "Keep {Methods heading} and its {first paragraph} together with no gap"
         },
         {
-          "id": "typography_font_size_hierarchy_038",
+          "id": "typography_font_size_hierarchy_037",
           "prompt_text": "Left-align all {H2 subheadings}"
         },
         {
-          "id": "typography_font_size_hierarchy_039",
+          "id": "typography_font_size_hierarchy_038",
           "prompt_text": "Left-align H3 headings"
         },
         {
-          "id": "typography_font_size_hierarchy_040",
+          "id": "typography_font_size_hierarchy_039",
           "prompt_text": "Left-align centered {Appendix} section heading"
         },
         {
-          "id": "typography_font_size_hierarchy_041",
+          "id": "typography_font_size_hierarchy_040",
           "prompt_text": "Lowercase the random capital in middle of {paragraph 4}"
         },
         {
-          "id": "typography_font_size_hierarchy_042",
+          "id": "typography_font_size_hierarchy_041",
           "prompt_text": "Lowercase the word {Board} in generic reference in {paragraph 2}"
         },
         {
-          "id": "typography_font_size_hierarchy_043",
+          "id": "typography_font_size_hierarchy_042",
           "prompt_text": "Lowercase the word {Following} in middle of the sentence under {Background}"
         },
         {
-          "id": "typography_font_size_hierarchy_044",
+          "id": "typography_font_size_hierarchy_043",
           "prompt_text": "Make all bullet text the same size across the three lists"
         },
         {
-          "id": "typography_font_size_hierarchy_045",
+          "id": "typography_font_size_hierarchy_044",
           "prompt_text": "Make page number and footer text the same size"
         },
         {
-          "id": "typography_font_size_hierarchy_046",
+          "id": "typography_font_size_hierarchy_045",
           "prompt_text": "Make sub-bullets one size smaller than the top-level bullets"
         },
         {
-          "id": "typography_font_size_hierarchy_047",
+          "id": "typography_font_size_hierarchy_046",
           "prompt_text": "Make two disclaimer paragraphs the same size"
         },
         {
-          "id": "typography_font_size_hierarchy_048",
+          "id": "typography_font_size_hierarchy_047",
           "prompt_text": "Make {Findings} header the same size"
         },
         {
-          "id": "typography_font_size_hierarchy_049",
+          "id": "typography_font_size_hierarchy_048",
           "prompt_text": "Make {document title} two sizes larger than the section headers"
         },
         {
-          "id": "typography_font_size_hierarchy_050",
+          "id": "typography_font_size_hierarchy_049",
           "prompt_text": "Make {sidebar} heading align with left edge of the {sidebar} text"
         },
         {
-          "id": "typography_font_size_hierarchy_051",
+          "id": "typography_font_size_hierarchy_050",
           "prompt_text": "Match footer font to {running header} font"
         },
         {
-          "id": "typography_font_size_hierarchy_052",
+          "id": "typography_font_size_hierarchy_051",
           "prompt_text": "Match page number font to body font"
         },
         {
-          "id": "typography_font_size_hierarchy_053",
+          "id": "typography_font_size_hierarchy_052",
           "prompt_text": "Match section number format between {Findings} and {Recommendations} headings"
         },
         {
-          "id": "typography_font_size_hierarchy_054",
+          "id": "typography_font_size_hierarchy_053",
           "prompt_text": "Match size of the {two callout headings}"
         },
         {
-          "id": "typography_font_size_hierarchy_055",
+          "id": "typography_font_size_hierarchy_054",
           "prompt_text": "Match {Recommendations} header size to {Findings} header"
         },
         {
-          "id": "typography_font_size_hierarchy_056",
+          "id": "typography_font_size_hierarchy_055",
           "prompt_text": "Match {bar} colors to brand palette in style guide"
         },
         {
-          "id": "typography_font_size_hierarchy_057",
+          "id": "typography_font_size_hierarchy_056",
           "prompt_text": "Match {callout box} heading font to section headers"
         },
         {
-          "id": "typography_font_size_hierarchy_058",
+          "id": "typography_font_size_hierarchy_057",
           "prompt_text": "Match {sidebar} font to rest of the document"
         },
         {
-          "id": "typography_font_size_hierarchy_059",
+          "id": "typography_font_size_hierarchy_058",
           "prompt_text": "Move first heading down"
         },
         {
-          "id": "typography_font_size_hierarchy_060",
+          "id": "typography_font_size_hierarchy_059",
           "prompt_text": "Push heading numbers inside the left margin line"
         },
         {
-          "id": "typography_font_size_hierarchy_061",
+          "id": "typography_font_size_hierarchy_060",
           "prompt_text": "Reduce gap between H3 subheading and its first paragraph to {4pt}"
         },
         {
-          "id": "typography_font_size_hierarchy_062",
+          "id": "typography_font_size_hierarchy_061",
           "prompt_text": "Reduce space after {Findings} heading to {6pt}"
         },
         {
-          "id": "typography_font_size_hierarchy_063",
+          "id": "typography_font_size_hierarchy_062",
           "prompt_text": "Reduce {blank band} between {header rule} and first heading to {6pt}"
         },
         {
-          "id": "typography_font_size_hierarchy_064",
+          "id": "typography_font_size_hierarchy_063",
           "prompt_text": "Remove direct font override from {title} style"
         },
         {
-          "id": "typography_font_size_hierarchy_065",
+          "id": "typography_font_size_hierarchy_064",
           "prompt_text": "Remove duplicate font entry that inflates the PDF file size"
         },
         {
-          "id": "typography_font_size_hierarchy_066",
+          "id": "typography_font_size_hierarchy_065",
           "prompt_text": "Remove fallback serif font from footer"
         },
         {
-          "id": "typography_font_size_hierarchy_067",
+          "id": "typography_font_size_hierarchy_066",
           "prompt_text": "Remove first-line indent from paragraphs that follow a heading"
         },
         {
-          "id": "typography_font_size_hierarchy_068",
+          "id": "typography_font_size_hierarchy_067",
           "prompt_text": "Remove inline font-size override on {Heading 3} lines"
         },
         {
-          "id": "typography_font_size_hierarchy_069",
+          "id": "typography_font_size_hierarchy_068",
           "prompt_text": "Remove stale bookmark that points to a deleted section"
         },
         {
-          "id": "typography_font_size_hierarchy_070",
+          "id": "typography_font_size_hierarchy_069",
           "prompt_text": "Remove substituted serif font from PDF footer"
         },
         {
-          "id": "typography_font_size_hierarchy_071",
+          "id": "typography_font_size_hierarchy_070",
           "prompt_text": "Remove {teal} from {H3 headings} and use same {navy} as H1"
         },
         {
-          "id": "typography_font_size_hierarchy_072",
+          "id": "typography_font_size_hierarchy_071",
           "prompt_text": "Replace the missing symbol font in {bullet list} with an embedded alternative"
         },
         {
-          "id": "typography_font_size_hierarchy_073",
+          "id": "typography_font_size_hierarchy_072",
           "prompt_text": "Set all {body paragraphs} to same {sans-serif font}"
         },
         {
-          "id": "typography_font_size_hierarchy_074",
+          "id": "typography_font_size_hierarchy_073",
           "prompt_text": "Set every body paragraph under {Findings} to same font size"
         },
         {
-          "id": "typography_font_size_hierarchy_075",
+          "id": "typography_font_size_hierarchy_074",
           "prompt_text": "Set every sidebar heading to {13pt}"
         },
         {
-          "id": "typography_font_size_hierarchy_076",
+          "id": "typography_font_size_hierarchy_075",
           "prompt_text": "Set page number to same font"
         },
         {
-          "id": "typography_font_size_hierarchy_077",
-          "prompt_text": "Set page size to {8.5 by {11 inches} in export settings"
+          "id": "typography_font_size_hierarchy_076",
+          "prompt_text": "Set page size to {8.5 by 11 inches} in export settings"
         },
         {
-          "id": "typography_font_size_hierarchy_078",
+          "id": "typography_font_size_hierarchy_077",
           "prompt_text": "Set paper size to {A4}"
         },
         {
-          "id": "typography_font_size_hierarchy_079",
+          "id": "typography_font_size_hierarchy_078",
           "prompt_text": "Set reference section labels to one consistent size"
         },
         {
-          "id": "typography_font_size_hierarchy_080",
+          "id": "typography_font_size_hierarchy_079",
           "prompt_text": "Set {callout box} heading to {15pt}"
         },
         {
-          "id": "typography_font_size_hierarchy_081",
+          "id": "typography_font_size_hierarchy_080",
           "prompt_text": "Set {0pt} between heading and {rule} line below it"
         },
         {
-          "id": "typography_font_size_hierarchy_082",
+          "id": "typography_font_size_hierarchy_081",
           "prompt_text": "Set {10pt} above and {6pt} below for all H3 headings"
         },
         {
-          "id": "typography_font_size_hierarchy_083",
+          "id": "typography_font_size_hierarchy_082",
           "prompt_text": "Set {18pt} of space above every {major section heading}"
         },
         {
-          "id": "typography_font_size_hierarchy_084",
+          "id": "typography_font_size_hierarchy_083",
           "prompt_text": "Set {6pt} below every H2 heading"
         },
         {
-          "id": "typography_font_size_hierarchy_085",
+          "id": "typography_font_size_hierarchy_084",
           "prompt_text": "Set {6pt} below every {section heading}"
         },
         {
-          "id": "typography_font_size_hierarchy_086",
+          "id": "typography_font_size_hierarchy_085",
           "prompt_text": "Start every sub-bullet with a lowercase word"
         },
         {
-          "id": "typography_font_size_hierarchy_087",
+          "id": "typography_font_size_hierarchy_086",
           "prompt_text": "Strip the direct color override from subtitle and let the style control it"
         },
         {
-          "id": "typography_font_size_hierarchy_088",
+          "id": "typography_font_size_hierarchy_087",
           "prompt_text": "Use same bullet style in {Risks} section"
         },
         {
-          "id": "typography_font_size_hierarchy_089",
+          "id": "typography_font_size_hierarchy_088",
           "prompt_text": "Use same {blue} on {title heading} and {body headings}"
         },
         {
-          "id": "typography_font_size_hierarchy_090",
+          "id": "typography_font_size_hierarchy_089",
           "prompt_text": "Use {charcoal} for all {headings}"
         },
         {
-          "id": "typography_font_size_hierarchy_091",
+          "id": "typography_font_size_hierarchy_090",
           "prompt_text": "Change bullets in {summary box} to sentence case"
         },
         {
-          "id": "typography_font_size_hierarchy_092",
+          "id": "typography_font_size_hierarchy_091",
           "prompt_text": "Change footer text to sentence case"
         },
         {
-          "id": "typography_font_size_hierarchy_093",
+          "id": "typography_font_size_hierarchy_092",
           "prompt_text": "Change {bullet labels} in {sidebar} to {sentence case}"
         }
       ]
@@ -589,33 +589,6 @@
       ]
     },
     {
-      "subcategory": "kerning_tracking",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "kerning-tracking"
-      ],
-      "entries": [
-        {
-          "id": "typography_kerning_tracking_001",
-          "prompt_text": "Set character spacing to {tight}"
-        },
-        {
-          "id": "typography_kerning_tracking_002",
-          "prompt_text": "Set tracking to {0.5pt} for {headings}"
-        },
-        {
-          "id": "typography_kerning_tracking_003",
-          "prompt_text": "Adjust kerning for {large titles}"
-        },
-        {
-          "id": "typography_kerning_tracking_004",
-          "prompt_text": "Set character spacing to {expanded} by {1pt}"
-        }
-      ]
-    },
-    {
       "subcategory": "non_breaking_logic",
       "priority": "typography",
       "doc_type": "both",
@@ -685,525 +658,6 @@
         {
           "id": "typography_character_case_logic_003",
           "prompt_text": "Apply {small caps} to {abbreviations}"
-        }
-      ]
-    },
-    {
-      "subcategory": "character_scaling_horizontal",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "character-scaling-horizontal"
-      ],
-      "entries": [
-        {
-          "id": "typography_character_scaling_horizontal_001",
-          "prompt_text": "Set font scaling to 0.75\"% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_002",
-          "prompt_text": "Adjust character width to 2.0\"%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_003",
-          "prompt_text": "Adjust character width to 100%%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_004",
-          "prompt_text": "Expand graph to {8pt}% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_005",
-          "prompt_text": "Compress caption to 0.25\"% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_006",
-          "prompt_text": "Expand graph to 1.25\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_007",
-          "prompt_text": "Expand note to 0.5\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_008",
-          "prompt_text": "Adjust character width to {8pt}%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_009",
-          "prompt_text": "Expand image to {12pt}% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_010",
-          "prompt_text": "Adjust character width to 0.25\"%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_011",
-          "prompt_text": "Set font scaling to {10pt}% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_012",
-          "prompt_text": "Compress text to {10px}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_013",
-          "prompt_text": "Compress caption to {10pt}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_014",
-          "prompt_text": "Adjust character width to 1.0\"%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_017",
-          "prompt_text": "Compress title to 100%% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_018",
-          "prompt_text": "Scale chart to 1.0\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_019",
-          "prompt_text": "Expand caption to {5px}% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_020",
-          "prompt_text": "Set font scaling to 50%% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_022",
-          "prompt_text": "Expand caption to 2.0\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_023",
-          "prompt_text": "Scale caption to 0.75\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_026",
-          "prompt_text": "Adjust character width to 200%%"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_027",
-          "prompt_text": "Compress graph to {10px}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_028",
-          "prompt_text": "Scale graph to 200%% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_029",
-          "prompt_text": "Expand title to 1.25\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_030",
-          "prompt_text": "Compress logo to {5px}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_031",
-          "prompt_text": "Set font scaling to 0.25\"% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_032",
-          "prompt_text": "Compress table to {15pt}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_033",
-          "prompt_text": "Compress text to 1.0\"% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_034",
-          "prompt_text": "Compress logo to 1.0\"% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_035",
-          "prompt_text": "Compress title to 2.0\"% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_036",
-          "prompt_text": "Expand title to 100%% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_038",
-          "prompt_text": "Set font scaling to 200%% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_039",
-          "prompt_text": "Scale image to {5px}% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_042",
-          "prompt_text": "Expand table to 50%% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_046",
-          "prompt_text": "Compress title to {10px}% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_047",
-          "prompt_text": "Expand note to 200%% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_048",
-          "prompt_text": "Set font scaling to 0.5\"% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_049",
-          "prompt_text": "Set font scaling to 100%% for condensed look"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_050",
-          "prompt_text": "Expand chart to 2.0\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_052",
-          "prompt_text": "Compress graph to 50%% horizontally"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_053",
-          "prompt_text": "Expand text to 0.5\"% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_054",
-          "prompt_text": "Expand text to {5px}% width"
-        },
-        {
-          "id": "typography_character_scaling_horizontal_055",
-          "prompt_text": "Scale image to 50%% width"
-        }
-      ]
-    },
-    {
-      "subcategory": "optical_margin_alignment",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "optical-margin-alignment"
-      ],
-      "entries": [
-        {
-          "id": "typography_optical_margin_alignment_001",
-          "prompt_text": "Set punctuation overhang to 100%%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_002",
-          "prompt_text": "Enable optical alignment for body"
-        },
-        {
-          "id": "typography_optical_margin_alignment_003",
-          "prompt_text": "Adjust optical margin to 0.5\" for quotes"
-        },
-        {
-          "id": "typography_optical_margin_alignment_004",
-          "prompt_text": "Set punctuation overhang to 0.75\"%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_005",
-          "prompt_text": "Set punctuation overhang to {12pt}%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_006",
-          "prompt_text": "Set punctuation overhang to 1.0\"%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_007",
-          "prompt_text": "Set punctuation overhang to 2.0\"%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_008",
-          "prompt_text": "Adjust optical margin to 1.25\" for quotes"
-        },
-        {
-          "id": "typography_optical_margin_alignment_010",
-          "prompt_text": "Hang bullets to optical edge"
-        },
-        {
-          "id": "typography_optical_margin_alignment_012",
-          "prompt_text": "Fix optical margin in table"
-        },
-        {
-          "id": "typography_optical_margin_alignment_016",
-          "prompt_text": "Fix optical margin in text"
-        },
-        {
-          "id": "typography_optical_margin_alignment_018",
-          "prompt_text": "Set punctuation overhang to 0.25\"%"
-        },
-        {
-          "id": "typography_optical_margin_alignment_019",
-          "prompt_text": "Fix optical margin in title"
-        },
-        {
-          "id": "typography_optical_margin_alignment_025",
-          "prompt_text": "Fix optical margin in caption"
-        },
-        {
-          "id": "typography_optical_margin_alignment_026",
-          "prompt_text": "Adjust optical margin to 200% for quotes"
-        },
-        {
-          "id": "typography_optical_margin_alignment_029",
-          "prompt_text": "Fix optical margin in chart"
-        },
-        {
-          "id": "typography_optical_margin_alignment_031",
-          "prompt_text": "Adjust optical margin to 80% for quotes"
-        },
-        {
-          "id": "typography_optical_margin_alignment_043",
-          "prompt_text": "Adjust optical margin to 2.0\" for quotes"
-        },
-        {
-          "id": "typography_optical_margin_alignment_046",
-          "prompt_text": "Fix optical margin in graph"
-        },
-        {
-          "id": "typography_optical_margin_alignment_049",
-          "prompt_text": "Fix optical margin in logo"
-        }
-      ]
-    },
-    {
-      "subcategory": "hyphenation_dictionaries",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "hyphenation-dictionaries"
-      ],
-      "entries": [
-        {
-          "id": "typography_hyphenation_dictionaries_001",
-          "prompt_text": "Limit consecutive hyphens to {8pt}"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_002",
-          "prompt_text": "Set hyphenation to UK English"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_004",
-          "prompt_text": "Set hyphenation zone to {15pt}"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_005",
-          "prompt_text": "Limit consecutive hyphens to 50%"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_006",
-          "prompt_text": "Disable hyphenation in captions"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_007",
-          "prompt_text": "Apply medical dictionary for hyphens"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_021",
-          "prompt_text": "Limit consecutive hyphens to 80%"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_024",
-          "prompt_text": "Set hyphenation zone to 100%"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_028",
-          "prompt_text": "Limit consecutive hyphens to 200%"
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_038",
-          "prompt_text": "Limit consecutive hyphens to 1.0\""
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_046",
-          "prompt_text": "Limit consecutive hyphens to 0.5\""
-        },
-        {
-          "id": "typography_hyphenation_dictionaries_050",
-          "prompt_text": "Limit consecutive hyphens to 0.25\""
-        }
-      ]
-    },
-    {
-      "subcategory": "kerning_pair_logic",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "kerning-pair-logic"
-      ],
-      "entries": [
-        {
-          "id": "typography_kerning_pair_logic_001",
-          "prompt_text": "Fix kerning in logo text"
-        },
-        {
-          "id": "typography_kerning_pair_logic_003",
-          "prompt_text": "Adjust kerning to optical for table"
-        },
-        {
-          "id": "typography_kerning_pair_logic_004",
-          "prompt_text": "Tighten logo kerning to {12pt}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_005",
-          "prompt_text": "Loosen caption kerning to 1.0\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_006",
-          "prompt_text": "Adjust kerning to optical for caption"
-        },
-        {
-          "id": "typography_kerning_pair_logic_008",
-          "prompt_text": "Set kerning to metrics for body"
-        },
-        {
-          "id": "typography_kerning_pair_logic_009",
-          "prompt_text": "Loosen note kerning to 0.75\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_010",
-          "prompt_text": "Tighten chart kerning to 1.25\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_018",
-          "prompt_text": "Loosen logo kerning to 0.5\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_020",
-          "prompt_text": "Adjust kerning to optical for graph"
-        },
-        {
-          "id": "typography_kerning_pair_logic_022",
-          "prompt_text": "Tighten text kerning to {15pt}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_024",
-          "prompt_text": "Adjust kerning to optical for note"
-        },
-        {
-          "id": "typography_kerning_pair_logic_025",
-          "prompt_text": "Tighten caption kerning to {5px}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_029",
-          "prompt_text": "Adjust kerning to optical for callout"
-        },
-        {
-          "id": "typography_kerning_pair_logic_030",
-          "prompt_text": "Loosen chart kerning to {12pt}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_032",
-          "prompt_text": "Loosen text kerning to 0.5\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_034",
-          "prompt_text": "Tighten image kerning to {10px}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_035",
-          "prompt_text": "Loosen image kerning to {8pt}"
-        },
-        {
-          "id": "typography_kerning_pair_logic_036",
-          "prompt_text": "Loosen text kerning to 200%"
-        },
-        {
-          "id": "typography_kerning_pair_logic_037",
-          "prompt_text": "Tighten logo kerning to 1.0\""
-        },
-        {
-          "id": "typography_kerning_pair_logic_039",
-          "prompt_text": "Adjust kerning to optical for logo"
-        },
-        {
-          "id": "typography_kerning_pair_logic_040",
-          "prompt_text": "Adjust kerning to optical for text"
-        },
-        {
-          "id": "typography_kerning_pair_logic_041",
-          "prompt_text": "Loosen title kerning to 100%"
-        }
-      ]
-    },
-    {
-      "subcategory": "glyph_substitution_ligatures",
-      "priority": "typography",
-      "doc_type": "both",
-      "tags": [
-        "typography",
-        "glyph-substitution-ligatures"
-      ],
-      "entries": [
-        {
-          "id": "typography_glyph_substitution_ligatures_001",
-          "prompt_text": "Use tabular lining for numbers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_002",
-          "prompt_text": "Apply oldstyle figures to body"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_003",
-          "prompt_text": "Enable discretionary ligatures for caption"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_004",
-          "prompt_text": "Enable discretionary ligatures for text"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_005",
-          "prompt_text": "Set stylistic set to 100% for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_006",
-          "prompt_text": "Enable discretionary ligatures for image"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_007",
-          "prompt_text": "Set stylistic set to 200% for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_008",
-          "prompt_text": "Disable standard ligatures in technical text"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_010",
-          "prompt_text": "Set stylistic set to 80% for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_011",
-          "prompt_text": "Set stylistic set to 1.0\" for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_012",
-          "prompt_text": "Enable discretionary ligatures for note"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_015",
-          "prompt_text": "Set stylistic set to {10pt} for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_017",
-          "prompt_text": "Enable discretionary ligatures for title"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_021",
-          "prompt_text": "Enable discretionary ligatures for graph"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_026",
-          "prompt_text": "Enable discretionary ligatures for logo"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_028",
-          "prompt_text": "Set stylistic set to 0.75\" for headers"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_030",
-          "prompt_text": "Enable discretionary ligatures for callout"
-        },
-        {
-          "id": "typography_glyph_substitution_ligatures_037",
-          "prompt_text": "Set stylistic set to 50% for headers"
         }
       ]
     }

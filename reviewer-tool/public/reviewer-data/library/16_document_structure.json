@@ -19,107 +19,107 @@
           "prompt_text": "Add bookmark"
         },
         {
-          "id": "document_structure_section_presence_order_004",
+          "id": "document_structure_section_presence_order_003",
           "prompt_text": "Add clickable link to URL printed in plain text in {references} section"
         },
         {
-          "id": "document_structure_section_presence_order_005",
+          "id": "document_structure_section_presence_order_004",
           "prompt_text": "Add footer below {references} section"
         },
         {
-          "id": "document_structure_section_presence_order_006",
+          "id": "document_structure_section_presence_order_005",
           "prompt_text": "Add footer with company name and date below {appendix} section"
         },
         {
-          "id": "document_structure_section_presence_order_007",
+          "id": "document_structure_section_presence_order_006",
           "prompt_text": "Add glossary entry"
         },
         {
-          "id": "document_structure_section_presence_order_008",
+          "id": "document_structure_section_presence_order_007",
           "prompt_text": "Add {horizontal rule} before {References} section"
         },
         {
-          "id": "document_structure_section_presence_order_009",
+          "id": "document_structure_section_presence_order_008",
           "prompt_text": "Add {text layer} to scanned {reference} section"
         },
         {
-          "id": "document_structure_section_presence_order_010",
+          "id": "document_structure_section_presence_order_009",
           "prompt_text": "Add bookmarks for each subsection under {References}"
         },
         {
-          "id": "document_structure_section_presence_order_011",
+          "id": "document_structure_section_presence_order_010",
           "prompt_text": "Add bookmarks"
         },
         {
-          "id": "document_structure_section_presence_order_012",
+          "id": "document_structure_section_presence_order_011",
           "prompt_text": "Add dot leaders between TOC entries and their section numbers"
         },
         {
-          "id": "document_structure_section_presence_order_013",
+          "id": "document_structure_section_presence_order_012",
           "prompt_text": "Add missing glossary entry"
         },
         {
-          "id": "document_structure_section_presence_order_014",
+          "id": "document_structure_section_presence_order_013",
           "prompt_text": "Add missing page number below {glossary} section"
         },
         {
-          "id": "document_structure_section_presence_order_015",
+          "id": "document_structure_section_presence_order_014",
           "prompt_text": "Add missing {acknowledgments} section before {references}"
         },
         {
-          "id": "document_structure_section_presence_order_016",
+          "id": "document_structure_section_presence_order_015",
           "prompt_text": "Add page number below {references} section"
         },
         {
-          "id": "document_structure_section_presence_order_017",
+          "id": "document_structure_section_presence_order_016",
           "prompt_text": "Add {running header} above {appendix} section"
         },
         {
-          "id": "document_structure_section_presence_order_018",
+          "id": "document_structure_section_presence_order_017",
           "prompt_text": "Change page number to {A-1}"
         },
         {
-          "id": "document_structure_section_presence_order_019",
+          "id": "document_structure_section_presence_order_018",
           "prompt_text": "Delete trailing {page break} after {references section}"
         },
         {
-          "id": "document_structure_section_presence_order_020",
+          "id": "document_structure_section_presence_order_019",
           "prompt_text": "Delete {glossary} section"
         },
         {
-          "id": "document_structure_section_presence_order_021",
+          "id": "document_structure_section_presence_order_020",
           "prompt_text": "Fix bookmark for {Section 3} that jumps to wrong location"
         },
         {
-          "id": "document_structure_section_presence_order_022",
+          "id": "document_structure_section_presence_order_021",
           "prompt_text": "Put references after conclusion"
         },
         {
-          "id": "document_structure_section_presence_order_023",
+          "id": "document_structure_section_presence_order_022",
           "prompt_text": "Put {glossary} after {main body}"
         },
         {
-          "id": "document_structure_section_presence_order_024",
+          "id": "document_structure_section_presence_order_023",
           "prompt_text": "Remove broken link in {references} section that leads to a {404}"
         },
         {
-          "id": "document_structure_section_presence_order_025",
+          "id": "document_structure_section_presence_order_024",
           "prompt_text": "Remove clickable border box around the footnote link"
         },
         {
-          "id": "document_structure_section_presence_order_026",
+          "id": "document_structure_section_presence_order_025",
           "prompt_text": "Remove {appendix section} at bottom"
         },
         {
-          "id": "document_structure_section_presence_order_027",
+          "id": "document_structure_section_presence_order_026",
           "prompt_text": "Rename the {Bookmark 1} label"
         },
         {
-          "id": "document_structure_section_presence_order_028",
+          "id": "document_structure_section_presence_order_027",
           "prompt_text": "Restart the {reference} section numbering at {R-1}"
         },
         {
-          "id": "document_structure_section_presence_order_029",
+          "id": "document_structure_section_presence_order_028",
           "prompt_text": "Set PDF to open with bookmark panel visible"
         }
       ]
@@ -212,115 +212,12 @@
           "prompt_text": "Remove section break at page X"
         },
         {
-          "id": "document_structure_section_break_types_continuous_005",
+          "id": "document_structure_section_break_types_continuous_004",
           "prompt_text": "Change page break to continuous break"
         },
         {
-          "id": "document_structure_section_break_types_continuous_007",
+          "id": "document_structure_section_break_types_continuous_005",
           "prompt_text": "Fix odd page break for chapters"
-        }
-      ]
-    },
-    {
-      "subcategory": "column_count_variation",
-      "priority": "document_structure",
-      "doc_type": "both",
-      "tags": [
-        "document_structure",
-        "column-count-variation"
-      ],
-      "entries": [
-        {
-          "id": "document_structure_column_count_variation_001",
-          "prompt_text": "Balance column heights in Sidebar"
-        },
-        {
-          "id": "document_structure_column_count_variation_002",
-          "prompt_text": "Adjust gutter width between columns to 2.0\""
-        },
-        {
-          "id": "document_structure_column_count_variation_003",
-          "prompt_text": "Adjust gutter width between columns to 50%"
-        },
-        {
-          "id": "document_structure_column_count_variation_004",
-          "prompt_text": "Adjust gutter width between columns to 100%"
-        },
-        {
-          "id": "document_structure_column_count_variation_005",
-          "prompt_text": "Add column line to multi-column layout"
-        },
-        {
-          "id": "document_structure_column_count_variation_006",
-          "prompt_text": "Balance column heights in {Section 2}"
-        },
-        {
-          "id": "document_structure_column_count_variation_008",
-          "prompt_text": "Adjust gutter width between columns to {5px}"
-        },
-        {
-          "id": "document_structure_column_count_variation_009",
-          "prompt_text": "Adjust gutter width between columns to 80%"
-        },
-        {
-          "id": "document_structure_column_count_variation_010",
-          "prompt_text": "Set column count to {5px} for Footer"
-        },
-        {
-          "id": "document_structure_column_count_variation_011",
-          "prompt_text": "Change body to Y columns"
-        },
-        {
-          "id": "document_structure_column_count_variation_013",
-          "prompt_text": "Balance column heights in Footer"
-        },
-        {
-          "id": "document_structure_column_count_variation_014",
-          "prompt_text": "Adjust gutter width between columns to 1.25\""
-        },
-        {
-          "id": "document_structure_column_count_variation_016",
-          "prompt_text": "Balance column heights in Introduction"
-        },
-        {
-          "id": "document_structure_column_count_variation_021",
-          "prompt_text": "Set column count to 50% for {Chapter 1}"
-        },
-        {
-          "id": "document_structure_column_count_variation_023",
-          "prompt_text": "Set column count to 1.25\" for Body"
-        },
-        {
-          "id": "document_structure_column_count_variation_024",
-          "prompt_text": "Balance column heights in Header"
-        },
-        {
-          "id": "document_structure_column_count_variation_029",
-          "prompt_text": "Adjust gutter width between columns to 1.0\""
-        },
-        {
-          "id": "document_structure_column_count_variation_032",
-          "prompt_text": "Adjust gutter width between columns to 0.75\""
-        },
-        {
-          "id": "document_structure_column_count_variation_036",
-          "prompt_text": "Set column count to 0.5\" for Body"
-        },
-        {
-          "id": "document_structure_column_count_variation_039",
-          "prompt_text": "Balance column heights in Body"
-        },
-        {
-          "id": "document_structure_column_count_variation_048",
-          "prompt_text": "Set column count to 1.0\" for {Chapter 1}"
-        },
-        {
-          "id": "document_structure_column_count_variation_051",
-          "prompt_text": "Set column count to 1.0\" for Conclusion"
-        },
-        {
-          "id": "document_structure_column_count_variation_053",
-          "prompt_text": "Balance column heights in Conclusion"
         }
       ]
     },
@@ -342,40 +239,32 @@
           "prompt_text": "Offset border {5px} from edge"
         },
         {
-          "id": "document_structure_page_border_geometry_004",
-          "prompt_text": "Offset border 0.25\" from edge"
+          "id": "document_structure_page_border_geometry_003",
+          "prompt_text": "Offset border {0.25}\" from edge"
         },
         {
-          "id": "document_structure_page_border_geometry_009",
+          "id": "document_structure_page_border_geometry_004",
           "prompt_text": "Change border style to dashed"
         },
         {
-          "id": "document_structure_page_border_geometry_010",
-          "prompt_text": "Set border thickness to 200%"
+          "id": "document_structure_page_border_geometry_005",
+          "prompt_text": "Set border thickness to {200%}"
         },
         {
-          "id": "document_structure_page_border_geometry_011",
-          "prompt_text": "Offset border 50% from edge"
+          "id": "document_structure_page_border_geometry_006",
+          "prompt_text": "Offset border {50%} from edge"
         },
         {
-          "id": "document_structure_page_border_geometry_014",
+          "id": "document_structure_page_border_geometry_007",
           "prompt_text": "Align page border to margin"
         },
         {
-          "id": "document_structure_page_border_geometry_018",
-          "prompt_text": "Set border thickness to 80%"
-        },
-        {
-          "id": "document_structure_page_border_geometry_020",
+          "id": "document_structure_page_border_geometry_008",
           "prompt_text": "Set border thickness to {15pt}"
         },
         {
-          "id": "document_structure_page_border_geometry_022",
-          "prompt_text": "Set border thickness to 50%"
-        },
-        {
-          "id": "document_structure_page_border_geometry_030",
-          "prompt_text": "Set border thickness to 0.75\""
+          "id": "document_structure_page_border_geometry_009",
+          "prompt_text": "Set border thickness to {0.75}\""
         }
       ]
     }

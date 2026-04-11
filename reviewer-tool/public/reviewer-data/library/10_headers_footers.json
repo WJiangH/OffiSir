@@ -51,143 +51,143 @@
           "prompt_text": "Change page number format to {1 of 1}"
         },
         {
-          "id": "headers_footers_page_number_presence_012",
+          "id": "headers_footers_page_number_presence_011",
           "prompt_text": "Change page number to {3}"
         },
         {
-          "id": "headers_footers_page_number_presence_016",
+          "id": "headers_footers_page_number_presence_012",
           "prompt_text": "Change page number in footer to {4}"
         },
         {
-          "id": "headers_footers_page_number_presence_017",
+          "id": "headers_footers_page_number_presence_013",
           "prompt_text": "Change page number prefix to {Appendix}"
         },
         {
-          "id": "headers_footers_page_number_presence_019",
+          "id": "headers_footers_page_number_presence_014",
           "prompt_text": "Hide the page number but keep count starting from {1}"
         },
         {
-          "id": "headers_footers_page_number_presence_020",
+          "id": "headers_footers_page_number_presence_015",
           "prompt_text": "Keep page number on same baseline"
         },
         {
-          "id": "headers_footers_page_number_presence_021",
+          "id": "headers_footers_page_number_presence_016",
           "prompt_text": "Move page number away from footer text"
         },
         {
-          "id": "headers_footers_page_number_presence_022",
+          "id": "headers_footers_page_number_presence_017",
           "prompt_text": "Move page number from header to bottom right of the footer"
         },
         {
-          "id": "headers_footers_page_number_presence_023",
+          "id": "headers_footers_page_number_presence_018",
           "prompt_text": "Move page number from {top right} to {bottom right}"
         },
         {
-          "id": "headers_footers_page_number_presence_024",
+          "id": "headers_footers_page_number_presence_019",
           "prompt_text": "Move page number to bottom center of the page"
         },
         {
-          "id": "headers_footers_page_number_presence_025",
+          "id": "headers_footers_page_number_presence_020",
           "prompt_text": "Move page number to {bottom center}"
         },
         {
-          "id": "headers_footers_page_number_presence_026",
+          "id": "headers_footers_page_number_presence_021",
           "prompt_text": "Move page number to {outer right corner} of the footer"
         },
         {
-          "id": "headers_footers_page_number_presence_027",
+          "id": "headers_footers_page_number_presence_022",
           "prompt_text": "Move page number to {0.5 inches} from bottom edge"
         },
         {
-          "id": "headers_footers_page_number_presence_028",
+          "id": "headers_footers_page_number_presence_023",
           "prompt_text": "Move page number {0.25 inches} up from bottom edge"
         },
         {
-          "id": "headers_footers_page_number_presence_029",
+          "id": "headers_footers_page_number_presence_024",
           "prompt_text": "Move {page number} {0.15 inches} inside the {right margin}"
         },
         {
-          "id": "headers_footers_page_number_presence_030",
-          "prompt_text": "Move {page number} {0.3 inches} away from {trim edge}"
+          "id": "headers_footers_page_number_presence_025",
+          "prompt_text": "Move {page number} {0.3 inches} away from {page edge}"
         },
         {
-          "id": "headers_footers_page_number_presence_031",
+          "id": "headers_footers_page_number_presence_026",
           "prompt_text": "Pull page number {6pt} closer to footer text"
         },
         {
-          "id": "headers_footers_page_number_presence_032",
+          "id": "headers_footers_page_number_presence_027",
           "prompt_text": "Put page number in header"
         },
         {
-          "id": "headers_footers_page_number_presence_033",
+          "id": "headers_footers_page_number_presence_028",
           "prompt_text": "Raise the page number {0.1 inches}"
         },
         {
-          "id": "headers_footers_page_number_presence_034",
+          "id": "headers_footers_page_number_presence_029",
           "prompt_text": "Remove duplicate page number that appears twice in footer"
         },
         {
-          "id": "headers_footers_page_number_presence_035",
+          "id": "headers_footers_page_number_presence_030",
           "prompt_text": "Remove extra page number that shows up twice in footer"
         },
         {
-          "id": "headers_footers_page_number_presence_036",
+          "id": "headers_footers_page_number_presence_031",
           "prompt_text": "Remove page number from below {title} block"
         },
         {
-          "id": "headers_footers_page_number_presence_037",
+          "id": "headers_footers_page_number_presence_032",
           "prompt_text": "Remove page number from bottom of the page"
         },
         {
-          "id": "headers_footers_page_number_presence_038",
+          "id": "headers_footers_page_number_presence_033",
           "prompt_text": "Remove page number from footer"
         },
         {
-          "id": "headers_footers_page_number_presence_039",
+          "id": "headers_footers_page_number_presence_034",
           "prompt_text": "Remove page number from {title} area at top"
         },
         {
-          "id": "headers_footers_page_number_presence_040",
+          "id": "headers_footers_page_number_presence_035",
           "prompt_text": "Remove parentheses around the page number"
         },
         {
-          "id": "headers_footers_page_number_presence_041",
+          "id": "headers_footers_page_number_presence_036",
           "prompt_text": "Remove {page number} from {cover page}"
         },
         {
-          "id": "headers_footers_page_number_presence_042",
+          "id": "headers_footers_page_number_presence_037",
           "prompt_text": "Right-align page number and left-align company name in footer"
         },
         {
-          "id": "headers_footers_page_number_presence_043",
+          "id": "headers_footers_page_number_presence_038",
           "prompt_text": "Set right-aligned tab stop at {6 inches}"
         },
         {
-          "id": "headers_footers_page_number_presence_044",
+          "id": "headers_footers_page_number_presence_039",
           "prompt_text": "Set page number in footer to display as {Page 1 of 1}"
         },
         {
-          "id": "headers_footers_page_number_presence_045",
+          "id": "headers_footers_page_number_presence_040",
           "prompt_text": "Set page number to regular weight {9pt}"
         },
         {
-          "id": "headers_footers_page_number_presence_046",
+          "id": "headers_footers_page_number_presence_041",
           "prompt_text": "Set page number to {1}"
         },
         {
-          "id": "headers_footers_page_number_presence_047",
+          "id": "headers_footers_page_number_presence_042",
           "prompt_text": "Set page numbers in footer to {9pt}"
         },
         {
-          "id": "headers_footers_page_number_presence_048",
+          "id": "headers_footers_page_number_presence_043",
           "prompt_text": "Set {page number format} to {Page 1 of 1}"
         },
         {
-          "id": "headers_footers_page_number_presence_049",
+          "id": "headers_footers_page_number_presence_044",
           "prompt_text": "Shrink page number to {8pt}"
         },
         {
-          "id": "headers_footers_page_number_presence_050",
+          "id": "headers_footers_page_number_presence_045",
           "prompt_text": "Switch page number format to {01 02 03}"
         }
       ]
@@ -265,439 +265,435 @@
           "prompt_text": "Change {footer divider line} weight to {0.5pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_014",
+          "id": "headers_footers_header_footer_consistency_013",
           "prompt_text": "Change {header divider line} to {0.5pt} weight"
         },
         {
-          "id": "headers_footers_header_footer_consistency_015",
+          "id": "headers_footers_header_footer_consistency_014",
           "prompt_text": "Change {red} link in {footer} to same brand {blue} as other links"
         },
         {
-          "id": "headers_footers_header_footer_consistency_016",
+          "id": "headers_footers_header_footer_consistency_015",
           "prompt_text": "Change {Project Alpha} in {closing paragraph} to {Project Alpha-1}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_018",
+          "id": "headers_footers_header_footer_consistency_016",
           "prompt_text": "Enlarge the {thumbnail} in header to at least {2 inches} wide"
         },
         {
+          "id": "headers_footers_header_footer_consistency_017",
+          "prompt_text": "Extend the header color band past page edge by {0.125 inches}"
+        },
+        {
+          "id": "headers_footers_header_footer_consistency_018",
+          "prompt_text": "Extend the {navy} {footer band} to full page width"
+        },
+        {
           "id": "headers_footers_header_footer_consistency_019",
-          "prompt_text": "Extend the header color band past trim line by {0.125 inches}"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_020",
-          "prompt_text": "Extend the navy {footer band} to full page width"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_021",
           "prompt_text": "Extend the {footer divider line} to full text width"
         },
         {
-          "id": "headers_footers_header_footer_consistency_022",
+          "id": "headers_footers_header_footer_consistency_020",
           "prompt_text": "Extend the {header divider line} to full width of the text area"
         },
         {
-          "id": "headers_footers_header_footer_consistency_023",
+          "id": "headers_footers_header_footer_consistency_021",
           "prompt_text": "Fix text extraction order"
         },
         {
-          "id": "headers_footers_header_footer_consistency_024",
+          "id": "headers_footers_header_footer_consistency_022",
           "prompt_text": "Increase gap above {Recommendations} header to {14pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_025",
+          "id": "headers_footers_header_footer_consistency_023",
           "prompt_text": "Keep {Subtotal Analysis} header attached to its first paragraph"
         },
         {
-          "id": "headers_footers_header_footer_consistency_026",
+          "id": "headers_footers_header_footer_consistency_024",
           "prompt_text": "Left-align company name in footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_027",
+          "id": "headers_footers_header_footer_consistency_025",
           "prompt_text": "Line up the footer width with body text margins"
         },
         {
-          "id": "headers_footers_header_footer_consistency_028",
+          "id": "headers_footers_header_footer_consistency_026",
           "prompt_text": "Make all H2 headers {16pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_029",
+          "id": "headers_footers_header_footer_consistency_027",
           "prompt_text": "Make every {H1 header} {left-aligned}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_030",
+          "id": "headers_footers_header_footer_consistency_028",
           "prompt_text": "Make space above every {H2 header} {14pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_031",
+          "id": "headers_footers_header_footer_consistency_029",
           "prompt_text": "Make subheaders in {sidebar} {14pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_032",
+          "id": "headers_footers_header_footer_consistency_030",
           "prompt_text": "Make website link in footer clickable"
         },
         {
-          "id": "headers_footers_header_footer_consistency_033",
+          "id": "headers_footers_header_footer_consistency_031",
           "prompt_text": "Match {header rule} width to body text margins"
         },
         {
-          "id": "headers_footers_header_footer_consistency_034",
+          "id": "headers_footers_header_footer_consistency_032",
           "prompt_text": "Move footer line up {0.15 inches}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_035",
+          "id": "headers_footers_header_footer_consistency_033",
           "prompt_text": "Move footer to {0.5 inches} from bottom edge"
         },
         {
-          "id": "headers_footers_header_footer_consistency_036",
+          "id": "headers_footers_header_footer_consistency_034",
           "prompt_text": "Move footer up {0.15 inches} from page edge"
         },
         {
-          "id": "headers_footers_header_footer_consistency_037",
+          "id": "headers_footers_header_footer_consistency_035",
           "prompt_text": "Move page count to right side of the footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_038",
+          "id": "headers_footers_header_footer_consistency_036",
           "prompt_text": "Move printed date into {right side} of the footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_039",
+          "id": "headers_footers_header_footer_consistency_037",
           "prompt_text": "Move {Recommendations} header closer to its body text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_040",
+          "id": "headers_footers_header_footer_consistency_038",
           "prompt_text": "Move {contact information} from header to bottom of the document"
         },
         {
-          "id": "headers_footers_header_footer_consistency_041",
+          "id": "headers_footers_header_footer_consistency_039",
           "prompt_text": "Move {footer} up {0.1 inches}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_042",
+          "id": "headers_footers_header_footer_consistency_040",
           "prompt_text": "Move {header} text down"
         },
         {
-          "id": "headers_footers_header_footer_consistency_043",
+          "id": "headers_footers_header_footer_consistency_041",
           "prompt_text": "Place revision date in right side of the footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_044",
+          "id": "headers_footers_header_footer_consistency_042",
           "prompt_text": "Push footer down {4pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_045",
+          "id": "headers_footers_header_footer_consistency_043",
           "prompt_text": "Raise the {footer} {0.1 inches} from {page edge}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_046",
+          "id": "headers_footers_header_footer_consistency_044",
           "prompt_text": "Reduce gap between header and first paragraph to {12pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_047",
+          "id": "headers_footers_header_footer_consistency_045",
           "prompt_text": "Reduce gap between {Findings header} and {first paragraph} to {8pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_048",
+          "id": "headers_footers_header_footer_consistency_046",
           "prompt_text": "Remove day from date in {report header} and keep only month and year"
         },
         {
-          "id": "headers_footers_header_footer_consistency_049",
+          "id": "headers_footers_header_footer_consistency_047",
           "prompt_text": "Remove disclaimer text from footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_050",
+          "id": "headers_footers_header_footer_consistency_048",
           "prompt_text": "Remove duplicate footer that appears twice at bottom"
         },
         {
-          "id": "headers_footers_header_footer_consistency_051",
+          "id": "headers_footers_header_footer_consistency_049",
           "prompt_text": "Remove duplicate header that appears below first one"
         },
         {
-          "id": "headers_footers_header_footer_consistency_052",
+          "id": "headers_footers_header_footer_consistency_050",
           "prompt_text": "Remove extra {green} accent from {footer}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_053",
+          "id": "headers_footers_header_footer_consistency_051",
           "prompt_text": "Remove first-person sentence in {footer note}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_054",
+          "id": "headers_footers_header_footer_consistency_052",
           "prompt_text": "Remove footer from bottom of the page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_055",
+          "id": "headers_footers_header_footer_consistency_053",
           "prompt_text": "Remove footer from page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_056",
+          "id": "headers_footers_header_footer_consistency_054",
           "prompt_text": "Remove header from page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_057",
+          "id": "headers_footers_header_footer_consistency_055",
           "prompt_text": "Remove header from {cover} page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_058",
+          "id": "headers_footers_header_footer_consistency_056",
           "prompt_text": "Remove manual line breaks that create a {3 inch} gap before footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_059",
+          "id": "headers_footers_header_footer_consistency_057",
           "prompt_text": "Remove phone number from footer and keep only the website URL"
         },
         {
-          "id": "headers_footers_header_footer_consistency_060",
+          "id": "headers_footers_header_footer_consistency_058",
           "prompt_text": "Remove stale date from footer and replace it with current date field"
         },
         {
-          "id": "headers_footers_header_footer_consistency_061",
+          "id": "headers_footers_header_footer_consistency_059",
           "prompt_text": "Remove {double line} under header and use single hairline"
         },
         {
-          "id": "headers_footers_header_footer_consistency_062",
+          "id": "headers_footers_header_footer_consistency_060",
           "prompt_text": "Remove {double rule} above footer and use single line"
         },
         {
-          "id": "headers_footers_header_footer_consistency_063",
+          "id": "headers_footers_header_footer_consistency_061",
           "prompt_text": "Remove {extra blank line} in footer that pushes the body text up"
         },
         {
-          "id": "headers_footers_header_footer_consistency_064",
+          "id": "headers_footers_header_footer_consistency_062",
           "prompt_text": "Remove {footer divider line}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_066",
+          "id": "headers_footers_header_footer_consistency_063",
           "prompt_text": "Replace the old office address in footer with {new headquarters address}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_067",
+          "id": "headers_footers_header_footer_consistency_064",
           "prompt_text": "Replace the {sample address} in {footer} with {100 Main Street, Suite 400, Chicago IL 60601}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_068",
+          "id": "headers_footers_header_footer_consistency_065",
           "prompt_text": "Replace {Insert company name} in header with {Greenfield Industries}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_069",
+          "id": "headers_footers_header_footer_consistency_066",
           "prompt_text": "Right-align date line in header block"
         },
         {
-          "id": "headers_footers_header_footer_consistency_070",
+          "id": "headers_footers_header_footer_consistency_067",
           "prompt_text": "Right-align page count in footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_071",
+          "id": "headers_footers_header_footer_consistency_068",
           "prompt_text": "Right-align revision date in header"
         },
         {
-          "id": "headers_footers_header_footer_consistency_072",
+          "id": "headers_footers_header_footer_consistency_069",
           "prompt_text": "Set H3 headers to {14pt} across the whole document"
         },
         {
-          "id": "headers_footers_header_footer_consistency_073",
+          "id": "headers_footers_header_footer_consistency_070",
           "prompt_text": "Set {1-inch} gap between {header} and {first paragraph}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_074",
+          "id": "headers_footers_header_footer_consistency_071",
           "prompt_text": "Set center and right {tab stops} at {3.25 inches} and {6.5 inches} in footer"
         },
         {
-          "id": "headers_footers_header_footer_consistency_075",
+          "id": "headers_footers_header_footer_consistency_072",
           "prompt_text": "Set every {H1 header} to {20pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_077",
+          "id": "headers_footers_header_footer_consistency_073",
           "prompt_text": "Set bottom margin to {0.75 inches}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_078",
+          "id": "headers_footers_header_footer_consistency_074",
           "prompt_text": "Set first-page header to differ from rest of the document"
         },
         {
-          "id": "headers_footers_header_footer_consistency_079",
+          "id": "headers_footers_header_footer_consistency_075",
           "prompt_text": "Set header running text to {8pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_080",
+          "id": "headers_footers_header_footer_consistency_076",
           "prompt_text": "Set {header divider line} thickness to {0.5pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_081",
+          "id": "headers_footers_header_footer_consistency_077",
           "prompt_text": "Shift header and footer inward"
         },
         {
-          "id": "headers_footers_header_footer_consistency_082",
-          "prompt_text": "Shift {header rule} line {0.15 inches} below top trim"
-        },
-        {
-          "id": "headers_footers_header_footer_consistency_083",
+          "id": "headers_footers_header_footer_consistency_078",
           "prompt_text": "Shorten the footer {copyright line} to just the year and company name"
         },
         {
-          "id": "headers_footers_header_footer_consistency_084",
+          "id": "headers_footers_header_footer_consistency_079",
           "prompt_text": "Tighten gap between {header} and {first paragraph} to {12pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_085",
+          "id": "headers_footers_header_footer_consistency_080",
           "prompt_text": "Update {total patients count} in {footer} to {482}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_086",
+          "id": "headers_footers_header_footer_consistency_081",
           "prompt_text": "Add thin rule below {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_087",
+          "id": "headers_footers_header_footer_consistency_082",
           "prompt_text": "Add thin rule line below header text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_088",
+          "id": "headers_footers_header_footer_consistency_083",
           "prompt_text": "Add {running header} with {document title}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_089",
+          "id": "headers_footers_header_footer_consistency_084",
           "prompt_text": "Add {running header} with {report title} at top of the page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_090",
+          "id": "headers_footers_header_footer_consistency_085",
           "prompt_text": "Add {confidentiality label} to {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_091",
+          "id": "headers_footers_header_footer_consistency_086",
           "prompt_text": "Add {document title}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_093",
+          "id": "headers_footers_header_footer_consistency_087",
           "prompt_text": "Align {running header} to {0.5 inches} from {top edge}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_094",
+          "id": "headers_footers_header_footer_consistency_088",
           "prompt_text": "Center the {running header} between left and right margins"
         },
         {
-          "id": "headers_footers_header_footer_consistency_095",
+          "id": "headers_footers_header_footer_consistency_089",
           "prompt_text": "Center-align footer text on landscape layout"
         },
         {
-          "id": "headers_footers_header_footer_consistency_096",
+          "id": "headers_footers_header_footer_consistency_090",
           "prompt_text": "Change footer text color to {dark gray}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_097",
+          "id": "headers_footers_header_footer_consistency_091",
           "prompt_text": "Change {footer text} to {CONFIDENTIAL}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_098",
+          "id": "headers_footers_header_footer_consistency_092",
           "prompt_text": "Change {running header} text color to {dark gray}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_099",
+          "id": "headers_footers_header_footer_consistency_093",
           "prompt_text": "Change {running header} text to {Appendix}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_100",
+          "id": "headers_footers_header_footer_consistency_094",
           "prompt_text": "Change {running header} to short {document title}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_101",
+          "id": "headers_footers_header_footer_consistency_095",
           "prompt_text": "Left-align {document title} in {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_102",
+          "id": "headers_footers_header_footer_consistency_096",
           "prompt_text": "Left-align {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_103",
+          "id": "headers_footers_header_footer_consistency_097",
           "prompt_text": "Line up the left edge of the footer text with left margin"
         },
         {
-          "id": "headers_footers_header_footer_consistency_104",
+          "id": "headers_footers_header_footer_consistency_098",
           "prompt_text": "Lower the {running header} {0.1 inches}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_105",
+          "id": "headers_footers_header_footer_consistency_099",
           "prompt_text": "Make {running header text} match {report title}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_106",
+          "id": "headers_footers_header_footer_consistency_100",
           "prompt_text": "Match left edge of the header text to left margin"
         },
         {
-          "id": "headers_footers_header_footer_consistency_107",
+          "id": "headers_footers_header_footer_consistency_101",
           "prompt_text": "Move {divider} line to {3pt} above footer text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_108",
+          "id": "headers_footers_header_footer_consistency_102",
           "prompt_text": "Move {divider} line {4pt} closer to footer text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_109",
+          "id": "headers_footers_header_footer_consistency_103",
           "prompt_text": "Move {footer text} {0.2 inches} up from {page edge}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_110",
+          "id": "headers_footers_header_footer_consistency_104",
           "prompt_text": "Move {header divider line} {3pt} below header text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_111",
+          "id": "headers_footers_header_footer_consistency_105",
           "prompt_text": "Move {running header} down {4pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_112",
-          "prompt_text": "Move {running header} text {0.25 inches} below top trim edge"
+          "id": "headers_footers_header_footer_consistency_106",
+          "prompt_text": "Move {running header} text {0.25 inches} below top page edge"
         },
         {
-          "id": "headers_footers_header_footer_consistency_113",
+          "id": "headers_footers_header_footer_consistency_107",
           "prompt_text": "Move {running header} {0.15 inches} closer to body text"
         },
         {
-          "id": "headers_footers_header_footer_consistency_114",
+          "id": "headers_footers_header_footer_consistency_108",
           "prompt_text": "Push {running header} up {6pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_115",
+          "id": "headers_footers_header_footer_consistency_109",
           "prompt_text": "Reduce footer text to {8pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_116",
+          "id": "headers_footers_header_footer_consistency_110",
           "prompt_text": "Reduce header text line spacing to single"
         },
         {
-          "id": "headers_footers_header_footer_consistency_117",
+          "id": "headers_footers_header_footer_consistency_111",
           "prompt_text": "Remove date from {running header} and keep {title} only"
         },
         {
-          "id": "headers_footers_header_footer_consistency_118",
+          "id": "headers_footers_header_footer_consistency_112",
           "prompt_text": "Remove extra subtitle line from {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_119",
+          "id": "headers_footers_header_footer_consistency_113",
           "prompt_text": "Remove stray boxes around the footer text in PDF"
         },
         {
-          "id": "headers_footers_header_footer_consistency_120",
+          "id": "headers_footers_header_footer_consistency_114",
           "prompt_text": "Remove {running header} from top of the page"
         },
         {
-          "id": "headers_footers_header_footer_consistency_121",
+          "id": "headers_footers_header_footer_consistency_115",
           "prompt_text": "Right-align {running header}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_122",
+          "id": "headers_footers_header_footer_consistency_116",
           "prompt_text": "Set footer text to single spacing"
         },
         {
-          "id": "headers_footers_header_footer_consistency_123",
+          "id": "headers_footers_header_footer_consistency_117",
           "prompt_text": "Set footer text to {8pt}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_125",
+          "id": "headers_footers_header_footer_consistency_118",
           "prompt_text": "Shorten the {running header} to {first five words} of the {title}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_126",
+          "id": "headers_footers_header_footer_consistency_119",
           "prompt_text": "Switch {white} footer text to {dark gray}"
         },
         {
-          "id": "headers_footers_header_footer_consistency_127",
+          "id": "headers_footers_header_footer_consistency_120",
           "prompt_text": "Use {document title}"
         }
       ]
@@ -793,59 +789,59 @@
           "prompt_text": "Remove title from first page of Conclusion"
         },
         {
-          "id": "headers_footers_section_specific_headers_004",
+          "id": "headers_footers_section_specific_headers_003",
           "prompt_text": "Remove callout from first page of Introduction"
         },
         {
-          "id": "headers_footers_section_specific_headers_005",
+          "id": "headers_footers_section_specific_headers_004",
           "prompt_text": "Link section header to previous"
         },
         {
-          "id": "headers_footers_section_specific_headers_006",
+          "id": "headers_footers_section_specific_headers_005",
           "prompt_text": "Remove text from first page of {Chapter 1}"
         },
         {
-          "id": "headers_footers_section_specific_headers_007",
+          "id": "headers_footers_section_specific_headers_006",
           "prompt_text": "Add note to section X only"
         },
         {
-          "id": "headers_footers_section_specific_headers_008",
+          "id": "headers_footers_section_specific_headers_007",
           "prompt_text": "Align section header to outside"
         },
         {
-          "id": "headers_footers_section_specific_headers_011",
+          "id": "headers_footers_section_specific_headers_008",
           "prompt_text": "Remove title from first page of Sidebar"
         },
         {
-          "id": "headers_footers_section_specific_headers_018",
+          "id": "headers_footers_section_specific_headers_009",
           "prompt_text": "Add table to section X only"
         },
         {
-          "id": "headers_footers_section_specific_headers_020",
+          "id": "headers_footers_section_specific_headers_010",
           "prompt_text": "Remove chart from first page of {Section 2}"
         },
         {
-          "id": "headers_footers_section_specific_headers_021",
+          "id": "headers_footers_section_specific_headers_011",
           "prompt_text": "Add title to section X only"
         },
         {
-          "id": "headers_footers_section_specific_headers_028",
+          "id": "headers_footers_section_specific_headers_012",
           "prompt_text": "Add callout to section X only"
         },
         {
-          "id": "headers_footers_section_specific_headers_031",
+          "id": "headers_footers_section_specific_headers_013",
           "prompt_text": "Remove note from first page of Body"
         },
         {
-          "id": "headers_footers_section_specific_headers_034",
+          "id": "headers_footers_section_specific_headers_014",
           "prompt_text": "Remove table from first page of {Chapter 1}"
         },
         {
-          "id": "headers_footers_section_specific_headers_039",
+          "id": "headers_footers_section_specific_headers_015",
           "prompt_text": "Add chart to section X only"
         },
         {
-          "id": "headers_footers_section_specific_headers_042",
+          "id": "headers_footers_section_specific_headers_016",
           "prompt_text": "Remove callout from first page of {Section 2}"
         }
       ]
@@ -864,39 +860,39 @@
           "prompt_text": "Restart chapter count at section X"
         },
         {
-          "id": "headers_footers_chapter_number_fields_003",
+          "id": "headers_footers_chapter_number_fields_002",
           "prompt_text": "Align chapter field to right"
         },
         {
-          "id": "headers_footers_chapter_number_fields_006",
+          "id": "headers_footers_chapter_number_fields_003",
           "prompt_text": "Format chapter number as Roman Numerals"
         },
         {
-          "id": "headers_footers_chapter_number_fields_008",
+          "id": "headers_footers_chapter_number_fields_004",
           "prompt_text": "Set chapter prefix to Chapter "
         },
         {
-          "id": "headers_footers_chapter_number_fields_009",
+          "id": "headers_footers_chapter_number_fields_005",
           "prompt_text": "Insert chapter number into logo"
         },
         {
-          "id": "headers_footers_chapter_number_fields_017",
+          "id": "headers_footers_chapter_number_fields_006",
           "prompt_text": "Insert chapter number into image"
         },
         {
-          "id": "headers_footers_chapter_number_fields_018",
+          "id": "headers_footers_chapter_number_fields_007",
           "prompt_text": "Insert chapter number into graph"
         },
         {
-          "id": "headers_footers_chapter_number_fields_025",
+          "id": "headers_footers_chapter_number_fields_008",
           "prompt_text": "Insert chapter number into chart"
         },
         {
-          "id": "headers_footers_chapter_number_fields_036",
+          "id": "headers_footers_chapter_number_fields_009",
           "prompt_text": "Insert chapter number into text"
         },
         {
-          "id": "headers_footers_chapter_number_fields_040",
+          "id": "headers_footers_chapter_number_fields_010",
           "prompt_text": "Insert chapter number into title"
         }
       ]
@@ -919,67 +915,16 @@
           "prompt_text": "Set total pages to exclude appendix"
         },
         {
-          "id": "headers_footers_page_x_of_y_logic_006",
+          "id": "headers_footers_page_x_of_y_logic_003",
           "prompt_text": "Align page count to center"
         },
         {
-          "id": "headers_footers_page_x_of_y_logic_008",
+          "id": "headers_footers_page_x_of_y_logic_004",
           "prompt_text": "Reset page count at chapter X"
         },
         {
-          "id": "headers_footers_page_x_of_y_logic_011",
+          "id": "headers_footers_page_x_of_y_logic_005",
           "prompt_text": "Format page x of y as X / Y"
-        }
-      ]
-    },
-    {
-      "subcategory": "draft_watermark_layering",
-      "priority": "headers_footers",
-      "doc_type": "both",
-      "tags": [
-        "headers_footers",
-        "draft-watermark-layering"
-      ],
-      "entries": [
-        {
-          "id": "headers_footers_draft_watermark_layering_001",
-          "prompt_text": "Remove watermark from final pages"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_002",
-          "prompt_text": "Rotate watermark to 45 degrees"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_004",
-          "prompt_text": "Set watermark opacity to 0.75\"%"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_006",
-          "prompt_text": "Set watermark opacity to 200%%"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_010",
-          "prompt_text": "Add DRAFT watermark to background"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_013",
-          "prompt_text": "Set watermark opacity to 80%%"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_022",
-          "prompt_text": "Place watermark behind text"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_029",
-          "prompt_text": "Set watermark opacity to 0.5\"%"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_037",
-          "prompt_text": "Set watermark opacity to 100%%"
-        },
-        {
-          "id": "headers_footers_draft_watermark_layering_041",
-          "prompt_text": "Set watermark opacity to {10pt}%"
         }
       ]
     }

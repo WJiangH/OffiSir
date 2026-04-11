@@ -39,67 +39,67 @@
           "prompt_text": "Change {Neutral} in {survey response breakdown} to {20%}"
         },
         {
-          "id": "math_calculations_totals_verification_010",
+          "id": "math_calculations_totals_verification_008",
           "prompt_text": "Change {the number of errors are} in summary to {the number of errors is}"
         },
         {
-          "id": "math_calculations_totals_verification_011",
+          "id": "math_calculations_totals_verification_009",
           "prompt_text": "Correct the {total price} in {line item} by multiplying {price} by quantity"
         },
         {
-          "id": "math_calculations_totals_verification_012",
+          "id": "math_calculations_totals_verification_010",
           "prompt_text": "Define {KPI} on {first use} in {opening paragraph}"
         },
         {
-          "id": "math_calculations_totals_verification_013",
+          "id": "math_calculations_totals_verification_011",
           "prompt_text": "Expand {LTV} on first use in {financial summary}"
         },
         {
-          "id": "math_calculations_totals_verification_014",
+          "id": "math_calculations_totals_verification_012",
           "prompt_text": "Move {executive summary} to top of the page, before {findings}"
         },
         {
-          "id": "math_calculations_totals_verification_015",
+          "id": "math_calculations_totals_verification_013",
           "prompt_text": "Remove highlighted {placeholder text} from {executive summary}"
         },
         {
-          "id": "math_calculations_totals_verification_016",
+          "id": "math_calculations_totals_verification_014",
           "prompt_text": "Remove {board summary} section"
         },
         {
-          "id": "math_calculations_totals_verification_017",
+          "id": "math_calculations_totals_verification_015",
           "prompt_text": "Replace the abbreviation {ROI} in {executive summary} with {return on investment}"
         },
         {
-          "id": "math_calculations_totals_verification_018",
+          "id": "math_calculations_totals_verification_016",
           "prompt_text": "Replace {Lorem ipsum} in {sidebar} with key takeaway text"
         },
         {
-          "id": "math_calculations_totals_verification_019",
+          "id": "math_calculations_totals_verification_017",
           "prompt_text": "Replace {comprehensive} with {full} in {executive summary}"
         },
         {
-          "id": "math_calculations_totals_verification_021",
+          "id": "math_calculations_totals_verification_018",
           "prompt_text": "Replace {move needle} in summary with {make progress}"
         },
         {
-          "id": "math_calculations_totals_verification_024",
+          "id": "math_calculations_totals_verification_019",
           "prompt_text": "Set every {percentage} in {summary box} to {one decimal place}"
         },
         {
-          "id": "math_calculations_totals_verification_025",
+          "id": "math_calculations_totals_verification_020",
           "prompt_text": "Shorten the {executive summary} to three sentences"
         },
         {
-          "id": "math_calculations_totals_verification_026",
+          "id": "math_calculations_totals_verification_021",
           "prompt_text": "Shorten the {executive summary} to {three sentences}"
         },
         {
-          "id": "math_calculations_totals_verification_027",
+          "id": "math_calculations_totals_verification_022",
           "prompt_text": "Spell out {CAC} on first use in {executive summary}"
         },
         {
-          "id": "math_calculations_totals_verification_028",
+          "id": "math_calculations_totals_verification_023",
           "prompt_text": "Split {45-word sentence} in {executive summary} into {two shorter ones}"
         }
       ]
@@ -210,15 +210,15 @@
           "prompt_text": "Audit tax calculation formula"
         },
         {
-          "id": "math_calculations_formula_audit_logic_005",
+          "id": "math_calculations_formula_audit_logic_003",
           "prompt_text": "Validate sum range for column X"
         },
         {
-          "id": "math_calculations_formula_audit_logic_006",
+          "id": "math_calculations_formula_audit_logic_004",
           "prompt_text": "Trace precedents for total value"
         },
         {
-          "id": "math_calculations_formula_audit_logic_012",
+          "id": "math_calculations_formula_audit_logic_005",
           "prompt_text": "Fix circular reference in sheet"
         }
       ]
@@ -241,15 +241,15 @@
           "prompt_text": "Consolidate BU totals into master FY"
         },
         {
-          "id": "math_calculations_fiscal_year_rollup_consistency_004",
+          "id": "math_calculations_fiscal_year_rollup_consistency_003",
           "prompt_text": "Align fiscal start to Month X"
         },
         {
-          "id": "math_calculations_fiscal_year_rollup_consistency_005",
+          "id": "math_calculations_fiscal_year_rollup_consistency_004",
           "prompt_text": "Verify quarterly sum matches annual"
         },
         {
-          "id": "math_calculations_fiscal_year_rollup_consistency_008",
+          "id": "math_calculations_fiscal_year_rollup_consistency_005",
           "prompt_text": "Roll up Q4 data to FY total"
         }
       ]
@@ -276,11 +276,11 @@
           "prompt_text": "Apply daily exchange rate to table"
         },
         {
-          "id": "math_calculations_currency_conversion_precision_006",
+          "id": "math_calculations_currency_conversion_precision_004",
           "prompt_text": "Set currency precision to X decimals"
         },
         {
-          "id": "math_calculations_currency_conversion_precision_008",
+          "id": "math_calculations_currency_conversion_precision_005",
           "prompt_text": "Check currency rounding in summary"
         }
       ]

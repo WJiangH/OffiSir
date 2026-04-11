@@ -95,263 +95,263 @@
           "prompt_text": "Change {accomodate} in {action list} to {accommodate}"
         },
         {
-          "id": "lists_bullet_style_consistency_025",
+          "id": "lists_bullet_style_consistency_022",
           "prompt_text": "Continue the {numbering} from {first list} into {second list}"
         },
         {
-          "id": "lists_bullet_style_consistency_026",
+          "id": "lists_bullet_style_consistency_023",
           "prompt_text": "Cut longest bullet in {Risks} list to {12 words}"
         },
         {
-          "id": "lists_bullet_style_consistency_027",
+          "id": "lists_bullet_style_consistency_024",
           "prompt_text": "Cut {Benefits} list to {five}"
         },
         {
-          "id": "lists_bullet_style_consistency_028",
+          "id": "lists_bullet_style_consistency_025",
           "prompt_text": "Fix double-spaced checklist items to single spacing"
         },
         {
-          "id": "lists_bullet_style_consistency_029",
+          "id": "lists_bullet_style_consistency_026",
           "prompt_text": "Fix duplicate {number 4} in {process list}"
         },
         {
-          "id": "lists_bullet_style_consistency_030",
+          "id": "lists_bullet_style_consistency_027",
           "prompt_text": "Fix missing article in {first recommendation bullet}"
         },
         {
-          "id": "lists_bullet_style_consistency_031",
+          "id": "lists_bullet_style_consistency_028",
           "prompt_text": "Increase left margin of the {entire list} by {0.5 inches}"
         },
         {
-          "id": "lists_bullet_style_consistency_032",
+          "id": "lists_bullet_style_consistency_029",
           "prompt_text": "Make every item in checklist a complete sentence"
         },
         {
-          "id": "lists_bullet_style_consistency_033",
+          "id": "lists_bullet_style_consistency_030",
           "prompt_text": "Make spacing between all bullet items {4pt}"
         },
         {
-          "id": "lists_bullet_style_consistency_034",
+          "id": "lists_bullet_style_consistency_031",
           "prompt_text": "Make {second line} of each long bullet hang under text"
         },
         {
-          "id": "lists_bullet_style_consistency_035",
+          "id": "lists_bullet_style_consistency_032",
           "prompt_text": "Match space between bullets in {Risks} list to {Benefits} list"
         },
         {
-          "id": "lists_bullet_style_consistency_036",
+          "id": "lists_bullet_style_consistency_033",
           "prompt_text": "Match {bullet list} left edge to paragraph left margin"
         },
         {
-          "id": "lists_bullet_style_consistency_037",
+          "id": "lists_bullet_style_consistency_034",
           "prompt_text": "Match {bullet} color at each level to text color at that level"
         },
         {
-          "id": "lists_bullet_style_consistency_038",
+          "id": "lists_bullet_style_consistency_035",
           "prompt_text": "Match {bullet} symbol in {Recommendations} list to {Findings} list"
         },
         {
-          "id": "lists_bullet_style_consistency_039",
+          "id": "lists_bullet_style_consistency_036",
           "prompt_text": "Merge last two bullets in {action list} into one"
         },
         {
-          "id": "lists_bullet_style_consistency_040",
+          "id": "lists_bullet_style_consistency_037",
           "prompt_text": "Move source list into a footnote"
         },
         {
-          "id": "lists_bullet_style_consistency_041",
+          "id": "lists_bullet_style_consistency_038",
           "prompt_text": "Move {bullet list} left"
         },
         {
-          "id": "lists_bullet_style_consistency_042",
+          "id": "lists_bullet_style_consistency_039",
           "prompt_text": "Nest the subsection bookmarks under their parent section bookmarks"
         },
         {
-          "id": "lists_bullet_style_consistency_043",
+          "id": "lists_bullet_style_consistency_040",
           "prompt_text": "Pull second-level {numbered list} items in {0.5 inches} from left margin"
         },
         {
-          "id": "lists_bullet_style_consistency_044",
+          "id": "lists_bullet_style_consistency_041",
           "prompt_text": "Raise the {last bullet} {0.1 inches}"
         },
         {
-          "id": "lists_bullet_style_consistency_045",
+          "id": "lists_bullet_style_consistency_042",
           "prompt_text": "Reduce {bullet list} spacing to {4pt} between items"
         },
         {
-          "id": "lists_bullet_style_consistency_046",
+          "id": "lists_bullet_style_consistency_043",
           "prompt_text": "Reduce {line} spacing inside multi-line bullet items to {1.0}"
         },
         {
-          "id": "lists_bullet_style_consistency_047",
+          "id": "lists_bullet_style_consistency_044",
           "prompt_text": "Remove dash bullets and use real bullet symbols"
         },
         {
-          "id": "lists_bullet_style_consistency_048",
+          "id": "lists_bullet_style_consistency_045",
           "prompt_text": "Remove double spacing between numbered items"
         },
         {
-          "id": "lists_bullet_style_consistency_049",
+          "id": "lists_bullet_style_consistency_046",
           "prompt_text": "Remove extra white space between {bullet list} and next paragraph"
         },
         {
-          "id": "lists_bullet_style_consistency_050",
+          "id": "lists_bullet_style_consistency_047",
           "prompt_text": "Remove mixed bullet symbols from {action list}"
         },
         {
-          "id": "lists_bullet_style_consistency_051",
+          "id": "lists_bullet_style_consistency_048",
           "prompt_text": "Remove parentheses from numbered items and use period instead"
         },
         {
-          "id": "lists_bullet_style_consistency_052",
+          "id": "lists_bullet_style_consistency_049",
           "prompt_text": "Remove periods from short fragment bullets in {sidebar}"
         },
         {
-          "id": "lists_bullet_style_consistency_053",
+          "id": "lists_bullet_style_consistency_050",
           "prompt_text": "Remove sixth item from {top 5 list}"
         },
         {
-          "id": "lists_bullet_style_consistency_054",
+          "id": "lists_bullet_style_consistency_051",
           "prompt_text": "Remove trailing commas from bulleted items under {Scope}"
         },
         {
-          "id": "lists_bullet_style_consistency_055",
+          "id": "lists_bullet_style_consistency_052",
           "prompt_text": "Remove {double blank line} before {numbered list}"
         },
         {
-          "id": "lists_bullet_style_consistency_056",
+          "id": "lists_bullet_style_consistency_053",
           "prompt_text": "Remove {duplicate bullet} in {Scope} section"
         },
         {
-          "id": "lists_bullet_style_consistency_057",
+          "id": "lists_bullet_style_consistency_054",
           "prompt_text": "Renumber the checklist from {1 through 5}"
         },
         {
-          "id": "lists_bullet_style_consistency_058",
+          "id": "lists_bullet_style_consistency_055",
           "prompt_text": "Replace {can't} in {bullet 3} with {cannot}"
         },
         {
-          "id": "lists_bullet_style_consistency_059",
+          "id": "lists_bullet_style_consistency_056",
           "prompt_text": "Replace {empower} with {allow} in {bullet 4}"
         },
         {
-          "id": "lists_bullet_style_consistency_062",
+          "id": "lists_bullet_style_consistency_057",
           "prompt_text": "Replace {utilize} with {use} in {bullet} under Findings"
         },
         {
-          "id": "lists_bullet_style_consistency_065",
+          "id": "lists_bullet_style_consistency_058",
           "prompt_text": "Restart the {numbered list} at {1} under {Next Steps}"
         },
         {
-          "id": "lists_bullet_style_consistency_066",
+          "id": "lists_bullet_style_consistency_059",
           "prompt_text": "Set distinct bullet shape for each nesting level"
         },
         {
-          "id": "lists_bullet_style_consistency_067",
+          "id": "lists_bullet_style_consistency_060",
           "prompt_text": "Set left tab stop at {2.5 inches} for every value in key facts list"
         },
         {
-          "id": "lists_bullet_style_consistency_068",
+          "id": "lists_bullet_style_consistency_061",
           "prompt_text": "Set right-aligned tab stop at {6 inches} with a dotted leader in reference list"
         },
         {
-          "id": "lists_bullet_style_consistency_069",
+          "id": "lists_bullet_style_consistency_062",
           "prompt_text": "Set each nested bullet level {0.25 inches} deeper than its parent"
         },
         {
-          "id": "lists_bullet_style_consistency_070",
+          "id": "lists_bullet_style_consistency_063",
           "prompt_text": "Set action item list to {1.15} line spacing"
         },
         {
-          "id": "lists_bullet_style_consistency_071",
+          "id": "lists_bullet_style_consistency_064",
           "prompt_text": "Set definition list line spacing to {1.15}"
         },
         {
-          "id": "lists_bullet_style_consistency_072",
+          "id": "lists_bullet_style_consistency_065",
           "prompt_text": "Set reference list entries to single line spacing"
         },
         {
-          "id": "lists_bullet_style_consistency_073",
+          "id": "lists_bullet_style_consistency_066",
           "prompt_text": "Set source list to {1.0} line spacing"
         },
         {
-          "id": "lists_bullet_style_consistency_074",
+          "id": "lists_bullet_style_consistency_067",
           "prompt_text": "Set sub-bullet line spacing to {1.15}"
         },
         {
-          "id": "lists_bullet_style_consistency_075",
+          "id": "lists_bullet_style_consistency_068",
           "prompt_text": "Set {bullet list} line spacing to {1.15}"
         },
         {
-          "id": "lists_bullet_style_consistency_076",
+          "id": "lists_bullet_style_consistency_069",
           "prompt_text": "Set {bullet list} text to same typeface"
         },
         {
-          "id": "lists_bullet_style_consistency_077",
+          "id": "lists_bullet_style_consistency_070",
           "prompt_text": "Set {line} spacing inside multi-line bullets to single"
         },
         {
-          "id": "lists_bullet_style_consistency_078",
+          "id": "lists_bullet_style_consistency_071",
           "prompt_text": "Set {numbered list} items to {1.15} line spacing"
         },
         {
-          "id": "lists_bullet_style_consistency_079",
+          "id": "lists_bullet_style_consistency_072",
           "prompt_text": "Set {numbered list} left edge to {0.5 inches} from margin"
         },
         {
-          "id": "lists_bullet_style_consistency_080",
+          "id": "lists_bullet_style_consistency_073",
           "prompt_text": "Set {0pt} after {last item} in {numbered list}"
         },
         {
-          "id": "lists_bullet_style_consistency_081",
+          "id": "lists_bullet_style_consistency_074",
           "prompt_text": "Set {2pt} between sub-bullet items"
         },
         {
-          "id": "lists_bullet_style_consistency_082",
+          "id": "lists_bullet_style_consistency_075",
           "prompt_text": "Set {4pt} after each numbered step in {action list}"
         },
         {
-          "id": "lists_bullet_style_consistency_083",
+          "id": "lists_bullet_style_consistency_076",
           "prompt_text": "Set {4pt} between each checklist item"
         },
         {
-          "id": "lists_bullet_style_consistency_084",
+          "id": "lists_bullet_style_consistency_077",
           "prompt_text": "Shorten the {40-word recommendation bullet} to under {20 words}"
         },
         {
-          "id": "lists_bullet_style_consistency_085",
+          "id": "lists_bullet_style_consistency_078",
           "prompt_text": "Shorten the {long bullet} in {action list} to {one sentence}"
         },
         {
-          "id": "lists_bullet_style_consistency_086",
+          "id": "lists_bullet_style_consistency_079",
           "prompt_text": "Split {40-word bullet} in summary into two bullets"
         },
         {
-          "id": "lists_bullet_style_consistency_087",
+          "id": "lists_bullet_style_consistency_080",
           "prompt_text": "Tighten vertical space between sub-bullets to {2pt}"
         },
         {
-          "id": "lists_bullet_style_consistency_088",
-          "prompt_text": "Trim every bullet in {overview list} to one line"
+          "id": "lists_bullet_style_consistency_081",
+          "prompt_text": "Shorten every bullet in {overview list} to one line"
         },
         {
-          "id": "lists_bullet_style_consistency_089",
+          "id": "lists_bullet_style_consistency_082",
           "prompt_text": "Turn the fragment in {bullet 3} into a complete sentence with a subject"
         },
         {
-          "id": "lists_bullet_style_consistency_090",
+          "id": "lists_bullet_style_consistency_083",
           "prompt_text": "Turn the {one-item list} under {Notes} into a {sentence}"
         },
         {
-          "id": "lists_bullet_style_consistency_091",
+          "id": "lists_bullet_style_consistency_084",
           "prompt_text": "Use same three-level bullet scheme in both the {Risks} and {Benefits} sections"
         },
         {
-          "id": "lists_bullet_style_consistency_092",
+          "id": "lists_bullet_style_consistency_085",
           "prompt_text": "Use {em dash bullets}"
         },
         {
-          "id": "lists_bullet_style_consistency_094",
+          "id": "lists_bullet_style_consistency_086",
           "prompt_text": "Use {teal} on both the {bullets} and {divider line}"
         }
       ]
@@ -371,7 +371,7 @@
         },
         {
           "id": "lists_list_indentation_alignment_002",
-          "prompt_text": "Fix broken hanging indent on item {3} in} the {action list}"
+          "prompt_text": "Fix broken hanging indent on item {3} in the {action list}"
         },
         {
           "id": "lists_list_indentation_alignment_003",
@@ -503,32 +503,24 @@
           "prompt_text": "Override level 2 numbering to a, b, c"
         },
         {
-          "id": "lists_multi_level_numbering_overrides_004",
+          "id": "lists_multi_level_numbering_overrides_003",
           "prompt_text": "Fix alignment for multi-level list"
         },
         {
-          "id": "lists_multi_level_numbering_overrides_007",
+          "id": "lists_multi_level_numbering_overrides_004",
           "prompt_text": "Set indent for level X to {15pt}"
         },
         {
-          "id": "lists_multi_level_numbering_overrides_009",
+          "id": "lists_multi_level_numbering_overrides_005",
           "prompt_text": "Add prefix to all list levels"
         },
         {
-          "id": "lists_multi_level_numbering_overrides_011",
-          "prompt_text": "Set indent for level X to 2.0\""
+          "id": "lists_multi_level_numbering_overrides_006",
+          "prompt_text": "Set indent for level X to {2.0}\""
         },
         {
-          "id": "lists_multi_level_numbering_overrides_025",
-          "prompt_text": "Set indent for level X to 80%"
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_044",
-          "prompt_text": "Set indent for level X to 0.75\""
-        },
-        {
-          "id": "lists_multi_level_numbering_overrides_045",
-          "prompt_text": "Set indent for level X to 100%"
+          "id": "lists_multi_level_numbering_overrides_007",
+          "prompt_text": "Set indent for level X to {80%}"
         }
       ]
     },
@@ -546,76 +538,36 @@
           "prompt_text": "Break numbering after item X"
         },
         {
-          "id": "lists_restart_numbering_logic_003",
+          "id": "lists_restart_numbering_logic_002",
           "prompt_text": "Set start value to {5px} for list"
         },
         {
-          "id": "lists_restart_numbering_logic_004",
+          "id": "lists_restart_numbering_logic_003",
           "prompt_text": "Continue numbering from previous section"
         },
         {
-          "id": "lists_restart_numbering_logic_006",
+          "id": "lists_restart_numbering_logic_004",
           "prompt_text": "Fix numbering sequence in appendix"
         },
         {
-          "id": "lists_restart_numbering_logic_009",
-          "prompt_text": "Set start value to 0.5\" for list"
+          "id": "lists_restart_numbering_logic_005",
+          "prompt_text": "Set start value to {0.5}\" for list"
         },
         {
-          "id": "lists_restart_numbering_logic_010",
-          "prompt_text": "Set start value to 1.25\" for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_015",
+          "id": "lists_restart_numbering_logic_006",
           "prompt_text": "Restart list numbering at {12pt}"
         },
         {
-          "id": "lists_restart_numbering_logic_018",
-          "prompt_text": "Restart list numbering at 2.0\""
+          "id": "lists_restart_numbering_logic_007",
+          "prompt_text": "Restart list numbering at {2.0}\""
         },
         {
-          "id": "lists_restart_numbering_logic_019",
-          "prompt_text": "Set start value to 2.0\" for list"
+          "id": "lists_restart_numbering_logic_008",
+          "prompt_text": "Restart list numbering at {200%}"
         },
         {
-          "id": "lists_restart_numbering_logic_020",
-          "prompt_text": "Restart list numbering at 0.75\""
-        },
-        {
-          "id": "lists_restart_numbering_logic_025",
-          "prompt_text": "Set start value to 0.75\" for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_027",
-          "prompt_text": "Restart list numbering at 200%"
-        },
-        {
-          "id": "lists_restart_numbering_logic_032",
-          "prompt_text": "Set start value to 200% for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_036",
-          "prompt_text": "Set start value to 100% for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_038",
-          "prompt_text": "Restart list numbering at 0.5\""
-        },
-        {
-          "id": "lists_restart_numbering_logic_039",
-          "prompt_text": "Set start value to 80% for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_040",
-          "prompt_text": "Restart list numbering at 100%"
-        },
-        {
-          "id": "lists_restart_numbering_logic_055",
-          "prompt_text": "Set start value to 1.0\" for list"
-        },
-        {
-          "id": "lists_restart_numbering_logic_057",
-          "prompt_text": "Restart list numbering at 0.25\""
+          "id": "lists_restart_numbering_logic_009",
+          "prompt_text": "Set start value to {200%} for list"
         }
       ]
     },
@@ -634,83 +586,51 @@
         },
         {
           "id": "lists_bullet_text_position_offset_002",
-          "prompt_text": "Move {bullet 0}.25\" to left"
+          "prompt_text": "Move {bullet 0}.{25\"} to left"
         },
         {
-          "id": "lists_bullet_text_position_offset_004",
+          "id": "lists_bullet_text_position_offset_003",
           "prompt_text": "Align bullets to hanging indent"
         },
         {
-          "id": "lists_bullet_text_position_offset_006",
+          "id": "lists_bullet_text_position_offset_004",
           "prompt_text": "Move bullet {15pt} to left"
         },
         {
+          "id": "lists_bullet_text_position_offset_005",
+          "prompt_text": "Set bullet offset to {0.25}\""
+        },
+        {
+          "id": "lists_bullet_text_position_offset_006",
+          "prompt_text": "Adjust text indent to {80%} from bullet"
+        },
+        {
           "id": "lists_bullet_text_position_offset_007",
-          "prompt_text": "Set bullet offset to 0.25\""
+          "prompt_text": "Set first line indent to {80%} for list"
         },
         {
-          "id": "lists_bullet_text_position_offset_010",
-          "prompt_text": "Adjust text indent to 80% from bullet"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_011",
-          "prompt_text": "Set first line indent to 80% for list"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_013",
+          "id": "lists_bullet_text_position_offset_008",
           "prompt_text": "Set bullet offset to {10px}"
         },
         {
-          "id": "lists_bullet_text_position_offset_014",
-          "prompt_text": "Set first line indent to 0.5\" for list"
+          "id": "lists_bullet_text_position_offset_009",
+          "prompt_text": "Set first line indent to {0.5}\" for list"
         },
         {
-          "id": "lists_bullet_text_position_offset_015",
-          "prompt_text": "Adjust text indent to 1.0\" from bullet"
+          "id": "lists_bullet_text_position_offset_010",
+          "prompt_text": "Adjust text indent to {1.0}\" from bullet"
         },
         {
-          "id": "lists_bullet_text_position_offset_021",
+          "id": "lists_bullet_text_position_offset_011",
           "prompt_text": "Move {bullet 80}% to left"
         },
         {
-          "id": "lists_bullet_text_position_offset_022",
-          "prompt_text": "Set bullet offset to 0.75\""
+          "id": "lists_bullet_text_position_offset_012",
+          "prompt_text": "Set bullet offset to {50%}"
         },
         {
-          "id": "lists_bullet_text_position_offset_024",
-          "prompt_text": "Set bullet offset to 50%"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_025",
-          "prompt_text": "Set bullet offset to 2.0\""
-        },
-        {
-          "id": "lists_bullet_text_position_offset_034",
-          "prompt_text": "Set bullet offset to 200%"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_035",
+          "id": "lists_bullet_text_position_offset_013",
           "prompt_text": "Adjust text indent to {8pt} from bullet"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_036",
-          "prompt_text": "Set bullet offset to 80%"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_037",
-          "prompt_text": "Set bullet offset to 0.5\""
-        },
-        {
-          "id": "lists_bullet_text_position_offset_038",
-          "prompt_text": "Adjust text indent to 0.75\" from bullet"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_039",
-          "prompt_text": "Set first line indent to 1.0\" for list"
-        },
-        {
-          "id": "lists_bullet_text_position_offset_040",
-          "prompt_text": "Set bullet offset to 100%"
         }
       ]
     }

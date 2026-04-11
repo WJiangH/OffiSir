@@ -73,11 +73,11 @@
           "prompt_text": "Reset slide layout to master"
         },
         {
-          "id": "pptx_specific_master_slide_inheritance_011",
+          "id": "pptx_specific_master_slide_inheritance_004",
           "prompt_text": "Link slide to master layout X"
         },
         {
-          "id": "pptx_specific_master_slide_inheritance_013",
+          "id": "pptx_specific_master_slide_inheritance_005",
           "prompt_text": "Apply master background to all slides"
         }
       ]
@@ -104,43 +104,43 @@
           "prompt_text": "Send logo to back"
         },
         {
-          "id": "pptx_specific_z_order_layering_005",
+          "id": "pptx_specific_z_order_layering_004",
           "prompt_text": "Move table to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_006",
+          "id": "pptx_specific_z_order_layering_005",
           "prompt_text": "Move graph to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_007",
+          "id": "pptx_specific_z_order_layering_006",
           "prompt_text": "Align layers by z-order"
         },
         {
-          "id": "pptx_specific_z_order_layering_011",
+          "id": "pptx_specific_z_order_layering_007",
           "prompt_text": "Send background backward one layer"
         },
         {
-          "id": "pptx_specific_z_order_layering_013",
+          "id": "pptx_specific_z_order_layering_008",
           "prompt_text": "Move caption to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_015",
+          "id": "pptx_specific_z_order_layering_009",
           "prompt_text": "Send title to back"
         },
         {
-          "id": "pptx_specific_z_order_layering_031",
+          "id": "pptx_specific_z_order_layering_010",
           "prompt_text": "Move title to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_039",
+          "id": "pptx_specific_z_order_layering_011",
           "prompt_text": "Move callout to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_042",
+          "id": "pptx_specific_z_order_layering_012",
           "prompt_text": "Move logo to front"
         },
         {
-          "id": "pptx_specific_z_order_layering_047",
+          "id": "pptx_specific_z_order_layering_013",
           "prompt_text": "Move text to front"
         }
       ]

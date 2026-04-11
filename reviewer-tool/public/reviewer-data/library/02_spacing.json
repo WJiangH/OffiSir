@@ -269,18 +269,14 @@
       "entries": [
         {
           "id": "spacing_line_breaking_rules_001",
-          "prompt_text": "Disable hyphenation for {headings}"
+          "prompt_text": "Remove hyphens from words that break across lines in {headings}"
         },
         {
           "id": "spacing_line_breaking_rules_002",
-          "prompt_text": "Set hyphenation zone to {0.25 inches}"
-        },
-        {
-          "id": "spacing_line_breaking_rules_003",
           "prompt_text": "Limit consecutive hyphens to {two}"
         },
         {
-          "id": "spacing_line_breaking_rules_004",
+          "id": "spacing_line_breaking_rules_003",
           "prompt_text": "Force line break before {conjunction}"
         }
       ]
@@ -361,358 +357,124 @@
           "prompt_text": "Shift chart to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_009",
+          "id": "spacing_vertical_text_box_alignment_006",
           "prompt_text": "Match chart vertical center to title"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_012",
+          "id": "spacing_vertical_text_box_alignment_007",
           "prompt_text": "Center table vertically in text"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_014",
+          "id": "spacing_vertical_text_box_alignment_008",
           "prompt_text": "Center image vertically in image"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_015",
+          "id": "spacing_vertical_text_box_alignment_009",
           "prompt_text": "Center table vertically in image"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_017",
+          "id": "spacing_vertical_text_box_alignment_010",
           "prompt_text": "Center logo vertically in chart"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_018",
+          "id": "spacing_vertical_text_box_alignment_011",
           "prompt_text": "Shift title to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_019",
+          "id": "spacing_vertical_text_box_alignment_012",
           "prompt_text": "Set vertical alignment to bottom for graph"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_020",
+          "id": "spacing_vertical_text_box_alignment_013",
           "prompt_text": "Center text vertically in table"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_023",
+          "id": "spacing_vertical_text_box_alignment_014",
           "prompt_text": "Match image vertical center to chart"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_024",
+          "id": "spacing_vertical_text_box_alignment_015",
           "prompt_text": "Set vertical alignment to bottom for note"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_025",
+          "id": "spacing_vertical_text_box_alignment_016",
           "prompt_text": "Match title vertical center to logo"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_026",
+          "id": "spacing_vertical_text_box_alignment_017",
           "prompt_text": "Center chart vertically in title"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_028",
+          "id": "spacing_vertical_text_box_alignment_018",
           "prompt_text": "Match caption vertical center to image"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_029",
+          "id": "spacing_vertical_text_box_alignment_019",
           "prompt_text": "Shift logo to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_030",
+          "id": "spacing_vertical_text_box_alignment_020",
           "prompt_text": "Shift image to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_031",
+          "id": "spacing_vertical_text_box_alignment_021",
           "prompt_text": "Shift text to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_032",
+          "id": "spacing_vertical_text_box_alignment_022",
           "prompt_text": "Set vertical alignment to bottom for chart"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_035",
+          "id": "spacing_vertical_text_box_alignment_023",
           "prompt_text": "Match callout vertical center to caption"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_036",
+          "id": "spacing_vertical_text_box_alignment_024",
           "prompt_text": "Set vertical alignment to bottom for table"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_038",
+          "id": "spacing_vertical_text_box_alignment_025",
           "prompt_text": "Center note vertically in text"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_039",
+          "id": "spacing_vertical_text_box_alignment_026",
           "prompt_text": "Center image vertically in title"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_042",
+          "id": "spacing_vertical_text_box_alignment_027",
           "prompt_text": "Shift note to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_043",
+          "id": "spacing_vertical_text_box_alignment_028",
           "prompt_text": "Match image vertical center to logo"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_044",
+          "id": "spacing_vertical_text_box_alignment_029",
           "prompt_text": "Match callout vertical center to table"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_046",
+          "id": "spacing_vertical_text_box_alignment_030",
           "prompt_text": "Center chart vertically in graph"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_047",
+          "id": "spacing_vertical_text_box_alignment_031",
           "prompt_text": "Match title vertical center to graph"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_048",
+          "id": "spacing_vertical_text_box_alignment_032",
           "prompt_text": "Shift callout to center of frame"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_049",
+          "id": "spacing_vertical_text_box_alignment_033",
           "prompt_text": "Match callout vertical center to logo"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_050",
+          "id": "spacing_vertical_text_box_alignment_034",
           "prompt_text": "Match graph vertical center to graph"
         },
         {
-          "id": "spacing_vertical_text_box_alignment_051",
+          "id": "spacing_vertical_text_box_alignment_035",
           "prompt_text": "Match table vertical center to table"
-        }
-      ]
-    },
-    {
-      "subcategory": "baseline_column_alignment",
-      "priority": "spacing",
-      "doc_type": "both",
-      "tags": [
-        "spacing",
-        "baseline-column-alignment"
-      ],
-      "entries": [
-        {
-          "id": "spacing_baseline_column_alignment_001",
-          "prompt_text": "Snap text to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_002",
-          "prompt_text": "Match left column baseline to right"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_003",
-          "prompt_text": "Fix column alignment to 1.0\" grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_004",
-          "prompt_text": "Align columns to bottom baseline"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_006",
-          "prompt_text": "Set baseline shift to {15pt} for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_009",
-          "prompt_text": "Fix column alignment to 80% grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_010",
-          "prompt_text": "Set baseline shift to 50% for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_011",
-          "prompt_text": "Set baseline shift to 200% for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_015",
-          "prompt_text": "Set baseline shift to 0.75\" for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_017",
-          "prompt_text": "Fix column alignment to {10px} grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_020",
-          "prompt_text": "Set baseline shift to 100% for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_024",
-          "prompt_text": "Snap chart to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_025",
-          "prompt_text": "Snap graph to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_029",
-          "prompt_text": "Fix column alignment to 0.25\" grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_032",
-          "prompt_text": "Set baseline shift to 0.25\" for headers"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_039",
-          "prompt_text": "Snap callout to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_040",
-          "prompt_text": "Snap title to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_046",
-          "prompt_text": "Snap image to baseline grid"
-        },
-        {
-          "id": "spacing_baseline_column_alignment_053",
-          "prompt_text": "Snap note to baseline grid"
-        }
-      ]
-    },
-    {
-      "subcategory": "grid_snapping_precision",
-      "priority": "spacing",
-      "doc_type": "both",
-      "tags": [
-        "spacing",
-        "grid-snapping-precision"
-      ],
-      "entries": [
-        {
-          "id": "spacing_grid_snapping_precision_001",
-          "prompt_text": "Snap center to grid intersection"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_003",
-          "prompt_text": "Snap caption to 0.75\" grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_004",
-          "prompt_text": "Snap graph to 100% grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_005",
-          "prompt_text": "Fix offset to 100% grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_006",
-          "prompt_text": "Fix offset to 0.75\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_007",
-          "prompt_text": "Fix offset to 80% grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_008",
-          "prompt_text": "Align text to closest grid line"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_010",
-          "prompt_text": "Fix offset to 0.25\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_011",
-          "prompt_text": "Fix offset to {10px} grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_012",
-          "prompt_text": "Snap title to 2.0\" grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_014",
-          "prompt_text": "Align graph to closest grid line"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_017",
-          "prompt_text": "Set grid snap to {10px} for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_018",
-          "prompt_text": "Set grid snap to 200% for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_020",
-          "prompt_text": "Snap title to 50% grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_023",
-          "prompt_text": "Set grid snap to 100% for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_024",
-          "prompt_text": "Fix offset to 0.5\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_025",
-          "prompt_text": "Set grid snap to 2.0\" for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_026",
-          "prompt_text": "Align caption to closest grid line"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_027",
-          "prompt_text": "Snap image to {12pt} grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_028",
-          "prompt_text": "Align logo to closest grid line"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_030",
-          "prompt_text": "Set grid snap to 0.5\" for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_031",
-          "prompt_text": "Snap logo to {5px} grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_033",
-          "prompt_text": "Snap image to 0.5\" grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_035",
-          "prompt_text": "Snap logo to 200% grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_038",
-          "prompt_text": "Snap table to 1.25\" grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_040",
-          "prompt_text": "Snap callout to 100% grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_042",
-          "prompt_text": "Snap caption to {5px} grid"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_043",
-          "prompt_text": "Fix offset to 1.25\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_045",
-          "prompt_text": "Set grid snap to 0.25\" for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_046",
-          "prompt_text": "Align table to closest grid line"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_047",
-          "prompt_text": "Set grid snap to 0.75\" for all elements"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_049",
-          "prompt_text": "Fix offset to 200% grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_055",
-          "prompt_text": "Fix offset to 2.0\" grid increment"
-        },
-        {
-          "id": "spacing_grid_snapping_precision_058",
-          "prompt_text": "Align title to closest grid line"
         }
       ]
     }

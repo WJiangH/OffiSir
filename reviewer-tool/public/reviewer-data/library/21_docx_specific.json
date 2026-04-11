@@ -80,15 +80,15 @@
           "prompt_text": "Import Style Set from file X"
         },
         {
-          "id": "docx_specific_style_set_inheritance_005",
+          "id": "docx_specific_style_set_inheritance_003",
           "prompt_text": "Update styles to match template"
         },
         {
-          "id": "docx_specific_style_set_inheritance_009",
+          "id": "docx_specific_style_set_inheritance_004",
           "prompt_text": "Apply Style Set X to document"
         },
         {
-          "id": "docx_specific_style_set_inheritance_014",
+          "id": "docx_specific_style_set_inheritance_005",
           "prompt_text": "Remove style overrides from body"
         }
       ]
@@ -111,15 +111,15 @@
           "prompt_text": "Fix odd page break for chapters"
         },
         {
-          "id": "docx_specific_section_break_types_continuous_004",
+          "id": "docx_specific_section_break_types_continuous_003",
           "prompt_text": "Set section start to new page"
         },
         {
-          "id": "docx_specific_section_break_types_continuous_007",
+          "id": "docx_specific_section_break_types_continuous_004",
           "prompt_text": "Insert continuous break before column change"
         },
         {
-          "id": "docx_specific_section_break_types_continuous_010",
+          "id": "docx_specific_section_break_types_continuous_005",
           "prompt_text": "Change page break to continuous break"
         }
       ]
