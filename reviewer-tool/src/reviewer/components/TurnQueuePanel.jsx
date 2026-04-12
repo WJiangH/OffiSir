@@ -26,8 +26,16 @@ function EditableTurnText({ text, turnIndex, onCommit }) {
         onChange={(e) => setDraft(e.target.value)}
         onBlur={commit}
         onKeyDown={(e) => {
-          if (e.key === 'Escape') setEditing(false)
-          if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) commit()
+          if (e.key === 'Escape') {
+            setEditing(false)
+            return
+          }
+          if (e.key === 'Enter') {
+            // Cmd/Ctrl+Enter inserts a newline; plain Enter commits.
+            if (e.metaKey || e.ctrlKey) return
+            e.preventDefault()
+            commit()
+          }
         }}
       />
     )
