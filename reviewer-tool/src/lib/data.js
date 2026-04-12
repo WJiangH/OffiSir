@@ -176,8 +176,16 @@ export async function fetchPerUserCounts() {
 }
 
 export async function deleteUser(userId) {
-  const { error } = await supabase.from('users').delete().eq('id', userId)
+  const { data, error } = await supabase
+    .from('users')
+    .delete()
+    .eq('id', userId)
+    .select('id')
   if (error) throw error
+  if (!data || data.length === 0) {
+    throw new Error('Delete affected no rows — check RLS policies for users.')
+  }
+  return data[0]
 }
 
 export async function fetchRetryCommands(userId, taskId) {

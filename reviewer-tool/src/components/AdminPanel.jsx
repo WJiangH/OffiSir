@@ -39,10 +39,31 @@ export default function AdminPanel({ onClose }) {
 
   const handleDelete = async () => {
     if (!confirmDelete) return
+    const userId = confirmDelete.user.id
     setDeleting(true)
     try {
-      await deleteUser(confirmDelete.user.id)
+      await deleteUser(userId)
+      // Optimistic local update so the UI reflects the delete immediately
+      setUsers((current) => current.filter((u) => u.id !== userId))
+      setCounts((current) => {
+        const removed = current[userId]
+        if (!removed) return current
+        const next = { ...current }
+        delete next[userId]
+        return next
+      })
+      setStats((current) => {
+        if (!current) return current
+        const removed = counts[userId] || { tasks: 0, stars: 0, customPrompts: 0 }
+        return {
+          users: Math.max(0, (current.users || 0) - 1),
+          tasks: Math.max(0, (current.tasks || 0) - (removed.tasks || 0)),
+          stars: Math.max(0, (current.stars || 0) - (removed.stars || 0)),
+          customPrompts: Math.max(0, (current.customPrompts || 0) - (removed.customPrompts || 0)),
+        }
+      })
       setConfirmDelete(null)
+      // Re-fetch to reconcile with ground truth (cascade counts, etc.)
       await load()
     } catch (err) {
       setError(String(err.message || err))
