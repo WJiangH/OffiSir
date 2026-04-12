@@ -2,13 +2,20 @@ import React, { createContext, useContext, useEffect, useState } from 'react'
 import { supabase } from './supabase'
 
 const UserContext = createContext(null)
-
 const STORAGE_KEY = 'reviewer_user_v1'
 
+// Remove any localStorage copy from earlier builds so closing the tab
+// always requires re-login on next visit.
+if (typeof window !== 'undefined') {
+  try { window.localStorage.removeItem(STORAGE_KEY) } catch {}
+}
+
 export function UserProvider({ children }) {
+  // User persists in sessionStorage — survives a refresh in the same tab,
+  // cleared when the tab/browser closes.
   const [user, setUser] = useState(() => {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY)
+      const raw = sessionStorage.getItem(STORAGE_KEY)
       return raw ? JSON.parse(raw) : null
     } catch {
       return null
@@ -18,23 +25,10 @@ export function UserProvider({ children }) {
   const [loggingIn, setLoggingIn] = useState(false)
 
   useEffect(() => {
-    if (user) localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
-    else localStorage.removeItem(STORAGE_KEY)
-  }, [user])
-
-  // Refresh is_admin from the database on mount for persisted sessions.
-  useEffect(() => {
-    if (!user || user.is_admin !== undefined) return
-    let ignore = false
-    ;(async () => {
-      const { data } = await supabase
-        .from('users')
-        .select('id, name, is_admin')
-        .eq('id', user.id)
-        .maybeSingle()
-      if (!ignore && data) setUser(data)
-    })()
-    return () => { ignore = true }
+    try {
+      if (user) sessionStorage.setItem(STORAGE_KEY, JSON.stringify(user))
+      else sessionStorage.removeItem(STORAGE_KEY)
+    } catch {}
   }, [user])
 
   const loginAs = (existingUser) => {
