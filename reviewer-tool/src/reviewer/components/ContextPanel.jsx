@@ -8,6 +8,8 @@ export default function ContextPanel({
   subcategoryCounts,
   totalCount,
   onAddSubcategory,
+  isAllSelected,
+  onAddCategory,
 }) {
   const subcategories = category?.subcategories || []
   const [adding, setAdding] = useState(false)
@@ -16,50 +18,56 @@ export default function ContextPanel({
   const handleAdd = () => {
     const name = draft.trim()
     if (!name) return
-    onAddSubcategory(name)
+    if (isAllSelected) onAddCategory(name)
+    else onAddSubcategory(name)
     setDraft('')
     setAdding(false)
   }
+
+  const addLabel = isAllSelected ? 'Add category' : 'Add subcategory'
+  const inputPlaceholder = isAllSelected ? 'Category name' : 'Subcategory name'
 
   return (
     <aside className="reviewer-panel reviewer-sidebar">
       <div className="reviewer-panel-header">
         <div>
-          <h2>Subcategories</h2>
-          <p>{category?.label || 'Choose a category'}</p>
+          <h2>{isAllSelected ? 'Categories' : 'Subcategories'}</h2>
+          {!isAllSelected && <p>{category?.label || 'Choose a category'}</p>}
         </div>
       </div>
 
-      <div className="reviewer-list">
-        <button
-          className={`reviewer-list-item ${selectedSubcategory === 'all' ? 'is-active' : ''}`}
-          onClick={() => onSelectSubcategory('all')}
-          type="button"
-        >
-          <span className="reviewer-list-item-title">All prompts</span>
-          <span className="reviewer-list-item-meta">{totalCount}</span>
-        </button>
+      {!isAllSelected && (
+        <div className="reviewer-list">
+          <button
+            className={`reviewer-list-item ${selectedSubcategory === 'all' ? 'is-active' : ''}`}
+            onClick={() => onSelectSubcategory('all')}
+            type="button"
+          >
+            <span className="reviewer-list-item-title">All prompts</span>
+            <span className="reviewer-list-item-meta">{totalCount}</span>
+          </button>
 
-        {subcategories.map((subcategory) => {
-          const isActive = subcategory.id === selectedSubcategory
-          return (
-            <button
-              key={subcategory.id}
-              className={`reviewer-list-item ${isActive ? 'is-active' : ''}`}
-              onClick={() => onSelectSubcategory(subcategory.id)}
-              type="button"
-            >
-              <div>
-                <span className="reviewer-list-item-title">{subcategory.label}</span>
-                <p className="reviewer-list-item-copy">{subcategory.description}</p>
-              </div>
-              <span className="reviewer-list-item-meta">{subcategoryCounts[subcategory.id] || 0}</span>
-            </button>
-          )
-        })}
-      </div>
+          {subcategories.map((subcategory) => {
+            const isActive = subcategory.id === selectedSubcategory
+            return (
+              <button
+                key={subcategory.id}
+                className={`reviewer-list-item ${isActive ? 'is-active' : ''}`}
+                onClick={() => onSelectSubcategory(subcategory.id)}
+                type="button"
+              >
+                <div>
+                  <span className="reviewer-list-item-title">{subcategory.label}</span>
+                  <p className="reviewer-list-item-copy">{subcategory.description}</p>
+                </div>
+                <span className="reviewer-list-item-meta">{subcategoryCounts[subcategory.id] || 0}</span>
+              </button>
+            )
+          })}
+        </div>
+      )}
 
-      <div className="reviewer-panel-divider" />
+      {!isAllSelected && <div className="reviewer-panel-divider" />}
 
       {adding ? (
         <div className="reviewer-add-subcategory">
@@ -71,7 +79,7 @@ export default function ContextPanel({
               if (e.key === 'Enter') handleAdd()
               if (e.key === 'Escape') { setAdding(false); setDraft('') }
             }}
-            placeholder="Subcategory name"
+            placeholder={inputPlaceholder}
             type="text"
             value={draft}
           />
@@ -81,7 +89,7 @@ export default function ContextPanel({
       ) : (
         <button className="reviewer-add-subcategory-trigger" onClick={() => setAdding(true)} type="button">
           <Plus size={14} />
-          Add subcategory
+          {addLabel}
         </button>
       )}
     </aside>

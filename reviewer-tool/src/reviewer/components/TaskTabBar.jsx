@@ -7,8 +7,14 @@ export default function TaskTabBar({ tasks, activeTaskId, flashTaskId, onSwitchT
   return (
     <div className="reviewer-task-tabs">
       {tasks.map((task) => {
-        const total = task.builtTurns?.length || 0
-        const copied = task.copyPointer || 0
+        const turns = task.builtTurns || []
+        const startTurn = task.config?.startTurn ?? 2
+        let lastFilled = -1
+        for (let i = turns.length - 1; i >= 0; i--) {
+          if (turns[i]?.text) { lastFilled = i; break }
+        }
+        const total = lastFilled === -1 ? 1 : startTurn + lastFilled
+        const copied = (task.copyPointer || 0) + 1
         return (
           <div
             key={task.id}

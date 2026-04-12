@@ -6,12 +6,20 @@ export default function CategorySidebar({ categories, counts, selectedCategory, 
     <aside className="reviewer-panel reviewer-sidebar">
       <div className="reviewer-panel-header">
         <div>
-          <h2>Categories ({totalPromptCount} prompts)</h2>
-          <p>Browse the library by review area</p>
+          <h2>Categories</h2>
         </div>
       </div>
 
       <div className="reviewer-list">
+        <button
+          className={`reviewer-list-item ${selectedCategory === 'all' ? 'is-active' : ''}`}
+          onClick={() => onSelectCategory('all')}
+          type="button"
+        >
+          <span className="reviewer-list-item-title">All</span>
+          <span className="reviewer-list-item-badge">{totalPromptCount}</span>
+        </button>
+
         {categories.map((category) => {
           const isActive = category.id === selectedCategory
           const selectedCount = counts[category.id] || 0

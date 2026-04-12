@@ -6,19 +6,29 @@ import ResizeHandle from './components/ResizeHandle'
 import SelectedTray from './components/SelectedTray'
 import TaskTabBar from './components/TaskTabBar'
 import TurnQueuePanel from './components/TurnQueuePanel'
-import usePersistentState from './usePersistentState'
-import useSessionState from './useSessionState'
 import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
   exportQueue,
-  makeCustomPromptId,
   normalizePromptText,
   promptMatchesDocType,
   sortForTurnBuild,
   sortItems,
   validateQueue,
 } from './utils'
+import { useUser } from '../lib/UserContext'
+import {
+  addStar,
+  deleteTask as deleteTaskRow,
+  fetchCustomPrompts,
+  fetchStarCounts,
+  fetchUserStars,
+  fetchUserTasks,
+  insertCustomPrompt,
+  insertTask,
+  removeStar,
+  updateTask as updateTaskRow,
+} from '../lib/data'
 import './reviewer.css'
 
 const CATEGORY_FILE = '/reviewer-data/categories.json'
@@ -84,25 +94,27 @@ function makeSelectedCategoryCounts(selectedItems) {
 }
 
 export default function ReviewerPage() {
+  const { user, logout } = useUser()
   const [categories, setCategories] = useState([])
   const [basePrompts, setBasePrompts] = useState([])
+  const [customPromptsDb, setCustomPromptsDb] = useState([])
+  const [stars, setStars] = useState(new Set())
+  const [starCounts, setStarCounts] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [search, setSearch] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState('')
+  const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedSubcategory, setSelectedSubcategory] = useState('all')
   const [docTypeFilter, setDocTypeFilter] = useState('all')
   const [priorityFilter, setPriorityFilter] = useState('all')
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [librarySort, setLibrarySort] = useState('priority')
-  const [strictMode, setStrictMode] = usePersistentState('reviewer_strict_mode_v1', true)
-  const [startTurn, setStartTurn] = usePersistentState('reviewer_start_turn_v1', 2)
-  const [endTurn, setEndTurn] = usePersistentState('reviewer_end_turn_v1', 20)
-  const [minPerTurn, setMinPerTurn] = usePersistentState('reviewer_min_per_turn_v1', 3)
-  const [maxPerTurn, setMaxPerTurn] = usePersistentState('reviewer_max_per_turn_v1', 6)
-  const [selectedItems, setSelectedItems] = usePersistentState('reviewer_selected_items_v1', [])
-  const [favoriteIds, setFavoriteIds] = usePersistentState('reviewer_favorite_prompt_ids_v1', [])
-  const [customPrompts, setCustomPrompts] = useSessionState('reviewer_custom_prompts_v1', [])
+  const [strictMode, setStrictMode] = useState(true)
+  const [startTurn, setStartTurn] = useState(2)
+  const [endTurn, setEndTurn] = useState(20)
+  const [minPerTurn, setMinPerTurn] = useState(3)
+  const [maxPerTurn, setMaxPerTurn] = useState(6)
+  const [selectedItems, setSelectedItems] = useState([])
   const [builtTurns, setBuiltTurns] = useState([])
   const [exportFormat, setExportFormat] = useState('markdown')
   const [savedTasks, setSavedTasks] = useState([])
@@ -112,7 +124,8 @@ export default function ReviewerPage() {
   const [flashTaskId, setFlashTaskId] = useState(null) // for save animation
   const [flyingPill, setFlyingPill] = useState(null) // { text, fromRect }
   const [hoveredInstanceIds, setHoveredInstanceIds] = useState(new Set())
-  const [selectedTrayHeight, setSelectedTrayHeight] = usePersistentState('reviewer_tray_height_v2', 28) // vh units
+  const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
+  const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
 
@@ -144,7 +157,6 @@ export default function ReviewerPage() {
 
         setCategories(categoriesResponse)
         setBasePrompts(flattenPromptLibrary(libraryResponses))
-        setSelectedCategory((current) => current || categoriesResponse[0]?.id || '')
       } catch (loadError) {
         if (!ignore) setError(String(loadError))
       } finally {
@@ -157,10 +169,61 @@ export default function ReviewerPage() {
     return () => { ignore = true }
   }, [])
 
+  // Reset all per-user state on login/logout, then load from Supabase
+  useEffect(() => {
+    // Clear workspace + per-user state whenever user changes (including logout)
+    loadingTaskRef.current = true
+    setSelectedItems([])
+    setBuiltTurns([])
+    setCopyPointer(0)
+    setSavedTasks([])
+    setActiveTaskId(null)
+    setStars(new Set())
+    setStarCounts({})
+    setCustomPromptsDb([])
+    setFlyingPill(null)
+    setFlashTaskId(null)
+    setHoveredInstanceIds(new Set())
+    setLockedInstanceIds(new Set())
+    newWorkspaceRef.current = { selectedItems: [], builtTurns: [], copyPointer: 0 }
+
+    if (!user) return
+    let ignore = false
+    async function loadSupabase() {
+      try {
+        const [userStars, counts, custom, tasks] = await Promise.all([
+          fetchUserStars(user.id),
+          fetchStarCounts(),
+          fetchCustomPrompts(),
+          fetchUserTasks(user.id),
+        ])
+        if (ignore) return
+        setStars(userStars)
+        setStarCounts(counts)
+        setCustomPromptsDb(custom)
+        setSavedTasks(
+          tasks.map((t) => ({
+            id: t.id,
+            name: t.task_name,
+            selectedItems: t.selected_prompts || [],
+            builtTurns: t.turns || [],
+            copyPointer: t.copy_progress || 0,
+            config: t.config || null,
+          }))
+        )
+      } catch (err) {
+        if (!ignore) setError(String(err.message || err))
+      }
+    }
+    loadSupabase()
+    return () => { ignore = true }
+  }, [user])
+
   useEffect(() => {
     if (!categories.length) return
+    if (selectedCategory === 'all') return
     if (!categories.some((category) => category.id === selectedCategory)) {
-      setSelectedCategory(categories[0].id)
+      setSelectedCategory('all')
     }
   }, [categories, selectedCategory])
 
@@ -198,17 +261,11 @@ export default function ReviewerPage() {
     )
   }, [selectedItems, builtTurns, copyPointer, activeTaskId])
 
-  const saveAsTask = () => {
-    const nextId = savedTasks.length
-    const taskName = `task-${nextId}`
+  const saveAsTask = async () => {
+    if (!user) return
+    const taskName = `task-${savedTasks.length}`
     const count = selectedItems.length
-    const newTask = {
-      id: nextId,
-      name: taskName,
-      selectedItems: [...selectedItems],
-      builtTurns: [...builtTurns],
-      copyPointer,
-    }
+    const config = { startTurn, endTurn, minPerTurn, maxPerTurn }
 
     // Launch flying pill animation from the Save button to the tab bar
     if (saveButtonRef.current) {
@@ -217,13 +274,32 @@ export default function ReviewerPage() {
       setTimeout(() => setFlyingPill(null), 700)
     }
 
-    setSavedTasks((current) => [...current, newTask])
-    setActiveTaskId(null)
-    setBuiltTurns([])
-    setCopyPointer(0)
-    // Flash the new tab after the pill lands
-    setTimeout(() => setFlashTaskId(nextId), 600)
-    setTimeout(() => setFlashTaskId(null), 1800)
+    try {
+      const row = await insertTask({
+        userId: user.id,
+        taskName,
+        selectedPrompts: selectedItems,
+        turns: builtTurns,
+        copyProgress: copyPointer,
+        config,
+      })
+      const newTask = {
+        id: row.id,
+        name: row.task_name,
+        selectedItems: row.selected_prompts || [],
+        builtTurns: row.turns || [],
+        copyPointer: row.copy_progress || 0,
+        config: row.config || null,
+      }
+      setSavedTasks((current) => [...current, newTask])
+      setActiveTaskId(null)
+      setBuiltTurns([])
+      setCopyPointer(0)
+      setTimeout(() => setFlashTaskId(row.id), 600)
+      setTimeout(() => setFlashTaskId(null), 1800)
+    } catch (err) {
+      setError(String(err.message || err))
+    }
   }
 
   const startNewTask = () => {
@@ -257,23 +333,36 @@ export default function ReviewerPage() {
     setCopyPointer(task.copyPointer || 0)
   }
 
-  const deleteTask = (taskId) => {
+  const deleteTask = async (taskId) => {
     setSavedTasks((current) => current.filter((t) => t.id !== taskId))
     if (activeTaskId === taskId) {
-      // Fall back to new workspace
       loadingTaskRef.current = true
       setActiveTaskId(null)
       setSelectedItems(newWorkspaceRef.current.selectedItems)
       setBuiltTurns(newWorkspaceRef.current.builtTurns)
       setCopyPointer(newWorkspaceRef.current.copyPointer)
     }
+    try {
+      await deleteTaskRow(taskId)
+    } catch (err) {
+      setError(String(err.message || err))
+    }
   }
 
-  const updateActiveTask = () => {
+  const updateActiveTask = async () => {
     if (activeTaskId === null) return
-    // Auto-save effect already mirrors state, so just flash the tab
     setFlashTaskId(activeTaskId)
     setTimeout(() => setFlashTaskId(null), 1200)
+    try {
+      await updateTaskRow(activeTaskId, {
+        selectedPrompts: selectedItems,
+        turns: builtTurns,
+        copyProgress: copyPointer,
+        config: { startTurn, endTurn, minPerTurn, maxPerTurn },
+      })
+    } catch (err) {
+      setError(String(err.message || err))
+    }
   }
 
   const removeRemainingTurns = () => {
@@ -339,19 +428,33 @@ export default function ReviewerPage() {
     setCopyPointer(0)
   }
 
-  const prompts = useMemo(() => [...basePrompts, ...customPrompts], [basePrompts, customPrompts])
-  const favoriteSet = new Set(favoriteIds)
+  const mergedCustomPrompts = useMemo(() => (
+    customPromptsDb.map((row) => ({
+      id: row.id,
+      category: row.category,
+      subcategory: row.subcategory,
+      prompt_text: row.prompt_text,
+      priority: 'polish',
+      doc_type: 'both',
+      tags: ['custom'],
+      favorite: false,
+      active: true,
+      custom: true,
+    }))
+  ), [customPromptsDb])
+
+  const prompts = useMemo(() => [...basePrompts, ...mergedCustomPrompts], [basePrompts, mergedCustomPrompts])
   const activeCategory = categories.find((category) => category.id === selectedCategory)
   const categoryLookup = Object.fromEntries(categories.map((category) => [category.id, category]))
 
   const promptsWithLabels = useMemo(() => (
     prompts.map((prompt) => ({
       ...prompt,
-      favorite: favoriteSet.has(prompt.id) || Boolean(prompt.favorite),
+      favorite: stars.has(prompt.id),
       category_label: categoryLookup[prompt.category]?.label || prompt.category,
       subcategory_label: categoryLookup[prompt.category]?.subcategories?.find((subcategory) => subcategory.id === prompt.subcategory)?.label || prompt.subcategory,
     }))
-  ), [prompts, favoriteSet, categoryLookup])
+  ), [prompts, stars, categoryLookup])
 
   const libraryCategoryCounts = {}
   promptsWithLabels.forEach((prompt) => {
@@ -382,6 +485,8 @@ export default function ReviewerPage() {
       // Starred-only mode: ignore category/subcategory filters, show all starred
       if (favoritesOnly) {
         if (!prompt.favorite) return false
+      } else if (selectedCategory === 'all') {
+        // All mode — no category / subcategory filter.
       } else {
         if (selectedCategory && prompt.category !== selectedCategory) return false
         if (selectedSubcategory !== 'all' && prompt.subcategory !== selectedSubcategory) return false
@@ -393,6 +498,18 @@ export default function ReviewerPage() {
     }),
     librarySort
   )
+
+  const isAllBrowse = selectedCategory === 'all' && !favoritesOnly && !searchTerm
+  const displayedPrompts = useMemo(() => {
+    if (!isAllBrowse) return filteredPrompts
+    const totalStars = Object.values(starCounts).reduce((sum, n) => sum + n, 0)
+    if (totalStars > 0) {
+      return [...filteredPrompts]
+        .sort((a, b) => (starCounts[b.id] || 0) - (starCounts[a.id] || 0))
+        .slice(0, 100)
+    }
+    return filteredPrompts.slice(0, 100)
+  }, [isAllBrowse, filteredPrompts, starCounts])
 
   const queueValidation = validateQueue(selectedItems, builtTurns, strictMode, turnCount, maxPerTurn)
   const exportText = exportQueue(builtTurns, exportFormat, startTurn)
@@ -414,36 +531,68 @@ export default function ReviewerPage() {
     [selectedItems]
   )
 
-  const addCustomPrompt = (subcategoryId, promptText) => {
+  const addCustomPrompt = async (subcategoryId, promptText) => {
+    if (!user) return
     const normalizedText = normalizePromptText(promptText)
     if (!normalizedText) return
 
-    const referencePrompt = promptsWithLabels.find((prompt) => (
-      prompt.category === selectedCategory && prompt.subcategory === subcategoryId
-    ))
-
-    const nextPrompt = {
-      id: makeCustomPromptId(),
-      category: selectedCategory,
-      subcategory: subcategoryId,
-      prompt_text: normalizedText,
-      priority: referencePrompt?.priority || activeCategory?.priority_group || 'polish',
-      doc_type: referencePrompt?.doc_type || 'both',
-      tags: [...new Set([...(referencePrompt?.tags || []), 'custom'])],
-      favorite: false,
-      active: true,
-      custom: true,
+    try {
+      const row = await insertCustomPrompt({
+        userId: user.id,
+        category: selectedCategory,
+        subcategory: subcategoryId,
+        promptText: normalizedText,
+      })
+      setCustomPromptsDb((current) => [...current, row])
+      const nextPrompt = {
+        id: row.id,
+        category: row.category,
+        subcategory: row.subcategory,
+        prompt_text: row.prompt_text,
+        priority: 'polish',
+        doc_type: 'both',
+        tags: ['custom'],
+        favorite: false,
+        active: true,
+        custom: true,
+      }
+      setSelectedItems((current) => [...current, createSelectedPrompt(nextPrompt)])
+    } catch (err) {
+      setError(String(err.message || err))
     }
-
-    setCustomPrompts((current) => [...current, nextPrompt])
-    setSelectedItems((current) => [...current, createSelectedPrompt(nextPrompt)])
   }
 
-  const toggleFavorite = (promptId) => {
-    setFavoriteIds((current) => {
-      if (current.includes(promptId)) return current.filter((id) => id !== promptId)
-      return [...current, promptId]
+  const toggleFavorite = async (promptId) => {
+    if (!user) return
+    const isStarred = stars.has(promptId)
+    // Optimistic update
+    setStars((current) => {
+      const next = new Set(current)
+      if (isStarred) next.delete(promptId)
+      else next.add(promptId)
+      return next
     })
+    setStarCounts((current) => ({
+      ...current,
+      [promptId]: Math.max(0, (current[promptId] || 0) + (isStarred ? -1 : 1)),
+    }))
+    try {
+      if (isStarred) await removeStar(user.id, promptId)
+      else await addStar(user.id, promptId)
+    } catch (err) {
+      // Revert on failure
+      setStars((current) => {
+        const next = new Set(current)
+        if (isStarred) next.add(promptId)
+        else next.delete(promptId)
+        return next
+      })
+      setStarCounts((current) => ({
+        ...current,
+        [promptId]: Math.max(0, (current[promptId] || 0) + (isStarred ? 1 : -1)),
+      }))
+      setError(String(err.message || err))
+    }
   }
 
   const deduplicateSelected = () => {
@@ -487,6 +636,17 @@ export default function ReviewerPage() {
     setSelectedSubcategory(id)
   }
 
+  const addCategory = (name) => {
+    const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
+    if (!id) return
+    setCategories((current) => {
+      if (current.some((cat) => cat.id === id)) return current
+      return [...current, { id, label: name, priority_group: 'polish', subcategories: [] }]
+    })
+    setSelectedCategory(id)
+    setSelectedSubcategory('all')
+  }
+
   const clearTurns = () => {
     setBuiltTurns([])
     setCopyPointer(0)
@@ -511,6 +671,29 @@ export default function ReviewerPage() {
     setCopyPointer(0)
   }
 
+  const effectiveHighlight = lockedInstanceIds.size > 0 ? lockedInstanceIds : hoveredInstanceIds
+
+  const clickItem = (instanceId) => {
+    setLockedInstanceIds((current) => {
+      if (current.size === 1 && current.has(instanceId)) return new Set()
+      return new Set([instanceId])
+    })
+  }
+
+  const clickTurn = (turnIndex) => {
+    const turn = builtTurns[turnIndex]
+    if (!turn) return
+    const ids = turn.items.map((i) => i.instanceId)
+    setLockedInstanceIds((current) => {
+      if (current.size === ids.length && ids.every((id) => current.has(id))) return new Set()
+      return new Set(ids)
+    })
+  }
+
+  const clearLockedHighlight = () => {
+    if (lockedInstanceIds.size > 0) setLockedInstanceIds(new Set())
+  }
+
   const copyExport = async () => {
     try {
       await navigator.clipboard.writeText(exportText)
@@ -520,9 +703,15 @@ export default function ReviewerPage() {
   }
 
   return (
-    <div className="reviewer-page">
+    <div className="reviewer-page" onClick={clearLockedHighlight}>
       <header className="reviewer-header">
         <h1>OffiSir</h1>
+        {user && (
+          <span className="reviewer-user-chip">
+            {user.name}
+            <button onClick={logout} type="button" title="Log out">sign out</button>
+          </span>
+        )}
       </header>
 
       <TaskTabBar
@@ -550,6 +739,8 @@ export default function ReviewerPage() {
 
           <ContextPanel
             category={activeCategory}
+            isAllSelected={selectedCategory === 'all'}
+            onAddCategory={addCategory}
             onAddSubcategory={addSubcategory}
             onSelectSubcategory={setSelectedSubcategory}
             subcategoryCounts={subcategoryCounts}
@@ -573,10 +764,13 @@ export default function ReviewerPage() {
             onSearchChange={setSearch}
             onToggleFavorite={toggleFavorite}
             priorityFilter={priorityFilter}
-            prompts={filteredPrompts}
+            prompts={displayedPrompts}
             search={search}
             selectedSourceIds={selectedSourceIds}
             selectedSubcategory={selectedSubcategory}
+            starCounts={starCounts}
+            allMode={selectedCategory === 'all' && !favoritesOnly}
+            allPromptsForMatching={promptsWithLabels.filter((p) => p.active)}
           />
 
           <div className="reviewer-right-rail">
@@ -586,8 +780,9 @@ export default function ReviewerPage() {
             >
               <SelectedTray
                 groupedSelections={groupedSelections}
-                hoveredInstanceIds={hoveredInstanceIds}
+                hoveredInstanceIds={effectiveHighlight}
                 onClearSelected={clearSelected}
+                onClickItem={clickItem}
                 onDeduplicate={deduplicateSelected}
                 onHoverItem={(instanceId) => setHoveredInstanceIds(instanceId ? new Set([instanceId]) : new Set())}
                 onRemoveItem={removeItem}
@@ -602,8 +797,9 @@ export default function ReviewerPage() {
               activeTaskId={activeTaskId}
               exportFormat={exportFormat}
               exportText={exportText}
-              hoveredInstanceIds={hoveredInstanceIds}
+              hoveredInstanceIds={effectiveHighlight}
               onBuildTurns={buildTurns}
+              onClickTurn={clickTurn}
               onClearTurns={clearTurns}
               onCopyExport={copyExport}
               onCopyCurrentTurn={copyCurrentTurn}

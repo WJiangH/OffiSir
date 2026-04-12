@@ -62,6 +62,7 @@ export default function TurnQueuePanel({
   onCopyExport,
   onCopyCurrentTurn,
   onHoverTurn,
+  onClickTurn,
   onRemoveRemainingTurns,
   onResetCopyProgress,
   onSaveAsTask,
@@ -183,16 +184,20 @@ export default function TurnQueuePanel({
 
       {(validation.errors.length > 0 || validation.warnings.length > 0) && (
         <div className="reviewer-validation-block">
-          {validation.errors.length > 0 && (
-            <div>
-              <strong>Build blockers</strong>
-              <ul className="reviewer-message-list reviewer-message-list--error">
-                {validation.errors.map((message) => (
-                  <li key={message}>{message}</li>
-                ))}
-              </ul>
-            </div>
-          )}
+          {validation.errors.length > 0 && (() => {
+            const lastFilledIndex = [...turns].reverse().findIndex((t) => t.text)
+            const lastTurnNumber = lastFilledIndex === -1
+              ? null
+              : startTurn + (turns.length - 1 - lastFilledIndex)
+            const message = lastTurnNumber !== null
+              ? `Not enough prompts to fill past Turn ${lastTurnNumber}`
+              : validation.errors[0]
+            return (
+              <div className="reviewer-message-list reviewer-message-list--error">
+                {message}
+              </div>
+            )
+          })()}
 
           {validation.warnings.length > 0 && (
             <div>
@@ -251,6 +256,11 @@ export default function TurnQueuePanel({
                 ].join(' ')}
                 onMouseEnter={() => turn.text && onHoverTurn && onHoverTurn(turn.originalIndex)}
                 onMouseLeave={() => onHoverTurn && onHoverTurn(null)}
+                onClick={(e) => {
+                  if (!turn.text) return
+                  e.stopPropagation()
+                  onClickTurn && onClickTurn(turn.originalIndex)
+                }}
               >
                 <span className="reviewer-turn-line-label">
                   {exportFormat === 'markdown' ? `## Turn ${turn.turnNumber}` : `Turn ${turn.turnNumber}`}

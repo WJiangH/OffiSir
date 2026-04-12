@@ -9,6 +9,7 @@ export default function SelectedTray({
   onDeduplicate,
   onClearSelected,
   onHoverItem,
+  onClickItem,
   onRemoveItem,
   onUpdateItemText,
 }) {
@@ -51,6 +52,10 @@ export default function SelectedTray({
                     className={hoveredInstanceIds?.has(item.instanceId) ? 'is-linked' : ''}
                     onMouseEnter={() => onHoverItem && onHoverItem(item.instanceId)}
                     onMouseLeave={() => onHoverItem && onHoverItem(null)}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      onClickItem && onClickItem(item.instanceId)
+                    }}
                   >
                     <div className="reviewer-summary-item">
                       <div className="reviewer-summary-item-text">
