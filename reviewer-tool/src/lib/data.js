@@ -37,17 +37,26 @@ export async function fetchCustomPrompts() {
   const { data, error } = await supabase
     .from('custom_prompts')
     .select('id, category, subcategory, prompt_text, user_id, created_at')
-  if (error) throw error
+  if (error) {
+    console.error('[custom_prompts] fetch failed', error)
+    throw error
+  }
+  console.log(`[custom_prompts] fetched ${data?.length ?? 0} rows`, data)
   return data || []
 }
 
 export async function insertCustomPrompt({ userId, category, subcategory, promptText }) {
+  console.log('[custom_prompts] insert', { userId, category, subcategory, promptText })
   const { data, error } = await supabase
     .from('custom_prompts')
     .insert({ user_id: userId, category, subcategory, prompt_text: promptText })
     .select('id, category, subcategory, prompt_text, user_id, created_at')
     .single()
-  if (error) throw error
+  if (error) {
+    console.error('[custom_prompts] insert failed', error)
+    throw error
+  }
+  console.log('[custom_prompts] insert ok', data)
   return data
 }
 

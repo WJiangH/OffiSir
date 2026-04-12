@@ -255,18 +255,37 @@ export default function ReviewerPage() {
 
     if (!user) return
     let ignore = false
-    async function loadSupabase() {
-      try {
-        const [userStars, counts, custom, tasks] = await Promise.all([
-          fetchUserStars(user.id),
-          fetchStarCounts(),
-          fetchCustomPrompts(),
-          fetchUserTasks(user.id),
-        ])
+
+    // Fire each fetch independently so a single failure doesn't prevent the
+    // others from populating state. Previously all four shared one Promise.all
+    // try/catch, so any single rejection (e.g., RLS on one table) left
+    // customPromptsDb empty even when the custom_prompts fetch itself
+    // succeeded.
+    const handleError = (label) => (err) => {
+      if (ignore) return
+      console.error(`[supabase] ${label} failed`, err)
+      setError(String(err.message || err))
+    }
+
+    fetchCustomPrompts()
+      .then((custom) => {
         if (ignore) return
-        setStars(userStars)
-        setStarCounts(counts)
+        console.log(`[custom_prompts] merging ${custom.length} rows into library`)
         setCustomPromptsDb(custom)
+      })
+      .catch(handleError('fetchCustomPrompts'))
+
+    fetchUserStars(user.id)
+      .then((userStars) => { if (!ignore) setStars(userStars) })
+      .catch(handleError('fetchUserStars'))
+
+    fetchStarCounts()
+      .then((counts) => { if (!ignore) setStarCounts(counts) })
+      .catch(handleError('fetchStarCounts'))
+
+    fetchUserTasks(user.id)
+      .then((tasks) => {
+        if (ignore) return
         setSavedTasks(
           tasks.map((t) => {
             const cfg = t.config || {}
@@ -286,11 +305,9 @@ export default function ReviewerPage() {
             }
           })
         )
-      } catch (err) {
-        if (!ignore) setError(String(err.message || err))
-      }
-    }
-    loadSupabase()
+      })
+      .catch(handleError('fetchUserTasks'))
+
     return () => { ignore = true }
   }, [user])
 
@@ -776,9 +793,16 @@ export default function ReviewerPage() {
   )
 
   const addCustomPrompt = async (subcategoryId, promptText) => {
-    if (!user) return
+    if (!user) {
+      console.warn('[custom_prompts] addCustomPrompt called with no user — ignoring')
+      return
+    }
     const normalizedText = normalizePromptText(promptText)
     if (!normalizedText) return
+    if (!selectedCategory || selectedCategory === 'all') {
+      setError('Pick a specific category before adding a custom prompt.')
+      return
+    }
 
     try {
       const row = await insertCustomPrompt({
@@ -787,6 +811,7 @@ export default function ReviewerPage() {
         subcategory: subcategoryId,
         promptText: normalizedText,
       })
+      // Row successfully persisted in Supabase — merge into library state
       setCustomPromptsDb((current) => [...current, row])
       const nextPrompt = {
         id: row.id,
@@ -802,7 +827,8 @@ export default function ReviewerPage() {
       }
       applySelectedItemsChange((current) => [...current, createSelectedPrompt(nextPrompt)])
     } catch (err) {
-      setError(String(err.message || err))
+      console.error('[custom_prompts] addCustomPrompt failed', err)
+      setError(`Couldn't save custom prompt: ${err.message || err}`)
     }
   }
 
