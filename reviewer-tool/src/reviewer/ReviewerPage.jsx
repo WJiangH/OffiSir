@@ -7,6 +7,7 @@ import SelectedTray from './components/SelectedTray'
 import TaskTabBar from './components/TaskTabBar'
 import TurnQueuePanel from './components/TurnQueuePanel'
 import AdminPanel from '../components/AdminPanel'
+import SaveTaskModal from '../components/SaveTaskModal'
 import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
@@ -162,6 +163,10 @@ export default function ReviewerPage() {
   const [hoveredInstanceIds, setHoveredInstanceIds] = useState(new Set())
   const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
   const [showAdmin, setShowAdmin] = useState(false)
+  const [showSaveTaskModal, setShowSaveTaskModal] = useState(false)
+  const [noteBarOpen, setNoteBarOpen] = useState(false)
+  const [editingNote, setEditingNote] = useState(false)
+  const [noteDraft, setNoteDraft] = useState('')
   const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
@@ -298,6 +303,7 @@ export default function ReviewerPage() {
             return {
               id: t.id,
               name: t.task_name,
+              note: t.note || null,
               selectedItems: t.selected_prompts || [],
               builtTurns: stampedTurns,
               copyPointer: t.copy_progress || 0,
@@ -344,9 +350,14 @@ export default function ReviewerPage() {
     )
   }, [selectedItems, builtTurns, copyPointer, activeTaskId])
 
-  const saveAsTask = async () => {
+  const openSaveTaskModal = () => {
     if (!user) return
-    const taskName = `task-${savedTasks.length}`
+    setShowSaveTaskModal(true)
+  }
+
+  const confirmSaveTask = async ({ name, note }) => {
+    if (!user) return
+    const taskName = name || `task-${savedTasks.length}`
     const count = selectedItems.length
     const config = { startTurn, endTurn, minPerTurn, maxPerTurn }
 
@@ -361,6 +372,7 @@ export default function ReviewerPage() {
       const row = await insertTask({
         userId: user.id,
         taskName,
+        note,
         selectedPrompts: selectedItems,
         turns: builtTurns,
         copyProgress: copyPointer,
@@ -369,6 +381,7 @@ export default function ReviewerPage() {
       const newTask = {
         id: row.id,
         name: row.task_name,
+        note: row.note || null,
         selectedItems: row.selected_prompts || [],
         builtTurns: row.turns || [],
         copyPointer: row.copy_progress || 0,
@@ -378,6 +391,7 @@ export default function ReviewerPage() {
       setActiveTaskId(null)
       setBuiltTurns([])
       setCopyPointer(0)
+      setShowSaveTaskModal(false)
       setTimeout(() => setFlashTaskId(row.id), 600)
       setTimeout(() => setFlashTaskId(null), 1800)
     } catch (err) {
@@ -445,6 +459,8 @@ export default function ReviewerPage() {
     setSelectedItems(task.selectedItems)
     setBuiltTurns(task.builtTurns)
     setCopyPointer(task.copyPointer || 0)
+    setNoteBarOpen(false)
+    setEditingNote(false)
     // Restore the saved task's config so Start doesn't leak from the previous workspace
     const cfg = task.config || {}
     setStartTurn(cfg.startTurn ?? 2)
@@ -482,6 +498,26 @@ export default function ReviewerPage() {
         turns: builtTurns,
         copyProgress: copyPointer,
         config: { startTurn, endTurn, minPerTurn, maxPerTurn },
+      })
+    } catch (err) {
+      setError(String(err.message || err))
+    }
+  }
+
+  const saveActiveTaskNote = async (newNote) => {
+    if (activeTaskId === null || !user) return
+    const trimmed = (newNote ?? '').trim()
+    const noteValue = trimmed ? trimmed : null
+    setSavedTasks((current) => current.map((t) =>
+      t.id === activeTaskId ? { ...t, note: noteValue } : t
+    ))
+    try {
+      await updateTaskRow(activeTaskId, user.id, {
+        selectedPrompts: selectedItems,
+        turns: builtTurns,
+        copyProgress: copyPointer,
+        config: { startTurn, endTurn, minPerTurn, maxPerTurn },
+        note: noteValue,
       })
     } catch (err) {
       setError(String(err.message || err))
@@ -1075,6 +1111,13 @@ export default function ReviewerPage() {
         )}
       </header>
       {showAdmin && <AdminPanel onClose={() => setShowAdmin(false)} />}
+      {showSaveTaskModal && (
+        <SaveTaskModal
+          defaultName={`task-${savedTasks.length}`}
+          onCancel={() => setShowSaveTaskModal(false)}
+          onSave={confirmSaveTask}
+        />
+      )}
 
       <TaskTabBar
         tasks={savedTasks}
@@ -1136,6 +1179,81 @@ export default function ReviewerPage() {
           />
 
           <div className="reviewer-right-rail">
+            {activeTaskId !== null && (() => {
+              const activeTask = savedTasks.find((t) => t.id === activeTaskId)
+              const hasNote = !!activeTask?.note
+              return (
+                <div className={`reviewer-note-bar ${noteBarOpen ? 'is-open' : ''}`}>
+                  <button
+                    className="reviewer-note-bar-header"
+                    onClick={() => setNoteBarOpen((v) => !v)}
+                    type="button"
+                  >
+                    <span className="reviewer-note-bar-caret">{noteBarOpen ? '▾' : '▸'}</span>
+                    <span className="reviewer-note-bar-title">Note</span>
+                    {!noteBarOpen && hasNote && (
+                      <span className="reviewer-note-bar-preview">
+                        {activeTask.note.split('\n')[0].slice(0, 80)}
+                      </span>
+                    )}
+                    {!noteBarOpen && !hasNote && (
+                      <span className="reviewer-note-bar-empty">No note for this task</span>
+                    )}
+                  </button>
+                  {noteBarOpen && (
+                    <div className="reviewer-note-bar-body">
+                      {editingNote ? (
+                        <>
+                          <textarea
+                            autoFocus
+                            className="reviewer-note-textarea"
+                            onChange={(e) => setNoteDraft(e.target.value)}
+                            rows={3}
+                            value={noteDraft}
+                          />
+                          <div className="reviewer-note-bar-actions">
+                            <button
+                              className="reviewer-secondary-button"
+                              onClick={() => setEditingNote(false)}
+                              type="button"
+                            >
+                              Cancel
+                            </button>
+                            <button
+                              className="reviewer-primary-button"
+                              onClick={async () => {
+                                await saveActiveTaskNote(noteDraft)
+                                setEditingNote(false)
+                              }}
+                              type="button"
+                            >
+                              Save note
+                            </button>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div className="reviewer-note-text">
+                            {hasNote ? activeTask.note : <em>No note yet.</em>}
+                          </div>
+                          <button
+                            className="reviewer-note-edit"
+                            onClick={() => {
+                              setNoteDraft(activeTask.note || '')
+                              setEditingNote(true)
+                            }}
+                            title="Edit note"
+                            type="button"
+                          >
+                            ✎
+                          </button>
+                        </>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )
+            })()}
             <div
               className="reviewer-right-rail-top"
               style={{ flex: `0 0 ${Math.min(Math.max(selectedTrayHeight, 20), 35)}vh` }}
@@ -1179,7 +1297,7 @@ export default function ReviewerPage() {
               onRemoveRemainingTurns={removeRemainingTurns}
               onRemoveTurn={removeTurn}
               onResetCopyProgress={resetCopyProgress}
-              onSaveAsTask={saveAsTask}
+              onSaveAsTask={openSaveTaskModal}
               onUpdateActiveTask={updateActiveTask}
               onUpdateTurnText={updateTurnText}
               onExportFormatChange={setExportFormat}

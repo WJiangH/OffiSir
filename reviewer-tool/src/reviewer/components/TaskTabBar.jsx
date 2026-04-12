@@ -27,6 +27,7 @@ export default function TaskTabBar({ tasks, activeTaskId, flashTaskId, onSwitchT
             ].join(' ')}
             role="button"
             onClick={() => onSwitchTask(task.id)}
+            title={task.note || undefined}
           >
             <span className="reviewer-task-tab-name">{task.name}</span>
             <span className="reviewer-task-tab-dot">·</span>

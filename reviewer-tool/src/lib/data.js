@@ -63,31 +63,32 @@ export async function insertCustomPrompt({ userId, category, subcategory, prompt
 export async function fetchUserTasks(userId) {
   const { data, error } = await supabase
     .from('tasks')
-    .select('id, task_name, selected_prompts, turns, copy_progress, config, updated_at')
+    .select('id, task_name, note, selected_prompts, turns, copy_progress, config, updated_at')
     .eq('user_id', userId)
     .order('updated_at', { ascending: true })
   if (error) throw error
   return data || []
 }
 
-export async function insertTask({ userId, taskName, selectedPrompts, turns, copyProgress, config }) {
+export async function insertTask({ userId, taskName, note, selectedPrompts, turns, copyProgress, config }) {
   const { data, error } = await supabase
     .from('tasks')
     .insert({
       user_id: userId,
       task_name: taskName,
+      note: note ?? null,
       selected_prompts: selectedPrompts,
       turns,
       copy_progress: copyProgress,
       config,
     })
-    .select('id, task_name, selected_prompts, turns, copy_progress, config, updated_at')
+    .select('id, task_name, note, selected_prompts, turns, copy_progress, config, updated_at')
     .single()
   if (error) throw error
   return data
 }
 
-export async function updateTask(taskId, userId, { selectedPrompts, turns, copyProgress, config, taskName }) {
+export async function updateTask(taskId, userId, { selectedPrompts, turns, copyProgress, config, taskName, note }) {
   const payload = {
     selected_prompts: selectedPrompts,
     turns,
@@ -95,12 +96,13 @@ export async function updateTask(taskId, userId, { selectedPrompts, turns, copyP
     config,
   }
   if (taskName !== undefined) payload.task_name = taskName
+  if (note !== undefined) payload.note = note
   const { data, error } = await supabase
     .from('tasks')
     .update(payload)
     .eq('id', taskId)
     .eq('user_id', userId)
-    .select('id, task_name, selected_prompts, turns, copy_progress, config, updated_at')
+    .select('id, task_name, note, selected_prompts, turns, copy_progress, config, updated_at')
     .single()
   if (error) throw error
   return data
