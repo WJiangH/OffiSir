@@ -693,6 +693,7 @@ export default function ReviewerPage() {
     if (!turn.text) {
       // Skip empty turns
       setCopyPointer((p) => p + 1)
+      setStartTurn((s) => s + 1)
       return
     }
     if (turn.needsEdit) {
@@ -718,6 +719,7 @@ export default function ReviewerPage() {
         }).catch((err) => setError(String(err.message || err)))
       }
       setCopyPointer((p) => p + 1)
+      setStartTurn((s) => s + 1)
     } catch {
       // clipboard failed
     }
@@ -725,6 +727,7 @@ export default function ReviewerPage() {
 
   const resetCopyProgress = () => {
     setCopyPointer(0)
+    setStartTurn(2)
   }
 
   const mergedCustomPrompts = useMemo(() => (
