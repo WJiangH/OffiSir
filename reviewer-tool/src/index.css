@@ -593,7 +593,7 @@ textarea {
   display: flex;
   gap: 8px;
   align-items: flex-start;
-  max-height: 80px;
+  max-height: 160px;
   overflow-y: auto;
 }
 
