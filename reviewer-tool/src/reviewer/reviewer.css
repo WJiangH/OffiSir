@@ -247,6 +247,60 @@
   border-radius: 6px;
   margin-bottom: 2px;
   transition: background 0.15s;
+  position: relative;
+}
+
+.reviewer-turn-line-remove,
+.reviewer-turn-line-duplicate {
+  position: absolute;
+  top: 6px;
+  background: none;
+  border: 1px solid transparent;
+  color: var(--reviewer-muted);
+  padding: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.12s, border-color 0.12s, color 0.12s;
+}
+
+.reviewer-turn-line-remove { right: 6px; }
+.reviewer-turn-line-duplicate { right: 30px; }
+
+.reviewer-turn-line:hover .reviewer-turn-line-remove,
+.reviewer-turn-line:hover .reviewer-turn-line-duplicate,
+.reviewer-turn-line.is-copied .reviewer-turn-line-duplicate {
+  opacity: 1;
+}
+
+.reviewer-turn-line.is-copied .reviewer-turn-line-duplicate {
+  right: 6px;
+}
+
+.reviewer-turn-line-remove:hover {
+  border-color: var(--reviewer-error);
+  color: var(--reviewer-error);
+}
+
+.reviewer-turn-line-duplicate:hover {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+
+.reviewer-turn-line.is-needs-edit {
+  background: #fee2e2;
+  outline: 1px solid #fca5a5;
+}
+
+.reviewer-turn-line.is-needs-edit .reviewer-turn-line-label {
+  color: #b91c1c;
+}
+
+.reviewer-turn-line.is-needs-edit .reviewer-turn-line-text {
+  color: #991b1b;
 }
 
 .reviewer-turn-line.is-copied {
@@ -289,6 +343,31 @@
 .reviewer-summary-ol li.is-linked {
   background: #fef3c7;
   border-radius: 6px;
+}
+
+.reviewer-summary-ol li.is-locked {
+  background: #dcfce7;
+  border-radius: 6px;
+  color: #166534;
+}
+
+.reviewer-summary-ol li.is-locked.is-linked {
+  background: #bbf7d0;
+}
+
+.reviewer-summary-item-lock {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  color: #16a34a;
+}
+
+.reviewer-turn-line-text--locked {
+  display: block;
+  color: #166534;
+  word-break: break-word;
+  padding: 2px 0;
+  cursor: default;
 }
 
 .reviewer-summary-item {

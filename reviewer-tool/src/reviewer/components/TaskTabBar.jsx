@@ -13,7 +13,9 @@ export default function TaskTabBar({ tasks, activeTaskId, flashTaskId, onSwitchT
         for (let i = turns.length - 1; i >= 0; i--) {
           if (turns[i]?.text) { lastFilled = i; break }
         }
-        const total = lastFilled === -1 ? 1 : startTurn + lastFilled
+        const total = lastFilled === -1
+          ? 1
+          : (turns[lastFilled]?.displayNumber ?? (startTurn + lastFilled))
         const copied = (task.copyPointer || 0) + 1
         return (
           <div

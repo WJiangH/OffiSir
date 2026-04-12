@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { Copy, Save, SplitSquareVertical, Scissors } from 'lucide-react'
+import { Copy, Plus, Save, SplitSquareVertical, Scissors, X } from 'lucide-react'
 
 function EditableTurnText({ text, turnIndex, onCommit }) {
   const [editing, setEditing] = useState(false)
@@ -63,6 +63,8 @@ export default function TurnQueuePanel({
   onCopyCurrentTurn,
   onHoverTurn,
   onClickTurn,
+  onRemoveTurn,
+  onDuplicateCopiedTurn,
   onRemoveRemainingTurns,
   onResetCopyProgress,
   onSaveAsTask,
@@ -87,8 +89,9 @@ export default function TurnQueuePanel({
   }, [copyPointer, turns])
 
   const nextTurnLabel = nextCopyTurn !== null
-    ? `Copy Turn ${startTurn + nextCopyTurn}`
+    ? `Copy Turn ${turns[nextCopyTurn]?.displayNumber ?? (startTurn + nextCopyTurn)}`
     : 'All turns copied'
+  const nextTurnBlocked = nextCopyTurn !== null && Boolean(turns[nextCopyTurn]?.needsEdit)
 
   const coloredTurns = useMemo(() => {
     if (!turns.length) return []
@@ -97,7 +100,7 @@ export default function TurnQueuePanel({
       const hovered = hoveredInstanceIds && itemIds.some((id) => hoveredInstanceIds.has(id))
       return {
         ...turn,
-        turnNumber: startTurn + index,
+        turnNumber: turn.displayNumber ?? (startTurn + index),
         copied: index < copyPointer,
         hovered,
         originalIndex: index,
@@ -216,8 +219,9 @@ export default function TurnQueuePanel({
         <div className="reviewer-copy-turn-bar">
           <button
             className="reviewer-primary-button"
-            disabled={nextCopyTurn === null}
+            disabled={nextCopyTurn === null || nextTurnBlocked}
             onClick={onCopyCurrentTurn}
+            title={nextTurnBlocked ? 'Edit the duplicated turn before copying' : undefined}
             type="button"
           >
             <Copy size={14} />
@@ -245,35 +249,71 @@ export default function TurnQueuePanel({
       <div className="reviewer-export-area">
         {coloredTurns.length > 0 ? (
           <div className="reviewer-turns-display">
-            {coloredTurns.map((turn) => (
-              <div
-                key={turn.turn}
-                className={[
-                  'reviewer-turn-line',
-                  turn.copied ? 'is-copied' : '',
-                  !turn.text ? 'is-empty' : '',
-                  turn.hovered ? 'is-linked' : '',
-                ].join(' ')}
-                onMouseEnter={() => turn.text && onHoverTurn && onHoverTurn(turn.originalIndex)}
-                onMouseLeave={() => onHoverTurn && onHoverTurn(null)}
-                onClick={(e) => {
-                  if (!turn.text) return
-                  e.stopPropagation()
-                  onClickTurn && onClickTurn(turn.originalIndex)
-                }}
-              >
-                <span className="reviewer-turn-line-label">
-                  {exportFormat === 'markdown' ? `## Turn ${turn.turnNumber}` : `Turn ${turn.turnNumber}`}
-                </span>
-                {turn.text && (
-                  <EditableTurnText
-                    text={turn.text}
-                    turnIndex={turn.originalIndex}
-                    onCommit={onUpdateTurnText}
-                  />
-                )}
-              </div>
-            ))}
+            {coloredTurns.map((turn) => {
+              const isLastCopied = turn.originalIndex === copyPointer - 1
+              return (
+                <div
+                  key={`turn-${turn.turnNumber}`}
+                  className={[
+                    'reviewer-turn-line',
+                    turn.copied ? 'is-copied' : '',
+                    turn.needsEdit ? 'is-needs-edit' : '',
+                    !turn.text ? 'is-empty' : '',
+                    turn.hovered ? 'is-linked' : '',
+                  ].join(' ')}
+                  onMouseEnter={() => turn.text && onHoverTurn && onHoverTurn(turn.originalIndex)}
+                  onMouseLeave={() => onHoverTurn && onHoverTurn(null)}
+                  onClick={(e) => {
+                    if (!turn.text) return
+                    e.stopPropagation()
+                    onClickTurn && onClickTurn(turn.originalIndex)
+                  }}
+                >
+                  <span className="reviewer-turn-line-label">
+                    {exportFormat === 'markdown' ? `## Turn ${turn.turnNumber}` : `Turn ${turn.turnNumber}`}
+                  </span>
+                  {turn.text && (
+                    turn.copied ? (
+                      <span className="reviewer-turn-line-text reviewer-turn-line-text--locked">
+                        {turn.text}
+                      </span>
+                    ) : (
+                      <EditableTurnText
+                        text={turn.text}
+                        turnIndex={turn.originalIndex}
+                        onCommit={onUpdateTurnText}
+                      />
+                    )
+                  )}
+                  {turn.text && isLastCopied && onDuplicateCopiedTurn && (
+                    <button
+                      className="reviewer-turn-line-duplicate"
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        onDuplicateCopiedTurn(turn.originalIndex)
+                      }}
+                      title="Duplicate this turn (insert a red copy after)"
+                      type="button"
+                    >
+                      <Plus size={12} />
+                    </button>
+                  )}
+                  {turn.text && !turn.copied && onRemoveTurn && (
+                    <button
+                      className="reviewer-turn-line-remove"
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        onRemoveTurn(turn.originalIndex)
+                      }}
+                      title="Remove this turn"
+                      type="button"
+                    >
+                      <X size={12} />
+                    </button>
+                  )}
+                </div>
+              )
+            })}
           </div>
         ) : (
           <div className="reviewer-export-placeholder">
@@ -286,16 +326,18 @@ export default function TurnQueuePanel({
         <select className="reviewer-select" onChange={(event) => onExportFormatChange(event.target.value)} value={exportFormat}>
           <option value="markdown">Markdown</option>
           <option value="plain">Plain text</option>
+          <option value="retries">Failed fixes (.md)</option>
         </select>
 
         <button
           className="reviewer-secondary-button"
-          disabled={hasErrors || !exportText}
+          disabled={exportFormat === 'retries' ? !isEditingTask : (hasErrors || !exportText)}
           onClick={onCopyExport}
+          title={exportFormat === 'retries' ? 'Download failed-fixes log for the active task' : undefined}
           type="button"
         >
           <Copy size={14} />
-          Copy all
+          {exportFormat === 'retries' ? 'Download failed fixes' : 'Copy all'}
         </button>
 
         {hasTurns && !isEditingTask && (

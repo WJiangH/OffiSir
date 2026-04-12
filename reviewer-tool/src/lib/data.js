@@ -78,7 +78,7 @@ export async function insertTask({ userId, taskName, selectedPrompts, turns, cop
   return data
 }
 
-export async function updateTask(taskId, { selectedPrompts, turns, copyProgress, config, taskName }) {
+export async function updateTask(taskId, userId, { selectedPrompts, turns, copyProgress, config, taskName }) {
   const payload = {
     selected_prompts: selectedPrompts,
     turns,
@@ -90,13 +90,50 @@ export async function updateTask(taskId, { selectedPrompts, turns, copyProgress,
     .from('tasks')
     .update(payload)
     .eq('id', taskId)
+    .eq('user_id', userId)
     .select('id, task_name, selected_prompts, turns, copy_progress, config, updated_at')
     .single()
   if (error) throw error
   return data
 }
 
-export async function deleteTask(taskId) {
-  const { error } = await supabase.from('tasks').delete().eq('id', taskId)
+export async function deleteTask(taskId, userId) {
+  const { error } = await supabase
+    .from('tasks')
+    .delete()
+    .eq('id', taskId)
+    .eq('user_id', userId)
   if (error) throw error
+}
+
+export async function insertRetryCommand({
+  userId,
+  taskId,
+  originalTurn,
+  retryTurn,
+  originalPrompt,
+  revisedPrompt,
+}) {
+  const { error } = await supabase
+    .from('retry_commands')
+    .insert({
+      user_id: userId,
+      task_id: taskId,
+      original_turn: originalTurn,
+      retry_turn: retryTurn,
+      original_prompt: originalPrompt,
+      revised_prompt: revisedPrompt,
+    })
+  if (error) throw error
+}
+
+export async function fetchRetryCommands(userId, taskId) {
+  const { data, error } = await supabase
+    .from('retry_commands')
+    .select('original_turn, retry_turn, original_prompt, revised_prompt, created_at')
+    .eq('user_id', userId)
+    .eq('task_id', taskId)
+    .order('retry_turn', { ascending: true })
+  if (error) throw error
+  return data || []
 }

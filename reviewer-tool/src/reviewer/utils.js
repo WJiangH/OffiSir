@@ -257,7 +257,8 @@ export function validateQueue(selectedItems, turns, strictMode, turnCount = STRI
 export function exportQueue(turns, format = 'markdown', startTurn = 2) {
   return turns
     .map((turn, index) => {
-      const heading = format === 'markdown' ? `## Turn ${startTurn + index}` : `Turn ${startTurn + index}`
+      const number = turn.displayNumber ?? (startTurn + index)
+      const heading = format === 'markdown' ? `## Turn ${number}` : `Turn ${number}`
       return `${heading}\n${turn.text}`
     })
     .join('\n\n')

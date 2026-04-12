@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import CategorySidebar from './components/CategorySidebar'
 import ContextPanel from './components/ContextPanel'
 import LibraryPanel from './components/LibraryPanel'
@@ -10,8 +10,10 @@ import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
   exportQueue,
+  makeInstanceId,
   normalizePromptText,
   promptMatchesDocType,
+  stripVarBraces,
   sortForTurnBuild,
   sortItems,
   validateQueue,
@@ -21,10 +23,12 @@ import {
   addStar,
   deleteTask as deleteTaskRow,
   fetchCustomPrompts,
+  fetchRetryCommands,
   fetchStarCounts,
   fetchUserStars,
   fetchUserTasks,
   insertCustomPrompt,
+  insertRetryCommand,
   insertTask,
   removeStar,
   updateTask as updateTaskRow,
@@ -93,6 +97,38 @@ function makeSelectedCategoryCounts(selectedItems) {
   }), {})
 }
 
+function makeLockedItemIdSet(turns, copyPointer) {
+  if (copyPointer <= 0 || !turns.length) return new Set()
+  return new Set(
+    turns
+      .slice(0, copyPointer)
+      .flatMap((turn) => turn.items.map((item) => item.instanceId))
+  )
+}
+
+function buildTurnText(items) {
+  return items
+    .map((item) => stripVarBraces(normalizePromptText(item.promptText || item.prompt_text)))
+    .join('; ')
+}
+
+function syncUnlockedTurnsWithSelection(turns, copyPointer, nextSelectedItems) {
+  if (!turns.length) return turns
+  const lockedTurns = copyPointer > 0 ? turns.slice(0, copyPointer) : []
+  const nextItemsById = new Map(nextSelectedItems.map((item) => [item.instanceId, item]))
+  const pendingTurns = turns.slice(copyPointer).map((turn) => {
+    const items = turn.items
+      .filter((item) => nextItemsById.has(item.instanceId))
+      .map((item) => nextItemsById.get(item.instanceId) || item)
+    return {
+      ...turn,
+      items,
+      text: buildTurnText(items),
+    }
+  })
+  return [...lockedTurns, ...pendingTurns]
+}
+
 export default function ReviewerPage() {
   const { user, logout } = useUser()
   const [categories, setCategories] = useState([])
@@ -120,7 +156,6 @@ export default function ReviewerPage() {
   const [savedTasks, setSavedTasks] = useState([])
   const [activeTaskId, setActiveTaskId] = useState(null)
   const [copyPointer, setCopyPointer] = useState(0) // index into builtTurns
-  const loadingTaskRef = useRef(false) // skip turn-clear when loading a task
   const [flashTaskId, setFlashTaskId] = useState(null) // for save animation
   const [flyingPill, setFlyingPill] = useState(null) // { text, fromRect }
   const [hoveredInstanceIds, setHoveredInstanceIds] = useState(new Set())
@@ -128,6 +163,9 @@ export default function ReviewerPage() {
   const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
+  const selectedItemsRef = useRef(selectedItems)
+  const builtTurnsRef = useRef(builtTurns)
+  const copyPointerRef = useRef(copyPointer)
 
   const turnCount = Math.max(1, endTurn - startTurn + 1)
 
@@ -171,8 +209,19 @@ export default function ReviewerPage() {
 
   // Reset all per-user state on login/logout, then load from Supabase
   useEffect(() => {
+    selectedItemsRef.current = selectedItems
+  }, [selectedItems])
+
+  useEffect(() => {
+    builtTurnsRef.current = builtTurns
+  }, [builtTurns])
+
+  useEffect(() => {
+    copyPointerRef.current = copyPointer
+  }, [copyPointer])
+
+  useEffect(() => {
     // Clear workspace + per-user state whenever user changes (including logout)
-    loadingTaskRef.current = true
     setSelectedItems([])
     setBuiltTurns([])
     setCopyPointer(0)
@@ -185,6 +234,21 @@ export default function ReviewerPage() {
     setFlashTaskId(null)
     setHoveredInstanceIds(new Set())
     setLockedInstanceIds(new Set())
+    // Reset UI knobs so nothing from the previous session persists
+    setSearch('')
+    setSelectedCategory('all')
+    setSelectedSubcategory('all')
+    setDocTypeFilter('all')
+    setPriorityFilter('all')
+    setFavoritesOnly(false)
+    setLibrarySort('priority')
+    setExportFormat('markdown')
+    setStrictMode(true)
+    setStartTurn(2)
+    setEndTurn(20)
+    setMinPerTurn(3)
+    setMaxPerTurn(6)
+    setSelectedTrayHeight(28)
     newWorkspaceRef.current = { selectedItems: [], builtTurns: [], copyPointer: 0 }
 
     if (!user) return
@@ -202,14 +266,23 @@ export default function ReviewerPage() {
         setStarCounts(counts)
         setCustomPromptsDb(custom)
         setSavedTasks(
-          tasks.map((t) => ({
-            id: t.id,
-            name: t.task_name,
-            selectedItems: t.selected_prompts || [],
-            builtTurns: t.turns || [],
-            copyPointer: t.copy_progress || 0,
-            config: t.config || null,
-          }))
+          tasks.map((t) => {
+            const cfg = t.config || {}
+            const baseStart = cfg.startTurn ?? 2
+            const stampedTurns = (t.turns || []).map((turn, idx) => (
+              turn?.displayNumber === undefined
+                ? { ...turn, displayNumber: baseStart + idx }
+                : turn
+            ))
+            return {
+              id: t.id,
+              name: t.task_name,
+              selectedItems: t.selected_prompts || [],
+              builtTurns: stampedTurns,
+              copyPointer: t.copy_progress || 0,
+              config: t.config || null,
+            }
+          })
         )
       } catch (err) {
         if (!ignore) setError(String(err.message || err))
@@ -236,15 +309,6 @@ export default function ReviewerPage() {
       setSelectedSubcategory('all')
     }
   }, [categories, selectedCategory, selectedSubcategory])
-
-  useEffect(() => {
-    if (loadingTaskRef.current) {
-      loadingTaskRef.current = false
-      return
-    }
-    setBuiltTurns([])
-    setCopyPointer(0)
-  }, [selectedItems])
 
   // Auto-save active task OR keep new-workspace state in sync
   useEffect(() => {
@@ -302,12 +366,44 @@ export default function ReviewerPage() {
     }
   }
 
+  const applySelectedItemsChange = (updater, options = {}) => {
+    const { clearTurns = false, syncUnlockedTurns = false } = options
+    const nextSelectedItems = typeof updater === 'function'
+      ? updater(selectedItemsRef.current)
+      : updater
+
+    selectedItemsRef.current = nextSelectedItems
+    setSelectedItems(nextSelectedItems)
+
+    if (clearTurns) {
+      builtTurnsRef.current = []
+      copyPointerRef.current = 0
+      setBuiltTurns([])
+      setCopyPointer(0)
+      return
+    }
+
+    if (syncUnlockedTurns) {
+      const nextBuiltTurns = syncUnlockedTurnsWithSelection(
+        builtTurnsRef.current,
+        copyPointerRef.current,
+        nextSelectedItems
+      )
+      builtTurnsRef.current = nextBuiltTurns
+      setBuiltTurns(nextBuiltTurns)
+    }
+  }
+
   const startNewTask = () => {
-    loadingTaskRef.current = true
     setActiveTaskId(null)
     setSelectedItems(newWorkspaceRef.current.selectedItems)
     setBuiltTurns(newWorkspaceRef.current.builtTurns)
     setCopyPointer(newWorkspaceRef.current.copyPointer)
+    // Start value always resets to default 2 for a new workspace
+    setStartTurn(2)
+    setEndTurn(20)
+    setMinPerTurn(3)
+    setMaxPerTurn(6)
   }
 
   const switchToTask = (taskId) => {
@@ -326,24 +422,32 @@ export default function ReviewerPage() {
     }
     const task = savedTasks.find((t) => t.id === taskId)
     if (!task) return
-    loadingTaskRef.current = true
     setActiveTaskId(taskId)
     setSelectedItems(task.selectedItems)
     setBuiltTurns(task.builtTurns)
     setCopyPointer(task.copyPointer || 0)
+    // Restore the saved task's config so Start doesn't leak from the previous workspace
+    const cfg = task.config || {}
+    setStartTurn(cfg.startTurn ?? 2)
+    setEndTurn(cfg.endTurn ?? 20)
+    setMinPerTurn(cfg.minPerTurn ?? 3)
+    setMaxPerTurn(cfg.maxPerTurn ?? 6)
   }
 
   const deleteTask = async (taskId) => {
     setSavedTasks((current) => current.filter((t) => t.id !== taskId))
     if (activeTaskId === taskId) {
-      loadingTaskRef.current = true
       setActiveTaskId(null)
       setSelectedItems(newWorkspaceRef.current.selectedItems)
       setBuiltTurns(newWorkspaceRef.current.builtTurns)
       setCopyPointer(newWorkspaceRef.current.copyPointer)
+      setStartTurn(2)
+      setEndTurn(20)
+      setMinPerTurn(3)
+      setMaxPerTurn(6)
     }
     try {
-      await deleteTaskRow(taskId)
+      if (user) await deleteTaskRow(taskId, user.id)
     } catch (err) {
       setError(String(err.message || err))
     }
@@ -354,7 +458,7 @@ export default function ReviewerPage() {
     setFlashTaskId(activeTaskId)
     setTimeout(() => setFlashTaskId(null), 1200)
     try {
-      await updateTaskRow(activeTaskId, {
+      await updateTaskRow(activeTaskId, user.id, {
         selectedPrompts: selectedItems,
         turns: builtTurns,
         copyProgress: copyPointer,
@@ -367,16 +471,67 @@ export default function ReviewerPage() {
 
   const removeRemainingTurns = () => {
     if (copyPointer === 0 || !builtTurns.length) return
+    // Keep the copied turns visible (locked, green) with their existing turn
+    // numbers. Drop everything after. Trim selectedItems to only the items in
+    // kept turns — but those items remain locked in Selected Prompts.
     const keptTurns = builtTurns.slice(0, copyPointer)
     const keptItemIds = new Set(
       keptTurns.flatMap((turn) => turn.items.map((item) => item.instanceId))
     )
     const keptSelected = selectedItems.filter((item) => keptItemIds.has(item.instanceId))
-    loadingTaskRef.current = true // don't wipe turns on selectedItems change
+    const lastKept = keptTurns[keptTurns.length - 1]
+    const lastKeptNumber = lastKept?.displayNumber ?? (startTurn + keptTurns.length - 1)
+    selectedItemsRef.current = keptSelected
+    builtTurnsRef.current = keptTurns
     setSelectedItems(keptSelected)
     setBuiltTurns(keptTurns)
-    setStartTurn((current) => current + copyPointer)
-    setCopyPointer(0)
+    // Start now points at the next new turn to build.
+    setStartTurn(lastKeptNumber + 1)
+  }
+
+  // Renumber every non-copied turn so displayNumbers stay contiguous from
+  // (last copied turn's displayNumber + 1). Also returns the new startTurn
+  // that satisfies the invariant "startTurn == first rebuildable turn's
+  // displayNumber" (skipping any contiguous red/needsEdit turns).
+  const renumberTurns = (turns, copyPointerValue, fallbackStartTurn) => {
+    const lastCopied = turns[copyPointerValue - 1]
+    const firstNonCopiedNumber = lastCopied
+      ? (lastCopied.displayNumber ?? 1) + 1
+      : fallbackStartTurn
+    const renumbered = turns.map((t, i) => {
+      if (i < copyPointerValue) return t
+      return { ...t, displayNumber: firstNonCopiedNumber + (i - copyPointerValue) }
+    })
+    // Walk past the contiguous red duplicates immediately after the copied
+    // prefix to find the first rebuildable slot.
+    let frozenEnd = copyPointerValue
+    while (frozenEnd < renumbered.length && renumbered[frozenEnd]?.needsEdit) {
+      frozenEnd += 1
+    }
+    const nextStartTurn = frozenEnd === copyPointerValue
+      ? firstNonCopiedNumber
+      : (renumbered[frozenEnd - 1].displayNumber + 1)
+    return { turns: renumbered, startTurn: nextStartTurn }
+  }
+
+  const removeTurn = (turnIndex) => {
+    const turn = builtTurns[turnIndex]
+    if (!turn) return
+    // Locked (copied) turns cannot be removed — they are a permanent record.
+    if (turnIndex < copyPointer) return
+    const removedIds = new Set(turn.items.map((item) => item.instanceId))
+    const nextSelectedItems = selectedItemsRef.current.filter((item) => !removedIds.has(item.instanceId))
+    const filteredTurns = builtTurnsRef.current.filter((_, i) => i !== turnIndex)
+    const { turns: nextBuiltTurns, startTurn: nextStartTurn } = renumberTurns(
+      filteredTurns,
+      copyPointerRef.current,
+      startTurn,
+    )
+    selectedItemsRef.current = nextSelectedItems
+    builtTurnsRef.current = nextBuiltTurns
+    setSelectedItems(nextSelectedItems)
+    setBuiltTurns(nextBuiltTurns)
+    setStartTurn(nextStartTurn)
   }
 
   const updateTurnText = (turnIndex, newText) => {
@@ -396,16 +551,74 @@ export default function ReviewerPage() {
       })
     )
     // Update the turn itself (non-destructive: update text and item texts)
-    loadingTaskRef.current = true
     setBuiltTurns((current) =>
       current.map((t, i) => {
         if (i !== turnIndex) return t
         const newItems = t.items.map((item, idx) => (
           idx < chunks.length ? { ...item, promptText: chunks[idx] } : item
         ))
-        return { ...t, items: newItems, text: chunks.join('; ') }
+        const nextText = chunks.join('; ')
+        // A red (needsEdit) turn becomes normal once its text diverges from
+        // the original it was duplicated from.
+        const stillNeedsEdit = t.needsEdit && nextText === (t.originalText ?? '')
+        return {
+          ...t,
+          items: newItems,
+          text: nextText,
+          needsEdit: stillNeedsEdit,
+        }
       })
     )
+  }
+
+  const duplicateCopiedTurn = (turnIndex) => {
+    if (copyPointer === 0) return
+    // Spec: only the most recently copied turn (index = copyPointer - 1) exposes
+    // the + button. Guard just in case the caller passes something else.
+    const sourceIndex = turnIndex ?? (copyPointer - 1)
+    const source = builtTurnsRef.current[sourceIndex]
+    if (!source) return
+
+    // Fresh instanceIds so the duplicated items don't collide with the locked
+    // originals in selectedItems.
+    const duplicateItems = source.items.map((item) => ({
+      ...item,
+      instanceId: makeInstanceId(),
+    }))
+
+    const sourceNumber = source.displayNumber ?? (startTurn + sourceIndex)
+    const newTurn = {
+      turn: (source.turn ?? sourceIndex) + 1,
+      items: duplicateItems,
+      text: source.text,
+      displayNumber: sourceNumber + 1,
+      needsEdit: true,
+      originalText: source.text,
+      sourceDisplayNumber: sourceNumber,
+    }
+
+    // Insert the new red turn right after the last copied turn. Then
+    // renumber everything non-copied so displayNumbers stay contiguous and
+    // startTurn lands just past the red prefix.
+    const insertionIndex = copyPointer
+    const insertedTurns = [
+      ...builtTurnsRef.current.slice(0, insertionIndex),
+      newTurn,
+      ...builtTurnsRef.current.slice(insertionIndex),
+    ]
+    const { turns: nextBuiltTurns, startTurn: nextStartTurn } = renumberTurns(
+      insertedTurns,
+      copyPointer,
+      startTurn,
+    )
+
+    const nextSelectedItems = [...selectedItemsRef.current, ...duplicateItems]
+
+    builtTurnsRef.current = nextBuiltTurns
+    selectedItemsRef.current = nextSelectedItems
+    setBuiltTurns(nextBuiltTurns)
+    setSelectedItems(nextSelectedItems)
+    setStartTurn(nextStartTurn)
   }
 
   const copyCurrentTurn = async () => {
@@ -416,8 +629,28 @@ export default function ReviewerPage() {
       setCopyPointer((p) => p + 1)
       return
     }
+    if (turn.needsEdit) {
+      // Red (duplicated-but-not-yet-edited) turns must be edited first
+      return
+    }
     try {
       await navigator.clipboard.writeText(turn.text)
+      // If this turn was a duplicate (and has since been edited to white), log a retry
+      if (
+        turn.originalText !== undefined
+        && user
+        && activeTaskId !== null
+        && turn.text !== turn.originalText
+      ) {
+        insertRetryCommand({
+          userId: user.id,
+          taskId: activeTaskId,
+          originalTurn: turn.sourceDisplayNumber ?? null,
+          retryTurn: turn.displayNumber ?? null,
+          originalPrompt: turn.originalText,
+          revisedPrompt: turn.text,
+        }).catch((err) => setError(String(err.message || err)))
+      }
       setCopyPointer((p) => p + 1)
     } catch {
       // clipboard failed
@@ -515,15 +748,24 @@ export default function ReviewerPage() {
   const exportText = exportQueue(builtTurns, exportFormat, startTurn)
 
   const addPrompt = (prompt) => {
-    setSelectedItems((current) => [...current, createSelectedPrompt(prompt)])
+    applySelectedItemsChange((current) => [...current, createSelectedPrompt(prompt)])
   }
 
   const removePromptBySourceId = (sourceId) => {
-    setSelectedItems((current) => current.filter((item) => item.sourceId !== sourceId))
+    const lockedItemIds = makeLockedItemIdSet(builtTurnsRef.current, copyPointerRef.current)
+    applySelectedItemsChange(
+      (current) => current.filter((item) => item.sourceId !== sourceId || lockedItemIds.has(item.instanceId)),
+      { syncUnlockedTurns: true }
+    )
   }
 
   const removeItem = (instanceId) => {
-    setSelectedItems((current) => current.filter((item) => item.instanceId !== instanceId))
+    const lockedItemIds = makeLockedItemIdSet(builtTurnsRef.current, copyPointerRef.current)
+    if (lockedItemIds.has(instanceId)) return
+    applySelectedItemsChange(
+      (current) => current.filter((item) => item.instanceId !== instanceId),
+      { syncUnlockedTurns: true }
+    )
   }
 
   const selectedSourceIds = useMemo(
@@ -556,7 +798,7 @@ export default function ReviewerPage() {
         active: true,
         custom: true,
       }
-      setSelectedItems((current) => [...current, createSelectedPrompt(nextPrompt)])
+      applySelectedItemsChange((current) => [...current, createSelectedPrompt(nextPrompt)])
     } catch (err) {
       setError(String(err.message || err))
     }
@@ -596,27 +838,31 @@ export default function ReviewerPage() {
   }
 
   const deduplicateSelected = () => {
-    setSelectedItems((current) => {
+    const lockedItemIds = makeLockedItemIdSet(builtTurnsRef.current, copyPointerRef.current)
+    applySelectedItemsChange((current) => {
       const seen = new Set()
       return current.filter((item) => {
+        if (lockedItemIds.has(item.instanceId)) return true
         const normalized = normalizePromptText(item.promptText).toLowerCase()
         if (seen.has(normalized)) return false
         seen.add(normalized)
         return true
       })
-    })
+    }, { syncUnlockedTurns: true })
   }
 
   const clearSelected = () => {
-    setSelectedItems([])
+    applySelectedItemsChange([], { clearTurns: true })
   }
 
   const updateItemText = (instanceId, newText) => {
-    setSelectedItems((current) =>
+    const lockedItemIds = makeLockedItemIdSet(builtTurnsRef.current, copyPointerRef.current)
+    if (lockedItemIds.has(instanceId)) return
+    applySelectedItemsChange((current) =>
       current.map((item) =>
         item.instanceId === instanceId ? { ...item, promptText: newText } : item
       )
-    )
+    , { syncUnlockedTurns: true })
   }
 
   const addSubcategory = (name) => {
@@ -648,30 +894,64 @@ export default function ReviewerPage() {
   }
 
   const clearTurns = () => {
+    builtTurnsRef.current = []
+    copyPointerRef.current = 0
     setBuiltTurns([])
     setCopyPointer(0)
   }
 
   const buildTurns = () => {
-    if (selectedItems.length === 0) {
-      setBuiltTurns([])
+    // Extend the locked prefix past copied turns to include any contiguous
+    // red (needsEdit) turns — those were manually inserted via Duplicate and
+    // must survive rebuilds.
+    let frozenEnd = copyPointer
+    while (frozenEnd < builtTurns.length && builtTurns[frozenEnd]?.needsEdit) {
+      frozenEnd += 1
+    }
+    const frozenTurns = frozenEnd > 0 ? builtTurns.slice(0, frozenEnd) : []
+    const frozenItemIds = new Set(
+      frozenTurns.flatMap((turn) => turn.items.map((item) => item.instanceId))
+    )
+    const pendingItems = selectedItems.filter((item) => !frozenItemIds.has(item.instanceId))
+
+    if (pendingItems.length === 0) {
+      builtTurnsRef.current = frozenTurns
+      setBuiltTurns(frozenTurns)
       return
     }
 
-    if (selectedItems.length > turnCount * maxPerTurn) {
+    // startTurn is already advanced past the frozen prefix (the duplicate
+    // flow and removeRemainingTurns both maintain this invariant).
+    const newRange = Math.max(1, endTurn - startTurn + 1)
+    if (pendingItems.length > newRange * maxPerTurn) {
       return
     }
 
-    const sortedItems = sortForTurnBuild(selectedItems)
-    const nextTurns = buildTwentyTurnQueue(sortedItems, turnCount, minPerTurn, maxPerTurn)
+    const sortedItems = sortForTurnBuild(pendingItems)
+    const appendedTurns = buildTwentyTurnQueue(
+      sortedItems,
+      newRange,
+      minPerTurn,
+      maxPerTurn
+    )
 
-    if (!nextTurns) return
+    if (!appendedTurns) return
 
-    setBuiltTurns(nextTurns)
-    setCopyPointer(0)
+    const stamped = appendedTurns.map((turn, idx) => ({
+      ...turn,
+      displayNumber: startTurn + idx,
+    }))
+
+    const nextBuiltTurns = [...frozenTurns, ...stamped]
+    builtTurnsRef.current = nextBuiltTurns
+    setBuiltTurns(nextBuiltTurns)
   }
 
   const effectiveHighlight = lockedInstanceIds.size > 0 ? lockedInstanceIds : hoveredInstanceIds
+
+  const lockedItemSet = useMemo(() => {
+    return makeLockedItemIdSet(builtTurns, copyPointer)
+  }, [builtTurns, copyPointer])
 
   const clickItem = (instanceId) => {
     setLockedInstanceIds((current) => {
@@ -695,6 +975,45 @@ export default function ReviewerPage() {
   }
 
   const copyExport = async () => {
+    if (exportFormat === 'retries') {
+      if (!user || activeTaskId === null) {
+        setError('Save this workspace as a task before exporting failed fixes.')
+        return
+      }
+      try {
+        const rows = await fetchRetryCommands(user.id, activeTaskId)
+        const taskName = savedTasks.find((t) => t.id === activeTaskId)?.name || `task-${activeTaskId}`
+        const body = [
+          `# Failed fixes — ${taskName}`,
+          '',
+          rows.length === 0 ? '_No failed fixes recorded for this task yet._' : null,
+          ...rows.map((r) => [
+            `## Turn ${r.retry_turn}${r.original_turn != null ? ` (retry of Turn ${r.original_turn})` : ''}`,
+            '',
+            '**Original**',
+            '',
+            r.original_prompt,
+            '',
+            '**Revised**',
+            '',
+            r.revised_prompt,
+            '',
+          ].join('\n')),
+        ].filter((line) => line !== null).join('\n')
+        const blob = new Blob([body], { type: 'text/markdown' })
+        const url = URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = `${taskName}-failed-fixes.md`
+        document.body.appendChild(a)
+        a.click()
+        document.body.removeChild(a)
+        URL.revokeObjectURL(url)
+      } catch (err) {
+        setError(String(err.message || err))
+      }
+      return
+    }
     try {
       await navigator.clipboard.writeText(exportText)
     } catch {
@@ -781,6 +1100,7 @@ export default function ReviewerPage() {
               <SelectedTray
                 groupedSelections={groupedSelections}
                 hoveredInstanceIds={effectiveHighlight}
+                lockedItemIds={lockedItemSet}
                 onClearSelected={clearSelected}
                 onClickItem={clickItem}
                 onDeduplicate={deduplicateSelected}
@@ -812,7 +1132,9 @@ export default function ReviewerPage() {
                 if (!turn) return
                 setHoveredInstanceIds(new Set(turn.items.map((i) => i.instanceId)))
               }}
+              onDuplicateCopiedTurn={duplicateCopiedTurn}
               onRemoveRemainingTurns={removeRemainingTurns}
+              onRemoveTurn={removeTurn}
               onResetCopyProgress={resetCopyProgress}
               onSaveAsTask={saveAsTask}
               onUpdateActiveTask={updateActiveTask}
