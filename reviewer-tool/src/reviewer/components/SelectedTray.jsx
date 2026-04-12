@@ -26,11 +26,8 @@ export default function SelectedTray({
       </div>
 
       <div className="reviewer-toolbar reviewer-toolbar--summary">
-        <button className="reviewer-secondary-button" onClick={onDeduplicate} type="button">
-          Deduplicate
-        </button>
         <button className="reviewer-secondary-button" onClick={onClearSelected} type="button">
-          Clear selected
+          Clear all selected
         </button>
       </div>
 
