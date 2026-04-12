@@ -35,7 +35,9 @@ import {
   insertTask,
   removeStar,
   updateTask as updateTaskRow,
+  updateWorkflowPriority,
 } from '../lib/data'
+import { PRIORITY_ORDER } from './constants'
 import './reviewer.css'
 
 const CATEGORY_FILE = '/reviewer-data/categories.json'
@@ -167,8 +169,9 @@ export default function ReviewerPage() {
   const [showSaveTaskModal, setShowSaveTaskModal] = useState(false)
   const [noteBarOpen, setNoteBarOpen] = useState(true)
   const [editingNote, setEditingNote] = useState(false)
-  const [noteDraft, setNoteDraft] = useState('')
+  const [editNoteText, setEditNoteText] = useState('')
   const [buildWarning, setBuildWarning] = useState(null) // { indices }
+  const [workflowPriority, setWorkflowPriority] = useState(PRIORITY_ORDER)
   const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
@@ -258,6 +261,12 @@ export default function ReviewerPage() {
     setMinPerTurn(3)
     setMaxPerTurn(6)
     setSelectedTrayHeight(28)
+    // Hydrate workflow priority from the user record (fall back to default).
+    if (Array.isArray(user?.workflow_priority) && user.workflow_priority.length) {
+      setWorkflowPriority(user.workflow_priority)
+    } else {
+      setWorkflowPriority(PRIORITY_ORDER)
+    }
     newWorkspaceRef.current = { selectedItems: [], builtTurns: [], copyPointer: 0 }
 
     if (!user) return
@@ -995,7 +1004,7 @@ export default function ReviewerPage() {
       return
     }
 
-    const sortedItems = sortForTurnBuild(pendingItems)
+    const sortedItems = sortForTurnBuild(pendingItems, workflowPriority)
     const appendedTurns = buildTwentyTurnQueue(
       sortedItems,
       newRange,
@@ -1013,6 +1022,24 @@ export default function ReviewerPage() {
     const nextBuiltTurns = [...frozenTurns, ...stamped]
     builtTurnsRef.current = nextBuiltTurns
     setBuiltTurns(nextBuiltTurns)
+  }
+
+  const reorderPriority = (nextOrder) => {
+    setWorkflowPriority(nextOrder)
+    if (!user) return
+    updateWorkflowPriority(user.id, nextOrder).catch((err) => {
+      console.error('[workflow_priority] save failed', err)
+      setError(`Couldn't save workflow priority: ${err.message || err}`)
+    })
+  }
+
+  const resetPriorityToDefault = () => {
+    setWorkflowPriority(PRIORITY_ORDER)
+    if (!user) return
+    updateWorkflowPriority(user.id, null).catch((err) => {
+      console.error('[workflow_priority] reset failed', err)
+      setError(`Couldn't reset workflow priority: ${err.message || err}`)
+    })
   }
 
   const collectUneditedIndices = () => {
@@ -1194,6 +1221,9 @@ export default function ReviewerPage() {
             onSelectCategory={setSelectedCategory}
             selectedCategory={selectedCategory}
             totalPromptCount={promptsWithLabels.filter((p) => p.active).length}
+            priorityOrder={workflowPriority}
+            onReorderPriority={reorderPriority}
+            onResetPriority={resetPriorityToDefault}
           />
 
           <ContextPanel
@@ -1234,8 +1264,10 @@ export default function ReviewerPage() {
 
           <div className="reviewer-right-rail">
             {activeTaskId !== null && (() => {
-              const activeTask = savedTasks.find((t) => t.id === activeTaskId)
-              const hasNote = !!activeTask?.note
+              // Derive the note text directly from savedTasks on every render.
+              // No intermediate state, no useEffect sync — stale state cannot occur.
+              const activeTaskNote = savedTasks.find((t) => t.id === activeTaskId)?.note || ''
+              const hasNote = !!activeTaskNote
               return (
                 <div className={`reviewer-note-bar ${noteBarOpen ? 'is-open' : ''}`}>
                   <button
@@ -1247,7 +1279,7 @@ export default function ReviewerPage() {
                     <span className="reviewer-note-bar-title">Note</span>
                     {!noteBarOpen && hasNote && (
                       <span className="reviewer-note-bar-preview">
-                        {activeTask.note.split('\n')[0].slice(0, 80)}
+                        {activeTaskNote.split('\n')[0].slice(0, 80)}
                       </span>
                     )}
                     {!noteBarOpen && !hasNote && (
@@ -1255,15 +1287,18 @@ export default function ReviewerPage() {
                     )}
                   </button>
                   {noteBarOpen && (
-                    <div className="reviewer-note-bar-body">
+                    <div
+                      key={`${activeTaskId}:${editingNote ? 'edit' : 'view'}`}
+                      className="reviewer-note-bar-body"
+                    >
                       {editingNote ? (
                         <>
                           <textarea
                             autoFocus
                             className="reviewer-note-textarea"
-                            onChange={(e) => setNoteDraft(e.target.value)}
+                            onChange={(e) => setEditNoteText(e.target.value)}
                             rows={3}
-                            value={noteDraft}
+                            value={editNoteText}
                           />
                           <div className="reviewer-note-bar-actions">
                             <button
@@ -1276,7 +1311,7 @@ export default function ReviewerPage() {
                             <button
                               className="reviewer-primary-button"
                               onClick={async () => {
-                                await saveActiveTaskNote(noteDraft)
+                                await saveActiveTaskNote(editNoteText)
                                 setEditingNote(false)
                               }}
                               type="button"
@@ -1288,12 +1323,12 @@ export default function ReviewerPage() {
                       ) : (
                         <>
                           <div className="reviewer-note-text">
-                            {hasNote ? activeTask.note : <em>No note yet.</em>}
+                            {hasNote ? activeTaskNote : <em>No note yet.</em>}
                           </div>
                           <button
                             className="reviewer-note-edit"
                             onClick={() => {
-                              setNoteDraft(activeTask.note || '')
+                              setEditNoteText(activeTaskNote)
                               setEditingNote(true)
                             }}
                             title="Edit note"

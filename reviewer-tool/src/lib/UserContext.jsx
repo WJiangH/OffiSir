@@ -56,7 +56,7 @@ export function UserProvider({ children }) {
       const { data: inserted, error: insertError } = await supabase
         .from('users')
         .insert({ name })
-        .select('id, name, is_admin')
+        .select('id, name, is_admin, workflow_priority')
         .single()
       if (insertError) throw insertError
       setUser(inserted)
@@ -72,7 +72,7 @@ export function UserProvider({ children }) {
     if (!q) return []
     const { data, error } = await supabase
       .from('users')
-      .select('id, name, is_admin')
+      .select('id, name, is_admin, workflow_priority')
       .ilike('name', `%${q}%`)
       .order('name')
       .limit(20)

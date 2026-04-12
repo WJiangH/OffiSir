@@ -38,16 +38,16 @@ export function stripVarBraces(text = '') {
   return text.replace(/\{([^}]+)\}/g, '$1')
 }
 
-export function priorityIndex(priority) {
-  const index = PRIORITY_ORDER.indexOf(priority)
-  return index === -1 ? PRIORITY_ORDER.length : index
+export function priorityIndex(priority, order = PRIORITY_ORDER) {
+  const index = order.indexOf(priority)
+  return index === -1 ? order.length : index
 }
 
-function resolveBuildStage(item) {
+function resolveBuildStage(item, priorityOrder = PRIORITY_ORDER) {
   const stageIndex = TURN_BUILD_ORDER.findIndex((stage) => stage.match(item))
   if (stageIndex !== -1) return stageIndex
 
-  const byPriority = priorityIndex(item.priority)
+  const byPriority = priorityIndex(item.priority, priorityOrder)
   return TURN_BUILD_ORDER.length + byPriority
 }
 
@@ -83,12 +83,12 @@ export function sortItems(items, sortKey = 'priority') {
   return nextItems.sort((a, b) => normalizePromptText(a.prompt_text || a.promptText).localeCompare(normalizePromptText(b.prompt_text || b.promptText)))
 }
 
-export function sortForTurnBuild(items) {
+export function sortForTurnBuild(items, priorityOrder = PRIORITY_ORDER) {
   return [...items].sort((a, b) => {
-    const stageDelta = resolveBuildStage(a) - resolveBuildStage(b)
+    const stageDelta = resolveBuildStage(a, priorityOrder) - resolveBuildStage(b, priorityOrder)
     if (stageDelta !== 0) return stageDelta
 
-    const priorityDelta = priorityIndex(a.priority) - priorityIndex(b.priority)
+    const priorityDelta = priorityIndex(a.priority, priorityOrder) - priorityIndex(b.priority, priorityOrder)
     if (priorityDelta !== 0) return priorityDelta
 
     const categoryDelta = String(a.category).localeCompare(String(b.category))

@@ -186,6 +186,14 @@ export async function fetchPerUserCounts() {
   return counts
 }
 
+export async function updateWorkflowPriority(userId, priorityOrder) {
+  const { error } = await supabase
+    .from('users')
+    .update({ workflow_priority: priorityOrder })
+    .eq('id', userId)
+  if (error) throw error
+}
+
 export async function deleteUser(userId) {
   const { data, error } = await supabase
     .from('users')

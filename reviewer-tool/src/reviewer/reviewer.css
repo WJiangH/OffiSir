@@ -780,6 +780,58 @@
   align-items: center;
   gap: 10px;
   font-size: 13px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: grab;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.reviewer-priority-list li:hover {
+  background: #f1f5f9;
+}
+
+.reviewer-priority-list li.is-dragging {
+  opacity: 0.4;
+  cursor: grabbing;
+}
+
+.reviewer-priority-list li.is-drop-target {
+  border-color: var(--reviewer-accent);
+  background: var(--reviewer-accent-soft);
+}
+
+.reviewer-priority-handle {
+  color: #9ca8b4;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.reviewer-priority-label {
+  flex: 1;
+}
+
+.reviewer-priority-reset {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  color: var(--reviewer-accent);
+  font-size: 12px;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px 0;
+  text-decoration: underline;
+}
+
+.reviewer-priority-reset:hover:not(:disabled) {
+  color: #1e3a8a;
+}
+
+.reviewer-priority-reset:disabled {
+  color: #9ca8b4;
+  text-decoration: none;
+  cursor: default;
 }
 
 .reviewer-priority-index {
