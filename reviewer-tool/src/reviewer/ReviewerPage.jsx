@@ -12,6 +12,7 @@ import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
   exportQueue,
+  hasPromptVariables,
   makeInstanceId,
   normalizePromptText,
   promptMatchesDocType,
@@ -164,9 +165,10 @@ export default function ReviewerPage() {
   const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
   const [showAdmin, setShowAdmin] = useState(false)
   const [showSaveTaskModal, setShowSaveTaskModal] = useState(false)
-  const [noteBarOpen, setNoteBarOpen] = useState(false)
+  const [noteBarOpen, setNoteBarOpen] = useState(true)
   const [editingNote, setEditingNote] = useState(false)
   const [noteDraft, setNoteDraft] = useState('')
+  const [buildWarning, setBuildWarning] = useState(null) // { indices }
   const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
@@ -459,7 +461,7 @@ export default function ReviewerPage() {
     setSelectedItems(task.selectedItems)
     setBuiltTurns(task.builtTurns)
     setCopyPointer(task.copyPointer || 0)
-    setNoteBarOpen(false)
+    setNoteBarOpen(true)
     setEditingNote(false)
     // Restore the saved task's config so Start doesn't leak from the previous workspace
     const cfg = task.config || {}
@@ -602,7 +604,7 @@ export default function ReviewerPage() {
         const idx = turn.items.findIndex((ti) => ti.instanceId === item.instanceId)
         if (idx === -1 || idx >= chunks.length) return item
         updatedItemIds.add(item.instanceId)
-        return { ...item, promptText: chunks[idx] }
+        return { ...item, promptText: chunks[idx], edited: true }
       })
     )
     // Update the turn itself (non-destructive: update text and item texts)
@@ -924,7 +926,7 @@ export default function ReviewerPage() {
     if (lockedItemIds.has(instanceId)) return
     applySelectedItemsChange((current) =>
       current.map((item) =>
-        item.instanceId === instanceId ? { ...item, promptText: newText } : item
+        item.instanceId === instanceId ? { ...item, promptText: newText, edited: true } : item
       )
     , { syncUnlockedTurns: true })
   }
@@ -964,7 +966,7 @@ export default function ReviewerPage() {
     setCopyPointer(0)
   }
 
-  const buildTurns = () => {
+  const performBuildTurns = () => {
     // Extend the locked prefix past copied turns to include any contiguous
     // red (needsEdit) turns — those were manually inserted via Duplicate and
     // must survive rebuilds.
@@ -1009,6 +1011,25 @@ export default function ReviewerPage() {
     const nextBuiltTurns = [...frozenTurns, ...stamped]
     builtTurnsRef.current = nextBuiltTurns
     setBuiltTurns(nextBuiltTurns)
+  }
+
+  const collectUneditedIndices = () => {
+    const out = []
+    selectedItems.forEach((item, idx) => {
+      if (hasPromptVariables(item.promptText) && item.edited === false) {
+        out.push(idx + 1)
+      }
+    })
+    return out
+  }
+
+  const buildTurns = () => {
+    const uneditedIndices = collectUneditedIndices()
+    if (uneditedIndices.length > 0) {
+      setBuildWarning({ indices: uneditedIndices })
+      return
+    }
+    performBuildTurns()
   }
 
   const effectiveHighlight = lockedInstanceIds.size > 0 ? lockedInstanceIds : hoveredInstanceIds
@@ -1117,6 +1138,37 @@ export default function ReviewerPage() {
           onCancel={() => setShowSaveTaskModal(false)}
           onSave={confirmSaveTask}
         />
+      )}
+      {buildWarning && (
+        <div className="save-task-backdrop" onClick={() => setBuildWarning(null)}>
+          <div className="save-task-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="save-task-header">
+              <h3>Unedited variables</h3>
+            </div>
+            <p style={{ margin: 0, fontSize: 14, color: '#18222f' }}>
+              {`Prompts ${buildWarning.indices.map((n) => `#${n}`).join(', ')} still have default variable values. Build anyway?`}
+            </p>
+            <div className="save-task-actions">
+              <button
+                className="save-task-cancel"
+                onClick={() => setBuildWarning(null)}
+                type="button"
+              >
+                Cancel
+              </button>
+              <button
+                className="save-task-submit"
+                onClick={() => {
+                  setBuildWarning(null)
+                  performBuildTurns()
+                }}
+                type="button"
+              >
+                Build anyway
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       <TaskTabBar

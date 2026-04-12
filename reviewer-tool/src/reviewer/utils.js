@@ -109,11 +109,17 @@ export function promptMatchesDocType(promptDocType, filterDocType) {
   return true
 }
 
+export function hasPromptVariables(text) {
+  return /\{[^}]+\}/.test(text || '')
+}
+
 export function createSelectedPrompt(prompt) {
+  const promptText = normalizePromptText(prompt.prompt_text || prompt.promptText || '')
+  const hasVars = hasPromptVariables(promptText)
   return {
     instanceId: makeInstanceId(),
     sourceId: prompt.id || null,
-    promptText: normalizePromptText(prompt.prompt_text || prompt.promptText || ''),
+    promptText,
     category: prompt.category || 'manual',
     subcategory: prompt.subcategory || 'manual',
     priority: prompt.priority || 'polish',
@@ -121,6 +127,10 @@ export function createSelectedPrompt(prompt) {
     tags: prompt.tags || [],
     favorite: Boolean(prompt.favorite),
     custom: Boolean(prompt.custom),
+    // Variable-edit tracking: true means user has modified at least one variable
+    // or the prompt has no variables to begin with. Unedited variable prompts
+    // render with an orange background.
+    edited: !hasVars,
   }
 }
 

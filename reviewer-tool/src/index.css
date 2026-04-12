@@ -593,6 +593,8 @@ textarea {
   display: flex;
   gap: 8px;
   align-items: flex-start;
+  max-height: 80px;
+  overflow-y: auto;
 }
 
 .reviewer-note-text {

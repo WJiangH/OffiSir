@@ -50,8 +50,11 @@ export default function SelectedTray({
               <ol className="reviewer-summary-ol">
                 {group.items.map((item) => {
                   const isLocked = lockedItemIds?.has(item.instanceId)
+                  const hasVars = /\{[^}]+\}/.test(item.promptText || '')
+                  const isUnedited = !isLocked && hasVars && item.edited === false
                   const classes = [
                     isLocked ? 'is-locked' : '',
+                    isUnedited ? 'is-unedited' : '',
                     hoveredInstanceIds?.has(item.instanceId) ? 'is-linked' : '',
                   ].filter(Boolean).join(' ')
                   return (
