@@ -6,7 +6,8 @@ function VarPill({ value, onChange }) {
   const [draft, setDraft] = useState(value)
   const inputRef = useRef(null)
 
-  const startEditing = () => {
+  const startEditing = (e) => {
+    e?.stopPropagation()
     setDraft(value)
     setEditing(true)
     requestAnimationFrame(() => inputRef.current?.select())
@@ -28,7 +29,9 @@ function VarPill({ value, onChange }) {
         value={draft}
         onChange={(e) => setDraft(e.target.value)}
         onBlur={commit}
+        onClick={(e) => e.stopPropagation()}
         onKeyDown={(e) => {
+          e.stopPropagation()
           if (e.key === 'Enter') commit()
           if (e.key === 'Escape') setEditing(false)
         }}
@@ -50,7 +53,34 @@ function VarPill({ value, onChange }) {
 }
 
 export default function EditablePromptText({ text, onTextChange }) {
-  const parts = parsePromptVars(text)
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft] = useState(text)
+  const textareaRef = useRef(null)
+
+  const startFullEdit = (e) => {
+    e?.stopPropagation()
+    setDraft(text)
+    setEditing(true)
+    requestAnimationFrame(() => {
+      const el = textareaRef.current
+      if (!el) return
+      el.focus()
+      el.selectionStart = el.selectionEnd = el.value.length
+    })
+  }
+
+  const commit = () => {
+    setEditing(false)
+    const next = draft.trim()
+    if (next && next !== text) {
+      onTextChange(next)
+    }
+  }
+
+  const cancel = () => {
+    setEditing(false)
+    setDraft(text)
+  }
 
   const handleVarChange = useCallback((varIndex, newValue) => {
     let varCount = 0
@@ -62,13 +92,54 @@ export default function EditablePromptText({ text, onTextChange }) {
     onTextChange(newText)
   }, [text, onTextChange])
 
+  if (editing) {
+    return (
+      <textarea
+        ref={textareaRef}
+        className="reviewer-prompt-edit-textarea"
+        value={draft}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={commit}
+        onClick={(e) => e.stopPropagation()}
+        onKeyDown={(e) => {
+          e.stopPropagation()
+          if (e.key === 'Escape') {
+            e.preventDefault()
+            cancel()
+            return
+          }
+          if (e.key === 'Enter') {
+            // Cmd/Ctrl+Enter inserts a newline; plain Enter commits.
+            if (e.metaKey || e.ctrlKey) return
+            e.preventDefault()
+            commit()
+          }
+        }}
+      />
+    )
+  }
+
+  const parts = parsePromptVars(text)
+
   if (parts.every((p) => p.type === 'text')) {
-    return <span>{text}</span>
+    return (
+      <span
+        className="reviewer-prompt-editable-span"
+        onClick={startFullEdit}
+        title="Click to edit"
+      >
+        {text}
+      </span>
+    )
   }
 
   let varIdx = 0
   return (
-    <span>
+    <span
+      className="reviewer-prompt-editable-span"
+      onClick={startFullEdit}
+      title="Click the text to edit the whole prompt; click a pill to edit just that value"
+    >
       {parts.map((part, index) => {
         if (part.type === 'var') {
           const currentIdx = varIdx++

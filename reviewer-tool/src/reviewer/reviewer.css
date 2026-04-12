@@ -1185,6 +1185,25 @@
   background: #c4dffa;
 }
 
+.reviewer-prompt-editable-span {
+  cursor: text;
+}
+
+.reviewer-prompt-edit-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 6px 8px;
+  font: inherit;
+  color: inherit;
+  border: 1px solid var(--reviewer-accent);
+  border-radius: 6px;
+  background: #fff;
+  outline: none;
+  resize: vertical;
+  font-family: inherit;
+}
+
 .reviewer-var-input {
   display: inline;
   padding: 1px 5px;
