@@ -124,26 +124,55 @@ export function createSelectedPrompt(prompt) {
   }
 }
 
-export function buildTwentyTurnCounts(totalItems) {
-  if (totalItems < 1 || totalItems > STRICT_TURN_COUNT * 4) return null
+export function buildTwentyTurnCounts(totalItems, turnCount = STRICT_TURN_COUNT, minPerTurn = 3, maxPerTurn = 6) {
+  const maxCap = Math.min(Math.max(maxPerTurn, 1), 7)
+  const minFloor = Math.min(Math.max(minPerTurn, 1), maxCap)
+  if (totalItems < 1 || totalItems > turnCount * maxCap) return null
 
-  if (totalItems < STRICT_TURN_COUNT) {
-    return Array.from({ length: STRICT_TURN_COUNT }, (_, index) => (index < totalItems ? 1 : 0))
+  // Fallback for very small totals: one turn with everything
+  if (totalItems < minFloor) {
+    const counts = Array(turnCount).fill(0)
+    counts[0] = totalItems
+    return counts
   }
 
-  const counts = Array(STRICT_TURN_COUNT).fill(1)
-  const extras = totalItems - STRICT_TURN_COUNT
+  // Determine how many turns we actually fill.
+  // Pick the largest number of turns we can fill while every filled turn has at least min.
+  // filledTurns must satisfy: filledTurns * min <= totalItems <= filledTurns * max
+  const minTurnsForCapacity = Math.ceil(totalItems / maxCap)  // minimum turns to fit everything
+  const maxTurnsAtMin = Math.floor(totalItems / minFloor)     // max turns we can use without going below min
+  const filledTurns = Math.min(turnCount, Math.max(minTurnsForCapacity, 1), maxTurnsAtMin)
 
-  for (let index = 0; index < extras; index += 1) {
-    const turnIndex = TURN_EXTRA_SCHEDULE[index]
-    counts[turnIndex] += 1
+  // Each filled turn starts at min
+  const counts = Array(turnCount).fill(0)
+  for (let i = 0; i < filledTurns; i++) counts[i] = minFloor
+  let extras = totalItems - filledTurns * minFloor
+
+  // Distribute extras across filled turns, capping at max
+  const heavy = []
+  const light = []
+  for (let i = 0; i < filledTurns; i++) {
+    if (i % 2 === 0) heavy.push(i)
+    else light.push(i)
+  }
+  const schedule = [...heavy, ...heavy, ...light, ...heavy, ...light, ...light]
+
+  let scheduleIdx = 0
+  while (extras > 0 && schedule.length > 0) {
+    const turnIndex = schedule[scheduleIdx % schedule.length]
+    if (counts[turnIndex] < maxCap) {
+      counts[turnIndex] += 1
+      extras -= 1
+    }
+    scheduleIdx += 1
+    if (scheduleIdx > schedule.length * maxCap) break
   }
 
   return counts
 }
 
-export function buildTwentyTurnQueue(items) {
-  const counts = buildTwentyTurnCounts(items.length)
+export function buildTwentyTurnQueue(items, turnCount = STRICT_TURN_COUNT, minPerTurn = 3, maxPerTurn = 6) {
+  const counts = buildTwentyTurnCounts(items.length, turnCount, minPerTurn, maxPerTurn)
   if (!counts) return null
 
   const turns = []
@@ -185,12 +214,12 @@ export function lintPromptText(text) {
   return warnings
 }
 
-export function validateQueue(selectedItems, turns, strictMode) {
+export function validateQueue(selectedItems, turns, strictMode, turnCount = STRICT_TURN_COUNT, maxPerTurn = 6) {
   const errors = []
   const warnings = []
 
-  if (selectedItems.length > STRICT_TURN_COUNT * 4) {
-    errors.push(`Trim the selection to ${STRICT_TURN_COUNT * 4} prompts or fewer before building turns`)
+  if (selectedItems.length > turnCount * maxPerTurn) {
+    errors.push(`Trim the selection to ${turnCount * maxPerTurn} prompts or fewer before building turns`)
   }
 
   selectedItems.forEach((item, index) => {
@@ -214,8 +243,8 @@ export function validateQueue(selectedItems, turns, strictMode) {
   }
 
   turns.forEach((turn, index) => {
-    if (turn.items.length > 4) {
-      errors.push(`Turn ${index + 1} has more than 4 items`)
+    if (turn.items.length > maxPerTurn) {
+      errors.push(`Turn ${index + 1} has more than ${maxPerTurn} items`)
     }
 
     if (selectedItems.length < STRICT_TURN_COUNT) return

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Plus } from 'lucide-react'
 
 export default function ContextPanel({
   category,
@@ -6,8 +7,19 @@ export default function ContextPanel({
   onSelectSubcategory,
   subcategoryCounts,
   totalCount,
+  onAddSubcategory,
 }) {
   const subcategories = category?.subcategories || []
+  const [adding, setAdding] = useState(false)
+  const [draft, setDraft] = useState('')
+
+  const handleAdd = () => {
+    const name = draft.trim()
+    if (!name) return
+    onAddSubcategory(name)
+    setDraft('')
+    setAdding(false)
+  }
 
   return (
     <aside className="reviewer-panel reviewer-sidebar">
@@ -46,6 +58,32 @@ export default function ContextPanel({
           )
         })}
       </div>
+
+      <div className="reviewer-panel-divider" />
+
+      {adding ? (
+        <div className="reviewer-add-subcategory">
+          <input
+            autoFocus
+            className="reviewer-subcategory-input"
+            onChange={(e) => setDraft(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') handleAdd()
+              if (e.key === 'Escape') { setAdding(false); setDraft('') }
+            }}
+            placeholder="Subcategory name"
+            type="text"
+            value={draft}
+          />
+          <button className="reviewer-primary-button" onClick={handleAdd} type="button">Add</button>
+          <button className="reviewer-secondary-button" onClick={() => { setAdding(false); setDraft('') }} type="button">Cancel</button>
+        </div>
+      ) : (
+        <button className="reviewer-add-subcategory-trigger" onClick={() => setAdding(true)} type="button">
+          <Plus size={14} />
+          Add subcategory
+        </button>
+      )}
     </aside>
   )
 }

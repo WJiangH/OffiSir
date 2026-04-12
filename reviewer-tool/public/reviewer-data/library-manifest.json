@@ -17,7 +17,5 @@
   "/reviewer-data/library/16_document_structure.json",
   "/reviewer-data/library/17_content_accuracy.json",
   "/reviewer-data/library/18_math_calculations.json",
-  "/reviewer-data/library/19_writing_tone.json",
-  "/reviewer-data/library/20_pptx_specific.json",
-  "/reviewer-data/library/21_docx_specific.json"
+  "/reviewer-data/library/19_writing_tone.json"
 ]

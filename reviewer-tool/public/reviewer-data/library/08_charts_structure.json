@@ -2,345 +2,73 @@
   "category": "charts_structure",
   "groups": [
     {
-      "subcategory": "chart_type_appropriateness",
+      "subcategory": "chart_type_selection",
       "priority": "charts_structure",
       "doc_type": "both",
       "tags": [
         "charts_structure",
-        "chart-type-appropriateness"
+        "chart-type-selection"
       ],
       "entries": [
         {
-          "id": "charts_structure_chart_type_appropriateness_001",
-          "prompt_text": "Add dotted border to negative-value bars in {chart}"
+          "id": "charts_structure_chart_type_selection_001",
+          "prompt_text": "Change {chart_title} to a {chart_type}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_002",
-          "prompt_text": "Add thin border around each pie slice"
+          "id": "charts_structure_chart_type_selection_002",
+          "prompt_text": "Change {chart_title} to a line chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_003",
-          "prompt_text": "Add {9pt} italic {source line} under {chart} image"
+          "id": "charts_structure_chart_type_selection_003",
+          "prompt_text": "Change {chart_title} to a stacked bar chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_004",
-          "prompt_text": "Add {source line} below {chart}"
+          "id": "charts_structure_chart_type_selection_004",
+          "prompt_text": "Change the donut chart in {chart_title} to a pie chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_005",
-          "prompt_text": "Add alt text to {bar chart} image for accessibility"
+          "id": "charts_structure_chart_type_selection_005",
+          "prompt_text": "Use grouped bars instead of stacked bars in {chart_title}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_006",
-          "prompt_text": "Add diagonal lines to {forecast} region in {area chart}"
+          "id": "charts_structure_chart_type_selection_006",
+          "prompt_text": "Change the 3D column chart in {chart_title} to a flat 2D column chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_007",
-          "prompt_text": "Add missing pie slice"
+          "id": "charts_structure_chart_type_selection_007",
+          "prompt_text": "Change the pie chart in {chart_title} to a horizontal bar chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_008",
-          "prompt_text": "Add missing source quarter to {stacked bar} chart"
+          "id": "charts_structure_chart_type_selection_008",
+          "prompt_text": "Switch {chart_title} from a clustered bar to a {chart_type}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_009",
-          "prompt_text": "Add missing {Q4} bar to {revenue chart}"
+          "id": "charts_structure_chart_type_selection_009",
+          "prompt_text": "Change {chart_title} to a waterfall chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_010",
-          "prompt_text": "Add missing {x-axis} category labels to {bar chart}"
+          "id": "charts_structure_chart_type_selection_010",
+          "prompt_text": "Switch the area chart in {chart_title} to a line chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_011",
-          "prompt_text": "Add {December} data point to trend line"
+          "id": "charts_structure_chart_type_selection_011",
+          "prompt_text": "Change the scatter plot in {chart_title} to a bubble chart"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_012",
-          "prompt_text": "Add {West region} series to {line chart}"
+          "id": "charts_structure_chart_type_selection_012",
+          "prompt_text": "Use a combo chart in {chart_title} with bars for {series_name} and a line for {second_series_name}"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_013",
-          "prompt_text": "Add {($M)} to {y-axis label} on {bar chart}"
+          "id": "charts_structure_chart_type_selection_013",
+          "prompt_text": "Change {chart_title} from vertical bars to horizontal bars"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_014",
-          "prompt_text": "Add {12pt} of space between {chart} and paragraph above"
+          "id": "charts_structure_chart_type_selection_014",
+          "prompt_text": "Replace the doughnut chart in {chart_title} with a stacked bar for easier comparison"
         },
         {
-          "id": "charts_structure_chart_type_appropriateness_015",
-          "prompt_text": "Add {18pt} of space between two side-by-side charts"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_016",
-          "prompt_text": "Add {4pt} of space between {chart} and {source line}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_017",
-          "prompt_text": "Align {chart} directly under {section intro paragraph}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_018",
-          "prompt_text": "Align {chart} left edge with body text left margin"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_019",
-          "prompt_text": "Break run-on sentence in {chart note} into {two parts}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_020",
-          "prompt_text": "Center the {chart} between left and right margins"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_021",
-          "prompt_text": "Change leader in {conclusion sentence} to {EMEA}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_022",
-          "prompt_text": "Change pie slice for {Other} to {medium gray}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_023",
-          "prompt_text": "Change top segment of the {stacked bar} to {20%}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_024",
-          "prompt_text": "Change {Enterprise} segment in {donut chart} to {35%}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_025",
-          "prompt_text": "Change {Ops} allocation in {budget chart} to {20%}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_026",
-          "prompt_text": "Change {Other slice} in {pie chart} to {12%}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_027",
-          "prompt_text": "Change {Other} slice in {pie chart} to {12%}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_028",
-          "prompt_text": "Change {Yes/No column} to {checkmarks and X marks}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_029",
-          "prompt_text": "Change {chart} bars to same {navy}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_030",
-          "prompt_text": "Change {chart} total to {$4.5M}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_031",
-          "prompt_text": "Change {pie chart segments} from default rainbow to {navy}, {teal}, and gray"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_032",
-          "prompt_text": "Change {stacked bar} total for {June} to {$365K}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_033",
-          "prompt_text": "Crop the {chart} image to remove extra white space on right"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_034",
-          "prompt_text": "Ensure {chart segments} are distinguishable in {grayscale}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_035",
-          "prompt_text": "Expand {chart} to {full width} of the {content area}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_036",
-          "prompt_text": "Fix {line chart} label for {Q2} to {18.4}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_037",
-          "prompt_text": "Group the two small pie slices into {Other}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_038",
-          "prompt_text": "Italicize the {source line} under {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_039",
-          "prompt_text": "Left-align body paragraph under {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_040",
-          "prompt_text": "Make {revenue chart} and {cost chart} the same height"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_041",
-          "prompt_text": "Make {source line} the same size on all three charts"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_042",
-          "prompt_text": "Make {source line}s under all charts the same size"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_043",
-          "prompt_text": "Match width of the {chart} to {table} below it"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_044",
-          "prompt_text": "Move data table below {chart} it summarizes"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_045",
-          "prompt_text": "Move {bar chart} {source line} directly below {chart} with {4pt} spacing"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_046",
-          "prompt_text": "Move {chart commentary} under {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_047",
-          "prompt_text": "Move {chart} commentary below {table}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_048",
-          "prompt_text": "Move {chart} {source line} {0.2 inches} above bottom page edge"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_049",
-          "prompt_text": "Move {source line} to left edge of the {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_050",
-          "prompt_text": "Place {bar chart} next to paragraph that references it"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_051",
-          "prompt_text": "Pull {chart} left edge in"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_052",
-          "prompt_text": "Pull {chart} right edge inside the right margin"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_053",
-          "prompt_text": "Pull {chart} up {0.5 inches}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_054",
-          "prompt_text": "Pull {source note} directly under {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_055",
-          "prompt_text": "Re-sort the {bar chart} to smallest"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_056",
-          "prompt_text": "Reduce gap between two stacked charts to {12pt}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_057",
-          "prompt_text": "Reduce gap between {table} and {chart} to {18pt}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_058",
-          "prompt_text": "Remove drop shadow around the {chart} frame"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_059",
-          "prompt_text": "Remove exploded slice from {pie chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_060",
-          "prompt_text": "Remove extra comma before {and} in {chart caption}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_061",
-          "prompt_text": "Remove faint conversion lines behind the {chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_062",
-          "prompt_text": "Remove {3D effect} from {bar chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_063",
-          "prompt_text": "Remove {border} around the {chart} area"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_064",
-          "prompt_text": "Remove {bright green} from {stacked bar} and use brand {dark green}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_065",
-          "prompt_text": "Replace the compressed chart image with original high-res export"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_066",
-          "prompt_text": "Replace the default {blue} chart background with {white}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_067",
-          "prompt_text": "Replace {robust} with {strong} in {chart commentary}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_068",
-          "prompt_text": "Resize the two side-by-side charts to {3 inches} wide each"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_069",
-          "prompt_text": "Resize the {pie chart} to {3 inches} wide"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_070",
-          "prompt_text": "Resolve the comment thread on {chart} caption"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_071",
-          "prompt_text": "Right-align {chart} {source note}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_072",
-          "prompt_text": "Set all three charts to {4 inches} wide"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_073",
-          "prompt_text": "Set {axis labels} on {bar chart} to sentence case"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_074",
-          "prompt_text": "Set {chart} {source line} to single line spacing"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_075",
-          "prompt_text": "Set {source line} under {chart} to {9pt}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_076",
-          "prompt_text": "Set {6pt} between {chart} and its {source line}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_077",
-          "prompt_text": "Shift {pie chart} right"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_078",
-          "prompt_text": "Shrink {chart} to leave room"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_079",
-          "prompt_text": "Split fused sentence in {chart note} with a semicolon"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_080",
-          "prompt_text": "Shorten the {case study} box to {four} lines"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_081",
-          "prompt_text": "Update {pie chart}"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_082",
-          "prompt_text": "Use dashed line"
-        },
-        {
-          "id": "charts_structure_chart_type_appropriateness_083",
-          "prompt_text": "Use {navy} for Revenue and {teal} for Costs in both charts"
+          "id": "charts_structure_chart_type_selection_015",
+          "prompt_text": "Switch {chart_title} from a 100% stacked bar to a regular stacked bar"
         }
       ]
     },
@@ -350,96 +78,68 @@
       "doc_type": "both",
       "tags": [
         "charts_structure",
-        "chart-title-descriptive"
+        "chart-title"
       ],
       "entries": [
         {
           "id": "charts_structure_chart_title_descriptive_001",
-          "prompt_text": "Add title to {untitled chart} under {Trends} section"
+          "prompt_text": "Add the title {chart_title_text} above the chart"
         },
         {
           "id": "charts_structure_chart_title_descriptive_002",
-          "prompt_text": "Center the {chart title} above plot area"
+          "prompt_text": "Move the chart title above {chart_title} instead of inside the plot area"
         },
         {
           "id": "charts_structure_chart_title_descriptive_003",
-          "prompt_text": "Center the {chart title} above {chart} area"
+          "prompt_text": "Shorten the chart title for {chart_title} so it fits on one line"
         },
         {
           "id": "charts_structure_chart_title_descriptive_004",
-          "prompt_text": "Change {chart legend labels} to title case"
+          "prompt_text": "Change the chart title for {chart_title} to {text_case}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_005",
-          "prompt_text": "Change {chart title value} to {$4.1M}"
+          "prompt_text": "Add {time_period} to the title of {chart_title}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_006",
-          "prompt_text": "Left-align {chart titles}"
+          "prompt_text": "Match the title style for {chart_title} to the other chart titles"
         },
         {
           "id": "charts_structure_chart_title_descriptive_007",
-          "prompt_text": "Left-align {chart title} with {chart} edge"
+          "prompt_text": "Remove the duplicate chart title under {chart_title}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_008",
-          "prompt_text": "Left-align {chart} subtitle under {chart title}"
+          "prompt_text": "Set the chart title for {chart_title} to {font_size} {font_name}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_009",
-          "prompt_text": "Left-align {chart} {source line} with {chart title}"
+          "prompt_text": "Bold the chart title for {chart_title}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_010",
-          "prompt_text": "Make {chart title} sentence case"
+          "prompt_text": "Left-align the chart title for {chart_title} with the plot area"
         },
         {
           "id": "charts_structure_chart_title_descriptive_011",
-          "prompt_text": "Move {chart title} {0.2 inches} down from top page edge"
+          "prompt_text": "Center the chart title above {chart_title}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_012",
-          "prompt_text": "Move {chart title} {6pt} closer to {plot area}"
+          "prompt_text": "Change the chart title for {chart_title} to {chart_title_text}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_013",
-          "prompt_text": "Place {chart title} directly above {chart} image with {4pt} spacing"
+          "prompt_text": "Add a subtitle {subtitle_text} under the title of {chart_title}"
         },
         {
           "id": "charts_structure_chart_title_descriptive_014",
-          "prompt_text": "Pull {chart title} {6pt} closer to {chart}"
+          "prompt_text": "Remove the chart title from {chart_title} because the section heading already names it"
         },
         {
           "id": "charts_structure_chart_title_descriptive_015",
-          "prompt_text": "Remove bold from {chart} subtitle"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_016",
-          "prompt_text": "Remove percent sign from {chart axis labels} and add it to {axis title}"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_017",
-          "prompt_text": "Remove subtitle from {revenue chart}"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_018",
-          "prompt_text": "Replace the {placeholder chart title} with {Monthly Recurring Revenue (MRR)}"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_019",
-          "prompt_text": "Replace {Q3} in {chart title} with {Third Quarter}"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_020",
-          "prompt_text": "Set {chart title} to {14pt} bold"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_021",
-          "prompt_text": "Set {4pt} between {chart title} and top of the {chart}"
-        },
-        {
-          "id": "charts_structure_chart_title_descriptive_022",
-          "prompt_text": "Shorten the {chart title}"
+          "prompt_text": "Change the title color for {chart_title} to {text_color}"
         }
       ]
     },
@@ -454,123 +154,79 @@
       "entries": [
         {
           "id": "charts_structure_axis_labeling_001",
-          "prompt_text": "Add {y-axis label} that says {Revenue ($M)}"
+          "prompt_text": "Add the x-axis label {axis_label} to {chart_title}"
         },
         {
           "id": "charts_structure_axis_labeling_002",
-          "prompt_text": "Add missing {March} label on {x-axis}"
+          "prompt_text": "Add the y-axis label {axis_label} to {chart_title}"
         },
         {
           "id": "charts_structure_axis_labeling_003",
-          "prompt_text": "Add value labels to top of each {stacked bar}"
+          "prompt_text": "Add ({unit_label}) to the y-axis label in {chart_title}"
         },
         {
           "id": "charts_structure_axis_labeling_004",
-          "prompt_text": "Add {data labels} only to final data point in each series"
+          "prompt_text": "Rotate the x-axis labels in {chart_title} to {rotation_angle} degrees"
         },
         {
           "id": "charts_structure_axis_labeling_005",
-          "prompt_text": "Add {percentage labels} to each {pie slice}"
+          "prompt_text": "Change the x-axis labels in {chart_title} to {label_format}"
         },
         {
           "id": "charts_structure_axis_labeling_006",
-          "prompt_text": "Bold only the {label} text in {legend}, not the values"
+          "prompt_text": "Start the y-axis in {chart_title} at {axis_min}"
         },
         {
           "id": "charts_structure_axis_labeling_007",
-          "prompt_text": "Cap the {y-axis} at {100}"
+          "prompt_text": "Change the {axis_name} axis in {chart_title} to {axis_label}"
         },
         {
           "id": "charts_structure_axis_labeling_008",
-          "prompt_text": "Change pie slice label for {Support} to {24%}"
+          "prompt_text": "Set the y-axis maximum in {chart_title} to {axis_max}"
         },
         {
           "id": "charts_structure_axis_labeling_009",
-          "prompt_text": "Change side labels in {chart} legend from ALL CAPS to sentence case"
+          "prompt_text": "Set the y-axis tick interval in {chart_title} to {tick_interval}"
         },
         {
           "id": "charts_structure_axis_labeling_010",
-          "prompt_text": "Change {Q3 label} in {chart} to {$1.3M}"
+          "prompt_text": "Remove the x-axis label from {chart_title} because the category names are self-explanatory"
         },
         {
           "id": "charts_structure_axis_labeling_011",
-          "prompt_text": "Change {chart labels} to {one decimal place}"
+          "prompt_text": "Set the axis label font in {chart_title} to {font_size} {font_name}"
         },
         {
           "id": "charts_structure_axis_labeling_012",
-          "prompt_text": "Change {chart} {axis labels} to {dark gray}"
+          "prompt_text": "Add thousands separators to the y-axis labels in {chart_title}"
         },
         {
           "id": "charts_structure_axis_labeling_013",
-          "prompt_text": "Change {x-axis} dates to {Jan Feb Mar Apr}"
+          "prompt_text": "Abbreviate the y-axis labels in {chart_title} to {thousands_format}"
         },
         {
           "id": "charts_structure_axis_labeling_014",
-          "prompt_text": "Change {y-axis} to increments of {10}"
+          "prompt_text": "Show every {tick_interval} label on the x-axis of {chart_title} instead of every one"
         },
         {
           "id": "charts_structure_axis_labeling_015",
-          "prompt_text": "Fix {clipped legend} labels in exported PDF"
+          "prompt_text": "Flip the axis label orientation in {chart_title} from vertical to horizontal"
         },
         {
           "id": "charts_structure_axis_labeling_016",
-          "prompt_text": "Make {y-axis} start at {0}"
+          "prompt_text": "Rotate the x-axis labels in {chart_title} to {45} degrees so they do not overlap each other"
         },
         {
           "id": "charts_structure_axis_labeling_017",
-          "prompt_text": "Match size of both chart {axis labels}"
+          "prompt_text": "Stagger the x-axis labels in {chart_title} so adjacent labels do not overlap"
         },
         {
           "id": "charts_structure_axis_labeling_018",
-          "prompt_text": "Match {legend} labels to {table} column names"
+          "prompt_text": "Shorten the x-axis labels in {chart_title} to {abbreviation} so they fit without overlapping"
         },
         {
           "id": "charts_structure_axis_labeling_019",
-          "prompt_text": "Match {y-axis} scale on both charts"
-        },
-        {
-          "id": "charts_structure_axis_labeling_020",
-          "prompt_text": "Move {legend} labels to left-aligned inside the {legend} box"
-        },
-        {
-          "id": "charts_structure_axis_labeling_021",
-          "prompt_text": "Remove extra whitespace above tallest bar on {y-axis}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_022",
-          "prompt_text": "Remove redundant {y-axis label} from single-metric chart"
-        },
-        {
-          "id": "charts_structure_axis_labeling_023",
-          "prompt_text": "Rename the {legend} label {Series 1} to {North Region}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_024",
-          "prompt_text": "Rotate the {x-axis tick labels} {45 degrees}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_025",
-          "prompt_text": "Set {axis label} text to {10pt}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_026",
-          "prompt_text": "Set {x-axis} tick labels to sentence case"
-        },
-        {
-          "id": "charts_structure_axis_labeling_027",
-          "prompt_text": "Set {x-axis}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_028",
-          "prompt_text": "Set {y-axis} {tick marks} at even {5 point} intervals"
-        },
-        {
-          "id": "charts_structure_axis_labeling_029",
-          "prompt_text": "Shorten the {y-axis} tick labels to abbreviations like {$1M}"
-        },
-        {
-          "id": "charts_structure_axis_labeling_030",
-          "prompt_text": "Use {Q1 2025} format"
+          "prompt_text": "Move the y-axis title in {chart_title} further left so it does not overlap the tick labels"
         }
       ]
     },
@@ -580,80 +236,423 @@
       "doc_type": "both",
       "tags": [
         "charts_structure",
-        "legend-clarity"
+        "legend"
       ],
       "entries": [
         {
           "id": "charts_structure_legend_clarity_001",
-          "prompt_text": "Add missing {Target} series to {legend}"
+          "prompt_text": "Move the legend below {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_002",
-          "prompt_text": "Add {MW} to every value in {chart legend}"
+          "prompt_text": "Move the legend to the right of {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_003",
-          "prompt_text": "Change {second data series} from {red} to brand {teal}"
+          "prompt_text": "Remove the legend from {chart_title} because it has only one series"
         },
         {
           "id": "charts_structure_legend_clarity_004",
-          "prompt_text": "Correct the {legend} value"
+          "prompt_text": "Rename the legend entry {series_name} to {legend_text} in {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_005",
-          "prompt_text": "Include the {Target} series in {legend} and plot"
+          "prompt_text": "Order the legend entries in {chart_title} to match the stacked bar order"
         },
         {
           "id": "charts_structure_legend_clarity_006",
-          "prompt_text": "Make {Target} series a dashed {red} line"
+          "prompt_text": "Remove the duplicate legend from {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_007",
-          "prompt_text": "Make {legend} entries sentence case"
+          "prompt_text": "Match the legend text size in {chart_title} to {font_size}"
         },
         {
           "id": "charts_structure_legend_clarity_008",
-          "prompt_text": "Move {legend} below {chart} and center it"
+          "prompt_text": "Set the legend font in {chart_title} to {font_size} {font_name}"
         },
         {
           "id": "charts_structure_legend_clarity_009",
-          "prompt_text": "Move {legend} inside the {chart} area in bottom-right corner"
+          "prompt_text": "Add a border around the legend box in {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_010",
-          "prompt_text": "Move {legend} to {right side} of the {chart}"
+          "prompt_text": "Move the legend inside the plot area of {chart_title} to the top-right corner"
         },
         {
           "id": "charts_structure_legend_clarity_011",
-          "prompt_text": "Pull {chart} legend outside the plot area to right"
+          "prompt_text": "Arrange the legend entries in {chart_title} horizontally instead of vertically"
         },
         {
           "id": "charts_structure_legend_clarity_012",
-          "prompt_text": "Pull {legend} up"
+          "prompt_text": "Remove the {series_name} entry from the legend in {chart_title}"
         },
         {
           "id": "charts_structure_legend_clarity_013",
-          "prompt_text": "Remove {border} around the {legend} box"
+          "prompt_text": "Increase the legend swatch size in {chart_title} so the colors are visible"
         },
         {
           "id": "charts_structure_legend_clarity_014",
-          "prompt_text": "Remove {legend} from single-series chart"
+          "prompt_text": "Match the legend position in {chart_title} to {reference_chart}"
         },
         {
           "id": "charts_structure_legend_clarity_015",
-          "prompt_text": "Reorder the {legend} entries"
+          "prompt_text": "Left-align the legend text in {chart_title}"
+        }
+      ]
+    },
+    {
+      "subcategory": "data_series_completeness",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "data-series"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_data_series_completeness_001",
+          "prompt_text": "Add the missing {category_name} bar to {chart_title}"
         },
         {
-          "id": "charts_structure_legend_clarity_016",
-          "prompt_text": "Set {legend} text on every chart to {9pt}"
+          "id": "charts_structure_data_series_completeness_002",
+          "prompt_text": "Add the {series_name} series to {chart_title}"
         },
         {
-          "id": "charts_structure_legend_clarity_017",
-          "prompt_text": "Set {legend} text to {9pt}"
+          "id": "charts_structure_data_series_completeness_003",
+          "prompt_text": "Remove the empty series from {chart_title}"
         },
         {
-          "id": "charts_structure_legend_clarity_018",
-          "prompt_text": "Use heavier line weight"
+          "id": "charts_structure_data_series_completeness_004",
+          "prompt_text": "Add the final {category_name} data point to {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_005",
+          "prompt_text": "Add a {benchmark_label} line at {benchmark_value} to {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_006",
+          "prompt_text": "Remove the duplicate {series_name} series from {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_007",
+          "prompt_text": "Add the missing category {category_name} to the x-axis in {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_008",
+          "prompt_text": "Add a secondary y-axis series for {series_name} in {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_009",
+          "prompt_text": "Plot {series_name} on the secondary axis in {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_010",
+          "prompt_text": "Remove the {series_name} series from {chart_title} because it clutters the view"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_011",
+          "prompt_text": "Add a trend line to the {series_name} series in {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_012",
+          "prompt_text": "Fill the gap between {category_name} and {second_category_name} in {chart_title} with the missing data"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_013",
+          "prompt_text": "Add the {series_name} average line to {chart_title}"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_014",
+          "prompt_text": "Show zero-value categories in {chart_title} instead of hiding them"
+        },
+        {
+          "id": "charts_structure_data_series_completeness_015",
+          "prompt_text": "Match the series count in {chart_title} to the data in {table_title}"
+        }
+      ]
+    },
+    {
+      "subcategory": "chart_size_position",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "chart-size-position"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_chart_size_position_001",
+          "prompt_text": "Widen {chart_title} to the full text width"
+        },
+        {
+          "id": "charts_structure_chart_size_position_002",
+          "prompt_text": "Make {chart_title} the same height as {reference_chart}"
+        },
+        {
+          "id": "charts_structure_chart_size_position_003",
+          "prompt_text": "Center {chart_title} between the left and right margins"
+        },
+        {
+          "id": "charts_structure_chart_size_position_004",
+          "prompt_text": "Align the left edge of {chart_title} with the body text margin"
+        },
+        {
+          "id": "charts_structure_chart_size_position_005",
+          "prompt_text": "Move {chart_title} directly below the paragraph that references it"
+        },
+        {
+          "id": "charts_structure_chart_size_position_006",
+          "prompt_text": "Keep {chart_title} on the same page as its title and source line"
+        },
+        {
+          "id": "charts_structure_chart_size_position_007",
+          "prompt_text": "Reduce the height of {chart_title} to {chart_height} so it fits above the notes paragraph"
+        },
+        {
+          "id": "charts_structure_chart_size_position_008",
+          "prompt_text": "Set {chart_title} to {chart_width} wide by {chart_height} tall"
+        },
+        {
+          "id": "charts_structure_chart_size_position_009",
+          "prompt_text": "Match the size of {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_structure_chart_size_position_010",
+          "prompt_text": "Add {space_value} of space between {chart_title} and the preceding paragraph"
+        },
+        {
+          "id": "charts_structure_chart_size_position_011",
+          "prompt_text": "Add {space_value} of space between {chart_title} and the following paragraph"
+        },
+        {
+          "id": "charts_structure_chart_size_position_012",
+          "prompt_text": "Shrink {chart_title} to {chart_width} so it sits side-by-side with {reference_chart}"
+        },
+        {
+          "id": "charts_structure_chart_size_position_013",
+          "prompt_text": "Lock the aspect ratio of {chart_title} when resizing"
+        },
+        {
+          "id": "charts_structure_chart_size_position_014",
+          "prompt_text": "Move {chart_title} to the right of {reference_chart} so they are side by side"
+        },
+        {
+          "id": "charts_structure_chart_size_position_015",
+          "prompt_text": "Keep {chart_title} inside the page margins"
+        }
+      ]
+    },
+    {
+      "subcategory": "source_notes",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "source-notes"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_source_notes_001",
+          "prompt_text": "Add a source line below {chart_title}"
+        },
+        {
+          "id": "charts_structure_source_notes_002",
+          "prompt_text": "Move the source line directly below {chart_title}"
+        },
+        {
+          "id": "charts_structure_source_notes_003",
+          "prompt_text": "Change the source line under {chart_title} to {source_text}"
+        },
+        {
+          "id": "charts_structure_source_notes_004",
+          "prompt_text": "Left-align the source line under {chart_title} with the chart left edge"
+        },
+        {
+          "id": "charts_structure_source_notes_005",
+          "prompt_text": "Set the source line under {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_structure_source_notes_006",
+          "prompt_text": "Move the source line under {chart_title} below the caption"
+        },
+        {
+          "id": "charts_structure_source_notes_007",
+          "prompt_text": "Remove the duplicate source line under {chart_title}"
+        },
+        {
+          "id": "charts_structure_source_notes_008",
+          "prompt_text": "Italicize the source line under {chart_title}"
+        },
+        {
+          "id": "charts_structure_source_notes_009",
+          "prompt_text": "Add {space_value} of space between {chart_title} and the source line"
+        },
+        {
+          "id": "charts_structure_source_notes_010",
+          "prompt_text": "Match the source line style under {chart_title} to the other charts"
+        },
+        {
+          "id": "charts_structure_source_notes_011",
+          "prompt_text": "Change the source line font color under {chart_title} to {text_color}"
+        },
+        {
+          "id": "charts_structure_source_notes_012",
+          "prompt_text": "Add a note line below the source line under {chart_title} that reads {note_text}"
+        },
+        {
+          "id": "charts_structure_source_notes_013",
+          "prompt_text": "Remove the source line from {chart_title} because the source is already in the section text"
+        },
+        {
+          "id": "charts_structure_source_notes_014",
+          "prompt_text": "Keep the source line on the same page as {chart_title}"
+        },
+        {
+          "id": "charts_structure_source_notes_015",
+          "prompt_text": "Add Source: before the source text under {chart_title}"
+        }
+      ]
+    },
+    {
+      "subcategory": "value_accuracy",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "value-accuracy"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_value_accuracy_001",
+          "prompt_text": "Change the {category_name} bar in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_002",
+          "prompt_text": "Change the {category_name} data point in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_003",
+          "prompt_text": "Change the {slice_name} slice in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_004",
+          "prompt_text": "Change the {series_name} value for {category_name} in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_005",
+          "prompt_text": "Update the total label in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_006",
+          "prompt_text": "Change the {category_name} stacked total in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_007",
+          "prompt_text": "Change the {annotation_label} label in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_008",
+          "prompt_text": "Fix the {category_name} value in {chart_title} from {wrong_value} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_009",
+          "prompt_text": "Update the data label on the {series_name} line at {category_name} in {chart_title} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_010",
+          "prompt_text": "Change the target line value in {chart_title} from {wrong_value} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_011",
+          "prompt_text": "Match the bar heights in {chart_title} to the values in {table_title}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_012",
+          "prompt_text": "Fix the {slice_name} percentage in {chart_title} from {wrong_value} to {value_text}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_013",
+          "prompt_text": "Update every data label in {chart_title} to match the values in {table_title}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_014",
+          "prompt_text": "Remove the wrong data label {wrong_value} from {chart_title}"
+        },
+        {
+          "id": "charts_structure_value_accuracy_015",
+          "prompt_text": "Change the y-axis intercept value in {chart_title} to {value_text}"
+        }
+      ]
+    },
+    {
+      "subcategory": "special_chart_elements",
+      "priority": "charts_structure",
+      "doc_type": "both",
+      "tags": [
+        "charts_structure",
+        "special-chart-elements"
+      ],
+      "entries": [
+        {
+          "id": "charts_structure_special_chart_elements_001",
+          "prompt_text": "Add a target line at {value_text} to {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_002",
+          "prompt_text": "Add a zero baseline to {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_003",
+          "prompt_text": "Add {shading_color} forecast shading after {category_name} in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_004",
+          "prompt_text": "Move the data labels above the bars in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_005",
+          "prompt_text": "Remove the 3D effect from {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_006",
+          "prompt_text": "Add error bars to the {series_name} series in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_007",
+          "prompt_text": "Add a break symbol to the y-axis in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_008",
+          "prompt_text": "Add data labels to every bar in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_009",
+          "prompt_text": "Add a {line_style} trend line to {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_010",
+          "prompt_text": "Remove the data table below {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_011",
+          "prompt_text": "Add callout labels to the top {count} bars in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_012",
+          "prompt_text": "Add a {annotation_label} annotation at {category_name} in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_013",
+          "prompt_text": "Place the data labels inside the bars in {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_014",
+          "prompt_text": "Add a dashed {line_color} average line at {value_text} to {chart_title}"
+        },
+        {
+          "id": "charts_structure_special_chart_elements_015",
+          "prompt_text": "Remove the drop shadow from {chart_title}"
         }
       ]
     }

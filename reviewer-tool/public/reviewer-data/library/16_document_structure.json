@@ -12,115 +12,83 @@
       "entries": [
         {
           "id": "document_structure_section_presence_order_001",
-          "prompt_text": "Add back-to-top link at bottom of the {references} section"
+          "prompt_text": "Add a {references} section after the {conclusion}"
         },
         {
           "id": "document_structure_section_presence_order_002",
-          "prompt_text": "Add bookmark"
+          "prompt_text": "Add a {glossary} section after the {main body}"
         },
         {
           "id": "document_structure_section_presence_order_003",
-          "prompt_text": "Add clickable link to URL printed in plain text in {references} section"
+          "prompt_text": "Add a missing {acknowledgments} section before {references}"
         },
         {
           "id": "document_structure_section_presence_order_004",
-          "prompt_text": "Add footer below {references} section"
+          "prompt_text": "Move the {references} section so it appears after the {conclusion}"
         },
         {
           "id": "document_structure_section_presence_order_005",
-          "prompt_text": "Add footer with company name and date below {appendix} section"
+          "prompt_text": "Move the {glossary} section so it appears after the {main body}"
         },
         {
           "id": "document_structure_section_presence_order_006",
-          "prompt_text": "Add glossary entry"
+          "prompt_text": "Delete the empty {glossary} section that contains no entries"
         },
         {
           "id": "document_structure_section_presence_order_007",
-          "prompt_text": "Add {horizontal rule} before {References} section"
+          "prompt_text": "Add a {horizontal rule} before the {references} section"
         },
         {
           "id": "document_structure_section_presence_order_008",
-          "prompt_text": "Add {text layer} to scanned {reference} section"
+          "prompt_text": "Add a footer with {company name} and {date} below the {references} section"
         },
         {
           "id": "document_structure_section_presence_order_009",
-          "prompt_text": "Add bookmarks for each subsection under {References}"
+          "prompt_text": "Remove the duplicate {introduction} section that repeats the same content"
         },
         {
           "id": "document_structure_section_presence_order_010",
-          "prompt_text": "Add bookmarks"
+          "prompt_text": "Add a {summary} section at the top of the document before {background}"
         },
         {
           "id": "document_structure_section_presence_order_011",
-          "prompt_text": "Add dot leaders between TOC entries and their section numbers"
+          "prompt_text": "Swap the order of the {methodology} and {background} sections"
         },
         {
           "id": "document_structure_section_presence_order_012",
-          "prompt_text": "Add missing glossary entry"
+          "prompt_text": "Add a {disclaimer} section at the bottom of the document"
         },
         {
           "id": "document_structure_section_presence_order_013",
-          "prompt_text": "Add missing page number below {glossary} section"
+          "prompt_text": "Remove the orphaned {notes} section that has no content"
         },
         {
           "id": "document_structure_section_presence_order_014",
-          "prompt_text": "Add missing {acknowledgments} section before {references}"
+          "prompt_text": "Add a {next steps} section after the {recommendations}"
         },
         {
           "id": "document_structure_section_presence_order_015",
-          "prompt_text": "Add page number below {references} section"
+          "prompt_text": "Move the {definitions} section so it appears before the {analysis}"
         },
         {
           "id": "document_structure_section_presence_order_016",
-          "prompt_text": "Add {running header} above {appendix} section"
+          "prompt_text": "Add a {scope} section between {introduction} and {methodology}"
         },
         {
           "id": "document_structure_section_presence_order_017",
-          "prompt_text": "Change page number to {A-1}"
+          "prompt_text": "Delete the trailing blank space after the last section"
         },
         {
           "id": "document_structure_section_presence_order_018",
-          "prompt_text": "Delete trailing {page break} after {references section}"
+          "prompt_text": "Add a {contact information} block at the bottom of the document"
         },
         {
           "id": "document_structure_section_presence_order_019",
-          "prompt_text": "Delete {glossary} section"
+          "prompt_text": "Move the {limitations} section so it appears before {conclusion}"
         },
         {
           "id": "document_structure_section_presence_order_020",
-          "prompt_text": "Fix bookmark for {Section 3} that jumps to wrong location"
-        },
-        {
-          "id": "document_structure_section_presence_order_021",
-          "prompt_text": "Put references after conclusion"
-        },
-        {
-          "id": "document_structure_section_presence_order_022",
-          "prompt_text": "Put {glossary} after {main body}"
-        },
-        {
-          "id": "document_structure_section_presence_order_023",
-          "prompt_text": "Remove broken link in {references} section that leads to a {404}"
-        },
-        {
-          "id": "document_structure_section_presence_order_024",
-          "prompt_text": "Remove clickable border box around the footnote link"
-        },
-        {
-          "id": "document_structure_section_presence_order_025",
-          "prompt_text": "Remove {appendix section} at bottom"
-        },
-        {
-          "id": "document_structure_section_presence_order_026",
-          "prompt_text": "Rename the {Bookmark 1} label"
-        },
-        {
-          "id": "document_structure_section_presence_order_027",
-          "prompt_text": "Restart the {reference} section numbering at {R-1}"
-        },
-        {
-          "id": "document_structure_section_presence_order_028",
-          "prompt_text": "Set PDF to open with bookmark panel visible"
+          "prompt_text": "Add a {revision history} section at the end of the document"
         }
       ]
     },
@@ -135,11 +103,11 @@
       "entries": [
         {
           "id": "document_structure_reference_integrity_001",
-          "prompt_text": "Add publication year to every reference entry"
+          "prompt_text": "Add a publication year to every reference entry that is missing one"
         },
         {
           "id": "document_structure_reference_integrity_002",
-          "prompt_text": "Change URL in {reference 4} from a dead link to archived version"
+          "prompt_text": "Change the URL in {reference 4} from a dead link to the archived version"
         },
         {
           "id": "document_structure_reference_integrity_003",
@@ -147,23 +115,193 @@
         },
         {
           "id": "document_structure_reference_integrity_004",
-          "prompt_text": "Cut {reference paragraph} at {bottom}"
+          "prompt_text": "Remove the {reference paragraph} that cites a source not listed in the references section"
         },
         {
           "id": "document_structure_reference_integrity_005",
-          "prompt_text": "Move footnote reference sentence directly below paragraph that cites it"
+          "prompt_text": "Move the footnote reference sentence directly below the paragraph that cites it"
         },
         {
           "id": "document_structure_reference_integrity_006",
-          "prompt_text": "Move {acknowledgments} to end of the document after {references}"
+          "prompt_text": "Remove the broken hyperlink in {reference 5} that leads to a {404 error}"
         },
         {
           "id": "document_structure_reference_integrity_007",
-          "prompt_text": "Move {appendix} after {references}"
+          "prompt_text": "Add a missing in-text citation for the data quoted in the {findings} section"
         },
         {
           "id": "document_structure_reference_integrity_008",
-          "prompt_text": "Remove {see Appendix B} reference"
+          "prompt_text": "Remove the duplicate reference entry for {Smith, 2023} that appears twice"
+        },
+        {
+          "id": "document_structure_reference_integrity_009",
+          "prompt_text": "Change the citation style in {reference 2} from MLA to {APA} to match the rest"
+        },
+        {
+          "id": "document_structure_reference_integrity_010",
+          "prompt_text": "Add a DOI link to {reference 6} that is missing its digital identifier"
+        },
+        {
+          "id": "document_structure_reference_integrity_011",
+          "prompt_text": "Renumber the references so they follow {sequential order} from {1} to {N}"
+        },
+        {
+          "id": "document_structure_reference_integrity_012",
+          "prompt_text": "Fix the in-text citation that says {[4]} but should say {[3]} based on the reference list"
+        },
+        {
+          "id": "document_structure_reference_integrity_013",
+          "prompt_text": "Add a clickable hyperlink to the URL printed as plain text in {reference 1}"
+        },
+        {
+          "id": "document_structure_reference_integrity_014",
+          "prompt_text": "Remove the reference entry for a source that is never cited in the document"
+        },
+        {
+          "id": "document_structure_reference_integrity_015",
+          "prompt_text": "Change the author name in {reference 7} from {J. Smith} to {J. Nguyen}"
+        }
+      ]
+    },
+    {
+      "subcategory": "heading_hierarchy",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "heading-hierarchy"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_heading_hierarchy_001",
+          "prompt_text": "Change the {Findings} heading from {Heading 3} to {Heading 2} to match sibling sections"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_002",
+          "prompt_text": "Promote the {Background} subheading from {Heading 3} to {Heading 2}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_003",
+          "prompt_text": "Demote the {Data Sources} heading from {Heading 2} to {Heading 3} since it is a subsection"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_004",
+          "prompt_text": "Change all section headings to {title case} for consistency"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_005",
+          "prompt_text": "Add a {Heading 2} for the {Recommendations} content that is currently body text"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_006",
+          "prompt_text": "Remove the skipped heading level where {Heading 1} jumps directly to {Heading 3}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_007",
+          "prompt_text": "Change the {Summary} heading from bold body text to a proper {Heading 2}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_008",
+          "prompt_text": "Make all {Heading 1} entries use {sentence case} to match the style guide"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_009",
+          "prompt_text": "Add a heading for the unlabeled paragraph block between {Methodology} and {Results}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_010",
+          "prompt_text": "Demote all subsection headings under {Analysis} from {Heading 2} to {Heading 3}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_011",
+          "prompt_text": "Remove the redundant heading that duplicates the document title"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_012",
+          "prompt_text": "Change the {Next Steps} heading level to match the other {Heading 2} sections"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_013",
+          "prompt_text": "Fix the heading that is styled as {Heading 1} but should be {Heading 2} based on its nesting"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_014",
+          "prompt_text": "Add a numbered prefix {1.1} to the first subheading under {Introduction}"
+        },
+        {
+          "id": "document_structure_heading_hierarchy_015",
+          "prompt_text": "Change the {Conclusion} heading from italicized body text to a proper {Heading 2}"
+        }
+      ]
+    },
+    {
+      "subcategory": "section_labeling",
+      "priority": "document_structure",
+      "doc_type": "both",
+      "tags": [
+        "document_structure",
+        "section-labeling"
+      ],
+      "entries": [
+        {
+          "id": "document_structure_section_labeling_001",
+          "prompt_text": "Add section numbers {1, 2, 3} to all top-level headings"
+        },
+        {
+          "id": "document_structure_section_labeling_002",
+          "prompt_text": "Change the {Introduction} label to {1.0 Introduction} to match the numbering scheme"
+        },
+        {
+          "id": "document_structure_section_labeling_003",
+          "prompt_text": "Remove the inconsistent numbering where {Section 3} is labeled {4.0}"
+        },
+        {
+          "id": "document_structure_section_labeling_004",
+          "prompt_text": "Add a label to the unlabeled chart so readers know it belongs to {Section 2}"
+        },
+        {
+          "id": "document_structure_section_labeling_005",
+          "prompt_text": "Rename the {Misc} section heading to {Additional Considerations}"
+        },
+        {
+          "id": "document_structure_section_labeling_006",
+          "prompt_text": "Add {Figure 1} label below the chart that currently has no caption"
+        },
+        {
+          "id": "document_structure_section_labeling_007",
+          "prompt_text": "Change the {Table} label from {Table A} to {Table 1} to match sequential numbering"
+        },
+        {
+          "id": "document_structure_section_labeling_008",
+          "prompt_text": "Add a descriptive subtitle under the {Results} heading"
+        },
+        {
+          "id": "document_structure_section_labeling_009",
+          "prompt_text": "Fix the figure numbering that skips from {Figure 2} to {Figure 4}"
+        },
+        {
+          "id": "document_structure_section_labeling_010",
+          "prompt_text": "Rename the vague {Other} section heading to {Supplementary Data}"
+        },
+        {
+          "id": "document_structure_section_labeling_011",
+          "prompt_text": "Add a {Table 2} label to the second data table that is currently unlabeled"
+        },
+        {
+          "id": "document_structure_section_labeling_012",
+          "prompt_text": "Change all figure labels from {Fig.} to {Figure} for consistency"
+        },
+        {
+          "id": "document_structure_section_labeling_013",
+          "prompt_text": "Remove the duplicate section number {2.1} that appears on two different subsections"
+        },
+        {
+          "id": "document_structure_section_labeling_014",
+          "prompt_text": "Add a cross-reference label so the text can refer to {Table 1} by name"
+        },
+        {
+          "id": "document_structure_section_labeling_015",
+          "prompt_text": "Rename {Section A} to {Section 1} to use numeric instead of alphabetic labeling"
         }
       ]
     },
@@ -178,93 +316,134 @@
       "entries": [
         {
           "id": "document_structure_linked_section_logic_001",
-          "prompt_text": "Unlink {Section 3} header from previous"
+          "prompt_text": "Fix the internal link to {Section 3} that jumps to the wrong location"
         },
         {
           "id": "document_structure_linked_section_logic_002",
-          "prompt_text": "Link {Appendix} footer to {main body}"
+          "prompt_text": "Add a clickable cross-reference from the {summary} to the {detailed findings}"
         },
         {
           "id": "document_structure_linked_section_logic_003",
-          "prompt_text": "Synchronize {odd and even} section headers"
+          "prompt_text": "Remove the broken internal link in the {introduction} that points to a deleted section"
+        },
+        {
+          "id": "document_structure_linked_section_logic_004",
+          "prompt_text": "Update the cross-reference that still says {Section 2} but should say {Section 3} after reordering"
+        },
+        {
+          "id": "document_structure_linked_section_logic_005",
+          "prompt_text": "Add a back-to-top link at the bottom of the {references} section"
+        },
+        {
+          "id": "document_structure_linked_section_logic_006",
+          "prompt_text": "Fix the bookmark for {Section 4} that links to {Section 2} instead"
+        },
+        {
+          "id": "document_structure_linked_section_logic_007",
+          "prompt_text": "Add a clickable link to the URL printed as plain text in the {footnotes}"
+        },
+        {
+          "id": "document_structure_linked_section_logic_008",
+          "prompt_text": "Remove the clickable border box around the {footnote link} that looks unintentional"
+        },
+        {
+          "id": "document_structure_linked_section_logic_009",
+          "prompt_text": "Update the {see Table 1} reference so it links to the correct table"
+        },
+        {
+          "id": "document_structure_linked_section_logic_010",
+          "prompt_text": "Add an internal link from the {executive summary} bullet to the corresponding {findings} paragraph"
+        },
+        {
+          "id": "document_structure_linked_section_logic_011",
+          "prompt_text": "Fix the {see above} reference that no longer points to the right paragraph after edits"
+        },
+        {
+          "id": "document_structure_linked_section_logic_012",
+          "prompt_text": "Remove the orphaned bookmark that has no corresponding link in the text"
+        },
+        {
+          "id": "document_structure_linked_section_logic_013",
+          "prompt_text": "Add a hyperlink from the acronym {KPI} to its definition in the {glossary}"
+        },
+        {
+          "id": "document_structure_linked_section_logic_014",
+          "prompt_text": "Fix the footnote number {3} in the body that links to footnote {2} at the bottom"
+        },
+        {
+          "id": "document_structure_linked_section_logic_015",
+          "prompt_text": "Update all {see Section N} cross-references to reflect the correct section numbers after reorganization"
         }
       ]
     },
     {
-      "subcategory": "section_break_types_continuous",
+      "subcategory": "structure_toc",
       "priority": "document_structure",
       "doc_type": "both",
       "tags": [
         "document_structure",
-        "section-break-types-continuous"
+        "structure-toc"
       ],
       "entries": [
         {
-          "id": "document_structure_section_break_types_continuous_001",
-          "prompt_text": "Set section start to new page"
+          "id": "document_structure_structure_toc_001",
+          "prompt_text": "Update the table of contents to match the current section headings"
         },
         {
-          "id": "document_structure_section_break_types_continuous_002",
-          "prompt_text": "Insert continuous break before column change"
+          "id": "document_structure_structure_toc_002",
+          "prompt_text": "Add dot leaders between the TOC entries and their section numbers"
         },
         {
-          "id": "document_structure_section_break_types_continuous_003",
-          "prompt_text": "Remove section break at page X"
+          "id": "document_structure_structure_toc_003",
+          "prompt_text": "Remove the TOC entry for the {glossary} section that was deleted"
         },
         {
-          "id": "document_structure_section_break_types_continuous_004",
-          "prompt_text": "Change page break to continuous break"
+          "id": "document_structure_structure_toc_004",
+          "prompt_text": "Add the missing {Recommendations} entry to the table of contents"
         },
         {
-          "id": "document_structure_section_break_types_continuous_005",
-          "prompt_text": "Fix odd page break for chapters"
-        }
-      ]
-    },
-    {
-      "subcategory": "page_border_geometry",
-      "priority": "document_structure",
-      "doc_type": "both",
-      "tags": [
-        "document_structure",
-        "page-border-geometry"
-      ],
-      "entries": [
-        {
-          "id": "document_structure_page_border_geometry_001",
-          "prompt_text": "Add page border to section X"
+          "id": "document_structure_structure_toc_005",
+          "prompt_text": "Fix the TOC entry for {Section 3} that displays the wrong title"
         },
         {
-          "id": "document_structure_page_border_geometry_002",
-          "prompt_text": "Offset border {5px} from edge"
+          "id": "document_structure_structure_toc_006",
+          "prompt_text": "Indent the {subsection} entries in the TOC to show they are nested under {Section 2}"
         },
         {
-          "id": "document_structure_page_border_geometry_003",
-          "prompt_text": "Offset border {0.25}\" from edge"
+          "id": "document_structure_structure_toc_007",
+          "prompt_text": "Add a table of contents at the top of the document before the {introduction}"
         },
         {
-          "id": "document_structure_page_border_geometry_004",
-          "prompt_text": "Change border style to dashed"
+          "id": "document_structure_structure_toc_008",
+          "prompt_text": "Remove the duplicate {Introduction} entry that appears twice in the TOC"
         },
         {
-          "id": "document_structure_page_border_geometry_005",
-          "prompt_text": "Set border thickness to {200%}"
+          "id": "document_structure_structure_toc_009",
+          "prompt_text": "Update the TOC so that all heading levels down to {Heading 3} are included"
         },
         {
-          "id": "document_structure_page_border_geometry_006",
-          "prompt_text": "Offset border {50%} from edge"
+          "id": "document_structure_structure_toc_010",
+          "prompt_text": "Change the TOC title from {Contents} to {Table of Contents}"
         },
         {
-          "id": "document_structure_page_border_geometry_007",
-          "prompt_text": "Align page border to margin"
+          "id": "document_structure_structure_toc_011",
+          "prompt_text": "Fix the TOC indentation so {Heading 3} entries are indented further than {Heading 2}"
         },
         {
-          "id": "document_structure_page_border_geometry_008",
-          "prompt_text": "Set border thickness to {15pt}"
+          "id": "document_structure_structure_toc_012",
+          "prompt_text": "Remove the TOC entries for subsections that are too granular for a short document"
         },
         {
-          "id": "document_structure_page_border_geometry_009",
-          "prompt_text": "Set border thickness to {0.75}\""
+          "id": "document_structure_structure_toc_013",
+          "prompt_text": "Add the newly created {Limitations} section to the table of contents"
+        },
+        {
+          "id": "document_structure_structure_toc_014",
+          "prompt_text": "Update the TOC numbering so it matches the section numbers in the body"
+        },
+        {
+          "id": "document_structure_structure_toc_015",
+          "prompt_text": "Fix the TOC entry that still shows the old heading {Overview} instead of {Executive Summary}"
         }
       ]
     }

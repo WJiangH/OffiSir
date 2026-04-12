@@ -1,13 +1,11 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import CategorySidebar from './components/CategorySidebar'
 import ContextPanel from './components/ContextPanel'
 import LibraryPanel from './components/LibraryPanel'
+import ResizeHandle from './components/ResizeHandle'
 import SelectedTray from './components/SelectedTray'
+import TaskTabBar from './components/TaskTabBar'
 import TurnQueuePanel from './components/TurnQueuePanel'
-import {
-  STRICT_TURN_COUNT,
-  WORKFLOW_SUMMARY,
-} from './constants'
 import usePersistentState from './usePersistentState'
 import useSessionState from './useSessionState'
 import {
@@ -99,12 +97,26 @@ export default function ReviewerPage() {
   const [librarySort, setLibrarySort] = useState('priority')
   const [strictMode, setStrictMode] = usePersistentState('reviewer_strict_mode_v1', true)
   const [startTurn, setStartTurn] = usePersistentState('reviewer_start_turn_v1', 2)
+  const [endTurn, setEndTurn] = usePersistentState('reviewer_end_turn_v1', 20)
+  const [minPerTurn, setMinPerTurn] = usePersistentState('reviewer_min_per_turn_v1', 3)
+  const [maxPerTurn, setMaxPerTurn] = usePersistentState('reviewer_max_per_turn_v1', 6)
   const [selectedItems, setSelectedItems] = usePersistentState('reviewer_selected_items_v1', [])
   const [favoriteIds, setFavoriteIds] = usePersistentState('reviewer_favorite_prompt_ids_v1', [])
   const [customPrompts, setCustomPrompts] = useSessionState('reviewer_custom_prompts_v1', [])
   const [builtTurns, setBuiltTurns] = useState([])
   const [exportFormat, setExportFormat] = useState('markdown')
-  const [statusMessage, setStatusMessage] = useState('')
+  const [savedTasks, setSavedTasks] = useState([])
+  const [activeTaskId, setActiveTaskId] = useState(null)
+  const [copyPointer, setCopyPointer] = useState(0) // index into builtTurns
+  const loadingTaskRef = useRef(false) // skip turn-clear when loading a task
+  const [flashTaskId, setFlashTaskId] = useState(null) // for save animation
+  const [flyingPill, setFlyingPill] = useState(null) // { text, fromRect }
+  const [hoveredInstanceIds, setHoveredInstanceIds] = useState(new Set())
+  const [selectedTrayHeight, setSelectedTrayHeight] = usePersistentState('reviewer_tray_height_v2', 28) // vh units
+  const saveButtonRef = useRef(null)
+  const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
+
+  const turnCount = Math.max(1, endTurn - startTurn + 1)
 
   useEffect(() => {
     let ignore = false
@@ -163,8 +175,169 @@ export default function ReviewerPage() {
   }, [categories, selectedCategory, selectedSubcategory])
 
   useEffect(() => {
+    if (loadingTaskRef.current) {
+      loadingTaskRef.current = false
+      return
+    }
     setBuiltTurns([])
+    setCopyPointer(0)
   }, [selectedItems])
+
+  // Auto-save active task OR keep new-workspace state in sync
+  useEffect(() => {
+    if (activeTaskId === null) {
+      newWorkspaceRef.current = { selectedItems, builtTurns, copyPointer }
+      return
+    }
+    setSavedTasks((current) =>
+      current.map((task) =>
+        task.id === activeTaskId
+          ? { ...task, selectedItems, builtTurns, copyPointer }
+          : task
+      )
+    )
+  }, [selectedItems, builtTurns, copyPointer, activeTaskId])
+
+  const saveAsTask = () => {
+    const nextId = savedTasks.length
+    const taskName = `task-${nextId}`
+    const count = selectedItems.length
+    const newTask = {
+      id: nextId,
+      name: taskName,
+      selectedItems: [...selectedItems],
+      builtTurns: [...builtTurns],
+      copyPointer,
+    }
+
+    // Launch flying pill animation from the Save button to the tab bar
+    if (saveButtonRef.current) {
+      const rect = saveButtonRef.current.getBoundingClientRect()
+      setFlyingPill({ text: `${taskName} · ${count}`, fromRect: rect })
+      setTimeout(() => setFlyingPill(null), 700)
+    }
+
+    setSavedTasks((current) => [...current, newTask])
+    setActiveTaskId(null)
+    setBuiltTurns([])
+    setCopyPointer(0)
+    // Flash the new tab after the pill lands
+    setTimeout(() => setFlashTaskId(nextId), 600)
+    setTimeout(() => setFlashTaskId(null), 1800)
+  }
+
+  const startNewTask = () => {
+    loadingTaskRef.current = true
+    setActiveTaskId(null)
+    setSelectedItems(newWorkspaceRef.current.selectedItems)
+    setBuiltTurns(newWorkspaceRef.current.builtTurns)
+    setCopyPointer(newWorkspaceRef.current.copyPointer)
+  }
+
+  const switchToTask = (taskId) => {
+    // Clicking the active tab unselects it -> restore the new-workspace state
+    if (taskId === activeTaskId) {
+      startNewTask()
+      return
+    }
+    // Save current new-workspace state before switching into a task (only when coming from +New)
+    if (activeTaskId === null) {
+      newWorkspaceRef.current = {
+        selectedItems: [...selectedItems],
+        builtTurns: [...builtTurns],
+        copyPointer,
+      }
+    }
+    const task = savedTasks.find((t) => t.id === taskId)
+    if (!task) return
+    loadingTaskRef.current = true
+    setActiveTaskId(taskId)
+    setSelectedItems(task.selectedItems)
+    setBuiltTurns(task.builtTurns)
+    setCopyPointer(task.copyPointer || 0)
+  }
+
+  const deleteTask = (taskId) => {
+    setSavedTasks((current) => current.filter((t) => t.id !== taskId))
+    if (activeTaskId === taskId) {
+      // Fall back to new workspace
+      loadingTaskRef.current = true
+      setActiveTaskId(null)
+      setSelectedItems(newWorkspaceRef.current.selectedItems)
+      setBuiltTurns(newWorkspaceRef.current.builtTurns)
+      setCopyPointer(newWorkspaceRef.current.copyPointer)
+    }
+  }
+
+  const updateActiveTask = () => {
+    if (activeTaskId === null) return
+    // Auto-save effect already mirrors state, so just flash the tab
+    setFlashTaskId(activeTaskId)
+    setTimeout(() => setFlashTaskId(null), 1200)
+  }
+
+  const removeRemainingTurns = () => {
+    if (copyPointer === 0 || !builtTurns.length) return
+    const keptTurns = builtTurns.slice(0, copyPointer)
+    const keptItemIds = new Set(
+      keptTurns.flatMap((turn) => turn.items.map((item) => item.instanceId))
+    )
+    const keptSelected = selectedItems.filter((item) => keptItemIds.has(item.instanceId))
+    loadingTaskRef.current = true // don't wipe turns on selectedItems change
+    setSelectedItems(keptSelected)
+    setBuiltTurns(keptTurns)
+    setStartTurn((current) => current + copyPointer)
+    setCopyPointer(0)
+  }
+
+  const updateTurnText = (turnIndex, newText) => {
+    const turn = builtTurns[turnIndex]
+    if (!turn) return
+    // Split by semicolons, trim, map to items by index
+    const chunks = newText.split(';').map((s) => s.trim()).filter(Boolean)
+    if (chunks.length === 0) return
+    // Update corresponding selectedItems by instanceId
+    const updatedItemIds = new Set()
+    setSelectedItems((current) =>
+      current.map((item) => {
+        const idx = turn.items.findIndex((ti) => ti.instanceId === item.instanceId)
+        if (idx === -1 || idx >= chunks.length) return item
+        updatedItemIds.add(item.instanceId)
+        return { ...item, promptText: chunks[idx] }
+      })
+    )
+    // Update the turn itself (non-destructive: update text and item texts)
+    loadingTaskRef.current = true
+    setBuiltTurns((current) =>
+      current.map((t, i) => {
+        if (i !== turnIndex) return t
+        const newItems = t.items.map((item, idx) => (
+          idx < chunks.length ? { ...item, promptText: chunks[idx] } : item
+        ))
+        return { ...t, items: newItems, text: chunks.join('; ') }
+      })
+    )
+  }
+
+  const copyCurrentTurn = async () => {
+    if (!builtTurns.length || copyPointer >= builtTurns.length) return
+    const turn = builtTurns[copyPointer]
+    if (!turn.text) {
+      // Skip empty turns
+      setCopyPointer((p) => p + 1)
+      return
+    }
+    try {
+      await navigator.clipboard.writeText(turn.text)
+      setCopyPointer((p) => p + 1)
+    } catch {
+      // clipboard failed
+    }
+  }
+
+  const resetCopyProgress = () => {
+    setCopyPointer(0)
+  }
 
   const prompts = useMemo(() => [...basePrompts, ...customPrompts], [basePrompts, customPrompts])
   const favoriteSet = new Set(favoriteIds)
@@ -206,24 +379,40 @@ export default function ReviewerPage() {
   const filteredPrompts = sortItems(
     promptsWithLabels.filter((prompt) => {
       if (!prompt.active) return false
-      if (selectedCategory && prompt.category !== selectedCategory) return false
-      if (selectedSubcategory !== 'all' && prompt.subcategory !== selectedSubcategory) return false
+      // Starred-only mode: ignore category/subcategory filters, show all starred
+      if (favoritesOnly) {
+        if (!prompt.favorite) return false
+      } else {
+        if (selectedCategory && prompt.category !== selectedCategory) return false
+        if (selectedSubcategory !== 'all' && prompt.subcategory !== selectedSubcategory) return false
+      }
       if (!promptMatchesDocType(prompt.doc_type, docTypeFilter)) return false
       if (priorityFilter !== 'all' && prompt.priority !== priorityFilter) return false
-      if (favoritesOnly && !prompt.favorite) return false
       if (searchTerm && !buildSearchText(prompt).includes(searchTerm)) return false
       return true
     }),
     librarySort
   )
 
-  const queueValidation = validateQueue(selectedItems, builtTurns, strictMode)
+  const queueValidation = validateQueue(selectedItems, builtTurns, strictMode, turnCount, maxPerTurn)
   const exportText = exportQueue(builtTurns, exportFormat, startTurn)
 
   const addPrompt = (prompt) => {
     setSelectedItems((current) => [...current, createSelectedPrompt(prompt)])
-    setStatusMessage(`Added "${prompt.prompt_text}"`)
   }
+
+  const removePromptBySourceId = (sourceId) => {
+    setSelectedItems((current) => current.filter((item) => item.sourceId !== sourceId))
+  }
+
+  const removeItem = (instanceId) => {
+    setSelectedItems((current) => current.filter((item) => item.instanceId !== instanceId))
+  }
+
+  const selectedSourceIds = useMemo(
+    () => new Set(selectedItems.map((item) => item.sourceId).filter(Boolean)),
+    [selectedItems]
+  )
 
   const addCustomPrompt = (subcategoryId, promptText) => {
     const normalizedText = normalizePromptText(promptText)
@@ -248,7 +437,6 @@ export default function ReviewerPage() {
 
     setCustomPrompts((current) => [...current, nextPrompt])
     setSelectedItems((current) => [...current, createSelectedPrompt(nextPrompt)])
-    setStatusMessage('Added custom prompt')
   }
 
   const toggleFavorite = (promptId) => {
@@ -268,12 +456,10 @@ export default function ReviewerPage() {
         return true
       })
     })
-    setStatusMessage('Removed duplicate prompts')
   }
 
   const clearSelected = () => {
     setSelectedItems([])
-    setStatusMessage('Cleared selected prompts')
   }
 
   const updateItemText = (instanceId, newText) => {
@@ -284,78 +470,70 @@ export default function ReviewerPage() {
     )
   }
 
+  const addSubcategory = (name) => {
+    if (!activeCategory) return
+    const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
+    if (!id) return
+    setCategories((current) =>
+      current.map((cat) => {
+        if (cat.id !== selectedCategory) return cat
+        if (cat.subcategories.some((sub) => sub.id === id)) return cat
+        return {
+          ...cat,
+          subcategories: [...cat.subcategories, { id, label: name, description: `Custom subcategory` }],
+        }
+      })
+    )
+    setSelectedSubcategory(id)
+  }
+
   const clearTurns = () => {
     setBuiltTurns([])
-    setStatusMessage('Cleared export queue')
+    setCopyPointer(0)
   }
 
   const buildTurns = () => {
     if (selectedItems.length === 0) {
       setBuiltTurns([])
-      setStatusMessage('Add prompts before building turns')
       return
     }
 
-    if (selectedItems.length > STRICT_TURN_COUNT * 4) {
-      setStatusMessage(`Trim the selection to ${STRICT_TURN_COUNT * 4} prompts or fewer`)
+    if (selectedItems.length > turnCount * maxPerTurn) {
       return
     }
 
     const sortedItems = sortForTurnBuild(selectedItems)
-    const nextTurns = buildTwentyTurnQueue(sortedItems)
+    const nextTurns = buildTwentyTurnQueue(sortedItems, turnCount, minPerTurn, maxPerTurn)
 
-    if (!nextTurns) {
-      setStatusMessage('Could not build the turn queue')
-      return
-    }
+    if (!nextTurns) return
 
     setBuiltTurns(nextTurns)
-    setStatusMessage(`Built ${STRICT_TURN_COUNT} turns`)
+    setCopyPointer(0)
   }
 
   const copyExport = async () => {
     try {
       await navigator.clipboard.writeText(exportText)
-      setStatusMessage(`Copied ${exportFormat} export`)
     } catch {
-      setStatusMessage('Clipboard write failed')
+      // clipboard failed
     }
-  }
-
-  const downloadExport = () => {
-    const extension = exportFormat === 'markdown' ? 'md' : 'txt'
-    const blob = new Blob([exportText], { type: 'text/plain;charset=utf-8' })
-    const url = URL.createObjectURL(blob)
-    const anchor = document.createElement('a')
-    anchor.href = url
-    anchor.download = `revision-turn-queue.${extension}`
-    anchor.click()
-    URL.revokeObjectURL(url)
-    setStatusMessage(`Downloaded ${extension} export`)
   }
 
   return (
     <div className="reviewer-page">
-      <section className="reviewer-overview">
-        <div>
-          <span className="reviewer-eyebrow">Manual review workflow</span>
-          <h1>Revision prompt builder</h1>
-          <p>
-            Built around the Grok Computer Office Trials revise command style:
-            manual review, direct local fixes, strict turn queues, and exportable turn text.
-          </p>
-        </div>
+      <header className="reviewer-header">
+        <h1>OffiSir</h1>
+      </header>
 
-        <div className="reviewer-summary-grid">
-          {WORKFLOW_SUMMARY.map((summary) => (
-            <article key={summary} className="reviewer-summary-card">
-              <p>{summary}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <TaskTabBar
+        tasks={savedTasks}
+        activeTaskId={activeTaskId}
+        flashTaskId={flashTaskId}
+        onSwitchTask={switchToTask}
+        onNewTask={startNewTask}
+        onDeleteTask={deleteTask}
+      />
 
-      {statusMessage && <div className="reviewer-status-banner">{statusMessage}</div>}
       {error && <div className="reviewer-error-banner">{error}</div>}
 
       {loading ? (
@@ -367,10 +545,12 @@ export default function ReviewerPage() {
             counts={selectedCategoryCounts}
             onSelectCategory={setSelectedCategory}
             selectedCategory={selectedCategory}
+            totalPromptCount={promptsWithLabels.filter((p) => p.active).length}
           />
 
           <ContextPanel
             category={activeCategory}
+            onAddSubcategory={addSubcategory}
             onSelectSubcategory={setSelectedSubcategory}
             subcategoryCounts={subcategoryCounts}
             selectedSubcategory={selectedSubcategory}
@@ -385,6 +565,7 @@ export default function ReviewerPage() {
             librarySort={librarySort}
             onAddCustomPrompt={addCustomPrompt}
             onAddPrompt={addPrompt}
+            onRemovePromptBySourceId={removePromptBySourceId}
             onDocTypeFilterChange={setDocTypeFilter}
             onFavoritesOnlyChange={setFavoritesOnly}
             onLibrarySortChange={setLibrarySort}
@@ -394,34 +575,83 @@ export default function ReviewerPage() {
             priorityFilter={priorityFilter}
             prompts={filteredPrompts}
             search={search}
+            selectedSourceIds={selectedSourceIds}
             selectedSubcategory={selectedSubcategory}
           />
 
           <div className="reviewer-right-rail">
-            <SelectedTray
-              groupedSelections={groupedSelections}
-              onClearSelected={clearSelected}
-              onDeduplicate={deduplicateSelected}
-              onUpdateItemText={updateItemText}
-              selectedCount={selectedItems.length}
-            />
+            <div
+              className="reviewer-right-rail-top"
+              style={{ flex: `0 0 ${Math.min(Math.max(selectedTrayHeight, 20), 35)}vh` }}
+            >
+              <SelectedTray
+                groupedSelections={groupedSelections}
+                hoveredInstanceIds={hoveredInstanceIds}
+                onClearSelected={clearSelected}
+                onDeduplicate={deduplicateSelected}
+                onHoverItem={(instanceId) => setHoveredInstanceIds(instanceId ? new Set([instanceId]) : new Set())}
+                onRemoveItem={removeItem}
+                onUpdateItemText={updateItemText}
+                selectedCount={selectedItems.length}
+              />
+            </div>
+            <ResizeHandle heightPercent={selectedTrayHeight} onHeightChange={setSelectedTrayHeight} />
+            <div className="reviewer-right-rail-bottom">
 
             <TurnQueuePanel
+              activeTaskId={activeTaskId}
               exportFormat={exportFormat}
               exportText={exportText}
+              hoveredInstanceIds={hoveredInstanceIds}
               onBuildTurns={buildTurns}
               onClearTurns={clearTurns}
               onCopyExport={copyExport}
-              onDownloadExport={downloadExport}
+              onCopyCurrentTurn={copyCurrentTurn}
+              onHoverTurn={(turnIndex) => {
+                if (turnIndex === null) {
+                  setHoveredInstanceIds(new Set())
+                  return
+                }
+                const turn = builtTurns[turnIndex]
+                if (!turn) return
+                setHoveredInstanceIds(new Set(turn.items.map((i) => i.instanceId)))
+              }}
+              onRemoveRemainingTurns={removeRemainingTurns}
+              onResetCopyProgress={resetCopyProgress}
+              onSaveAsTask={saveAsTask}
+              onUpdateActiveTask={updateActiveTask}
+              onUpdateTurnText={updateTurnText}
               onExportFormatChange={setExportFormat}
               onStartTurnChange={setStartTurn}
               onStrictModeChange={setStrictMode}
+              onEndTurnChange={setEndTurn}
+              onMinPerTurnChange={setMinPerTurn}
+              onMaxPerTurnChange={setMaxPerTurn}
+              copyPointer={copyPointer}
+              minPerTurn={minPerTurn}
+              maxPerTurn={maxPerTurn}
+              saveButtonRef={saveButtonRef}
               startTurn={startTurn}
+              endTurn={endTurn}
               strictMode={strictMode}
+              turnCount={turnCount}
               turns={builtTurns}
               validation={queueValidation}
             />
+            </div>
           </div>
+        </div>
+      )}
+
+      {flyingPill && (
+        <div
+          className="reviewer-flying-pill"
+          style={{
+            left: flyingPill.fromRect.left,
+            top: flyingPill.fromRect.top,
+          }}
+        >
+          {flyingPill.text}
         </div>
       )}
     </div>

@@ -1,11 +1,15 @@
 import React from 'react'
+import { X } from 'lucide-react'
 import EditablePromptText from './EditablePromptText'
 
 export default function SelectedTray({
   groupedSelections,
   selectedCount,
+  hoveredInstanceIds,
   onDeduplicate,
   onClearSelected,
+  onHoverItem,
+  onRemoveItem,
   onUpdateItemText,
 }) {
   return (
@@ -42,11 +46,28 @@ export default function SelectedTray({
 
               <ol className="reviewer-summary-ol">
                 {group.items.map((item) => (
-                  <li key={item.instanceId}>
-                    <EditablePromptText
-                      text={item.promptText}
-                      onTextChange={(newText) => onUpdateItemText(item.instanceId, newText)}
-                    />
+                  <li
+                    key={item.instanceId}
+                    className={hoveredInstanceIds?.has(item.instanceId) ? 'is-linked' : ''}
+                    onMouseEnter={() => onHoverItem && onHoverItem(item.instanceId)}
+                    onMouseLeave={() => onHoverItem && onHoverItem(null)}
+                  >
+                    <div className="reviewer-summary-item">
+                      <div className="reviewer-summary-item-text">
+                        <EditablePromptText
+                          text={item.promptText}
+                          onTextChange={(newText) => onUpdateItemText(item.instanceId, newText)}
+                        />
+                      </div>
+                      <button
+                        className="reviewer-summary-item-remove"
+                        onClick={() => onRemoveItem && onRemoveItem(item.instanceId)}
+                        title="Remove this prompt"
+                        type="button"
+                      >
+                        <X size={12} />
+                      </button>
+                    </div>
                   </li>
                 ))}
               </ol>

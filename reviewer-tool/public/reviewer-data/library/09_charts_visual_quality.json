@@ -12,98 +12,134 @@
       "entries": [
         {
           "id": "charts_visual_quality_data_label_readability_001",
-          "prompt_text": "Add dot pattern to {third} pie slice"
+          "prompt_text": "Set the data label font in {chart_title} to {font_size} {font_name}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_002",
-          "prompt_text": "Add {stripe pattern} to {secondary bar series}"
+          "prompt_text": "Move the data labels outside the bars in {chart_title} so they are not clipped"
         },
         {
           "id": "charts_visual_quality_data_label_readability_003",
-          "prompt_text": "Add light {horizontal gridlines} across the {plot area}"
+          "prompt_text": "Change the data label color in {chart_title} to {text_color} so it contrasts with the bar fill"
         },
         {
           "id": "charts_visual_quality_data_label_readability_004",
-          "prompt_text": "Add {data markers} to every {point} in {trend line}"
+          "prompt_text": "Increase the data label font size in {chart_title} to {font_size}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_005",
-          "prompt_text": "Change data markers to {circles}"
+          "prompt_text": "Bold the data labels in {chart_title}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_006",
-          "prompt_text": "Change {axis labels} on {bar chart}"
+          "prompt_text": "Add a {text_color} background fill behind the data labels in {chart_title} so they pop"
         },
         {
           "id": "charts_visual_quality_data_label_readability_007",
-          "prompt_text": "Change {chart legend swatches} to {navy}, {teal}, and light gray"
+          "prompt_text": "Remove the overlapping data labels in {chart_title} and keep only the end-of-bar labels"
         },
         {
           "id": "charts_visual_quality_data_label_readability_008",
-          "prompt_text": "Change {chart title} font"
+          "prompt_text": "Rotate the data labels in {chart_title} to {rotation_angle} degrees so they do not overlap"
         },
         {
           "id": "charts_visual_quality_data_label_readability_009",
-          "prompt_text": "Change {chart title} to same {font}"
+          "prompt_text": "Show the data labels in {chart_title} with {decimal_places} decimal places"
         },
         {
           "id": "charts_visual_quality_data_label_readability_010",
-          "prompt_text": "Change {legend} text to same font"
+          "prompt_text": "Add {currency_symbol} to every data label in {chart_title}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_011",
-          "prompt_text": "Change {stacked bar} fills to alternating stripe and solid patterns"
+          "prompt_text": "Add percent signs to the data labels in {chart_title}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_012",
-          "prompt_text": "Change {two chart series} to {dark gray and light gray} with {patterns}"
+          "prompt_text": "Move the data labels to the center of each slice in {chart_title}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_013",
-          "prompt_text": "Embed the {chart} label font in PDF export"
+          "prompt_text": "Remove data labels from the small slices in {chart_title} and keep them only on slices over {threshold_percent}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_014",
-          "prompt_text": "Increase data markers to {8pt} {circles}"
+          "prompt_text": "Use leader lines on the data labels for the small slices in {chart_title}"
         },
         {
           "id": "charts_visual_quality_data_label_readability_015",
-          "prompt_text": "Make {gridlines} thinner than the {axis} lines"
-        },
-        {
-          "id": "charts_visual_quality_data_label_readability_016",
-          "prompt_text": "Remove all {gridlines} from {pie chart}"
-        },
-        {
-          "id": "charts_visual_quality_data_label_readability_017",
-          "prompt_text": "Remove vertical {gridlines} from {bar chart}"
-        },
-        {
-          "id": "charts_visual_quality_data_label_readability_018",
-          "prompt_text": "Set {data label} font"
-        },
-        {
-          "id": "charts_visual_quality_data_label_readability_019",
-          "prompt_text": "Use crosshatch fill"
-        },
-        {
-          "id": "charts_visual_quality_data_label_readability_020",
-          "prompt_text": "Use {distinct marker shapes} for each {series} in {scatter plot}"
+          "prompt_text": "Match the data label style in {chart_title} to {reference_chart}"
         }
       ]
     },
     {
-      "subcategory": "bar_width_spacing",
+      "subcategory": "color_accessibility",
       "priority": "charts_visual_quality",
       "doc_type": "both",
       "tags": [
         "charts_visual_quality",
-        "bar-width-spacing"
+        "color-accessibility"
       ],
       "entries": [
         {
-          "id": "charts_visual_quality_bar_width_spacing_001",
-          "prompt_text": "Match gridline spacing to {y-axis} {tick marks}"
+          "id": "charts_visual_quality_color_accessibility_001",
+          "prompt_text": "Use {pattern_type} fill patterns in addition to color on the bars in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_002",
+          "prompt_text": "Change the {series_name} series in {chart_title} to a {pattern_type} pattern"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_003",
+          "prompt_text": "Use grayscale-distinguishable fills for all series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_004",
+          "prompt_text": "Change the two series in {chart_title} to {fill_color_1} and {fill_color_2} with patterns"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_005",
+          "prompt_text": "Add distinct marker shapes for each series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_006",
+          "prompt_text": "Add a dot pattern to the {slice_name} slice in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_007",
+          "prompt_text": "Use a stripe pattern on the {series_name} bars in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_008",
+          "prompt_text": "Change the stacked bar fills in {chart_title} to alternating stripe and solid patterns"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_009",
+          "prompt_text": "Use crosshatch fill on the {series_name} series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_010",
+          "prompt_text": "Increase the line thickness of the {series_name} series in {chart_title} to {line_weight} for visibility"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_011",
+          "prompt_text": "Use dashed lines for the {series_name} series and solid lines for {second_series_name} in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_012",
+          "prompt_text": "Add direct labels to each line in {chart_title} so the legend is not the only way to distinguish series"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_013",
+          "prompt_text": "Make sure no two adjacent series in {chart_title} use the same fill brightness"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_014",
+          "prompt_text": "Change the {series_name} marker shape in {chart_title} to {marker_shape}"
+        },
+        {
+          "id": "charts_visual_quality_color_accessibility_015",
+          "prompt_text": "Add a {pattern_type} overlay to the forecast section in {chart_title}"
         }
       ]
     },
@@ -118,23 +154,513 @@
       "entries": [
         {
           "id": "charts_visual_quality_color_distinction_001",
-          "prompt_text": "Change gridline color in {chart} to {light gray}"
+          "prompt_text": "Change the {series_name} series color in {chart_title} to {fill_color}"
         },
         {
           "id": "charts_visual_quality_color_distinction_002",
-          "prompt_text": "Change {two series colors} to {dark blue} and {light gray}"
+          "prompt_text": "Change the two series in {chart_title} to {fill_color_1} and {fill_color_2}"
         },
         {
           "id": "charts_visual_quality_color_distinction_003",
-          "prompt_text": "Match {line chart} colors to colors used in {table headers}"
+          "prompt_text": "Match the chart colors in {chart_title} to the colors used in {reference_element}"
         },
         {
           "id": "charts_visual_quality_color_distinction_004",
-          "prompt_text": "Use same color"
+          "prompt_text": "Use a consistent color palette across {chart_title} and {reference_chart}"
         },
         {
           "id": "charts_visual_quality_color_distinction_005",
-          "prompt_text": "Use {grayscale distinguishable patterns} for all {chart series}"
+          "prompt_text": "Change the bar fill in {chart_title} from {old_color} to {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_006",
+          "prompt_text": "Increase the contrast between the {series_name} and {second_series_name} colors in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_007",
+          "prompt_text": "Set every series in {chart_title} to a shade of {base_color} from light to dark"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_008",
+          "prompt_text": "Change the highlight color on the {category_name} bar in {chart_title} to {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_009",
+          "prompt_text": "Use {fill_color} for positive values and {negative_color} for negative values in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_010",
+          "prompt_text": "Remove the gradient fill on the bars in {chart_title} and use a flat {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_011",
+          "prompt_text": "Change the {slice_name} slice color in {chart_title} to {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_012",
+          "prompt_text": "Match the line color for {series_name} in {chart_title} to the brand color {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_013",
+          "prompt_text": "Use the same color for {series_name} across all charts"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_014",
+          "prompt_text": "Desaturate the background series in {chart_title} so the focus series stands out"
+        },
+        {
+          "id": "charts_visual_quality_color_distinction_015",
+          "prompt_text": "Change the target line color in {chart_title} to {line_color}"
+        }
+      ]
+    },
+    {
+      "subcategory": "bar_width_spacing",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "bar-width-spacing"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_bar_width_spacing_001",
+          "prompt_text": "Increase the gap width between bars in {chart_title} to {gap_percent}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_002",
+          "prompt_text": "Reduce the gap width between bars in {chart_title} to {gap_percent}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_003",
+          "prompt_text": "Set the bar width in {chart_title} so bars do not overlap"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_004",
+          "prompt_text": "Match the bar width and spacing in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_005",
+          "prompt_text": "Set the overlap between grouped bars in {chart_title} to {overlap_percent}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_006",
+          "prompt_text": "Widen the bars in {chart_title} so they are easier to see"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_007",
+          "prompt_text": "Narrow the bars in {chart_title} so the data labels fit next to them"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_008",
+          "prompt_text": "Remove the gap between stacked segments in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_009",
+          "prompt_text": "Add a {gap_percent} gap between bar groups in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_010",
+          "prompt_text": "Make all bars in {chart_title} the same width"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_011",
+          "prompt_text": "Set the gap width in {chart_title} to {gap_percent} so the chart does not look cramped"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_012",
+          "prompt_text": "Reduce the bar overlap in {chart_title} to {overlap_percent} so individual bars are visible"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_013",
+          "prompt_text": "Even out the bar spacing in {chart_title} so all gaps are the same width"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_014",
+          "prompt_text": "Increase the pie chart explosion distance on the {slice_name} slice in {chart_title} to {explosion_value}"
+        },
+        {
+          "id": "charts_visual_quality_bar_width_spacing_015",
+          "prompt_text": "Set the doughnut hole size in {chart_title} to {hole_percent}"
+        }
+      ]
+    },
+    {
+      "subcategory": "chart_legend_formatting",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "chart-legend-formatting"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_001",
+          "prompt_text": "Set the legend font in {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_002",
+          "prompt_text": "Match the legend swatch colors in {chart_title} to the actual series fills"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_003",
+          "prompt_text": "Increase the legend swatch size in {chart_title} to {swatch_size}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_004",
+          "prompt_text": "Add a {border_weight} border around the legend box in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_005",
+          "prompt_text": "Remove the fill behind the legend box in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_006",
+          "prompt_text": "Set the legend text color in {chart_title} to {text_color}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_007",
+          "prompt_text": "Space the legend entries in {chart_title} {space_value} apart"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_008",
+          "prompt_text": "Align the legend swatches in {chart_title} to the left edge of the legend box"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_009",
+          "prompt_text": "Use round swatches instead of square ones in the legend of {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_010",
+          "prompt_text": "Match the legend formatting in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_011",
+          "prompt_text": "Add a {shading_color} background fill to the legend box in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_012",
+          "prompt_text": "Remove bold from the legend text in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_013",
+          "prompt_text": "Reduce the spacing between the swatch and the label text in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_014",
+          "prompt_text": "Set the legend layout in {chart_title} to {legend_layout} columns"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_015",
+          "prompt_text": "Shrink the legend font in {chart_title} to {font_size} so it does not crowd the plot area"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_016",
+          "prompt_text": "Move the {legend} outside the {plot area} so it does not overlap the data"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_017",
+          "prompt_text": "Move the {legend} below the {chart} so it does not cover the {last bar}"
+        },
+        {
+          "id": "charts_visual_quality_chart_legend_formatting_018",
+          "prompt_text": "Shrink the {legend} font to {8pt} so it fits without overlapping the {chart}"
+        }
+      ]
+    },
+    {
+      "subcategory": "gridline_styling",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "gridline-styling"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_gridline_styling_001",
+          "prompt_text": "Add light {gridline_color} horizontal gridlines to {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_002",
+          "prompt_text": "Remove all gridlines from {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_003",
+          "prompt_text": "Remove the vertical gridlines from {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_004",
+          "prompt_text": "Change the gridline color in {chart_title} to {gridline_color}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_005",
+          "prompt_text": "Set the gridline weight in {chart_title} to {gridline_weight}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_006",
+          "prompt_text": "Make the gridlines in {chart_title} thinner than the axis lines"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_007",
+          "prompt_text": "Match the gridline spacing in {chart_title} to the y-axis tick marks"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_008",
+          "prompt_text": "Use dashed gridlines in {chart_title} instead of solid"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_009",
+          "prompt_text": "Remove the gridlines from the pie chart in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_010",
+          "prompt_text": "Add minor gridlines to {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_011",
+          "prompt_text": "Match the gridline style in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_012",
+          "prompt_text": "Set the gridline interval in {chart_title} to every {tick_interval}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_013",
+          "prompt_text": "Remove the horizontal gridlines from {chart_title} and keep only the baseline"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_014",
+          "prompt_text": "Change the gridlines in {chart_title} from dotted to solid {gridline_color}"
+        },
+        {
+          "id": "charts_visual_quality_gridline_styling_015",
+          "prompt_text": "Add both horizontal and vertical gridlines to {chart_title} at {gridline_weight} {gridline_color}"
+        }
+      ]
+    },
+    {
+      "subcategory": "chart_font_consistency",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "chart-font-consistency"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_chart_font_consistency_001",
+          "prompt_text": "Set all text in {chart_title} to {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_002",
+          "prompt_text": "Change the chart title font in {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_003",
+          "prompt_text": "Change the axis label font in {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_004",
+          "prompt_text": "Match the chart fonts in {chart_title} to the document body font {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_005",
+          "prompt_text": "Set the legend font in {chart_title} to match the axis labels at {font_size}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_006",
+          "prompt_text": "Change the data label font in {chart_title} to {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_007",
+          "prompt_text": "Set the source line font under {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_008",
+          "prompt_text": "Match all chart text sizes in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_009",
+          "prompt_text": "Increase the axis tick label size in {chart_title} to {font_size}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_010",
+          "prompt_text": "Remove the italic style from the axis labels in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_011",
+          "prompt_text": "Bold the chart title in {chart_title} but leave all other text regular weight"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_012",
+          "prompt_text": "Set the annotation text in {chart_title} to {font_size} {font_name}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_013",
+          "prompt_text": "Change the font color of the axis labels in {chart_title} to {text_color}"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_014",
+          "prompt_text": "Reduce all chart text in {chart_title} by {size_reduction} so the plot area has more room"
+        },
+        {
+          "id": "charts_visual_quality_chart_font_consistency_015",
+          "prompt_text": "Use the same font weight for the legend and data labels in {chart_title}"
+        }
+      ]
+    },
+    {
+      "subcategory": "plot_area_cleanup",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "plot-area-cleanup"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_001",
+          "prompt_text": "Remove the plot area border from {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_002",
+          "prompt_text": "Remove the background fill from the plot area in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_003",
+          "prompt_text": "Set the plot area background in {chart_title} to {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_004",
+          "prompt_text": "Expand the plot area in {chart_title} to use the full chart width"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_005",
+          "prompt_text": "Add {padding_value} of padding between the plot area and the chart border in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_006",
+          "prompt_text": "Remove the chart border around {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_007",
+          "prompt_text": "Add a {border_weight} border around the chart frame of {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_008",
+          "prompt_text": "Remove the gradient background from {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_009",
+          "prompt_text": "Match the plot area size in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_010",
+          "prompt_text": "Set the chart background to white in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_011",
+          "prompt_text": "Remove the drop shadow from the chart frame of {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_012",
+          "prompt_text": "Reduce the white space between the title and the plot area in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_013",
+          "prompt_text": "Remove the rounded corners from the chart frame of {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_014",
+          "prompt_text": "Shrink the plot area margins in {chart_title} so the bars are not squeezed"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_015",
+          "prompt_text": "Set the chart border color in {chart_title} to {border_color}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_016",
+          "prompt_text": "Move the {annotation} so it does not overlap the {data series}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_017",
+          "prompt_text": "Move the {chart title} up so it does not overlap the top of the {plot area}"
+        },
+        {
+          "id": "charts_visual_quality_plot_area_cleanup_018",
+          "prompt_text": "Shrink the {chart} height so the x-axis labels do not get clipped at the {bottom margin}"
+        }
+      ]
+    },
+    {
+      "subcategory": "marker_line_styling",
+      "priority": "charts_visual_quality",
+      "doc_type": "both",
+      "tags": [
+        "charts_visual_quality",
+        "marker-line-styling"
+      ],
+      "entries": [
+        {
+          "id": "charts_visual_quality_marker_line_styling_001",
+          "prompt_text": "Add {marker_shape} data markers to every point in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_002",
+          "prompt_text": "Set the data markers in {chart_title} to {marker_size} {marker_shape}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_003",
+          "prompt_text": "Increase the line weight for {series_name} in {chart_title} to {line_weight}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_004",
+          "prompt_text": "Use a dashed line for the {series_name} series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_005",
+          "prompt_text": "Change the marker fill color in {chart_title} to {fill_color}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_006",
+          "prompt_text": "Remove the markers from {chart_title} and show lines only"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_007",
+          "prompt_text": "Set the target line in {chart_title} to a {line_weight} dashed {line_color} line"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_008",
+          "prompt_text": "Match the marker shapes in {chart_title} to {reference_chart}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_009",
+          "prompt_text": "Add a {line_color} smooth line to the {series_name} series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_010",
+          "prompt_text": "Use distinct line styles for each series in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_011",
+          "prompt_text": "Remove the marker border outline in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_012",
+          "prompt_text": "Set the trend line in {chart_title} to {line_weight} {line_color}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_013",
+          "prompt_text": "Change the line style for {series_name} in {chart_title} from dotted to solid"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_014",
+          "prompt_text": "Add a highlighted marker at the {category_name} data point in {chart_title}"
+        },
+        {
+          "id": "charts_visual_quality_marker_line_styling_015",
+          "prompt_text": "Set the error bar line weight in {chart_title} to {line_weight}"
         }
       ]
     }

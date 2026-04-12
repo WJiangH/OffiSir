@@ -1,12 +1,12 @@
 import React from 'react'
 import { PRIORITY_LABELS, PRIORITY_ORDER } from '../constants'
 
-export default function CategorySidebar({ categories, counts, selectedCategory, onSelectCategory }) {
+export default function CategorySidebar({ categories, counts, selectedCategory, onSelectCategory, totalPromptCount }) {
   return (
     <aside className="reviewer-panel reviewer-sidebar">
       <div className="reviewer-panel-header">
         <div>
-          <h2>Categories</h2>
+          <h2>Categories ({totalPromptCount} prompts)</h2>
           <p>Browse the library by review area</p>
         </div>
       </div>

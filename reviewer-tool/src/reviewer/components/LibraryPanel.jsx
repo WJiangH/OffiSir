@@ -1,12 +1,22 @@
 import React, { useMemo, useState } from 'react'
-import { Plus, Search, Star } from 'lucide-react'
-import { DOC_TYPE_LABELS, LIBRARY_SORT_OPTIONS, PRIORITY_LABELS } from '../constants'
-import { formatDocType, formatPriority } from '../utils'
+import { Check, Plus, Search, Star } from 'lucide-react'
 import PromptText from './PromptText'
 
-function PromptCard({ prompt, onAddPrompt, onToggleFavorite }) {
+function PromptCard({ prompt, isAdded, showCheckbox, onAddPrompt, onToggleFavorite, onRemovePromptBySourceId }) {
   return (
-    <article className="reviewer-library-card reviewer-library-card--inline">
+    <article className={`reviewer-library-card reviewer-library-card--inline ${isAdded ? 'is-added' : ''}`}>
+      {showCheckbox && (
+        <label className="reviewer-library-checkbox">
+          <input
+            type="checkbox"
+            checked={isAdded}
+            onChange={(e) => {
+              if (e.target.checked) onAddPrompt(prompt)
+              else onRemovePromptBySourceId(prompt.id)
+            }}
+          />
+        </label>
+      )}
       <p className="reviewer-library-card-text"><PromptText text={prompt.prompt_text} /></p>
       <div className="reviewer-library-card-actions">
         <button
@@ -14,11 +24,15 @@ function PromptCard({ prompt, onAddPrompt, onToggleFavorite }) {
           onClick={() => onToggleFavorite(prompt.id)}
           type="button"
         >
-          <Star size={14} />
+          <Star size={14} fill={prompt.favorite ? 'currentColor' : 'none'} />
         </button>
-        <button className="reviewer-primary-button" onClick={() => onAddPrompt(prompt)} type="button">
-          <Plus size={14} />
-          Add
+        <button
+          className={`reviewer-primary-button ${isAdded ? 'is-added' : ''}`}
+          onClick={() => onAddPrompt(prompt)}
+          type="button"
+        >
+          {isAdded ? <Check size={14} /> : <Plus size={14} />}
+          {isAdded ? 'Added' : 'Add'}
         </button>
       </div>
     </article>
@@ -31,16 +45,12 @@ export default function LibraryPanel({
   prompts,
   search,
   onSearchChange,
-  docTypeFilter,
-  onDocTypeFilterChange,
-  priorityFilter,
-  onPriorityFilterChange,
   favoritesOnly,
   onFavoritesOnlyChange,
-  librarySort,
-  onLibrarySortChange,
   onAddPrompt,
+  onRemovePromptBySourceId,
   onToggleFavorite,
+  selectedSourceIds,
   selectedSubcategory,
   onAddCustomPrompt,
 }) {
@@ -61,12 +71,29 @@ export default function LibraryPanel({
     )
   ), [prompts, visibleSubcategories])
 
+  const promptsByCategory = useMemo(() => {
+    if (!favoritesOnly) return []
+    const groups = new Map()
+    prompts.forEach((prompt) => {
+      const key = prompt.category
+      const label = prompt.category_label || prompt.category
+      if (!groups.has(key)) groups.set(key, { id: key, label, entries: [] })
+      groups.get(key).entries.push(prompt)
+    })
+    return Array.from(groups.values())
+  }, [prompts, favoritesOnly])
+
   const handleAddCustomPrompt = (subcategory) => {
     const draftText = drafts[subcategory.id]?.trim()
     if (!draftText) return
-
     onAddCustomPrompt(subcategory.id, draftText)
     setDrafts((current) => ({ ...current, [subcategory.id]: '' }))
+  }
+
+  const handleAddAll = (entries) => {
+    entries.forEach((prompt) => {
+      if (!selectedSourceIds?.has(prompt.id)) onAddPrompt(prompt)
+    })
   }
 
   return (
@@ -74,7 +101,7 @@ export default function LibraryPanel({
       <div className="reviewer-panel-header">
         <div>
           <h2>Prompt library</h2>
-          <p>{activeCategoryLabel}</p>
+          <p>{favoritesOnly ? 'Starred prompts across all categories' : activeCategoryLabel}</p>
         </div>
         <span className="reviewer-count-pill">{prompts.length} ready</span>
       </div>
@@ -90,85 +117,117 @@ export default function LibraryPanel({
           />
         </label>
 
-        <select className="reviewer-select" onChange={(event) => onDocTypeFilterChange(event.target.value)} value={docTypeFilter}>
-          <option value="all">All doc types</option>
-          {Object.entries(DOC_TYPE_LABELS).map(([value, label]) => (
-            <option key={value} value={value}>
-              {label}
-            </option>
-          ))}
-        </select>
-
-        <select className="reviewer-select" onChange={(event) => onPriorityFilterChange(event.target.value)} value={priorityFilter}>
-          <option value="all">All priorities</option>
-          {Object.entries(PRIORITY_LABELS).map(([value, label]) => (
-            <option key={value} value={value}>
-              {label}
-            </option>
-          ))}
-        </select>
-
-        <select className="reviewer-select" onChange={(event) => onLibrarySortChange(event.target.value)} value={librarySort}>
-          {LIBRARY_SORT_OPTIONS.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
-
-        <label className="reviewer-checkbox">
-          <input checked={favoritesOnly} onChange={(event) => onFavoritesOnlyChange(event.target.checked)} type="checkbox" />
-          Favorites only
-        </label>
+        <button
+          className={`reviewer-starred-toggle ${favoritesOnly ? 'is-active' : ''}`}
+          onClick={() => onFavoritesOnlyChange(!favoritesOnly)}
+          type="button"
+          title="Show only starred prompts"
+        >
+          <Star size={14} fill={favoritesOnly ? 'currentColor' : 'none'} />
+          Starred only
+        </button>
       </div>
 
       <div className="reviewer-library-sections">
-        {visibleSubcategories.map((subcategory) => {
-          const sectionPrompts = promptsBySubcategory[subcategory.id] || []
-
-          return (
-            <section key={subcategory.id} className="reviewer-subcategory-section">
-              <div className="reviewer-subcategory-header">
-                <div>
-                  <h3>{subcategory.label}</h3>
-                  <p>{subcategory.description}</p>
-                </div>
-                <span className="reviewer-count-pill">{sectionPrompts.length}</span>
-              </div>
-
-              {sectionPrompts.length === 0 ? (
-                <div className="reviewer-empty-summary reviewer-empty-summary--compact">
-                  No prompts match these filters
-                </div>
-              ) : (
-                <div className="reviewer-library-list">
-                  {sectionPrompts.map((prompt) => (
-                    <PromptCard key={prompt.id} onAddPrompt={onAddPrompt} onToggleFavorite={onToggleFavorite} prompt={prompt} />
-                  ))}
-                </div>
-              )}
-
-              <div className="reviewer-subcategory-custom">
-                <input
-                  className="reviewer-subcategory-input"
-                  onChange={(event) => setDrafts((current) => ({ ...current, [subcategory.id]: event.target.value }))}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter') {
-                      event.preventDefault()
-                      handleAddCustomPrompt(subcategory)
-                    }
-                  }}
-                  placeholder={`Add a custom prompt to ${subcategory.label.toLowerCase()}`}
-                  type="text"
-                  value={drafts[subcategory.id] || ''}
-                />
-                <button className="reviewer-primary-button" onClick={() => handleAddCustomPrompt(subcategory)} type="button">
-                  Add
-                </button>
-              </div>
-            </section>
+        {favoritesOnly ? (
+          promptsByCategory.length === 0 ? (
+            <div className="reviewer-empty-summary">
+              No starred prompts yet. Click the ☆ icon on any prompt to star it.
+            </div>
+          ) : (
+            promptsByCategory.map((group) => {
+              const allAdded = group.entries.every((p) => selectedSourceIds?.has(p.id))
+              return (
+                <section key={group.id} className="reviewer-subcategory-section">
+                  <div className="reviewer-subcategory-header">
+                    <div>
+                      <h3>{group.label}</h3>
+                    </div>
+                    <div className="reviewer-subcategory-header-actions">
+                      <span className="reviewer-count-pill">{group.entries.length}</span>
+                      <button
+                        className="reviewer-secondary-button reviewer-add-all-button"
+                        disabled={allAdded}
+                        onClick={() => handleAddAll(group.entries)}
+                        type="button"
+                      >
+                        <Plus size={14} />
+                        {allAdded ? 'All added' : 'Add all'}
+                      </button>
+                    </div>
+                  </div>
+                  <div className="reviewer-library-list">
+                    {group.entries.map((prompt) => (
+                      <PromptCard
+                        key={prompt.id}
+                        prompt={prompt}
+                        isAdded={selectedSourceIds?.has(prompt.id)}
+                        showCheckbox={true}
+                        onAddPrompt={onAddPrompt}
+                        onRemovePromptBySourceId={onRemovePromptBySourceId}
+                        onToggleFavorite={onToggleFavorite}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )
+            })
           )
-        })}
+        ) : (
+          visibleSubcategories.map((subcategory) => {
+            const sectionPrompts = promptsBySubcategory[subcategory.id] || []
+            return (
+              <section key={subcategory.id} className="reviewer-subcategory-section">
+                <div className="reviewer-subcategory-header">
+                  <div>
+                    <h3>{subcategory.label}</h3>
+                    <p>{subcategory.description}</p>
+                  </div>
+                  <span className="reviewer-count-pill">{sectionPrompts.length}</span>
+                </div>
+
+                {sectionPrompts.length === 0 ? (
+                  <div className="reviewer-empty-summary reviewer-empty-summary--compact">
+                    No prompts match these filters
+                  </div>
+                ) : (
+                  <div className="reviewer-library-list">
+                    {sectionPrompts.map((prompt) => (
+                      <PromptCard
+                        key={prompt.id}
+                        prompt={prompt}
+                        isAdded={selectedSourceIds?.has(prompt.id)}
+                        showCheckbox={false}
+                        onAddPrompt={onAddPrompt}
+                        onRemovePromptBySourceId={onRemovePromptBySourceId}
+                        onToggleFavorite={onToggleFavorite}
+                      />
+                    ))}
+                  </div>
+                )}
+
+                <div className="reviewer-subcategory-custom">
+                  <input
+                    className="reviewer-subcategory-input"
+                    onChange={(event) => setDrafts((current) => ({ ...current, [subcategory.id]: event.target.value }))}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') {
+                        event.preventDefault()
+                        handleAddCustomPrompt(subcategory)
+                      }
+                    }}
+                    placeholder={`Add a custom prompt to ${subcategory.label.toLowerCase()}`}
+                    type="text"
+                    value={drafts[subcategory.id] || ''}
+                  />
+                  <button className="reviewer-primary-button" onClick={() => handleAddCustomPrompt(subcategory)} type="button">
+                    Add
+                  </button>
+                </div>
+              </section>
+            )
+          })
+        )}
       </div>
     </section>
   )

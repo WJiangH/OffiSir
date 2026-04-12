@@ -2,6 +2,381 @@
   "category": "images",
   "groups": [
     {
+      "subcategory": "image_placement_positioning",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "image-placement-positioning"
+      ],
+      "entries": [
+        {
+          "id": "images_image_placement_positioning_001",
+          "prompt_text": "Align the {image} left edge with the {text left margin}"
+        },
+        {
+          "id": "images_image_placement_positioning_002",
+          "prompt_text": "Center the {logo} below the {title}"
+        },
+        {
+          "id": "images_image_placement_positioning_003",
+          "prompt_text": "Move the {footer logo} to {center-bottom} of the page"
+        },
+        {
+          "id": "images_image_placement_positioning_004",
+          "prompt_text": "Move the {partner logo} to the {right side} of the header bar"
+        },
+        {
+          "id": "images_image_placement_positioning_005",
+          "prompt_text": "Move the {logo} away from the {right edge} by {distance}"
+        },
+        {
+          "id": "images_image_placement_positioning_006",
+          "prompt_text": "Move the {logo} from the footer to the header"
+        },
+        {
+          "id": "images_image_placement_positioning_007",
+          "prompt_text": "Move the {logo} to the {top left corner} of the page"
+        },
+        {
+          "id": "images_image_placement_positioning_008",
+          "prompt_text": "Move the {logo} {distance} away from the {top right corner}"
+        },
+        {
+          "id": "images_image_placement_positioning_009",
+          "prompt_text": "Move the {product image} to the {right side} of the text block"
+        },
+        {
+          "id": "images_image_placement_positioning_010",
+          "prompt_text": "Place the {image} after the {section intro} paragraph"
+        },
+        {
+          "id": "images_image_placement_positioning_011",
+          "prompt_text": "Place the {logo} on the {same line} as the {company name}"
+        },
+        {
+          "id": "images_image_placement_positioning_012",
+          "prompt_text": "Move the {diagram} {distance} away from the page edge"
+        },
+        {
+          "id": "images_image_placement_positioning_013",
+          "prompt_text": "Shift the {screenshot} left by {distance}"
+        },
+        {
+          "id": "images_image_placement_positioning_014",
+          "prompt_text": "Shift the {background image} down {distance} to center it on the page"
+        },
+        {
+          "id": "images_image_placement_positioning_015",
+          "prompt_text": "Center the {figure} between the left and right margins"
+        },
+        {
+          "id": "images_image_placement_positioning_016",
+          "prompt_text": "Move the {image} so it does not overlap the {section header} above it"
+        },
+        {
+          "id": "images_image_placement_positioning_017",
+          "prompt_text": "Move the {chart} so it does not overlap the {table} below it"
+        }
+      ]
+    },
+    {
+      "subcategory": "image_sizing_scaling",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "image-sizing-scaling"
+      ],
+      "entries": [
+        {
+          "id": "images_image_sizing_scaling_001",
+          "prompt_text": "Make all {product photos} the same height at {dimension}"
+        },
+        {
+          "id": "images_image_sizing_scaling_002",
+          "prompt_text": "Make the {icon} {dimension} square"
+        },
+        {
+          "id": "images_image_sizing_scaling_003",
+          "prompt_text": "Reduce the {logo} to {dimension} tall in the header"
+        },
+        {
+          "id": "images_image_sizing_scaling_004",
+          "prompt_text": "Resize the {image} to {dimension} wide"
+        },
+        {
+          "id": "images_image_sizing_scaling_005",
+          "prompt_text": "Scale the {diagram} down to {dimension} wide"
+        },
+        {
+          "id": "images_image_sizing_scaling_006",
+          "prompt_text": "Set all {headshot photos} to {width} by {height}"
+        },
+        {
+          "id": "images_image_sizing_scaling_007",
+          "prompt_text": "Shrink the {hero image} to {dimension} wide"
+        },
+        {
+          "id": "images_image_sizing_scaling_008",
+          "prompt_text": "Shrink the {logo} to {dimension} tall and keep it in the header"
+        },
+        {
+          "id": "images_image_sizing_scaling_009",
+          "prompt_text": "Shrink the oversized {image} so it fits inside the {text margins}"
+        },
+        {
+          "id": "images_image_sizing_scaling_010",
+          "prompt_text": "Shrink the {image} {distance} on each side to sit inside the margins"
+        },
+        {
+          "id": "images_image_sizing_scaling_011",
+          "prompt_text": "Enlarge the {thumbnail image} to {dimension} wide"
+        },
+        {
+          "id": "images_image_sizing_scaling_012",
+          "prompt_text": "Match the width of the {image} to the {text column} width"
+        },
+        {
+          "id": "images_image_sizing_scaling_013",
+          "prompt_text": "Reduce the {banner image} height to {dimension}"
+        },
+        {
+          "id": "images_image_sizing_scaling_014",
+          "prompt_text": "Make the {left image} and {right image} the same width"
+        },
+        {
+          "id": "images_image_sizing_scaling_015",
+          "prompt_text": "Set the maximum width for the {image} to {dimension}"
+        }
+      ]
+    },
+    {
+      "subcategory": "image_text_wrap",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "image-text-wrap"
+      ],
+      "entries": [
+        {
+          "id": "images_image_text_wrap_001",
+          "prompt_text": "Add {padding} of {wrap padding} between the {image} and the body text"
+        },
+        {
+          "id": "images_image_text_wrap_002",
+          "prompt_text": "Change the {image} wrap to {square wrap} with {padding} of padding"
+        },
+        {
+          "id": "images_image_text_wrap_003",
+          "prompt_text": "Change the {image} wrap to {tight} on the {right side}"
+        },
+        {
+          "id": "images_image_text_wrap_004",
+          "prompt_text": "Increase the wrap margin to {padding} on all sides of the {photo}"
+        },
+        {
+          "id": "images_image_text_wrap_005",
+          "prompt_text": "Move the text block away from the {image} edge"
+        },
+        {
+          "id": "images_image_text_wrap_006",
+          "prompt_text": "Remove the text overlap on the left side of the {image}"
+        },
+        {
+          "id": "images_image_text_wrap_007",
+          "prompt_text": "Remove the text wrap and place the {image} on its own line"
+        },
+        {
+          "id": "images_image_text_wrap_008",
+          "prompt_text": "Set the {body text} to wrap cleanly around the {right side} of the {image}"
+        },
+        {
+          "id": "images_image_text_wrap_009",
+          "prompt_text": "Set the {sidebar image} to {square wrap} with text on the left"
+        },
+        {
+          "id": "images_image_text_wrap_010",
+          "prompt_text": "Set the {diagram} to {top-and-bottom} wrap"
+        },
+        {
+          "id": "images_image_text_wrap_011",
+          "prompt_text": "Switch the {icon} to inline with the {heading}"
+        },
+        {
+          "id": "images_image_text_wrap_012",
+          "prompt_text": "Remove the empty space above and below the {diagram}"
+        },
+        {
+          "id": "images_image_text_wrap_013",
+          "prompt_text": "Fix the wrapped text in bullet {item_number} that collides with the {image}"
+        },
+        {
+          "id": "images_image_text_wrap_014",
+          "prompt_text": "Change the {image} from inline to {floating} so text wraps around it"
+        },
+        {
+          "id": "images_image_text_wrap_015",
+          "prompt_text": "Add {padding} between the {image} and the {caption} below it"
+        },
+        {
+          "id": "images_image_text_wrap_016",
+          "prompt_text": "Move the {caption} down {4pt} so it does not overlap the bottom of the {image}"
+        },
+        {
+          "id": "images_image_text_wrap_017",
+          "prompt_text": "Move the {figure label} so it does not overlap the {image border}"
+        },
+        {
+          "id": "images_image_text_wrap_018",
+          "prompt_text": "Shrink the {image} width so the wrapped text has at least {1 inch} of reading width"
+        }
+      ]
+    },
+    {
+      "subcategory": "image_cropping_effects",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "image-cropping-effects"
+      ],
+      "entries": [
+        {
+          "id": "images_image_cropping_effects_001",
+          "prompt_text": "Crop the {white border} off the {screenshot} in the {section_name} section"
+        },
+        {
+          "id": "images_image_cropping_effects_002",
+          "prompt_text": "Crop the {product image} to remove {excess background} on all four sides"
+        },
+        {
+          "id": "images_image_cropping_effects_003",
+          "prompt_text": "Pull the {image} to the full page edge with no white strip"
+        },
+        {
+          "id": "images_image_cropping_effects_004",
+          "prompt_text": "Extend the {background image} to the page edge"
+        },
+        {
+          "id": "images_image_cropping_effects_005",
+          "prompt_text": "Extend the {section divider image} to full width on {top}, {left}, and {right} sides"
+        },
+        {
+          "id": "images_image_cropping_effects_006",
+          "prompt_text": "Round the corners on the {team photo} to {radius}"
+        },
+        {
+          "id": "images_image_cropping_effects_007",
+          "prompt_text": "Remove the {drop shadow} from the {product photo}"
+        },
+        {
+          "id": "images_image_cropping_effects_008",
+          "prompt_text": "Remove the {reflection effect} from the {logo} image"
+        },
+        {
+          "id": "images_image_cropping_effects_009",
+          "prompt_text": "Rotate the sideways {diagram} {angle} clockwise"
+        },
+        {
+          "id": "images_image_cropping_effects_010",
+          "prompt_text": "Rotate the tilted {scan image} {angle} clockwise to straighten it"
+        },
+        {
+          "id": "images_image_cropping_effects_011",
+          "prompt_text": "Crop the {image} to a {ratio} aspect ratio"
+        },
+        {
+          "id": "images_image_cropping_effects_012",
+          "prompt_text": "Remove the {border} from the {hero image}"
+        },
+        {
+          "id": "images_image_cropping_effects_013",
+          "prompt_text": "Add a {radius} rounded crop to all {product photos}"
+        },
+        {
+          "id": "images_image_cropping_effects_014",
+          "prompt_text": "Crop the top {distance} off the {banner image} to remove the blank area"
+        },
+        {
+          "id": "images_image_cropping_effects_015",
+          "prompt_text": "Remove the {vignette effect} from the {background image}"
+        }
+      ]
+    },
+    {
+      "subcategory": "image_border_styling",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "image-border-styling"
+      ],
+      "entries": [
+        {
+          "id": "images_image_border_styling_001",
+          "prompt_text": "Add a thin {color} border around each {product image}"
+        },
+        {
+          "id": "images_image_border_styling_002",
+          "prompt_text": "Add a {weight} {color} border around the {screenshot}"
+        },
+        {
+          "id": "images_image_border_styling_003",
+          "prompt_text": "Match the {border} style on all {product images} to a thin {color} line"
+        },
+        {
+          "id": "images_image_border_styling_004",
+          "prompt_text": "Remove the thick {black border} from the {figure}"
+        },
+        {
+          "id": "images_image_border_styling_005",
+          "prompt_text": "Add a {weight} {color} border around every figure in the document"
+        },
+        {
+          "id": "images_image_border_styling_006",
+          "prompt_text": "Change the {image} border color from {old_color} to {new_color}"
+        },
+        {
+          "id": "images_image_border_styling_007",
+          "prompt_text": "Remove the {dashed border} from the {diagram}"
+        },
+        {
+          "id": "images_image_border_styling_008",
+          "prompt_text": "Add a {color} border to the {logo} to separate it from the {white background}"
+        },
+        {
+          "id": "images_image_border_styling_009",
+          "prompt_text": "Make the border weight on the {image} match the {table} border weight"
+        },
+        {
+          "id": "images_image_border_styling_010",
+          "prompt_text": "Change the {image} border to a {dashed} style"
+        },
+        {
+          "id": "images_image_border_styling_011",
+          "prompt_text": "Increase the {image} border weight to {weight}"
+        },
+        {
+          "id": "images_image_border_styling_012",
+          "prompt_text": "Add a {shadow} effect to the {screenshot} instead of a hard border"
+        },
+        {
+          "id": "images_image_border_styling_013",
+          "prompt_text": "Remove all borders from every image in the document"
+        },
+        {
+          "id": "images_image_border_styling_014",
+          "prompt_text": "Use a consistent {weight} {color} border on every image in the document"
+        },
+        {
+          "id": "images_image_border_styling_015",
+          "prompt_text": "Remove the double border from the {image} and replace it with a single line"
+        }
+      ]
+    },
+    {
       "subcategory": "image_resolution_quality",
       "priority": "images",
       "doc_type": "both",
@@ -12,311 +387,134 @@
       "entries": [
         {
           "id": "images_image_resolution_quality_001",
-          "prompt_text": "Add thin {gray} border around each {product image}"
+          "prompt_text": "Replace the {blurry image} under the {heading} with a higher resolution version"
         },
         {
           "id": "images_image_resolution_quality_002",
-          "prompt_text": "Add {1pt} {light gray} border around the {screenshot}"
+          "prompt_text": "Replace the {broken image} placeholder at the bottom of the page with the final graphic file"
         },
         {
           "id": "images_image_resolution_quality_003",
-          "prompt_text": "Add alt text to every image in document"
+          "prompt_text": "Replace the {pixelated product photo} in the {sidebar} with a higher resolution version"
         },
         {
           "id": "images_image_resolution_quality_004",
-          "prompt_text": "Add icons to two status labels in {summary} box"
+          "prompt_text": "Replace the fuzzy {icon set} with crisp {vector} versions"
         },
         {
           "id": "images_image_resolution_quality_005",
-          "prompt_text": "Add company logo to right side of the header"
+          "prompt_text": "Replace the soft {background image} with the original uncompressed file"
         },
         {
           "id": "images_image_resolution_quality_006",
-          "prompt_text": "Add company logo to {left side} of the {running header}"
+          "prompt_text": "Upload a higher resolution version of the {product image} in the {section_name} section"
         },
         {
           "id": "images_image_resolution_quality_007",
-          "prompt_text": "Add {0.1 inches} of {wrap padding} between {image} and body text"
+          "prompt_text": "Replace the {full-color logo} with the {single-color version} in the header"
         },
         {
           "id": "images_image_resolution_quality_008",
-          "prompt_text": "Add {0.125 inches} of {full-width} on all {four sides} of the cover image"
+          "prompt_text": "Use the {vector version} of the {logo}"
         },
         {
           "id": "images_image_resolution_quality_009",
-          "prompt_text": "Align {image} left edge with text left margin"
+          "prompt_text": "Use the {white logo} on the {dark background}"
         },
         {
           "id": "images_image_resolution_quality_010",
-          "prompt_text": "Center the client logo below {title}"
+          "prompt_text": "Use the {reverse logo} on dark backgrounds and the {standard logo} on white"
         },
         {
           "id": "images_image_resolution_quality_011",
-          "prompt_text": "Change {icon} colors to brand {navy} and {teal}"
+          "prompt_text": "Replace the low-resolution {screenshot} in the {section_name} section with a sharp version"
         },
         {
           "id": "images_image_resolution_quality_012",
-          "prompt_text": "Change {image} wrap to square wrap with {0.1 inches} of padding"
+          "prompt_text": "Strip the GPS coordinates from the embedded image metadata"
         },
         {
           "id": "images_image_resolution_quality_013",
-          "prompt_text": "Change {image} wrap to tight on right"
+          "prompt_text": "Remove the {image-only text layer} and export the live text"
         },
         {
           "id": "images_image_resolution_quality_014",
-          "prompt_text": "Crop the white border off {screenshot} in {Findings} section"
+          "prompt_text": "Replace the placeholder {gray box} with the final {image}"
         },
         {
           "id": "images_image_resolution_quality_015",
-          "prompt_text": "Crop the {product image} to remove {excess background} on all four sides"
+          "prompt_text": "Increase the export resolution of the {chart image} to at least {dpi} DPI"
+        }
+      ]
+    },
+    {
+      "subcategory": "logo_treatment",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "logo-treatment"
+      ],
+      "entries": [
+        {
+          "id": "images_logo_treatment_001",
+          "prompt_text": "Add the {company logo} to the {right side} of the header"
         },
         {
-          "id": "images_image_resolution_quality_016",
-          "prompt_text": "Drop inline icon down {2pt} to sit on text baseline"
+          "id": "images_logo_treatment_002",
+          "prompt_text": "Add the {company logo} to the {left side} of the {running header}"
         },
         {
-          "id": "images_image_resolution_quality_017",
-          "prompt_text": "Drop {title} block down {0.5 inches}"
+          "id": "images_logo_treatment_003",
+          "prompt_text": "Change the {icon} colors to brand {color_1} and {color_2}"
         },
         {
-          "id": "images_image_resolution_quality_018",
-          "prompt_text": "Extend the background image to page edge"
+          "id": "images_logo_treatment_004",
+          "prompt_text": "Match the {logo color} to the {header color}"
         },
         {
-          "id": "images_image_resolution_quality_019",
-          "prompt_text": "Extend the section divider image to full-width on top, left, and right sides"
+          "id": "images_logo_treatment_005",
+          "prompt_text": "Add {clear space} of at least {distance} around the {logo} on all sides"
         },
         {
-          "id": "images_image_resolution_quality_020",
-          "prompt_text": "Fix wrapped text in bullet {5}"
+          "id": "images_logo_treatment_006",
+          "prompt_text": "Replace the outdated {logo} with the current version"
         },
         {
-          "id": "images_image_resolution_quality_021",
-          "prompt_text": "Increase wrap margin to {0.15 inches} on all sides of the {photo}"
+          "id": "images_logo_treatment_007",
+          "prompt_text": "Align the {logo} vertically with the {header text}"
         },
         {
-          "id": "images_image_resolution_quality_022",
-          "prompt_text": "Make all {product photos} the same height at {2 inches}"
+          "id": "images_logo_treatment_008",
+          "prompt_text": "Remove the {background box} behind the {logo}"
         },
         {
-          "id": "images_image_resolution_quality_023",
-          "prompt_text": "Make {icon} {0.25 inches} square"
+          "id": "images_logo_treatment_009",
+          "prompt_text": "Swap the {client logo} and the {company logo} positions in the header"
         },
         {
-          "id": "images_image_resolution_quality_024",
-          "prompt_text": "Match {border} style on all {product image}s to a thin {light gray} line"
+          "id": "images_logo_treatment_010",
+          "prompt_text": "Reduce the {logo} size to {dimension} to match the brand guidelines"
         },
         {
-          "id": "images_image_resolution_quality_025",
-          "prompt_text": "Match {logo color} to {header color}"
+          "id": "images_logo_treatment_011",
+          "prompt_text": "Add the {client logo} to the {right side} of the header bar"
         },
         {
-          "id": "images_image_resolution_quality_026",
-          "prompt_text": "Move footer logo to center-bottom of the page"
+          "id": "images_logo_treatment_012",
+          "prompt_text": "Use the {horizontal lockup} version of the {logo} in the header"
         },
         {
-          "id": "images_image_resolution_quality_027",
-          "prompt_text": "Move partner logo to right side of the header bar"
+          "id": "images_logo_treatment_013",
+          "prompt_text": "Drop the inline {icon} down {distance} to sit on the text baseline"
         },
         {
-          "id": "images_image_resolution_quality_028",
-          "prompt_text": "Move text block away from full-width image edge"
+          "id": "images_logo_treatment_014",
+          "prompt_text": "Make the {logo} {transparent} so the background shows through"
         },
         {
-          "id": "images_image_resolution_quality_029",
-          "prompt_text": "Move {logo} away from right edge by {0.25 inches}"
-        },
-        {
-          "id": "images_image_resolution_quality_030",
-          "prompt_text": "Move {logo} from footer to header"
-        },
-        {
-          "id": "images_image_resolution_quality_031",
-          "prompt_text": "Move {logo} to top left corner of the page"
-        },
-        {
-          "id": "images_image_resolution_quality_032",
-          "prompt_text": "Move {logo} {0.25 inches} away from top right corner"
-        },
-        {
-          "id": "images_image_resolution_quality_033",
-          "prompt_text": "Move {product image} to right side of the text block"
-        },
-        {
-          "id": "images_image_resolution_quality_034",
-          "prompt_text": "Place full-width image after section intro"
-        },
-        {
-          "id": "images_image_resolution_quality_035",
-          "prompt_text": "Place {logo} on {same line}"
-        },
-        {
-          "id": "images_image_resolution_quality_036",
-          "prompt_text": "Pull cover photo to full edge with no white strip"
-        },
-        {
-          "id": "images_image_resolution_quality_037",
-          "prompt_text": "Pull wrapped line in {numbered list} under {first line text}"
-        },
-        {
-          "id": "images_image_resolution_quality_038",
-          "prompt_text": "Pull wrapped line in {item 4} under {first line} text"
-        },
-        {
-          "id": "images_image_resolution_quality_039",
-          "prompt_text": "Reduce {logo} to {0.5 inches} tall in header"
-        },
-        {
-          "id": "images_image_resolution_quality_040",
-          "prompt_text": "Remove drop shadow from product photo"
-        },
-        {
-          "id": "images_image_resolution_quality_041",
-          "prompt_text": "Remove reflection effect from {logo} image"
-        },
-        {
-          "id": "images_image_resolution_quality_042",
-          "prompt_text": "Remove text overlap on left side of the {image}"
-        },
-        {
-          "id": "images_image_resolution_quality_043",
-          "prompt_text": "Remove text wrap and place {image} on its own line"
-        },
-        {
-          "id": "images_image_resolution_quality_044",
-          "prompt_text": "Remove {border} from {hero image}"
-        },
-        {
-          "id": "images_image_resolution_quality_045",
-          "prompt_text": "Remove {image}-only {text layer} and export the live text"
-        },
-        {
-          "id": "images_image_resolution_quality_046",
-          "prompt_text": "Replace the fuzzy icon set with crisp SVG versions"
-        },
-        {
-          "id": "images_image_resolution_quality_047",
-          "prompt_text": "Replace the soft background image with original uncompressed file"
-        },
-        {
-          "id": "images_image_resolution_quality_048",
-          "prompt_text": "Replace the {blurry image} under {Findings heading} with a higher resolution version of the}"
-        },
-        {
-          "id": "images_image_resolution_quality_049",
-          "prompt_text": "Replace the {broken image} placeholder at bottom of the page with final graphic file"
-        },
-        {
-          "id": "images_image_resolution_quality_050",
-          "prompt_text": "Replace the {full-color logo} with {single-color version} in header"
-        },
-        {
-          "id": "images_image_resolution_quality_051",
-          "prompt_text": "Replace the {pixelated product photo} in {sidebar} with a higher resolution version of the}"
-        },
-        {
-          "id": "images_image_resolution_quality_052",
-          "prompt_text": "Resize the full-width image to {5 inches} wide"
-        },
-        {
-          "id": "images_image_resolution_quality_053",
-          "prompt_text": "Rotate the sideways diagram {90 degrees} clockwise"
-        },
-        {
-          "id": "images_image_resolution_quality_054",
-          "prompt_text": "Rotate the tilted scan image {2 degrees} clockwise to straighten it"
-        },
-        {
-          "id": "images_image_resolution_quality_055",
-          "prompt_text": "Round the corners on {team photo} to {4pt}"
-        },
-        {
-          "id": "images_image_resolution_quality_056",
-          "prompt_text": "Scale the diagram down to {3 inches} wide"
-        },
-        {
-          "id": "images_image_resolution_quality_057",
-          "prompt_text": "Set hanging indent"
-        },
-        {
-          "id": "images_image_resolution_quality_058",
-          "prompt_text": "Set {hanging indent}"
-        },
-        {
-          "id": "images_image_resolution_quality_059",
-          "prompt_text": "Set all headshot photos to {1 inch} by {1 inch}"
-        },
-        {
-          "id": "images_image_resolution_quality_060",
-          "prompt_text": "Move the diagram {0.125 inches} away from the page edge"
-        },
-        {
-          "id": "images_image_resolution_quality_061",
-          "prompt_text": "Set diagram to top-and-bottom wrap"
-        },
-        {
-          "id": "images_image_resolution_quality_062",
-          "prompt_text": "Set {body text} to wrap cleanly around the {right side} of the {image}"
-        },
-        {
-          "id": "images_image_resolution_quality_063",
-          "prompt_text": "Set {sidebar} image to square wrap with text on left"
-        },
-        {
-          "id": "images_image_resolution_quality_064",
-          "prompt_text": "Shift background image down {0.5 inches} to center it on page"
-        },
-        {
-          "id": "images_image_resolution_quality_065",
-          "prompt_text": "Shift {screenshot} left {0.2 inches}"
-        },
-        {
-          "id": "images_image_resolution_quality_066",
-          "prompt_text": "Shrink full-width image {0.25 inches} on each side to sit inside the margins"
-        },
-        {
-          "id": "images_image_resolution_quality_067",
-          "prompt_text": "Shrink oversized image"
-        },
-        {
-          "id": "images_image_resolution_quality_068",
-          "prompt_text": "Shrink {hero image} to {5 inches} wide"
-        },
-        {
-          "id": "images_image_resolution_quality_069",
-          "prompt_text": "Shrink {logo} to {0.5 inches} tall and keep it in header"
-        },
-        {
-          "id": "images_image_resolution_quality_070",
-          "prompt_text": "Strip the GPS coordinates from embedded image metadata"
-        },
-        {
-          "id": "images_image_resolution_quality_071",
-          "prompt_text": "Swap low-res screenshot in {Appendix} section"
-        },
-        {
-          "id": "images_image_resolution_quality_072",
-          "prompt_text": "Switch {icon} to inline with heading"
-        },
-        {
-          "id": "images_image_resolution_quality_073",
-          "prompt_text": "Remove the empty space above and below the diagram"
-        },
-        {
-          "id": "images_image_resolution_quality_074",
-          "prompt_text": "Upload a higher resolution version of the {product image} in {Recommendations} section"
-        },
-        {
-          "id": "images_image_resolution_quality_075",
-          "prompt_text": "Use {reverse logo} on dark backgrounds and {standard logo} on white"
-        },
-        {
-          "id": "images_image_resolution_quality_076",
-          "prompt_text": "Use {vector version} of the {logo}"
-        },
-        {
-          "id": "images_image_resolution_quality_077",
-          "prompt_text": "Use {white logo} on dark background"
+          "id": "images_logo_treatment_015",
+          "prompt_text": "Move the {title block} down {distance} so it does not overlap the {logo}"
         }
       ]
     },
@@ -331,19 +529,63 @@
       "entries": [
         {
           "id": "images_aspect_ratio_preservation_001",
-          "prompt_text": "Lock the aspect ratio on {product image} before resizing"
+          "prompt_text": "Lock the aspect ratio on the {product image} before resizing"
         },
         {
           "id": "images_aspect_ratio_preservation_002",
-          "prompt_text": "Restore the original aspect ratio of {Figure 1}"
+          "prompt_text": "Restore the original aspect ratio of {figure_name}"
         },
         {
           "id": "images_aspect_ratio_preservation_003",
-          "prompt_text": "Restore the original aspect ratio on squished {team photo}"
+          "prompt_text": "Restore the original aspect ratio on the squished {team photo}"
         },
         {
           "id": "images_aspect_ratio_preservation_004",
-          "prompt_text": "Restore the {original aspect ratio} on {stretched logo} in {header}"
+          "prompt_text": "Restore the {original aspect ratio} on the {stretched logo} in the {header}"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_005",
+          "prompt_text": "Fix the vertically stretched {chart image} by restoring its original proportions"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_006",
+          "prompt_text": "Fix the horizontally squished {diagram} by restoring its width"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_007",
+          "prompt_text": "Resize the {image} to {dimension} wide while preserving the aspect ratio"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_008",
+          "prompt_text": "Lock the aspect ratio on all {product photos} so they do not distort when scaled"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_009",
+          "prompt_text": "Fix the {icon} that appears stretched in the {heading}"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_010",
+          "prompt_text": "Restore the proper proportions on the {banner image}"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_011",
+          "prompt_text": "Reset the {image} dimensions to the original file proportions"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_012",
+          "prompt_text": "Fix the {background image} that was stretched to fill the page"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_013",
+          "prompt_text": "Constrain the {image} to a {ratio} aspect ratio"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_014",
+          "prompt_text": "Fix the squished {headshot} by scaling it proportionally"
+        },
+        {
+          "id": "images_aspect_ratio_preservation_015",
+          "prompt_text": "Unlock the aspect ratio on the {image} so it can be resized independently"
         }
       ]
     },
@@ -358,151 +600,103 @@
       "entries": [
         {
           "id": "images_caption_consistency_001",
-          "prompt_text": "Add caption under {Figure 1}"
+          "prompt_text": "Add a caption under {figure_name}"
         },
         {
           "id": "images_caption_consistency_002",
-          "prompt_text": "Add {0.5pt} {charcoal} border around every figure in document"
+          "prompt_text": "Center the {figure caption} under the {image}"
         },
         {
           "id": "images_caption_consistency_003",
-          "prompt_text": "Add {Figure 2} after sentence that cites it"
+          "prompt_text": "Change the {caption} label to {figure_name}"
         },
         {
           "id": "images_caption_consistency_004",
-          "prompt_text": "Center the {figure caption} under {image}"
+          "prompt_text": "Close the gap between the {image} and its caption to {spacing_value}"
         },
         {
           "id": "images_caption_consistency_005",
-          "prompt_text": "Center the {figure} between left and right margins"
+          "prompt_text": "Darken the {caption} text under {figure_name}"
         },
         {
           "id": "images_caption_consistency_006",
-          "prompt_text": "Change both margin figures in {callout} to {one decimal place}"
+          "prompt_text": "Italicize all {figure captions}"
         },
         {
           "id": "images_caption_consistency_007",
-          "prompt_text": "Change both {margin figures} in summary to {one decimal place}"
+          "prompt_text": "Left-align all {figure captions} with the left edge of the {figure}"
         },
         {
           "id": "images_caption_consistency_008",
-          "prompt_text": "Change {caption} to {Figure 2}"
+          "prompt_text": "Make the cross-reference to {figure_name} clickable"
         },
         {
           "id": "images_caption_consistency_009",
-          "prompt_text": "Change {caption} label to {Figure 3}"
+          "prompt_text": "Make the {caption} under {figure_name} one size smaller than the body text"
         },
         {
           "id": "images_caption_consistency_010",
-          "prompt_text": "Close the gap between {image} and its caption to {4pt}"
+          "prompt_text": "Match the {caption} font size across all figures to {font_size}"
         },
         {
           "id": "images_caption_consistency_011",
-          "prompt_text": "Darken the {caption} text under {Figure 1}"
+          "prompt_text": "Move the {figure_name} caption from above the {image} to below it"
         },
         {
           "id": "images_caption_consistency_012",
-          "prompt_text": "Italicize all {figure caption}s"
+          "prompt_text": "Move the {caption} from the right side of the {image} to below it"
         },
         {
           "id": "images_caption_consistency_013",
-          "prompt_text": "Left-align all {figure caption}s"
+          "prompt_text": "Move the {figure} number and caption above the {image}"
         },
         {
           "id": "images_caption_consistency_014",
-          "prompt_text": "Left-align all {figure caption}s with left edge of the {figure}"
+          "prompt_text": "Move {figure_name} under the {paragraph} that cites it"
         },
         {
           "id": "images_caption_consistency_015",
-          "prompt_text": "Make cross-reference to {Figure 3} clickable"
+          "prompt_text": "Place the {caption} directly below {figure_name} with {spacing_value} spacing"
         },
         {
           "id": "images_caption_consistency_016",
-          "prompt_text": "Make {caption} under {Figure 2} one size smaller than the body text"
+          "prompt_text": "Remove the {bold italics} from the {caption} under {figure_name}"
         },
         {
           "id": "images_caption_consistency_017",
-          "prompt_text": "Match {caption} font size across all figures to {9pt}"
+          "prompt_text": "Remove the {stock source tag} under {figure_name} and add the final {source line}"
         },
         {
           "id": "images_caption_consistency_018",
-          "prompt_text": "Move {Figure 2} caption from above {image} to below it"
+          "prompt_text": "Renumber the images to {figure_start} through {figure_end}"
         },
         {
           "id": "images_caption_consistency_019",
-          "prompt_text": "Move {caption} from right side of the {image} to below it"
+          "prompt_text": "Set all {figure captions} to {single line spacing}"
         },
         {
           "id": "images_caption_consistency_020",
-          "prompt_text": "Move {figure} number and caption above {image}"
+          "prompt_text": "Set every caption to {font_size} across the document"
         },
         {
           "id": "images_caption_consistency_021",
-          "prompt_text": "Move {Figure 2} under {paragraph} that cites it"
+          "prompt_text": "Set the {caption} under {figure_name} to the same {font family} as the body text"
         },
         {
           "id": "images_caption_consistency_022",
-          "prompt_text": "Move {Figure 5} above paragraph that references it"
-        },
-        {
-          "id": "images_caption_consistency_023",
-          "prompt_text": "Place {caption} directly below {Figure 3} with {2pt} spacing"
-        },
-        {
-          "id": "images_caption_consistency_024",
-          "prompt_text": "Pull {caption} text {0.2 inches} inside the page edge"
-        },
-        {
-          "id": "images_caption_consistency_025",
-          "prompt_text": "Pull {image} caption inside the right margin"
-        },
-        {
-          "id": "images_caption_consistency_026",
-          "prompt_text": "Remove bold italics from {caption} under {Figure 3}"
-        },
-        {
-          "id": "images_caption_consistency_027",
-          "prompt_text": "Remove thick black border from {Figure 2}"
-        },
-        {
-          "id": "images_caption_consistency_028",
-          "prompt_text": "Remove {stock source tag} under {Figure 2} and add final {source line}"
-        },
-        {
-          "id": "images_caption_consistency_029",
-          "prompt_text": "Renumber the images to {Figure 1} through {Figure 4}"
-        },
-        {
-          "id": "images_caption_consistency_030",
-          "prompt_text": "Set all {figure caption}s to single line spacing"
-        },
-        {
-          "id": "images_caption_consistency_031",
-          "prompt_text": "Set every caption to {10pt} across the document"
-        },
-        {
-          "id": "images_caption_consistency_032",
-          "prompt_text": "Set {Figure 1} caption to single line spacing"
-        },
-        {
-          "id": "images_caption_consistency_033",
-          "prompt_text": "Set {caption} under {Figure 1} to same font family"
-        },
-        {
-          "id": "images_caption_consistency_034",
           "prompt_text": "Set {figure captions} to {italic}"
         },
         {
-          "id": "images_caption_consistency_035",
-          "prompt_text": "Set {figure caption} to {10pt} italic"
+          "id": "images_caption_consistency_023",
+          "prompt_text": "Set the {figure caption} to {font_size} {italic}"
         },
         {
-          "id": "images_caption_consistency_036",
-          "prompt_text": "Set {image} caption to {10pt}"
+          "id": "images_caption_consistency_024",
+          "prompt_text": "Use the same style definition for every caption in the document"
         },
         {
-          "id": "images_caption_consistency_037",
-          "prompt_text": "Use same style definition for every caption in document"
+          "id": "images_caption_consistency_025",
+          "prompt_text": "Add {figure_name} after the sentence that cites it"
         }
       ]
     },
@@ -517,75 +711,134 @@
       "entries": [
         {
           "id": "images_compression_artifact_cleanup_001",
-          "prompt_text": "Sharpen edges of compressed graphic"
+          "prompt_text": "Sharpen the edges of the compressed {graphic} in the {section_name} section"
         },
         {
           "id": "images_compression_artifact_cleanup_002",
-          "prompt_text": "Reduce compression artifacts in callout"
+          "prompt_text": "Reduce compression artifacts in the {callout} image"
         },
         {
           "id": "images_compression_artifact_cleanup_003",
-          "prompt_text": "Fix pixelation in text"
+          "prompt_text": "Fix pixelation in the {text overlay} on the {image}"
         },
         {
           "id": "images_compression_artifact_cleanup_004",
-          "prompt_text": "Set JPEG quality to High"
+          "prompt_text": "Set the JPEG export quality to {quality_level}"
         },
         {
           "id": "images_compression_artifact_cleanup_005",
-          "prompt_text": "Fix pixelation in note"
+          "prompt_text": "Reduce compression artifacts in the {chart} image"
         },
         {
           "id": "images_compression_artifact_cleanup_006",
-          "prompt_text": "Reduce compression artifacts in chart"
+          "prompt_text": "Denoise the background of the {photo} in the {section_name} section"
         },
         {
           "id": "images_compression_artifact_cleanup_007",
-          "prompt_text": "Denoise background of photo"
+          "prompt_text": "Fix pixelation in the {graph} labels"
         },
         {
           "id": "images_compression_artifact_cleanup_008",
-          "prompt_text": "Fix pixelation in graph"
+          "prompt_text": "Reduce compression artifacts in the {logo} image"
         },
         {
           "id": "images_compression_artifact_cleanup_009",
-          "prompt_text": "Reduce compression artifacts in graph"
+          "prompt_text": "Fix pixelation in the {table} screenshot"
         },
         {
           "id": "images_compression_artifact_cleanup_010",
-          "prompt_text": "Fix pixelation in logo"
+          "prompt_text": "Replace the compressed {diagram} with a lossless {PNG} version"
         },
         {
           "id": "images_compression_artifact_cleanup_011",
-          "prompt_text": "Fix pixelation in callout"
+          "prompt_text": "Fix the {banding artifacts} in the {gradient background}"
         },
         {
           "id": "images_compression_artifact_cleanup_012",
-          "prompt_text": "Fix pixelation in title"
+          "prompt_text": "Re-export the {chart} as {PNG} to eliminate JPEG artifacts"
         },
         {
           "id": "images_compression_artifact_cleanup_013",
-          "prompt_text": "Reduce compression artifacts in image"
+          "prompt_text": "Replace the over-compressed {screenshot} with a higher quality export"
         },
         {
           "id": "images_compression_artifact_cleanup_014",
-          "prompt_text": "Fix pixelation in table"
+          "prompt_text": "Fix the {color fringing} around text in the {image}"
         },
         {
           "id": "images_compression_artifact_cleanup_015",
-          "prompt_text": "Reduce compression artifacts in logo"
+          "prompt_text": "Reduce the {blockiness} in the low-quality {photo}"
+        }
+      ]
+    },
+    {
+      "subcategory": "alt_text_accessibility",
+      "priority": "images",
+      "doc_type": "both",
+      "tags": [
+        "images",
+        "alt-text-accessibility"
+      ],
+      "entries": [
+        {
+          "id": "images_alt_text_accessibility_001",
+          "prompt_text": "Add alt text to every image in the document"
         },
         {
-          "id": "images_compression_artifact_cleanup_016",
-          "prompt_text": "Fix pixelation in caption"
+          "id": "images_alt_text_accessibility_002",
+          "prompt_text": "Add a descriptive alt text to {figure_name}"
         },
         {
-          "id": "images_compression_artifact_cleanup_017",
-          "prompt_text": "Fix pixelation in chart"
+          "id": "images_alt_text_accessibility_003",
+          "prompt_text": "Mark the {decorative image} as decorative so screen readers skip it"
         },
         {
-          "id": "images_compression_artifact_cleanup_018",
-          "prompt_text": "Reduce compression artifacts in note"
+          "id": "images_alt_text_accessibility_004",
+          "prompt_text": "Update the alt text on the {logo} to {alt_text}"
+        },
+        {
+          "id": "images_alt_text_accessibility_005",
+          "prompt_text": "Add alt text to the {chart} that describes its key takeaway"
+        },
+        {
+          "id": "images_alt_text_accessibility_006",
+          "prompt_text": "Remove the {filename} from the alt text on {figure_name} and write a description"
+        },
+        {
+          "id": "images_alt_text_accessibility_007",
+          "prompt_text": "Add alt text to the {icon} next to the {heading}"
+        },
+        {
+          "id": "images_alt_text_accessibility_008",
+          "prompt_text": "Shorten the alt text on {figure_name} to under {character_limit} characters"
+        },
+        {
+          "id": "images_alt_text_accessibility_009",
+          "prompt_text": "Add alt text to the {diagram} that explains the {process flow}"
+        },
+        {
+          "id": "images_alt_text_accessibility_010",
+          "prompt_text": "Replace the generic alt text on every image with a specific description"
+        },
+        {
+          "id": "images_alt_text_accessibility_011",
+          "prompt_text": "Add alt text to the {infographic} summarizing its {key data points}"
+        },
+        {
+          "id": "images_alt_text_accessibility_012",
+          "prompt_text": "Remove the duplicate alt text on {figure_name}"
+        },
+        {
+          "id": "images_alt_text_accessibility_013",
+          "prompt_text": "Add alt text to the {screenshot} that describes what is shown"
+        },
+        {
+          "id": "images_alt_text_accessibility_014",
+          "prompt_text": "Mark all {decorative borders} and {divider images} as artifacts"
+        },
+        {
+          "id": "images_alt_text_accessibility_015",
+          "prompt_text": "Write alt text for the {table image} that summarizes the data in the table"
         }
       ]
     }

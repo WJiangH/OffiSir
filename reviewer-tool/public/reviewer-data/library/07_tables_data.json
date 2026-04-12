@@ -12,151 +12,63 @@
       "entries": [
         {
           "id": "tables_data_decimal_place_consistency_001",
-          "prompt_text": "Add dollar sign to every value in {cost column}"
+          "prompt_text": "Round every value in the {column_name} column of {table_title} to {decimal_places} decimal places"
         },
         {
           "id": "tables_data_decimal_place_consistency_002",
-          "prompt_text": "Add sub{totals row} above grand total"
+          "prompt_text": "Change all percentages in {table_title} to {decimal_places} decimal place"
         },
         {
           "id": "tables_data_decimal_place_consistency_003",
-          "prompt_text": "Add {double bottom border} under {totals row}"
+          "prompt_text": "Align the decimal points in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_004",
-          "prompt_text": "Add {shaded fill} to {totals row}"
+          "prompt_text": "Use {decimal_places} decimal places for every ratio in {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_005",
-          "prompt_text": "Add dollar sign to {total row} in {cost breakdown}"
+          "prompt_text": "Use {decimal_places} decimal places for every value in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_006",
-          "prompt_text": "Align {decimal points} in {numerical column}"
+          "prompt_text": "Round the {row_label} value in {table_title} to {decimal_places} decimal places"
         },
         {
           "id": "tables_data_decimal_place_consistency_007",
-          "prompt_text": "Change all dates in {milestones table} to {MM/DD/YYYY}"
+          "prompt_text": "Remove trailing zeros in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_008",
-          "prompt_text": "Change all percentages in {Table 1} to {one decimal place}"
+          "prompt_text": "Add a leading zero before the decimal in every value under {value_threshold} in {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_009",
-          "prompt_text": "Change all {dates} in {review table} to {MM/DD/YYYY}"
+          "prompt_text": "Match the decimal places in {table_title} to the format in {reference_table}"
         },
         {
           "id": "tables_data_decimal_place_consistency_010",
-          "prompt_text": "Change blank total cell to {0}"
+          "prompt_text": "Pad every value in the {column_name} column of {table_title} to {decimal_places} decimal places"
         },
         {
           "id": "tables_data_decimal_place_consistency_011",
-          "prompt_text": "Change empty date cell in timeline to an em dash"
+          "prompt_text": "Change the {row_label} GPA value in {table_title} to show {decimal_places} decimal places"
         },
         {
           "id": "tables_data_decimal_place_consistency_012",
-          "prompt_text": "Change footer date to {MM/DD/YYYY}"
+          "prompt_text": "Fix the mixed decimal places in the {column_name} column of {table_title} to a consistent {decimal_places}"
         },
         {
           "id": "tables_data_decimal_place_consistency_013",
-          "prompt_text": "Change {ARR row} to currency format with no decimals"
+          "prompt_text": "Show whole numbers only in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_decimal_place_consistency_014",
-          "prompt_text": "Change {date column} to {MM/DD/YYYY}"
+          "prompt_text": "Round the averages row in {table_title} to {decimal_places} decimal places"
         },
         {
           "id": "tables_data_decimal_place_consistency_015",
-          "prompt_text": "Make every date in {review table} use {MM/DD/YYYY}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_016",
-          "prompt_text": "Make {bottom border} of the {totals row} {2pt}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_017",
-          "prompt_text": "Make {totals row} bold with a {top border}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_018",
-          "prompt_text": "Move {executive summary} before {table of contents}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_019",
-          "prompt_text": "Place {totals row} directly below last data row with no gap"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_020",
-          "prompt_text": "Remove wrong apostrophe from plural {KPIs} in {summary table}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_021",
-          "prompt_text": "Right-align all dollar amounts in {table}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_022",
-          "prompt_text": "Right-align all {dollar amounts} in {column C}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_023",
-          "prompt_text": "Right-align date column in schedule table"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_024",
-          "prompt_text": "Right-align total value with data column above it"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_025",
-          "prompt_text": "Round every value in {average column} to {two decimal places}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_026",
-          "prompt_text": "Round the {GPA values} in {table} to {two decimal places}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_027",
-          "prompt_text": "Set decimal tab stop at {4 inches}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_028",
-          "prompt_text": "Set keep-together on two-row summary table"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_029",
-          "prompt_text": "Set {column} {totals row} to bold"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_030",
-          "prompt_text": "Set {totals row} height"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_031",
-          "prompt_text": "Sort the {timeline table} by date to latest"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_032",
-          "prompt_text": "Update headcount total at bottom of the {staffing table} to {147}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_033",
-          "prompt_text": "Update {total sum} in {column E} to {100}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_034",
-          "prompt_text": "Use heavier border around the highlighted {total} row"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_035",
-          "prompt_text": "Use {one decimal place} for every percentage in {variance column}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_036",
-          "prompt_text": "Use {one decimal place} for every value in {growth column}"
-        },
-        {
-          "id": "tables_data_decimal_place_consistency_037",
-          "prompt_text": "Use {two decimal places} for every ratio in {efficiency table}"
+          "prompt_text": "Set a decimal tab stop at {tab_position} in the {column_name} column of {table_title}"
         }
       ]
     },
@@ -171,39 +83,63 @@
       "entries": [
         {
           "id": "tables_data_currency_symbol_consistency_001",
-          "prompt_text": "Change grand total in {footer callout} to {$3.8M}"
+          "prompt_text": "Add a {currency_symbol} to every value in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_002",
-          "prompt_text": "Change total in {last row} to {$4.1M}"
+          "prompt_text": "Change the {row_label} total in {table_title} to {currency_value}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_003",
-          "prompt_text": "Change {Regional Total} in text to {$2.1M}"
+          "prompt_text": "Change the {column_name} total in {table_title} to {currency_value}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_004",
-          "prompt_text": "Change {column} total in {Q2 budget table} to {$1.25M}"
+          "prompt_text": "Remove cents from every currency value in {table_title}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_005",
-          "prompt_text": "Change {currency values} in {column D} to {dollar symbols}"
+          "prompt_text": "Replace the spelled-out currency label in the footnote of {table_title} with {currency_abbreviation}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_006",
-          "prompt_text": "Change {row} total for {Region 3} to {$780K}"
+          "prompt_text": "Use {currency_symbol} only in the header and drop it from the data cells in {table_title}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_007",
-          "prompt_text": "Fix total in {last row} to {$4.1M}"
+          "prompt_text": "Add thousands separators to every currency value in {table_title}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_008",
-          "prompt_text": "Remove cents from every currency value in {summary table}"
+          "prompt_text": "Change the grand total in {table_title} to {currency_value}"
         },
         {
           "id": "tables_data_currency_symbol_consistency_009",
-          "prompt_text": "Replace {US dollars} in footnote with {USD}"
+          "prompt_text": "Switch every value in {table_title} from {old_currency} to {currency_symbol}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_010",
+          "prompt_text": "Format the {column_name} column in {table_title} as currency with no decimals"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_011",
+          "prompt_text": "Right-align every currency value in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_012",
+          "prompt_text": "Remove the duplicate {currency_symbol} on the {row_label} value in {table_title}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_013",
+          "prompt_text": "Use the {thousands_format} abbreviation for all values over {value_threshold} in {table_title}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_014",
+          "prompt_text": "Match the currency format in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_data_currency_symbol_consistency_015",
+          "prompt_text": "Add a {currency_symbol} to the totals row only in {table_title}"
         }
       ]
     },
@@ -218,43 +154,63 @@
       "entries": [
         {
           "id": "tables_data_percentage_format_001",
-          "prompt_text": "Add percent sign to every value in {margin column}"
+          "prompt_text": "Add a percent sign to every value in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_data_percentage_format_002",
-          "prompt_text": "Add percent sign to {churn value} in {KPI table}"
+          "prompt_text": "Add a percent sign to the {row_label} value in {table_title}"
         },
         {
           "id": "tables_data_percentage_format_003",
-          "prompt_text": "Change light gray row shading in {Table 1} to {30 percent gray}"
+          "prompt_text": "Change the {row_label} row in {table_title} to {percentage_value}"
         },
         {
           "id": "tables_data_percentage_format_004",
-          "prompt_text": "Change {Services} row in {summary table} to {25%}"
+          "prompt_text": "Move the percent sign into the {column_name} header and leave the cells numeric in {table_title}"
         },
         {
           "id": "tables_data_percentage_format_005",
-          "prompt_text": "Change {growth column}"
+          "prompt_text": "Right-align the percentage column in {table_title}"
         },
         {
           "id": "tables_data_percentage_format_006",
-          "prompt_text": "Move percent sign into header and leave the cells numeric"
+          "prompt_text": "Show {decimal_places} decimal place on every percentage in {table_title}"
         },
         {
           "id": "tables_data_percentage_format_007",
-          "prompt_text": "Reduce full-width image to {80 percent} of the {column} width"
+          "prompt_text": "Remove the extra space between the number and the percent sign in {table_title}"
         },
         {
           "id": "tables_data_percentage_format_008",
-          "prompt_text": "Right-align percentage column in {Table 2}"
+          "prompt_text": "Change the raw decimal values in the {column_name} column of {table_title} to percentages"
         },
         {
           "id": "tables_data_percentage_format_009",
-          "prompt_text": "Right-align {percentage column} in {variance table}"
+          "prompt_text": "Match the percentage format in {table_title} to {reference_table}"
         },
         {
           "id": "tables_data_percentage_format_010",
-          "prompt_text": "Scale the content to {95 percent}"
+          "prompt_text": "Round every percentage in the {column_name} column of {table_title} to the nearest whole number"
+        },
+        {
+          "id": "tables_data_percentage_format_011",
+          "prompt_text": "Add a percent sign to the totals row in {table_title}"
+        },
+        {
+          "id": "tables_data_percentage_format_012",
+          "prompt_text": "Show negative percentages in the {column_name} column of {table_title} with a minus sign"
+        },
+        {
+          "id": "tables_data_percentage_format_013",
+          "prompt_text": "Fix the missing percent sign on the {row_label} value in {table_title}"
+        },
+        {
+          "id": "tables_data_percentage_format_014",
+          "prompt_text": "Use parentheses for negative percentages in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_percentage_format_015",
+          "prompt_text": "Pad every percentage in the {column_name} column of {table_title} to {decimal_places} decimal places"
         }
       ]
     },
@@ -269,97 +225,347 @@
       "entries": [
         {
           "id": "tables_data_unit_label_placement_001",
-          "prompt_text": "Remove italic from {header row} in {summary table}"
+          "prompt_text": "Move the {unit_label} from the data cells into the {column_name} header in {table_title}"
         },
         {
           "id": "tables_data_unit_label_placement_002",
-          "prompt_text": "Set units to {thousands} in {header row}"
+          "prompt_text": "Add ({unit_label}) after the {column_name} header in {table_title}"
         },
         {
           "id": "tables_data_unit_label_placement_003",
-          "prompt_text": "Move {currency symbol} to {header cell}"
+          "prompt_text": "Move the {currency_symbol} from each cell to the {column_name} header in {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_004",
+          "prompt_text": "Add a units row below the header in {table_title} showing {unit_label} for each column"
+        },
+        {
+          "id": "tables_data_unit_label_placement_005",
+          "prompt_text": "Remove the repeated {unit_label} from every cell in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_006",
+          "prompt_text": "Add (in {unit_label}) to the table title of {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_007",
+          "prompt_text": "Change the unit label in the {column_name} header of {table_title} from {old_unit} to {unit_label}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_008",
+          "prompt_text": "Show the {unit_label} on a second line inside the {column_name} header in {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_009",
+          "prompt_text": "Remove the duplicate unit label that appears in both the header and the cells of {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_010",
+          "prompt_text": "Italicize the unit label in the {column_name} header of {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_011",
+          "prompt_text": "Add the unit label {unit_label} to the footnote of {table_title} instead of the header"
+        },
+        {
+          "id": "tables_data_unit_label_placement_012",
+          "prompt_text": "Match the unit label placement in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_013",
+          "prompt_text": "Move the {unit_label} from the table title into each column header in {table_title}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_014",
+          "prompt_text": "Shrink the unit label text in the {column_name} header of {table_title} to {font_size}"
+        },
+        {
+          "id": "tables_data_unit_label_placement_015",
+          "prompt_text": "Use the abbreviation {unit_abbreviation} instead of the full unit name in {table_title}"
         }
       ]
     },
     {
-      "subcategory": "table_of_figures_logic",
+      "subcategory": "date_format_consistency",
       "priority": "tables_data",
       "doc_type": "both",
       "tags": [
         "tables_data",
-        "table-of-figures-logic"
+        "date-format-consistency"
       ],
       "entries": [
         {
-          "id": "tables_data_table_of_figures_logic_001",
-          "prompt_text": "Generate table of figures at page X"
+          "id": "tables_data_date_format_consistency_001",
+          "prompt_text": "Change all dates in {table_title} to {date_format}"
         },
         {
-          "id": "tables_data_table_of_figures_logic_002",
-          "prompt_text": "Include appendix charts in figure list"
+          "id": "tables_data_date_format_consistency_002",
+          "prompt_text": "Change the {column_name} column in {table_title} to {date_format}"
         },
         {
-          "id": "tables_data_table_of_figures_logic_003",
-          "prompt_text": "Set leader dots to {10pt} for figures"
+          "id": "tables_data_date_format_consistency_003",
+          "prompt_text": "Replace the blank date cell in {table_title} with an em dash"
         },
         {
-          "id": "tables_data_table_of_figures_logic_004",
-          "prompt_text": "Set leader dots to {100%} for figures"
+          "id": "tables_data_date_format_consistency_004",
+          "prompt_text": "Sort the dates in {table_title} from earliest to latest"
         },
         {
-          "id": "tables_data_table_of_figures_logic_005",
-          "prompt_text": "Align figure titles to left in list"
+          "id": "tables_data_date_format_consistency_005",
+          "prompt_text": "Match the date format in {table_title} to {reference_table}"
         },
         {
-          "id": "tables_data_table_of_figures_logic_006",
-          "prompt_text": "Update figure numbering to sequential"
+          "id": "tables_data_date_format_consistency_006",
+          "prompt_text": "Use month abbreviations instead of numbers in the {column_name} column of {table_title}"
         },
         {
-          "id": "tables_data_table_of_figures_logic_007",
-          "prompt_text": "Set leader dots to {0.75}\" for figures"
+          "id": "tables_data_date_format_consistency_007",
+          "prompt_text": "Fix the inconsistent date format in the {row_label} row of {table_title} to {date_format}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_008",
+          "prompt_text": "Add the year to every date in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_009",
+          "prompt_text": "Remove the time portion from the dates in {table_title}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_010",
+          "prompt_text": "Right-align the date column in {table_title}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_011",
+          "prompt_text": "Change the date separator in {table_title} from {old_separator} to {new_separator}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_012",
+          "prompt_text": "Spell out the month names in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_013",
+          "prompt_text": "Use four-digit years in every date in {table_title}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_014",
+          "prompt_text": "Fix the {row_label} date in {table_title} from {wrong_date} to {correct_date}"
+        },
+        {
+          "id": "tables_data_date_format_consistency_015",
+          "prompt_text": "Show only the month and year in the {column_name} column of {table_title}"
         }
       ]
     },
     {
-      "subcategory": "nested_table_hierarchy",
+      "subcategory": "totals_row_accuracy",
       "priority": "tables_data",
       "doc_type": "both",
       "tags": [
         "tables_data",
-        "nested-table-hierarchy"
+        "totals-row-accuracy"
       ],
       "entries": [
         {
-          "id": "tables_data_nested_table_hierarchy_001",
-          "prompt_text": "Set nested border to {12pt} thickness"
+          "id": "tables_data_totals_row_accuracy_001",
+          "prompt_text": "Update the {column_name} total in {table_title} to {correct_value}"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_002",
-          "prompt_text": "Insert nested table into cell X"
+          "id": "tables_data_totals_row_accuracy_002",
+          "prompt_text": "Add a totals row to {table_title} that sums the {column_name} column"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_003",
-          "prompt_text": "Match inner table width to {50%}% of parent"
+          "id": "tables_data_totals_row_accuracy_003",
+          "prompt_text": "Fix the grand total in {table_title} from {wrong_value} to {correct_value}"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_004",
-          "prompt_text": "Align inner table to center of parent"
+          "id": "tables_data_totals_row_accuracy_004",
+          "prompt_text": "Bold the totals row in {table_title} with a {border_weight} top border"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_005",
-          "prompt_text": "Set nested border to {0.25}\" thickness"
+          "id": "tables_data_totals_row_accuracy_005",
+          "prompt_text": "Add a subtotals row above the grand total in {table_title}"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_006",
-          "prompt_text": "Match inner table width to {8pt}% of parent"
+          "id": "tables_data_totals_row_accuracy_006",
+          "prompt_text": "Place the totals row directly below the last data row in {table_title} with no gap"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_007",
-          "prompt_text": "Remove padding between nested tables"
+          "id": "tables_data_totals_row_accuracy_007",
+          "prompt_text": "Change the blank total cell in {table_title} to {correct_value}"
         },
         {
-          "id": "tables_data_nested_table_hierarchy_008",
-          "prompt_text": "Match inner table width to {2.0}\"% of parent"
+          "id": "tables_data_totals_row_accuracy_008",
+          "prompt_text": "Right-align the totals row values in {table_title} to match the data rows"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_009",
+          "prompt_text": "Add a {shading_color} fill to the totals row in {table_title}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_010",
+          "prompt_text": "Add a double bottom border under the totals row in {table_title}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_011",
+          "prompt_text": "Label the totals row in {table_title} as {label_text}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_012",
+          "prompt_text": "Remove the extra total that counts the same data twice in {table_title}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_013",
+          "prompt_text": "Use the same number format on the totals row as the data rows in {table_title}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_014",
+          "prompt_text": "Set the totals row height in {table_title} to {row_height}"
+        },
+        {
+          "id": "tables_data_totals_row_accuracy_015",
+          "prompt_text": "Replace em dashes in the totals row of {table_title} with {correct_value} where a sum applies"
+        }
+      ]
+    },
+    {
+      "subcategory": "sort_order_consistency",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "sort-order-consistency"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_sort_order_consistency_001",
+          "prompt_text": "Sort {table_title} by the {column_name} column from {sort_direction}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_002",
+          "prompt_text": "Sort the rows in {table_title} alphabetically by the {column_name} column"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_003",
+          "prompt_text": "Move the {row_label} row to the top of {table_title}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_004",
+          "prompt_text": "Reverse the row order in {table_title} so the highest value is first"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_005",
+          "prompt_text": "Sort the dates in {table_title} from earliest to latest"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_006",
+          "prompt_text": "Keep the totals row at the bottom after sorting {table_title}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_007",
+          "prompt_text": "Group the rows in {table_title} by the {column_name} column"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_008",
+          "prompt_text": "Move the {row_label} row in {table_title} to below {second_row_label}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_009",
+          "prompt_text": "Sort {table_title} by the {column_name} column descending then by {second_column_name} ascending"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_010",
+          "prompt_text": "Fix the out-of-order {row_label} row in {table_title}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_011",
+          "prompt_text": "Match the row order in {table_title} to the order in {reference_table}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_012",
+          "prompt_text": "Move the Other or Misc row to the bottom of {table_title}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_013",
+          "prompt_text": "Reorder the columns in {table_title} so {column_name} comes before {second_column_name}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_014",
+          "prompt_text": "Keep the header row pinned at the top after sorting {table_title}"
+        },
+        {
+          "id": "tables_data_sort_order_consistency_015",
+          "prompt_text": "Sort each group section in {table_title} independently by {column_name}"
+        }
+      ]
+    },
+    {
+      "subcategory": "empty_cell_handling",
+      "priority": "tables_data",
+      "doc_type": "both",
+      "tags": [
+        "tables_data",
+        "empty-cell-handling"
+      ],
+      "entries": [
+        {
+          "id": "tables_data_empty_cell_handling_001",
+          "prompt_text": "Replace blank cells in {table_title} with em dashes"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_002",
+          "prompt_text": "Replace blank cells in the {column_name} column of {table_title} with {placeholder_text}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_003",
+          "prompt_text": "Change the blank total cell in {table_title} to {correct_value}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_004",
+          "prompt_text": "Fill the empty {column_name} cells in {table_title} with {placeholder_text}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_005",
+          "prompt_text": "Replace N/A in {table_title} with em dashes"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_006",
+          "prompt_text": "Remove the stray space characters in the blank cells of {table_title}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_007",
+          "prompt_text": "Center the em dashes in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_008",
+          "prompt_text": "Replace the word None in {table_title} with an em dash"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_009",
+          "prompt_text": "Use a consistent placeholder across all empty cells in {table_title}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_010",
+          "prompt_text": "Replace the hyphen placeholders in {table_title} with proper em dashes"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_011",
+          "prompt_text": "Fill the empty date cell in {table_title} with {placeholder_text}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_012",
+          "prompt_text": "Remove the zero values in {table_title} and replace them with em dashes"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_013",
+          "prompt_text": "Match the empty cell treatment in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_014",
+          "prompt_text": "Add a TBD label to every empty cell in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_data_empty_cell_handling_015",
+          "prompt_text": "Gray out the em dashes in {table_title} so they read as placeholders"
         }
       ]
     }

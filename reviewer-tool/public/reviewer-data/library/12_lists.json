@@ -7,352 +7,68 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "bullet-style-consistency"
+        "bullet-style"
       ],
       "entries": [
         {
           "id": "lists_bullet_style_consistency_001",
-          "prompt_text": "Add colon at end of the lead-in sentence before {list}"
+          "prompt_text": "Change all top-level bullets in {list_name} to {solid round bullets}"
         },
         {
           "id": "lists_bullet_style_consistency_002",
-          "prompt_text": "Add period to {last bullet} in {action list}"
+          "prompt_text": "Change all second-level bullets in {list_name} to {hollow circles}"
         },
         {
           "id": "lists_bullet_style_consistency_003",
-          "prompt_text": "Add missing Oxford comma in {list} under {Key Findings}"
+          "prompt_text": "Replace the dash bullets in {list_name} with {real bullet symbols}"
         },
         {
           "id": "lists_bullet_style_consistency_004",
-          "prompt_text": "Add missing {item number 3} in {rollout list}"
+          "prompt_text": "Remove the mixed bullet symbols from {list_name} and use one style"
         },
         {
           "id": "lists_bullet_style_consistency_005",
-          "prompt_text": "Add missing {recommendation list} below {findings} section"
+          "prompt_text": "Change the checklist bullets in {list_name} to {checkmarks}"
         },
         {
           "id": "lists_bullet_style_consistency_006",
-          "prompt_text": "Add {4pt} of space between each {bullet} in {Findings list}"
+          "prompt_text": "Use {square bullets} for the third-level items in {list_name}"
         },
         {
           "id": "lists_bullet_style_consistency_007",
-          "prompt_text": "Add {6pt} before {first bullet} item in each list"
+          "prompt_text": "Add the missing bullet before {item_text} in {list_name}"
         },
         {
           "id": "lists_bullet_style_consistency_008",
-          "prompt_text": "Add {6pt} of space after {last bullet} before next paragraph"
+          "prompt_text": "Change all bullets in {list_name} to {bullet_style}"
         },
         {
           "id": "lists_bullet_style_consistency_009",
-          "prompt_text": "Add {8pt} between {list} and paragraph below it"
+          "prompt_text": "Match the bullet style in {list_name} to the rest of the document"
         },
         {
           "id": "lists_bullet_style_consistency_010",
-          "prompt_text": "Add {8pt} of space before {list} starts"
+          "prompt_text": "Replace the {arrow bullets} in {list_name} with {round bullets}"
         },
         {
           "id": "lists_bullet_style_consistency_011",
-          "prompt_text": "Add {periods} to every {bullet} in {action list}"
+          "prompt_text": "Remove the extra bullet on the blank line in {list_name}"
         },
         {
           "id": "lists_bullet_style_consistency_012",
-          "prompt_text": "Align sub-bullets in {Risks} section with sub-bullets in {Benefits} section"
+          "prompt_text": "Change the {star bullet} in {list_name} to match the other bullet symbols"
         },
         {
           "id": "lists_bullet_style_consistency_013",
-          "prompt_text": "Align {bullet list} with {left margin}"
+          "prompt_text": "Use {colored bullets} in {color} for every item in {list_name}"
         },
         {
           "id": "lists_bullet_style_consistency_014",
-          "prompt_text": "Capitalize the {first word} of every {bullet}"
+          "prompt_text": "Increase the bullet size in {list_name} to {font_size}"
         },
         {
           "id": "lists_bullet_style_consistency_015",
-          "prompt_text": "Change every {top-level bullet} to a {solid round bullet}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_016",
-          "prompt_text": "Change checkmark bullets in {status list} to {round bullets}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_017",
-          "prompt_text": "Change gerund bullets under {Process}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_018",
-          "prompt_text": "Change inline citation to {Jones 2024}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_019",
-          "prompt_text": "Change numbered priority list"
-        },
-        {
-          "id": "lists_bullet_style_consistency_020",
-          "prompt_text": "Change third-level bullet in {References} section to a {square bullet}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_021",
-          "prompt_text": "Change {accomodate} in {action list} to {accommodate}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_022",
-          "prompt_text": "Continue the {numbering} from {first list} into {second list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_023",
-          "prompt_text": "Cut longest bullet in {Risks} list to {12 words}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_024",
-          "prompt_text": "Cut {Benefits} list to {five}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_025",
-          "prompt_text": "Fix double-spaced checklist items to single spacing"
-        },
-        {
-          "id": "lists_bullet_style_consistency_026",
-          "prompt_text": "Fix duplicate {number 4} in {process list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_027",
-          "prompt_text": "Fix missing article in {first recommendation bullet}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_028",
-          "prompt_text": "Increase left margin of the {entire list} by {0.5 inches}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_029",
-          "prompt_text": "Make every item in checklist a complete sentence"
-        },
-        {
-          "id": "lists_bullet_style_consistency_030",
-          "prompt_text": "Make spacing between all bullet items {4pt}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_031",
-          "prompt_text": "Make {second line} of each long bullet hang under text"
-        },
-        {
-          "id": "lists_bullet_style_consistency_032",
-          "prompt_text": "Match space between bullets in {Risks} list to {Benefits} list"
-        },
-        {
-          "id": "lists_bullet_style_consistency_033",
-          "prompt_text": "Match {bullet list} left edge to paragraph left margin"
-        },
-        {
-          "id": "lists_bullet_style_consistency_034",
-          "prompt_text": "Match {bullet} color at each level to text color at that level"
-        },
-        {
-          "id": "lists_bullet_style_consistency_035",
-          "prompt_text": "Match {bullet} symbol in {Recommendations} list to {Findings} list"
-        },
-        {
-          "id": "lists_bullet_style_consistency_036",
-          "prompt_text": "Merge last two bullets in {action list} into one"
-        },
-        {
-          "id": "lists_bullet_style_consistency_037",
-          "prompt_text": "Move source list into a footnote"
-        },
-        {
-          "id": "lists_bullet_style_consistency_038",
-          "prompt_text": "Move {bullet list} left"
-        },
-        {
-          "id": "lists_bullet_style_consistency_039",
-          "prompt_text": "Nest the subsection bookmarks under their parent section bookmarks"
-        },
-        {
-          "id": "lists_bullet_style_consistency_040",
-          "prompt_text": "Pull second-level {numbered list} items in {0.5 inches} from left margin"
-        },
-        {
-          "id": "lists_bullet_style_consistency_041",
-          "prompt_text": "Raise the {last bullet} {0.1 inches}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_042",
-          "prompt_text": "Reduce {bullet list} spacing to {4pt} between items"
-        },
-        {
-          "id": "lists_bullet_style_consistency_043",
-          "prompt_text": "Reduce {line} spacing inside multi-line bullet items to {1.0}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_044",
-          "prompt_text": "Remove dash bullets and use real bullet symbols"
-        },
-        {
-          "id": "lists_bullet_style_consistency_045",
-          "prompt_text": "Remove double spacing between numbered items"
-        },
-        {
-          "id": "lists_bullet_style_consistency_046",
-          "prompt_text": "Remove extra white space between {bullet list} and next paragraph"
-        },
-        {
-          "id": "lists_bullet_style_consistency_047",
-          "prompt_text": "Remove mixed bullet symbols from {action list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_048",
-          "prompt_text": "Remove parentheses from numbered items and use period instead"
-        },
-        {
-          "id": "lists_bullet_style_consistency_049",
-          "prompt_text": "Remove periods from short fragment bullets in {sidebar}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_050",
-          "prompt_text": "Remove sixth item from {top 5 list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_051",
-          "prompt_text": "Remove trailing commas from bulleted items under {Scope}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_052",
-          "prompt_text": "Remove {double blank line} before {numbered list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_053",
-          "prompt_text": "Remove {duplicate bullet} in {Scope} section"
-        },
-        {
-          "id": "lists_bullet_style_consistency_054",
-          "prompt_text": "Renumber the checklist from {1 through 5}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_055",
-          "prompt_text": "Replace {can't} in {bullet 3} with {cannot}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_056",
-          "prompt_text": "Replace {empower} with {allow} in {bullet 4}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_057",
-          "prompt_text": "Replace {utilize} with {use} in {bullet} under Findings"
-        },
-        {
-          "id": "lists_bullet_style_consistency_058",
-          "prompt_text": "Restart the {numbered list} at {1} under {Next Steps}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_059",
-          "prompt_text": "Set distinct bullet shape for each nesting level"
-        },
-        {
-          "id": "lists_bullet_style_consistency_060",
-          "prompt_text": "Set left tab stop at {2.5 inches} for every value in key facts list"
-        },
-        {
-          "id": "lists_bullet_style_consistency_061",
-          "prompt_text": "Set right-aligned tab stop at {6 inches} with a dotted leader in reference list"
-        },
-        {
-          "id": "lists_bullet_style_consistency_062",
-          "prompt_text": "Set each nested bullet level {0.25 inches} deeper than its parent"
-        },
-        {
-          "id": "lists_bullet_style_consistency_063",
-          "prompt_text": "Set action item list to {1.15} line spacing"
-        },
-        {
-          "id": "lists_bullet_style_consistency_064",
-          "prompt_text": "Set definition list line spacing to {1.15}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_065",
-          "prompt_text": "Set reference list entries to single line spacing"
-        },
-        {
-          "id": "lists_bullet_style_consistency_066",
-          "prompt_text": "Set source list to {1.0} line spacing"
-        },
-        {
-          "id": "lists_bullet_style_consistency_067",
-          "prompt_text": "Set sub-bullet line spacing to {1.15}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_068",
-          "prompt_text": "Set {bullet list} line spacing to {1.15}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_069",
-          "prompt_text": "Set {bullet list} text to same typeface"
-        },
-        {
-          "id": "lists_bullet_style_consistency_070",
-          "prompt_text": "Set {line} spacing inside multi-line bullets to single"
-        },
-        {
-          "id": "lists_bullet_style_consistency_071",
-          "prompt_text": "Set {numbered list} items to {1.15} line spacing"
-        },
-        {
-          "id": "lists_bullet_style_consistency_072",
-          "prompt_text": "Set {numbered list} left edge to {0.5 inches} from margin"
-        },
-        {
-          "id": "lists_bullet_style_consistency_073",
-          "prompt_text": "Set {0pt} after {last item} in {numbered list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_074",
-          "prompt_text": "Set {2pt} between sub-bullet items"
-        },
-        {
-          "id": "lists_bullet_style_consistency_075",
-          "prompt_text": "Set {4pt} after each numbered step in {action list}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_076",
-          "prompt_text": "Set {4pt} between each checklist item"
-        },
-        {
-          "id": "lists_bullet_style_consistency_077",
-          "prompt_text": "Shorten the {40-word recommendation bullet} to under {20 words}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_078",
-          "prompt_text": "Shorten the {long bullet} in {action list} to {one sentence}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_079",
-          "prompt_text": "Split {40-word bullet} in summary into two bullets"
-        },
-        {
-          "id": "lists_bullet_style_consistency_080",
-          "prompt_text": "Tighten vertical space between sub-bullets to {2pt}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_081",
-          "prompt_text": "Shorten every bullet in {overview list} to one line"
-        },
-        {
-          "id": "lists_bullet_style_consistency_082",
-          "prompt_text": "Turn the fragment in {bullet 3} into a complete sentence with a subject"
-        },
-        {
-          "id": "lists_bullet_style_consistency_083",
-          "prompt_text": "Turn the {one-item list} under {Notes} into a {sentence}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_084",
-          "prompt_text": "Use same three-level bullet scheme in both the {Risks} and {Benefits} sections"
-        },
-        {
-          "id": "lists_bullet_style_consistency_085",
-          "prompt_text": "Use {em dash bullets}"
-        },
-        {
-          "id": "lists_bullet_style_consistency_086",
-          "prompt_text": "Use {teal} on both the {bullets} and {divider line}"
+          "prompt_text": "Change the bullet color in {list_name} from {old_color} to {new_color}"
         }
       ]
     },
@@ -362,56 +78,68 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "list-indentation-alignment"
+        "list-indentation"
       ],
       "entries": [
         {
           "id": "lists_list_indentation_alignment_001",
-          "prompt_text": "Align {numbered items} to same {left indent}"
+          "prompt_text": "Align the {list_name} list with the {body text margin}"
         },
         {
           "id": "lists_list_indentation_alignment_002",
-          "prompt_text": "Fix broken hanging indent on item {3} in the {action list}"
+          "prompt_text": "Set the left indent for {list_name} to {indent_value}"
         },
         {
           "id": "lists_list_indentation_alignment_003",
-          "prompt_text": "Indent each nesting level by an additional {0.25 inches}"
+          "prompt_text": "Set a hanging indent of {indent_value} for {list_name}"
         },
         {
           "id": "lists_list_indentation_alignment_004",
-          "prompt_text": "Indent the sub-list under {item 2} by {0.25 inches}"
+          "prompt_text": "Align the wrapped lines in {list_name} under the first word"
         },
         {
           "id": "lists_list_indentation_alignment_005",
-          "prompt_text": "Pull {third bullet} back to same left indent as {bullets 1, 2, and 4}"
+          "prompt_text": "Indent the second-level items in {list_name} one step deeper"
         },
         {
           "id": "lists_list_indentation_alignment_006",
-          "prompt_text": "Remove extra indent on {last item} in {Risks} list"
+          "prompt_text": "Align the numbered list under {section_name} with the {left margin}"
         },
         {
           "id": "lists_list_indentation_alignment_007",
-          "prompt_text": "Set {0.25-inch} hanging indent on all {numbered list} items"
+          "prompt_text": "Move the {list_name} list {distance} to the right"
         },
         {
           "id": "lists_list_indentation_alignment_008",
-          "prompt_text": "Set {0.25-inch} hanging indent on all {reference list entries}"
+          "prompt_text": "Reduce the indent on {list_name} by {indent_value}"
         },
         {
           "id": "lists_list_indentation_alignment_009",
-          "prompt_text": "Set definition list left indent to {0 inches}"
+          "prompt_text": "Align the third-level items in {list_name} under the second-level text"
         },
         {
           "id": "lists_list_indentation_alignment_010",
-          "prompt_text": "Set left indent to {0.25 inches} on every bullet item in {Findings} list"
+          "prompt_text": "Fix the uneven indent on item {item_number} in {list_name}"
         },
         {
           "id": "lists_list_indentation_alignment_011",
-          "prompt_text": "Set numbered action items to a {0.25-inch} left indent"
+          "prompt_text": "Set the tab stop after the bullet in {list_name} to {tab_value}"
         },
         {
           "id": "lists_list_indentation_alignment_012",
-          "prompt_text": "Set sub-bullet indent to {0.25 inches} deeper than the parent bullet"
+          "prompt_text": "Match the indent depth of {list_name} to {other_list_name}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_013",
+          "prompt_text": "Move the bullet symbol in {list_name} {distance} closer to the text"
+        },
+        {
+          "id": "lists_list_indentation_alignment_014",
+          "prompt_text": "Outdent the {list_name} so it starts flush with the {heading}"
+        },
+        {
+          "id": "lists_list_indentation_alignment_015",
+          "prompt_text": "Remove the extra indent from the last item in {list_name}"
         }
       ]
     },
@@ -421,40 +149,68 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "parallel-grammatical-structure"
+        "parallel-structure"
       ],
       "entries": [
         {
           "id": "lists_parallel_grammatical_structure_001",
-          "prompt_text": "Capitalize the proper noun in {third bullet}"
+          "prompt_text": "Start every bullet in {list_name} with a {verb}"
         },
         {
           "id": "lists_parallel_grammatical_structure_002",
-          "prompt_text": "Delete {In order to} from {first bullet} and start with verb"
+          "prompt_text": "Change bullet {item_number} in {list_name} to match the {verb} pattern"
         },
         {
           "id": "lists_parallel_grammatical_structure_003",
-          "prompt_text": "Make every {bullet} in {Findings list} start with a {verb}"
+          "prompt_text": "Change the items in {list_name} to {sentence fragments}"
         },
         {
           "id": "lists_parallel_grammatical_structure_004",
-          "prompt_text": "Make two bullets under {Benefits} use same grammatical form"
+          "prompt_text": "Change the items in {list_name} to {full sentences}"
         },
         {
           "id": "lists_parallel_grammatical_structure_005",
-          "prompt_text": "Remove comma between subject and verb in {first bullet}"
+          "prompt_text": "Make every item in {list_name} start with the same {part of speech}"
         },
         {
           "id": "lists_parallel_grammatical_structure_006",
-          "prompt_text": "Rewrite mixed noun/verb bullets in summary to all start with nouns"
+          "prompt_text": "Change the {gerund} in bullet {item_number} of {list_name} to a {base verb}"
         },
         {
           "id": "lists_parallel_grammatical_structure_007",
-          "prompt_text": "Rewrite {item 3} in {action list}"
+          "prompt_text": "Keep every item in {list_name} in {past tense}"
         },
         {
           "id": "lists_parallel_grammatical_structure_008",
-          "prompt_text": "Start every numbered step with an imperative verb"
+          "prompt_text": "Rewrite the {noun phrase} in bullet {item_number} of {list_name} as an {action phrase}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_009",
+          "prompt_text": "Start every item in {list_name} with a {gerund}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_010",
+          "prompt_text": "Change the passive voice in bullet {item_number} of {list_name} to active voice"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_011",
+          "prompt_text": "Remove the leading article from each item in {list_name} so they all start with a {noun}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_012",
+          "prompt_text": "Make the sub-bullets under {item_text} in {list_name} parallel in structure"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_013",
+          "prompt_text": "Change all items in {list_name} to {imperative mood}"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_014",
+          "prompt_text": "Rewrite {list_name} so every item follows the same {subject-verb} pattern"
+        },
+        {
+          "id": "lists_parallel_grammatical_structure_015",
+          "prompt_text": "Change the question in bullet {item_number} of {list_name} to a statement to match the others"
         }
       ]
     },
@@ -464,24 +220,139 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "list-punctuation-consistency"
+        "list-punctuation"
       ],
       "entries": [
         {
           "id": "lists_list_punctuation_consistency_001",
-          "prompt_text": "Make {numbered list} punctuation match from {item 1} through {item 5}"
+          "prompt_text": "Add {periods} to every bullet in {list_name}"
         },
         {
           "id": "lists_list_punctuation_consistency_002",
-          "prompt_text": "Remove semicolons at end of each bullet and use periods instead"
+          "prompt_text": "Remove {periods} from the fragment bullets in {list_name}"
         },
         {
           "id": "lists_list_punctuation_consistency_003",
-          "prompt_text": "Remove semicolons from {three bullets} in {sidebar}"
+          "prompt_text": "Add a {colon} after the lead-in sentence above {list_name}"
         },
         {
           "id": "lists_list_punctuation_consistency_004",
-          "prompt_text": "Replace the semicolons and trailing and with periods on each bullet"
+          "prompt_text": "Remove the {semicolons} from the items in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_005",
+          "prompt_text": "Add {semicolons} between the items in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_006",
+          "prompt_text": "Add a {comma} after the introductory phrase in bullet {item_number} of {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_007",
+          "prompt_text": "Remove the trailing {comma} from the last item in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_008",
+          "prompt_text": "Add {and} before the last item in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_009",
+          "prompt_text": "Remove the {period} from bullet {item_number} in {list_name} to match the rest"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_010",
+          "prompt_text": "Add a {period} after the final item in {list_name} only"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_011",
+          "prompt_text": "Replace the {dashes} before each item in {list_name} with proper {bullet symbols}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_012",
+          "prompt_text": "Remove the {colon} from the end of bullet {item_number} in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_013",
+          "prompt_text": "Add {semicolons} after each item and {a period} after the last item in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_014",
+          "prompt_text": "Remove all end punctuation from the sub-bullets in {list_name}"
+        },
+        {
+          "id": "lists_list_punctuation_consistency_015",
+          "prompt_text": "Change the {parenthesis} after each number in {list_name} to a {period}"
+        }
+      ]
+    },
+    {
+      "subcategory": "list_case_consistency",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "list-case"
+      ],
+      "entries": [
+        {
+          "id": "lists_list_case_consistency_001",
+          "prompt_text": "Change all items in {list_name} to {sentence case}"
+        },
+        {
+          "id": "lists_list_case_consistency_002",
+          "prompt_text": "Change all items in {list_name} to {title case}"
+        },
+        {
+          "id": "lists_list_case_consistency_003",
+          "prompt_text": "Lowercase the first word in bullet {item_number} of {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_004",
+          "prompt_text": "Capitalize the first word of every item in {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_005",
+          "prompt_text": "Change the labels in {list_name} to {all caps}"
+        },
+        {
+          "id": "lists_list_case_consistency_006",
+          "prompt_text": "Match the case of all sub-bullets in {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_007",
+          "prompt_text": "Change bullet {item_number} in {list_name} to {case_style}"
+        },
+        {
+          "id": "lists_list_case_consistency_008",
+          "prompt_text": "Lowercase every item in {list_name} to match the lead-in fragment"
+        },
+        {
+          "id": "lists_list_case_consistency_009",
+          "prompt_text": "Change the {acronym} in bullet {item_number} of {list_name} to {all caps}"
+        },
+        {
+          "id": "lists_list_case_consistency_010",
+          "prompt_text": "Match the case style of {list_name} to {other_list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_011",
+          "prompt_text": "Capitalize the bold lead-in word on every item in {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_012",
+          "prompt_text": "Change the {mixed case} items in {list_name} to a consistent {sentence case}"
+        },
+        {
+          "id": "lists_list_case_consistency_013",
+          "prompt_text": "Lowercase the prepositions in the {title case} items in {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_014",
+          "prompt_text": "Remove the all-caps styling from bullet {item_number} in {list_name}"
+        },
+        {
+          "id": "lists_list_case_consistency_015",
+          "prompt_text": "Make the numbered items in {list_name} sentence case to match the bullet list above"
         }
       ]
     },
@@ -491,36 +362,68 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "multi-level-numbering-overrides"
+        "multilevel-numbering"
       ],
       "entries": [
         {
           "id": "lists_multi_level_numbering_overrides_001",
-          "prompt_text": "Change level 3 symbol to bullet"
+          "prompt_text": "Change the second-level numbering in {list_name} to {lowercase letters}"
         },
         {
           "id": "lists_multi_level_numbering_overrides_002",
-          "prompt_text": "Override level 2 numbering to a, b, c"
+          "prompt_text": "Change the third-level numbering in {list_name} to {lowercase roman numerals}"
         },
         {
           "id": "lists_multi_level_numbering_overrides_003",
-          "prompt_text": "Fix alignment for multi-level list"
+          "prompt_text": "Use {1.1, 1.2, 1.3} for the second level in {list_name}"
         },
         {
           "id": "lists_multi_level_numbering_overrides_004",
-          "prompt_text": "Set indent for level X to {15pt}"
+          "prompt_text": "Convert the manual numbers in {list_name} to automatic numbering"
         },
         {
           "id": "lists_multi_level_numbering_overrides_005",
-          "prompt_text": "Add prefix to all list levels"
+          "prompt_text": "Align the number widths in {list_name} so single and double digits line up"
         },
         {
           "id": "lists_multi_level_numbering_overrides_006",
-          "prompt_text": "Set indent for level X to {2.0}\""
+          "prompt_text": "Change the numbering format in {list_name} to {number_format}"
         },
         {
           "id": "lists_multi_level_numbering_overrides_007",
-          "prompt_text": "Set indent for level X to {80%}"
+          "prompt_text": "Move the sub-list under item {item_number} in {list_name} to the correct level"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_008",
+          "prompt_text": "Add a {period} after each number in {list_name}"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_009",
+          "prompt_text": "Change the top-level numbering in {list_name} to {uppercase roman numerals}"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_010",
+          "prompt_text": "Remove the {parenthesis} after the number and use a {period} in {list_name}"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_011",
+          "prompt_text": "Change the second-level style in {list_name} from numbers to {bullets}"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_012",
+          "prompt_text": "Promote the third-level items in {list_name} to second-level"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_013",
+          "prompt_text": "Demote item {item_number} in {list_name} to a sub-item"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_014",
+          "prompt_text": "Use {outline numbering} ({I, A, 1, a}) for {list_name}"
+        },
+        {
+          "id": "lists_multi_level_numbering_overrides_015",
+          "prompt_text": "Match the multi-level numbering in {list_name} to the style used in {other_list_name}"
         }
       ]
     },
@@ -530,107 +433,210 @@
       "doc_type": "both",
       "tags": [
         "lists",
-        "restart-numbering-logic"
+        "restart-numbering"
       ],
       "entries": [
         {
           "id": "lists_restart_numbering_logic_001",
-          "prompt_text": "Break numbering after item X"
+          "prompt_text": "Restart the numbered list under {section_name} at {1}"
         },
         {
           "id": "lists_restart_numbering_logic_002",
-          "prompt_text": "Set start value to {5px} for list"
+          "prompt_text": "Continue the numbering in {list_name} after the paragraph break"
         },
         {
           "id": "lists_restart_numbering_logic_003",
-          "prompt_text": "Continue numbering from previous section"
+          "prompt_text": "Fix the duplicate number {item_number} in {list_name}"
         },
         {
           "id": "lists_restart_numbering_logic_004",
-          "prompt_text": "Fix numbering sequence in appendix"
+          "prompt_text": "Add the missing number {item_number} to {list_name}"
         },
         {
           "id": "lists_restart_numbering_logic_005",
-          "prompt_text": "Set start value to {0.5}\" for list"
+          "prompt_text": "Renumber {list_name} from {start_number} through {end_number}"
         },
         {
           "id": "lists_restart_numbering_logic_006",
-          "prompt_text": "Restart list numbering at {12pt}"
+          "prompt_text": "Continue the numbering from the previous list in {section_name}"
         },
         {
           "id": "lists_restart_numbering_logic_007",
-          "prompt_text": "Restart list numbering at {2.0}\""
+          "prompt_text": "Restart the list under {section_name} at {start_value}"
         },
         {
           "id": "lists_restart_numbering_logic_008",
-          "prompt_text": "Restart list numbering at {200%}"
+          "prompt_text": "Fix the numbering that skips from {number_a} to {number_b} in {list_name}"
         },
         {
           "id": "lists_restart_numbering_logic_009",
-          "prompt_text": "Set start value to {200%} for list"
+          "prompt_text": "Reset the sub-list numbering under each top-level item in {list_name}"
+        },
+        {
+          "id": "lists_restart_numbering_logic_010",
+          "prompt_text": "Remove the manual number override on item {item_number} in {list_name}"
+        },
+        {
+          "id": "lists_restart_numbering_logic_011",
+          "prompt_text": "Fix the list in {section_name} that restarts at {1} when it should continue"
+        },
+        {
+          "id": "lists_restart_numbering_logic_012",
+          "prompt_text": "Change the starting number of {list_name} to {start_number}"
+        },
+        {
+          "id": "lists_restart_numbering_logic_013",
+          "prompt_text": "Fix the reversed numbering in {list_name} so it counts up"
+        },
+        {
+          "id": "lists_restart_numbering_logic_014",
+          "prompt_text": "Remove the duplicate item {item_number} entry in {list_name}"
+        },
+        {
+          "id": "lists_restart_numbering_logic_015",
+          "prompt_text": "Make the numbered list in {section_name} continue from {previous_number}"
         }
       ]
     },
     {
-      "subcategory": "bullet_text_position_offset",
+      "subcategory": "list_spacing_hanging_indent",
       "priority": "lists",
       "doc_type": "both",
       "tags": [
         "lists",
-        "bullet-text-position-offset"
+        "list-spacing"
       ],
       "entries": [
         {
-          "id": "lists_bullet_text_position_offset_001",
-          "prompt_text": "Set first line indent to {10pt} for list"
+          "id": "lists_list_spacing_hanging_indent_001",
+          "prompt_text": "Set {spacing_value} between each item in {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_002",
-          "prompt_text": "Move {bullet 0}.{25\"} to left"
+          "id": "lists_list_spacing_hanging_indent_002",
+          "prompt_text": "Remove the double blank line after {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_003",
-          "prompt_text": "Align bullets to hanging indent"
+          "id": "lists_list_spacing_hanging_indent_003",
+          "prompt_text": "Set the line spacing inside {list_name} to {line_spacing}"
         },
         {
-          "id": "lists_bullet_text_position_offset_004",
-          "prompt_text": "Move bullet {15pt} to left"
+          "id": "lists_list_spacing_hanging_indent_004",
+          "prompt_text": "Add {spacing_value} before {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_005",
-          "prompt_text": "Set bullet offset to {0.25}\""
+          "id": "lists_list_spacing_hanging_indent_005",
+          "prompt_text": "Add {spacing_value} after {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_006",
-          "prompt_text": "Adjust text indent to {80%} from bullet"
+          "id": "lists_list_spacing_hanging_indent_006",
+          "prompt_text": "Tighten the space between the heading and {list_name} to {spacing_value}"
         },
         {
-          "id": "lists_bullet_text_position_offset_007",
-          "prompt_text": "Set first line indent to {80%} for list"
+          "id": "lists_list_spacing_hanging_indent_007",
+          "prompt_text": "Pull the bullet symbols in {list_name} {distance} closer to the text"
         },
         {
-          "id": "lists_bullet_text_position_offset_008",
-          "prompt_text": "Set bullet offset to {10px}"
+          "id": "lists_list_spacing_hanging_indent_008",
+          "prompt_text": "Remove the extra space between items {item_a} and {item_b} in {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_009",
-          "prompt_text": "Set first line indent to {0.5}\" for list"
+          "id": "lists_list_spacing_hanging_indent_009",
+          "prompt_text": "Set the space after the last item in {list_name} to {spacing_value}"
         },
         {
-          "id": "lists_bullet_text_position_offset_010",
-          "prompt_text": "Adjust text indent to {1.0}\" from bullet"
+          "id": "lists_list_spacing_hanging_indent_010",
+          "prompt_text": "Match the item spacing in {list_name} to {other_list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_011",
-          "prompt_text": "Move {bullet 80}% to left"
+          "id": "lists_list_spacing_hanging_indent_011",
+          "prompt_text": "Add {spacing_value} between the top-level items and their sub-items in {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_012",
-          "prompt_text": "Set bullet offset to {50%}"
+          "id": "lists_list_spacing_hanging_indent_012",
+          "prompt_text": "Remove the blank line between every item in {list_name}"
         },
         {
-          "id": "lists_bullet_text_position_offset_013",
-          "prompt_text": "Adjust text indent to {8pt} from bullet"
+          "id": "lists_list_spacing_hanging_indent_013",
+          "prompt_text": "Increase the space between {list_name} and the paragraph below to {spacing_value}"
+        },
+        {
+          "id": "lists_list_spacing_hanging_indent_014",
+          "prompt_text": "Set the hanging indent in {list_name} to {indent_value} so wrapped lines align"
+        },
+        {
+          "id": "lists_list_spacing_hanging_indent_015",
+          "prompt_text": "Reduce the space between the number and the text in {list_name} to {spacing_value}"
+        }
+      ]
+    },
+    {
+      "subcategory": "numbering_format",
+      "priority": "lists",
+      "doc_type": "both",
+      "tags": [
+        "lists",
+        "numbering-format"
+      ],
+      "entries": [
+        {
+          "id": "lists_numbering_format_001",
+          "prompt_text": "Change the subsection numbering under {section_name} to {number_format}"
+        },
+        {
+          "id": "lists_numbering_format_002",
+          "prompt_text": "Match the numbering format in {section_name_a} to the numbering format in {section_name_b}"
+        },
+        {
+          "id": "lists_numbering_format_003",
+          "prompt_text": "Change the bullet list under {section_name} to the document numbered list style"
+        },
+        {
+          "id": "lists_numbering_format_004",
+          "prompt_text": "Use {Arabic numerals} for the list under {section_name}"
+        },
+        {
+          "id": "lists_numbering_format_005",
+          "prompt_text": "Change the numbered list under {section_name} to {lowercase letters}"
+        },
+        {
+          "id": "lists_numbering_format_006",
+          "prompt_text": "Remove the {period} after each number in {list_name} and use a {parenthesis}"
+        },
+        {
+          "id": "lists_numbering_format_007",
+          "prompt_text": "Use {roman numerals} for the top-level items in {list_name}"
+        },
+        {
+          "id": "lists_numbering_format_008",
+          "prompt_text": "Change the step numbering in {list_name} to {Step 1, Step 2, Step 3}"
+        },
+        {
+          "id": "lists_numbering_format_009",
+          "prompt_text": "Add a {closing parenthesis} after each number in {list_name}"
+        },
+        {
+          "id": "lists_numbering_format_010",
+          "prompt_text": "Bold the numbers in {list_name} while keeping the text regular weight"
+        },
+        {
+          "id": "lists_numbering_format_011",
+          "prompt_text": "Change the numbering in {list_name} from {letters} to {numbers}"
+        },
+        {
+          "id": "lists_numbering_format_012",
+          "prompt_text": "Use {decimal numbering} with a {period} separator in {list_name}"
+        },
+        {
+          "id": "lists_numbering_format_013",
+          "prompt_text": "Match the list numbering style in {section_name} to the document default"
+        },
+        {
+          "id": "lists_numbering_format_014",
+          "prompt_text": "Remove the extra space between the number and the text in {list_name}"
+        },
+        {
+          "id": "lists_numbering_format_015",
+          "prompt_text": "Change the numbered list in {section_name} to {number_format}"
         }
       ]
     }

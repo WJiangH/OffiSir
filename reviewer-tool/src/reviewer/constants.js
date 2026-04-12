@@ -20,8 +20,6 @@ export const PRIORITY_ORDER = [
   'content_accuracy',
   'math_calculations',
   'writing_tone',
-  'pptx_specific',
-  'docx_specific',
 ]
 
 export const PRIORITY_LABELS = {
@@ -44,8 +42,6 @@ export const PRIORITY_LABELS = {
   content_accuracy: 'Content & accuracy',
   math_calculations: 'Math & calculations',
   writing_tone: 'Writing & tone',
-  pptx_specific: 'PPTX specific',
-  docx_specific: 'DOCX specific',
 }
 
 export const DOC_TYPE_LABELS = {
@@ -101,8 +97,6 @@ export const TURN_BUILD_ORDER = [
   { id: 'content_accuracy', label: 'Content & accuracy', match: (item) => item.category === 'content_accuracy' },
   { id: 'math_calculations', label: 'Math & calculations', match: (item) => item.category === 'math_calculations' },
   { id: 'writing_tone', label: 'Writing & tone', match: (item) => item.category === 'writing_tone' },
-  { id: 'pptx_specific', label: 'PPTX specific', match: (item) => item.category === 'pptx_specific' },
-  { id: 'docx_specific', label: 'DOCX specific', match: (item) => item.category === 'docx_specific' },
 ]
 
 export const STRICT_BANNED_WORDS = [

@@ -12,135 +12,83 @@
       "entries": [
         {
           "id": "tables_formatting_border_consistency_001",
-          "prompt_text": "Add caption to unlabeled table under {Budget} section"
+          "prompt_text": "Add {border_weight} borders around every cell in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_002",
-          "prompt_text": "Add {1pt} border around every cell in {schedule table}"
+          "prompt_text": "Add {border_weight} right border to the {column_name} column in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_003",
-          "prompt_text": "Add {1pt} right border to {last column}"
+          "prompt_text": "Add {border_weight} bottom border under the header row in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_004",
-          "prompt_text": "Add {2pt} bottom border under {header row} in {Table 2}"
+          "prompt_text": "Add thin {border_weight} horizontal borders between data rows in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_005",
-          "prompt_text": "Add {caption} above {Table 2}"
+          "prompt_text": "Change all table borders in {table_title} to a single {border_weight} line"
         },
         {
           "id": "tables_formatting_border_consistency_006",
-          "prompt_text": "Add {horizontal rule} after {table} of contents"
+          "prompt_text": "Change dashed borders in {table_title} to solid {border_weight} lines"
         },
         {
           "id": "tables_formatting_border_consistency_007",
-          "prompt_text": "Add {shaded fill} to {header row} in {pricing table}"
+          "prompt_text": "Change the gridline color in {table_title} to {border_color}"
         },
         {
           "id": "tables_formatting_border_consistency_008",
-          "prompt_text": "Add {vertical rule} between two text columns"
+          "prompt_text": "Match the border weight on every cell in {table_title} to {border_weight}"
         },
         {
           "id": "tables_formatting_border_consistency_009",
-          "prompt_text": "Add thin {horizontal borders} between {data rows} in {Table 1}"
+          "prompt_text": "Remove the heavy outer border around {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_010",
-          "prompt_text": "Add {4pt} of space between {caption} and {table}"
+          "prompt_text": "Remove vertical borders from {table_title} and keep only horizontal row dividers"
         },
         {
           "id": "tables_formatting_border_consistency_011",
-          "prompt_text": "Add {6pt} below {table caption} before {table} starts"
+          "prompt_text": "Set the header row bottom border in {table_title} to {border_weight} {border_color} and row dividers to {divider_weight} {divider_color}"
         },
         {
           "id": "tables_formatting_border_consistency_012",
-          "prompt_text": "Change all {table borders} to a {single thin line}"
+          "prompt_text": "Remove all interior borders from {table_title} and keep only the outer frame"
         },
         {
           "id": "tables_formatting_border_consistency_013",
-          "prompt_text": "Change dashed borders in {Table 3} to solid lines"
+          "prompt_text": "Add a {border_weight} left border to the first column in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_014",
-          "prompt_text": "Change gridline color to {light gray}"
+          "prompt_text": "Add a {border_weight} top and bottom border to {table_title} with no vertical borders"
         },
         {
           "id": "tables_formatting_border_consistency_015",
-          "prompt_text": "Change highlight fill in {Table 2} to a {lighter gray}"
+          "prompt_text": "Change the outer border of {table_title} from {old_weight} to {border_weight}"
         },
         {
           "id": "tables_formatting_border_consistency_016",
-          "prompt_text": "Change light blue table header fill to dark gray"
+          "prompt_text": "Remove the double border under the header row in {table_title} and replace it with a single {border_weight} line"
         },
         {
           "id": "tables_formatting_border_consistency_017",
-          "prompt_text": "Change {caption} to {Table 1}"
+          "prompt_text": "Match the border style in {table_title} to {reference_table}"
         },
         {
           "id": "tables_formatting_border_consistency_018",
-          "prompt_text": "Change {page divider line} to same {gray}"
+          "prompt_text": "Add a {border_weight} border between the {column_name} and {second_column_name} columns in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_019",
-          "prompt_text": "Change {table of contents} link color"
+          "prompt_text": "Remove the bottom border from the last row in {table_title}"
         },
         {
           "id": "tables_formatting_border_consistency_020",
-          "prompt_text": "Keep {header row} {white} text on a {dark} fill"
-        },
-        {
-          "id": "tables_formatting_border_consistency_021",
-          "prompt_text": "Left-align {table caption} with left edge of the {table}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_022",
-          "prompt_text": "Left-align {table caption} with {table edge}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_023",
-          "prompt_text": "Left-align {table} notes"
-        },
-        {
-          "id": "tables_formatting_border_consistency_024",
-          "prompt_text": "Make all {table caption}s {10pt}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_025",
-          "prompt_text": "Match {border} weight on every cell in {forecast table}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_026",
-          "prompt_text": "Move {caption} below {Table 3}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_027",
-          "prompt_text": "Remove bold from {Table 3} caption"
-        },
-        {
-          "id": "tables_formatting_border_consistency_028",
-          "prompt_text": "Remove {heavy outer border} around the {comparison table}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_029",
-          "prompt_text": "Remove {vertical borders} from {data table}"
-        },
-        {
-          "id": "tables_formatting_border_consistency_030",
-          "prompt_text": "Remove vertical borders and keep only horizontal row dividers"
-        },
-        {
-          "id": "tables_formatting_border_consistency_031",
-          "prompt_text": "Set all {table caption}s to {10pt} italic"
-        },
-        {
-          "id": "tables_formatting_border_consistency_032",
-          "prompt_text": "Set {header row} bottom border to {2pt} {dark gray} and row dividers to {0.5pt} light gray"
-        },
-        {
-          "id": "tables_formatting_border_consistency_033",
-          "prompt_text": "Switch {table title} color from {green} to same {navy}"
+          "prompt_text": "Set all interior borders in {table_title} to {border_weight} {border_color}"
         }
       ]
     },
@@ -155,43 +103,63 @@
       "entries": [
         {
           "id": "tables_formatting_cell_padding_001",
-          "prompt_text": "Add {3pt} of bottom padding to every cell in {roster table}"
+          "prompt_text": "Add {padding_value} of bottom padding to every cell in {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_002",
-          "prompt_text": "Add {4pt} of padding to every cell in {metrics table}"
+          "prompt_text": "Add {padding_value} of padding to every cell in {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_003",
-          "prompt_text": "Add {6pt} of left padding in {first column} of {Table 3}"
+          "prompt_text": "Add {padding_value} of left padding to the first column of {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_004",
-          "prompt_text": "Add {8pt} of left and right padding to every cell in {comparison table}"
+          "prompt_text": "Add {padding_value} of left and right padding to every cell in {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_005",
-          "prompt_text": "Increase {vertical padding} in {header row} to {6pt}"
+          "prompt_text": "Increase vertical padding in the header row of {table_title} to {padding_value}"
         },
         {
           "id": "tables_formatting_cell_padding_006",
-          "prompt_text": "Match {top and bottom cell padding} across every {row}"
+          "prompt_text": "Match top and bottom cell padding across every row in {table_title} to {padding_value}"
         },
         {
           "id": "tables_formatting_cell_padding_007",
-          "prompt_text": "Reduce internal cell padding in {table} to {2pt}"
+          "prompt_text": "Reduce internal cell padding in {table_title} to {padding_value}"
         },
         {
           "id": "tables_formatting_cell_padding_008",
-          "prompt_text": "Remove extra top padding in first data row"
+          "prompt_text": "Remove the extra top padding in the first data row of {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_009",
-          "prompt_text": "Set even {padding} on all {four sides} of every cell in {Table 1}"
+          "prompt_text": "Set even {padding_value} padding on all four sides of every cell in {table_title}"
         },
         {
           "id": "tables_formatting_cell_padding_010",
-          "prompt_text": "Shrink five-row table cell padding to {2pt}"
+          "prompt_text": "Reduce cell padding in {table_title} to {padding_value} so it takes up less vertical space"
+        },
+        {
+          "id": "tables_formatting_cell_padding_011",
+          "prompt_text": "Add {padding_value} of right padding to the last column of {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_012",
+          "prompt_text": "Increase top padding in the totals row of {table_title} to {padding_value}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_013",
+          "prompt_text": "Set the header row padding in {table_title} to {padding_value} top and {padding_value} bottom"
+        },
+        {
+          "id": "tables_formatting_cell_padding_014",
+          "prompt_text": "Match the cell padding in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_cell_padding_015",
+          "prompt_text": "Remove all extra padding from the {column_name} column in {table_title}"
         }
       ]
     },
@@ -206,11 +174,63 @@
       "entries": [
         {
           "id": "tables_formatting_column_width_proportions_001",
-          "prompt_text": "Enlarge {Figure 2} to fill the {full column} width"
+          "prompt_text": "Set {table_title} to fill the full width between the margins"
         },
         {
           "id": "tables_formatting_column_width_proportions_002",
-          "prompt_text": "Set {table} to fill the {width} between {margins}"
+          "prompt_text": "Set the {column_name} column in {table_title} to {column_width}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_003",
+          "prompt_text": "Distribute all columns in {table_title} to equal widths"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_004",
+          "prompt_text": "Widen the {column_name} column in {table_title} to {column_width} so no text wraps"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_005",
+          "prompt_text": "Narrow the {column_name} column in {table_title} to {column_width}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_006",
+          "prompt_text": "Set the first column in {table_title} to {column_width} and split the remainder equally"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_007",
+          "prompt_text": "Auto-fit column widths in {table_title} to the content"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_008",
+          "prompt_text": "Set the {column_name} column to {column_percent} of the table width in {table_title}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_009",
+          "prompt_text": "Match the column widths in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_010",
+          "prompt_text": "Widen the last column in {table_title} to {column_width} for the notes text"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_011",
+          "prompt_text": "Shrink every numeric column in {table_title} to {column_width} and give the rest to the description column"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_012",
+          "prompt_text": "Set a minimum width of {column_width} on the {column_name} column in {table_title}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_013",
+          "prompt_text": "Lock the column widths in {table_title} so they do not shift when content changes"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_014",
+          "prompt_text": "Reduce the total table width of {table_title} to {table_width}"
+        },
+        {
+          "id": "tables_formatting_column_width_proportions_015",
+          "prompt_text": "Make the {column_name} and {second_column_name} columns the same width in {table_title}"
         }
       ]
     },
@@ -225,7 +245,63 @@
       "entries": [
         {
           "id": "tables_formatting_alternating_row_shading_001",
-          "prompt_text": "Use {light gray} fill on alternating table rows"
+          "prompt_text": "Add {shading_color} fill to every other data row in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_002",
+          "prompt_text": "Start the alternating shading on the first data row in {table_title}, not the header"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_003",
+          "prompt_text": "Remove the alternating shading from the totals row in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_004",
+          "prompt_text": "Change the alternating row fill in {table_title} from {old_color} to {shading_color}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_005",
+          "prompt_text": "Fix the broken banding in {table_title} so two consecutive rows are not both shaded"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_006",
+          "prompt_text": "Remove all alternating row shading from {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_007",
+          "prompt_text": "Match the alternating row shading in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_008",
+          "prompt_text": "Apply {shading_color} and white alternating bands to {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_009",
+          "prompt_text": "Skip the subtotal rows when applying alternating shading in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_010",
+          "prompt_text": "Restart the alternating shading after each group header row in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_011",
+          "prompt_text": "Use column shading instead of row shading in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_012",
+          "prompt_text": "Shade every {band_interval} rows in {table_title} instead of every other row"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_013",
+          "prompt_text": "Apply a {shading_color} fill to the header row and {alt_shading_color} to alternating data rows in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_014",
+          "prompt_text": "Keep the alternating shading consistent across the merged-cell section in {table_title}"
+        },
+        {
+          "id": "tables_formatting_alternating_row_shading_015",
+          "prompt_text": "Lighten the alternating row shading in {table_title} so the text stays readable"
         }
       ]
     },
@@ -240,11 +316,63 @@
       "entries": [
         {
           "id": "tables_formatting_cell_vertical_alignment_001",
-          "prompt_text": "Set vertical alignment to {center} for all cells"
+          "prompt_text": "Set vertical alignment to {vertical_alignment} for all cells in {table_title}"
         },
         {
           "id": "tables_formatting_cell_vertical_alignment_002",
-          "prompt_text": "Set vertical alignment to {top} for {header rows}"
+          "prompt_text": "Set vertical alignment to {vertical_alignment} for the header row in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_003",
+          "prompt_text": "Set vertical alignment in the {column_name} column of {table_title} to {vertical_alignment}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_004",
+          "prompt_text": "Vertically center the data in the totals row of {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_005",
+          "prompt_text": "Top-align the text in every multi-line cell in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_006",
+          "prompt_text": "Match the vertical alignment in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_007",
+          "prompt_text": "Set the {row_label} row in {table_title} to vertical {vertical_alignment}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_008",
+          "prompt_text": "Bottom-align the numeric values in {table_title} so they line up with the row labels"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_009",
+          "prompt_text": "Center the status icons vertically in the {column_name} column of {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_010",
+          "prompt_text": "Set every cell in the first column of {table_title} to top alignment"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_011",
+          "prompt_text": "Fix the vertical alignment in the {row_label} row of {table_title} so text is not clipped at the top"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_012",
+          "prompt_text": "Vertically center the merged cell in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_013",
+          "prompt_text": "Set the header row and data rows in {table_title} to the same vertical alignment"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_014",
+          "prompt_text": "Top-align the notes column cells in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_vertical_alignment_015",
+          "prompt_text": "Set all cells in {table_title} to middle vertical alignment"
         }
       ]
     },
@@ -259,216 +387,276 @@
       "entries": [
         {
           "id": "tables_formatting_cell_margin_precision_001",
-          "prompt_text": "Set cell margins to {0.05 inches} on {all sides}"
+          "prompt_text": "Set cell margins to {margin_value} on all sides in {table_title}"
         },
         {
           "id": "tables_formatting_cell_margin_precision_002",
-          "prompt_text": "Increase left cell padding to {4pt}"
+          "prompt_text": "Increase the left cell margin to {margin_value} in {table_title}"
         },
         {
           "id": "tables_formatting_cell_margin_precision_003",
-          "prompt_text": "Set internal cell spacing to {2pt}"
+          "prompt_text": "Set internal cell spacing to {margin_value} in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_004",
+          "prompt_text": "Set the right cell margin in {table_title} to {margin_value}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_005",
+          "prompt_text": "Set the top cell margin in {table_title} to {margin_value}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_006",
+          "prompt_text": "Set the bottom cell margin in {table_title} to {margin_value}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_007",
+          "prompt_text": "Match the cell margins in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_008",
+          "prompt_text": "Remove all extra cell margins from {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_009",
+          "prompt_text": "Set {margin_value} left and right cell margins and {margin_value_2} top and bottom in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_010",
+          "prompt_text": "Increase the cell margins in the header row of {table_title} to {margin_value}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_011",
+          "prompt_text": "Reduce the left cell margin in the {column_name} column of {table_title} to {margin_value}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_012",
+          "prompt_text": "Set default cell margins for {table_title} to {margin_value} on all four sides"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_013",
+          "prompt_text": "Zero out the cell spacing between cells in {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_014",
+          "prompt_text": "Add {margin_value} of left indent inside each cell in the first column of {table_title}"
+        },
+        {
+          "id": "tables_formatting_cell_margin_precision_015",
+          "prompt_text": "Set the cell margins in the totals row of {table_title} to {margin_value} top and {margin_value_2} bottom"
         }
       ]
     },
     {
-      "subcategory": "diagonal_border_logic",
+      "subcategory": "table_border_cleanup",
       "priority": "tables_formatting",
       "doc_type": "both",
       "tags": [
         "tables_formatting",
-        "diagonal-border-logic"
+        "table-border-cleanup"
       ],
       "entries": [
         {
-          "id": "tables_formatting_diagonal_border_logic_001",
-          "prompt_text": "Add diagonal border to cell"
+          "id": "tables_formatting_table_border_cleanup_001",
+          "prompt_text": "Remove the stray border segment under the {row_label} row in {table_title}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_002",
-          "prompt_text": "Align diagonal to top-left"
+          "id": "tables_formatting_table_border_cleanup_002",
+          "prompt_text": "Delete the orphaned vertical border between {column_name} and {second_column_name} in {table_title}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_003",
-          "prompt_text": "Set diagonal line to {0.75}\" thickness"
+          "id": "tables_formatting_table_border_cleanup_003",
+          "prompt_text": "Fix the missing right border on the last column of {table_title}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_004",
-          "prompt_text": "Color diagonal border to {200%}"
+          "id": "tables_formatting_table_border_cleanup_004",
+          "prompt_text": "Remove the extra thick border on the {row_label} row in {table_title}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_005",
-          "prompt_text": "Set diagonal line to {5px} thickness"
+          "id": "tables_formatting_table_border_cleanup_005",
+          "prompt_text": "Replace the dotted border in {table_title} with a solid {border_weight} line"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_006",
-          "prompt_text": "Set diagonal line to {100%} thickness"
+          "id": "tables_formatting_table_border_cleanup_006",
+          "prompt_text": "Remove all borders from {table_title} and use shading only to separate rows"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_007",
-          "prompt_text": "Color diagonal border to {0.75}\""
+          "id": "tables_formatting_table_border_cleanup_007",
+          "prompt_text": "Fix the mismatched border color on the {column_name} column in {table_title} to {border_color}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_008",
-          "prompt_text": "Remove diagonal strike from empty cells"
+          "id": "tables_formatting_table_border_cleanup_008",
+          "prompt_text": "Remove the diagonal line in the empty top-left cell of {table_title}"
         },
         {
-          "id": "tables_formatting_diagonal_border_logic_009",
-          "prompt_text": "Color diagonal border to {5px}"
+          "id": "tables_formatting_table_border_cleanup_009",
+          "prompt_text": "Fix the doubled border where two merged cells meet in {table_title}"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_010",
+          "prompt_text": "Remove the colored border on the header row of {table_title} and use {border_color} instead"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_011",
+          "prompt_text": "Strip all borders from {table_title} so it reads as a clean open table"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_012",
+          "prompt_text": "Fix the gap in the bottom border of {table_title} under the {column_name} column"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_013",
+          "prompt_text": "Normalize all border weights in {table_title} to {border_weight}"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_014",
+          "prompt_text": "Remove the shadow effect on the borders of {table_title}"
+        },
+        {
+          "id": "tables_formatting_table_border_cleanup_015",
+          "prompt_text": "Replace the mixed border styles in {table_title} with uniform {border_weight} {border_color} lines"
         }
       ]
     },
     {
-      "subcategory": "corner_rounding_geometry",
+      "subcategory": "row_height_consistency",
       "priority": "tables_formatting",
       "doc_type": "both",
       "tags": [
         "tables_formatting",
-        "corner-rounding-geometry"
+        "row-height-consistency"
       ],
       "entries": [
         {
-          "id": "tables_formatting_corner_rounding_geometry_001",
-          "prompt_text": "Set top-right corner to {1.0}\" roundness"
+          "id": "tables_formatting_row_height_consistency_001",
+          "prompt_text": "Set all data rows in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_002",
-          "prompt_text": "Set top-right corner to {200%} roundness"
+          "id": "tables_formatting_row_height_consistency_002",
+          "prompt_text": "Set the header row height in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_003",
-          "prompt_text": "Apply {10pt} corner radius to all cells"
+          "id": "tables_formatting_row_height_consistency_003",
+          "prompt_text": "Match the row height of every row in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_004",
-          "prompt_text": "Match outer border rounding to {200%}"
+          "id": "tables_formatting_row_height_consistency_004",
+          "prompt_text": "Fix the {row_label} row in {table_title} that is taller than the other rows"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_005",
-          "prompt_text": "Round table corners to {50%} radius"
+          "id": "tables_formatting_row_height_consistency_005",
+          "prompt_text": "Set the minimum row height in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_006",
-          "prompt_text": "Set top-right corner to {15pt} roundness"
+          "id": "tables_formatting_row_height_consistency_006",
+          "prompt_text": "Turn on auto-fit row height for all rows in {table_title}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_007",
-          "prompt_text": "Apply {100%} corner radius to all cells"
+          "id": "tables_formatting_row_height_consistency_007",
+          "prompt_text": "Reduce the header row height in {table_title} from {old_height} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_008",
-          "prompt_text": "Round table corners to {1.0}\" radius"
+          "id": "tables_formatting_row_height_consistency_008",
+          "prompt_text": "Set the totals row height in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_009",
-          "prompt_text": "Match outer border rounding to {12pt}"
+          "id": "tables_formatting_row_height_consistency_009",
+          "prompt_text": "Make the {row_label} row height in {table_title} the same as the other data rows"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_010",
-          "prompt_text": "Remove rounding from header row"
+          "id": "tables_formatting_row_height_consistency_010",
+          "prompt_text": "Increase the row height for all wrapped-text rows in {table_title} to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_011",
-          "prompt_text": "Round table corners to {15pt} radius"
+          "id": "tables_formatting_row_height_consistency_011",
+          "prompt_text": "Fix the compressed row that clips text in {table_title} by setting the height to {row_height}"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_012",
-          "prompt_text": "Apply {1.25}\" corner radius to all cells"
+          "id": "tables_formatting_row_height_consistency_012",
+          "prompt_text": "Set exact row height for every row in {table_title} instead of auto"
         },
         {
-          "id": "tables_formatting_corner_rounding_geometry_013",
-          "prompt_text": "Match outer border rounding to {1.25}\""
+          "id": "tables_formatting_row_height_consistency_013",
+          "prompt_text": "Match the row heights in {table_title} to {reference_table}"
+        },
+        {
+          "id": "tables_formatting_row_height_consistency_014",
+          "prompt_text": "Remove the extra tall blank row between sections in {table_title}"
+        },
+        {
+          "id": "tables_formatting_row_height_consistency_015",
+          "prompt_text": "Set the group header rows in {table_title} to {row_height} and the data rows to {data_row_height}"
         }
       ]
     },
     {
-      "subcategory": "shading_pattern_banding",
+      "subcategory": "shading_fill_consistency",
       "priority": "tables_formatting",
       "doc_type": "both",
       "tags": [
         "tables_formatting",
-        "shading-pattern-banding"
+        "shading-fill-consistency"
       ],
       "entries": [
         {
-          "id": "tables_formatting_shading_pattern_banding_001",
-          "prompt_text": "Add {10px} banding to alternate rows"
+          "id": "tables_formatting_shading_fill_consistency_001",
+          "prompt_text": "Add {shading_color} fill to the header row in {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_002",
-          "prompt_text": "Remove row banding from total row"
+          "id": "tables_formatting_shading_fill_consistency_002",
+          "prompt_text": "Change the header fill in {table_title} from {old_color} to {shading_color}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_003",
-          "prompt_text": "Apply diagonal shading to text"
+          "id": "tables_formatting_shading_fill_consistency_003",
+          "prompt_text": "Set the header row in {table_title} to {text_color} text on a {shading_color} fill"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_004",
-          "prompt_text": "Apply diagonal shading to graph"
+          "id": "tables_formatting_shading_fill_consistency_004",
+          "prompt_text": "Change the highlight fill on the {row_label} row in {table_title} to {shading_color}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_005",
-          "prompt_text": "Apply diagonal shading to logo"
+          "id": "tables_formatting_shading_fill_consistency_005",
+          "prompt_text": "Remove the fill color from the {column_name} column in {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_006",
-          "prompt_text": "Shift banding start to row X"
+          "id": "tables_formatting_shading_fill_consistency_006",
+          "prompt_text": "Add {shading_color} fill to the totals row in {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_007",
-          "prompt_text": "Add {0.75}\" banding to alternate rows"
+          "id": "tables_formatting_shading_fill_consistency_007",
+          "prompt_text": "Match the shading colors in {table_title} to {reference_table}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_008",
-          "prompt_text": "Apply diagonal shading to note"
+          "id": "tables_formatting_shading_fill_consistency_008",
+          "prompt_text": "Remove all cell fills from {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_009",
-          "prompt_text": "Set banding color to {5px} every {10px} rows"
+          "id": "tables_formatting_shading_fill_consistency_009",
+          "prompt_text": "Change the subtotal row fill in {table_title} to {shading_color}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_010",
-          "prompt_text": "Set banding color to {8pt} every {2.0}\" rows"
+          "id": "tables_formatting_shading_fill_consistency_010",
+          "prompt_text": "Apply {shading_color} fill to the {group_label} section rows in {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_011",
-          "prompt_text": "Set banding color to {1.25}\" every {10pt} rows"
+          "id": "tables_formatting_shading_fill_consistency_011",
+          "prompt_text": "Fix the inconsistent fill on the {row_label} row in {table_title} to match the other rows"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_012",
-          "prompt_text": "Apply diagonal shading to callout"
+          "id": "tables_formatting_shading_fill_consistency_012",
+          "prompt_text": "Lighten the shading on {table_title} so the text stays readable"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_013",
-          "prompt_text": "Set banding color to {5px} every {100%} rows"
+          "id": "tables_formatting_shading_fill_consistency_013",
+          "prompt_text": "Add {shading_color} fill only to the first column of {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_014",
-          "prompt_text": "Add {50%} banding to alternate rows"
+          "id": "tables_formatting_shading_fill_consistency_014",
+          "prompt_text": "Remove the colored fill from the notes row in {table_title}"
         },
         {
-          "id": "tables_formatting_shading_pattern_banding_015",
-          "prompt_text": "Set banding color to {2.0}\" every {80%} rows"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_016",
-          "prompt_text": "Apply diagonal shading to chart"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_017",
-          "prompt_text": "Set banding color to {0.5}\" every {1.0}\" rows"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_018",
-          "prompt_text": "Apply diagonal shading to table"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_019",
-          "prompt_text": "Apply diagonal shading to title"
-        },
-        {
-          "id": "tables_formatting_shading_pattern_banding_020",
-          "prompt_text": "Apply diagonal shading to image"
+          "id": "tables_formatting_shading_fill_consistency_015",
+          "prompt_text": "Set every cell in {table_title} to a white fill except the header row"
         }
       ]
     }
