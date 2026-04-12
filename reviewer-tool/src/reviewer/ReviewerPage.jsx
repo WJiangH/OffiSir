@@ -167,7 +167,6 @@ export default function ReviewerPage() {
   const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
   const [showAdmin, setShowAdmin] = useState(false)
   const [showSaveTaskModal, setShowSaveTaskModal] = useState(false)
-  const [noteBarOpen, setNoteBarOpen] = useState(true)
   const [editingNote, setEditingNote] = useState(false)
   const [editNoteText, setEditNoteText] = useState('')
   const [buildWarning, setBuildWarning] = useState(null) // { indices }
@@ -472,7 +471,6 @@ export default function ReviewerPage() {
     setSelectedItems(task.selectedItems)
     setBuiltTurns(task.builtTurns)
     setCopyPointer(task.copyPointer || 0)
-    setNoteBarOpen(true)
     setEditingNote(false)
     // Restore the saved task's config so Start doesn't leak from the previous workspace
     const cfg = task.config || {}
@@ -1264,81 +1262,60 @@ export default function ReviewerPage() {
 
           <div className="reviewer-right-rail">
             {activeTaskId !== null && (() => {
-              // Derive the note text directly from savedTasks on every render.
-              // No intermediate state, no useEffect sync — stale state cannot occur.
+              // Read note directly from savedTasks on every render.
               const activeTaskNote = savedTasks.find((t) => t.id === activeTaskId)?.note || ''
               const hasNote = !!activeTaskNote
               return (
-                <div className={`reviewer-note-bar ${noteBarOpen ? 'is-open' : ''}`}>
-                  <button
-                    className="reviewer-note-bar-header"
-                    onClick={() => setNoteBarOpen((v) => !v)}
-                    type="button"
-                  >
-                    <span className="reviewer-note-bar-caret">{noteBarOpen ? '▾' : '▸'}</span>
-                    <span className="reviewer-note-bar-title">Note</span>
-                    {!noteBarOpen && hasNote && (
-                      <span className="reviewer-note-bar-preview">
-                        {activeTaskNote.split('\n')[0].slice(0, 80)}
-                      </span>
-                    )}
-                    {!noteBarOpen && !hasNote && (
-                      <span className="reviewer-note-bar-empty">No note for this task</span>
-                    )}
-                  </button>
-                  {noteBarOpen && (
-                    <div
-                      key={`${activeTaskId}:${editingNote ? 'edit' : 'view'}`}
-                      className="reviewer-note-bar-body"
-                    >
-                      {editingNote ? (
-                        <>
-                          <textarea
-                            autoFocus
-                            className="reviewer-note-textarea"
-                            onChange={(e) => setEditNoteText(e.target.value)}
-                            rows={3}
-                            value={editNoteText}
-                          />
-                          <div className="reviewer-note-bar-actions">
-                            <button
-                              className="reviewer-secondary-button"
-                              onClick={() => setEditingNote(false)}
-                              type="button"
-                            >
-                              Cancel
-                            </button>
-                            <button
-                              className="reviewer-primary-button"
-                              onClick={async () => {
-                                await saveActiveTaskNote(editNoteText)
-                                setEditingNote(false)
-                              }}
-                              type="button"
-                            >
-                              Save note
-                            </button>
-                          </div>
-                        </>
-                      ) : (
-                        <>
-                          <div className="reviewer-note-text">
-                            {hasNote ? activeTaskNote : <em>No note yet.</em>}
-                          </div>
-                          <button
-                            className="reviewer-note-edit"
-                            onClick={() => {
-                              setEditNoteText(activeTaskNote)
-                              setEditingNote(true)
-                            }}
-                            title="Edit note"
-                            type="button"
-                          >
-                            ✎
-                          </button>
-                        </>
-                      )}
-                    </div>
+                <div
+                  key={`note-box-${activeTaskId}:${editingNote ? 'edit' : 'view'}`}
+                  className="reviewer-note-box"
+                >
+                  {editingNote ? (
+                    <>
+                      <textarea
+                        autoFocus
+                        className="reviewer-note-textarea"
+                        onChange={(e) => setEditNoteText(e.target.value)}
+                        rows={3}
+                        value={editNoteText}
+                      />
+                      <div className="reviewer-note-box-actions">
+                        <button
+                          className="reviewer-secondary-button"
+                          onClick={() => setEditingNote(false)}
+                          type="button"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          className="reviewer-primary-button"
+                          onClick={async () => {
+                            await saveActiveTaskNote(editNoteText)
+                            setEditingNote(false)
+                          }}
+                          type="button"
+                        >
+                          Save note
+                        </button>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className={`reviewer-note-box-text ${hasNote ? '' : 'is-empty'}`}>
+                        {hasNote ? activeTaskNote : 'No note for this task.'}
+                      </div>
+                      <button
+                        className="reviewer-note-box-edit"
+                        onClick={() => {
+                          setEditNoteText(activeTaskNote)
+                          setEditingNote(true)
+                        }}
+                        title="Edit note"
+                        type="button"
+                      >
+                        ✎
+                      </button>
+                    </>
                   )}
                 </div>
               )

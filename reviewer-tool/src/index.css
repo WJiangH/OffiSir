@@ -541,6 +541,55 @@ textarea {
   overflow: hidden;
 }
 
+.reviewer-note-box {
+  position: relative;
+  background: #f8fafc;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 8px 36px 8px 10px;
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+.reviewer-note-box-text {
+  font-size: 13px;
+  color: #18222f;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.reviewer-note-box-text.is-empty {
+  color: #9ca8b4;
+  font-style: italic;
+}
+
+.reviewer-note-box-edit {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: 1px solid transparent;
+  color: #5c6773;
+  border-radius: 6px;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.reviewer-note-box-edit:hover {
+  border-color: #18222f;
+  color: #18222f;
+}
+
+.reviewer-note-box-actions {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+
 .reviewer-note-bar-header {
   display: flex;
   align-items: center;
