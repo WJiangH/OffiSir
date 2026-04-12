@@ -293,6 +293,7 @@ export default function ReviewerPage() {
     fetchUserTasks(user.id)
       .then((tasks) => {
         if (ignore) return
+        console.log('[tasks] fetched', tasks)
         setSavedTasks(
           tasks.map((t) => {
             const cfg = t.config || {}
@@ -457,6 +458,7 @@ export default function ReviewerPage() {
     }
     const task = savedTasks.find((t) => t.id === taskId)
     if (!task) return
+    console.log('[tasks] switchToTask', { taskId, task })
     setActiveTaskId(taskId)
     setSelectedItems(task.selectedItems)
     setBuiltTurns(task.builtTurns)
