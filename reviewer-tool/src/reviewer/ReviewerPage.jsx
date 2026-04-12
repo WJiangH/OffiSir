@@ -6,6 +6,7 @@ import ResizeHandle from './components/ResizeHandle'
 import SelectedTray from './components/SelectedTray'
 import TaskTabBar from './components/TaskTabBar'
 import TurnQueuePanel from './components/TurnQueuePanel'
+import AdminPanel from '../components/AdminPanel'
 import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
@@ -160,6 +161,7 @@ export default function ReviewerPage() {
   const [flyingPill, setFlyingPill] = useState(null) // { text, fromRect }
   const [hoveredInstanceIds, setHoveredInstanceIds] = useState(new Set())
   const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
+  const [showAdmin, setShowAdmin] = useState(false)
   const [selectedTrayHeight, setSelectedTrayHeight] = useState(28) // vh units
   const saveButtonRef = useRef(null)
   const newWorkspaceRef = useRef({ selectedItems: [], builtTurns: [], copyPointer: 0 })
@@ -1028,10 +1030,25 @@ export default function ReviewerPage() {
         {user && (
           <span className="reviewer-user-chip">
             {user.name}
+            {user.is_admin && (
+              <button
+                onClick={() => {
+                  const pw = window.prompt('Admin password:')
+                  if (pw === null) return
+                  if (pw === 'JJ') setShowAdmin(true)
+                  else window.alert('Incorrect password')
+                }}
+                type="button"
+                title="Open admin panel"
+              >
+                Admin
+              </button>
+            )}
             <button onClick={logout} type="button" title="Log out">sign out</button>
           </span>
         )}
       </header>
+      {showAdmin && <AdminPanel onClose={() => setShowAdmin(false)} />}
 
       <TaskTabBar
         tasks={savedTasks}

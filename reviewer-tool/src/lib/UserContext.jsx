@@ -22,6 +22,21 @@ export function UserProvider({ children }) {
     else localStorage.removeItem(STORAGE_KEY)
   }, [user])
 
+  // Refresh is_admin from the database on mount for persisted sessions.
+  useEffect(() => {
+    if (!user || user.is_admin !== undefined) return
+    let ignore = false
+    ;(async () => {
+      const { data } = await supabase
+        .from('users')
+        .select('id, name, is_admin')
+        .eq('id', user.id)
+        .maybeSingle()
+      if (!ignore && data) setUser(data)
+    })()
+    return () => { ignore = true }
+  }, [user])
+
   const loginAs = (existingUser) => {
     setLoginError(null)
     setUser(existingUser)
@@ -47,7 +62,7 @@ export function UserProvider({ children }) {
       const { data: inserted, error: insertError } = await supabase
         .from('users')
         .insert({ name })
-        .select('id, name')
+        .select('id, name, is_admin')
         .single()
       if (insertError) throw insertError
       setUser(inserted)
@@ -63,7 +78,7 @@ export function UserProvider({ children }) {
     if (!q) return []
     const { data, error } = await supabase
       .from('users')
-      .select('id, name')
+      .select('id, name, is_admin')
       .ilike('name', `%${q}%`)
       .order('name')
       .limit(20)

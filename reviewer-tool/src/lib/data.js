@@ -127,6 +127,59 @@ export async function insertRetryCommand({
   if (error) throw error
 }
 
+export async function fetchAllUsers() {
+  const { data, error } = await supabase
+    .from('users')
+    .select('id, name, is_admin, created_at')
+    .order('created_at', { ascending: true })
+  if (error) throw error
+  return data || []
+}
+
+export async function fetchAdminStats() {
+  const [users, tasks, customPrompts, stars] = await Promise.all([
+    supabase.from('users').select('id', { count: 'exact', head: true }),
+    supabase.from('tasks').select('id', { count: 'exact', head: true }),
+    supabase.from('custom_prompts').select('id', { count: 'exact', head: true }),
+    supabase.from('stars').select('user_id', { count: 'exact', head: true }),
+  ])
+  if (users.error) throw users.error
+  if (tasks.error) throw tasks.error
+  if (customPrompts.error) throw customPrompts.error
+  if (stars.error) throw stars.error
+  return {
+    users: users.count || 0,
+    tasks: tasks.count || 0,
+    customPrompts: customPrompts.count || 0,
+    stars: stars.count || 0,
+  }
+}
+
+export async function fetchPerUserCounts() {
+  const [tasks, stars, customs] = await Promise.all([
+    supabase.from('tasks').select('user_id'),
+    supabase.from('stars').select('user_id'),
+    supabase.from('custom_prompts').select('user_id'),
+  ])
+  if (tasks.error) throw tasks.error
+  if (stars.error) throw stars.error
+  if (customs.error) throw customs.error
+  const counts = {}
+  const bump = (uid, key) => {
+    if (!counts[uid]) counts[uid] = { tasks: 0, stars: 0, customPrompts: 0 }
+    counts[uid][key] += 1
+  }
+  ;(tasks.data || []).forEach((r) => bump(r.user_id, 'tasks'))
+  ;(stars.data || []).forEach((r) => bump(r.user_id, 'stars'))
+  ;(customs.data || []).forEach((r) => bump(r.user_id, 'customPrompts'))
+  return counts
+}
+
+export async function deleteUser(userId) {
+  const { error } = await supabase.from('users').delete().eq('id', userId)
+  if (error) throw error
+}
+
 export async function fetchRetryCommands(userId, taskId) {
   const { data, error } = await supabase
     .from('retry_commands')
