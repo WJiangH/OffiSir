@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "content_accuracy_fact_verification_001",
-          "prompt_text": "Change the {market size} in the {executive summary} to {$6.5B}"
+          "prompt_text": "change the {market size} in the {executive summary} to {$6.5B}"
         },
         {
           "id": "content_accuracy_fact_verification_002",
-          "prompt_text": "Change the {company headcount} in {paragraph 2} to {147}"
+          "prompt_text": "change the {company headcount} in {paragraph 2} to {147}"
         },
         {
           "id": "content_accuracy_fact_verification_003",
-          "prompt_text": "Update the {launch year} in the {company overview} to {2019}"
+          "prompt_text": "update the {launch year} in the {company overview} to {2019}"
         },
         {
           "id": "content_accuracy_fact_verification_004",
-          "prompt_text": "Change the {Q4 revenue} in the {sidebar callout} to {$3.1M}"
+          "prompt_text": "change the {Q4 revenue} in the {sidebar callout} to {$3.1M}"
         },
         {
           "id": "content_accuracy_fact_verification_005",
-          "prompt_text": "Update the {case count} in {Table 2} to {84}"
+          "prompt_text": "update the {case count} in {Table 2} to {84}"
         },
         {
           "id": "content_accuracy_fact_verification_006",
-          "prompt_text": "Change the {survey year} in {footnote 3} to {2024}"
+          "prompt_text": "change the {survey year} in {footnote 3} to {2024}"
         },
         {
           "id": "content_accuracy_fact_verification_007",
-          "prompt_text": "Update the {office location} in the {footer} to {Chicago, IL}"
+          "prompt_text": "update the {office location} in the {footer} to {Chicago, IL}"
         },
         {
           "id": "content_accuracy_fact_verification_008",
-          "prompt_text": "Change the {adoption rate} in the {chart caption} to {27%}"
+          "prompt_text": "change the {adoption rate} in the {chart caption} to {27%}"
         },
         {
           "id": "content_accuracy_fact_verification_009",
-          "prompt_text": "Update the {CEO name} in the {leadership section} to {J. Martinez}"
+          "prompt_text": "update the {CEO name} in the {leadership section} to {J. Martinez}"
         },
         {
           "id": "content_accuracy_fact_verification_010",
-          "prompt_text": "Change the {founding year} in the {about us} paragraph to {2017}"
+          "prompt_text": "change the {founding year} in the {about us} paragraph to {2017}"
         },
         {
           "id": "content_accuracy_fact_verification_011",
-          "prompt_text": "Update the {customer count} in the {key metrics} callout to {2,400}"
+          "prompt_text": "update the {customer count} in the {key metrics} callout to {2,400}"
         },
         {
           "id": "content_accuracy_fact_verification_012",
-          "prompt_text": "Change the {patent number} in the {product description} to {US 11,234,567}"
+          "prompt_text": "change the {patent number} in the {product description} to {US 11,234,567}"
         },
         {
           "id": "content_accuracy_fact_verification_013",
-          "prompt_text": "Update the {industry ranking} in the {introduction} from {#5} to {#3}"
+          "prompt_text": "update the {industry ranking} in the {introduction} from {#5} to {#3}"
         },
         {
           "id": "content_accuracy_fact_verification_014",
-          "prompt_text": "Change the {contract value} in the {deal summary} to {$1.8M}"
+          "prompt_text": "change the {contract value} in the {deal summary} to {$1.8M}"
         },
         {
           "id": "content_accuracy_fact_verification_015",
-          "prompt_text": "Update the {compliance standard} in the {requirements section} from {ISO 9001} to {ISO 27001}"
+          "prompt_text": "update the {compliance standard} in the {requirements section} from {ISO 9001} to {ISO 27001}"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "content_accuracy_source_plausibility_001",
-          "prompt_text": "Add a source line under {Figure 2}"
+          "prompt_text": "add a source line under {Figure 2}"
         },
         {
           "id": "content_accuracy_source_plausibility_002",
-          "prompt_text": "Move the source note under the {chart} instead of inside the {caption}"
+          "prompt_text": "move the source note under the {chart} instead of inside the {caption}"
         },
         {
           "id": "content_accuracy_source_plausibility_003",
-          "prompt_text": "Replace the placeholder citation in {footnote 4} with a real source"
+          "prompt_text": "replace the placeholder citation in {footnote 4} with a real source"
         },
         {
           "id": "content_accuracy_source_plausibility_004",
-          "prompt_text": "Add the {publication year} to the source note under {Table 1}"
+          "prompt_text": "add the {publication year} to the source note under {Table 1}"
         },
         {
           "id": "content_accuracy_source_plausibility_005",
-          "prompt_text": "Change the source line under the {bar chart} to {Source: Company filings, 2024}"
+          "prompt_text": "change the source line under the {bar chart} to {Source: Company filings, 2024}"
         },
         {
           "id": "content_accuracy_source_plausibility_006",
-          "prompt_text": "Replace {internal research} in the {footnote} with the actual report title"
+          "prompt_text": "replace {internal research} in the {footnote} with the actual report title"
         },
         {
           "id": "content_accuracy_source_plausibility_007",
-          "prompt_text": "Remove the broken web link from the citation in the {references section}"
+          "prompt_text": "remove the broken web link from the citation in the {references section}"
         },
         {
           "id": "content_accuracy_source_plausibility_008",
-          "prompt_text": "Add the missing source note under the {market share table}"
+          "prompt_text": "add the missing source note under the {market share table}"
         },
         {
           "id": "content_accuracy_source_plausibility_009",
-          "prompt_text": "Add a source attribution under {Figure 1} that currently has no citation"
+          "prompt_text": "add a source attribution under {Figure 1} that currently has no citation"
         },
         {
           "id": "content_accuracy_source_plausibility_010",
-          "prompt_text": "Change the vague source {various reports} under the {pie chart} to a specific report name"
+          "prompt_text": "change the vague source {various reports} under the {pie chart} to a specific report name"
         },
         {
           "id": "content_accuracy_source_plausibility_011",
-          "prompt_text": "Add the {author name} to the source note under {Table 3} that only lists a year"
+          "prompt_text": "add the {author name} to the source note under {Table 3} that only lists a year"
         },
         {
           "id": "content_accuracy_source_plausibility_012",
-          "prompt_text": "Replace {TBD} in the {footnote} with the actual source reference"
+          "prompt_text": "replace {TBD} in the {footnote} with the actual source reference"
         },
         {
           "id": "content_accuracy_source_plausibility_013",
-          "prompt_text": "Add a source line under the {infographic} that currently has no attribution"
+          "prompt_text": "add a source line under the {infographic} that currently has no attribution"
         },
         {
           "id": "content_accuracy_source_plausibility_014",
-          "prompt_text": "Update the source note under the {revenue chart} to include the {retrieval date}"
+          "prompt_text": "update the source note under the {revenue chart} to include the {retrieval date}"
         },
         {
           "id": "content_accuracy_source_plausibility_015",
-          "prompt_text": "Remove the self-referential source note that says {Source: this document}"
+          "prompt_text": "remove the self-referential source note that says {Source: this document}"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_001",
-          "prompt_text": "Spell out {EBITDA} on first use in the {findings} section"
+          "prompt_text": "spell out {EBITDA} on first use in the {findings} section"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_002",
-          "prompt_text": "Spell out {TAM} on first use in the {market overview}"
+          "prompt_text": "spell out {TAM} on first use in the {market overview}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_003",
-          "prompt_text": "Change {ARR} in the {callout} to {annual recurring revenue}"
+          "prompt_text": "change {ARR} in the {callout} to {annual recurring revenue}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_004",
-          "prompt_text": "Change {MRR} in the {table note} to {monthly recurring revenue}"
+          "prompt_text": "change {MRR} in the {table note} to {monthly recurring revenue}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_005",
-          "prompt_text": "Replace {net retention} in the {sidebar} with {net revenue retention}"
+          "prompt_text": "replace {net retention} in the {sidebar} with {net revenue retention}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_006",
-          "prompt_text": "Replace {SLA} in the {terms section} with {service level agreement}"
+          "prompt_text": "replace {SLA} in the {terms section} with {service level agreement}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_007",
-          "prompt_text": "Change {legal team} in the {disclaimer} to {counsel}"
+          "prompt_text": "change {legal team} in the {disclaimer} to {counsel}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_008",
-          "prompt_text": "Change {uptime} in the {KPI box} to {service availability}"
+          "prompt_text": "change {uptime} in the {KPI box} to {service availability}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_009",
-          "prompt_text": "Spell out {CAGR} on first use in the {growth summary}"
+          "prompt_text": "spell out {CAGR} on first use in the {growth summary}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_010",
-          "prompt_text": "Replace {NPS} in the {customer section} with {Net Promoter Score}"
+          "prompt_text": "replace {NPS} in the {customer section} with {Net Promoter Score}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_011",
-          "prompt_text": "Spell out {ROI} on first use in the {recommendation paragraph}"
+          "prompt_text": "spell out {ROI} on first use in the {recommendation paragraph}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_012",
-          "prompt_text": "Change {FTE} in the {staffing table} to {full-time equivalent}"
+          "prompt_text": "change {FTE} in the {staffing table} to {full-time equivalent}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_013",
-          "prompt_text": "Replace {CAC} in the {metrics callout} with {customer acquisition cost}"
+          "prompt_text": "replace {CAC} in the {metrics callout} with {customer acquisition cost}"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_014",
-          "prompt_text": "Spell out {LTV} on first use in the {unit economics} section"
+          "prompt_text": "spell out {LTV} on first use in the {unit economics} section"
         },
         {
           "id": "content_accuracy_industry_jargon_finance_legal_tech_015",
-          "prompt_text": "Replace {SOW} in the {project overview} with {statement of work}"
+          "prompt_text": "replace {SOW} in the {project overview} with {statement of work}"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "content_accuracy_inclusive_language_bias_removal_001",
-          "prompt_text": "Replace {manpower} with {staffing} in the {implementation plan}"
+          "prompt_text": "replace {manpower} with {staffing} in the {implementation plan}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_002",
-          "prompt_text": "Replace {chairman} with {chair} in the {governance note}"
+          "prompt_text": "replace {chairman} with {chair} in the {governance note}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_003",
-          "prompt_text": "Replace {he or she} with {they} in the {hiring section}"
+          "prompt_text": "replace {he or she} with {they} in the {hiring section}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_004",
-          "prompt_text": "Replace {master list} with {main list} in the {data section}"
+          "prompt_text": "replace {master list} with {main list} in the {data section}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_005",
-          "prompt_text": "Replace {disabled employees} with {employees with disabilities} in the {policy note}"
+          "prompt_text": "replace {disabled employees} with {employees with disabilities} in the {policy note}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_006",
-          "prompt_text": "Replace {native English speaker} with {fluent English speaker} in the {job requirements}"
+          "prompt_text": "replace {native English speaker} with {fluent English speaker} in the {job requirements}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_007",
-          "prompt_text": "Replace {elderly customers} with {older customers} in the {market profile}"
+          "prompt_text": "replace {elderly customers} with {older customers} in the {market profile}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_008",
-          "prompt_text": "Remove the word {guys} from the {team note}"
+          "prompt_text": "remove the word {guys} from the {team note}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_009",
-          "prompt_text": "Replace {mankind} with {humanity} in the {mission statement}"
+          "prompt_text": "replace {mankind} with {humanity} in the {mission statement}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_010",
-          "prompt_text": "Replace {whitelist} with {allowlist} in the {technical requirements}"
+          "prompt_text": "replace {whitelist} with {allowlist} in the {technical requirements}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_011",
-          "prompt_text": "Replace {blacklist} with {blocklist} in the {security section}"
+          "prompt_text": "replace {blacklist} with {blocklist} in the {security section}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_012",
-          "prompt_text": "Replace {manmade} with {manufactured} in the {product description}"
+          "prompt_text": "replace {manmade} with {manufactured} in the {product description}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_013",
-          "prompt_text": "Replace {the blind} with {people who are blind} in the {accessibility section}"
+          "prompt_text": "replace {the blind} with {people who are blind} in the {accessibility section}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_014",
-          "prompt_text": "Replace {grandfathered} with {legacy} in the {pricing note}"
+          "prompt_text": "replace {grandfathered} with {legacy} in the {pricing note}"
         },
         {
           "id": "content_accuracy_inclusive_language_bias_removal_015",
-          "prompt_text": "Replace {manning the booth} with {staffing the booth} in the {event plan}"
+          "prompt_text": "replace {manning the booth} with {staffing the booth} in the {event plan}"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "content_accuracy_placeholder_text_removal_001",
-          "prompt_text": "Remove the {Lorem ipsum} placeholder text in the {introduction} paragraph"
+          "prompt_text": "remove the {Lorem ipsum} placeholder text in the {introduction} paragraph"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_002",
-          "prompt_text": "Replace {[INSERT NAME HERE]} in the {title block} with the actual name"
+          "prompt_text": "replace {[INSERT NAME HERE]} in the {title block} with the actual name"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_003",
-          "prompt_text": "Remove the {TODO: add data} note left in the {findings} section"
+          "prompt_text": "remove the {TODO: add data} note left in the {findings} section"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_004",
-          "prompt_text": "Replace {XX%} in the {summary callout} with the actual percentage"
+          "prompt_text": "replace {XX%} in the {summary callout} with the actual percentage"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_005",
-          "prompt_text": "Remove the {DRAFT} watermark text that was left in the {header}"
+          "prompt_text": "remove the {DRAFT} watermark text that was left in the {header}"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_006",
-          "prompt_text": "Replace {[Company Name]} in the {footer} with the actual company name"
+          "prompt_text": "replace {[Company Name]} in the {footer} with the actual company name"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_007",
-          "prompt_text": "Remove the {TBD} placeholder in the {timeline} row for {Phase 3}"
+          "prompt_text": "remove the {TBD} placeholder in the {timeline} row for {Phase 3}"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_008",
-          "prompt_text": "Replace {$X.XM} in the {budget table} with the actual dollar amount"
+          "prompt_text": "replace {$X.XM} in the {budget table} with the actual dollar amount"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_009",
-          "prompt_text": "Remove the {[Source needed]} note left in {footnote 2}"
+          "prompt_text": "remove the {[Source needed]} note left in {footnote 2}"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_010",
-          "prompt_text": "Replace {YYYY-MM-DD} in the {revision date} field with the actual date"
+          "prompt_text": "replace {YYYY-MM-DD} in the {revision date} field with the actual date"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_011",
-          "prompt_text": "Remove the {sample text} paragraph left over from the template"
+          "prompt_text": "remove the {sample text} paragraph left over from the template"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_012",
-          "prompt_text": "Replace {[Author]} in the {byline} with the actual author name"
+          "prompt_text": "replace {[Author]} in the {byline} with the actual author name"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_013",
-          "prompt_text": "Remove the {DELETE THIS SECTION} comment left in the {notes} area"
+          "prompt_text": "remove the {DELETE THIS SECTION} comment left in the {notes} area"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_014",
-          "prompt_text": "Replace {N/A} in the {results table} with the actual value or remove the row"
+          "prompt_text": "replace {N/A} in the {results table} with the actual value or remove the row"
         },
         {
           "id": "content_accuracy_placeholder_text_removal_015",
-          "prompt_text": "Remove the {[Placeholder image]} label where the chart should be"
+          "prompt_text": "remove the {[Placeholder image]} label where the chart should be"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "content_accuracy_acronym_definition_001",
-          "prompt_text": "Define {KPI} on first use in the {metrics section}"
+          "prompt_text": "define {KPI} on first use in the {metrics section}"
         },
         {
           "id": "content_accuracy_acronym_definition_002",
-          "prompt_text": "Add the full form of {SaaS} the first time it appears in the {overview}"
+          "prompt_text": "add the full form of {SaaS} the first time it appears in the {overview}"
         },
         {
           "id": "content_accuracy_acronym_definition_003",
-          "prompt_text": "Spell out {API} on first use in the {technical requirements} section"
+          "prompt_text": "spell out {API} on first use in the {technical requirements} section"
         },
         {
           "id": "content_accuracy_acronym_definition_004",
-          "prompt_text": "Define {ERP} on first use in the {systems paragraph}"
+          "prompt_text": "define {ERP} on first use in the {systems paragraph}"
         },
         {
           "id": "content_accuracy_acronym_definition_005",
-          "prompt_text": "Add the full form of {CRM} the first time it appears in the {tools section}"
+          "prompt_text": "add the full form of {CRM} the first time it appears in the {tools section}"
         },
         {
           "id": "content_accuracy_acronym_definition_006",
-          "prompt_text": "Spell out {OKR} on first use in the {goals section}"
+          "prompt_text": "spell out {OKR} on first use in the {goals section}"
         },
         {
           "id": "content_accuracy_acronym_definition_007",
-          "prompt_text": "Define {B2B} on first use in the {market analysis}"
+          "prompt_text": "define {B2B} on first use in the {market analysis}"
         },
         {
           "id": "content_accuracy_acronym_definition_008",
-          "prompt_text": "Add the full form of {P&L} the first time it appears in the {financials section}"
+          "prompt_text": "add the full form of {P&L} the first time it appears in the {financials section}"
         },
         {
           "id": "content_accuracy_acronym_definition_009",
-          "prompt_text": "Spell out {QA} on first use in the {process section}"
+          "prompt_text": "spell out {QA} on first use in the {process section}"
         },
         {
           "id": "content_accuracy_acronym_definition_010",
-          "prompt_text": "Define {MVP} on first use in the {product roadmap}"
+          "prompt_text": "define {MVP} on first use in the {product roadmap}"
         },
         {
           "id": "content_accuracy_acronym_definition_011",
-          "prompt_text": "Add the full form of {UAT} the first time it appears in the {testing section}"
+          "prompt_text": "add the full form of {UAT} the first time it appears in the {testing section}"
         },
         {
           "id": "content_accuracy_acronym_definition_012",
-          "prompt_text": "Spell out {POC} on first use in the {proposal section}"
+          "prompt_text": "spell out {POC} on first use in the {proposal section}"
         },
         {
           "id": "content_accuracy_acronym_definition_013",
-          "prompt_text": "Define {RFP} on first use in the {procurement section}"
+          "prompt_text": "define {RFP} on first use in the {procurement section}"
         },
         {
           "id": "content_accuracy_acronym_definition_014",
-          "prompt_text": "Add the full form of {ETL} the first time it appears in the {data pipeline section}"
+          "prompt_text": "add the full form of {ETL} the first time it appears in the {data pipeline section}"
         },
         {
           "id": "content_accuracy_acronym_definition_015",
-          "prompt_text": "Spell out {SSO} on first use in the {security requirements}"
+          "prompt_text": "spell out {SSO} on first use in the {security requirements}"
         }
       ]
     },
@@ -438,63 +438,63 @@
       "entries": [
         {
           "id": "content_accuracy_date_format_consistency_001",
-          "prompt_text": "Change {03/15/2025} in the {header} to {March 15, 2025} to match the rest of the document"
+          "prompt_text": "change {03/15/2025} in the {header} to {March 15, 2025} to match the rest of the document"
         },
         {
           "id": "content_accuracy_date_format_consistency_002",
-          "prompt_text": "Change {2025-03-15} in the {footer} to {March 15, 2025} for consistency"
+          "prompt_text": "change {2025-03-15} in the {footer} to {March 15, 2025} for consistency"
         },
         {
           "id": "content_accuracy_date_format_consistency_003",
-          "prompt_text": "Change {15 March 2025} in the {timeline table} to {March 15, 2025} to match other dates"
+          "prompt_text": "change {15 March 2025} in the {timeline table} to {March 15, 2025} to match other dates"
         },
         {
           "id": "content_accuracy_date_format_consistency_004",
-          "prompt_text": "Change {Mar 15} in the {callout box} to {March 15, 2025} to include the full year"
+          "prompt_text": "change {Mar 15} in the {callout box} to {March 15, 2025} to include the full year"
         },
         {
           "id": "content_accuracy_date_format_consistency_005",
-          "prompt_text": "Change {Q1 25} in the {chart label} to {Q1 2025} for clarity"
+          "prompt_text": "change {Q1 25} in the {chart label} to {Q1 2025} for clarity"
         },
         {
           "id": "content_accuracy_date_format_consistency_006",
-          "prompt_text": "Change {3/15} in the {table cell} to {March 15, 2025} to match the document format"
+          "prompt_text": "change {3/15} in the {table cell} to {March 15, 2025} to match the document format"
         },
         {
           "id": "content_accuracy_date_format_consistency_007",
-          "prompt_text": "Standardize all dates in {Table 1} to use {Month DD, YYYY} format"
+          "prompt_text": "standardize all dates in {Table 1} to use {Month DD, YYYY} format"
         },
         {
           "id": "content_accuracy_date_format_consistency_008",
-          "prompt_text": "Change {FY25} in the {budget heading} to {FY2025} for consistency"
+          "prompt_text": "change {FY25} in the {budget heading} to {FY2025} for consistency"
         },
         {
           "id": "content_accuracy_date_format_consistency_009",
-          "prompt_text": "Add the year to the date in the {revision line} that only shows {March 15}"
+          "prompt_text": "add the year to the date in the {revision line} that only shows {March 15}"
         },
         {
           "id": "content_accuracy_date_format_consistency_010",
-          "prompt_text": "Change {15/03/2025} in the {contract section} to {March 15, 2025} to match US format"
+          "prompt_text": "change {15/03/2025} in the {contract section} to {March 15, 2025} to match us format"
         },
         {
           "id": "content_accuracy_date_format_consistency_011",
-          "prompt_text": "Change the abbreviated month in {Jan 2025} in the {sidebar} to {January 2025}"
+          "prompt_text": "change the abbreviated month in {Jan 2025} in the {sidebar} to {January 2025}"
         },
         {
           "id": "content_accuracy_date_format_consistency_012",
-          "prompt_text": "Standardize the mixed date formats in the {timeline section} to a single format"
+          "prompt_text": "standardize the mixed date formats in the {timeline section} to a single format"
         },
         {
           "id": "content_accuracy_date_format_consistency_013",
-          "prompt_text": "Change {1st Quarter 2025} in the {summary} to {Q1 2025} to match other quarterly labels"
+          "prompt_text": "change {1st Quarter 2025} in the {summary} to {Q1 2025} to match other quarterly labels"
         },
         {
           "id": "content_accuracy_date_format_consistency_014",
-          "prompt_text": "Add the day to the date in the {footnote} that only shows {March 2025}"
+          "prompt_text": "add the day to the date in the {footnote} that only shows {March 2025}"
         },
         {
           "id": "content_accuracy_date_format_consistency_015",
-          "prompt_text": "Change {2025/03/15} in the {metadata block} to {March 15, 2025} for consistency"
+          "prompt_text": "change {2025/03/15} in the {metadata block} to {March 15, 2025} for consistency"
         }
       ]
     },
@@ -509,63 +509,63 @@
       "entries": [
         {
           "id": "content_accuracy_name_consistency_001",
-          "prompt_text": "Change {Acme Corp} in {paragraph 3} to {Acme Corporation} to match the rest of the document"
+          "prompt_text": "change {Acme Corp} in {paragraph 3} to {Acme Corporation} to match the rest of the document"
         },
         {
           "id": "content_accuracy_name_consistency_002",
-          "prompt_text": "Change {J. Smith} in the {footer} to {Jane Smith} to match the {header}"
+          "prompt_text": "change {J. Smith} in the {footer} to {Jane Smith} to match the {header}"
         },
         {
           "id": "content_accuracy_name_consistency_003",
-          "prompt_text": "Change {Project Alpha} in the {timeline} to {Project Apex} to match the {title}"
+          "prompt_text": "change {Project Alpha} in the {timeline} to {Project Apex} to match the {title}"
         },
         {
           "id": "content_accuracy_name_consistency_004",
-          "prompt_text": "Standardize the product name to {DataSync Pro} throughout the document instead of mixing {DataSync} and {Data Sync}"
+          "prompt_text": "standardize the product name to {DataSync Pro} throughout the document instead of mixing {DataSync} and {Data Sync}"
         },
         {
           "id": "content_accuracy_name_consistency_005",
-          "prompt_text": "Change {the client} in {paragraph 5} to {Globex Industries} to match the named reference elsewhere"
+          "prompt_text": "change {the client} in {paragraph 5} to {Globex Industries} to match the named reference elsewhere"
         },
         {
           "id": "content_accuracy_name_consistency_006",
-          "prompt_text": "Change {Dr. Chen} in the {acknowledgments} to {Dr. R. Chen} to match the {references}"
+          "prompt_text": "change {Dr. Chen} in the {acknowledgments} to {Dr. R. Chen} to match the {references}"
         },
         {
           "id": "content_accuracy_name_consistency_007",
-          "prompt_text": "Standardize the department name to {Engineering} instead of alternating between {Engineering} and {Product Engineering}"
+          "prompt_text": "standardize the department name to {Engineering} instead of alternating between {Engineering} and {Product Engineering}"
         },
         {
           "id": "content_accuracy_name_consistency_008",
-          "prompt_text": "Change {VP of Sales} in the {org chart} to {Vice President of Sales} to match the {team section}"
+          "prompt_text": "change {VP of Sales} in the {org chart} to {Vice President of Sales} to match the {team section}"
         },
         {
           "id": "content_accuracy_name_consistency_009",
-          "prompt_text": "Change {US} in the {market section} to {U.S.} to match the rest of the document"
+          "prompt_text": "change {US} in the {market section} to {U.S.} to match the rest of the document"
         },
         {
           "id": "content_accuracy_name_consistency_010",
-          "prompt_text": "Standardize the vendor name to {AWS} instead of alternating between {AWS} and {Amazon Web Services} after first use"
+          "prompt_text": "standardize the vendor name to {AWS} instead of alternating between {AWS} and {Amazon Web Services} after first use"
         },
         {
           "id": "content_accuracy_name_consistency_011",
-          "prompt_text": "Change {Q4 FY24} in the {table header} to {Q4 FY2024} to match other quarterly labels"
+          "prompt_text": "change {Q4 FY24} in the {table header} to {Q4 FY2024} to match other quarterly labels"
         },
         {
           "id": "content_accuracy_name_consistency_012",
-          "prompt_text": "Change {the Board} in the {governance note} to {the Board of Directors} to match the {introduction}"
+          "prompt_text": "change {the Board} in the {governance note} to {the Board of Directors} to match the {introduction}"
         },
         {
           "id": "content_accuracy_name_consistency_013",
-          "prompt_text": "Standardize the team name to {Customer Success} instead of mixing {CS} and {Customer Success} after first mention"
+          "prompt_text": "standardize the team name to {Customer Success} instead of mixing {CS} and {Customer Success} after first mention"
         },
         {
           "id": "content_accuracy_name_consistency_014",
-          "prompt_text": "Change {NYC} in the {location section} to {New York} to match other city references"
+          "prompt_text": "change {NYC} in the {location section} to {New York} to match other city references"
         },
         {
           "id": "content_accuracy_name_consistency_015",
-          "prompt_text": "Change {Phase 1} in the {summary} to {Phase I} to match the {timeline section} numbering"
+          "prompt_text": "change {Phase 1} in the {summary} to {Phase I} to match the {timeline section} numbering"
         }
       ]
     }

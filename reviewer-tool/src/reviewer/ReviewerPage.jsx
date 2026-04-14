@@ -22,6 +22,7 @@ import {
   sortItems,
   validateQueue,
 } from './utils'
+import { DEFAULT_CONNECTOR } from './connectors'
 import { useUser } from '../lib/UserContext'
 import {
   addStar,
@@ -112,10 +113,10 @@ function makeLockedItemIdSet(turns, copyPointer) {
   )
 }
 
-function buildTurnText(items) {
+function buildTurnText(items, connector = DEFAULT_CONNECTOR) {
   return items
     .map((item) => stripVarBraces(normalizePromptText(item.promptText || item.prompt_text)))
-    .join('; ')
+    .join(connector)
 }
 
 function syncUnlockedTurnsWithSelection(turns, copyPointer, nextSelectedItems) {
@@ -126,10 +127,11 @@ function syncUnlockedTurnsWithSelection(turns, copyPointer, nextSelectedItems) {
     const items = turn.items
       .filter((item) => nextItemsById.has(item.instanceId))
       .map((item) => nextItemsById.get(item.instanceId) || item)
+    const connector = turn.connector || DEFAULT_CONNECTOR
     return {
       ...turn,
       items,
-      text: buildTurnText(items),
+      text: buildTurnText(items, connector),
     }
   })
   return [...lockedTurns, ...pendingTurns]
@@ -308,11 +310,12 @@ export default function ReviewerPage() {
           tasks.map((t) => {
             const cfg = t.config || {}
             const baseStart = cfg.startTurn ?? 2
-            const stampedTurns = (t.turns || []).map((turn, idx) => (
-              turn?.displayNumber === undefined
-                ? { ...turn, displayNumber: baseStart + idx }
-                : turn
-            ))
+            const stampedTurns = (t.turns || []).map((turn, idx) => {
+              const next = { ...turn }
+              if (next.displayNumber === undefined) next.displayNumber = baseStart + idx
+              if (next.connector === undefined) next.connector = DEFAULT_CONNECTOR
+              return next
+            })
             return {
               id: t.id,
               name: t.task_name,
@@ -605,8 +608,16 @@ export default function ReviewerPage() {
   const updateTurnText = (turnIndex, newText) => {
     const turn = builtTurns[turnIndex]
     if (!turn) return
-    // Split by semicolons, trim, map to items by index
-    const chunks = newText.split(';').map((s) => s.trim()).filter(Boolean)
+    // Split tolerantly on the turn's own connector OR the universal "; " /
+    // newline. This way users can always type `;` or hit Enter to add a fix
+    // even if the original turn used "Also," or another prose connector.
+    const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const stored = turn.connector || DEFAULT_CONNECTOR
+    const splitter = new RegExp(
+      `${escape(stored)}|;|\\r?\\n+`,
+      'g',
+    )
+    const chunks = newText.split(splitter).map((s) => s.trim()).filter(Boolean)
     if (chunks.length === 0) return
     // Update corresponding selectedItems by instanceId
     const updatedItemIds = new Set()
@@ -625,7 +636,8 @@ export default function ReviewerPage() {
         const newItems = t.items.map((item, idx) => (
           idx < chunks.length ? { ...item, promptText: chunks[idx] } : item
         ))
-        const nextText = chunks.join('; ')
+        const connector = t.connector || DEFAULT_CONNECTOR
+        const nextText = chunks.join(connector)
         // A red (needsEdit) turn becomes normal once its text diverges from
         // the original it was duplicated from.
         const stillNeedsEdit = t.needsEdit && nextText === (t.originalText ?? '')
@@ -660,6 +672,7 @@ export default function ReviewerPage() {
       items: duplicateItems,
       text: source.text,
       displayNumber: sourceNumber + 1,
+      connector: source.connector || DEFAULT_CONNECTOR,
       needsEdit: true,
       originalText: source.text,
       sourceDisplayNumber: sourceNumber,
@@ -1070,6 +1083,7 @@ export default function ReviewerPage() {
         items: [item],
         text: t.text,
         displayNumber: t.number,
+        connector: DEFAULT_CONNECTOR,
       }
     })
 

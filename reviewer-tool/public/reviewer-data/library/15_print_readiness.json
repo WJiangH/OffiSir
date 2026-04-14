@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "print_readiness_content_overflow_001",
-          "prompt_text": "Move the text that overflows past the bottom margin back inside the printable area"
+          "prompt_text": "move the text that overflows past the bottom margin back inside the printable area"
         },
         {
           "id": "print_readiness_content_overflow_002",
-          "prompt_text": "Reduce the {body text} font size to {font_size} so everything fits on one page"
+          "prompt_text": "reduce the {body text} font size to {font_size} so everything fits on one page"
         },
         {
           "id": "print_readiness_content_overflow_003",
-          "prompt_text": "Remove the {orphan line} that spills onto a second page"
+          "prompt_text": "remove the {orphan line} that spills onto a second page"
         },
         {
           "id": "print_readiness_content_overflow_004",
-          "prompt_text": "Tighten the {line spacing} to {line_spacing} so all content fits on one page"
+          "prompt_text": "tighten the {line spacing} to {line_spacing} so all content fits on one page"
         },
         {
           "id": "print_readiness_content_overflow_005",
-          "prompt_text": "Reduce the {spacing_value} after each heading so the content fits on one page"
+          "prompt_text": "reduce the {spacing_value} after each heading so the content fits on one page"
         },
         {
           "id": "print_readiness_content_overflow_006",
-          "prompt_text": "Shrink the {image} so the text below it stays on the same page"
+          "prompt_text": "shrink the {image} so the text below it stays on the same page"
         },
         {
           "id": "print_readiness_content_overflow_007",
-          "prompt_text": "Remove the extra blank space at the bottom of the page that pushes content off"
+          "prompt_text": "remove the extra blank space at the bottom of the page that pushes content off"
         },
         {
           "id": "print_readiness_content_overflow_008",
-          "prompt_text": "Move the {table} up so it does not get cut off at the bottom margin"
+          "prompt_text": "move the {table} up so it does not get cut off at the bottom margin"
         },
         {
           "id": "print_readiness_content_overflow_009",
-          "prompt_text": "Reduce the {spacing_value} between list items so the list fits on one page"
+          "prompt_text": "reduce the {spacing_value} between list items so the list fits on one page"
         },
         {
           "id": "print_readiness_content_overflow_010",
-          "prompt_text": "Shrink the {chart} so it fits within the printable area"
+          "prompt_text": "shrink the {chart} so it fits within the printable area"
         },
         {
           "id": "print_readiness_content_overflow_011",
-          "prompt_text": "Pull the {footer text} up so it does not get clipped by the printer"
+          "prompt_text": "pull the {footer text} up so it does not get clipped by the printer"
         },
         {
           "id": "print_readiness_content_overflow_012",
-          "prompt_text": "Remove the {page break} that creates an unwanted blank second page"
+          "prompt_text": "remove the {page break} that creates an unwanted blank second page"
         },
         {
           "id": "print_readiness_content_overflow_013",
-          "prompt_text": "Reduce the {heading} font size to {font_size} to reclaim vertical space"
+          "prompt_text": "reduce the {heading} font size to {font_size} to reclaim vertical space"
         },
         {
           "id": "print_readiness_content_overflow_014",
-          "prompt_text": "Move the {signature block} up so it stays on the same page as the body text"
+          "prompt_text": "move the {signature block} up so it stays on the same page as the body text"
         },
         {
           "id": "print_readiness_content_overflow_015",
-          "prompt_text": "Delete the trailing blank paragraph that forces a second page"
+          "prompt_text": "delete the trailing blank paragraph that forces a second page"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "print_readiness_margin_clearance_001",
-          "prompt_text": "Increase all margins to at least {margin_value} for safe printing"
+          "prompt_text": "increase all margins to at least {margin_value} for safe printing"
         },
         {
           "id": "print_readiness_margin_clearance_002",
-          "prompt_text": "Pull the {image} inside the margins so it does not get cut off when printing"
+          "prompt_text": "pull the {image} inside the margins so it does not get cut off when printing"
         },
         {
           "id": "print_readiness_margin_clearance_003",
-          "prompt_text": "Move the {text box} away from the {right edge} by at least {margin_value}"
+          "prompt_text": "move the {text box} away from the {right edge} by at least {margin_value}"
         },
         {
           "id": "print_readiness_margin_clearance_004",
-          "prompt_text": "Increase the {bottom margin} to {margin_value} so the footer prints cleanly"
+          "prompt_text": "increase the {bottom margin} to {margin_value} so the footer prints cleanly"
         },
         {
           "id": "print_readiness_margin_clearance_005",
-          "prompt_text": "Move the {sidebar content} inside the {left margin} boundary"
+          "prompt_text": "move the {sidebar content} inside the {left margin} boundary"
         },
         {
           "id": "print_readiness_margin_clearance_006",
-          "prompt_text": "Add {margin_value} of gutter space for staple or hole-punch binding"
+          "prompt_text": "add {margin_value} of gutter space for staple or hole-punch binding"
         },
         {
           "id": "print_readiness_margin_clearance_007",
-          "prompt_text": "Pull the {table} inside the right margin so no columns get clipped"
+          "prompt_text": "pull the {table} inside the right margin so no columns get clipped"
         },
         {
           "id": "print_readiness_margin_clearance_008",
-          "prompt_text": "Move the {page number} inside the printable area"
+          "prompt_text": "move the {page number} inside the printable area"
         },
         {
           "id": "print_readiness_margin_clearance_009",
-          "prompt_text": "Increase the {top margin} to {margin_value} so the header does not sit too close to the edge"
+          "prompt_text": "increase the {top margin} to {margin_value} so the header does not sit too close to the edge"
         },
         {
           "id": "print_readiness_margin_clearance_010",
-          "prompt_text": "Pull the {color band} inside the margin so it does not bleed off the page when printing without bleed"
+          "prompt_text": "pull the {color band} inside the margin so it does not bleed off the page when printing without bleed"
         },
         {
           "id": "print_readiness_margin_clearance_011",
-          "prompt_text": "Move the {logo} at least {margin_value} away from the page edge"
+          "prompt_text": "move the {logo} at least {margin_value} away from the page edge"
         },
         {
           "id": "print_readiness_margin_clearance_012",
-          "prompt_text": "Widen the {left margin} to {margin_value} for binding clearance"
+          "prompt_text": "widen the {left margin} to {margin_value} for binding clearance"
         },
         {
           "id": "print_readiness_margin_clearance_013",
-          "prompt_text": "Pull the {chart} axis labels inside the margin so they print completely"
+          "prompt_text": "pull the {chart} axis labels inside the margin so they print completely"
         },
         {
           "id": "print_readiness_margin_clearance_014",
-          "prompt_text": "Move the {callout box} inside the printable area"
+          "prompt_text": "move the {callout box} inside the printable area"
         },
         {
           "id": "print_readiness_margin_clearance_015",
-          "prompt_text": "Check that all elements are at least {margin_value} from every page edge"
+          "prompt_text": "check that all elements are at least {margin_value} from every page edge"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "print_readiness_text_readability_at_size_001",
-          "prompt_text": "Increase the {body text} font size to at least {font_size} for print readability"
+          "prompt_text": "increase the {body text} font size to at least {font_size} for print readability"
         },
         {
           "id": "print_readiness_text_readability_at_size_002",
-          "prompt_text": "Increase the {caption} font size to at least {font_size} so it is legible when printed"
+          "prompt_text": "increase the {caption} font size to at least {font_size} so it is legible when printed"
         },
         {
           "id": "print_readiness_text_readability_at_size_003",
-          "prompt_text": "Increase the {footnote} font size to at least {font_size}"
+          "prompt_text": "increase the {footnote} font size to at least {font_size}"
         },
         {
           "id": "print_readiness_text_readability_at_size_004",
-          "prompt_text": "Darken the {light gray text} so it prints at readable contrast"
+          "prompt_text": "darken the {light gray text} so it prints at readable contrast"
         },
         {
           "id": "print_readiness_text_readability_at_size_005",
-          "prompt_text": "Change the {thin font weight} to {regular} so it does not disappear when printed"
+          "prompt_text": "change the {thin font weight} to {regular} so it does not disappear when printed"
         },
         {
           "id": "print_readiness_text_readability_at_size_006",
-          "prompt_text": "Increase the {chart label} font size to at least {font_size}"
+          "prompt_text": "increase the {chart label} font size to at least {font_size}"
         },
         {
           "id": "print_readiness_text_readability_at_size_007",
-          "prompt_text": "Increase the {source line} font size to at least {font_size}"
+          "prompt_text": "increase the {source line} font size to at least {font_size}"
         },
         {
           "id": "print_readiness_text_readability_at_size_008",
-          "prompt_text": "Change the {light colored text} on the {white background} to {dark_color} for print"
+          "prompt_text": "change the {light colored text} on the {white background} to {dark_color} for print"
         },
         {
           "id": "print_readiness_text_readability_at_size_009",
-          "prompt_text": "Increase the {table cell text} font size to at least {font_size}"
+          "prompt_text": "increase the {table cell text} font size to at least {font_size}"
         },
         {
           "id": "print_readiness_text_readability_at_size_010",
-          "prompt_text": "Remove the {watermark} that makes the body text hard to read when printed"
+          "prompt_text": "remove the {watermark} that makes the body text hard to read when printed"
         },
         {
           "id": "print_readiness_text_readability_at_size_011",
-          "prompt_text": "Darken the {header text} color so it prints clearly on paper"
+          "prompt_text": "darken the {header text} color so it prints clearly on paper"
         },
         {
           "id": "print_readiness_text_readability_at_size_012",
-          "prompt_text": "Increase the {sidebar text} font size to at least {font_size} for readability"
+          "prompt_text": "increase the {sidebar text} font size to at least {font_size} for readability"
         },
         {
           "id": "print_readiness_text_readability_at_size_013",
-          "prompt_text": "Change the {yellow text} on {white background} to a darker color for print"
+          "prompt_text": "change the {yellow text} on {white background} to a darker color for print"
         },
         {
           "id": "print_readiness_text_readability_at_size_014",
-          "prompt_text": "Increase the line spacing in the {body text} to at least {line_spacing} for print readability"
+          "prompt_text": "increase the line spacing in the {body text} to at least {line_spacing} for print readability"
         },
         {
           "id": "print_readiness_text_readability_at_size_015",
-          "prompt_text": "Make the {footer text} at least {font_size} so it is legible on paper"
+          "prompt_text": "make the {footer text} at least {font_size} so it is legible on paper"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "print_readiness_printable_area_safety_001",
-          "prompt_text": "Add {registration marks} to the print-ready export"
+          "prompt_text": "add {registration marks} to the print-ready export"
         },
         {
           "id": "print_readiness_printable_area_safety_002",
-          "prompt_text": "Darken the {background text} so it prints visibly"
+          "prompt_text": "darken the {background text} so it prints visibly"
         },
         {
           "id": "print_readiness_printable_area_safety_003",
-          "prompt_text": "Disable printing permissions on the {confidential draft} PDF"
+          "prompt_text": "disable printing permissions on the {confidential draft} pdf"
         },
         {
           "id": "print_readiness_printable_area_safety_004",
-          "prompt_text": "Remove all {markup annotations} before sending to print"
+          "prompt_text": "remove all {markup annotations} before sending to print"
         },
         {
           "id": "print_readiness_printable_area_safety_005",
-          "prompt_text": "Flatten the {form fields} before exporting the print-ready PDF"
+          "prompt_text": "flatten the {form fields} before exporting the print-ready pdf"
         },
         {
           "id": "print_readiness_printable_area_safety_006",
-          "prompt_text": "Convert all {RGB colors} to {CMYK} for offset printing"
+          "prompt_text": "convert all {RGB colors} to {CMYK} for offset printing"
         },
         {
           "id": "print_readiness_printable_area_safety_007",
-          "prompt_text": "Embed all fonts in the PDF before sending to the printer"
+          "prompt_text": "embed all fonts in the pdf before sending to the printer"
         },
         {
           "id": "print_readiness_printable_area_safety_008",
-          "prompt_text": "Set the page size to {page_size} for the target printer"
+          "prompt_text": "set the page size to {page_size} for the target printer"
         },
         {
           "id": "print_readiness_printable_area_safety_009",
-          "prompt_text": "Add a {bleed_value} bleed on all sides for the print-ready export"
+          "prompt_text": "add a {bleed_value} bleed on all sides for the print-ready export"
         },
         {
           "id": "print_readiness_printable_area_safety_010",
-          "prompt_text": "Remove the {hyperlink blue} from links so they print as black text"
+          "prompt_text": "remove the {hyperlink blue} from links so they print as black text"
         },
         {
           "id": "print_readiness_printable_area_safety_011",
-          "prompt_text": "Remove all {comments and tracked changes} before exporting the print PDF"
+          "prompt_text": "remove all {comments and tracked changes} before exporting the print pdf"
         },
         {
           "id": "print_readiness_printable_area_safety_012",
-          "prompt_text": "Ensure the {background image} is at least {dpi} DPI for print quality"
+          "prompt_text": "ensure the {background image} is at least {dpi} dpi for print quality"
         },
         {
           "id": "print_readiness_printable_area_safety_013",
-          "prompt_text": "Add {crop marks} to the print-ready PDF"
+          "prompt_text": "add {crop marks} to the print-ready pdf"
         },
         {
           "id": "print_readiness_printable_area_safety_014",
-          "prompt_text": "Check that no {transparent elements} will flatten incorrectly when printed"
+          "prompt_text": "check that no {transparent elements} will flatten incorrectly when printed"
         },
         {
           "id": "print_readiness_printable_area_safety_015",
-          "prompt_text": "Set the PDF export to {PDF/X-1a} for commercial print compatibility"
+          "prompt_text": "set the pdf export to {PDF/X-1a} for commercial print compatibility"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_001",
-          "prompt_text": "Set the {PDF/UA identifier} for {accessibility compliance}"
+          "prompt_text": "set the {PDF/UA identifier} for {accessibility compliance}"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_002",
-          "prompt_text": "Run the preflight fixup for {syntax errors}"
+          "prompt_text": "run the preflight fixup for {syntax errors}"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_003",
-          "prompt_text": "Validate the {metadata} against {PDF/UA-1}"
+          "prompt_text": "validate the {metadata} against {PDF/UA-1}"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_004",
-          "prompt_text": "Add the {document title} to the PDF metadata"
+          "prompt_text": "add the {document title} to the pdf metadata"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_005",
-          "prompt_text": "Set the {document language} to {language_code} in the PDF properties"
+          "prompt_text": "set the {document language} to {language_code} in the pdf properties"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_006",
-          "prompt_text": "Fix the {missing tag} on the {heading} element"
+          "prompt_text": "fix the {missing tag} on the {heading} element"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_007",
-          "prompt_text": "Add a {table header} tag to each {table} in the PDF"
+          "prompt_text": "add a {table header} tag to each {table} in the pdf"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_008",
-          "prompt_text": "Fix the {empty tag} in the PDF structure tree"
+          "prompt_text": "fix the {empty tag} in the pdf structure tree"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_009",
-          "prompt_text": "Set the {tab order} to follow the {document structure}"
+          "prompt_text": "set the {tab order} to follow the {document structure}"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_010",
-          "prompt_text": "Remove the {untagged content} warning in the preflight report"
+          "prompt_text": "remove the {untagged content} warning in the preflight report"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_011",
-          "prompt_text": "Add a {bookmark} for each {heading level} in the PDF"
+          "prompt_text": "add a {bookmark} for each {heading level} in the pdf"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_012",
-          "prompt_text": "Fix the {incorrect heading hierarchy} flagged by the accessibility checker"
+          "prompt_text": "fix the {incorrect heading hierarchy} flagged by the accessibility checker"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_013",
-          "prompt_text": "Embed the {font subset} for every font used in the document"
+          "prompt_text": "embed the {font subset} for every font used in the document"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_014",
-          "prompt_text": "Fix the {color space} mismatch flagged in the preflight report"
+          "prompt_text": "fix the {color space} mismatch flagged in the preflight report"
         },
         {
           "id": "print_readiness_preflight_fixups_pdf_ua_015",
-          "prompt_text": "Add {scope attributes} to every {table header cell} for screen reader support"
+          "prompt_text": "add {scope attributes} to every {table header cell} for screen reader support"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "print_readiness_artifact_tagging_001",
-          "prompt_text": "Tag the {decorative images} as {artifacts}"
+          "prompt_text": "tag the {decorative images} as {artifacts}"
         },
         {
           "id": "print_readiness_artifact_tagging_002",
-          "prompt_text": "Remove the {background elements} from the {tag tree}"
+          "prompt_text": "remove the {background elements} from the {tag tree}"
         },
         {
           "id": "print_readiness_artifact_tagging_003",
-          "prompt_text": "Mark the {redundant text} as an {artifact}"
+          "prompt_text": "mark the {redundant text} as an {artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_004",
-          "prompt_text": "Tag the {page number} as a {pagination artifact}"
+          "prompt_text": "tag the {page number} as a {pagination artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_005",
-          "prompt_text": "Tag the {header divider line} as a {layout artifact}"
+          "prompt_text": "tag the {header divider line} as a {layout artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_006",
-          "prompt_text": "Mark the {watermark} as an {artifact} so screen readers skip it"
+          "prompt_text": "mark the {watermark} as an {artifact} so screen readers skip it"
         },
         {
           "id": "print_readiness_artifact_tagging_007",
-          "prompt_text": "Tag the {footer text} as a {pagination artifact}"
+          "prompt_text": "tag the {footer text} as a {pagination artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_008",
-          "prompt_text": "Remove the {decorative border} from the content tags and mark it as an {artifact}"
+          "prompt_text": "remove the {decorative border} from the content tags and mark it as an {artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_009",
-          "prompt_text": "Tag the {color band} as a {layout artifact}"
+          "prompt_text": "tag the {color band} as a {layout artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_010",
-          "prompt_text": "Mark the {running header text} as an {artifact}"
+          "prompt_text": "mark the {running header text} as an {artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_011",
-          "prompt_text": "Tag the {background image} as a {layout artifact}"
+          "prompt_text": "tag the {background image} as a {layout artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_012",
-          "prompt_text": "Remove the {decorative icon} from the tag tree and mark it as an {artifact}"
+          "prompt_text": "remove the {decorative icon} from the tag tree and mark it as an {artifact}"
         },
         {
           "id": "print_readiness_artifact_tagging_013",
-          "prompt_text": "Tag all {horizontal rules} as {layout artifacts}"
+          "prompt_text": "tag all {horizontal rules} as {layout artifacts}"
         },
         {
           "id": "print_readiness_artifact_tagging_014",
-          "prompt_text": "Mark the {logo} in the footer as an {artifact} since it is repeated on every page"
+          "prompt_text": "mark the {logo} in the footer as an {artifact} since it is repeated on every page"
         },
         {
           "id": "print_readiness_artifact_tagging_015",
-          "prompt_text": "Tag the {sidebar background color} as a {layout artifact}"
+          "prompt_text": "tag the {sidebar background color} as a {layout artifact}"
         }
       ]
     },
@@ -438,63 +438,63 @@
       "entries": [
         {
           "id": "print_readiness_reading_order_logic_001",
-          "prompt_text": "Fix the reading order for the {multi-column layout}"
+          "prompt_text": "fix the reading order for the {multi-column layout}"
         },
         {
           "id": "print_readiness_reading_order_logic_002",
-          "prompt_text": "Set the tab order to follow the {structure tags}"
+          "prompt_text": "set the tab order to follow the {structure tags}"
         },
         {
           "id": "print_readiness_reading_order_logic_003",
-          "prompt_text": "Verify the {logical reading flow} in the {sidebar}"
+          "prompt_text": "verify the {logical reading flow} in the {sidebar}"
         },
         {
           "id": "print_readiness_reading_order_logic_004",
-          "prompt_text": "Move the {figure caption} after the {figure} in the reading order"
+          "prompt_text": "move the {figure caption} after the {figure} in the reading order"
         },
         {
           "id": "print_readiness_reading_order_logic_005",
-          "prompt_text": "Fix the reading order so the {heading} comes before the {body text}"
+          "prompt_text": "fix the reading order so the {heading} comes before the {body text}"
         },
         {
           "id": "print_readiness_reading_order_logic_006",
-          "prompt_text": "Move the {callout box} to the correct position in the reading order"
+          "prompt_text": "move the {callout box} to the correct position in the reading order"
         },
         {
           "id": "print_readiness_reading_order_logic_007",
-          "prompt_text": "Fix the reading order so the {table title} comes before the {table data}"
+          "prompt_text": "fix the reading order so the {table title} comes before the {table data}"
         },
         {
           "id": "print_readiness_reading_order_logic_008",
-          "prompt_text": "Reorder the {text boxes} so they read {left to right} then {top to bottom}"
+          "prompt_text": "reorder the {text boxes} so they read {left to right} then {top to bottom}"
         },
         {
           "id": "print_readiness_reading_order_logic_009",
-          "prompt_text": "Move the {footnote} to the end of the reading order on the page"
+          "prompt_text": "move the {footnote} to the end of the reading order on the page"
         },
         {
           "id": "print_readiness_reading_order_logic_010",
-          "prompt_text": "Fix the reading order so the {chart} appears after its introductory sentence"
+          "prompt_text": "fix the reading order so the {chart} appears after its introductory sentence"
         },
         {
           "id": "print_readiness_reading_order_logic_011",
-          "prompt_text": "Reorder the {header elements} so the {logo} reads before the {title}"
+          "prompt_text": "reorder the {header elements} so the {logo} reads before the {title}"
         },
         {
           "id": "print_readiness_reading_order_logic_012",
-          "prompt_text": "Fix the {list items} that read in the wrong order in the tag tree"
+          "prompt_text": "fix the {list items} that read in the wrong order in the tag tree"
         },
         {
           "id": "print_readiness_reading_order_logic_013",
-          "prompt_text": "Move the {source line} after the {chart} in the reading order"
+          "prompt_text": "move the {source line} after the {chart} in the reading order"
         },
         {
           "id": "print_readiness_reading_order_logic_014",
-          "prompt_text": "Fix the reading order in the {two-column section} so left column reads before right"
+          "prompt_text": "fix the reading order in the {two-column section} so left column reads before right"
         },
         {
           "id": "print_readiness_reading_order_logic_015",
-          "prompt_text": "Ensure the {alt text} for the {image} is encountered at the right point in the reading flow"
+          "prompt_text": "ensure the {alt text} for the {image} is encountered at the right point in the reading flow"
         }
       ]
     }

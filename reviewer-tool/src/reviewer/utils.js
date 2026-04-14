@@ -6,6 +6,7 @@ import {
   STRICT_TURN_COUNT,
   TURN_BUILD_ORDER,
 } from './constants'
+import { pickConnector, DEFAULT_CONNECTOR } from './connectors'
 
 const HEAVY_TURN_GROUP = [0, 4, 8, 12, 16, 2, 6, 10, 14, 18]
 const LIGHT_TURN_GROUP = [1, 5, 9, 13, 17, 3, 7, 11, 15, 19]
@@ -187,15 +188,26 @@ export function buildTwentyTurnQueue(items, turnCount = STRICT_TURN_COUNT, minPe
 
   const turns = []
   let itemIndex = 0
+  let prevConnector = null
 
   counts.forEach((count, turnIndex) => {
     const turnItems = items.slice(itemIndex, itemIndex + count)
     itemIndex += count
 
+    // Pick a varied connector per turn; single-item turns don't need one but
+    // we still record DEFAULT_CONNECTOR for round-trip editing.
+    const connector = count > 1 ? pickConnector(prevConnector) : DEFAULT_CONNECTOR
+    if (count > 1) prevConnector = connector
+
+    const texts = turnItems.map((item) => (
+      stripVarBraces(normalizePromptText(item.promptText || item.prompt_text))
+    ))
+
     turns.push({
       turn: turnIndex + 1,
       items: turnItems,
-      text: turnItems.map((item) => stripVarBraces(normalizePromptText(item.promptText || item.prompt_text))).join('; '),
+      connector,
+      text: texts.join(connector),
     })
   })
 

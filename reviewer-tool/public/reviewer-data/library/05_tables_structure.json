@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "tables_structure_header_row_distinction_001",
-          "prompt_text": "Add a header row to {table_title}"
+          "prompt_text": "add a header row to {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_002",
-          "prompt_text": "Make the header row bold in {table_title}"
+          "prompt_text": "make the header row bold in {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_003",
-          "prompt_text": "Add {shading_color} shading to the header row in {table_title}"
+          "prompt_text": "add {shading_color} shading to the header row in {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_004",
-          "prompt_text": "Add a {border_weight} bottom border under the header row in {table_title}"
+          "prompt_text": "add a {border_weight} bottom border under the header row in {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_005",
-          "prompt_text": "Center the header text in {table_title}"
+          "prompt_text": "center the header text in {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_006",
-          "prompt_text": "Set the header row in {table_title} to {text_case}"
+          "prompt_text": "set the header row in {table_title} to {text_case}"
         },
         {
           "id": "tables_structure_header_row_distinction_007",
-          "prompt_text": "Increase the header row height in {table_title} to {row_height} so the text does not clip"
+          "prompt_text": "increase the header row height in {table_title} to {row_height} so the text does not clip"
         },
         {
           "id": "tables_structure_header_row_distinction_008",
-          "prompt_text": "Set the header row font in {table_title} to {font_name} at {font_size}"
+          "prompt_text": "set the header row font in {table_title} to {font_name} at {font_size}"
         },
         {
           "id": "tables_structure_header_row_distinction_009",
-          "prompt_text": "Change the header row text color in {table_title} to {text_color}"
+          "prompt_text": "change the header row text color in {table_title} to {text_color}"
         },
         {
           "id": "tables_structure_header_row_distinction_010",
-          "prompt_text": "Add a {border_weight} top border above the header row in {table_title}"
+          "prompt_text": "add a {border_weight} top border above the header row in {table_title}"
         },
         {
           "id": "tables_structure_header_row_distinction_011",
-          "prompt_text": "Remove the fill color from the header row in {table_title} and use bold text only"
+          "prompt_text": "remove the fill color from the header row in {table_title} and use bold text only"
         },
         {
           "id": "tables_structure_header_row_distinction_012",
-          "prompt_text": "Match the header row style in {table_title} to the header in {reference_table}"
+          "prompt_text": "match the header row style in {table_title} to the header in {reference_table}"
         },
         {
           "id": "tables_structure_header_row_distinction_013",
-          "prompt_text": "Set the header row in {table_title} to {text_color} text on a {shading_color} fill"
+          "prompt_text": "set the header row in {table_title} to {text_color} text on a {shading_color} fill"
         },
         {
           "id": "tables_structure_header_row_distinction_014",
-          "prompt_text": "Increase the font weight of the header row in {table_title} to {font_weight}"
+          "prompt_text": "increase the font weight of the header row in {table_title} to {font_weight}"
         },
         {
           "id": "tables_structure_header_row_distinction_015",
-          "prompt_text": "Add {border_weight} borders on all four sides of every header cell in {table_title}"
+          "prompt_text": "add {border_weight} borders on all four sides of every header cell in {table_title}"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "tables_structure_header_descriptive_labels_001",
-          "prompt_text": "Change the {column_name} header to {header_text}"
+          "prompt_text": "change the {column_name} header to {header_text}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_002",
-          "prompt_text": "Move the {unit_label} into the {column_name} header"
+          "prompt_text": "move the {unit_label} into the {column_name} header"
         },
         {
           "id": "tables_structure_header_descriptive_labels_003",
-          "prompt_text": "Rename the {column_position} column in {table_title} to {header_text}"
+          "prompt_text": "rename the {column_position} column in {table_title} to {header_text}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_004",
-          "prompt_text": "Rename the {column_position} column in {table_title} to {header_text}"
+          "prompt_text": "rename the {column_position} column in {table_title} to {header_text}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_005",
-          "prompt_text": "Add a {header_text} header above the {column_name} column in {table_title}"
+          "prompt_text": "add a {header_text} header above the {column_name} column in {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_006",
-          "prompt_text": "Change the row label {row_label} to {label_text} in {table_title}"
+          "prompt_text": "change the row label {row_label} to {label_text} in {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_007",
-          "prompt_text": "Add ({unit_label}) after the {column_name} header in {table_title}"
+          "prompt_text": "add ({unit_label}) after the {column_name} header in {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_008",
-          "prompt_text": "Remove the abbreviation in the {column_name} header and spell it out as {header_text}"
+          "prompt_text": "remove the abbreviation in the {column_name} header and spell it out as {header_text}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_009",
-          "prompt_text": "Replace the blank header above {column_name} with {header_text} in {table_title}"
+          "prompt_text": "replace the blank header above {column_name} with {header_text} in {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_010",
-          "prompt_text": "Split the {column_name} header into two lines so the full label shows without clipping"
+          "prompt_text": "split the {column_name} header into two lines so the full label shows without clipping"
         },
         {
           "id": "tables_structure_header_descriptive_labels_011",
-          "prompt_text": "Shorten the {column_name} header in {table_title} to {header_text}"
+          "prompt_text": "shorten the {column_name} header in {table_title} to {header_text}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_012",
-          "prompt_text": "Add a spanning header {header_text} above {column_name} and {second_column_name} in {table_title}"
+          "prompt_text": "add a spanning header {header_text} above {column_name} and {second_column_name} in {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_013",
-          "prompt_text": "Remove the duplicate header label in the {column_name} column of {table_title}"
+          "prompt_text": "remove the duplicate header label in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_014",
-          "prompt_text": "Change every header in {table_title} from all-caps to {text_case}"
+          "prompt_text": "change every header in {table_title} from all-caps to {text_case}"
         },
         {
           "id": "tables_structure_header_descriptive_labels_015",
-          "prompt_text": "Add the year {year_value} to each quarterly header in {table_title}"
+          "prompt_text": "add the year {year_value} to each quarterly header in {table_title}"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "tables_structure_table_width_position_001",
-          "prompt_text": "Widen the {column_name} column so the text does not wrap"
+          "prompt_text": "widen the {column_name} column so the text does not wrap"
         },
         {
           "id": "tables_structure_table_width_position_002",
-          "prompt_text": "Narrow the {column_name} column to free space for the {second_column_name} column"
+          "prompt_text": "narrow the {column_name} column to free space for the {second_column_name} column"
         },
         {
           "id": "tables_structure_table_width_position_003",
-          "prompt_text": "Make {table_title} full width between the text margins"
+          "prompt_text": "make {table_title} full width between the text margins"
         },
         {
           "id": "tables_structure_table_width_position_004",
-          "prompt_text": "Align the left edge of {table_title} with the body text margin"
+          "prompt_text": "align the left edge of {table_title} with the body text margin"
         },
         {
           "id": "tables_structure_table_width_position_005",
-          "prompt_text": "Center {table_title} between the left and right margins"
+          "prompt_text": "center {table_title} between the left and right margins"
         },
         {
           "id": "tables_structure_table_width_position_006",
-          "prompt_text": "Move {table_title} directly below the paragraph that introduces it"
+          "prompt_text": "move {table_title} directly below the paragraph that introduces it"
         },
         {
           "id": "tables_structure_table_width_position_007",
-          "prompt_text": "Keep {table_title} inside the left and right page margins"
+          "prompt_text": "keep {table_title} inside the left and right page margins"
         },
         {
           "id": "tables_structure_table_width_position_008",
-          "prompt_text": "Set the total width of {table_title} to {table_width}"
+          "prompt_text": "set the total width of {table_title} to {table_width}"
         },
         {
           "id": "tables_structure_table_width_position_009",
-          "prompt_text": "Set the {column_name} column width to {column_width} in {table_title}"
+          "prompt_text": "set the {column_name} column width to {column_width} in {table_title}"
         },
         {
           "id": "tables_structure_table_width_position_010",
-          "prompt_text": "Distribute all columns in {table_title} to equal widths"
+          "prompt_text": "distribute all columns in {table_title} to equal widths"
         },
         {
           "id": "tables_structure_table_width_position_011",
-          "prompt_text": "Indent {table_title} {indent_value} from the left margin"
+          "prompt_text": "indent {table_title} {indent_value} from the left margin"
         },
         {
           "id": "tables_structure_table_width_position_012",
-          "prompt_text": "Right-align {table_title} with the right margin"
+          "prompt_text": "right-align {table_title} with the right margin"
         },
         {
           "id": "tables_structure_table_width_position_013",
-          "prompt_text": "Reduce the overall width of {table_title} to {table_width} so it does not crowd the margin"
+          "prompt_text": "reduce the overall width of {table_title} to {table_width} so it does not crowd the margin"
         },
         {
           "id": "tables_structure_table_width_position_014",
-          "prompt_text": "Add {space_value} of space between {table_title} and the preceding paragraph"
+          "prompt_text": "add {space_value} of space between {table_title} and the preceding paragraph"
         },
         {
           "id": "tables_structure_table_width_position_015",
-          "prompt_text": "Add {space_value} of space between {table_title} and the following paragraph"
+          "prompt_text": "add {space_value} of space between {table_title} and the following paragraph"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "tables_structure_column_alignment_001",
-          "prompt_text": "Right-align all dollar amounts in the {column_name} column of {table_title}"
+          "prompt_text": "right-align all dollar amounts in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_002",
-          "prompt_text": "Right-align all percentages in the {column_name} column of {table_title}"
+          "prompt_text": "right-align all percentages in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_003",
-          "prompt_text": "Center the status icons in the {column_name} column of {table_title}"
+          "prompt_text": "center the status icons in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_004",
-          "prompt_text": "Left-align the text in the {column_name} column of {table_title}"
+          "prompt_text": "left-align the text in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_005",
-          "prompt_text": "Center the {column_name} header to match the centered data below it in {table_title}"
+          "prompt_text": "center the {column_name} header to match the centered data below it in {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_006",
-          "prompt_text": "Align the {column_name} header with the values below it in {table_title}"
+          "prompt_text": "align the {column_name} header with the values below it in {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_007",
-          "prompt_text": "Set the {column_name} column to {alignment} in {table_title}"
+          "prompt_text": "set the {column_name} column to {alignment} in {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_008",
-          "prompt_text": "Decimal-align the values in the {column_name} column of {table_title}"
+          "prompt_text": "decimal-align the values in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_009",
-          "prompt_text": "Right-align the numeric cells but left-align the header in the {column_name} column of {table_title}"
+          "prompt_text": "right-align the numeric cells but left-align the header in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_010",
-          "prompt_text": "Center every cell in the {column_name} column of {table_title} including the header"
+          "prompt_text": "center every cell in the {column_name} column of {table_title} including the header"
         },
         {
           "id": "tables_structure_column_alignment_011",
-          "prompt_text": "Left-align the first column and right-align all other columns in {table_title}"
+          "prompt_text": "left-align the first column and right-align all other columns in {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_012",
-          "prompt_text": "Match the alignment of the {column_name} column in {table_title} to {reference_table}"
+          "prompt_text": "match the alignment of the {column_name} column in {table_title} to {reference_table}"
         },
         {
           "id": "tables_structure_column_alignment_013",
-          "prompt_text": "Right-align the dates in the {column_name} column of {table_title}"
+          "prompt_text": "right-align the dates in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_014",
-          "prompt_text": "Center the checkmarks in the {column_name} column of {table_title}"
+          "prompt_text": "center the checkmarks in the {column_name} column of {table_title}"
         },
         {
           "id": "tables_structure_column_alignment_015",
-          "prompt_text": "Set the totals row alignment in {table_title} to match the data rows above"
+          "prompt_text": "set the totals row alignment in {table_title} to match the data rows above"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "tables_structure_merged_cell_reduction_001",
-          "prompt_text": "Split the merged header cell above {column_name} into two cells in {table_title}"
+          "prompt_text": "split the merged header cell above {column_name} into two cells in {table_title}"
         },
         {
           "id": "tables_structure_merged_cell_reduction_002",
-          "prompt_text": "Unmerge the blank cells in the totals row of {table_title}"
+          "prompt_text": "unmerge the blank cells in the totals row of {table_title}"
         },
         {
           "id": "tables_structure_merged_cell_reduction_003",
-          "prompt_text": "Unmerge the body cells in {table_title} and repeat the row labels in each row"
+          "prompt_text": "unmerge the body cells in {table_title} and repeat the row labels in each row"
         },
         {
           "id": "tables_structure_merged_cell_reduction_004",
-          "prompt_text": "Merge the top two header cells above {column_name} and {second_column_name} in {table_title}"
+          "prompt_text": "merge the top two header cells above {column_name} and {second_column_name} in {table_title}"
         },
         {
           "id": "tables_structure_merged_cell_reduction_005",
-          "prompt_text": "Unmerge the notes cell at the bottom of {table_title} and put it in the first column only"
+          "prompt_text": "unmerge the notes cell at the bottom of {table_title} and put it in the first column only"
         },
         {
           "id": "tables_structure_merged_cell_reduction_006",
-          "prompt_text": "Keep only the title row merged in {table_title} and unmerge everything else"
+          "prompt_text": "keep only the title row merged in {table_title} and unmerge everything else"
         },
         {
           "id": "tables_structure_merged_cell_reduction_007",
-          "prompt_text": "Split the merged cell in the first column of {table_title} so each row has its own label"
+          "prompt_text": "split the merged cell in the first column of {table_title} so each row has its own label"
         },
         {
           "id": "tables_structure_merged_cell_reduction_008",
-          "prompt_text": "Unmerge all cells in {table_title} and let each cell stand alone"
+          "prompt_text": "unmerge all cells in {table_title} and let each cell stand alone"
         },
         {
           "id": "tables_structure_merged_cell_reduction_009",
-          "prompt_text": "Unmerge the {column_name} column in {table_title} and fill each cell with the repeated value"
+          "prompt_text": "unmerge the {column_name} column in {table_title} and fill each cell with the repeated value"
         },
         {
           "id": "tables_structure_merged_cell_reduction_010",
-          "prompt_text": "Split the merged spanning header in {table_title} into individual column headers"
+          "prompt_text": "split the merged spanning header in {table_title} into individual column headers"
         },
         {
           "id": "tables_structure_merged_cell_reduction_011",
-          "prompt_text": "Merge the {column_name} cells for rows that share the same {group_label} in {table_title}"
+          "prompt_text": "merge the {column_name} cells for rows that share the same {group_label} in {table_title}"
         },
         {
           "id": "tables_structure_merged_cell_reduction_012",
-          "prompt_text": "Unmerge the category label in the {row_label} row of {table_title} and place it in the first cell"
+          "prompt_text": "unmerge the category label in the {row_label} row of {table_title} and place it in the first cell"
         },
         {
           "id": "tables_structure_merged_cell_reduction_013",
-          "prompt_text": "Remove the merged blank row between sections in {table_title}"
+          "prompt_text": "remove the merged blank row between sections in {table_title}"
         },
         {
           "id": "tables_structure_merged_cell_reduction_014",
-          "prompt_text": "Unmerge the footer row in {table_title} and split the text across the correct columns"
+          "prompt_text": "unmerge the footer row in {table_title} and split the text across the correct columns"
         },
         {
           "id": "tables_structure_merged_cell_reduction_015",
-          "prompt_text": "Replace the merged subtitle row in {table_title} with a standalone line above the table"
+          "prompt_text": "replace the merged subtitle row in {table_title} with a standalone line above the table"
         }
       ]
     },
@@ -367,79 +367,79 @@
       "entries": [
         {
           "id": "tables_structure_text_wrapping_overflow_001",
-          "prompt_text": "Increase the row height for {row_label} in {table_title} so the wrapped text fits"
+          "prompt_text": "increase the row height for {row_label} in {table_title} so the wrapped text fits"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_002",
-          "prompt_text": "Widen the {column_name} column in {table_title} so the header does not wrap"
+          "prompt_text": "widen the {column_name} column in {table_title} so the header does not wrap"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_003",
-          "prompt_text": "Enable text wrapping in the {column_name} column of {table_title} instead of clipping"
+          "prompt_text": "enable text wrapping in the {column_name} column of {table_title} instead of clipping"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_004",
-          "prompt_text": "Break the {row_label} text onto two lines in {table_title}"
+          "prompt_text": "break the {row_label} text onto two lines in {table_title}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_005",
-          "prompt_text": "Keep the unit label {unit_label} on one line in the {column_name} header of {table_title}"
+          "prompt_text": "keep the unit label {unit_label} on one line in the {column_name} header of {table_title}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_006",
-          "prompt_text": "Reduce the text size in the {column_name} column of {table_title} to {font_size} so the text fits"
+          "prompt_text": "reduce the text size in the {column_name} column of {table_title} to {font_size} so the text fits"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_007",
-          "prompt_text": "Fix the clipped text in the {column_name} column of {table_title} by widening the column"
+          "prompt_text": "fix the clipped text in the {column_name} column of {table_title} by widening the column"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_008",
-          "prompt_text": "Turn on auto-fit row height for every row in {table_title}"
+          "prompt_text": "turn on auto-fit row height for every row in {table_title}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_009",
-          "prompt_text": "Shrink the font in {table_title} to {font_size} so nothing overflows the right margin"
+          "prompt_text": "shrink the font in {table_title} to {font_size} so nothing overflows the right margin"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_010",
-          "prompt_text": "Abbreviate the {column_name} header in {table_title} to {header_text} so it fits in one line"
+          "prompt_text": "abbreviate the {column_name} header in {table_title} to {header_text} so it fits in one line"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_011",
-          "prompt_text": "Remove the extra line break inside the {row_label} cell in {table_title}"
+          "prompt_text": "remove the extra line break inside the {row_label} cell in {table_title}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_012",
-          "prompt_text": "Set the minimum row height in {table_title} to {row_height} so wrapped text is not cut off"
+          "prompt_text": "set the minimum row height in {table_title} to {row_height} so wrapped text is not cut off"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_013",
-          "prompt_text": "Widen the {column_name} column and narrow the {second_column_name} column in {table_title} so both fit"
+          "prompt_text": "widen the {column_name} column and narrow the {second_column_name} column in {table_title} so both fit"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_014",
-          "prompt_text": "Turn off text wrapping in the {column_name} column of {table_title} so each value stays on one line"
+          "prompt_text": "turn off text wrapping in the {column_name} column of {table_title} so each value stays on one line"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_015",
-          "prompt_text": "Increase the {column_name} column width in {table_title} to {column_width} so the longest entry fits"
+          "prompt_text": "increase the {column_name} column width in {table_title} to {column_width} so the longest entry fits"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_016",
-          "prompt_text": "Narrow the {table} so all columns fit inside the page margins"
+          "prompt_text": "narrow the {table} so all columns fit inside the page margins"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_017",
-          "prompt_text": "Move the {table} left so the last column does not get clipped at the {right margin}"
+          "prompt_text": "move the {table} left so the last column does not get clipped at the {right margin}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_018",
-          "prompt_text": "Reduce {column_name} width in {table_title} so the table fits within {page_width}"
+          "prompt_text": "reduce {column_name} width in {table_title} so the table fits within {page_width}"
         },
         {
           "id": "tables_structure_text_wrapping_overflow_019",
-          "prompt_text": "Shrink all columns in {table_title} proportionally so nothing overflows the {right margin}"
+          "prompt_text": "shrink all columns in {table_title} proportionally so nothing overflows the {right margin}"
         }
       ]
     },
@@ -454,63 +454,63 @@
       "entries": [
         {
           "id": "tables_structure_repeat_header_rows_001",
-          "prompt_text": "Turn on repeat header rows for {table_title}"
+          "prompt_text": "turn on repeat header rows for {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_002",
-          "prompt_text": "Set the first {row_count} rows in {table_title} to repeat as headers"
+          "prompt_text": "set the first {row_count} rows in {table_title} to repeat as headers"
         },
         {
           "id": "tables_structure_repeat_header_rows_003",
-          "prompt_text": "Turn off header row repeat for the note row in {table_title}"
+          "prompt_text": "turn off header row repeat for the note row in {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_004",
-          "prompt_text": "Repeat the grouped header rows in {table_title} if the table splits"
+          "prompt_text": "repeat the grouped header rows in {table_title} if the table splits"
         },
         {
           "id": "tables_structure_repeat_header_rows_005",
-          "prompt_text": "Keep the same {shading_color} shading on repeated header rows in {table_title}"
+          "prompt_text": "keep the same {shading_color} shading on repeated header rows in {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_006",
-          "prompt_text": "Add {table_title} (continued) above the repeated header if the table splits"
+          "prompt_text": "add {table_title} (continued) above the repeated header if the table splits"
         },
         {
           "id": "tables_structure_repeat_header_rows_007",
-          "prompt_text": "Add (Continued) to the repeated header for {table_title}"
+          "prompt_text": "add (continued) to the repeated header for {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_008",
-          "prompt_text": "Ensure the repeated header row in {table_title} keeps the same {border_weight} bottom border"
+          "prompt_text": "ensure the repeated header row in {table_title} keeps the same {border_weight} bottom border"
         },
         {
           "id": "tables_structure_repeat_header_rows_009",
-          "prompt_text": "Remove the duplicate header that appears mid-table in {table_title}"
+          "prompt_text": "remove the duplicate header that appears mid-table in {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_010",
-          "prompt_text": "Keep the bold formatting on the repeated header row in {table_title}"
+          "prompt_text": "keep the bold formatting on the repeated header row in {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_011",
-          "prompt_text": "Match the repeated header row height in {table_title} to the original header"
+          "prompt_text": "match the repeated header row height in {table_title} to the original header"
         },
         {
           "id": "tables_structure_repeat_header_rows_012",
-          "prompt_text": "Set only the first row of {table_title} as the repeating header, not the subtitle row"
+          "prompt_text": "set only the first row of {table_title} as the repeating header, not the subtitle row"
         },
         {
           "id": "tables_structure_repeat_header_rows_013",
-          "prompt_text": "Keep the column widths the same in the repeated header section of {table_title}"
+          "prompt_text": "keep the column widths the same in the repeated header section of {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_014",
-          "prompt_text": "Remove the extra blank row that appears after the repeated header in {table_title}"
+          "prompt_text": "remove the extra blank row that appears after the repeated header in {table_title}"
         },
         {
           "id": "tables_structure_repeat_header_rows_015",
-          "prompt_text": "Repeat both the category header and the column header in {table_title} if the table splits"
+          "prompt_text": "repeat both the category header and the column header in {table_title} if the table splits"
         }
       ]
     },
@@ -525,63 +525,63 @@
       "entries": [
         {
           "id": "tables_structure_row_break_control_001",
-          "prompt_text": "Keep the {row_label} row together so it does not split across a break in {table_title}"
+          "prompt_text": "keep the {row_label} row together so it does not split across a break in {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_002",
-          "prompt_text": "Keep the totals row with the last data row in {table_title}"
+          "prompt_text": "keep the totals row with the last data row in {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_003",
-          "prompt_text": "Keep the source note on the same page as {table_title}"
+          "prompt_text": "keep the source note on the same page as {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_004",
-          "prompt_text": "Keep the last {row_count} rows of {table_title} together"
+          "prompt_text": "keep the last {row_count} rows of {table_title} together"
         },
         {
           "id": "tables_structure_row_break_control_005",
-          "prompt_text": "Keep the table title with the first row of {table_title}"
+          "prompt_text": "keep the table title with the first row of {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_006",
-          "prompt_text": "Prevent the {row_label} row in {table_title} from splitting across a break"
+          "prompt_text": "prevent the {row_label} row in {table_title} from splitting across a break"
         },
         {
           "id": "tables_structure_row_break_control_007",
-          "prompt_text": "Keep all rows of {table_title} together so the table does not split"
+          "prompt_text": "keep all rows of {table_title} together so the table does not split"
         },
         {
           "id": "tables_structure_row_break_control_008",
-          "prompt_text": "Set Allow row to break across pages to off for every row in {table_title}"
+          "prompt_text": "set allow row to break across pages to off for every row in {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_009",
-          "prompt_text": "Keep the subtotal row with its group in {table_title}"
+          "prompt_text": "keep the subtotal row with its group in {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_010",
-          "prompt_text": "Keep {table_title} and its caption together so neither is orphaned"
+          "prompt_text": "keep {table_title} and its caption together so neither is orphaned"
         },
         {
           "id": "tables_structure_row_break_control_011",
-          "prompt_text": "Force a break before {table_title} so it starts at the top of the next area"
+          "prompt_text": "force a break before {table_title} so it starts at the top of the next area"
         },
         {
           "id": "tables_structure_row_break_control_012",
-          "prompt_text": "Keep at least {row_count} rows of {table_title} before any break"
+          "prompt_text": "keep at least {row_count} rows of {table_title} before any break"
         },
         {
           "id": "tables_structure_row_break_control_013",
-          "prompt_text": "Prevent the header row and first data row in {table_title} from being separated by a break"
+          "prompt_text": "prevent the header row and first data row in {table_title} from being separated by a break"
         },
         {
           "id": "tables_structure_row_break_control_014",
-          "prompt_text": "Keep the {group_label} section rows together in {table_title}"
+          "prompt_text": "keep the {group_label} section rows together in {table_title}"
         },
         {
           "id": "tables_structure_row_break_control_015",
-          "prompt_text": "Remove the manual break inside {table_title} that splits the table unnecessarily"
+          "prompt_text": "remove the manual break inside {table_title} that splits the table unnecessarily"
         }
       ]
     },
@@ -596,63 +596,63 @@
       "entries": [
         {
           "id": "tables_structure_row_banding_001",
-          "prompt_text": "Add {shading_color} shading to every other data row in {table_title}"
+          "prompt_text": "add {shading_color} shading to every other data row in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_002",
-          "prompt_text": "Start row banding on the first data row in {table_title}, not the header"
+          "prompt_text": "start row banding on the first data row in {table_title}, not the header"
         },
         {
           "id": "tables_structure_row_banding_003",
-          "prompt_text": "Remove row banding from the totals row in {table_title}"
+          "prompt_text": "remove row banding from the totals row in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_004",
-          "prompt_text": "Skip the header row when applying banding in {table_title}"
+          "prompt_text": "skip the header row when applying banding in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_005",
-          "prompt_text": "Shade the subtotal rows in {table_title} with a {shading_color} fill"
+          "prompt_text": "shade the subtotal rows in {table_title} with a {shading_color} fill"
         },
         {
           "id": "tables_structure_row_banding_006",
-          "prompt_text": "Remove row banding from the notes row in {table_title}"
+          "prompt_text": "remove row banding from the notes row in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_007",
-          "prompt_text": "Match the row banding color in {table_title} to {reference_table}"
+          "prompt_text": "match the row banding color in {table_title} to {reference_table}"
         },
         {
           "id": "tables_structure_row_banding_008",
-          "prompt_text": "Use {shading_color} and white alternating bands in {table_title}"
+          "prompt_text": "use {shading_color} and white alternating bands in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_009",
-          "prompt_text": "Remove all row banding from {table_title}"
+          "prompt_text": "remove all row banding from {table_title}"
         },
         {
           "id": "tables_structure_row_banding_010",
-          "prompt_text": "Fix the banding in {table_title} so two consecutive rows are not both shaded"
+          "prompt_text": "fix the banding in {table_title} so two consecutive rows are not both shaded"
         },
         {
           "id": "tables_structure_row_banding_011",
-          "prompt_text": "Apply column banding instead of row banding in {table_title}"
+          "prompt_text": "apply column banding instead of row banding in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_012",
-          "prompt_text": "Band every {band_interval} rows in {table_title} instead of every other row"
+          "prompt_text": "band every {band_interval} rows in {table_title} instead of every other row"
         },
         {
           "id": "tables_structure_row_banding_013",
-          "prompt_text": "Keep the banding consistent after the merged section in {table_title}"
+          "prompt_text": "keep the banding consistent after the merged section in {table_title}"
         },
         {
           "id": "tables_structure_row_banding_014",
-          "prompt_text": "Change the banding shade in {table_title} from {old_color} to {shading_color}"
+          "prompt_text": "change the banding shade in {table_title} from {old_color} to {shading_color}"
         },
         {
           "id": "tables_structure_row_banding_015",
-          "prompt_text": "Restart the banding pattern after each group header in {table_title}"
+          "prompt_text": "restart the banding pattern after each group header in {table_title}"
         }
       ]
     },
@@ -667,63 +667,63 @@
       "entries": [
         {
           "id": "tables_structure_totals_notes_001",
-          "prompt_text": "Add a totals row at the bottom of {table_title}"
+          "prompt_text": "add a totals row at the bottom of {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_002",
-          "prompt_text": "Bold the totals row in {table_title}"
+          "prompt_text": "bold the totals row in {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_003",
-          "prompt_text": "Add a {border_weight} top border above the totals row in {table_title}"
+          "prompt_text": "add a {border_weight} top border above the totals row in {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_004",
-          "prompt_text": "Add a source note below {table_title}"
+          "prompt_text": "add a source note below {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_005",
-          "prompt_text": "Add {note_prefix} before the table note under {table_title}"
+          "prompt_text": "add {note_prefix} before the table note under {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_006",
-          "prompt_text": "Move the source note directly below {table_title} with {space_value} of gap"
+          "prompt_text": "move the source note directly below {table_title} with {space_value} of gap"
         },
         {
           "id": "tables_structure_totals_notes_007",
-          "prompt_text": "Replace blank cells in the totals row of {table_title} with em dashes"
+          "prompt_text": "replace blank cells in the totals row of {table_title} with em dashes"
         },
         {
           "id": "tables_structure_totals_notes_008",
-          "prompt_text": "Set the totals row font in {table_title} to {font_size} bold"
+          "prompt_text": "set the totals row font in {table_title} to {font_size} bold"
         },
         {
           "id": "tables_structure_totals_notes_009",
-          "prompt_text": "Add a double bottom border under the totals row in {table_title}"
+          "prompt_text": "add a double bottom border under the totals row in {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_010",
-          "prompt_text": "Add {shading_color} shading to the totals row in {table_title}"
+          "prompt_text": "add {shading_color} shading to the totals row in {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_011",
-          "prompt_text": "Label the totals row in {table_title} as {label_text} in the first column"
+          "prompt_text": "label the totals row in {table_title} as {label_text} in the first column"
         },
         {
           "id": "tables_structure_totals_notes_012",
-          "prompt_text": "Set the source note under {table_title} to {font_size} {font_name} italic"
+          "prompt_text": "set the source note under {table_title} to {font_size} {font_name} italic"
         },
         {
           "id": "tables_structure_totals_notes_013",
-          "prompt_text": "Add a subtotals row above the grand total in {table_title}"
+          "prompt_text": "add a subtotals row above the grand total in {table_title}"
         },
         {
           "id": "tables_structure_totals_notes_014",
-          "prompt_text": "Right-align the totals row values in {table_title} to match the data rows"
+          "prompt_text": "right-align the totals row values in {table_title} to match the data rows"
         },
         {
           "id": "tables_structure_totals_notes_015",
-          "prompt_text": "Remove the extra blank row between the last data row and the totals row in {table_title}"
+          "prompt_text": "remove the extra blank row between the last data row and the totals row in {table_title}"
         }
       ]
     },
@@ -738,63 +738,63 @@
       "entries": [
         {
           "id": "tables_structure_table_titles_captions_001",
-          "prompt_text": "Add the title {table_title} above the table"
+          "prompt_text": "add the title {table_title} above the table"
         },
         {
           "id": "tables_structure_table_titles_captions_002",
-          "prompt_text": "Move the table title above {table_title} instead of below"
+          "prompt_text": "move the table title above {table_title} instead of below"
         },
         {
           "id": "tables_structure_table_titles_captions_003",
-          "prompt_text": "Move the caption below {table_title}"
+          "prompt_text": "move the caption below {table_title}"
         },
         {
           "id": "tables_structure_table_titles_captions_004",
-          "prompt_text": "Change the caption under {table_title} to {caption_text}"
+          "prompt_text": "change the caption under {table_title} to {caption_text}"
         },
         {
           "id": "tables_structure_table_titles_captions_005",
-          "prompt_text": "Match the caption style for {table_title} to the other table captions"
+          "prompt_text": "match the caption style for {table_title} to the other table captions"
         },
         {
           "id": "tables_structure_table_titles_captions_006",
-          "prompt_text": "Keep the caption on the same page as {table_title}"
+          "prompt_text": "keep the caption on the same page as {table_title}"
         },
         {
           "id": "tables_structure_table_titles_captions_007",
-          "prompt_text": "Remove the duplicate caption under {table_title}"
+          "prompt_text": "remove the duplicate caption under {table_title}"
         },
         {
           "id": "tables_structure_table_titles_captions_008",
-          "prompt_text": "Set the caption under {table_title} to {font_size} {font_name}"
+          "prompt_text": "set the caption under {table_title} to {font_size} {font_name}"
         },
         {
           "id": "tables_structure_table_titles_captions_009",
-          "prompt_text": "Bold the table number in the caption for {table_title} but leave the description in regular weight"
+          "prompt_text": "bold the table number in the caption for {table_title} but leave the description in regular weight"
         },
         {
           "id": "tables_structure_table_titles_captions_010",
-          "prompt_text": "Center the table title above {table_title}"
+          "prompt_text": "center the table title above {table_title}"
         },
         {
           "id": "tables_structure_table_titles_captions_011",
-          "prompt_text": "Left-align the caption for {table_title} with the left edge of the table"
+          "prompt_text": "left-align the caption for {table_title} with the left edge of the table"
         },
         {
           "id": "tables_structure_table_titles_captions_012",
-          "prompt_text": "Add {space_value} of space between the title and the first row in {table_title}"
+          "prompt_text": "add {space_value} of space between the title and the first row in {table_title}"
         },
         {
           "id": "tables_structure_table_titles_captions_013",
-          "prompt_text": "Number the caption for {table_title} as Table {table_number}"
+          "prompt_text": "number the caption for {table_title} as table {table_number}"
         },
         {
           "id": "tables_structure_table_titles_captions_014",
-          "prompt_text": "Change the table title for {table_title} to {text_case}"
+          "prompt_text": "change the table title for {table_title} to {text_case}"
         },
         {
           "id": "tables_structure_table_titles_captions_015",
-          "prompt_text": "Set the title of {table_title} to {font_size} bold {font_name}"
+          "prompt_text": "set the title of {table_title} to {font_size} bold {font_name}"
         }
       ]
     }

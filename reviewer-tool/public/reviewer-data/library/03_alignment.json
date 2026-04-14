@@ -12,75 +12,75 @@
       "entries": [
         {
           "id": "alignment_body_text_alignment_001",
-          "prompt_text": "Align {footnote block} left edge with body left margin"
+          "prompt_text": "align {footnote block} left edge with body left margin"
         },
         {
           "id": "alignment_body_text_alignment_002",
-          "prompt_text": "Center the content block horizontally between margins"
+          "prompt_text": "center the content block horizontally between margins"
         },
         {
           "id": "alignment_body_text_alignment_003",
-          "prompt_text": "Center the {report title} and keep section headers left-aligned"
+          "prompt_text": "center the {report title} and keep section headers left-aligned"
         },
         {
           "id": "alignment_body_text_alignment_004",
-          "prompt_text": "Drop {sidebar} box down to align its top with the first body paragraph"
+          "prompt_text": "drop {sidebar} box down to align its top with the first body paragraph"
         },
         {
           "id": "alignment_body_text_alignment_005",
-          "prompt_text": "Left-align all body paragraphs in {Findings}"
+          "prompt_text": "left-align all body paragraphs in {Findings}"
         },
         {
           "id": "alignment_body_text_alignment_006",
-          "prompt_text": "Left-align {conclusion} paragraph"
+          "prompt_text": "left-align {conclusion} paragraph"
         },
         {
           "id": "alignment_body_text_alignment_007",
-          "prompt_text": "Left-align {disclaimer text} at bottom of layout"
+          "prompt_text": "left-align {disclaimer text} at bottom of layout"
         },
         {
           "id": "alignment_body_text_alignment_008",
-          "prompt_text": "Left-align the right-aligned paragraph in {sidebar}"
+          "prompt_text": "left-align the right-aligned paragraph in {sidebar}"
         },
         {
           "id": "alignment_body_text_alignment_009",
-          "prompt_text": "Left-align text in {callout box}"
+          "prompt_text": "left-align text in {callout box}"
         },
         {
           "id": "alignment_body_text_alignment_010",
-          "prompt_text": "Left-align the centered paragraph in {Recommendations}"
+          "prompt_text": "left-align the centered paragraph in {Recommendations}"
         },
         {
           "id": "alignment_body_text_alignment_011",
-          "prompt_text": "Left-align {Executive Summary} paragraphs"
+          "prompt_text": "left-align {Executive Summary} paragraphs"
         },
         {
           "id": "alignment_body_text_alignment_012",
-          "prompt_text": "Right-align {quote attribution} to the right margin"
+          "prompt_text": "right-align {quote attribution} to the right margin"
         },
         {
           "id": "alignment_body_text_alignment_013",
-          "prompt_text": "Place {author name} on the same line as {date}"
+          "prompt_text": "place {author name} on the same line as {date}"
         },
         {
           "id": "alignment_body_text_alignment_014",
-          "prompt_text": "Pull right-aligned {date line} inside the right margin by {0.1 inches}"
+          "prompt_text": "pull right-aligned {date line} inside the right margin by {0.1 inches}"
         },
         {
           "id": "alignment_body_text_alignment_015",
-          "prompt_text": "Switch all justified body text to left-aligned"
+          "prompt_text": "switch all justified body text to left-aligned"
         },
         {
           "id": "alignment_body_text_alignment_016",
-          "prompt_text": "Right-align {page number} in the footer"
+          "prompt_text": "right-align {page number} in the footer"
         },
         {
           "id": "alignment_body_text_alignment_017",
-          "prompt_text": "Center {copyright line} between the left and right margins"
+          "prompt_text": "center {copyright line} between the left and right margins"
         },
         {
           "id": "alignment_body_text_alignment_018",
-          "prompt_text": "Left-align {bullet list} text with {body paragraph} left edge"
+          "prompt_text": "left-align {bullet list} text with {body paragraph} left edge"
         }
       ]
     },
@@ -95,63 +95,63 @@
       "entries": [
         {
           "id": "alignment_header_alignment_001",
-          "prompt_text": "Center the {report title} between the left and right margins"
+          "prompt_text": "center the {report title} between the left and right margins"
         },
         {
           "id": "alignment_header_alignment_002",
-          "prompt_text": "Center the {title} horizontally between margins"
+          "prompt_text": "center the {title} horizontally between margins"
         },
         {
           "id": "alignment_header_alignment_003",
-          "prompt_text": "Move {title block} from center to top-left alignment"
+          "prompt_text": "move {title block} from center to top-left alignment"
         },
         {
           "id": "alignment_header_alignment_004",
-          "prompt_text": "Left-align {report title} with body text left edge"
+          "prompt_text": "left-align {report title} with body text left edge"
         },
         {
           "id": "alignment_header_alignment_005",
-          "prompt_text": "Left-align all section headings with the {1 inch} left margin"
+          "prompt_text": "left-align all section headings with the {1 inch} left margin"
         },
         {
           "id": "alignment_header_alignment_006",
-          "prompt_text": "Center {subtitle} directly under {title} with matching horizontal center"
+          "prompt_text": "center {subtitle} directly under {title} with matching horizontal center"
         },
         {
           "id": "alignment_header_alignment_007",
-          "prompt_text": "Right-align {date} in the header to the right margin"
+          "prompt_text": "right-align {date} in the header to the right margin"
         },
         {
           "id": "alignment_header_alignment_008",
-          "prompt_text": "Left-align {logo} and right-align {document title} in the header bar"
+          "prompt_text": "left-align {logo} and right-align {document title} in the header bar"
         },
         {
           "id": "alignment_header_alignment_009",
-          "prompt_text": "Center {Findings} heading between the left and right margins"
+          "prompt_text": "center {Findings} heading between the left and right margins"
         },
         {
           "id": "alignment_header_alignment_010",
-          "prompt_text": "Left-align {Recommendations} heading flush with the left margin"
+          "prompt_text": "left-align {Recommendations} heading flush with the left margin"
         },
         {
           "id": "alignment_header_alignment_011",
-          "prompt_text": "Match the alignment of {H2 subheadings} to the {H1 headings} above them"
+          "prompt_text": "match the alignment of {H2 subheadings} to the {H1 headings} above them"
         },
         {
           "id": "alignment_header_alignment_012",
-          "prompt_text": "Indent {H2 subheadings} {0.25 inches} from the left margin"
+          "prompt_text": "indent {H2 subheadings} {0.25 inches} from the left margin"
         },
         {
           "id": "alignment_header_alignment_013",
-          "prompt_text": "Indent {H3 subheadings} {0.5 inches} from the left margin"
+          "prompt_text": "indent {H3 subheadings} {0.5 inches} from the left margin"
         },
         {
           "id": "alignment_header_alignment_014",
-          "prompt_text": "Center the {running header} text between the margins"
+          "prompt_text": "center the {running header} text between the margins"
         },
         {
           "id": "alignment_header_alignment_015",
-          "prompt_text": "Left-align {sidebar heading} with the sidebar body text"
+          "prompt_text": "left-align {sidebar heading} with the sidebar body text"
         }
       ]
     },
@@ -166,63 +166,63 @@
       "entries": [
         {
           "id": "alignment_tab_stop_consistency_001",
-          "prompt_text": "Clear all manual tab stops in {Findings} and reset to default {0.5 inch} stops"
+          "prompt_text": "clear all manual tab stops in {Findings} and reset to default {0.5 inch} stops"
         },
         {
           "id": "alignment_tab_stop_consistency_002",
-          "prompt_text": "Set a right-aligned tab stop at {6.5 inches} for {date line}"
+          "prompt_text": "set a right-aligned tab stop at {6.5 inches} for {date line}"
         },
         {
           "id": "alignment_tab_stop_consistency_003",
-          "prompt_text": "Set a left-aligned tab stop at {2 inches} for the {label-value pairs} in {header block}"
+          "prompt_text": "set a left-aligned tab stop at {2 inches} for the {label-value pairs} in {header block}"
         },
         {
           "id": "alignment_tab_stop_consistency_004",
-          "prompt_text": "Set a center-aligned tab stop at {3.25 inches} for {column headers}"
+          "prompt_text": "set a center-aligned tab stop at {3.25 inches} for {column headers}"
         },
         {
           "id": "alignment_tab_stop_consistency_005",
-          "prompt_text": "Set a decimal tab stop at {4 inches} for {dollar amounts} in {summary table}"
+          "prompt_text": "set a decimal tab stop at {4 inches} for {dollar amounts} in {summary table}"
         },
         {
           "id": "alignment_tab_stop_consistency_006",
-          "prompt_text": "Remove the stray tab stop at {1.5 inches} in {body paragraphs}"
+          "prompt_text": "remove the stray tab stop at {1.5 inches} in {body paragraphs}"
         },
         {
           "id": "alignment_tab_stop_consistency_007",
-          "prompt_text": "Set matching {0.5 inch} tab stops across all body paragraphs"
+          "prompt_text": "set matching {0.5 inch} tab stops across all body paragraphs"
         },
         {
           "id": "alignment_tab_stop_consistency_008",
-          "prompt_text": "Set a right-aligned tab stop with dot leader at {6 inches} for {table of contents}"
+          "prompt_text": "set a right-aligned tab stop with dot leader at {6 inches} for {table of contents}"
         },
         {
           "id": "alignment_tab_stop_consistency_009",
-          "prompt_text": "Clear the extra tab stop causing a double-indent in {paragraph 3}"
+          "prompt_text": "clear the extra tab stop causing a double-indent in {paragraph 3}"
         },
         {
           "id": "alignment_tab_stop_consistency_010",
-          "prompt_text": "Set a left-aligned tab stop at {0.75 inches} for {numbered list} labels"
+          "prompt_text": "set a left-aligned tab stop at {0.75 inches} for {numbered list} labels"
         },
         {
           "id": "alignment_tab_stop_consistency_011",
-          "prompt_text": "Replace spaces with a single tab at {3 inches} for the {To/From/Date} block"
+          "prompt_text": "replace spaces with a single tab at {3 inches} for the {To/From/Date} block"
         },
         {
           "id": "alignment_tab_stop_consistency_012",
-          "prompt_text": "Set a right-aligned tab stop at {6.5 inches} for {page numbers} in footer"
+          "prompt_text": "set a right-aligned tab stop at {6.5 inches} for {page numbers} in footer"
         },
         {
           "id": "alignment_tab_stop_consistency_013",
-          "prompt_text": "Set a left-aligned tab stop at {1 inch} for {definition terms}"
+          "prompt_text": "set a left-aligned tab stop at {1 inch} for {definition terms}"
         },
         {
           "id": "alignment_tab_stop_consistency_014",
-          "prompt_text": "Set a decimal tab stop at {5 inches} for {percentage values} in {KPI table}"
+          "prompt_text": "set a decimal tab stop at {5 inches} for {percentage values} in {KPI table}"
         },
         {
           "id": "alignment_tab_stop_consistency_015",
-          "prompt_text": "Clear all tab stops in {sidebar} and use {0.25 inch} left-aligned stops only"
+          "prompt_text": "clear all tab stops in {sidebar} and use {0.25 inch} left-aligned stops only"
         }
       ]
     },
@@ -237,63 +237,63 @@
       "entries": [
         {
           "id": "alignment_hanging_indents_001",
-          "prompt_text": "Set hanging indent to {0.5 inches} for {bibliography} entries"
+          "prompt_text": "set hanging indent to {0.5 inches} for {bibliography} entries"
         },
         {
           "id": "alignment_hanging_indents_002",
-          "prompt_text": "Align hanging indent to the {first tab stop} at {0.5 inches}"
+          "prompt_text": "align hanging indent to the {first tab stop} at {0.5 inches}"
         },
         {
           "id": "alignment_hanging_indents_003",
-          "prompt_text": "Set hanging indent to {0.25 inches} for {footnotes}"
+          "prompt_text": "set hanging indent to {0.25 inches} for {footnotes}"
         },
         {
           "id": "alignment_hanging_indents_004",
-          "prompt_text": "Set hanging indent to {0.3 inches} for {numbered list} items"
+          "prompt_text": "set hanging indent to {0.3 inches} for {numbered list} items"
         },
         {
           "id": "alignment_hanging_indents_005",
-          "prompt_text": "Set hanging indent to {0.5 inches} for {glossary definitions}"
+          "prompt_text": "set hanging indent to {0.5 inches} for {glossary definitions}"
         },
         {
           "id": "alignment_hanging_indents_006",
-          "prompt_text": "Remove the hanging indent from {body paragraphs} in {Executive Summary}"
+          "prompt_text": "remove the hanging indent from {body paragraphs} in {Executive Summary}"
         },
         {
           "id": "alignment_hanging_indents_007",
-          "prompt_text": "Set hanging indent to {0.25 inches} for {bullet list} items"
+          "prompt_text": "set hanging indent to {0.25 inches} for {bullet list} items"
         },
         {
           "id": "alignment_hanging_indents_008",
-          "prompt_text": "Match the hanging indent on all {references} entries to {0.5 inches}"
+          "prompt_text": "match the hanging indent on all {references} entries to {0.5 inches}"
         },
         {
           "id": "alignment_hanging_indents_009",
-          "prompt_text": "Set hanging indent to {0.4 inches} for {endnotes}"
+          "prompt_text": "set hanging indent to {0.4 inches} for {endnotes}"
         },
         {
           "id": "alignment_hanging_indents_010",
-          "prompt_text": "Set hanging indent to {0.5 inches} for {source citations}"
+          "prompt_text": "set hanging indent to {0.5 inches} for {source citations}"
         },
         {
           "id": "alignment_hanging_indents_011",
-          "prompt_text": "Remove the accidental {1 inch} hanging indent from {paragraph 2}"
+          "prompt_text": "remove the accidental {1 inch} hanging indent from {paragraph 2}"
         },
         {
           "id": "alignment_hanging_indents_012",
-          "prompt_text": "Set hanging indent to {0.3 inches} for the {definition list} in {sidebar}"
+          "prompt_text": "set hanging indent to {0.3 inches} for the {definition list} in {sidebar}"
         },
         {
           "id": "alignment_hanging_indents_013",
-          "prompt_text": "Match the hanging indent on {callout box} bullets to {0.25 inches}"
+          "prompt_text": "match the hanging indent on {callout box} bullets to {0.25 inches}"
         },
         {
           "id": "alignment_hanging_indents_014",
-          "prompt_text": "Set hanging indent to {0.5 inches} for {legal disclaimers}"
+          "prompt_text": "set hanging indent to {0.5 inches} for {legal disclaimers}"
         },
         {
           "id": "alignment_hanging_indents_015",
-          "prompt_text": "Set hanging indent to {0.25 inches} for {figure captions}"
+          "prompt_text": "set hanging indent to {0.25 inches} for {figure captions}"
         }
       ]
     },
@@ -308,103 +308,103 @@
       "entries": [
         {
           "id": "alignment_vertical_text_box_alignment_001",
-          "prompt_text": "Center {caption} vertically in {callout box}"
+          "prompt_text": "center {caption} vertically in {callout box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_002",
-          "prompt_text": "Match {caption} vertical center to {title} vertical center"
+          "prompt_text": "match {caption} vertical center to {title} vertical center"
         },
         {
           "id": "alignment_vertical_text_box_alignment_003",
-          "prompt_text": "Align {text box} to top of its column"
+          "prompt_text": "align {text box} to top of its column"
         },
         {
           "id": "alignment_vertical_text_box_alignment_004",
-          "prompt_text": "Set vertical alignment to bottom for {callout box}"
+          "prompt_text": "set vertical alignment to bottom for {callout box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_005",
-          "prompt_text": "Set vertical alignment to bottom for {caption box}"
+          "prompt_text": "set vertical alignment to bottom for {caption box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_006",
-          "prompt_text": "Center {note} vertically in {callout box}"
+          "prompt_text": "center {note} vertically in {callout box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_007",
-          "prompt_text": "Center {image} vertically in {graph box}"
+          "prompt_text": "center {image} vertically in {graph box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_008",
-          "prompt_text": "Set vertical alignment to bottom for {note box}"
+          "prompt_text": "set vertical alignment to bottom for {note box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_009",
-          "prompt_text": "Set vertical alignment to bottom for {text box}"
+          "prompt_text": "set vertical alignment to bottom for {text box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_010",
-          "prompt_text": "Set vertical alignment to bottom for {graph box}"
+          "prompt_text": "set vertical alignment to bottom for {graph box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_011",
-          "prompt_text": "Center {logo} vertically in the {header bar}"
+          "prompt_text": "center {logo} vertically in the {header bar}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_012",
-          "prompt_text": "Shift {table} to vertical center of its frame"
+          "prompt_text": "shift {table} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_013",
-          "prompt_text": "Set vertical alignment to bottom for {title box}"
+          "prompt_text": "set vertical alignment to bottom for {title box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_014",
-          "prompt_text": "Match {text} vertical center to {title} vertical center"
+          "prompt_text": "match {text} vertical center to {title} vertical center"
         },
         {
           "id": "alignment_vertical_text_box_alignment_015",
-          "prompt_text": "Set vertical alignment to bottom for {table box}"
+          "prompt_text": "set vertical alignment to bottom for {table box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_016",
-          "prompt_text": "Shift {text} to vertical center of its frame"
+          "prompt_text": "shift {text} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_017",
-          "prompt_text": "Match {table} vertical center to {callout} vertical center"
+          "prompt_text": "match {table} vertical center to {callout} vertical center"
         },
         {
           "id": "alignment_vertical_text_box_alignment_018",
-          "prompt_text": "Shift {title} to vertical center of its frame"
+          "prompt_text": "shift {title} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_019",
-          "prompt_text": "Shift {graph} to vertical center of its frame"
+          "prompt_text": "shift {graph} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_020",
-          "prompt_text": "Shift {logo} to vertical center of its frame"
+          "prompt_text": "shift {logo} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_021",
-          "prompt_text": "Match {image} vertical center to {chart} vertical center"
+          "prompt_text": "match {image} vertical center to {chart} vertical center"
         },
         {
           "id": "alignment_vertical_text_box_alignment_022",
-          "prompt_text": "Match {title} vertical center to {table} vertical center"
+          "prompt_text": "match {title} vertical center to {table} vertical center"
         },
         {
           "id": "alignment_vertical_text_box_alignment_023",
-          "prompt_text": "Shift {caption} to vertical center of its frame"
+          "prompt_text": "shift {caption} to vertical center of its frame"
         },
         {
           "id": "alignment_vertical_text_box_alignment_024",
-          "prompt_text": "Center {note} vertically in {chart box}"
+          "prompt_text": "center {note} vertically in {chart box}"
         },
         {
           "id": "alignment_vertical_text_box_alignment_025",
-          "prompt_text": "Match {table} vertical center to {text} vertical center"
+          "prompt_text": "match {table} vertical center to {text} vertical center"
         }
       ]
     },
@@ -419,63 +419,63 @@
       "entries": [
         {
           "id": "alignment_element_alignment_001",
-          "prompt_text": "Align the left edge of {chart} with the left edge of {body text}"
+          "prompt_text": "align the left edge of {chart} with the left edge of {body text}"
         },
         {
           "id": "alignment_element_alignment_002",
-          "prompt_text": "Align the left edge of {table} with the left margin"
+          "prompt_text": "align the left edge of {table} with the left margin"
         },
         {
           "id": "alignment_element_alignment_003",
-          "prompt_text": "Center {chart} horizontally between the margins"
+          "prompt_text": "center {chart} horizontally between the margins"
         },
         {
           "id": "alignment_element_alignment_004",
-          "prompt_text": "Center {image} horizontally between the margins"
+          "prompt_text": "center {image} horizontally between the margins"
         },
         {
           "id": "alignment_element_alignment_005",
-          "prompt_text": "Right-align {logo} to the right margin in the header"
+          "prompt_text": "right-align {logo} to the right margin in the header"
         },
         {
           "id": "alignment_element_alignment_006",
-          "prompt_text": "Align {callout box} left edge with body text left edge"
+          "prompt_text": "align {callout box} left edge with body text left edge"
         },
         {
           "id": "alignment_element_alignment_007",
-          "prompt_text": "Align the top of {sidebar} with the top of the adjacent body paragraph"
+          "prompt_text": "align the top of {sidebar} with the top of the adjacent body paragraph"
         },
         {
           "id": "alignment_element_alignment_008",
-          "prompt_text": "Align {divider line} left and right ends with body text margins"
+          "prompt_text": "align {divider line} left and right ends with body text margins"
         },
         {
           "id": "alignment_element_alignment_009",
-          "prompt_text": "Center {table} horizontally between the margins"
+          "prompt_text": "center {table} horizontally between the margins"
         },
         {
           "id": "alignment_element_alignment_010",
-          "prompt_text": "Align {figure caption} left edge with {figure} left edge"
+          "prompt_text": "align {figure caption} left edge with {figure} left edge"
         },
         {
           "id": "alignment_element_alignment_011",
-          "prompt_text": "Align the bottom of {signature block} with the bottom margin"
+          "prompt_text": "align the bottom of {signature block} with the bottom margin"
         },
         {
           "id": "alignment_element_alignment_012",
-          "prompt_text": "Center {KPI boxes} horizontally as a group between the margins"
+          "prompt_text": "center {KPI boxes} horizontally as a group between the margins"
         },
         {
           "id": "alignment_element_alignment_013",
-          "prompt_text": "Align {two columns} of text so their tops line up horizontally"
+          "prompt_text": "align {two columns} of text so their tops line up horizontally"
         },
         {
           "id": "alignment_element_alignment_014",
-          "prompt_text": "Align {icon} vertical center with {heading text} vertical center"
+          "prompt_text": "align {icon} vertical center with {heading text} vertical center"
         },
         {
           "id": "alignment_element_alignment_015",
-          "prompt_text": "Center the {footer text} horizontally between the margins"
+          "prompt_text": "center the {footer text} horizontally between the margins"
         }
       ]
     }

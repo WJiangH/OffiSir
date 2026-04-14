@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "headers_footers_page_number_presence_001",
-          "prompt_text": "Add a page number to the {position} of the page"
+          "prompt_text": "add a page number to the {position} of the page"
         },
         {
           "id": "headers_footers_page_number_presence_002",
-          "prompt_text": "Remove the page number from the footer"
+          "prompt_text": "remove the page number from the footer"
         },
         {
           "id": "headers_footers_page_number_presence_003",
-          "prompt_text": "Move the page number from the {current_position} to the {target_position}"
+          "prompt_text": "move the page number from the {current_position} to the {target_position}"
         },
         {
           "id": "headers_footers_page_number_presence_004",
-          "prompt_text": "Move the page number to the {bottom_right} corner"
+          "prompt_text": "move the page number to the {bottom_right} corner"
         },
         {
           "id": "headers_footers_page_number_presence_005",
-          "prompt_text": "Remove the duplicate page number that appears in both header and footer"
+          "prompt_text": "remove the duplicate page number that appears in both header and footer"
         },
         {
           "id": "headers_footers_page_number_presence_006",
-          "prompt_text": "Center the page number at the {bottom} of the page"
+          "prompt_text": "center the page number at the {bottom} of the page"
         },
         {
           "id": "headers_footers_page_number_presence_007",
-          "prompt_text": "Move the page number to {page_number_position}"
+          "prompt_text": "move the page number to {page_number_position}"
         },
         {
           "id": "headers_footers_page_number_presence_008",
-          "prompt_text": "Add a page number to the {left side} of the footer"
+          "prompt_text": "add a page number to the {left side} of the footer"
         },
         {
           "id": "headers_footers_page_number_presence_009",
-          "prompt_text": "Remove the floating page number that overlaps the {body text}"
+          "prompt_text": "remove the floating page number that overlaps the {body text}"
         },
         {
           "id": "headers_footers_page_number_presence_010",
-          "prompt_text": "Move the page number inside the {margin} so it does not get clipped when printing"
+          "prompt_text": "move the page number inside the {margin} so it does not get clipped when printing"
         },
         {
           "id": "headers_footers_page_number_presence_011",
-          "prompt_text": "Add a page number next to the {company name} in the footer"
+          "prompt_text": "add a page number next to the {company name} in the footer"
         },
         {
           "id": "headers_footers_page_number_presence_012",
-          "prompt_text": "Increase the page number font size to {font_size}"
+          "prompt_text": "increase the page number font size to {font_size}"
         },
         {
           "id": "headers_footers_page_number_presence_013",
-          "prompt_text": "Change the page number font to match the {body text} font"
+          "prompt_text": "change the page number font to match the {body text} font"
         },
         {
           "id": "headers_footers_page_number_presence_014",
-          "prompt_text": "Align the page number with the {right margin} of the body text"
+          "prompt_text": "align the page number with the {right margin} of the body text"
         },
         {
           "id": "headers_footers_page_number_presence_015",
-          "prompt_text": "Add {spacing_value} between the page number and the footer divider"
+          "prompt_text": "add {spacing_value} between the page number and the footer divider"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "headers_footers_page_number_format_001",
-          "prompt_text": "Change the page number format to {Page X of Y}"
+          "prompt_text": "change the page number format to {Page X of Y}"
         },
         {
           "id": "headers_footers_page_number_format_002",
-          "prompt_text": "Switch the page numbers to {lowercase roman numerals}"
+          "prompt_text": "switch the page numbers to {lowercase roman numerals}"
         },
         {
           "id": "headers_footers_page_number_format_003",
-          "prompt_text": "Switch the page numbers to {Arabic numerals}"
+          "prompt_text": "switch the page numbers to {Arabic numerals}"
         },
         {
           "id": "headers_footers_page_number_format_004",
-          "prompt_text": "Remove the {parentheses} around the page numbers"
+          "prompt_text": "remove the {parentheses} around the page numbers"
         },
         {
           "id": "headers_footers_page_number_format_005",
-          "prompt_text": "Add {dashes} on both sides of the page number"
+          "prompt_text": "add {dashes} on both sides of the page number"
         },
         {
           "id": "headers_footers_page_number_format_006",
-          "prompt_text": "Add {leading zeros} to page numbers so they read {01, 02, 03}"
+          "prompt_text": "add {leading zeros} to page numbers so they read {01, 02, 03}"
         },
         {
           "id": "headers_footers_page_number_format_007",
-          "prompt_text": "Change the page numbers to {page_number_format}"
+          "prompt_text": "change the page numbers to {page_number_format}"
         },
         {
           "id": "headers_footers_page_number_format_008",
-          "prompt_text": "Remove the period after each page number"
+          "prompt_text": "remove the period after each page number"
         },
         {
           "id": "headers_footers_page_number_format_009",
-          "prompt_text": "Add the word {Page} before every page number"
+          "prompt_text": "add the word {Page} before every page number"
         },
         {
           "id": "headers_footers_page_number_format_010",
-          "prompt_text": "Change the page number style to {uppercase letters}"
+          "prompt_text": "change the page number style to {uppercase letters}"
         },
         {
           "id": "headers_footers_page_number_format_011",
-          "prompt_text": "Remove the {hash symbol} before the page numbers"
+          "prompt_text": "remove the {hash symbol} before the page numbers"
         },
         {
           "id": "headers_footers_page_number_format_012",
-          "prompt_text": "Bold the page numbers in the footer"
+          "prompt_text": "bold the page numbers in the footer"
         },
         {
           "id": "headers_footers_page_number_format_013",
-          "prompt_text": "Change the page number color to {color}"
+          "prompt_text": "change the page number color to {color}"
         },
         {
           "id": "headers_footers_page_number_format_014",
-          "prompt_text": "Reduce the page number font size to {font_size}"
+          "prompt_text": "reduce the page number font size to {font_size}"
         },
         {
           "id": "headers_footers_page_number_format_015",
-          "prompt_text": "Enclose each page number in {square brackets}"
+          "prompt_text": "enclose each page number in {square brackets}"
         }
       ]
     },
@@ -154,71 +154,71 @@
       "entries": [
         {
           "id": "headers_footers_running_header_text_001",
-          "prompt_text": "Change the running header to {report_title}"
+          "prompt_text": "change the running header to {report_title}"
         },
         {
           "id": "headers_footers_running_header_text_002",
-          "prompt_text": "Change the running header to the {current section name}"
+          "prompt_text": "change the running header to the {current section name}"
         },
         {
           "id": "headers_footers_running_header_text_003",
-          "prompt_text": "Remove the running header and leave only the page number"
+          "prompt_text": "remove the running header and leave only the page number"
         },
         {
           "id": "headers_footers_running_header_text_004",
-          "prompt_text": "Make the running header text consistent across all pages"
+          "prompt_text": "make the running header text consistent across all pages"
         },
         {
           "id": "headers_footers_running_header_text_005",
-          "prompt_text": "Remove the duplicate running header text"
+          "prompt_text": "remove the duplicate running header text"
         },
         {
           "id": "headers_footers_running_header_text_006",
-          "prompt_text": "Move the running header down {spacing_value} from the top edge"
+          "prompt_text": "move the running header down {spacing_value} from the top edge"
         },
         {
           "id": "headers_footers_running_header_text_007",
-          "prompt_text": "Change the running header to {header_text}"
+          "prompt_text": "change the running header to {header_text}"
         },
         {
           "id": "headers_footers_running_header_text_008",
-          "prompt_text": "Change the running header font to {font_name}"
+          "prompt_text": "change the running header font to {font_name}"
         },
         {
           "id": "headers_footers_running_header_text_009",
-          "prompt_text": "Reduce the running header font size to {font_size}"
+          "prompt_text": "reduce the running header font size to {font_size}"
         },
         {
           "id": "headers_footers_running_header_text_010",
-          "prompt_text": "Italicize the running header text"
+          "prompt_text": "italicize the running header text"
         },
         {
           "id": "headers_footers_running_header_text_011",
-          "prompt_text": "Right-align the running header text"
+          "prompt_text": "right-align the running header text"
         },
         {
           "id": "headers_footers_running_header_text_012",
-          "prompt_text": "Change the running header color to {color}"
+          "prompt_text": "change the running header color to {color}"
         },
         {
           "id": "headers_footers_running_header_text_013",
-          "prompt_text": "Add the {date} to the left side of the running header"
+          "prompt_text": "add the {date} to the left side of the running header"
         },
         {
           "id": "headers_footers_running_header_text_014",
-          "prompt_text": "Remove the bold formatting from the running header"
+          "prompt_text": "remove the bold formatting from the running header"
         },
         {
           "id": "headers_footers_running_header_text_015",
-          "prompt_text": "Truncate the running header to {character_limit} characters so it fits on one line"
+          "prompt_text": "truncate the running header to {character_limit} characters so it fits on one line"
         },
         {
           "id": "headers_footers_running_header_text_016",
-          "prompt_text": "Move the {running header} up so it does not overlap the first line of body text"
+          "prompt_text": "move the {running header} up so it does not overlap the first line of body text"
         },
         {
           "id": "headers_footers_running_header_text_017",
-          "prompt_text": "Add {6pt} of space between the {header divider} and the first body paragraph"
+          "prompt_text": "add {6pt} of space between the {header divider} and the first body paragraph"
         }
       ]
     },
@@ -233,75 +233,75 @@
       "entries": [
         {
           "id": "headers_footers_footer_text_notices_001",
-          "prompt_text": "Add {company_name} to the {left side} of the footer"
+          "prompt_text": "add {company_name} to the {left side} of the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_002",
-          "prompt_text": "Add {website_url} to the {right side} of the footer"
+          "prompt_text": "add {website_url} to the {right side} of the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_003",
-          "prompt_text": "Replace the old office address in the footer with {new_address}"
+          "prompt_text": "replace the old office address in the footer with {new_address}"
         },
         {
           "id": "headers_footers_footer_text_notices_004",
-          "prompt_text": "Add {Confidential} to the {center} of the footer"
+          "prompt_text": "add {Confidential} to the {center} of the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_005",
-          "prompt_text": "Remove the {phone number} from the footer and keep only the {website URL}"
+          "prompt_text": "remove the {phone number} from the footer and keep only the {website URL}"
         },
         {
           "id": "headers_footers_footer_text_notices_006",
-          "prompt_text": "Remove the duplicate footer text"
+          "prompt_text": "remove the duplicate footer text"
         },
         {
           "id": "headers_footers_footer_text_notices_007",
-          "prompt_text": "Change the footer text to {footer_text}"
+          "prompt_text": "change the footer text to {footer_text}"
         },
         {
           "id": "headers_footers_footer_text_notices_008",
-          "prompt_text": "Add a {copyright notice} to the footer"
+          "prompt_text": "add a {copyright notice} to the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_009",
-          "prompt_text": "Update the {year} in the footer copyright line to {current_year}"
+          "prompt_text": "update the {year} in the footer copyright line to {current_year}"
         },
         {
           "id": "headers_footers_footer_text_notices_010",
-          "prompt_text": "Change the footer font size to {font_size}"
+          "prompt_text": "change the footer font size to {font_size}"
         },
         {
           "id": "headers_footers_footer_text_notices_011",
-          "prompt_text": "Change the footer text color to {color}"
+          "prompt_text": "change the footer text color to {color}"
         },
         {
           "id": "headers_footers_footer_text_notices_012",
-          "prompt_text": "Add {Draft \u2014 Not for Distribution} to the center of the footer"
+          "prompt_text": "add {Draft — Not for Distribution} to the center of the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_013",
-          "prompt_text": "Remove the outdated {disclaimer text} from the footer"
+          "prompt_text": "remove the outdated {disclaimer text} from the footer"
         },
         {
           "id": "headers_footers_footer_text_notices_014",
-          "prompt_text": "Move the footer text {spacing_value} above the bottom edge"
+          "prompt_text": "move the footer text {spacing_value} above the bottom edge"
         },
         {
           "id": "headers_footers_footer_text_notices_015",
-          "prompt_text": "Add {document_id} to the right side of the footer for version tracking"
+          "prompt_text": "add {document_id} to the right side of the footer for version tracking"
         },
         {
           "id": "headers_footers_footer_text_notices_016",
-          "prompt_text": "Move the {footer} down so it does not overlap the last line of body text"
+          "prompt_text": "move the {footer} down so it does not overlap the last line of body text"
         },
         {
           "id": "headers_footers_footer_text_notices_017",
-          "prompt_text": "Add {6pt} of space between the last body paragraph and the {footer divider}"
+          "prompt_text": "add {6pt} of space between the last body paragraph and the {footer divider}"
         },
         {
           "id": "headers_footers_footer_text_notices_018",
-          "prompt_text": "Reduce the {footer} font to {8pt} so it fits on one line without overflowing"
+          "prompt_text": "reduce the {footer} font to {8pt} so it fits on one line without overflowing"
         }
       ]
     },
@@ -316,63 +316,63 @@
       "entries": [
         {
           "id": "headers_footers_header_footer_dividers_001",
-          "prompt_text": "Add a {rule_weight} rule above the footer"
+          "prompt_text": "add a {rule_weight} rule above the footer"
         },
         {
           "id": "headers_footers_header_footer_dividers_002",
-          "prompt_text": "Add a {rule_weight} rule below the header"
+          "prompt_text": "add a {rule_weight} rule below the header"
         },
         {
           "id": "headers_footers_header_footer_dividers_003",
-          "prompt_text": "Remove the double rule under the header and use a single line"
+          "prompt_text": "remove the double rule under the header and use a single line"
         },
         {
           "id": "headers_footers_header_footer_dividers_004",
-          "prompt_text": "Extend the footer divider to the full {text width}"
+          "prompt_text": "extend the footer divider to the full {text width}"
         },
         {
           "id": "headers_footers_header_footer_dividers_005",
-          "prompt_text": "Align the header divider with the {text margins}"
+          "prompt_text": "align the header divider with the {text margins}"
         },
         {
           "id": "headers_footers_header_footer_dividers_006",
-          "prompt_text": "Change the footer divider color to {color}"
+          "prompt_text": "change the footer divider color to {color}"
         },
         {
           "id": "headers_footers_header_footer_dividers_007",
-          "prompt_text": "Remove the header divider line"
+          "prompt_text": "remove the header divider line"
         },
         {
           "id": "headers_footers_header_footer_dividers_008",
-          "prompt_text": "Remove the footer divider line"
+          "prompt_text": "remove the footer divider line"
         },
         {
           "id": "headers_footers_header_footer_dividers_009",
-          "prompt_text": "Change the header divider to a {dashed} line"
+          "prompt_text": "change the header divider to a {dashed} line"
         },
         {
           "id": "headers_footers_header_footer_dividers_010",
-          "prompt_text": "Increase the header divider weight to {rule_weight}"
+          "prompt_text": "increase the header divider weight to {rule_weight}"
         },
         {
           "id": "headers_footers_header_footer_dividers_011",
-          "prompt_text": "Add {spacing_value} between the header text and the divider line"
+          "prompt_text": "add {spacing_value} between the header text and the divider line"
         },
         {
           "id": "headers_footers_header_footer_dividers_012",
-          "prompt_text": "Add {spacing_value} between the footer divider and the footer text"
+          "prompt_text": "add {spacing_value} between the footer divider and the footer text"
         },
         {
           "id": "headers_footers_header_footer_dividers_013",
-          "prompt_text": "Match the header and footer divider styles so they use the same {weight} and {color}"
+          "prompt_text": "match the header and footer divider styles so they use the same {weight} and {color}"
         },
         {
           "id": "headers_footers_header_footer_dividers_014",
-          "prompt_text": "Shorten the header divider so it stops at the {text margin} on each side"
+          "prompt_text": "shorten the header divider so it stops at the {text margin} on each side"
         },
         {
           "id": "headers_footers_header_footer_dividers_015",
-          "prompt_text": "Change the header divider color to match the {brand color}"
+          "prompt_text": "change the header divider color to match the {brand color}"
         }
       ]
     },
@@ -387,63 +387,63 @@
       "entries": [
         {
           "id": "headers_footers_first_page_exceptions_001",
-          "prompt_text": "Remove the header from the first page"
+          "prompt_text": "remove the header from the first page"
         },
         {
           "id": "headers_footers_first_page_exceptions_002",
-          "prompt_text": "Remove the footer from the first page"
+          "prompt_text": "remove the footer from the first page"
         },
         {
           "id": "headers_footers_first_page_exceptions_003",
-          "prompt_text": "Remove the page number from the first page"
+          "prompt_text": "remove the page number from the first page"
         },
         {
           "id": "headers_footers_first_page_exceptions_004",
-          "prompt_text": "Use a different header on the first page than on the rest"
+          "prompt_text": "use a different header on the first page than on the rest"
         },
         {
           "id": "headers_footers_first_page_exceptions_005",
-          "prompt_text": "Start the running header on the second page"
+          "prompt_text": "start the running header on the second page"
         },
         {
           "id": "headers_footers_first_page_exceptions_006",
-          "prompt_text": "Keep only the {report title} in the first-page header"
+          "prompt_text": "keep only the {report title} in the first-page header"
         },
         {
           "id": "headers_footers_first_page_exceptions_007",
-          "prompt_text": "Remove the divider line from the first page header"
+          "prompt_text": "remove the divider line from the first page header"
         },
         {
           "id": "headers_footers_first_page_exceptions_008",
-          "prompt_text": "Add the {logo} to the first page header only"
+          "prompt_text": "add the {logo} to the first page header only"
         },
         {
           "id": "headers_footers_first_page_exceptions_009",
-          "prompt_text": "Show only the {company name} in the first-page footer"
+          "prompt_text": "show only the {company name} in the first-page footer"
         },
         {
           "id": "headers_footers_first_page_exceptions_010",
-          "prompt_text": "Remove all header and footer elements from the first page"
+          "prompt_text": "remove all header and footer elements from the first page"
         },
         {
           "id": "headers_footers_first_page_exceptions_011",
-          "prompt_text": "Use a {larger font size} for the first-page header text"
+          "prompt_text": "use a {larger font size} for the first-page header text"
         },
         {
           "id": "headers_footers_first_page_exceptions_012",
-          "prompt_text": "Center the first-page header text instead of left-aligning it"
+          "prompt_text": "center the first-page header text instead of left-aligning it"
         },
         {
           "id": "headers_footers_first_page_exceptions_013",
-          "prompt_text": "Add the {date} to the first-page footer only"
+          "prompt_text": "add the {date} to the first-page footer only"
         },
         {
           "id": "headers_footers_first_page_exceptions_014",
-          "prompt_text": "Remove the {watermark} from the first page only"
+          "prompt_text": "remove the {watermark} from the first page only"
         },
         {
           "id": "headers_footers_first_page_exceptions_015",
-          "prompt_text": "Use the {full company logo} on the first page and the {abbreviated logo} on the rest"
+          "prompt_text": "use the {full company logo} on the first page and the {abbreviated logo} on the rest"
         }
       ]
     },
@@ -458,63 +458,63 @@
       "entries": [
         {
           "id": "headers_footers_odd_even_headers_001",
-          "prompt_text": "Place the page number on the {outer corner} of every page"
+          "prompt_text": "place the page number on the {outer corner} of every page"
         },
         {
           "id": "headers_footers_odd_even_headers_002",
-          "prompt_text": "Place the {section name} on the {inner corner} of every page"
+          "prompt_text": "place the {section name} on the {inner corner} of every page"
         },
         {
           "id": "headers_footers_odd_even_headers_003",
-          "prompt_text": "Mirror the header layout so left and right pages match"
+          "prompt_text": "mirror the header layout so left and right pages match"
         },
         {
           "id": "headers_footers_odd_even_headers_004",
-          "prompt_text": "Mirror the footer layout so left and right pages match"
+          "prompt_text": "mirror the footer layout so left and right pages match"
         },
         {
           "id": "headers_footers_odd_even_headers_005",
-          "prompt_text": "Align each header to the {outside margin}"
+          "prompt_text": "align each header to the {outside margin}"
         },
         {
           "id": "headers_footers_odd_even_headers_006",
-          "prompt_text": "Swap the page number and {header text} positions on alternating pages"
+          "prompt_text": "swap the page number and {header text} positions on alternating pages"
         },
         {
           "id": "headers_footers_odd_even_headers_007",
-          "prompt_text": "Put the {report title} on left-hand pages and the {section title} on right-hand pages"
+          "prompt_text": "put the {report title} on left-hand pages and the {section title} on right-hand pages"
         },
         {
           "id": "headers_footers_odd_even_headers_008",
-          "prompt_text": "Mirror the footer divider position on left and right pages"
+          "prompt_text": "mirror the footer divider position on left and right pages"
         },
         {
           "id": "headers_footers_odd_even_headers_009",
-          "prompt_text": "Place the {logo} on the outer edge of every header"
+          "prompt_text": "place the {logo} on the outer edge of every header"
         },
         {
           "id": "headers_footers_odd_even_headers_010",
-          "prompt_text": "Align the footer text to the {outside margin} on every page"
+          "prompt_text": "align the footer text to the {outside margin} on every page"
         },
         {
           "id": "headers_footers_odd_even_headers_011",
-          "prompt_text": "Keep the {company name} on the inside edge of every footer"
+          "prompt_text": "keep the {company name} on the inside edge of every footer"
         },
         {
           "id": "headers_footers_odd_even_headers_012",
-          "prompt_text": "Use {bold} for the right-page header and {regular} for the left-page header"
+          "prompt_text": "use {bold} for the right-page header and {regular} for the left-page header"
         },
         {
           "id": "headers_footers_odd_even_headers_013",
-          "prompt_text": "Remove the mirrored header layout and use the same layout on every page"
+          "prompt_text": "remove the mirrored header layout and use the same layout on every page"
         },
         {
           "id": "headers_footers_odd_even_headers_014",
-          "prompt_text": "Move the {date} to the outer edge of every footer"
+          "prompt_text": "move the {date} to the outer edge of every footer"
         },
         {
           "id": "headers_footers_odd_even_headers_015",
-          "prompt_text": "Make the header divider span the {full text width} on both left and right pages"
+          "prompt_text": "make the header divider span the {full text width} on both left and right pages"
         }
       ]
     },
@@ -529,63 +529,63 @@
       "entries": [
         {
           "id": "headers_footers_section_specific_headers_001",
-          "prompt_text": "Change the header in the {section_name} section to {header_text}"
+          "prompt_text": "change the header in the {section_name} section to {header_text}"
         },
         {
           "id": "headers_footers_section_specific_headers_002",
-          "prompt_text": "Use the {section title} as the running header in each section"
+          "prompt_text": "use the {section title} as the running header in each section"
         },
         {
           "id": "headers_footers_section_specific_headers_003",
-          "prompt_text": "Remove the stale header text that still shows the previous section name"
+          "prompt_text": "remove the stale header text that still shows the previous section name"
         },
         {
           "id": "headers_footers_section_specific_headers_004",
-          "prompt_text": "Remove the old {Findings} header that appears in the {Conclusion} section"
+          "prompt_text": "remove the old {Findings} header that appears in the {Conclusion} section"
         },
         {
           "id": "headers_footers_section_specific_headers_005",
-          "prompt_text": "Update the header text after the section break to {header_text}"
+          "prompt_text": "update the header text after the section break to {header_text}"
         },
         {
           "id": "headers_footers_section_specific_headers_006",
-          "prompt_text": "Change the section header text to {header_text}"
+          "prompt_text": "change the section header text to {header_text}"
         },
         {
           "id": "headers_footers_section_specific_headers_007",
-          "prompt_text": "Add a section-specific footer to the {section_name} section"
+          "prompt_text": "add a section-specific footer to the {section_name} section"
         },
         {
           "id": "headers_footers_section_specific_headers_008",
-          "prompt_text": "Match the header font in the {section_name} section to the rest of the document"
+          "prompt_text": "match the header font in the {section_name} section to the rest of the document"
         },
         {
           "id": "headers_footers_section_specific_headers_009",
-          "prompt_text": "Remove the header entirely from the {section_name} section"
+          "prompt_text": "remove the header entirely from the {section_name} section"
         },
         {
           "id": "headers_footers_section_specific_headers_010",
-          "prompt_text": "Add {Confidential} to the header in the {section_name} section only"
+          "prompt_text": "add {Confidential} to the header in the {section_name} section only"
         },
         {
           "id": "headers_footers_section_specific_headers_011",
-          "prompt_text": "Change the header color in the {section_name} section to {color}"
+          "prompt_text": "change the header color in the {section_name} section to {color}"
         },
         {
           "id": "headers_footers_section_specific_headers_012",
-          "prompt_text": "Remove the footer from the {section_name} section"
+          "prompt_text": "remove the footer from the {section_name} section"
         },
         {
           "id": "headers_footers_section_specific_headers_013",
-          "prompt_text": "Use a {different divider style} in the {section_name} section header"
+          "prompt_text": "use a {different divider style} in the {section_name} section header"
         },
         {
           "id": "headers_footers_section_specific_headers_014",
-          "prompt_text": "Add the {section number} before the section name in the header"
+          "prompt_text": "add the {section number} before the section name in the header"
         },
         {
           "id": "headers_footers_section_specific_headers_015",
-          "prompt_text": "Reset the page numbering at the start of the {section_name} section"
+          "prompt_text": "reset the page numbering at the start of the {section_name} section"
         }
       ]
     },
@@ -600,63 +600,63 @@
       "entries": [
         {
           "id": "headers_footers_page_x_of_y_logic_001",
-          "prompt_text": "Change the footer to {Page X of Y} format"
+          "prompt_text": "change the footer to {Page X of Y} format"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_002",
-          "prompt_text": "Update the total page count in the footer to {total_pages}"
+          "prompt_text": "update the total page count in the footer to {total_pages}"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_003",
-          "prompt_text": "Right-align the {Page X of Y} block in the footer"
+          "prompt_text": "right-align the {Page X of Y} block in the footer"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_004",
-          "prompt_text": "Add {Page X of Y} to the footer on every page"
+          "prompt_text": "add {Page X of Y} to the footer on every page"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_005",
-          "prompt_text": "Remove the duplicate total page count in the footer"
+          "prompt_text": "remove the duplicate total page count in the footer"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_006",
-          "prompt_text": "Change the footer to {page_number_format}"
+          "prompt_text": "change the footer to {page_number_format}"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_007",
-          "prompt_text": "Center the {Page X of Y} block in the footer"
+          "prompt_text": "center the {Page X of Y} block in the footer"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_008",
-          "prompt_text": "Change the {Page X of Y} font size to {font_size}"
+          "prompt_text": "change the {Page X of Y} font size to {font_size}"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_009",
-          "prompt_text": "Bold the total page count in the {Page X of Y} block"
+          "prompt_text": "bold the total page count in the {Page X of Y} block"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_010",
-          "prompt_text": "Change {Page X of Y} to {X / Y} format"
+          "prompt_text": "change {Page X of Y} to {X / Y} format"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_011",
-          "prompt_text": "Remove the {of Y} portion and show only the current page number"
+          "prompt_text": "remove the {of Y} portion and show only the current page number"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_012",
-          "prompt_text": "Move the {Page X of Y} block from the header to the footer"
+          "prompt_text": "move the {Page X of Y} block from the header to the footer"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_013",
-          "prompt_text": "Fix the incorrect total page count that shows {wrong_count} instead of {correct_count}"
+          "prompt_text": "fix the incorrect total page count that shows {wrong_count} instead of {correct_count}"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_014",
-          "prompt_text": "Use an auto-updating field for the total page count in the footer"
+          "prompt_text": "use an auto-updating field for the total page count in the footer"
         },
         {
           "id": "headers_footers_page_x_of_y_logic_015",
-          "prompt_text": "Add {spacing_value} between the page number and the {of Y} text"
+          "prompt_text": "add {spacing_value} between the page number and the {of Y} text"
         }
       ]
     },
@@ -671,63 +671,63 @@
       "entries": [
         {
           "id": "headers_footers_watermarks_001",
-          "prompt_text": "Add a {Draft} watermark across every page"
+          "prompt_text": "add a {Draft} watermark across every page"
         },
         {
           "id": "headers_footers_watermarks_002",
-          "prompt_text": "Remove the {Draft} watermark from the document"
+          "prompt_text": "remove the {Draft} watermark from the document"
         },
         {
           "id": "headers_footers_watermarks_003",
-          "prompt_text": "Send the watermark behind the body text"
+          "prompt_text": "send the watermark behind the body text"
         },
         {
           "id": "headers_footers_watermarks_004",
-          "prompt_text": "Lighten the watermark to {opacity_value} opacity"
+          "prompt_text": "lighten the watermark to {opacity_value} opacity"
         },
         {
           "id": "headers_footers_watermarks_005",
-          "prompt_text": "Center the watermark diagonally across the page"
+          "prompt_text": "center the watermark diagonally across the page"
         },
         {
           "id": "headers_footers_watermarks_006",
-          "prompt_text": "Change the watermark text to {watermark_text}"
+          "prompt_text": "change the watermark text to {watermark_text}"
         },
         {
           "id": "headers_footers_watermarks_007",
-          "prompt_text": "Change the watermark font size to {font_size}"
+          "prompt_text": "change the watermark font size to {font_size}"
         },
         {
           "id": "headers_footers_watermarks_008",
-          "prompt_text": "Change the watermark color to {color}"
+          "prompt_text": "change the watermark color to {color}"
         },
         {
           "id": "headers_footers_watermarks_009",
-          "prompt_text": "Rotate the watermark to {angle} degrees"
+          "prompt_text": "rotate the watermark to {angle} degrees"
         },
         {
           "id": "headers_footers_watermarks_010",
-          "prompt_text": "Add a {Confidential} watermark across every page"
+          "prompt_text": "add a {Confidential} watermark across every page"
         },
         {
           "id": "headers_footers_watermarks_011",
-          "prompt_text": "Remove the watermark that obscures the {heading text}"
+          "prompt_text": "remove the watermark that obscures the {heading text}"
         },
         {
           "id": "headers_footers_watermarks_012",
-          "prompt_text": "Reduce the watermark opacity so the body text is easier to read"
+          "prompt_text": "reduce the watermark opacity so the body text is easier to read"
         },
         {
           "id": "headers_footers_watermarks_013",
-          "prompt_text": "Change the watermark font to {font_name}"
+          "prompt_text": "change the watermark font to {font_name}"
         },
         {
           "id": "headers_footers_watermarks_014",
-          "prompt_text": "Move the watermark to the {center} of the page"
+          "prompt_text": "move the watermark to the {center} of the page"
         },
         {
           "id": "headers_footers_watermarks_015",
-          "prompt_text": "Replace the text watermark with the {logo} as a background image"
+          "prompt_text": "replace the text watermark with the {logo} as a background image"
         }
       ]
     }

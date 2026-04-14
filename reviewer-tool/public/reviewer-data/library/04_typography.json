@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "typography_font_size_hierarchy_001",
-          "prompt_text": "Set the {report title} to {20pt}"
+          "prompt_text": "set the {report title} to {20pt}"
         },
         {
           "id": "typography_font_size_hierarchy_002",
-          "prompt_text": "Set all {H1} headings to {16pt}"
+          "prompt_text": "set all {H1} headings to {16pt}"
         },
         {
           "id": "typography_font_size_hierarchy_003",
-          "prompt_text": "Set all {H2} headings to {14pt}"
+          "prompt_text": "set all {H2} headings to {14pt}"
         },
         {
           "id": "typography_font_size_hierarchy_004",
-          "prompt_text": "Set all {H3} headings to {12pt}"
+          "prompt_text": "set all {H3} headings to {12pt}"
         },
         {
           "id": "typography_font_size_hierarchy_005",
-          "prompt_text": "Set all {figure captions} to {10pt}"
+          "prompt_text": "set all {figure captions} to {10pt}"
         },
         {
           "id": "typography_font_size_hierarchy_006",
-          "prompt_text": "Set all {table notes} to {8pt}"
+          "prompt_text": "set all {table notes} to {8pt}"
         },
         {
           "id": "typography_font_size_hierarchy_007",
-          "prompt_text": "Set the {page numbers} to {9pt}"
+          "prompt_text": "set the {page numbers} to {9pt}"
         },
         {
           "id": "typography_font_size_hierarchy_008",
-          "prompt_text": "Make the {footnotes} {2pt} smaller than the body text"
+          "prompt_text": "make the {footnotes} {2pt} smaller than the body text"
         },
         {
           "id": "typography_font_size_hierarchy_009",
-          "prompt_text": "Set the {subtitle} to {14pt}"
+          "prompt_text": "set the {subtitle} to {14pt}"
         },
         {
           "id": "typography_font_size_hierarchy_010",
-          "prompt_text": "Set the {sidebar heading} to {12pt}"
+          "prompt_text": "set the {sidebar heading} to {12pt}"
         },
         {
           "id": "typography_font_size_hierarchy_011",
-          "prompt_text": "Set the {callout box heading} to {13pt}"
+          "prompt_text": "set the {callout box heading} to {13pt}"
         },
         {
           "id": "typography_font_size_hierarchy_012",
-          "prompt_text": "Set the {footer text} to {8pt}"
+          "prompt_text": "set the {footer text} to {8pt}"
         },
         {
           "id": "typography_font_size_hierarchy_013",
-          "prompt_text": "Set the {running header} to {9pt}"
+          "prompt_text": "set the {running header} to {9pt}"
         },
         {
           "id": "typography_font_size_hierarchy_014",
-          "prompt_text": "Set the {disclaimer text} to {7pt}"
+          "prompt_text": "set the {disclaimer text} to {7pt}"
         },
         {
           "id": "typography_font_size_hierarchy_015",
-          "prompt_text": "Set the {KPI values} to {24pt} and {KPI labels} to {10pt}"
+          "prompt_text": "set the {KPI values} to {24pt} and {KPI labels} to {10pt}"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "typography_font_size_consistency_001",
-          "prompt_text": "Set every body paragraph to {11pt}"
+          "prompt_text": "set every body paragraph to {11pt}"
         },
         {
           "id": "typography_font_size_consistency_002",
-          "prompt_text": "Match all {figure captions} to {10pt}"
+          "prompt_text": "match all {figure captions} to {10pt}"
         },
         {
           "id": "typography_font_size_consistency_003",
-          "prompt_text": "Match all {table notes} to {8pt}"
+          "prompt_text": "match all {table notes} to {8pt}"
         },
         {
           "id": "typography_font_size_consistency_004",
-          "prompt_text": "Match the {two callout headings} to {13pt}"
+          "prompt_text": "match the {two callout headings} to {13pt}"
         },
         {
           "id": "typography_font_size_consistency_005",
-          "prompt_text": "Match {page number} size to {footer text} size at {8pt}"
+          "prompt_text": "match {page number} size to {footer text} size at {8pt}"
         },
         {
           "id": "typography_font_size_consistency_006",
-          "prompt_text": "Set the {10pt} body paragraph in {Findings} to {11pt} to match the rest"
+          "prompt_text": "set the {10pt} body paragraph in {Findings} to {11pt} to match the rest"
         },
         {
           "id": "typography_font_size_consistency_007",
-          "prompt_text": "Match the {bullet text} under {Recommendations} to {11pt}"
+          "prompt_text": "match the {bullet text} under {Recommendations} to {11pt}"
         },
         {
           "id": "typography_font_size_consistency_008",
-          "prompt_text": "Match the {sidebar heading} size to the section heading size at {14pt}"
+          "prompt_text": "match the {sidebar heading} size to the section heading size at {14pt}"
         },
         {
           "id": "typography_font_size_consistency_009",
-          "prompt_text": "Set all {section headings} to a uniform {14pt}"
+          "prompt_text": "set all {section headings} to a uniform {14pt}"
         },
         {
           "id": "typography_font_size_consistency_010",
-          "prompt_text": "Match {callout box body text} to body text at {11pt}"
+          "prompt_text": "match {callout box body text} to body text at {11pt}"
         },
         {
           "id": "typography_font_size_consistency_011",
-          "prompt_text": "Set the {12pt} footnote in {Findings} to {9pt} to match other footnotes"
+          "prompt_text": "set the {12pt} footnote in {Findings} to {9pt} to match other footnotes"
         },
         {
           "id": "typography_font_size_consistency_012",
-          "prompt_text": "Match {chart axis labels} to {9pt}"
+          "prompt_text": "match {chart axis labels} to {9pt}"
         },
         {
           "id": "typography_font_size_consistency_013",
-          "prompt_text": "Match {chart data labels} to {8pt}"
+          "prompt_text": "match {chart data labels} to {8pt}"
         },
         {
           "id": "typography_font_size_consistency_014",
-          "prompt_text": "Set all {source lines} under figures to a uniform {8pt}"
+          "prompt_text": "set all {source lines} under figures to a uniform {8pt}"
         },
         {
           "id": "typography_font_size_consistency_015",
-          "prompt_text": "Match the {header row} text size to {10pt} across all tables"
+          "prompt_text": "match the {header row} text size to {10pt} across all tables"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "typography_font_family_consistency_001",
-          "prompt_text": "Set the {footer text} to {Arial}"
+          "prompt_text": "set the {footer text} to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_002",
-          "prompt_text": "Set the {page numbers} to {Arial}"
+          "prompt_text": "set the {page numbers} to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_003",
-          "prompt_text": "Match the {sidebar} font to {Calibri}"
+          "prompt_text": "match the {sidebar} font to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_004",
-          "prompt_text": "Match the {table note} font to {Calibri}"
+          "prompt_text": "match the {table note} font to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_005",
-          "prompt_text": "Set the {caption} font to {Calibri}"
+          "prompt_text": "set the {caption} font to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_006",
-          "prompt_text": "Replace {Times New Roman} in {sidebar} with {Calibri}"
+          "prompt_text": "replace {Times New Roman} in {sidebar} with {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_007",
-          "prompt_text": "Set the {callout box} font to {Calibri}"
+          "prompt_text": "set the {callout box} font to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_008",
-          "prompt_text": "Set all body text to {Calibri}"
+          "prompt_text": "set all body text to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_009",
-          "prompt_text": "Set all headings to {Arial}"
+          "prompt_text": "set all headings to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_010",
-          "prompt_text": "Set {chart labels} font to {Arial}"
+          "prompt_text": "set {chart labels} font to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_011",
-          "prompt_text": "Set {table header row} font to {Arial}"
+          "prompt_text": "set {table header row} font to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_012",
-          "prompt_text": "Replace the stray {Courier} font in {code snippet} with {Consolas}"
+          "prompt_text": "replace the stray {Courier} font in {code snippet} with {Consolas}"
         },
         {
           "id": "typography_font_family_consistency_013",
-          "prompt_text": "Set the {running header} font to {Arial}"
+          "prompt_text": "set the {running header} font to {Arial}"
         },
         {
           "id": "typography_font_family_consistency_014",
-          "prompt_text": "Match the {KPI box} font to {Calibri}"
+          "prompt_text": "match the {KPI box} font to {Calibri}"
         },
         {
           "id": "typography_font_family_consistency_015",
-          "prompt_text": "Set the {footnote} font to {Calibri}"
+          "prompt_text": "set the {footnote} font to {Calibri}"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "typography_font_style_usage_001",
-          "prompt_text": "Bold the {header row} in {Table 1}"
+          "prompt_text": "bold the {header row} in {Table 1}"
         },
         {
           "id": "typography_font_style_usage_002",
-          "prompt_text": "Set {table values} to regular weight"
+          "prompt_text": "set {table values} to regular weight"
         },
         {
           "id": "typography_font_style_usage_003",
-          "prompt_text": "Italicize the {source line} under {Figure 2}"
+          "prompt_text": "italicize the {source line} under {Figure 2}"
         },
         {
           "id": "typography_font_style_usage_004",
-          "prompt_text": "Remove underline from the {Findings} heading"
+          "prompt_text": "remove underline from the {Findings} heading"
         },
         {
           "id": "typography_font_style_usage_005",
-          "prompt_text": "Bold the labels and set the values to regular weight in {KPI box}"
+          "prompt_text": "bold the labels and set the values to regular weight in {KPI box}"
         },
         {
           "id": "typography_font_style_usage_006",
-          "prompt_text": "Remove italics from the body paragraph under {Recommendations}"
+          "prompt_text": "remove italics from the body paragraph under {Recommendations}"
         },
         {
           "id": "typography_font_style_usage_007",
-          "prompt_text": "Underline the {hyperlink} in {Resources} section"
+          "prompt_text": "underline the {hyperlink} in {Resources} section"
         },
         {
           "id": "typography_font_style_usage_008",
-          "prompt_text": "Bold all section headings"
+          "prompt_text": "bold all section headings"
         },
         {
           "id": "typography_font_style_usage_009",
-          "prompt_text": "Italicize {quote block} text"
+          "prompt_text": "italicize {quote block} text"
         },
         {
           "id": "typography_font_style_usage_010",
-          "prompt_text": "Remove bold from {body paragraph} under {Executive Summary}"
+          "prompt_text": "remove bold from {body paragraph} under {Executive Summary}"
         },
         {
           "id": "typography_font_style_usage_011",
-          "prompt_text": "Set {sidebar heading} to bold"
+          "prompt_text": "set {sidebar heading} to bold"
         },
         {
           "id": "typography_font_style_usage_012",
-          "prompt_text": "Remove underline from all section headings"
+          "prompt_text": "remove underline from all section headings"
         },
         {
           "id": "typography_font_style_usage_013",
-          "prompt_text": "Italicize the {figure caption} text"
+          "prompt_text": "italicize the {figure caption} text"
         },
         {
           "id": "typography_font_style_usage_014",
-          "prompt_text": "Bold the {total row} in {Table 1}"
+          "prompt_text": "bold the {total row} in {Table 1}"
         },
         {
           "id": "typography_font_style_usage_015",
-          "prompt_text": "Set {callout box heading} to bold and body to regular weight"
+          "prompt_text": "set {callout box heading} to bold and body to regular weight"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "typography_case_consistency_001",
-          "prompt_text": "Change {RECOMMENDATIONS} heading to title case"
+          "prompt_text": "change {RECOMMENDATIONS} heading to title case"
         },
         {
           "id": "typography_case_consistency_002",
-          "prompt_text": "Change all {figure captions} to sentence case"
+          "prompt_text": "change all {figure captions} to sentence case"
         },
         {
           "id": "typography_case_consistency_003",
-          "prompt_text": "Change the {table headers} to title case"
+          "prompt_text": "change the {table headers} to title case"
         },
         {
           "id": "typography_case_consistency_004",
-          "prompt_text": "Change the {footer text} to sentence case"
+          "prompt_text": "change the {footer text} to sentence case"
         },
         {
           "id": "typography_case_consistency_005",
-          "prompt_text": "Lowercase the stray capital in {paragraph 4}"
+          "prompt_text": "lowercase the stray capital in {paragraph 4}"
         },
         {
           "id": "typography_case_consistency_006",
-          "prompt_text": "Change the {running header} to all caps"
+          "prompt_text": "change the {running header} to all caps"
         },
         {
           "id": "typography_case_consistency_007",
-          "prompt_text": "Change the {bullet labels} in {sidebar} to sentence case"
+          "prompt_text": "change the {bullet labels} in {sidebar} to sentence case"
         },
         {
           "id": "typography_case_consistency_008",
-          "prompt_text": "Change all section headings to title case"
+          "prompt_text": "change all section headings to title case"
         },
         {
           "id": "typography_case_consistency_009",
-          "prompt_text": "Change {chart axis labels} to sentence case"
+          "prompt_text": "change {chart axis labels} to sentence case"
         },
         {
           "id": "typography_case_consistency_010",
-          "prompt_text": "Change the {report title} to title case"
+          "prompt_text": "change the {report title} to title case"
         },
         {
           "id": "typography_case_consistency_011",
-          "prompt_text": "Change {FINDINGS} heading from all caps to title case"
+          "prompt_text": "change {FINDINGS} heading from all caps to title case"
         },
         {
           "id": "typography_case_consistency_012",
-          "prompt_text": "Change {table column headers} to sentence case"
+          "prompt_text": "change {table column headers} to sentence case"
         },
         {
           "id": "typography_case_consistency_013",
-          "prompt_text": "Change the {subtitle} to sentence case"
+          "prompt_text": "change the {subtitle} to sentence case"
         },
         {
           "id": "typography_case_consistency_014",
-          "prompt_text": "Change {KPI labels} to sentence case"
+          "prompt_text": "change {KPI labels} to sentence case"
         },
         {
           "id": "typography_case_consistency_015",
-          "prompt_text": "Change the {sidebar heading} to title case"
+          "prompt_text": "change the {sidebar heading} to title case"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "typography_kerning_tracking_001",
-          "prompt_text": "Tighten the {report title} letter spacing by {0.5pt}"
+          "prompt_text": "tighten the {report title} letter spacing by {0.5pt}"
         },
         {
           "id": "typography_kerning_tracking_002",
-          "prompt_text": "Remove the expanded character spacing from the {running header}"
+          "prompt_text": "remove the expanded character spacing from the {running header}"
         },
         {
           "id": "typography_kerning_tracking_003",
-          "prompt_text": "Match the letter spacing in the {two callout headings} to {0pt}"
+          "prompt_text": "match the letter spacing in the {two callout headings} to {0pt}"
         },
         {
           "id": "typography_kerning_tracking_004",
-          "prompt_text": "Remove stretched character spacing from the {page numbers}"
+          "prompt_text": "remove stretched character spacing from the {page numbers}"
         },
         {
           "id": "typography_kerning_tracking_005",
-          "prompt_text": "Tighten the all-caps {footer label} letter spacing by {0.3pt}"
+          "prompt_text": "tighten the all-caps {footer label} letter spacing by {0.3pt}"
         },
         {
           "id": "typography_kerning_tracking_006",
-          "prompt_text": "Match the character spacing in all {H1} headings to {0pt}"
+          "prompt_text": "match the character spacing in all {H1} headings to {0pt}"
         },
         {
           "id": "typography_kerning_tracking_007",
-          "prompt_text": "Set the character spacing in {subtitle} to {0.5pt}"
+          "prompt_text": "set the character spacing in {subtitle} to {0.5pt}"
         },
         {
           "id": "typography_kerning_tracking_008",
-          "prompt_text": "Remove extra letter spacing from the {sidebar heading}"
+          "prompt_text": "remove extra letter spacing from the {sidebar heading}"
         },
         {
           "id": "typography_kerning_tracking_009",
-          "prompt_text": "Tighten letter spacing on {section headings} by {0.3pt}"
+          "prompt_text": "tighten letter spacing on {section headings} by {0.3pt}"
         },
         {
           "id": "typography_kerning_tracking_010",
-          "prompt_text": "Set character spacing on {KPI values} to {-0.5pt}"
+          "prompt_text": "set character spacing on {KPI values} to {-0.5pt}"
         },
         {
           "id": "typography_kerning_tracking_011",
-          "prompt_text": "Widen letter spacing on the all-caps {report title} by {1pt}"
+          "prompt_text": "widen letter spacing on the all-caps {report title} by {1pt}"
         },
         {
           "id": "typography_kerning_tracking_012",
-          "prompt_text": "Remove condensed character spacing from {body text} in {callout box}"
+          "prompt_text": "remove condensed character spacing from {body text} in {callout box}"
         },
         {
           "id": "typography_kerning_tracking_013",
-          "prompt_text": "Set character spacing on {chart title} to {0pt}"
+          "prompt_text": "set character spacing on {chart title} to {0pt}"
         },
         {
           "id": "typography_kerning_tracking_014",
-          "prompt_text": "Tighten letter spacing on {table header row} by {0.2pt}"
+          "prompt_text": "tighten letter spacing on {table header row} by {0.2pt}"
         },
         {
           "id": "typography_kerning_tracking_015",
-          "prompt_text": "Remove the expanded character spacing from the {disclaimer text}"
+          "prompt_text": "remove the expanded character spacing from the {disclaimer text}"
         }
       ]
     },
@@ -438,63 +438,63 @@
       "entries": [
         {
           "id": "typography_non_breaking_logic_001",
-          "prompt_text": "Keep {$12M} on one line in the {summary box}"
+          "prompt_text": "keep {$12M} on one line in the {summary box}"
         },
         {
           "id": "typography_non_breaking_logic_002",
-          "prompt_text": "Keep {Figure 3} on one line in the caption"
+          "prompt_text": "keep {Figure 3} on one line in the caption"
         },
         {
           "id": "typography_non_breaking_logic_003",
-          "prompt_text": "Keep {Q4 2025} on one line in the {chart title}"
+          "prompt_text": "keep {Q4 2025} on one line in the {chart title}"
         },
         {
           "id": "typography_non_breaking_logic_004",
-          "prompt_text": "Keep {12%} on one line in {footnote 2}"
+          "prompt_text": "keep {12%} on one line in {footnote 2}"
         },
         {
           "id": "typography_non_breaking_logic_005",
-          "prompt_text": "Keep {Section 2.1} on one line in the {running header}"
+          "prompt_text": "keep {Section 2.1} on one line in the {running header}"
         },
         {
           "id": "typography_non_breaking_logic_006",
-          "prompt_text": "Keep {CEO} and the {last name} on one line in {paragraph 2}"
+          "prompt_text": "keep {CEO} and the {last name} on one line in {paragraph 2}"
         },
         {
           "id": "typography_non_breaking_logic_007",
-          "prompt_text": "Keep {Table 1} label on one line in {body text}"
+          "prompt_text": "keep {Table 1} label on one line in {body text}"
         },
         {
           "id": "typography_non_breaking_logic_008",
-          "prompt_text": "Keep {$2.4B} on one line in {KPI box}"
+          "prompt_text": "keep {$2.4B} on one line in {KPI box}"
         },
         {
           "id": "typography_non_breaking_logic_009",
-          "prompt_text": "Keep {Dr. Smith} on one line in {author line}"
+          "prompt_text": "keep {Dr. Smith} on one line in {author line}"
         },
         {
           "id": "typography_non_breaking_logic_010",
-          "prompt_text": "Keep {FY 2025} on one line in {title}"
+          "prompt_text": "keep {FY 2025} on one line in {title}"
         },
         {
           "id": "typography_non_breaking_logic_011",
-          "prompt_text": "Keep {pp. 12} on one line in {footnote 3}"
+          "prompt_text": "keep {pp. 12} on one line in {footnote 3}"
         },
         {
           "id": "typography_non_breaking_logic_012",
-          "prompt_text": "Keep {100 million} on one line in {Findings} paragraph"
+          "prompt_text": "keep {100 million} on one line in {Findings} paragraph"
         },
         {
           "id": "typography_non_breaking_logic_013",
-          "prompt_text": "Keep {Exhibit A} on one line in {body text}"
+          "prompt_text": "keep {Exhibit A} on one line in {body text}"
         },
         {
           "id": "typography_non_breaking_logic_014",
-          "prompt_text": "Keep {5 years} together on one line in {Recommendations}"
+          "prompt_text": "keep {5 years} together on one line in {Recommendations}"
         },
         {
           "id": "typography_non_breaking_logic_015",
-          "prompt_text": "Keep {New York} on one line in {sidebar} text"
+          "prompt_text": "keep {New York} on one line in {sidebar} text"
         }
       ]
     },
@@ -509,63 +509,63 @@
       "entries": [
         {
           "id": "typography_hyphenation_dictionaries_001",
-          "prompt_text": "Remove the hyphenated line break in the {report title}"
+          "prompt_text": "remove the hyphenated line break in the {report title}"
         },
         {
           "id": "typography_hyphenation_dictionaries_002",
-          "prompt_text": "Turn off hyphenation in the {figure captions}"
+          "prompt_text": "turn off hyphenation in the {figure captions}"
         },
         {
           "id": "typography_hyphenation_dictionaries_003",
-          "prompt_text": "Remove the break between {recom-} and {mendation} in the {subheading}"
+          "prompt_text": "remove the break between {recom-} and {mendation} in the {subheading}"
         },
         {
           "id": "typography_hyphenation_dictionaries_004",
-          "prompt_text": "Remove the forced line break in the {sidebar heading}"
+          "prompt_text": "remove the forced line break in the {sidebar heading}"
         },
         {
           "id": "typography_hyphenation_dictionaries_005",
-          "prompt_text": "Keep the product name {New Harbor} on one line in {paragraph 3}"
+          "prompt_text": "keep the product name {New Harbor} on one line in {paragraph 3}"
         },
         {
           "id": "typography_hyphenation_dictionaries_006",
-          "prompt_text": "Remove the line break before {%} in the {table note}"
+          "prompt_text": "remove the line break before {%} in the {table note}"
         },
         {
           "id": "typography_hyphenation_dictionaries_007",
-          "prompt_text": "Keep the first and last words of the {heading} on the same line"
+          "prompt_text": "keep the first and last words of the {heading} on the same line"
         },
         {
           "id": "typography_hyphenation_dictionaries_008",
-          "prompt_text": "Prevent {methodology} from breaking across lines in {body text}"
+          "prompt_text": "prevent {methodology} from breaking across lines in {body text}"
         },
         {
           "id": "typography_hyphenation_dictionaries_009",
-          "prompt_text": "Turn off hyphenation in the {callout box} text"
+          "prompt_text": "turn off hyphenation in the {callout box} text"
         },
         {
           "id": "typography_hyphenation_dictionaries_010",
-          "prompt_text": "Turn off hyphenation in all section headings"
+          "prompt_text": "turn off hyphenation in all section headings"
         },
         {
           "id": "typography_hyphenation_dictionaries_011",
-          "prompt_text": "Remove the break between {imple-} and {mentation} in {paragraph 2}"
+          "prompt_text": "remove the break between {imple-} and {mentation} in {paragraph 2}"
         },
         {
           "id": "typography_hyphenation_dictionaries_012",
-          "prompt_text": "Turn off hyphenation in {sidebar} body text"
+          "prompt_text": "turn off hyphenation in {sidebar} body text"
         },
         {
           "id": "typography_hyphenation_dictionaries_013",
-          "prompt_text": "Remove the hyphenated break in the {chart title}"
+          "prompt_text": "remove the hyphenated break in the {chart title}"
         },
         {
           "id": "typography_hyphenation_dictionaries_014",
-          "prompt_text": "Prevent the {company name} from hyphenating in {header block}"
+          "prompt_text": "prevent the {company name} from hyphenating in {header block}"
         },
         {
           "id": "typography_hyphenation_dictionaries_015",
-          "prompt_text": "Turn off hyphenation in {table column headers}"
+          "prompt_text": "turn off hyphenation in {table column headers}"
         }
       ]
     },
@@ -580,63 +580,63 @@
       "entries": [
         {
           "id": "typography_style_application_001",
-          "prompt_text": "Apply {Heading 1} style to all top-level section titles"
+          "prompt_text": "apply {Heading 1} style to all top-level section titles"
         },
         {
           "id": "typography_style_application_002",
-          "prompt_text": "Apply {Heading 2} style to all subsection titles under {Findings}"
+          "prompt_text": "apply {Heading 2} style to all subsection titles under {Findings}"
         },
         {
           "id": "typography_style_application_003",
-          "prompt_text": "Apply {Normal} style to the body paragraphs under {Recommendations}"
+          "prompt_text": "apply {Normal} style to the body paragraphs under {Recommendations}"
         },
         {
           "id": "typography_style_application_004",
-          "prompt_text": "Remove the direct font size override from the {Heading 2} lines"
+          "prompt_text": "remove the direct font size override from the {Heading 2} lines"
         },
         {
           "id": "typography_style_application_005",
-          "prompt_text": "Remove the manual bold override from the body paragraph under {Findings}"
+          "prompt_text": "remove the manual bold override from the body paragraph under {Findings}"
         },
         {
           "id": "typography_style_application_006",
-          "prompt_text": "Clear the direct spacing override from the first paragraph under {Recommendations}"
+          "prompt_text": "clear the direct spacing override from the first paragraph under {Recommendations}"
         },
         {
           "id": "typography_style_application_007",
-          "prompt_text": "Set the {footer} font to match the body style font"
+          "prompt_text": "set the {footer} font to match the body style font"
         },
         {
           "id": "typography_style_application_008",
-          "prompt_text": "Apply {Caption} style to all figure and table captions"
+          "prompt_text": "apply {Caption} style to all figure and table captions"
         },
         {
           "id": "typography_style_application_009",
-          "prompt_text": "Remove the direct color override from the {Heading 1} lines"
+          "prompt_text": "remove the direct color override from the {Heading 1} lines"
         },
         {
           "id": "typography_style_application_010",
-          "prompt_text": "Apply {Heading 3} style to the sub-subsection titles under {Methods}"
+          "prompt_text": "apply {Heading 3} style to the sub-subsection titles under {Methods}"
         },
         {
           "id": "typography_style_application_011",
-          "prompt_text": "Remove the direct font family override from the {sidebar} paragraphs"
+          "prompt_text": "remove the direct font family override from the {sidebar} paragraphs"
         },
         {
           "id": "typography_style_application_012",
-          "prompt_text": "Apply {Quote} style to the {block quote} text"
+          "prompt_text": "apply {Quote} style to the {block quote} text"
         },
         {
           "id": "typography_style_application_013",
-          "prompt_text": "Apply {List Bullet} style to all bullet items under {Recommendations}"
+          "prompt_text": "apply {List Bullet} style to all bullet items under {Recommendations}"
         },
         {
           "id": "typography_style_application_014",
-          "prompt_text": "Remove direct formatting overrides from {callout box} text and apply {Callout} style"
+          "prompt_text": "remove direct formatting overrides from {callout box} text and apply {Callout} style"
         },
         {
           "id": "typography_style_application_015",
-          "prompt_text": "Apply {Footnote Text} style to all footnotes"
+          "prompt_text": "apply {Footnote Text} style to all footnotes"
         }
       ]
     }

@@ -12,75 +12,75 @@
       "entries": [
         {
           "id": "spacing_line_spacing_consistency_001",
-          "prompt_text": "Set all body paragraphs to {1.15} line spacing"
+          "prompt_text": "set all body paragraphs to {1.15} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_002",
-          "prompt_text": "Set {recommendation text} line spacing to {1.15}"
+          "prompt_text": "set {recommendation text} line spacing to {1.15}"
         },
         {
           "id": "spacing_line_spacing_consistency_003",
-          "prompt_text": "Set the single-spaced paragraph in {Findings} to {1.15} line spacing"
+          "prompt_text": "set the single-spaced paragraph in {Findings} to {1.15} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_004",
-          "prompt_text": "Reduce line spacing in {conclusion paragraph} to {1.15}"
+          "prompt_text": "reduce line spacing in {conclusion paragraph} to {1.15}"
         },
         {
           "id": "spacing_line_spacing_consistency_005",
-          "prompt_text": "Set {endnote} line spacing to {single}"
+          "prompt_text": "set {endnote} line spacing to {single}"
         },
         {
           "id": "spacing_line_spacing_consistency_006",
-          "prompt_text": "Set body text in {Findings} to {1.15} line spacing"
+          "prompt_text": "set body text in {Findings} to {1.15} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_007",
-          "prompt_text": "Set {callout box} text to {1.15} line spacing"
+          "prompt_text": "set {callout box} text to {1.15} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_008",
-          "prompt_text": "Set {Executive Summary} line spacing to {1.15}"
+          "prompt_text": "set {Executive Summary} line spacing to {1.15}"
         },
         {
           "id": "spacing_line_spacing_consistency_009",
-          "prompt_text": "Set {quote block} line spacing to {1.15}"
+          "prompt_text": "set {quote block} line spacing to {1.15}"
         },
         {
           "id": "spacing_line_spacing_consistency_010",
-          "prompt_text": "Set {sidebar} body text to {1.0} line spacing"
+          "prompt_text": "set {sidebar} body text to {1.0} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_011",
-          "prompt_text": "Tighten line spacing in body paragraphs to {1.15}"
+          "prompt_text": "tighten line spacing in body paragraphs to {1.15}"
         },
         {
           "id": "spacing_line_spacing_consistency_012",
-          "prompt_text": "Set {footnote} text to {single} line spacing"
+          "prompt_text": "set {footnote} text to {single} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_013",
-          "prompt_text": "Set {bullet list} line spacing to {1.0}"
+          "prompt_text": "set {bullet list} line spacing to {1.0}"
         },
         {
           "id": "spacing_line_spacing_consistency_014",
-          "prompt_text": "Set {table cell} text to {single} line spacing"
+          "prompt_text": "set {table cell} text to {single} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_015",
-          "prompt_text": "Set {caption} text to {single} line spacing"
+          "prompt_text": "set {caption} text to {single} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_016",
-          "prompt_text": "Match line spacing in {Recommendations} to the {1.15} used in {Findings}"
+          "prompt_text": "match line spacing in {Recommendations} to the {1.15} used in {Findings}"
         },
         {
           "id": "spacing_line_spacing_consistency_017",
-          "prompt_text": "Set {header row} text to {single} line spacing"
+          "prompt_text": "set {header row} text to {single} line spacing"
         },
         {
           "id": "spacing_line_spacing_consistency_018",
-          "prompt_text": "Set {title block} line spacing to {1.0}"
+          "prompt_text": "set {title block} line spacing to {1.0}"
         }
       ]
     },
@@ -95,155 +95,155 @@
       "entries": [
         {
           "id": "spacing_paragraph_spacing_consistency_001",
-          "prompt_text": "Add {0.5 inch} first-line indent to every body paragraph"
+          "prompt_text": "add {0.5 inch} first-line indent to every body paragraph"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_002",
-          "prompt_text": "Add {10pt} of space between each {callout box} and surrounding text"
+          "prompt_text": "add {10pt} of space between each {callout box} and surrounding text"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_003",
-          "prompt_text": "Add {8pt} of space above and below the {divider line}"
+          "prompt_text": "add {8pt} of space above and below the {divider line}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_004",
-          "prompt_text": "Match first-line indent on all body paragraphs to {0.25 inches}"
+          "prompt_text": "match first-line indent on all body paragraphs to {0.25 inches}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_005",
-          "prompt_text": "Move subtitle directly under {title} with {0pt} gap"
+          "prompt_text": "move subtitle directly under {title} with {0pt} gap"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_006",
-          "prompt_text": "Reduce gap between bars in {chart} to {50%} of bar width"
+          "prompt_text": "reduce gap between bars in {chart} to {50%} of bar width"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_007",
-          "prompt_text": "Remove extra blank space above the first paragraph"
+          "prompt_text": "remove extra blank space above the first paragraph"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_008",
-          "prompt_text": "Remove extra indent on second paragraph under {Results}"
+          "prompt_text": "remove extra indent on second paragraph under {Results}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_009",
-          "prompt_text": "Remove first-line indent from {callout box} text"
+          "prompt_text": "remove first-line indent from {callout box} text"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_010",
-          "prompt_text": "Remove space between dollar sign and each amount in {table}"
+          "prompt_text": "remove space between dollar sign and each amount in {table}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_011",
-          "prompt_text": "Remove first-line indent from {Executive Summary} paragraphs"
+          "prompt_text": "remove first-line indent from {Executive Summary} paragraphs"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_012",
-          "prompt_text": "Set {0.2 inch} hanging indent on {footnotes}"
+          "prompt_text": "set {0.2 inch} hanging indent on {footnotes}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_013",
-          "prompt_text": "Set {0.5 inch} hanging indent on {glossary definitions}"
+          "prompt_text": "set {0.5 inch} hanging indent on {glossary definitions}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_014",
-          "prompt_text": "Set {note block} left indent to {0.5 inches}"
+          "prompt_text": "set {note block} left indent to {0.5 inches}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_015",
-          "prompt_text": "Set {bibliography entries} to a {0.5 inch} hanging indent"
+          "prompt_text": "set {bibliography entries} to a {0.5 inch} hanging indent"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_016",
-          "prompt_text": "Set {copyright notice} to {single} spacing"
+          "prompt_text": "set {copyright notice} to {single} spacing"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_017",
-          "prompt_text": "Set first-line indent in {body paragraphs} to {0.25 inches}"
+          "prompt_text": "set first-line indent in {body paragraphs} to {0.25 inches}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_018",
-          "prompt_text": "Set right indent on both {callout boxes} to {0.3 inches}"
+          "prompt_text": "set right indent on both {callout boxes} to {0.3 inches}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_019",
-          "prompt_text": "Shorten the {sidebar} box by {one line}"
+          "prompt_text": "shorten the {sidebar} box by {one line}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_020",
-          "prompt_text": "Add {12pt} of space between section divider and next paragraph"
+          "prompt_text": "add {12pt} of space between section divider and next paragraph"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_021",
-          "prompt_text": "Add {8pt} of space after each paragraph in {sidebar}"
+          "prompt_text": "add {8pt} of space after each paragraph in {sidebar}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_022",
-          "prompt_text": "Move {data notes} below {title block} with {12pt} spacing between them"
+          "prompt_text": "move {data notes} below {title block} with {12pt} spacing between them"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_023",
-          "prompt_text": "Reduce gap between {conclusion paragraph} and {signature block} to {12pt}"
+          "prompt_text": "reduce gap between {conclusion paragraph} and {signature block} to {12pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_024",
-          "prompt_text": "Reduce paragraph spacing to {6pt} in {closing} section"
+          "prompt_text": "reduce paragraph spacing to {6pt} in {closing} section"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_025",
-          "prompt_text": "Reduce space after last body paragraph to {0pt}"
+          "prompt_text": "reduce space after last body paragraph to {0pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_026",
-          "prompt_text": "Reduce space after {final paragraph} to {6pt}"
+          "prompt_text": "reduce space after {final paragraph} to {6pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_027",
-          "prompt_text": "Reduce blank space under {title} by {12pt}"
+          "prompt_text": "reduce blank space under {title} by {12pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_028",
-          "prompt_text": "Remove blank space at top of the {closing} section"
+          "prompt_text": "remove blank space at top of the {closing} section"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_029",
-          "prompt_text": "Remove extra {12pt} gap between first and second paragraphs in {Recommendations}"
+          "prompt_text": "remove extra {12pt} gap between first and second paragraphs in {Recommendations}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_030",
-          "prompt_text": "Remove {12pt} gap between {two short paragraphs} in {intro}"
+          "prompt_text": "remove {12pt} gap between {two short paragraphs} in {intro}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_031",
-          "prompt_text": "Remove blank space after {last section}"
+          "prompt_text": "remove blank space after {last section}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_032",
-          "prompt_text": "Set {body paragraph} after-spacing to {6pt}"
+          "prompt_text": "set {body paragraph} after-spacing to {6pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_033",
-          "prompt_text": "Set {0pt} space before and {6pt} space after for every body paragraph"
+          "prompt_text": "set {0pt} space before and {6pt} space after for every body paragraph"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_034",
-          "prompt_text": "Set {6pt} after-spacing between {two callout paragraphs}"
+          "prompt_text": "set {6pt} after-spacing between {two callout paragraphs}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_035",
-          "prompt_text": "Set {6pt} space after each body paragraph in {Executive Summary}"
+          "prompt_text": "set {6pt} space after each body paragraph in {Executive Summary}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_036",
-          "prompt_text": "Tighten gap between {signature line} and {date} to {6pt}"
+          "prompt_text": "tighten gap between {signature line} and {date} to {6pt}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_037",
-          "prompt_text": "Match spacing between each {bar group} to {0.2 inches}"
+          "prompt_text": "match spacing between each {bar group} to {0.2 inches}"
         },
         {
           "id": "spacing_paragraph_spacing_consistency_038",
-          "prompt_text": "Set {bullet list} paragraph spacing to {3pt} after each item"
+          "prompt_text": "set {bullet list} paragraph spacing to {3pt} after each item"
         }
       ]
     },
@@ -258,63 +258,63 @@
       "entries": [
         {
           "id": "spacing_section_spacing_001",
-          "prompt_text": "Tighten spacing between sections to {6pt} to remove blank space in the bottom half"
+          "prompt_text": "tighten spacing between sections to {6pt} to remove blank space in the bottom half"
         },
         {
           "id": "spacing_section_spacing_002",
-          "prompt_text": "Tighten space before {References} section to {12pt}"
+          "prompt_text": "tighten space before {References} section to {12pt}"
         },
         {
           "id": "spacing_section_spacing_003",
-          "prompt_text": "Add {18pt} of space between {Executive Summary} and {Findings}"
+          "prompt_text": "add {18pt} of space between {Executive Summary} and {Findings}"
         },
         {
           "id": "spacing_section_spacing_004",
-          "prompt_text": "Reduce gap between {title block} and first body section to {24pt}"
+          "prompt_text": "reduce gap between {title block} and first body section to {24pt}"
         },
         {
           "id": "spacing_section_spacing_005",
-          "prompt_text": "Set gap between {Methods} and {Results} sections to {18pt}"
+          "prompt_text": "set gap between {Methods} and {Results} sections to {18pt}"
         },
         {
           "id": "spacing_section_spacing_006",
-          "prompt_text": "Set spacing above each section heading to {18pt}"
+          "prompt_text": "set spacing above each section heading to {18pt}"
         },
         {
           "id": "spacing_section_spacing_007",
-          "prompt_text": "Set spacing below each section heading to {6pt}"
+          "prompt_text": "set spacing below each section heading to {6pt}"
         },
         {
           "id": "spacing_section_spacing_008",
-          "prompt_text": "Add {24pt} of space above {Conclusions} heading"
+          "prompt_text": "add {24pt} of space above {Conclusions} heading"
         },
         {
           "id": "spacing_section_spacing_009",
-          "prompt_text": "Reduce space between {header block} and {first section} to {12pt}"
+          "prompt_text": "reduce space between {header block} and {first section} to {12pt}"
         },
         {
           "id": "spacing_section_spacing_010",
-          "prompt_text": "Set {12pt} space above and {6pt} space below every section heading"
+          "prompt_text": "set {12pt} space above and {6pt} space below every section heading"
         },
         {
           "id": "spacing_section_spacing_011",
-          "prompt_text": "Reduce gap between {Recommendations} heading and its first bullet to {6pt}"
+          "prompt_text": "reduce gap between {Recommendations} heading and its first bullet to {6pt}"
         },
         {
           "id": "spacing_section_spacing_012",
-          "prompt_text": "Add {18pt} of space between the last body paragraph and {footer block}"
+          "prompt_text": "add {18pt} of space between the last body paragraph and {footer block}"
         },
         {
           "id": "spacing_section_spacing_013",
-          "prompt_text": "Tighten spacing above {Findings} heading to {12pt}"
+          "prompt_text": "tighten spacing above {Findings} heading to {12pt}"
         },
         {
           "id": "spacing_section_spacing_014",
-          "prompt_text": "Set uniform {18pt} space above every section heading"
+          "prompt_text": "set uniform {18pt} space above every section heading"
         },
         {
           "id": "spacing_section_spacing_015",
-          "prompt_text": "Reduce gap between {chart} and {next section heading} to {12pt}"
+          "prompt_text": "reduce gap between {chart} and {next section heading} to {12pt}"
         }
       ]
     },
@@ -329,63 +329,63 @@
       "entries": [
         {
           "id": "spacing_line_breaking_rules_001",
-          "prompt_text": "Remove hyphens from words that break across lines in {headings}"
+          "prompt_text": "remove hyphens from words that break across lines in {headings}"
         },
         {
           "id": "spacing_line_breaking_rules_002",
-          "prompt_text": "Limit consecutive end-of-line hyphens to {two}"
+          "prompt_text": "limit consecutive end-of-line hyphens to {two}"
         },
         {
           "id": "spacing_line_breaking_rules_003",
-          "prompt_text": "Force a line break before the {conjunction} in {title}"
+          "prompt_text": "force a line break before the {conjunction} in {title}"
         },
         {
           "id": "spacing_line_breaking_rules_004",
-          "prompt_text": "Turn off automatic hyphenation for all body text"
+          "prompt_text": "turn off automatic hyphenation for all body text"
         },
         {
           "id": "spacing_line_breaking_rules_005",
-          "prompt_text": "Prevent line breaks inside {dollar amounts} in {summary box}"
+          "prompt_text": "prevent line breaks inside {dollar amounts} in {summary box}"
         },
         {
           "id": "spacing_line_breaking_rules_006",
-          "prompt_text": "Insert a soft return after the colon in {heading} to keep the subtitle on one line"
+          "prompt_text": "insert a soft return after the colon in {heading} to keep the subtitle on one line"
         },
         {
           "id": "spacing_line_breaking_rules_007",
-          "prompt_text": "Remove the manual line break in the middle of {paragraph 2}"
+          "prompt_text": "remove the manual line break in the middle of {paragraph 2}"
         },
         {
           "id": "spacing_line_breaking_rules_008",
-          "prompt_text": "Prevent {Figure 1} label from breaking across lines in the caption"
+          "prompt_text": "prevent {Figure 1} label from breaking across lines in the caption"
         },
         {
           "id": "spacing_line_breaking_rules_009",
-          "prompt_text": "Keep {percentage values} on a single line in {table footnotes}"
+          "prompt_text": "keep {percentage values} on a single line in {table footnotes}"
         },
         {
           "id": "spacing_line_breaking_rules_010",
-          "prompt_text": "Remove the forced line break that splits {product name} across two lines"
+          "prompt_text": "remove the forced line break that splits {product name} across two lines"
         },
         {
           "id": "spacing_line_breaking_rules_011",
-          "prompt_text": "Turn off hyphenation in {sidebar} text"
+          "prompt_text": "turn off hyphenation in {sidebar} text"
         },
         {
           "id": "spacing_line_breaking_rules_012",
-          "prompt_text": "Break the {title} line after the {em dash} instead of before it"
+          "prompt_text": "break the {title} line after the {em dash} instead of before it"
         },
         {
           "id": "spacing_line_breaking_rules_013",
-          "prompt_text": "Prevent {Section 2.1} from breaking across lines in {body text}"
+          "prompt_text": "prevent {Section 2.1} from breaking across lines in {body text}"
         },
         {
           "id": "spacing_line_breaking_rules_014",
-          "prompt_text": "Remove the orphaned preposition at the end of {line 3} in {intro paragraph}"
+          "prompt_text": "remove the orphaned preposition at the end of {line 3} in {intro paragraph}"
         },
         {
           "id": "spacing_line_breaking_rules_015",
-          "prompt_text": "Force a line break before the {bullet list} that follows {heading}"
+          "prompt_text": "force a line break before the {bullet list} that follows {heading}"
         }
       ]
     },
@@ -400,63 +400,63 @@
       "entries": [
         {
           "id": "spacing_flow_control_keep_with_next_001",
-          "prompt_text": "Set keep-with-next on all section headings"
+          "prompt_text": "set keep-with-next on all section headings"
         },
         {
           "id": "spacing_flow_control_keep_with_next_002",
-          "prompt_text": "Set keep-lines-together on {callout paragraphs}"
+          "prompt_text": "set keep-lines-together on {callout paragraphs}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_003",
-          "prompt_text": "Set keep-with-next on {table captions}"
+          "prompt_text": "set keep-with-next on {table captions}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_004",
-          "prompt_text": "Set keep-with-next on {figure captions} so they stay with the image"
+          "prompt_text": "set keep-with-next on {figure captions} so they stay with the image"
         },
         {
           "id": "spacing_flow_control_keep_with_next_005",
-          "prompt_text": "Set keep-lines-together on the {signature block}"
+          "prompt_text": "set keep-lines-together on the {signature block}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_006",
-          "prompt_text": "Set keep-with-next on {bullet list heading} so the first bullet stays attached"
+          "prompt_text": "set keep-with-next on {bullet list heading} so the first bullet stays attached"
         },
         {
           "id": "spacing_flow_control_keep_with_next_007",
-          "prompt_text": "Set keep-lines-together on {KPI box} so it does not split"
+          "prompt_text": "set keep-lines-together on {KPI box} so it does not split"
         },
         {
           "id": "spacing_flow_control_keep_with_next_008",
-          "prompt_text": "Set keep-with-next on {chart title} so the chart stays below it"
+          "prompt_text": "set keep-with-next on {chart title} so the chart stays below it"
         },
         {
           "id": "spacing_flow_control_keep_with_next_009",
-          "prompt_text": "Set keep-with-next on the {Source:} line so it stays under {Table 1}"
+          "prompt_text": "set keep-with-next on the {Source:} line so it stays under {Table 1}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_010",
-          "prompt_text": "Set keep-lines-together on the {address block} in the header"
+          "prompt_text": "set keep-lines-together on the {address block} in the header"
         },
         {
           "id": "spacing_flow_control_keep_with_next_011",
-          "prompt_text": "Set keep-with-next on {subheading} so the first paragraph stays attached"
+          "prompt_text": "set keep-with-next on {subheading} so the first paragraph stays attached"
         },
         {
           "id": "spacing_flow_control_keep_with_next_012",
-          "prompt_text": "Set keep-lines-together on the {disclaimer paragraph} at the bottom"
+          "prompt_text": "set keep-lines-together on the {disclaimer paragraph} at the bottom"
         },
         {
           "id": "spacing_flow_control_keep_with_next_013",
-          "prompt_text": "Set keep-with-next on the {date line} so it stays with {author name}"
+          "prompt_text": "set keep-with-next on the {date line} so it stays with {author name}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_014",
-          "prompt_text": "Set keep-lines-together on the {footnote block}"
+          "prompt_text": "set keep-lines-together on the {footnote block}"
         },
         {
           "id": "spacing_flow_control_keep_with_next_015",
-          "prompt_text": "Set keep-with-next on {Recommendations} heading so the first bullet does not separate"
+          "prompt_text": "set keep-with-next on {Recommendations} heading so the first bullet does not separate"
         }
       ]
     },
@@ -471,63 +471,63 @@
       "entries": [
         {
           "id": "spacing_widow_orphan_settings_001",
-          "prompt_text": "Turn on widow/orphan control for all body paragraphs"
+          "prompt_text": "turn on widow/orphan control for all body paragraphs"
         },
         {
           "id": "spacing_widow_orphan_settings_002",
-          "prompt_text": "Set orphan minimum to {2 lines}"
+          "prompt_text": "set orphan minimum to {2 lines}"
         },
         {
           "id": "spacing_widow_orphan_settings_003",
-          "prompt_text": "Set widow minimum to {2 lines}"
+          "prompt_text": "set widow minimum to {2 lines}"
         },
         {
           "id": "spacing_widow_orphan_settings_004",
-          "prompt_text": "Turn on widow/orphan control for {callout box} text"
+          "prompt_text": "turn on widow/orphan control for {callout box} text"
         },
         {
           "id": "spacing_widow_orphan_settings_005",
-          "prompt_text": "Set orphan minimum to {3 lines} for {body paragraphs}"
+          "prompt_text": "set orphan minimum to {3 lines} for {body paragraphs}"
         },
         {
           "id": "spacing_widow_orphan_settings_006",
-          "prompt_text": "Set widow minimum to {3 lines} for {body paragraphs}"
+          "prompt_text": "set widow minimum to {3 lines} for {body paragraphs}"
         },
         {
           "id": "spacing_widow_orphan_settings_007",
-          "prompt_text": "Turn on widow/orphan control for {sidebar} paragraphs"
+          "prompt_text": "turn on widow/orphan control for {sidebar} paragraphs"
         },
         {
           "id": "spacing_widow_orphan_settings_008",
-          "prompt_text": "Turn on widow/orphan control for {footnote} text"
+          "prompt_text": "turn on widow/orphan control for {footnote} text"
         },
         {
           "id": "spacing_widow_orphan_settings_009",
-          "prompt_text": "Pull the single orphan line from the bottom into the previous paragraph block"
+          "prompt_text": "pull the single orphan line from the bottom into the previous paragraph block"
         },
         {
           "id": "spacing_widow_orphan_settings_010",
-          "prompt_text": "Push the single widow line at the top down to join its paragraph"
+          "prompt_text": "push the single widow line at the top down to join its paragraph"
         },
         {
           "id": "spacing_widow_orphan_settings_011",
-          "prompt_text": "Turn off widow/orphan control for {table cell} text to save space"
+          "prompt_text": "turn off widow/orphan control for {table cell} text to save space"
         },
         {
           "id": "spacing_widow_orphan_settings_012",
-          "prompt_text": "Set orphan minimum to {2 lines} for {bullet list} items"
+          "prompt_text": "set orphan minimum to {2 lines} for {bullet list} items"
         },
         {
           "id": "spacing_widow_orphan_settings_013",
-          "prompt_text": "Turn on widow/orphan control for {Executive Summary} paragraphs"
+          "prompt_text": "turn on widow/orphan control for {Executive Summary} paragraphs"
         },
         {
           "id": "spacing_widow_orphan_settings_014",
-          "prompt_text": "Set widow minimum to {2 lines} for {quote block} text"
+          "prompt_text": "set widow minimum to {2 lines} for {quote block} text"
         },
         {
           "id": "spacing_widow_orphan_settings_015",
-          "prompt_text": "Turn on widow/orphan control for all {numbered list} items"
+          "prompt_text": "turn on widow/orphan control for all {numbered list} items"
         }
       ]
     },
@@ -542,143 +542,143 @@
       "entries": [
         {
           "id": "spacing_vertical_text_box_alignment_001",
-          "prompt_text": "Set vertical alignment to bottom for {callout box}"
+          "prompt_text": "set vertical alignment to bottom for {callout box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_002",
-          "prompt_text": "Align {text box} to top of its column"
+          "prompt_text": "align {text box} to top of its column"
         },
         {
           "id": "spacing_vertical_text_box_alignment_003",
-          "prompt_text": "Center {note} vertically in the {title block}"
+          "prompt_text": "center {note} vertically in the {title block}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_004",
-          "prompt_text": "Set vertical alignment to bottom for {caption box}"
+          "prompt_text": "set vertical alignment to bottom for {caption box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_005",
-          "prompt_text": "Shift {chart} to vertical center of its frame"
+          "prompt_text": "shift {chart} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_006",
-          "prompt_text": "Match {chart} vertical center to {title} vertical center"
+          "prompt_text": "match {chart} vertical center to {title} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_007",
-          "prompt_text": "Center {table} vertically in the {text box}"
+          "prompt_text": "center {table} vertically in the {text box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_008",
-          "prompt_text": "Center {image} vertically in its frame"
+          "prompt_text": "center {image} vertically in its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_009",
-          "prompt_text": "Center {logo} vertically in the {header bar}"
+          "prompt_text": "center {logo} vertically in the {header bar}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_010",
-          "prompt_text": "Shift {title} to vertical center of its frame"
+          "prompt_text": "shift {title} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_011",
-          "prompt_text": "Set vertical alignment to bottom for {graph box}"
+          "prompt_text": "set vertical alignment to bottom for {graph box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_012",
-          "prompt_text": "Center text vertically in {table cells}"
+          "prompt_text": "center text vertically in {table cells}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_013",
-          "prompt_text": "Match {image} vertical center to {chart} vertical center"
+          "prompt_text": "match {image} vertical center to {chart} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_014",
-          "prompt_text": "Set vertical alignment to bottom for {note box}"
+          "prompt_text": "set vertical alignment to bottom for {note box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_015",
-          "prompt_text": "Match {title} vertical center to {logo} vertical center"
+          "prompt_text": "match {title} vertical center to {logo} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_016",
-          "prompt_text": "Match {caption} vertical center to {image} vertical center"
+          "prompt_text": "match {caption} vertical center to {image} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_017",
-          "prompt_text": "Shift {logo} to vertical center of its frame"
+          "prompt_text": "shift {logo} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_018",
-          "prompt_text": "Shift {image} to vertical center of its frame"
+          "prompt_text": "shift {image} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_019",
-          "prompt_text": "Shift text to vertical center of its frame"
+          "prompt_text": "shift text to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_020",
-          "prompt_text": "Set vertical alignment to bottom for {chart box}"
+          "prompt_text": "set vertical alignment to bottom for {chart box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_021",
-          "prompt_text": "Match {callout} vertical center to {caption} vertical center"
+          "prompt_text": "match {callout} vertical center to {caption} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_022",
-          "prompt_text": "Set vertical alignment to bottom for {table box}"
+          "prompt_text": "set vertical alignment to bottom for {table box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_023",
-          "prompt_text": "Center {note} vertically in its text box"
+          "prompt_text": "center {note} vertically in its text box"
         },
         {
           "id": "spacing_vertical_text_box_alignment_024",
-          "prompt_text": "Center {image} vertically in the {title block}"
+          "prompt_text": "center {image} vertically in the {title block}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_025",
-          "prompt_text": "Shift {note} to vertical center of its frame"
+          "prompt_text": "shift {note} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_026",
-          "prompt_text": "Match {image} vertical center to {logo} vertical center"
+          "prompt_text": "match {image} vertical center to {logo} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_027",
-          "prompt_text": "Match {callout} vertical center to {table} vertical center"
+          "prompt_text": "match {callout} vertical center to {table} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_028",
-          "prompt_text": "Center {chart} vertically in the {graph box}"
+          "prompt_text": "center {chart} vertically in the {graph box}"
         },
         {
           "id": "spacing_vertical_text_box_alignment_029",
-          "prompt_text": "Match {title} vertical center to {graph} vertical center"
+          "prompt_text": "match {title} vertical center to {graph} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_030",
-          "prompt_text": "Shift {callout} to vertical center of its frame"
+          "prompt_text": "shift {callout} to vertical center of its frame"
         },
         {
           "id": "spacing_vertical_text_box_alignment_031",
-          "prompt_text": "Match {callout} vertical center to {logo} vertical center"
+          "prompt_text": "match {callout} vertical center to {logo} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_032",
-          "prompt_text": "Match {graph} vertical center to {graph label} vertical center"
+          "prompt_text": "match {graph} vertical center to {graph label} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_033",
-          "prompt_text": "Match {table} vertical center to {table caption} vertical center"
+          "prompt_text": "match {table} vertical center to {table caption} vertical center"
         },
         {
           "id": "spacing_vertical_text_box_alignment_034",
-          "prompt_text": "Set vertical alignment to top for {sidebar} text"
+          "prompt_text": "set vertical alignment to top for {sidebar} text"
         },
         {
           "id": "spacing_vertical_text_box_alignment_035",
-          "prompt_text": "Set vertical alignment to middle for {KPI box} text"
+          "prompt_text": "set vertical alignment to middle for {KPI box} text"
         }
       ]
     }

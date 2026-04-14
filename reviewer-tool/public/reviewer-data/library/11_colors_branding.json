@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "colors_branding_hex_code_accuracy_001",
-          "prompt_text": "Change the {background text} color to {light gray}"
+          "prompt_text": "change the {background text} color to {light gray}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_002",
-          "prompt_text": "Change the {accent line} under the {title} to {teal}"
+          "prompt_text": "change the {accent line} under the {title} to {teal}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_003",
-          "prompt_text": "Change the {email link} color from {teal} to the same {blue} as other links"
+          "prompt_text": "change the {email link} color from {teal} to the same {blue} as other links"
         },
         {
           "id": "colors_branding_hex_code_accuracy_004",
-          "prompt_text": "Change the {divider line} color to {color}"
+          "prompt_text": "change the {divider line} color to {color}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_005",
-          "prompt_text": "Change the {pale blue} body text in the {title block} to {navy}"
+          "prompt_text": "change the {pale blue} body text in the {title block} to {navy}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_006",
-          "prompt_text": "Change the {section headers} to {navy}"
+          "prompt_text": "change the {section headers} to {navy}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_007",
-          "prompt_text": "Change the {white text} in the {yellow box} to {charcoal}"
+          "prompt_text": "change the {white text} in the {yellow box} to {charcoal}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_008",
-          "prompt_text": "Darken the {light gray body text} to {charcoal}"
+          "prompt_text": "darken the {light gray body text} to {charcoal}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_009",
-          "prompt_text": "Extend the {side color panel} to the bottom edge of the page"
+          "prompt_text": "extend the {side color panel} to the bottom edge of the page"
         },
         {
           "id": "colors_branding_hex_code_accuracy_010",
-          "prompt_text": "Limit the page to {number} accent colors total"
+          "prompt_text": "limit the page to {number} accent colors total"
         },
         {
           "id": "colors_branding_hex_code_accuracy_011",
-          "prompt_text": "Remove the gradient fill from the {bars} and use a flat {color}"
+          "prompt_text": "remove the gradient fill from the {bars} and use a flat {color}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_012",
-          "prompt_text": "Stop the {color band} at the {text margin} instead of extending to the page edge"
+          "prompt_text": "stop the {color band} at the {text margin} instead of extending to the page edge"
         },
         {
           "id": "colors_branding_hex_code_accuracy_013",
-          "prompt_text": "Set the {source line} color to {dark gray}"
+          "prompt_text": "set the {source line} color to {dark gray}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_014",
-          "prompt_text": "Use the same {link color} in the body text and the {footnotes}"
+          "prompt_text": "use the same {link color} in the body text and the {footnotes}"
         },
         {
           "id": "colors_branding_hex_code_accuracy_015",
-          "prompt_text": "Use {navy} for all cross-reference links in the document"
+          "prompt_text": "use {navy} for all cross-reference links in the document"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "colors_branding_consistent_color_usage_001",
-          "prompt_text": "Limit accent colors to {color_1} and {color_2} only"
+          "prompt_text": "limit accent colors to {color_1} and {color_2} only"
         },
         {
           "id": "colors_branding_consistent_color_usage_002",
-          "prompt_text": "Make all {section heading} colors match throughout the document"
+          "prompt_text": "make all {section heading} colors match throughout the document"
         },
         {
           "id": "colors_branding_consistent_color_usage_003",
-          "prompt_text": "Make all {callout box} borders the same {color}"
+          "prompt_text": "make all {callout box} borders the same {color}"
         },
         {
           "id": "colors_branding_consistent_color_usage_004",
-          "prompt_text": "Use the same {background color} in every {sidebar} on the page"
+          "prompt_text": "use the same {background color} in every {sidebar} on the page"
         },
         {
           "id": "colors_branding_consistent_color_usage_005",
-          "prompt_text": "Match the {icon} color to the {heading} color"
+          "prompt_text": "match the {icon} color to the {heading} color"
         },
         {
           "id": "colors_branding_consistent_color_usage_006",
-          "prompt_text": "Use one consistent {color} for all {bold keywords} in the body text"
+          "prompt_text": "use one consistent {color} for all {bold keywords} in the body text"
         },
         {
           "id": "colors_branding_consistent_color_usage_007",
-          "prompt_text": "Make all {footer text} the same color across the document"
+          "prompt_text": "make all {footer text} the same color across the document"
         },
         {
           "id": "colors_branding_consistent_color_usage_008",
-          "prompt_text": "Match the {divider line} color to the {header} color"
+          "prompt_text": "match the {divider line} color to the {header} color"
         },
         {
           "id": "colors_branding_consistent_color_usage_009",
-          "prompt_text": "Use the same {accent color} for every {bullet symbol} on the page"
+          "prompt_text": "use the same {accent color} for every {bullet symbol} on the page"
         },
         {
           "id": "colors_branding_consistent_color_usage_010",
-          "prompt_text": "Make all {table header row} backgrounds the same {color}"
+          "prompt_text": "make all {table header row} backgrounds the same {color}"
         },
         {
           "id": "colors_branding_consistent_color_usage_011",
-          "prompt_text": "Remove the off-shade {color} from the {metric box} and match it to the others"
+          "prompt_text": "remove the off-shade {color} from the {metric box} and match it to the others"
         },
         {
           "id": "colors_branding_consistent_color_usage_012",
-          "prompt_text": "Use the same {color} for all {underlines} in the document"
+          "prompt_text": "use the same {color} for all {underlines} in the document"
         },
         {
           "id": "colors_branding_consistent_color_usage_013",
-          "prompt_text": "Match the {page number} color to the {footer text} color"
+          "prompt_text": "match the {page number} color to the {footer text} color"
         },
         {
           "id": "colors_branding_consistent_color_usage_014",
-          "prompt_text": "Use one {color} for all {numbered list} markers"
+          "prompt_text": "use one {color} for all {numbered list} markers"
         },
         {
           "id": "colors_branding_consistent_color_usage_015",
-          "prompt_text": "Make the {caption} text color consistent across all figures"
+          "prompt_text": "make the {caption} text color consistent across all figures"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "colors_branding_brand_palette_adherence_001",
-          "prompt_text": "Change the {border} color on the {callout boxes} from {off_brand_color} to brand {brand_color}"
+          "prompt_text": "change the {border} color on the {callout boxes} from {off_brand_color} to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_002",
-          "prompt_text": "Change the {hyperlink color} to brand {blue}"
+          "prompt_text": "change the {hyperlink color} to brand {blue}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_003",
-          "prompt_text": "Change the {title} color from {off_brand_color} to brand {brand_color}"
+          "prompt_text": "change the {title} color from {off_brand_color} to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_004",
-          "prompt_text": "Move the brand {color bar} to the {top edge} of the page"
+          "prompt_text": "move the brand {color bar} to the {top edge} of the page"
         },
         {
           "id": "colors_branding_brand_palette_adherence_005",
-          "prompt_text": "Remove the default {purple} from {visited links} and use brand {blue}"
+          "prompt_text": "remove the default {purple} from {visited links} and use brand {blue}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_006",
-          "prompt_text": "Remove the off-brand {color} and replace it with approved brand {brand_color}"
+          "prompt_text": "remove the off-brand {color} and replace it with approved brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_007",
-          "prompt_text": "Replace the {red} accent throughout the document with brand {brand_color}"
+          "prompt_text": "replace the {red} accent throughout the document with brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_008",
-          "prompt_text": "Change the {sidebar} background to brand {brand_color}"
+          "prompt_text": "change the {sidebar} background to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_009",
-          "prompt_text": "Update the {table header} fill to brand {brand_color}"
+          "prompt_text": "update the {table header} fill to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_010",
-          "prompt_text": "Replace the {gradient} in the header bar with a flat brand {brand_color}"
+          "prompt_text": "replace the {gradient} in the header bar with a flat brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_011",
-          "prompt_text": "Change the {bullet} color to brand {brand_color}"
+          "prompt_text": "change the {bullet} color to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_012",
-          "prompt_text": "Update the {footer divider} to brand {brand_color}"
+          "prompt_text": "update the {footer divider} to brand {brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_013",
-          "prompt_text": "Change the {icon set} colors to brand {brand_color_1} and {brand_color_2}"
+          "prompt_text": "change the {icon set} colors to brand {brand_color_1} and {brand_color_2}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_014",
-          "prompt_text": "Replace the non-standard {background tint} with brand {light_brand_color}"
+          "prompt_text": "replace the non-standard {background tint} with brand {light_brand_color}"
         },
         {
           "id": "colors_branding_brand_palette_adherence_015",
-          "prompt_text": "Update the {watermark} color to brand {brand_color}"
+          "prompt_text": "update the {watermark} color to brand {brand_color}"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "colors_branding_text_background_contrast_001",
-          "prompt_text": "Darken the {body text} so it is readable against the {light background}"
+          "prompt_text": "darken the {body text} so it is readable against the {light background}"
         },
         {
           "id": "colors_branding_text_background_contrast_002",
-          "prompt_text": "Change the {white text} on the {light gray} background to {dark_color}"
+          "prompt_text": "change the {white text} on the {light gray} background to {dark_color}"
         },
         {
           "id": "colors_branding_text_background_contrast_003",
-          "prompt_text": "Lighten the {background color} behind the {dark text} to improve readability"
+          "prompt_text": "lighten the {background color} behind the {dark text} to improve readability"
         },
         {
           "id": "colors_branding_text_background_contrast_004",
-          "prompt_text": "Change the {light gray text} in the {callout box} to {charcoal}"
+          "prompt_text": "change the {light gray text} in the {callout box} to {charcoal}"
         },
         {
           "id": "colors_branding_text_background_contrast_005",
-          "prompt_text": "Increase the contrast between the {heading} color and the {background color}"
+          "prompt_text": "increase the contrast between the {heading} color and the {background color}"
         },
         {
           "id": "colors_branding_text_background_contrast_006",
-          "prompt_text": "Change the {caption text} to {dark_color} so it is visible against the {image background}"
+          "prompt_text": "change the {caption text} to {dark_color} so it is visible against the {image background}"
         },
         {
           "id": "colors_branding_text_background_contrast_007",
-          "prompt_text": "Remove the {dark background} from the {text box} so the text is easier to read"
+          "prompt_text": "remove the {dark background} from the {text box} so the text is easier to read"
         },
         {
           "id": "colors_branding_text_background_contrast_008",
-          "prompt_text": "Use {white} text on the {dark_color} banner instead of {light gray}"
+          "prompt_text": "use {white} text on the {dark_color} banner instead of {light gray}"
         },
         {
           "id": "colors_branding_text_background_contrast_009",
-          "prompt_text": "Darken the {footnote text} from {light_color} to at least {dark_color}"
+          "prompt_text": "darken the {footnote text} from {light_color} to at least {dark_color}"
         },
         {
           "id": "colors_branding_text_background_contrast_010",
-          "prompt_text": "Change the {table header text} to {white} so it is readable on the {dark fill}"
+          "prompt_text": "change the {table header text} to {white} so it is readable on the {dark fill}"
         },
         {
           "id": "colors_branding_text_background_contrast_011",
-          "prompt_text": "Increase the contrast on the {metric label} text inside the {colored badge}"
+          "prompt_text": "increase the contrast on the {metric label} text inside the {colored badge}"
         },
         {
           "id": "colors_branding_text_background_contrast_012",
-          "prompt_text": "Change the {sidebar text} from {light_color} to {dark_color} for readability"
+          "prompt_text": "change the {sidebar text} from {light_color} to {dark_color} for readability"
         },
         {
           "id": "colors_branding_text_background_contrast_013",
-          "prompt_text": "Remove the low-contrast {watermark} that makes the body text hard to read"
+          "prompt_text": "remove the low-contrast {watermark} that makes the body text hard to read"
         },
         {
           "id": "colors_branding_text_background_contrast_014",
-          "prompt_text": "Darken the {page number} color so it prints clearly"
+          "prompt_text": "darken the {page number} color so it prints clearly"
         },
         {
           "id": "colors_branding_text_background_contrast_015",
-          "prompt_text": "Change the {link text} color to something visible against the {background_color}"
+          "prompt_text": "change the {link text} color to something visible against the {background_color}"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "colors_branding_hyperlink_styling_001",
-          "prompt_text": "Change all hyperlink colors to {color}"
+          "prompt_text": "change all hyperlink colors to {color}"
         },
         {
           "id": "colors_branding_hyperlink_styling_002",
-          "prompt_text": "Remove the underline from all hyperlinks"
+          "prompt_text": "remove the underline from all hyperlinks"
         },
         {
           "id": "colors_branding_hyperlink_styling_003",
-          "prompt_text": "Add an underline to every hyperlink in the body text"
+          "prompt_text": "add an underline to every hyperlink in the body text"
         },
         {
           "id": "colors_branding_hyperlink_styling_004",
-          "prompt_text": "Change the {visited link} color from {purple} to {color}"
+          "prompt_text": "change the {visited link} color from {purple} to {color}"
         },
         {
           "id": "colors_branding_hyperlink_styling_005",
-          "prompt_text": "Make the hyperlink style consistent between the body text and the {footnotes}"
+          "prompt_text": "make the hyperlink style consistent between the body text and the {footnotes}"
         },
         {
           "id": "colors_branding_hyperlink_styling_006",
-          "prompt_text": "Remove the bold formatting from hyperlinks in the {section_name} section"
+          "prompt_text": "remove the bold formatting from hyperlinks in the {section_name} section"
         },
         {
           "id": "colors_branding_hyperlink_styling_007",
-          "prompt_text": "Change the hyperlink font to match the surrounding {body text} font"
+          "prompt_text": "change the hyperlink font to match the surrounding {body text} font"
         },
         {
           "id": "colors_branding_hyperlink_styling_008",
-          "prompt_text": "Remove the {color change} on hover for printed-output hyperlinks"
+          "prompt_text": "remove the {color change} on hover for printed-output hyperlinks"
         },
         {
           "id": "colors_branding_hyperlink_styling_009",
-          "prompt_text": "Match the {email link} style to the {URL link} style"
+          "prompt_text": "match the {email link} style to the {URL link} style"
         },
         {
           "id": "colors_branding_hyperlink_styling_010",
-          "prompt_text": "Change hyperlinks in {table cells} to {color} to match body text links"
+          "prompt_text": "change hyperlinks in {table cells} to {color} to match body text links"
         },
         {
           "id": "colors_branding_hyperlink_styling_011",
-          "prompt_text": "Remove the hyperlink styling from the {plain text URL} in the footer"
+          "prompt_text": "remove the hyperlink styling from the {plain text URL} in the footer"
         },
         {
           "id": "colors_branding_hyperlink_styling_012",
-          "prompt_text": "Use {italic} for hyperlinks in the {caption} text"
+          "prompt_text": "use {italic} for hyperlinks in the {caption} text"
         },
         {
           "id": "colors_branding_hyperlink_styling_013",
-          "prompt_text": "Change the cross-reference link color to {color}"
+          "prompt_text": "change the cross-reference link color to {color}"
         },
         {
           "id": "colors_branding_hyperlink_styling_014",
-          "prompt_text": "Make all {TOC} links the same {color} and {style}"
+          "prompt_text": "make all {TOC} links the same {color} and {style}"
         },
         {
           "id": "colors_branding_hyperlink_styling_015",
-          "prompt_text": "Remove the double underline from hyperlinks in the {heading}"
+          "prompt_text": "remove the double underline from hyperlinks in the {heading}"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "colors_branding_chart_color_palette_001",
-          "prompt_text": "Change the {bar chart} colors to the brand palette of {color_1}, {color_2}, and {color_3}"
+          "prompt_text": "change the {bar chart} colors to the brand palette of {color_1}, {color_2}, and {color_3}"
         },
         {
           "id": "colors_branding_chart_color_palette_002",
-          "prompt_text": "Use the same color sequence in both the {pie chart} and the {bar chart}"
+          "prompt_text": "use the same color sequence in both the {pie chart} and the {bar chart}"
         },
         {
           "id": "colors_branding_chart_color_palette_003",
-          "prompt_text": "Replace the default chart colors with {brand_color_1} and {brand_color_2}"
+          "prompt_text": "replace the default chart colors with {brand_color_1} and {brand_color_2}"
         },
         {
           "id": "colors_branding_chart_color_palette_004",
-          "prompt_text": "Change the {line chart} series colors to {color_1} and {color_2}"
+          "prompt_text": "change the {line chart} series colors to {color_1} and {color_2}"
         },
         {
           "id": "colors_branding_chart_color_palette_005",
-          "prompt_text": "Remove the gradient fill from the {chart bars} and use flat {color}"
+          "prompt_text": "remove the gradient fill from the {chart bars} and use flat {color}"
         },
         {
           "id": "colors_branding_chart_color_palette_006",
-          "prompt_text": "Change the {pie chart} slice for {category_name} from {off_color} to {brand_color}"
+          "prompt_text": "change the {pie chart} slice for {category_name} from {off_color} to {brand_color}"
         },
         {
           "id": "colors_branding_chart_color_palette_007",
-          "prompt_text": "Limit the chart to {number} distinct colors to avoid visual clutter"
+          "prompt_text": "limit the chart to {number} distinct colors to avoid visual clutter"
         },
         {
           "id": "colors_branding_chart_color_palette_008",
-          "prompt_text": "Make the {chart legend} colors match the {chart series} colors exactly"
+          "prompt_text": "make the {chart legend} colors match the {chart series} colors exactly"
         },
         {
           "id": "colors_branding_chart_color_palette_009",
-          "prompt_text": "Change the {chart gridline} color to {light gray}"
+          "prompt_text": "change the {chart gridline} color to {light gray}"
         },
         {
           "id": "colors_branding_chart_color_palette_010",
-          "prompt_text": "Use a {sequential color ramp} from {light_color} to {dark_color} for the {heat map}"
+          "prompt_text": "use a {sequential color ramp} from {light_color} to {dark_color} for the {heat map}"
         },
         {
           "id": "colors_branding_chart_color_palette_011",
-          "prompt_text": "Change the {chart background} to {white} to match the page"
+          "prompt_text": "change the {chart background} to {white} to match the page"
         },
         {
           "id": "colors_branding_chart_color_palette_012",
-          "prompt_text": "Use {distinct colors} for each data series so they are separable in grayscale"
+          "prompt_text": "use {distinct colors} for each data series so they are separable in grayscale"
         },
         {
           "id": "colors_branding_chart_color_palette_013",
-          "prompt_text": "Change the {chart axis label} color to {dark gray}"
+          "prompt_text": "change the {chart axis label} color to {dark gray}"
         },
         {
           "id": "colors_branding_chart_color_palette_014",
-          "prompt_text": "Match the {chart title} color to the {section heading} color"
+          "prompt_text": "match the {chart title} color to the {section heading} color"
         },
         {
           "id": "colors_branding_chart_color_palette_015",
-          "prompt_text": "Replace the {red/green} color pair in the chart with {colorblind-safe alternatives}"
+          "prompt_text": "replace the {red/green} color pair in the chart with {colorblind-safe alternatives}"
         }
       ]
     }

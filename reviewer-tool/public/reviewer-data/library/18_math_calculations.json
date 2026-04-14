@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "math_calculations_totals_verification_001",
-          "prompt_text": "Change the {total} in the final row of {Table 1} to {$4.1M} so it matches the sum of the line items"
+          "prompt_text": "change the {total} in the final row of {Table 1} to {$4.1M} so it matches the sum of the line items"
         },
         {
           "id": "math_calculations_totals_verification_002",
-          "prompt_text": "Update the {subtotal} under {Operating Costs} to {$385K} so it equals the rows above"
+          "prompt_text": "update the {subtotal} under {Operating Costs} to {$385K} so it equals the rows above"
         },
         {
           "id": "math_calculations_totals_verification_003",
-          "prompt_text": "Change the {headcount total} at the bottom of {Table 1} to {147} so it matches the department rows"
+          "prompt_text": "change the {headcount total} at the bottom of {Table 1} to {147} so it matches the department rows"
         },
         {
           "id": "math_calculations_totals_verification_004",
-          "prompt_text": "Fix the {totals row} in the {expense table} so {labor} plus {software} plus {travel} equals the displayed total"
+          "prompt_text": "fix the {totals row} in the {expense table} so {labor} plus {software} plus {travel} equals the displayed total"
         },
         {
           "id": "math_calculations_totals_verification_005",
-          "prompt_text": "Change the {grand total} in the {budget summary} to {$2.84M} so it matches the category subtotals"
+          "prompt_text": "change the {grand total} in the {budget summary} to {$2.84M} so it matches the category subtotals"
         },
         {
           "id": "math_calculations_totals_verification_006",
-          "prompt_text": "Update the {total} in the {sidebar callout} to {84} so it matches the sum in the table"
+          "prompt_text": "update the {total} in the {sidebar callout} to {84} so it matches the sum in the table"
         },
         {
           "id": "math_calculations_totals_verification_007",
-          "prompt_text": "Change the {revenue total} in the {summary row} to {$12.6M} so it matches the quarterly values"
+          "prompt_text": "change the {revenue total} in the {summary row} to {$12.6M} so it matches the quarterly values"
         },
         {
           "id": "math_calculations_totals_verification_008",
-          "prompt_text": "Fix the {column total} in {column D} that is {$50K} off from the actual sum of the cells above"
+          "prompt_text": "fix the {column total} in {column D} that is {$50K} off from the actual sum of the cells above"
         },
         {
           "id": "math_calculations_totals_verification_009",
-          "prompt_text": "Update the {units shipped} total in the {bottom row} to {3,200} so it matches the monthly figures"
+          "prompt_text": "update the {units shipped} total in the {bottom row} to {3,200} so it matches the monthly figures"
         },
         {
           "id": "math_calculations_totals_verification_010",
-          "prompt_text": "Change the {total hours} in the {summary table} to {1,840} so it matches the weekly breakdown"
+          "prompt_text": "change the {total hours} in the {summary table} to {1,840} so it matches the weekly breakdown"
         },
         {
           "id": "math_calculations_totals_verification_011",
-          "prompt_text": "Fix the {total cost} in the {footer} that does not match the sum of the {line items} above"
+          "prompt_text": "fix the {total cost} in the {footer} that does not match the sum of the {line items} above"
         },
         {
           "id": "math_calculations_totals_verification_012",
-          "prompt_text": "Update the {total respondents} at the bottom of the {survey table} to {512} so it matches the category counts"
+          "prompt_text": "update the {total respondents} at the bottom of the {survey table} to {512} so it matches the category counts"
         },
         {
           "id": "math_calculations_totals_verification_013",
-          "prompt_text": "Change the {total FTEs} in the {staffing table} to {86} so it matches the rows above"
+          "prompt_text": "change the {total FTEs} in the {staffing table} to {86} so it matches the rows above"
         },
         {
           "id": "math_calculations_totals_verification_014",
-          "prompt_text": "Fix the {subtotal} in the {materials section} that is {$2K} higher than the actual sum"
+          "prompt_text": "fix the {subtotal} in the {materials section} that is {$2K} higher than the actual sum"
         },
         {
           "id": "math_calculations_totals_verification_015",
-          "prompt_text": "Update the {total tickets} in the {support table} to {1,247} so it matches the sum of the status rows"
+          "prompt_text": "update the {total tickets} in the {support table} to {1,247} so it matches the sum of the status rows"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "math_calculations_percentage_sums_100_001",
-          "prompt_text": "Change the {Other} row to {7%} so the column sums to {100%}"
+          "prompt_text": "change the {Other} row to {7%} so the column sums to {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_002",
-          "prompt_text": "Reduce the {APAC} slice to {18%} so the pie chart totals {100%}"
+          "prompt_text": "reduce the {APAC} slice to {18%} so the pie chart totals {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_003",
-          "prompt_text": "Change the {No response} row to {3%} so the survey table totals {100%}"
+          "prompt_text": "change the {No response} row to {3%} so the survey table totals {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_004",
-          "prompt_text": "Update the final legend entry to {12%} so all slices add to {100%}"
+          "prompt_text": "update the final legend entry to {12%} so all slices add to {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_005",
-          "prompt_text": "Change the {regional percentages} to one decimal place and make the total {100.0%}"
+          "prompt_text": "change the {regional percentages} to one decimal place and make the total {100.0%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_006",
-          "prompt_text": "Fix the {market share} column where the rows sum to {103%} instead of {100%}"
+          "prompt_text": "fix the {market share} column where the rows sum to {103%} instead of {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_007",
-          "prompt_text": "Change the {Strongly Disagree} row to {8%} so the survey responses total {100%}"
+          "prompt_text": "change the {Strongly Disagree} row to {8%} so the survey responses total {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_008",
-          "prompt_text": "Update the {EMEA} percentage to {24%} so the regional breakdown sums to {100%}"
+          "prompt_text": "update the {EMEA} percentage to {24%} so the regional breakdown sums to {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_009",
-          "prompt_text": "Fix the {channel mix} percentages that currently sum to {98%} by adjusting {Direct} to {35%}"
+          "prompt_text": "fix the {channel mix} percentages that currently sum to {98%} by adjusting {Direct} to {35%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_010",
-          "prompt_text": "Change the {overhead} allocation to {15%} so the cost breakdown sums to {100%}"
+          "prompt_text": "change the {overhead} allocation to {15%} so the cost breakdown sums to {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_011",
-          "prompt_text": "Update the {product line} shares so {Product C} is {22%} and the total is {100%}"
+          "prompt_text": "update the {product line} shares so {Product C} is {22%} and the total is {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_012",
-          "prompt_text": "Fix the {employee satisfaction} chart where the five categories sum to {102%}"
+          "prompt_text": "fix the {employee satisfaction} chart where the five categories sum to {102%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_013",
-          "prompt_text": "Change the {Neutral} row in the {survey results} to {19%} so all rows total {100%}"
+          "prompt_text": "change the {Neutral} row in the {survey results} to {19%} so all rows total {100%}"
         },
         {
           "id": "math_calculations_percentage_sums_100_014",
-          "prompt_text": "Update the {budget allocation} table so the percentages sum to {100%} after rounding"
+          "prompt_text": "update the {budget allocation} table so the percentages sum to {100%} after rounding"
         },
         {
           "id": "math_calculations_percentage_sums_100_015",
-          "prompt_text": "Fix the {traffic source} breakdown where the categories only sum to {96%}"
+          "prompt_text": "fix the {traffic source} breakdown where the categories only sum to {96%}"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "math_calculations_growth_rate_arithmetic_001",
-          "prompt_text": "Change the {Q2 versus Q1} delta to {-3%} so it matches the two quarterly values"
+          "prompt_text": "change the {Q2 versus Q1} delta to {-3%} so it matches the two quarterly values"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_002",
-          "prompt_text": "Change the {year-over-year growth} label to {12%} so it matches the prior and current values"
+          "prompt_text": "change the {year-over-year growth} label to {12%} so it matches the prior and current values"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_003",
-          "prompt_text": "Update the {month-over-month churn change} in the {callout} to {-1.4 points} so it matches the two months"
+          "prompt_text": "update the {month-over-month churn change} in the {callout} to {-1.4 points} so it matches the two months"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_004",
-          "prompt_text": "Change the {growth rate} in the {summary table} to {18.6%} so it matches the base and current figures"
+          "prompt_text": "change the {growth rate} in the {summary table} to {18.6%} so it matches the base and current figures"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_005",
-          "prompt_text": "Update the {CAGR} in the {chart subtitle} to {9.8%} so it matches the start and end values"
+          "prompt_text": "update the {CAGR} in the {chart subtitle} to {9.8%} so it matches the start and end values"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_006",
-          "prompt_text": "Fix the {quarter-over-quarter change} that says {+5%} but should be {+8%} based on the Q3 and Q4 figures"
+          "prompt_text": "fix the {quarter-over-quarter change} that says {+5%} but should be {+8%} based on the q3 and q4 figures"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_007",
-          "prompt_text": "Change the {revenue growth} label to {22%} so it matches {$1.8M} growing to {$2.2M}"
+          "prompt_text": "change the {revenue growth} label to {22%} so it matches {$1.8M} growing to {$2.2M}"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_008",
-          "prompt_text": "Update the {decline rate} in the {trend summary} to {-6%} so it matches the two data points"
+          "prompt_text": "update the {decline rate} in the {trend summary} to {-6%} so it matches the two data points"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_009",
-          "prompt_text": "Fix the {headcount growth} that says {15%} but should be {13%} based on {130} to {147}"
+          "prompt_text": "fix the {headcount growth} that says {15%} but should be {13%} based on {130} to {147}"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_010",
-          "prompt_text": "Change the {margin improvement} in the {callout} to {+4 points} so it matches the prior and current margins"
+          "prompt_text": "change the {margin improvement} in the {callout} to {+4 points} so it matches the prior and current margins"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_011",
-          "prompt_text": "Update the {customer growth rate} to {31%} so it matches {1,830} growing to {2,400}"
+          "prompt_text": "update the {customer growth rate} to {31%} so it matches {1,830} growing to {2,400}"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_012",
-          "prompt_text": "Fix the {expense reduction} that says {-10%} but should be {-12%} based on the before and after values"
+          "prompt_text": "fix the {expense reduction} that says {-10%} but should be {-12%} based on the before and after values"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_013",
-          "prompt_text": "Change the {conversion rate change} to {+2.1 points} so it matches the monthly figures"
+          "prompt_text": "change the {conversion rate change} to {+2.1 points} so it matches the monthly figures"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_014",
-          "prompt_text": "Update the {annual growth} in the {KPI section} to {16%} so it matches the FY totals"
+          "prompt_text": "update the {annual growth} in the {KPI section} to {16%} so it matches the fy totals"
         },
         {
           "id": "math_calculations_growth_rate_arithmetic_015",
-          "prompt_text": "Fix the {market share gain} that says {+3 points} but should be {+2 points} based on the table"
+          "prompt_text": "fix the {market share gain} that says {+3 points} but should be {+2 points} based on the table"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "math_calculations_cross_column_validation_001",
-          "prompt_text": "Change the {total} in {column E} to {$1.24M} so it matches the row values in {columns B through D}"
+          "prompt_text": "change the {total} in {column E} to {$1.24M} so it matches the row values in {columns B through D}"
         },
         {
           "id": "math_calculations_cross_column_validation_002",
-          "prompt_text": "Update the {adoption rate} in the text to {27%} so it matches the value shown in the {chart}"
+          "prompt_text": "update the {adoption rate} in the text to {27%} so it matches the value shown in the {chart}"
         },
         {
           "id": "math_calculations_cross_column_validation_003",
-          "prompt_text": "Change the {headcount} in the {sidebar} to {147} so it matches the number in {Table 2}"
+          "prompt_text": "change the {headcount} in the {sidebar} to {147} so it matches the number in {Table 2}"
         },
         {
           "id": "math_calculations_cross_column_validation_004",
-          "prompt_text": "Update the {total} in the {source note} to {$385K} so it matches the {table}"
+          "prompt_text": "update the {total} in the {source note} to {$385K} so it matches the {table}"
         },
         {
           "id": "math_calculations_cross_column_validation_005",
-          "prompt_text": "Change the {North America} label in the {pie chart} to {42%} so it matches the {table}"
+          "prompt_text": "change the {North America} label in the {pie chart} to {42%} so it matches the {table}"
         },
         {
           "id": "math_calculations_cross_column_validation_006",
-          "prompt_text": "Fix the {revenue figure} in the {summary paragraph} that says {$3.2M} but the table shows {$3.5M}"
+          "prompt_text": "fix the {revenue figure} in the {summary paragraph} that says {$3.2M} but the table shows {$3.5M}"
         },
         {
           "id": "math_calculations_cross_column_validation_007",
-          "prompt_text": "Update the {bar chart} value for {Q3} to {$890K} so it matches the {table row}"
+          "prompt_text": "update the {bar chart} value for {Q3} to {$890K} so it matches the {table row}"
         },
         {
           "id": "math_calculations_cross_column_validation_008",
-          "prompt_text": "Change the {average} in {column F} to {$48K} so it equals the {total} divided by the {count}"
+          "prompt_text": "change the {average} in {column F} to {$48K} so it equals the {total} divided by the {count}"
         },
         {
           "id": "math_calculations_cross_column_validation_009",
-          "prompt_text": "Fix the {margin percentage} in {column D} that does not match {revenue} minus {cost} divided by {revenue}"
+          "prompt_text": "fix the {margin percentage} in {column D} that does not match {revenue} minus {cost} divided by {revenue}"
         },
         {
           "id": "math_calculations_cross_column_validation_010",
-          "prompt_text": "Update the {chart legend} value for {EMEA} to {24%} so it matches the {data table} below"
+          "prompt_text": "update the {chart legend} value for {EMEA} to {24%} so it matches the {data table} below"
         },
         {
           "id": "math_calculations_cross_column_validation_011",
-          "prompt_text": "Change the {text callout} that says {84 cases} to {91 cases} so it matches {Table 3}"
+          "prompt_text": "change the {text callout} that says {84 cases} to {91 cases} so it matches {Table 3}"
         },
         {
           "id": "math_calculations_cross_column_validation_012",
-          "prompt_text": "Fix the {variance column} that shows {+$12K} but should be {+$8K} based on the {actual} minus {budget} columns"
+          "prompt_text": "fix the {variance column} that shows {+$12K} but should be {+$8K} based on the {actual} minus {budget} columns"
         },
         {
           "id": "math_calculations_cross_column_validation_013",
-          "prompt_text": "Update the {closing paragraph} figure of {$5.6M} to {$5.8M} so it matches the {table total}"
+          "prompt_text": "update the {closing paragraph} figure of {$5.6M} to {$5.8M} so it matches the {table total}"
         },
         {
           "id": "math_calculations_cross_column_validation_014",
-          "prompt_text": "Change the {% of total} column for {row 3} to {18%} so it matches the {row value} divided by the {grand total}"
+          "prompt_text": "change the {% of total} column for {row 3} to {18%} so it matches the {row value} divided by the {grand total}"
         },
         {
           "id": "math_calculations_cross_column_validation_015",
-          "prompt_text": "Fix the {chart title} that says {Q2 Results} but the data shown is for {Q3}"
+          "prompt_text": "fix the {chart title} that says {Q2 Results} but the data shown is for {Q3}"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "math_calculations_date_math_logic_001",
-          "prompt_text": "Change the {project end date} to {June 30, 2025} so it is {90 days} after the {start date}"
+          "prompt_text": "change the {project end date} to {June 30, 2025} so it is {90 days} after the {start date}"
         },
         {
           "id": "math_calculations_date_math_logic_002",
-          "prompt_text": "Update the {contract term} to {24 months} so it matches the {start} and {end dates}"
+          "prompt_text": "update the {contract term} to {24 months} so it matches the {start} and {end dates}"
         },
         {
           "id": "math_calculations_date_math_logic_003",
-          "prompt_text": "Change the {due date} in the {footer} to {September 15, 2025} so it matches the {timeline}"
+          "prompt_text": "change the {due date} in the {footer} to {September 15, 2025} so it matches the {timeline}"
         },
         {
           "id": "math_calculations_date_math_logic_004",
-          "prompt_text": "Update the {phase length} in the {schedule table} to {6 weeks} so it matches the listed dates"
+          "prompt_text": "update the {phase length} in the {schedule table} to {6 weeks} so it matches the listed dates"
         },
         {
           "id": "math_calculations_date_math_logic_005",
-          "prompt_text": "Change the {fiscal year label} to {FY2025} for all dates after {July 1, 2024}"
+          "prompt_text": "change the {fiscal year label} to {FY2025} for all dates after {July 1, 2024}"
         },
         {
           "id": "math_calculations_date_math_logic_006",
-          "prompt_text": "Fix the {duration} column that says {30 days} but the {start} and {end} dates are {45 days} apart"
+          "prompt_text": "fix the {duration} column that says {30 days} but the {start} and {end} dates are {45 days} apart"
         },
         {
           "id": "math_calculations_date_math_logic_007",
-          "prompt_text": "Update the {renewal date} to {March 1, 2026} so it is exactly {12 months} after the {effective date}"
+          "prompt_text": "update the {renewal date} to {March 1, 2026} so it is exactly {12 months} after the {effective date}"
         },
         {
           "id": "math_calculations_date_math_logic_008",
-          "prompt_text": "Change the {milestone date} for {Phase 2} to {August 15, 2025} so it falls {4 weeks} after {Phase 1} ends"
+          "prompt_text": "change the {milestone date} for {Phase 2} to {August 15, 2025} so it falls {4 weeks} after {Phase 1} ends"
         },
         {
           "id": "math_calculations_date_math_logic_009",
-          "prompt_text": "Fix the {days remaining} callout that says {60 days} but the {deadline} is only {45 days} away"
+          "prompt_text": "fix the {days remaining} callout that says {60 days} but the {deadline} is only {45 days} away"
         },
         {
           "id": "math_calculations_date_math_logic_010",
-          "prompt_text": "Update the {notice period} to {90 days} so the {notice date} and {termination date} are consistent"
+          "prompt_text": "update the {notice period} to {90 days} so the {notice date} and {termination date} are consistent"
         },
         {
           "id": "math_calculations_date_math_logic_011",
-          "prompt_text": "Change the {quarter label} to {Q3} since {August 2025} falls in the third quarter"
+          "prompt_text": "change the {quarter label} to {Q3} since {August 2025} falls in the third quarter"
         },
         {
           "id": "math_calculations_date_math_logic_012",
-          "prompt_text": "Fix the overlapping dates where {Phase 2 start} is before {Phase 1 end}"
+          "prompt_text": "fix the overlapping dates where {Phase 2 start} is before {Phase 1 end}"
         },
         {
           "id": "math_calculations_date_math_logic_013",
-          "prompt_text": "Update the {elapsed time} in the {status section} to {8 months} so it matches the {start date} and {today}"
+          "prompt_text": "update the {elapsed time} in the {status section} to {8 months} so it matches the {start date} and {today}"
         },
         {
           "id": "math_calculations_date_math_logic_014",
-          "prompt_text": "Change the {payment schedule} to {quarterly} so the {4 payment dates} align with the {12-month term}"
+          "prompt_text": "change the {payment schedule} to {quarterly} so the {4 payment dates} align with the {12-month term}"
         },
         {
           "id": "math_calculations_date_math_logic_015",
-          "prompt_text": "Fix the {timeline bar} that shows {6 months} but the {start} and {end dates} span {8 months}"
+          "prompt_text": "fix the {timeline bar} that shows {6 months} but the {start} and {end dates} span {8 months}"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "math_calculations_formula_audit_logic_001",
-          "prompt_text": "Change the {weighted average} in the {summary row} to {7.4%} so it reflects the correct weights"
+          "prompt_text": "change the {weighted average} in the {summary row} to {7.4%} so it reflects the correct weights"
         },
         {
           "id": "math_calculations_formula_audit_logic_002",
-          "prompt_text": "Update the {gross margin} in {column F} to {38%} so it matches {revenue} minus {cost} divided by {revenue}"
+          "prompt_text": "update the {gross margin} in {column F} to {38%} so it matches {revenue} minus {cost} divided by {revenue}"
         },
         {
           "id": "math_calculations_formula_audit_logic_003",
-          "prompt_text": "Change the {utilization rate} in the {KPI table} to {82%} so {booked hours} divided by {available hours} is correct"
+          "prompt_text": "change the {utilization rate} in the {KPI table} to {82%} so {booked hours} divided by {available hours} is correct"
         },
         {
           "id": "math_calculations_formula_audit_logic_004",
-          "prompt_text": "Update the {average deal size} in the {callout} to {$48K} so it matches {total revenue} divided by {deal count}"
+          "prompt_text": "update the {average deal size} in the {callout} to {$48K} so it matches {total revenue} divided by {deal count}"
         },
         {
           "id": "math_calculations_formula_audit_logic_005",
-          "prompt_text": "Change the {conversion rate} in the {funnel summary} to {14%} so {wins} divided by {leads} is correct"
+          "prompt_text": "change the {conversion rate} in the {funnel summary} to {14%} so {wins} divided by {leads} is correct"
         },
         {
           "id": "math_calculations_formula_audit_logic_006",
-          "prompt_text": "Fix the {cost per unit} that says {$12.50} but should be {$13.20} based on {total cost} divided by {units produced}"
+          "prompt_text": "fix the {cost per unit} that says {$12.50} but should be {$13.20} based on {total cost} divided by {units produced}"
         },
         {
           "id": "math_calculations_formula_audit_logic_007",
-          "prompt_text": "Update the {net profit} to {$620K} so it equals {gross profit} minus {operating expenses}"
+          "prompt_text": "update the {net profit} to {$620K} so it equals {gross profit} minus {operating expenses}"
         },
         {
           "id": "math_calculations_formula_audit_logic_008",
-          "prompt_text": "Change the {average score} in the {results table} to {78} so it matches the sum of scores divided by {N}"
+          "prompt_text": "change the {average score} in the {results table} to {78} so it matches the sum of scores divided by {N}"
         },
         {
           "id": "math_calculations_formula_audit_logic_009",
-          "prompt_text": "Fix the {ROI} that says {140%} but should be {125%} based on {gain minus cost} divided by {cost}"
+          "prompt_text": "fix the {ROI} that says {140%} but should be {125%} based on {gain minus cost} divided by {cost}"
         },
         {
           "id": "math_calculations_formula_audit_logic_010",
-          "prompt_text": "Update the {break-even point} to {4,200 units} so it equals {fixed costs} divided by {contribution margin per unit}"
+          "prompt_text": "update the {break-even point} to {4,200 units} so it equals {fixed costs} divided by {contribution margin per unit}"
         },
         {
           "id": "math_calculations_formula_audit_logic_011",
-          "prompt_text": "Change the {blended rate} to {$85/hr} so it reflects the correct mix of {senior} and {junior} rates"
+          "prompt_text": "change the {blended rate} to {$85/hr} so it reflects the correct mix of {senior} and {junior} rates"
         },
         {
           "id": "math_calculations_formula_audit_logic_012",
-          "prompt_text": "Fix the {payback period} that says {18 months} but should be {22 months} based on {investment} divided by {monthly savings}"
+          "prompt_text": "fix the {payback period} that says {18 months} but should be {22 months} based on {investment} divided by {monthly savings}"
         },
         {
           "id": "math_calculations_formula_audit_logic_013",
-          "prompt_text": "Update the {price per seat} to {$24} so it equals {total license cost} divided by {number of seats}"
+          "prompt_text": "update the {price per seat} to {$24} so it equals {total license cost} divided by {number of seats}"
         },
         {
           "id": "math_calculations_formula_audit_logic_014",
-          "prompt_text": "Change the {effective tax rate} to {21%} so it matches {tax paid} divided by {pre-tax income}"
+          "prompt_text": "change the {effective tax rate} to {21%} so it matches {tax paid} divided by {pre-tax income}"
         },
         {
           "id": "math_calculations_formula_audit_logic_015",
-          "prompt_text": "Fix the {variance percentage} that says {+8%} but should be {+6%} based on {actual} minus {budget} divided by {budget}"
+          "prompt_text": "fix the {variance percentage} that says {+8%} but should be {+6%} based on {actual} minus {budget} divided by {budget}"
         }
       ]
     },
@@ -438,63 +438,63 @@
       "entries": [
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_001",
-          "prompt_text": "Change the {FY2025 total} to {$3.8M} so it matches the four {quarterly values}"
+          "prompt_text": "change the {FY2025 total} to {$3.8M} so it matches the four {quarterly values}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_002",
-          "prompt_text": "Update the {annual headcount total} to {147} so it matches the {quarterly table}"
+          "prompt_text": "update the {annual headcount total} to {147} so it matches the {quarterly table}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_003",
-          "prompt_text": "Change the {FY2024 expenses total} to {$1.24M} so it matches the {monthly rollup}"
+          "prompt_text": "change the {FY2024 expenses total} to {$1.24M} so it matches the {monthly rollup}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_004",
-          "prompt_text": "Update the {annual churn rate} in the {summary} to {6.2%} so it matches the {quarterly figures}"
+          "prompt_text": "update the {annual churn rate} in the {summary} to {6.2%} so it matches the {quarterly figures}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_005",
-          "prompt_text": "Change the {annual bookings total} to {$5.6M} so it matches the {regional rollup}"
+          "prompt_text": "change the {annual bookings total} to {$5.6M} so it matches the {regional rollup}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_006",
-          "prompt_text": "Fix the {H1 subtotal} that does not equal {Q1} plus {Q2} in the {revenue table}"
+          "prompt_text": "fix the {H1 subtotal} that does not equal {Q1} plus {Q2} in the {revenue table}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_007",
-          "prompt_text": "Update the {annual NPS} to {72} so it matches the average of the four {quarterly scores}"
+          "prompt_text": "update the {annual NPS} to {72} so it matches the average of the four {quarterly scores}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_008",
-          "prompt_text": "Change the {FY2025 revenue} in the {summary paragraph} to {$12.6M} so it matches the {quarterly table}"
+          "prompt_text": "change the {FY2025 revenue} in the {summary paragraph} to {$12.6M} so it matches the {quarterly table}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_009",
-          "prompt_text": "Fix the {H2 subtotal} for {expenses} that is {$15K} higher than {Q3} plus {Q4}"
+          "prompt_text": "fix the {H2 subtotal} for {expenses} that is {$15K} higher than {Q3} plus {Q4}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_010",
-          "prompt_text": "Update the {full-year margin} to {34%} so it matches the weighted average of the {quarterly margins}"
+          "prompt_text": "update the {full-year margin} to {34%} so it matches the weighted average of the {quarterly margins}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_011",
-          "prompt_text": "Change the {annual customer count} to {2,400} so it matches the {Q4 ending balance}"
+          "prompt_text": "change the {annual customer count} to {2,400} so it matches the {Q4 ending balance}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_012",
-          "prompt_text": "Fix the {annual deal count} that sums to {312} but the {table} shows {320}"
+          "prompt_text": "fix the {annual deal count} that sums to {312} but the {table} shows {320}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_013",
-          "prompt_text": "Update the {FY total} in the {callout} to {$8.4M} so it matches the sum of the {monthly figures}"
+          "prompt_text": "update the {FY total} in the {callout} to {$8.4M} so it matches the sum of the {monthly figures}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_014",
-          "prompt_text": "Change the {annual attrition} to {14%} so it matches the sum of the {quarterly attrition rates}"
+          "prompt_text": "change the {annual attrition} to {14%} so it matches the sum of the {quarterly attrition rates}"
         },
         {
           "id": "math_calculations_fiscal_year_rollup_consistency_015",
-          "prompt_text": "Fix the {YTD figure} that says {$6.1M} but should be {$6.4M} based on the {Q1 through Q3 actuals}"
+          "prompt_text": "fix the {YTD figure} that says {$6.1M} but should be {$6.4M} based on the {Q1 through Q3 actuals}"
         }
       ]
     },
@@ -509,63 +509,63 @@
       "entries": [
         {
           "id": "math_calculations_currency_conversion_precision_001",
-          "prompt_text": "Change the {EUR amount} in the {second column} to {EUR 2.9M} using the {stated exchange rate}"
+          "prompt_text": "change the {EUR amount} in the {second column} to {EUR 2.9M} using the {stated exchange rate}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_002",
-          "prompt_text": "Update the {converted total} in the {footer} to {EUR 385K} so it matches the {exchange rate} applied to {USD 420K}"
+          "prompt_text": "update the {converted total} in the {footer} to {EUR 385K} so it matches the {exchange rate} applied to {USD 420K}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_003",
-          "prompt_text": "Change all {converted values} in the {comparison table} to {two decimal places}"
+          "prompt_text": "change all {converted values} in the {comparison table} to {two decimal places}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_004",
-          "prompt_text": "Update the {GBP equivalent} in the {callout} to {GBP 1.8M} using the {stated rate}"
+          "prompt_text": "update the {GBP equivalent} in the {callout} to {GBP 1.8M} using the {stated rate}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_005",
-          "prompt_text": "Change the {currency note} under {Table 3} to {Converted at 1 USD = 0.92 EUR}"
+          "prompt_text": "change the {currency note} under {Table 3} to {Converted at 1 USD = 0.92 EUR}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_006",
-          "prompt_text": "Fix the {JPY column} where the conversion uses {110 JPY/USD} but the note says {150 JPY/USD}"
+          "prompt_text": "fix the {JPY column} where the conversion uses {110 JPY/USD} but the note says {150 JPY/USD}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_007",
-          "prompt_text": "Update the {CAD equivalent} in {row 4} to {CAD 1.35M} so it matches the {USD value} times the {exchange rate}"
+          "prompt_text": "update the {CAD equivalent} in {row 4} to {CAD 1.35M} so it matches the {USD value} times the {exchange rate}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_008",
-          "prompt_text": "Change the {total in local currency} to {CHF 2.1M} so it matches the {USD total} at the {stated rate}"
+          "prompt_text": "change the {total in local currency} to {CHF 2.1M} so it matches the {USD total} at the {stated rate}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_009",
-          "prompt_text": "Fix the rounding in the {EUR column} where {EUR 1,234,567} should be rounded to {EUR 1.2M} to match the format"
+          "prompt_text": "fix the rounding in the {EUR column} where {EUR 1,234,567} should be rounded to {EUR 1.2M} to match the format"
         },
         {
           "id": "math_calculations_currency_conversion_precision_010",
-          "prompt_text": "Add the {exchange rate date} to the {currency note} so readers know which rate was used"
+          "prompt_text": "add the {exchange rate date} to the {currency note} so readers know which rate was used"
         },
         {
           "id": "math_calculations_currency_conversion_precision_011",
-          "prompt_text": "Update the {AUD column} total to {AUD 5.4M} so the conversion from {USD 3.6M} at {1.50} is correct"
+          "prompt_text": "update the {AUD column} total to {AUD 5.4M} so the conversion from {USD 3.6M} at {1.50} is correct"
         },
         {
           "id": "math_calculations_currency_conversion_precision_012",
-          "prompt_text": "Fix the {converted subtotal} that does not match the sum of the {individually converted rows}"
+          "prompt_text": "fix the {converted subtotal} that does not match the sum of the {individually converted rows}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_013",
-          "prompt_text": "Change the {currency symbol} from {$} to {EUR} for the {European region} column"
+          "prompt_text": "change the {currency symbol} from {$} to {EUR} for the {European region} column"
         },
         {
           "id": "math_calculations_currency_conversion_precision_014",
-          "prompt_text": "Update the {INR equivalent} in the {cost table} to {INR 8.3 Cr} so it matches the {USD value} at the {stated rate}"
+          "prompt_text": "update the {INR equivalent} in the {cost table} to {INR 8.3 Cr} so it matches the {USD value} at the {stated rate}"
         },
         {
           "id": "math_calculations_currency_conversion_precision_015",
-          "prompt_text": "Fix the inconsistency where the {header} says {all values in USD} but {row 5} shows a {GBP value}"
+          "prompt_text": "fix the inconsistency where the {header} says {all values in USD} but {row 5} shows a {GBP value}"
         }
       ]
     }

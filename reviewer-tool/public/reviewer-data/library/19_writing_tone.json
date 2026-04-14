@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "writing_tone_ai_ism_purging_001",
-          "prompt_text": "Replace {leverage} with {use} in the {recommendation paragraph}"
+          "prompt_text": "replace {leverage} with {use} in the {recommendation paragraph}"
         },
         {
           "id": "writing_tone_ai_ism_purging_002",
-          "prompt_text": "Replace {utilize} with {use} in the {methods section}"
+          "prompt_text": "replace {utilize} with {use} in the {methods section}"
         },
         {
           "id": "writing_tone_ai_ism_purging_003",
-          "prompt_text": "Replace {robust} with {strong} in the {product summary}"
+          "prompt_text": "replace {robust} with {strong} in the {product summary}"
         },
         {
           "id": "writing_tone_ai_ism_purging_004",
-          "prompt_text": "Replace {seamless} with {smooth} in the {rollout note}"
+          "prompt_text": "replace {seamless} with {smooth} in the {rollout note}"
         },
         {
           "id": "writing_tone_ai_ism_purging_005",
-          "prompt_text": "Replace {transformative} with {major} in the {closing paragraph}"
+          "prompt_text": "replace {transformative} with {major} in the {closing paragraph}"
         },
         {
           "id": "writing_tone_ai_ism_purging_006",
-          "prompt_text": "Replace {optimize} with {improve} in the {timeline note}"
+          "prompt_text": "replace {optimize} with {improve} in the {timeline note}"
         },
         {
           "id": "writing_tone_ai_ism_purging_007",
-          "prompt_text": "Replace {synergy} with {collaboration} in the {strategy section}"
+          "prompt_text": "replace {synergy} with {collaboration} in the {strategy section}"
         },
         {
           "id": "writing_tone_ai_ism_purging_008",
-          "prompt_text": "Replace {holistic} with {complete} in the {overview paragraph}"
+          "prompt_text": "replace {holistic} with {complete} in the {overview paragraph}"
         },
         {
           "id": "writing_tone_ai_ism_purging_009",
-          "prompt_text": "Replace {cutting-edge} with {modern} in the {technology section}"
+          "prompt_text": "replace {cutting-edge} with {modern} in the {technology section}"
         },
         {
           "id": "writing_tone_ai_ism_purging_010",
-          "prompt_text": "Replace {paradigm shift} with {change} in the {market analysis}"
+          "prompt_text": "replace {paradigm shift} with {change} in the {market analysis}"
         },
         {
           "id": "writing_tone_ai_ism_purging_011",
-          "prompt_text": "Replace {deep dive} with {detailed review} in the {findings heading}"
+          "prompt_text": "replace {deep dive} with {detailed review} in the {findings heading}"
         },
         {
           "id": "writing_tone_ai_ism_purging_012",
-          "prompt_text": "Replace {game-changer} with {significant improvement} in the {summary callout}"
+          "prompt_text": "replace {game-changer} with {significant improvement} in the {summary callout}"
         },
         {
           "id": "writing_tone_ai_ism_purging_013",
-          "prompt_text": "Replace {stakeholders} with {team members} in the {action items} section"
+          "prompt_text": "replace {stakeholders} with {team members} in the {action items} section"
         },
         {
           "id": "writing_tone_ai_ism_purging_014",
-          "prompt_text": "Replace {ecosystem} with {network} in the {partner section}"
+          "prompt_text": "replace {ecosystem} with {network} in the {partner section}"
         },
         {
           "id": "writing_tone_ai_ism_purging_015",
-          "prompt_text": "Replace {empower} with {enable} in the {mission statement}"
+          "prompt_text": "replace {empower} with {enable} in the {mission statement}"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "writing_tone_filler_phrase_deletion_001",
-          "prompt_text": "Delete {At the end of the day} from the {closing sentence}"
+          "prompt_text": "delete {At the end of the day} from the {closing sentence}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_002",
-          "prompt_text": "Delete {Moving forward} from the first sentence under {Next Steps}"
+          "prompt_text": "delete {Moving forward} from the first sentence under {Next Steps}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_003",
-          "prompt_text": "Delete {It should be noted that} from {footnote 2}"
+          "prompt_text": "delete {It should be noted that} from {footnote 2}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_004",
-          "prompt_text": "Delete {In order to} from the first paragraph under {Findings}"
+          "prompt_text": "delete {In order to} from the first paragraph under {Findings}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_005",
-          "prompt_text": "Delete {Needless to say} from the {summary box}"
+          "prompt_text": "delete {Needless to say} from the {summary box}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_006",
-          "prompt_text": "Delete {As previously mentioned} from {paragraph 6}"
+          "prompt_text": "delete {As previously mentioned} from {paragraph 6}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_007",
-          "prompt_text": "Delete {It goes without saying that} from the {introduction}"
+          "prompt_text": "delete {It goes without saying that} from the {introduction}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_008",
-          "prompt_text": "Delete {As a matter of fact} from the {results paragraph}"
+          "prompt_text": "delete {As a matter of fact} from the {results paragraph}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_009",
-          "prompt_text": "Delete {For all intents and purposes} from the {scope section}"
+          "prompt_text": "delete {For all intents and purposes} from the {scope section}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_010",
-          "prompt_text": "Delete {It is important to note that} from the {risk section}"
+          "prompt_text": "delete {It is important to note that} from the {risk section}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_011",
-          "prompt_text": "Delete {With that being said} from the {transition sentence} in {paragraph 4}"
+          "prompt_text": "delete {With that being said} from the {transition sentence} in {paragraph 4}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_012",
-          "prompt_text": "Delete {At this point in time} from the {status update}"
+          "prompt_text": "delete {At this point in time} from the {status update}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_013",
-          "prompt_text": "Delete {Due to the fact that} from the {rationale paragraph} and replace with {Because}"
+          "prompt_text": "delete {Due to the fact that} from the {rationale paragraph} and replace with {Because}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_014",
-          "prompt_text": "Delete {In the event that} from the {contingency section} and replace with {If}"
+          "prompt_text": "delete {In the event that} from the {contingency section} and replace with {If}"
         },
         {
           "id": "writing_tone_filler_phrase_deletion_015",
-          "prompt_text": "Delete {Generally speaking} from the opening of {paragraph 3}"
+          "prompt_text": "delete {Generally speaking} from the opening of {paragraph 3}"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "writing_tone_formality_active_voice_001",
-          "prompt_text": "Change {we'll} to {we will} in the {opening paragraph}"
+          "prompt_text": "change {we'll} to {we will} in the {opening paragraph}"
         },
         {
           "id": "writing_tone_formality_active_voice_002",
-          "prompt_text": "Change {doesn't} to {does not} in the {closing paragraph}"
+          "prompt_text": "change {doesn't} to {does not} in the {closing paragraph}"
         },
         {
           "id": "writing_tone_formality_active_voice_003",
-          "prompt_text": "Change {The review was completed by the team} to {The team completed the review} in {paragraph 2}"
+          "prompt_text": "change {The review was completed by the team} to {The team completed the review} in {paragraph 2}"
         },
         {
           "id": "writing_tone_formality_active_voice_004",
-          "prompt_text": "Change {The proposal is being reviewed} to {The committee is reviewing the proposal} in the {summary note}"
+          "prompt_text": "change {The proposal is being reviewed} to {The committee is reviewing the proposal} in the {summary note}"
         },
         {
           "id": "writing_tone_formality_active_voice_005",
-          "prompt_text": "Replace {I think} in the {recommendation paragraph} with {The data shows}"
+          "prompt_text": "replace {I think} in the {recommendation paragraph} with {The data shows}"
         },
         {
           "id": "writing_tone_formality_active_voice_006",
-          "prompt_text": "Change {we've} to {we have} in the {final paragraph}"
+          "prompt_text": "change {we've} to {we have} in the {final paragraph}"
         },
         {
           "id": "writing_tone_formality_active_voice_007",
-          "prompt_text": "Change {can't} to {cannot} in the {limitations section}"
+          "prompt_text": "change {can't} to {cannot} in the {limitations section}"
         },
         {
           "id": "writing_tone_formality_active_voice_008",
-          "prompt_text": "Change {The budget was approved by finance} to {Finance approved the budget} in the {status section}"
+          "prompt_text": "change {The budget was approved by finance} to {Finance approved the budget} in the {status section}"
         },
         {
           "id": "writing_tone_formality_active_voice_009",
-          "prompt_text": "Change {won't} to {will not} in the {disclaimer}"
+          "prompt_text": "change {won't} to {will not} in the {disclaimer}"
         },
         {
           "id": "writing_tone_formality_active_voice_010",
-          "prompt_text": "Change {The data was analyzed by the research team} to {The research team analyzed the data} in {paragraph 5}"
+          "prompt_text": "change {The data was analyzed by the research team} to {The research team analyzed the data} in {paragraph 5}"
         },
         {
           "id": "writing_tone_formality_active_voice_011",
-          "prompt_text": "Change {it's} to {it is} in the {executive summary}"
+          "prompt_text": "change {it's} to {it is} in the {executive summary}"
         },
         {
           "id": "writing_tone_formality_active_voice_012",
-          "prompt_text": "Change {Errors were found in the report} to {The audit found errors in the report} in the {findings section}"
+          "prompt_text": "change {Errors were found in the report} to {The audit found errors in the report} in the {findings section}"
         },
         {
           "id": "writing_tone_formality_active_voice_013",
-          "prompt_text": "Change {shouldn't} to {should not} in the {policy note}"
+          "prompt_text": "change {shouldn't} to {should not} in the {policy note}"
         },
         {
           "id": "writing_tone_formality_active_voice_014",
-          "prompt_text": "Change {The contract was signed by both parties} to {Both parties signed the contract} in the {closing section}"
+          "prompt_text": "change {The contract was signed by both parties} to {Both parties signed the contract} in the {closing section}"
         },
         {
           "id": "writing_tone_formality_active_voice_015",
-          "prompt_text": "Replace {you guys} with {the team} in the {meeting notes} section"
+          "prompt_text": "replace {you guys} with {the team} in the {meeting notes} section"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "writing_tone_sentence_length_limit_001",
-          "prompt_text": "Split the run-on sentence in the {closing paragraph} into two sentences"
+          "prompt_text": "split the run-on sentence in the {closing paragraph} into two sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_002",
-          "prompt_text": "Break the long sentence under {Risks} at the semicolon into two sentences"
+          "prompt_text": "break the long sentence under {Risks} at the semicolon into two sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_003",
-          "prompt_text": "Split the second sentence in {paragraph 3} into two shorter sentences"
+          "prompt_text": "split the second sentence in {paragraph 3} into two shorter sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_004",
-          "prompt_text": "Break the comma splice in the {opening paragraph} into two sentences"
+          "prompt_text": "break the comma splice in the {opening paragraph} into two sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_005",
-          "prompt_text": "Split the sentence in {footnote 1} after the first clause"
+          "prompt_text": "split the sentence in {footnote 1} after the first clause"
         },
         {
           "id": "writing_tone_sentence_length_limit_006",
-          "prompt_text": "Break the {six-line paragraph} under {Results} into two paragraphs at the topic shift"
+          "prompt_text": "break the {six-line paragraph} under {Results} into two paragraphs at the topic shift"
         },
         {
           "id": "writing_tone_sentence_length_limit_007",
-          "prompt_text": "Split the {40-word sentence} in the {methodology section} into two shorter sentences"
+          "prompt_text": "split the {40-word sentence} in the {methodology section} into two shorter sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_008",
-          "prompt_text": "Break the sentence in the {summary callout} that has {three dependent clauses} into separate sentences"
+          "prompt_text": "break the sentence in the {summary callout} that has {three dependent clauses} into separate sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_009",
-          "prompt_text": "Split the compound sentence in {paragraph 1} at {and} into two sentences"
+          "prompt_text": "split the compound sentence in {paragraph 1} at {and} into two sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_010",
-          "prompt_text": "Break the long list sentence in the {scope section} into a bulleted list"
+          "prompt_text": "break the long list sentence in the {scope section} into a bulleted list"
         },
         {
           "id": "writing_tone_sentence_length_limit_011",
-          "prompt_text": "Split the run-on in the {recommendation section} where two ideas are joined by a comma"
+          "prompt_text": "split the run-on in the {recommendation section} where two ideas are joined by a comma"
         },
         {
           "id": "writing_tone_sentence_length_limit_012",
-          "prompt_text": "Break the {five-clause sentence} in the {findings section} into three shorter sentences"
+          "prompt_text": "break the {five-clause sentence} in the {findings section} into three shorter sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_013",
-          "prompt_text": "Split the dense {opening sentence} of the {executive summary} into two sentences"
+          "prompt_text": "split the dense {opening sentence} of the {executive summary} into two sentences"
         },
         {
           "id": "writing_tone_sentence_length_limit_014",
-          "prompt_text": "Break the {parenthetical-heavy sentence} in {paragraph 4} into a main sentence and a follow-up"
+          "prompt_text": "break the {parenthetical-heavy sentence} in {paragraph 4} into a main sentence and a follow-up"
         },
         {
           "id": "writing_tone_sentence_length_limit_015",
-          "prompt_text": "Split the sentence in the {conclusion} that restates three findings into one sentence per finding"
+          "prompt_text": "split the sentence in the {conclusion} that restates three findings into one sentence per finding"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "writing_tone_typos_grammar_001",
-          "prompt_text": "Add a comma after {However} in {paragraph 4}"
+          "prompt_text": "add a comma after {However} in {paragraph 4}"
         },
         {
           "id": "writing_tone_typos_grammar_002",
-          "prompt_text": "Add a comma before {but} in the second sentence of {paragraph 3}"
+          "prompt_text": "add a comma before {but} in the second sentence of {paragraph 3}"
         },
         {
           "id": "writing_tone_typos_grammar_003",
-          "prompt_text": "Change {companys} to {company's} in the {sidebar}"
+          "prompt_text": "change {companys} to {company's} in the {sidebar}"
         },
         {
           "id": "writing_tone_typos_grammar_004",
-          "prompt_text": "Change {neither option are} to {neither option is} in the {recommendation paragraph}"
+          "prompt_text": "change {neither option are} to {neither option is} in the {recommendation paragraph}"
         },
         {
           "id": "writing_tone_typos_grammar_005",
-          "prompt_text": "Change {is implementing} to {implemented} in the {recap paragraph} to fix the tense"
+          "prompt_text": "change {is implementing} to {implemented} in the {recap paragraph} to fix the tense"
         },
         {
           "id": "writing_tone_typos_grammar_006",
-          "prompt_text": "Add a period where the run-on starts in {paragraph 5}"
+          "prompt_text": "add a period where the run-on starts in {paragraph 5}"
         },
         {
           "id": "writing_tone_typos_grammar_007",
-          "prompt_text": "Change {recomendation} to {recommendation} in the {heading}"
+          "prompt_text": "change {recomendation} to {recommendation} in the {heading}"
         },
         {
           "id": "writing_tone_typos_grammar_008",
-          "prompt_text": "Add an apostrophe to {clients} in the phrase {clients needs} in {paragraph 3}"
+          "prompt_text": "add an apostrophe to {clients} in the phrase {clients needs} in {paragraph 3}"
         },
         {
           "id": "writing_tone_typos_grammar_009",
-          "prompt_text": "Change {their} to {there} in the {opening sentence} where it refers to a location"
+          "prompt_text": "change {their} to {there} in the {opening sentence} where it refers to a location"
         },
         {
           "id": "writing_tone_typos_grammar_010",
-          "prompt_text": "Change {effect} to {affect} in the {findings section} where it is used as a verb"
+          "prompt_text": "change {effect} to {affect} in the {findings section} where it is used as a verb"
         },
         {
           "id": "writing_tone_typos_grammar_011",
-          "prompt_text": "Fix the subject-verb agreement by changing {the data show} to {the data shows} in {paragraph 2}"
+          "prompt_text": "fix the subject-verb agreement by changing {the data show} to {the data shows} in {paragraph 2}"
         },
         {
           "id": "writing_tone_typos_grammar_012",
-          "prompt_text": "Change {alot} to {a lot} in the {summary paragraph}"
+          "prompt_text": "change {alot} to {a lot} in the {summary paragraph}"
         },
         {
           "id": "writing_tone_typos_grammar_013",
-          "prompt_text": "Add a missing {the} before {team} in the first sentence of the {staffing section}"
+          "prompt_text": "add a missing {the} before {team} in the first sentence of the {staffing section}"
         },
         {
           "id": "writing_tone_typos_grammar_014",
-          "prompt_text": "Change {less} to {fewer} in the {results table note} where it refers to countable items"
+          "prompt_text": "change {less} to {fewer} in the {results table note} where it refers to countable items"
         },
         {
           "id": "writing_tone_typos_grammar_015",
-          "prompt_text": "Fix the double {the the} in the opening of {paragraph 6}"
+          "prompt_text": "fix the double {the the} in the opening of {paragraph 6}"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_001",
-          "prompt_text": "Replace {bandwidth} with {capacity} in the {staffing note}"
+          "prompt_text": "replace {bandwidth} with {capacity} in the {staffing note}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_002",
-          "prompt_text": "Replace {right-size} with {reduce} in the {workforce paragraph}"
+          "prompt_text": "replace {right-size} with {reduce} in the {workforce paragraph}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_003",
-          "prompt_text": "Replace {low-hanging fruit} with {quick win} in the {action list}"
+          "prompt_text": "replace {low-hanging fruit} with {quick win} in the {action list}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_004",
-          "prompt_text": "Replace {north star} with {target} in the {strategy note}"
+          "prompt_text": "replace {north star} with {target} in the {strategy note}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_005",
-          "prompt_text": "Replace {greenfield} with {new} in the {project summary}"
+          "prompt_text": "replace {greenfield} with {new} in the {project summary}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_006",
-          "prompt_text": "Replace {best-in-class} with {leading} in the {product description}"
+          "prompt_text": "replace {best-in-class} with {leading} in the {product description}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_007",
-          "prompt_text": "Replace {move the needle} with {make a measurable impact} in the {goals section}"
+          "prompt_text": "replace {move the needle} with {make a measurable impact} in the {goals section}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_008",
-          "prompt_text": "Replace {boil the ocean} with {attempt too much} in the {risk paragraph}"
+          "prompt_text": "replace {boil the ocean} with {attempt too much} in the {risk paragraph}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_009",
-          "prompt_text": "Replace {circle back} with {follow up} in the {action items}"
+          "prompt_text": "replace {circle back} with {follow up} in the {action items}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_010",
-          "prompt_text": "Replace {level-set} with {align} in the {kickoff section}"
+          "prompt_text": "replace {level-set} with {align} in the {kickoff section}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_011",
-          "prompt_text": "Replace {value-add} with {benefit} in the {proposal paragraph}"
+          "prompt_text": "replace {value-add} with {benefit} in the {proposal paragraph}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_012",
-          "prompt_text": "Replace {double-click} with {examine closely} in the {analysis section}"
+          "prompt_text": "replace {double-click} with {examine closely} in the {analysis section}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_013",
-          "prompt_text": "Replace {socialize} with {share} in the {communication plan}"
+          "prompt_text": "replace {socialize} with {share} in the {communication plan}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_014",
-          "prompt_text": "Replace {hard stop} with {deadline} in the {timeline note}"
+          "prompt_text": "replace {hard stop} with {deadline} in the {timeline note}"
         },
         {
           "id": "writing_tone_industry_jargon_finance_legal_tech_015",
-          "prompt_text": "Replace {table stakes} with {basic requirements} in the {competitive analysis}"
+          "prompt_text": "replace {table stakes} with {basic requirements} in the {competitive analysis}"
         }
       ]
     },
@@ -438,63 +438,63 @@
       "entries": [
         {
           "id": "writing_tone_inclusive_language_bias_removal_001",
-          "prompt_text": "Replace {manpower} with {staffing} in the {hiring note}"
+          "prompt_text": "replace {manpower} with {staffing} in the {hiring note}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_002",
-          "prompt_text": "Replace {chairman} with {chair} in the {governance section}"
+          "prompt_text": "replace {chairman} with {chair} in the {governance section}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_003",
-          "prompt_text": "Replace {he or she} with {they} in the {policy paragraph}"
+          "prompt_text": "replace {he or she} with {they} in the {policy paragraph}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_004",
-          "prompt_text": "Replace {disabled users} with {users with disabilities} in the {accessibility note}"
+          "prompt_text": "replace {disabled users} with {users with disabilities} in the {accessibility note}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_005",
-          "prompt_text": "Replace {native speaker} with {fluent speaker} in the {job posting}"
+          "prompt_text": "replace {native speaker} with {fluent speaker} in the {job posting}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_006",
-          "prompt_text": "Remove the word {guys} from the {team update}"
+          "prompt_text": "remove the word {guys} from the {team update}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_007",
-          "prompt_text": "Replace {whitelist} with {allowlist} in the {technical note}"
+          "prompt_text": "replace {whitelist} with {allowlist} in the {technical note}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_008",
-          "prompt_text": "Replace {blacklist} with {blocklist} in the {security paragraph}"
+          "prompt_text": "replace {blacklist} with {blocklist} in the {security paragraph}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_009",
-          "prompt_text": "Replace {master} with {primary} in the {data architecture section}"
+          "prompt_text": "replace {master} with {primary} in the {data architecture section}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_010",
-          "prompt_text": "Replace {slave} with {replica} in the {system diagram note}"
+          "prompt_text": "replace {slave} with {replica} in the {system diagram note}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_011",
-          "prompt_text": "Replace {grandfathered} with {legacy} in the {pricing paragraph}"
+          "prompt_text": "replace {grandfathered} with {legacy} in the {pricing paragraph}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_012",
-          "prompt_text": "Replace {mankind} with {people} in the {vision statement}"
+          "prompt_text": "replace {mankind} with {people} in the {vision statement}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_013",
-          "prompt_text": "Replace {the blind} with {people who are blind} in the {usability section}"
+          "prompt_text": "replace {the blind} with {people who are blind} in the {usability section}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_014",
-          "prompt_text": "Replace {middleman} with {intermediary} in the {process description}"
+          "prompt_text": "replace {middleman} with {intermediary} in the {process description}"
         },
         {
           "id": "writing_tone_inclusive_language_bias_removal_015",
-          "prompt_text": "Replace {freshman} with {first-year} in the {program overview}"
+          "prompt_text": "replace {freshman} with {first-year} in the {program overview}"
         }
       ]
     },
@@ -509,63 +509,63 @@
       "entries": [
         {
           "id": "writing_tone_redundancy_removal_001",
-          "prompt_text": "Remove the second sentence in {paragraph 3} that restates the same point as the first sentence"
+          "prompt_text": "remove the second sentence in {paragraph 3} that restates the same point as the first sentence"
         },
         {
           "id": "writing_tone_redundancy_removal_002",
-          "prompt_text": "Delete the repeated conclusion in {paragraph 5} that says the same thing as the {summary callout}"
+          "prompt_text": "delete the repeated conclusion in {paragraph 5} that says the same thing as the {summary callout}"
         },
         {
           "id": "writing_tone_redundancy_removal_003",
-          "prompt_text": "Merge the two adjacent sentences in the {findings section} that both state the {growth rate increased}"
+          "prompt_text": "merge the two adjacent sentences in the {findings section} that both state the {growth rate increased}"
         },
         {
           "id": "writing_tone_redundancy_removal_004",
-          "prompt_text": "Remove the restated definition in {paragraph 4} that repeats what was already defined in {paragraph 1}"
+          "prompt_text": "remove the restated definition in {paragraph 4} that repeats what was already defined in {paragraph 1}"
         },
         {
           "id": "writing_tone_redundancy_removal_005",
-          "prompt_text": "Delete the duplicate bullet point in the {recommendations list} that repeats an earlier item"
+          "prompt_text": "delete the duplicate bullet point in the {recommendations list} that repeats an earlier item"
         },
         {
           "id": "writing_tone_redundancy_removal_006",
-          "prompt_text": "Remove {completely} from {completely eliminate} in the {action plan} since {eliminate} already means fully"
+          "prompt_text": "remove {completely} from {completely eliminate} in the {action plan} since {eliminate} already means fully"
         },
         {
           "id": "writing_tone_redundancy_removal_007",
-          "prompt_text": "Delete {end result} in the {conclusion} and replace with {result}"
+          "prompt_text": "delete {end result} in the {conclusion} and replace with {result}"
         },
         {
           "id": "writing_tone_redundancy_removal_008",
-          "prompt_text": "Remove {future plans} in the {next steps section} and replace with {plans}"
+          "prompt_text": "remove {future plans} in the {next steps section} and replace with {plans}"
         },
         {
           "id": "writing_tone_redundancy_removal_009",
-          "prompt_text": "Delete the sentence in {paragraph 6} that repeats the same metric already stated in the {callout box}"
+          "prompt_text": "delete the sentence in {paragraph 6} that repeats the same metric already stated in the {callout box}"
         },
         {
           "id": "writing_tone_redundancy_removal_010",
-          "prompt_text": "Remove {past experience} in the {qualifications section} and replace with {experience}"
+          "prompt_text": "remove {past experience} in the {qualifications section} and replace with {experience}"
         },
         {
           "id": "writing_tone_redundancy_removal_011",
-          "prompt_text": "Merge the two consecutive paragraphs under {Background} that make the same argument with different wording"
+          "prompt_text": "merge the two consecutive paragraphs under {Background} that make the same argument with different wording"
         },
         {
           "id": "writing_tone_redundancy_removal_012",
-          "prompt_text": "Delete {each and every} in the {policy section} and replace with {every}"
+          "prompt_text": "delete {each and every} in the {policy section} and replace with {every}"
         },
         {
           "id": "writing_tone_redundancy_removal_013",
-          "prompt_text": "Remove {basic fundamentals} in the {overview} and replace with {fundamentals}"
+          "prompt_text": "remove {basic fundamentals} in the {overview} and replace with {fundamentals}"
         },
         {
           "id": "writing_tone_redundancy_removal_014",
-          "prompt_text": "Delete the sentence in the {introduction} that previews a finding already detailed in the next paragraph"
+          "prompt_text": "delete the sentence in the {introduction} that previews a finding already detailed in the next paragraph"
         },
         {
           "id": "writing_tone_redundancy_removal_015",
-          "prompt_text": "Remove {collaborate together} in the {team section} and replace with {collaborate}"
+          "prompt_text": "remove {collaborate together} in the {team section} and replace with {collaborate}"
         }
       ]
     }

@@ -12,63 +12,63 @@
       "entries": [
         {
           "id": "page_flow_logical_section_breaks_001",
-          "prompt_text": "Delete the extra page break at the end of the document"
+          "prompt_text": "delete the extra page break at the end of the document"
         },
         {
           "id": "page_flow_logical_section_breaks_002",
-          "prompt_text": "Remove the page break after {title} that pushes content down"
+          "prompt_text": "remove the page break after {title} that pushes content down"
         },
         {
           "id": "page_flow_logical_section_breaks_003",
-          "prompt_text": "Remove the unnecessary section break in the middle of {introduction}"
+          "prompt_text": "remove the unnecessary section break in the middle of {introduction}"
         },
         {
           "id": "page_flow_logical_section_breaks_004",
-          "prompt_text": "Delete the stray column break before {Findings} heading"
+          "prompt_text": "delete the stray column break before {Findings} heading"
         },
         {
           "id": "page_flow_logical_section_breaks_005",
-          "prompt_text": "Remove the manual page break between {Executive Summary} and {Findings}"
+          "prompt_text": "remove the manual page break between {Executive Summary} and {Findings}"
         },
         {
           "id": "page_flow_logical_section_breaks_006",
-          "prompt_text": "Delete the extra section break above the {footer block}"
+          "prompt_text": "delete the extra section break above the {footer block}"
         },
         {
           "id": "page_flow_logical_section_breaks_007",
-          "prompt_text": "Remove the page break that creates a blank bottom half"
+          "prompt_text": "remove the page break that creates a blank bottom half"
         },
         {
           "id": "page_flow_logical_section_breaks_008",
-          "prompt_text": "Delete the continuous section break inside {callout box}"
+          "prompt_text": "delete the continuous section break inside {callout box}"
         },
         {
           "id": "page_flow_logical_section_breaks_009",
-          "prompt_text": "Remove the column break that splits {bullet list} across columns"
+          "prompt_text": "remove the column break that splits {bullet list} across columns"
         },
         {
           "id": "page_flow_logical_section_breaks_010",
-          "prompt_text": "Delete the section break between {Recommendations} and {Conclusions}"
+          "prompt_text": "delete the section break between {Recommendations} and {Conclusions}"
         },
         {
           "id": "page_flow_logical_section_breaks_011",
-          "prompt_text": "Remove the hidden page break pushing {signature block} to the bottom"
+          "prompt_text": "remove the hidden page break pushing {signature block} to the bottom"
         },
         {
           "id": "page_flow_logical_section_breaks_012",
-          "prompt_text": "Delete the extra blank paragraph acting as a break above {chart}"
+          "prompt_text": "delete the extra blank paragraph acting as a break above {chart}"
         },
         {
           "id": "page_flow_logical_section_breaks_013",
-          "prompt_text": "Remove the manual break that creates a gap between {table} and its caption"
+          "prompt_text": "remove the manual break that creates a gap between {table} and its caption"
         },
         {
           "id": "page_flow_logical_section_breaks_014",
-          "prompt_text": "Delete the section break that resets margins in the middle of body text"
+          "prompt_text": "delete the section break that resets margins in the middle of body text"
         },
         {
           "id": "page_flow_logical_section_breaks_015",
-          "prompt_text": "Remove the page break inserted before {References} section"
+          "prompt_text": "remove the page break inserted before {References} section"
         }
       ]
     },
@@ -83,63 +83,63 @@
       "entries": [
         {
           "id": "page_flow_content_fitting_001",
-          "prompt_text": "Reduce body text to {10pt} to fit all content on one page"
+          "prompt_text": "reduce body text to {10pt} to fit all content on one page"
         },
         {
           "id": "page_flow_content_fitting_002",
-          "prompt_text": "Tighten line spacing to {1.0} to pull overflow text back onto one page"
+          "prompt_text": "tighten line spacing to {1.0} to pull overflow text back onto one page"
         },
         {
           "id": "page_flow_content_fitting_003",
-          "prompt_text": "Reduce paragraph after-spacing to {3pt} to reclaim vertical space"
+          "prompt_text": "reduce paragraph after-spacing to {3pt} to reclaim vertical space"
         },
         {
           "id": "page_flow_content_fitting_004",
-          "prompt_text": "Shrink all margins to {0.5 inches} to fit the wide {table}"
+          "prompt_text": "shrink all margins to {0.5 inches} to fit the wide {table}"
         },
         {
           "id": "page_flow_content_fitting_005",
-          "prompt_text": "Remove the {3 blank paragraphs} between {title block} and body to reclaim space"
+          "prompt_text": "remove the {3 blank paragraphs} between {title block} and body to reclaim space"
         },
         {
           "id": "page_flow_content_fitting_006",
-          "prompt_text": "Reduce {chart} height to {2.5 inches} to leave room for the closing paragraph"
+          "prompt_text": "reduce {chart} height to {2.5 inches} to leave room for the closing paragraph"
         },
         {
           "id": "page_flow_content_fitting_007",
-          "prompt_text": "Reduce section heading spacing from {18pt} to {12pt} above to save vertical space"
+          "prompt_text": "reduce section heading spacing from {18pt} to {12pt} above to save vertical space"
         },
         {
           "id": "page_flow_content_fitting_008",
-          "prompt_text": "Shrink {image} to {3 inches} wide to fit beside the body text"
+          "prompt_text": "shrink {image} to {3 inches} wide to fit beside the body text"
         },
         {
           "id": "page_flow_content_fitting_009",
-          "prompt_text": "Reduce {table} font size to {9pt} so all rows fit without overflow"
+          "prompt_text": "reduce {table} font size to {9pt} so all rows fit without overflow"
         },
         {
           "id": "page_flow_content_fitting_010",
-          "prompt_text": "Remove the empty row at the bottom of {Table 1} to save space"
+          "prompt_text": "remove the empty row at the bottom of {Table 1} to save space"
         },
         {
           "id": "page_flow_content_fitting_011",
-          "prompt_text": "Reduce {title} size from {24pt} to {18pt} to reclaim header space"
+          "prompt_text": "reduce {title} size from {24pt} to {18pt} to reclaim header space"
         },
         {
           "id": "page_flow_content_fitting_012",
-          "prompt_text": "Collapse the {two-column layout} to single column to fit all text"
+          "prompt_text": "collapse the {two-column layout} to single column to fit all text"
         },
         {
           "id": "page_flow_content_fitting_013",
-          "prompt_text": "Reduce top margin to {0.5 inches} to fit the overflowing content"
+          "prompt_text": "reduce top margin to {0.5 inches} to fit the overflowing content"
         },
         {
           "id": "page_flow_content_fitting_014",
-          "prompt_text": "Tighten {bullet list} spacing to {2pt} after each item to save {4 lines}"
+          "prompt_text": "tighten {bullet list} spacing to {2pt} after each item to save {4 lines}"
         },
         {
           "id": "page_flow_content_fitting_015",
-          "prompt_text": "Reduce {callout box} padding to {4pt} on all sides to save space"
+          "prompt_text": "reduce {callout box} padding to {4pt} on all sides to save space"
         }
       ]
     },
@@ -154,63 +154,63 @@
       "entries": [
         {
           "id": "page_flow_overflow_control_001",
-          "prompt_text": "Pull the {2 lines} of overflow text back onto one page by tightening line spacing to {1.0}"
+          "prompt_text": "pull the {2 lines} of overflow text back onto one page by tightening line spacing to {1.0}"
         },
         {
           "id": "page_flow_overflow_control_002",
-          "prompt_text": "Cut the {last sentence} in {conclusion} that overflows to a second page"
+          "prompt_text": "cut the {last sentence} in {conclusion} that overflows to a second page"
         },
         {
           "id": "page_flow_overflow_control_003",
-          "prompt_text": "Shrink {table} row height to {auto} so it does not push the footer off the page"
+          "prompt_text": "shrink {table} row height to {auto} so it does not push the footer off the page"
         },
         {
           "id": "page_flow_overflow_control_004",
-          "prompt_text": "Move {chart} above {body text} so the closing section fits on one page"
+          "prompt_text": "move {chart} above {body text} so the closing section fits on one page"
         },
         {
           "id": "page_flow_overflow_control_005",
-          "prompt_text": "Reduce {sidebar} width to {2 inches} so body text wraps tighter and fits"
+          "prompt_text": "reduce {sidebar} width to {2 inches} so body text wraps tighter and fits"
         },
         {
           "id": "page_flow_overflow_control_006",
-          "prompt_text": "Remove the {3rd bullet} from {Recommendations} list to prevent overflow"
+          "prompt_text": "remove the {3rd bullet} from {Recommendations} list to prevent overflow"
         },
         {
           "id": "page_flow_overflow_control_007",
-          "prompt_text": "Reduce bottom margin to {0.5 inches} to pull the last paragraph back on the page"
+          "prompt_text": "reduce bottom margin to {0.5 inches} to pull the last paragraph back on the page"
         },
         {
           "id": "page_flow_overflow_control_008",
-          "prompt_text": "Switch {bullet list} from full sentences to {short phrases} to save vertical space"
+          "prompt_text": "switch {bullet list} from full sentences to {short phrases} to save vertical space"
         },
         {
           "id": "page_flow_overflow_control_009",
-          "prompt_text": "Merge the {two short paragraphs} in {intro} into one to save {3 lines}"
+          "prompt_text": "merge the {two short paragraphs} in {intro} into one to save {3 lines}"
         },
         {
           "id": "page_flow_overflow_control_010",
-          "prompt_text": "Reduce {image} height to {2 inches} to prevent it from pushing text off the page"
+          "prompt_text": "reduce {image} height to {2 inches} to prevent it from pushing text off the page"
         },
         {
           "id": "page_flow_overflow_control_011",
-          "prompt_text": "Remove the blank line between {heading} and first paragraph to reclaim space"
+          "prompt_text": "remove the blank line between {heading} and first paragraph to reclaim space"
         },
         {
           "id": "page_flow_overflow_control_012",
-          "prompt_text": "Shrink {callout box} text to {9pt} to prevent it from pushing content below the fold"
+          "prompt_text": "shrink {callout box} text to {9pt} to prevent it from pushing content below the fold"
         },
         {
           "id": "page_flow_overflow_control_013",
-          "prompt_text": "Reduce {KPI box} height to {0.75 inches} each to fit all four in one row"
+          "prompt_text": "reduce {KPI box} height to {0.75 inches} each to fit all four in one row"
         },
         {
           "id": "page_flow_overflow_control_014",
-          "prompt_text": "Remove the duplicate {source line} under {chart} to reclaim a line of space"
+          "prompt_text": "remove the duplicate {source line} under {chart} to reclaim a line of space"
         },
         {
           "id": "page_flow_overflow_control_015",
-          "prompt_text": "Tighten space above {footer block} to {6pt} to pull content back onto one page"
+          "prompt_text": "tighten space above {footer block} to {6pt} to pull content back onto one page"
         }
       ]
     },
@@ -225,63 +225,63 @@
       "entries": [
         {
           "id": "page_flow_keep_together_rules_001",
-          "prompt_text": "Keep {Findings} heading with its first paragraph — do not let them split"
+          "prompt_text": "keep {Findings} heading with its first paragraph — do not let them split"
         },
         {
           "id": "page_flow_keep_together_rules_002",
-          "prompt_text": "Keep {Table 1} and its caption together as one block"
+          "prompt_text": "keep {Table 1} and its caption together as one block"
         },
         {
           "id": "page_flow_keep_together_rules_003",
-          "prompt_text": "Keep {chart} and its {title} together — do not separate them"
+          "prompt_text": "keep {chart} and its {title} together — do not separate them"
         },
         {
           "id": "page_flow_keep_together_rules_004",
-          "prompt_text": "Keep the {signature block} as one unit — do not split name, title, and date"
+          "prompt_text": "keep the {signature block} as one unit — do not split name, title, and date"
         },
         {
           "id": "page_flow_keep_together_rules_005",
-          "prompt_text": "Keep {callout box} content together — do not let it split across columns"
+          "prompt_text": "keep {callout box} content together — do not let it split across columns"
         },
         {
           "id": "page_flow_keep_together_rules_006",
-          "prompt_text": "Keep {bullet list} under {Recommendations} together with its heading"
+          "prompt_text": "keep {bullet list} under {Recommendations} together with its heading"
         },
         {
           "id": "page_flow_keep_together_rules_007",
-          "prompt_text": "Keep {Figure 1} and its {source line} together as one block"
+          "prompt_text": "keep {Figure 1} and its {source line} together as one block"
         },
         {
           "id": "page_flow_keep_together_rules_008",
-          "prompt_text": "Keep {KPI box} label and value on the same line"
+          "prompt_text": "keep {KPI box} label and value on the same line"
         },
         {
           "id": "page_flow_keep_together_rules_009",
-          "prompt_text": "Keep {footnote block} together at the bottom — do not let footnotes split"
+          "prompt_text": "keep {footnote block} together at the bottom — do not let footnotes split"
         },
         {
           "id": "page_flow_keep_together_rules_010",
-          "prompt_text": "Keep {address block} lines together in the header"
+          "prompt_text": "keep {address block} lines together in the header"
         },
         {
           "id": "page_flow_keep_together_rules_011",
-          "prompt_text": "Keep {disclaimer paragraph} together at the bottom — do not let it split"
+          "prompt_text": "keep {disclaimer paragraph} together at the bottom — do not let it split"
         },
         {
           "id": "page_flow_keep_together_rules_012",
-          "prompt_text": "Keep {table header row} attached to the first data row"
+          "prompt_text": "keep {table header row} attached to the first data row"
         },
         {
           "id": "page_flow_keep_together_rules_013",
-          "prompt_text": "Keep {subtitle} on the same line or directly below {title}"
+          "prompt_text": "keep {subtitle} on the same line or directly below {title}"
         },
         {
           "id": "page_flow_keep_together_rules_014",
-          "prompt_text": "Keep {author name} and {date} on the same line in the header"
+          "prompt_text": "keep {author name} and {date} on the same line in the header"
         },
         {
           "id": "page_flow_keep_together_rules_015",
-          "prompt_text": "Keep {sidebar} heading with its body text — do not separate them"
+          "prompt_text": "keep {sidebar} heading with its body text — do not separate them"
         }
       ]
     },
@@ -296,63 +296,63 @@
       "entries": [
         {
           "id": "page_flow_reading_order_001",
-          "prompt_text": "Move {Executive Summary} above {Findings} so it reads first"
+          "prompt_text": "move {Executive Summary} above {Findings} so it reads first"
         },
         {
           "id": "page_flow_reading_order_002",
-          "prompt_text": "Move {chart} directly below the paragraph that references it"
+          "prompt_text": "move {chart} directly below the paragraph that references it"
         },
         {
           "id": "page_flow_reading_order_003",
-          "prompt_text": "Move {Table 1} above {Recommendations} so data appears before the analysis"
+          "prompt_text": "move {Table 1} above {Recommendations} so data appears before the analysis"
         },
         {
           "id": "page_flow_reading_order_004",
-          "prompt_text": "Move {source line} directly below {Figure 1}"
+          "prompt_text": "move {source line} directly below {Figure 1}"
         },
         {
           "id": "page_flow_reading_order_005",
-          "prompt_text": "Move {callout box} next to the paragraph that references it"
+          "prompt_text": "move {callout box} next to the paragraph that references it"
         },
         {
           "id": "page_flow_reading_order_006",
-          "prompt_text": "Move {Conclusions} section to the bottom, below {Recommendations}"
+          "prompt_text": "move {Conclusions} section to the bottom, below {Recommendations}"
         },
         {
           "id": "page_flow_reading_order_007",
-          "prompt_text": "Move {legend} directly below {chart} instead of to the right"
+          "prompt_text": "move {legend} directly below {chart} instead of to the right"
         },
         {
           "id": "page_flow_reading_order_008",
-          "prompt_text": "Move {footnotes} to the bottom of the layout, below all body text"
+          "prompt_text": "move {footnotes} to the bottom of the layout, below all body text"
         },
         {
           "id": "page_flow_reading_order_009",
-          "prompt_text": "Move {sidebar} to the right column so body text reads left-to-right first"
+          "prompt_text": "move {sidebar} to the right column so body text reads left-to-right first"
         },
         {
           "id": "page_flow_reading_order_010",
-          "prompt_text": "Move {disclaimer} below {signature block} as the last element"
+          "prompt_text": "move {disclaimer} below {signature block} as the last element"
         },
         {
           "id": "page_flow_reading_order_011",
-          "prompt_text": "Move {Methods} section above {Results} so the flow is chronological"
+          "prompt_text": "move {Methods} section above {Results} so the flow is chronological"
         },
         {
           "id": "page_flow_reading_order_012",
-          "prompt_text": "Move {title block} to the top of the layout above the body"
+          "prompt_text": "move {title block} to the top of the layout above the body"
         },
         {
           "id": "page_flow_reading_order_013",
-          "prompt_text": "Move {KPI boxes} above {body text} so the key numbers appear first"
+          "prompt_text": "move {KPI boxes} above {body text} so the key numbers appear first"
         },
         {
           "id": "page_flow_reading_order_014",
-          "prompt_text": "Move the {data source note} from the header to directly below {Table 1}"
+          "prompt_text": "move the {data source note} from the header to directly below {Table 1}"
         },
         {
           "id": "page_flow_reading_order_015",
-          "prompt_text": "Move {image} from below the fold to directly below {title block}"
+          "prompt_text": "move {image} from below the fold to directly below {title block}"
         }
       ]
     },
@@ -367,63 +367,63 @@
       "entries": [
         {
           "id": "page_flow_blank_space_distribution_001",
-          "prompt_text": "Distribute the blank space evenly between sections instead of lumping it at the bottom"
+          "prompt_text": "distribute the blank space evenly between sections instead of lumping it at the bottom"
         },
         {
           "id": "page_flow_blank_space_distribution_002",
-          "prompt_text": "Remove the large blank gap between {chart} and {next section}"
+          "prompt_text": "remove the large blank gap between {chart} and {next section}"
         },
         {
           "id": "page_flow_blank_space_distribution_003",
-          "prompt_text": "Fill the blank space at the bottom by increasing section spacing to {18pt}"
+          "prompt_text": "fill the blank space at the bottom by increasing section spacing to {18pt}"
         },
         {
           "id": "page_flow_blank_space_distribution_004",
-          "prompt_text": "Remove the blank space between {title block} and {first section} by reducing it to {12pt}"
+          "prompt_text": "remove the blank space between {title block} and {first section} by reducing it to {12pt}"
         },
         {
           "id": "page_flow_blank_space_distribution_005",
-          "prompt_text": "Remove the {6 blank lines} between {sidebar} and body text"
+          "prompt_text": "remove the {6 blank lines} between {sidebar} and body text"
         },
         {
           "id": "page_flow_blank_space_distribution_006",
-          "prompt_text": "Add {12pt} of space between each section to use the blank bottom quarter"
+          "prompt_text": "add {12pt} of space between each section to use the blank bottom quarter"
         },
         {
           "id": "page_flow_blank_space_distribution_007",
-          "prompt_text": "Remove the empty text box creating blank space in the middle of the layout"
+          "prompt_text": "remove the empty text box creating blank space in the middle of the layout"
         },
         {
           "id": "page_flow_blank_space_distribution_008",
-          "prompt_text": "Increase {chart} height to {3.5 inches} to fill the unused space below it"
+          "prompt_text": "increase {chart} height to {3.5 inches} to fill the unused space below it"
         },
         {
           "id": "page_flow_blank_space_distribution_009",
-          "prompt_text": "Expand {image} to {4 inches} wide to fill the blank right side"
+          "prompt_text": "expand {image} to {4 inches} wide to fill the blank right side"
         },
         {
           "id": "page_flow_blank_space_distribution_010",
-          "prompt_text": "Remove the {5 blank paragraphs} at the end of the document"
+          "prompt_text": "remove the {5 blank paragraphs} at the end of the document"
         },
         {
           "id": "page_flow_blank_space_distribution_011",
-          "prompt_text": "Add {6pt} extra space above and below each section heading to distribute the blank space"
+          "prompt_text": "add {6pt} extra space above and below each section heading to distribute the blank space"
         },
         {
           "id": "page_flow_blank_space_distribution_012",
-          "prompt_text": "Increase line spacing to {1.15} to fill the blank bottom third"
+          "prompt_text": "increase line spacing to {1.15} to fill the blank bottom third"
         },
         {
           "id": "page_flow_blank_space_distribution_013",
-          "prompt_text": "Remove the blank gap above {footer block} by pulling it up to {12pt} below the last section"
+          "prompt_text": "remove the blank gap above {footer block} by pulling it up to {12pt} below the last section"
         },
         {
           "id": "page_flow_blank_space_distribution_014",
-          "prompt_text": "Increase {callout box} padding to {10pt} to use the blank space inside it"
+          "prompt_text": "increase {callout box} padding to {10pt} to use the blank space inside it"
         },
         {
           "id": "page_flow_blank_space_distribution_015",
-          "prompt_text": "Add a {divider line} in the blank space between {Findings} and {Recommendations}"
+          "prompt_text": "add a {divider line} in the blank space between {Findings} and {Recommendations}"
         }
       ]
     }
