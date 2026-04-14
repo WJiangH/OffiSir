@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { Copy, Plus, Save, SplitSquareVertical, Scissors, X } from 'lucide-react'
+import { ClipboardPaste, Copy, Plus, Save, SplitSquareVertical, Scissors, X } from 'lucide-react'
 
 function EditableTurnText({ text, turnIndex, onCommit }) {
   const [editing, setEditing] = useState(false)
@@ -73,6 +73,7 @@ export default function TurnQueuePanel({
   onClickTurn,
   onRemoveTurn,
   onDuplicateCopiedTurn,
+  onPasteTurns,
   onRemoveRemainingTurns,
   onResetCopyProgress,
   onSaveAsTask,
@@ -188,40 +189,39 @@ export default function TurnQueuePanel({
           Build {turnCount} turns
         </button>
 
+        {onPasteTurns && (
+          <button
+            className="reviewer-secondary-button"
+            onClick={onPasteTurns}
+            title="Paste your own turn text"
+            type="button"
+          >
+            <ClipboardPaste size={14} />
+            Paste turns
+          </button>
+        )}
+
         <button className="reviewer-danger-button" onClick={onClearTurns} type="button">
           Clear
         </button>
       </div>
 
-      {(validation.errors.length > 0 || validation.warnings.length > 0) && (
-        <div className="reviewer-validation-block">
-          {validation.errors.length > 0 && (() => {
-            const lastFilledIndex = [...turns].reverse().findIndex((t) => t.text)
-            const lastTurnNumber = lastFilledIndex === -1
-              ? null
-              : startTurn + (turns.length - 1 - lastFilledIndex)
-            const message = lastTurnNumber !== null
-              ? `Not enough prompts to fill past Turn ${lastTurnNumber}`
-              : validation.errors[0]
-            return (
-              <div className="reviewer-message-list reviewer-message-list--error">
-                {message}
-              </div>
-            )
-          })()}
-
-          {validation.warnings.length > 0 && (
-            <div>
-              <strong>Style warnings</strong>
-              <ul className="reviewer-message-list reviewer-message-list--warning">
-                {validation.warnings.slice(0, 8).map((message) => (
-                  <li key={message}>{message}</li>
-                ))}
-              </ul>
+      {validation.errors.length > 0 && (() => {
+        const lastFilledIndex = [...turns].reverse().findIndex((t) => t.text)
+        const lastTurnNumber = lastFilledIndex === -1
+          ? null
+          : startTurn + (turns.length - 1 - lastFilledIndex)
+        const message = lastTurnNumber !== null
+          ? `Not enough prompts to fill past Turn ${lastTurnNumber}`
+          : validation.errors[0]
+        return (
+          <div className="reviewer-validation-block">
+            <div className="reviewer-message-list reviewer-message-list--error">
+              {message}
             </div>
-          )}
-        </div>
-      )}
+          </div>
+        )
+      })()}
 
       {hasTurns && (
         <div className="reviewer-copy-turn-bar">

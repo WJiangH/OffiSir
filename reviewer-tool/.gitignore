@@ -3,3 +3,18 @@ dist/
 .DS_Store
 .env.local
 .env.*.local
+
+# Data-processing artifacts (real-user prompt corpus — do not ship)
+[Files]*.json
+shared-links.json
+extracted-prompts.json
+extraction-errors.json
+iteration-prompts.json
+iteration-fix-prompts*.json
+iteration-fix-prompts-grouped/
+split-by-type.json
+multi-fix-examples.json
+stage1-cleaned.json
+stage1b-split.json
+chunk-state.json
+current-chunk.json

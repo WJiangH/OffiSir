@@ -8,6 +8,7 @@ import TaskTabBar from './components/TaskTabBar'
 import TurnQueuePanel from './components/TurnQueuePanel'
 import AdminPanel from '../components/AdminPanel'
 import SaveTaskModal from '../components/SaveTaskModal'
+import PasteTurnsModal from '../components/PasteTurnsModal'
 import {
   buildTwentyTurnQueue,
   createSelectedPrompt,
@@ -167,6 +168,7 @@ export default function ReviewerPage() {
   const [lockedInstanceIds, setLockedInstanceIds] = useState(new Set())
   const [showAdmin, setShowAdmin] = useState(false)
   const [showSaveTaskModal, setShowSaveTaskModal] = useState(false)
+  const [showPasteTurnsModal, setShowPasteTurnsModal] = useState(false)
   const [editingNote, setEditingNote] = useState(false)
   const [editNoteText, setEditNoteText] = useState('')
   const [buildWarning, setBuildWarning] = useState(null) // { indices }
@@ -368,7 +370,7 @@ export default function ReviewerPage() {
 
   const confirmSaveTask = async ({ name, note }) => {
     if (!user) return
-    const taskName = name || `task-${savedTasks.length}`
+    const taskName = name || `task-${savedTasks.length + 1}`
     const count = selectedItems.length
     const config = { startTurn, endTurn, minPerTurn, maxPerTurn }
 
@@ -1043,6 +1045,47 @@ export default function ReviewerPage() {
     })
   }
 
+  const applyPastedTurns = (parsedTurns) => {
+    if (!parsedTurns || parsedTurns.length === 0) return
+
+    const newSelectedItems = []
+    const newBuiltTurns = parsedTurns.map((t, idx) => {
+      const instanceId = makeInstanceId()
+      const item = {
+        instanceId,
+        sourceId: null,
+        promptText: t.text,
+        category: 'manual',
+        subcategory: 'manual',
+        priority: 'polish',
+        docType: 'both',
+        tags: ['pasted'],
+        favorite: false,
+        custom: true,
+        edited: true,
+      }
+      newSelectedItems.push(item)
+      return {
+        turn: idx + 1,
+        items: [item],
+        text: t.text,
+        displayNumber: t.number,
+      }
+    })
+
+    const firstNum = parsedTurns[0].number
+    const lastNum = parsedTurns[parsedTurns.length - 1].number
+
+    selectedItemsRef.current = newSelectedItems
+    builtTurnsRef.current = newBuiltTurns
+    setSelectedItems(newSelectedItems)
+    setBuiltTurns(newBuiltTurns)
+    setCopyPointer(0)
+    setStartTurn(firstNum)
+    setEndTurn(Math.max(lastNum, firstNum))
+    setShowPasteTurnsModal(false)
+  }
+
   const collectUneditedIndices = () => {
     const out = []
     selectedItems.forEach((item, idx) => {
@@ -1164,9 +1207,16 @@ export default function ReviewerPage() {
       {showAdmin && <AdminPanel onClose={() => setShowAdmin(false)} />}
       {showSaveTaskModal && (
         <SaveTaskModal
-          defaultName={`task-${savedTasks.length}`}
+          defaultName={`task-${savedTasks.length + 1}`}
           onCancel={() => setShowSaveTaskModal(false)}
           onSave={confirmSaveTask}
+        />
+      )}
+      {showPasteTurnsModal && (
+        <PasteTurnsModal
+          defaultStart={startTurn}
+          onCancel={() => setShowPasteTurnsModal(false)}
+          onApply={applyPastedTurns}
         />
       )}
       {buildWarning && (
@@ -1363,6 +1413,7 @@ export default function ReviewerPage() {
                 setHoveredInstanceIds(new Set(turn.items.map((i) => i.instanceId)))
               }}
               onDuplicateCopiedTurn={duplicateCopiedTurn}
+              onPasteTurns={() => setShowPasteTurnsModal(true)}
               onRemoveRemainingTurns={removeRemainingTurns}
               onRemoveTurn={removeTurn}
               onResetCopyProgress={resetCopyProgress}

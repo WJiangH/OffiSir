@@ -1,0 +1,3149 @@
+{
+  "total_connectors": 49633,
+  "unique_patterns": 784,
+  "family_breakdown": {
+    "newline/blank": 35520,
+    "numbered list": 9810,
+    "prose connector": 2657,
+    "semicolon": 1637,
+    "other": 9
+  },
+  "patterns_by_frequency": [
+    {
+      "connector": "",
+      "count": 22083
+    },
+    {
+      "connector": "\\n",
+      "count": 5748
+    },
+    {
+      "connector": "\\n\\n*",
+      "count": 4048
+    },
+    {
+      "connector": "\\n\\n",
+      "count": 2121
+    },
+    {
+      "connector": "\\n\\n2.",
+      "count": 1992
+    },
+    {
+      "connector": "\\n\\n3.",
+      "count": 1525
+    },
+    {
+      "connector": ";",
+      "count": 1464
+    },
+    {
+      "connector": "\\n\\n4.",
+      "count": 1021
+    },
+    {
+      "connector": "\\n\\n5.",
+      "count": 702
+    },
+    {
+      "connector": "\\n-",
+      "count": 644
+    },
+    {
+      "connector": "\\n\\n1.",
+      "count": 610
+    },
+    {
+      "connector": "Also",
+      "count": 589
+    },
+    {
+      "connector": "Also,",
+      "count": 474
+    },
+    {
+      "connector": "\\n\\n6.",
+      "count": 425
+    },
+    {
+      "connector": "\\n•",
+      "count": 366
+    },
+    {
+      "connector": "\\n2.",
+      "count": 344
+    },
+    {
+      "connector": "\\n3.",
+      "count": 296
+    },
+    {
+      "connector": "\\n\\n7.",
+      "count": 244
+    },
+    {
+      "connector": "\\n4.",
+      "count": 237
+    },
+    {
+      "connector": "\\n2)",
+      "count": 223
+    },
+    {
+      "connector": "And",
+      "count": 193
+    },
+    {
+      "connector": "\\n3)",
+      "count": 187
+    },
+    {
+      "connector": "\\n5.",
+      "count": 179
+    },
+    {
+      "connector": "\\n*",
+      "count": 178
+    },
+    {
+      "connector": "\\n1.",
+      "count": 157
+    },
+    {
+      "connector": "\\n\\n-",
+      "count": 141
+    },
+    {
+      "connector": "\\n4)",
+      "count": 130
+    },
+    {
+      "connector": "\\n1)",
+      "count": 128
+    },
+    {
+      "connector": "\\n6.",
+      "count": 120
+    },
+    {
+      "connector": "Then",
+      "count": 97
+    },
+    {
+      "connector": "Additionally,",
+      "count": 90
+    },
+    {
+      "connector": "\\n5)",
+      "count": 79
+    },
+    {
+      "connector": "\\n\\n\\n1.",
+      "count": 74
+    },
+    {
+      "connector": "\\n7.",
+      "count": 53
+    },
+    {
+      "connector": "\\n\\n\\n",
+      "count": 49
+    },
+    {
+      "connector": "\\n6)",
+      "count": 49
+    },
+    {
+      "connector": "Can you also",
+      "count": 43
+    },
+    {
+      "connector": "; 2)",
+      "count": 41
+    },
+    {
+      "connector": "\\n\\n8.",
+      "count": 40
+    },
+    {
+      "connector": "\\n\\n\\n*",
+      "count": 40
+    },
+    {
+      "connector": "\\n\\nAlso,",
+      "count": 40
+    },
+    {
+      "connector": "\\n\\n2)",
+      "count": 39
+    },
+    {
+      "connector": "\\nAlso",
+      "count": 37
+    },
+    {
+      "connector": "\\nand",
+      "count": 36
+    },
+    {
+      "connector": "; 3)",
+      "count": 35
+    },
+    {
+      "connector": "\\n\\nAlso",
+      "count": 34
+    },
+    {
+      "connector": "\\nAlso,",
+      "count": 31
+    },
+    {
+      "connector": "\\n7)",
+      "count": 31
+    },
+    {
+      "connector": "\\n\\n3)",
+      "count": 30
+    },
+    {
+      "connector": "\\n\\n9.",
+      "count": 25
+    },
+    {
+      "connector": "Then,",
+      "count": 24
+    },
+    {
+      "connector": "; 4)",
+      "count": 23
+    },
+    {
+      "connector": "Please also",
+      "count": 22
+    },
+    {
+      "connector": "\\n\\n1)",
+      "count": 21
+    },
+    {
+      "connector": "; 5)",
+      "count": 21
+    },
+    {
+      "connector": "\\n8.",
+      "count": 21
+    },
+    {
+      "connector": "\\n\\n10.",
+      "count": 20
+    },
+    {
+      "connector": "Additionally",
+      "count": 19
+    },
+    {
+      "connector": "Finally,",
+      "count": 18
+    },
+    {
+      "connector": "\\n\\n4)",
+      "count": 18
+    },
+    {
+      "connector": "In addition,",
+      "count": 17
+    },
+    {
+      "connector": "And then",
+      "count": 17
+    },
+    {
+      "connector": "; and",
+      "count": 17
+    },
+    {
+      "connector": "\\n\\n11.",
+      "count": 16
+    },
+    {
+      "connector": "\\n\\n12.",
+      "count": 16
+    },
+    {
+      "connector": "<?>",
+      "count": 15
+    },
+    {
+      "connector": "\\n10.",
+      "count": 14
+    },
+    {
+      "connector": ";\\n",
+      "count": 14
+    },
+    {
+      "connector": "\\n\\nPlease also",
+      "count": 14
+    },
+    {
+      "connector": "; 6)",
+      "count": 13
+    },
+    {
+      "connector": "also,",
+      "count": 13
+    },
+    {
+      "connector": "Finally",
+      "count": 13
+    },
+    {
+      "connector": "\\nb.",
+      "count": 13
+    },
+    {
+      "connector": "\\n\\n•",
+      "count": 12
+    },
+    {
+      "connector": ";\\n1.",
+      "count": 12
+    },
+    {
+      "connector": "\\n\\n15.",
+      "count": 12
+    },
+    {
+      "connector": "\\n\\n* Also,",
+      "count": 12
+    },
+    {
+      "connector": "Second,",
+      "count": 11
+    },
+    {
+      "connector": "Moreover,",
+      "count": 11
+    },
+    {
+      "connector": "\\n\\nAnd",
+      "count": 11
+    },
+    {
+      "connector": "\\n----\\n",
+      "count": 11
+    },
+    {
+      "connector": "\\n11.",
+      "count": 11
+    },
+    {
+      "connector": "\\n12.",
+      "count": 11
+    },
+    {
+      "connector": "\\n15.",
+      "count": 11
+    },
+    {
+      "connector": "\\nc.",
+      "count": 11
+    },
+    {
+      "connector": "\\n\\n\\n\\n*",
+      "count": 11
+    },
+    {
+      "connector": "\\n14.",
+      "count": 10
+    },
+    {
+      "connector": "\\n16.",
+      "count": 10
+    },
+    {
+      "connector": "\\n\\n* also",
+      "count": 10
+    },
+    {
+      "connector": "\\n\\n13.",
+      "count": 10
+    },
+    {
+      "connector": "\\n\\nalso",
+      "count": 10
+    },
+    {
+      "connector": "\\nModify\\n\\n*",
+      "count": 10
+    },
+    {
+      "connector": "\\n19.",
+      "count": 9
+    },
+    {
+      "connector": "\\n20.",
+      "count": 9
+    },
+    {
+      "connector": "\\n23.",
+      "count": 9
+    },
+    {
+      "connector": "\\n24.",
+      "count": 9
+    },
+    {
+      "connector": "\\n34.",
+      "count": 9
+    },
+    {
+      "connector": "\\nThen",
+      "count": 9
+    },
+    {
+      "connector": "\\n\\n5)",
+      "count": 9
+    },
+    {
+      "connector": "\\n8)",
+      "count": 9
+    },
+    {
+      "connector": "\\n\\n17.",
+      "count": 9
+    },
+    {
+      "connector": "In addition",
+      "count": 8
+    },
+    {
+      "connector": "And,",
+      "count": 8
+    },
+    {
+      "connector": "; 7)",
+      "count": 8
+    },
+    {
+      "connector": "Lastly,",
+      "count": 8
+    },
+    {
+      "connector": "\\n\\nSecond,",
+      "count": 8
+    },
+    {
+      "connector": "\\n\\nand",
+      "count": 8
+    },
+    {
+      "connector": "\\n18.",
+      "count": 8
+    },
+    {
+      "connector": "\\n22.",
+      "count": 8
+    },
+    {
+      "connector": "\\n27.",
+      "count": 8
+    },
+    {
+      "connector": "\\n28.",
+      "count": 8
+    },
+    {
+      "connector": "\\n31.",
+      "count": 8
+    },
+    {
+      "connector": "\\n32.",
+      "count": 8
+    },
+    {
+      "connector": "\\n39.",
+      "count": 8
+    },
+    {
+      "connector": "\\n40.",
+      "count": 8
+    },
+    {
+      "connector": "\\n55.",
+      "count": 8
+    },
+    {
+      "connector": "\\n63.",
+      "count": 8
+    },
+    {
+      "connector": "\\n67.",
+      "count": 8
+    },
+    {
+      "connector": "\\na.",
+      "count": 8
+    },
+    {
+      "connector": "\\n\\n14.",
+      "count": 8
+    },
+    {
+      "connector": "; then",
+      "count": 8
+    },
+    {
+      "connector": "\\nalso",
+      "count": 8
+    },
+    {
+      "connector": "No\\n",
+      "count": 8
+    },
+    {
+      "connector": "Second",
+      "count": 7
+    },
+    {
+      "connector": "\\n\\n2. Also",
+      "count": 7
+    },
+    {
+      "connector": "\\n26.",
+      "count": 7
+    },
+    {
+      "connector": "\\n30.",
+      "count": 7
+    },
+    {
+      "connector": "\\n35.",
+      "count": 7
+    },
+    {
+      "connector": "\\n36.",
+      "count": 7
+    },
+    {
+      "connector": "\\n38.",
+      "count": 7
+    },
+    {
+      "connector": "\\n46.",
+      "count": 7
+    },
+    {
+      "connector": "\\n48.",
+      "count": 7
+    },
+    {
+      "connector": "\\n51.",
+      "count": 7
+    },
+    {
+      "connector": "\\n52.",
+      "count": 7
+    },
+    {
+      "connector": "\\n54.",
+      "count": 7
+    },
+    {
+      "connector": "\\n58.",
+      "count": 7
+    },
+    {
+      "connector": "\\n60.",
+      "count": 7
+    },
+    {
+      "connector": "\\n64.",
+      "count": 7
+    },
+    {
+      "connector": "\\n66.",
+      "count": 7
+    },
+    {
+      "connector": "\\n70.",
+      "count": 7
+    },
+    {
+      "connector": "\\n43.",
+      "count": 7
+    },
+    {
+      "connector": "\\nAnd",
+      "count": 7
+    },
+    {
+      "connector": "\\n9.",
+      "count": 7
+    },
+    {
+      "connector": "The\\n",
+      "count": 7
+    },
+    {
+      "connector": "\\n\\nAdditionally",
+      "count": 7
+    },
+    {
+      "connector": "\\n\\nAdditionally,",
+      "count": 7
+    },
+    {
+      "connector": "\\n\\n6)",
+      "count": 7
+    },
+    {
+      "connector": "\\n\\n* Also",
+      "count": 7
+    },
+    {
+      "connector": "\\n9)",
+      "count": 7
+    },
+    {
+      "connector": "\\n45.",
+      "count": 6
+    },
+    {
+      "connector": "\\n57.",
+      "count": 6
+    },
+    {
+      "connector": "\\n61.",
+      "count": 6
+    },
+    {
+      "connector": "\\n69.",
+      "count": 6
+    },
+    {
+      "connector": "\\n42.",
+      "count": 6
+    },
+    {
+      "connector": "And also",
+      "count": 6
+    },
+    {
+      "connector": "; also",
+      "count": 6
+    },
+    {
+      "connector": ";\\n\\n",
+      "count": 6
+    },
+    {
+      "connector": "\\nd.",
+      "count": 6
+    },
+    {
+      "connector": "\\nalso,",
+      "count": 6
+    },
+    {
+      "connector": "\\n\\n16.",
+      "count": 6
+    },
+    {
+      "connector": "Third",
+      "count": 5
+    },
+    {
+      "connector": "\\n49.",
+      "count": 5
+    },
+    {
+      "connector": "and also,",
+      "count": 5
+    },
+    {
+      "connector": "\\n\\n\\n\\n",
+      "count": 5
+    },
+    {
+      "connector": "E.g.",
+      "count": 5
+    },
+    {
+      "connector": "\\n\\n18.",
+      "count": 5
+    },
+    {
+      "connector": "Let's\\n",
+      "count": 5
+    },
+    {
+      "connector": "\\n\\nLastly,",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\n2. Then,",
+      "count": 4
+    },
+    {
+      "connector": "Plus",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\n2. Slide 2.",
+      "count": 4
+    },
+    {
+      "connector": "\\n59.",
+      "count": 4
+    },
+    {
+      "connector": "\\n71.",
+      "count": 4
+    },
+    {
+      "connector": "\\n75.",
+      "count": 4
+    },
+    {
+      "connector": "\\n13.",
+      "count": 4
+    },
+    {
+      "connector": "\\n=====\\n",
+      "count": 4
+    },
+    {
+      "connector": "\"\\n\\n*",
+      "count": 4
+    },
+    {
+      "connector": "\\nThirdly,",
+      "count": 4
+    },
+    {
+      "connector": "Fix this.",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\n7)",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\n8)",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\nThird,",
+      "count": 4
+    },
+    {
+      "connector": "second,",
+      "count": 4
+    },
+    {
+      "connector": "\\nTo\\n",
+      "count": 4
+    },
+    {
+      "connector": "\\nVoters?",
+      "count": 4
+    },
+    {
+      "connector": "\\n18)",
+      "count": 4
+    },
+    {
+      "connector": "\\n10)",
+      "count": 4
+    },
+    {
+      "connector": "\\nInclude:\\n\\n*",
+      "count": 4
+    },
+    {
+      "connector": "\\n\"\\n\\n*",
+      "count": 4
+    },
+    {
+      "connector": "Furthermore,",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\n* ṁ₁, ṁ₂\\n\\n*",
+      "count": 4
+    },
+    {
+      "connector": "Lastly",
+      "count": 4
+    },
+    {
+      "connector": "\\n\\nFinally,",
+      "count": 4
+    },
+    {
+      "connector": "Add 8pt.",
+      "count": 4
+    },
+    {
+      "connector": "Third,",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nSlide 6:\\n-",
+      "count": 3
+    },
+    {
+      "connector": "\\nthen",
+      "count": 3
+    },
+    {
+      "connector": "\\nand then",
+      "count": 3
+    },
+    {
+      "connector": "Secondly,",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n* And",
+      "count": 3
+    },
+    {
+      "connector": "Next,",
+      "count": 3
+    },
+    {
+      "connector": "\\n4. bonds\\n5.",
+      "count": 3
+    },
+    {
+      "connector": "\\n62.",
+      "count": 3
+    },
+    {
+      "connector": "\\n74.",
+      "count": 3
+    },
+    {
+      "connector": "\\n17.",
+      "count": 3
+    },
+    {
+      "connector": "\\n44.",
+      "count": 3
+    },
+    {
+      "connector": "\\n47.",
+      "count": 3
+    },
+    {
+      "connector": "\\n56.",
+      "count": 3
+    },
+    {
+      "connector": "\\n68.",
+      "count": 3
+    },
+    {
+      "connector": "\\n76.",
+      "count": 3
+    },
+    {
+      "connector": "\\n79.",
+      "count": 3
+    },
+    {
+      "connector": "\\n80.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n4. Also",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nand also",
+      "count": 3
+    },
+    {
+      "connector": "\\nand\\n",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nIn addition,",
+      "count": 3
+    },
+    {
+      "connector": "Fix by:\\na.",
+      "count": 3
+    },
+    {
+      "connector": "\\nDURATION:\\n",
+      "count": 3
+    },
+    {
+      "connector": "\\n- also",
+      "count": 3
+    },
+    {
+      "connector": "next,",
+      "count": 3
+    },
+    {
+      "connector": "Fix that.\\n\\n*",
+      "count": 3
+    },
+    {
+      "connector": "\\n2) Also,",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nThen",
+      "count": 3
+    },
+    {
+      "connector": "\\nSecond,",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nthen",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\nDesign:\\n\\n*",
+      "count": 3
+    },
+    {
+      "connector": "Moreover",
+      "count": 3
+    },
+    {
+      "connector": "\\n2) Also",
+      "count": 3
+    },
+    {
+      "connector": "; additionally",
+      "count": 3
+    },
+    {
+      "connector": "\\n3. Slide 13\\n",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n\\n\\n2. Also,",
+      "count": 3
+    },
+    {
+      "connector": "\\n2) Please also",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n3. Slide 3.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n4. Slide 4.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n5. Slide 5.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n7. Slide 8.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n8. Slide 9.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n11. Slide 12.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n12. Slide 13.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n13. perfect.\\n\\n14. Slide 14.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n16. Slide 19.",
+      "count": 3
+    },
+    {
+      "connector": "\\n\\n18. Slide 21.",
+      "count": 3
+    },
+    {
+      "connector": "\\nTrack it.",
+      "count": 3
+    },
+    {
+      "connector": "\\nSlide 7.",
+      "count": 2
+    },
+    {
+      "connector": "Next",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nSlide 9:\\n-",
+      "count": 2
+    },
+    {
+      "connector": "Yu)\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nalso,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n2. then",
+      "count": 2
+    },
+    {
+      "connector": "additionally,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nThirdly,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n5. Then,",
+      "count": 2
+    },
+    {
+      "connector": ";4(2):26; Oh",
+      "count": 2
+    },
+    {
+      "connector": "\\n2. Page 3.",
+      "count": 2
+    },
+    {
+      "connector": "Next:",
+      "count": 2
+    },
+    {
+      "connector": "; 0-4 age;",
+      "count": 2
+    },
+    {
+      "connector": "; age 0-4;",
+      "count": 2
+    },
+    {
+      "connector": "; 0% reach;",
+      "count": 2
+    },
+    {
+      "connector": "Elena M.",
+      "count": 2
+    },
+    {
+      "connector": "\\n65.",
+      "count": 2
+    },
+    {
+      "connector": "\\n73.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n2. 2.",
+      "count": 2
+    },
+    {
+      "connector": "\\n21.",
+      "count": 2
+    },
+    {
+      "connector": "\\n25.",
+      "count": 2
+    },
+    {
+      "connector": "\\n72.",
+      "count": 2
+    },
+    {
+      "connector": "\\n78.",
+      "count": 2
+    },
+    {
+      "connector": "Furthermore",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\n2.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\n4.",
+      "count": 2
+    },
+    {
+      "connector": "\\n=====\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nII.",
+      "count": 2
+    },
+    {
+      "connector": "IN addition,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* also,",
+      "count": 2
+    },
+    {
+      "connector": "\\n- and",
+      "count": 2
+    },
+    {
+      "connector": "\" line.",
+      "count": 2
+    },
+    {
+      "connector": "; -",
+      "count": 2
+    },
+    {
+      "connector": "\\nFinally,",
+      "count": 2
+    },
+    {
+      "connector": "\\nDOSAGE:\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n- Then,",
+      "count": 2
+    },
+    {
+      "connector": "\\n- also,",
+      "count": 2
+    },
+    {
+      "connector": "\\ne.",
+      "count": 2
+    },
+    {
+      "connector": "Dr.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* Component\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* Power\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* \"1.",
+      "count": 2
+    },
+    {
+      "connector": "\\nBuffer\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\nNotes\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\nReagent\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n100 μg/mL\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n2 μg/mL\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n100 U/mL\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\nTrizol LS\\n",
+      "count": 2
+    },
+    {
+      "connector": "Examples:\\n•",
+      "count": 2
+    },
+    {
+      "connector": "\\nAges 5–12;",
+      "count": 2
+    },
+    {
+      "connector": "ALso",
+      "count": 2
+    },
+    {
+      "connector": "\\nrecording\\n•",
+      "count": 2
+    },
+    {
+      "connector": "\\nresponse\\n•",
+      "count": 2
+    },
+    {
+      "connector": "; lead:\\nInnoviva;",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n2. Can you also",
+      "count": 2
+    },
+    {
+      "connector": "IZ case.",
+      "count": 2
+    },
+    {
+      "connector": "Oh,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n3. Also,",
+      "count": 2
+    },
+    {
+      "connector": "\\nAdditionally:",
+      "count": 2
+    },
+    {
+      "connector": "NEXT",
+      "count": 2
+    },
+    {
+      "connector": "\\n13)",
+      "count": 2
+    },
+    {
+      "connector": "\\nfix it\\n",
+      "count": 2
+    },
+    {
+      "connector": "to \"In Alzheimer's, tau becomes phosphorylated (​pTau)\\nand twists into tangled strands.\".\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n(​\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nand then",
+      "count": 2
+    },
+    {
+      "connector": "Then:",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n3. Also",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n2. Slide 4.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nupdate:\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n4. Also,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* Additionally",
+      "count": 2
+    },
+    {
+      "connector": ";\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n19.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n20.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n21.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n22.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n23.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n24.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n25.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n26.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n9)",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\nAlso,",
+      "count": 2
+    },
+    {
+      "connector": "\\n2. Slide 2\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n3. Slide 5.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nSlide 3\\n",
+      "count": 2
+    },
+    {
+      "connector": "; results;",
+      "count": 2
+    },
+    {
+      "connector": "\\nMRO).",
+      "count": 2
+    },
+    {
+      "connector": "For\\n",
+      "count": 2
+    },
+    {
+      "connector": "Should we\\n",
+      "count": 2
+    },
+    {
+      "connector": "Or\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\npage?\\n3.",
+      "count": 2
+    },
+    {
+      "connector": "RISKS &\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\"2.",
+      "count": 2
+    },
+    {
+      "connector": "\\nhas\\n",
+      "count": 2
+    },
+    {
+      "connector": "Include:\\n1)",
+      "count": 2
+    },
+    {
+      "connector": "; and\\n5)",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n2. Page 2.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n3. Page 3.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n4. Page 4.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n5. Page 5.",
+      "count": 2
+    },
+    {
+      "connector": "So e.g.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* W = 0\\n\\n* Q = 0\\n\\n* ΔU = 0\\n\\n* Q = ΔH\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\n\\n\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\nInclude:\\n",
+      "count": 2
+    },
+    {
+      "connector": "Ensure:\\n\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nFinally",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n* Then",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\n\\n1.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\nAlso",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n5. Also,",
+      "count": 2
+    },
+    {
+      "connector": "Fix them.\\n",
+      "count": 2
+    },
+    {
+      "connector": "finally,",
+      "count": 2
+    },
+    {
+      "connector": "Eg.",
+      "count": 2
+    },
+    {
+      "connector": ";\" to \";\".\\n\\n5.",
+      "count": 2
+    },
+    {
+      "connector": "Fix that.\\nAlso,",
+      "count": 2
+    },
+    {
+      "connector": "\\n' by 0.25\\n\\n",
+      "count": 2
+    },
+    {
+      "connector": ";\\n\\n3.",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n\\n7.",
+      "count": 2
+    },
+    {
+      "connector": "; OUSD(A&S;",
+      "count": 2
+    },
+    {
+      "connector": "\\nFinally",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nnext,",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nFourth,",
+      "count": 2
+    },
+    {
+      "connector": "\\nGoal:\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n7. Mrs.",
+      "count": 2
+    },
+    {
+      "connector": "\\ncells/cm2\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nHomework:\\n\\n",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\nRed Era\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "\\n\\n1989 Era\\n\\n*",
+      "count": 2
+    },
+    {
+      "connector": "PROTEIN\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nPHE\\n•",
+      "count": 1
+    },
+    {
+      "connector": "Fourth,",
+      "count": 1
+    },
+    {
+      "connector": "Fifth,",
+      "count": 1
+    },
+    {
+      "connector": "Innovate.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nSlide 4:\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Second",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Fifth",
+      "count": 1
+    },
+    {
+      "connector": "\\nrisk\". Also",
+      "count": 1
+    },
+    {
+      "connector": "A\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nAnother thing",
+      "count": 1
+    },
+    {
+      "connector": "\\nUniverse:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nTarget:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nMax Hold:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nSlide 2:\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\nSlide 3:\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nSlide 4:\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "; 2.",
+      "count": 1
+    },
+    {
+      "connector": "; 3.",
+      "count": 1
+    },
+    {
+      "connector": "; 4.",
+      "count": 1
+    },
+    {
+      "connector": "; 5.",
+      "count": 1
+    },
+    {
+      "connector": "Styles\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n7. Also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. And",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. Slide 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n-----\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n4. bonds\\n\\n5.",
+      "count": 1
+    },
+    {
+      "connector": "\\ntesting.",
+      "count": 1
+    },
+    {
+      "connector": "nal Conduct, Safety protocol, and Disciplinary Policy\" must be in italics. 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. Next",
+      "count": 1
+    },
+    {
+      "connector": "Wisdom.",
+      "count": 1
+    },
+    {
+      "connector": "\\nAdditionally",
+      "count": 1
+    },
+    {
+      "connector": "; page 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nFurthermore,",
+      "count": 1
+    },
+    {
+      "connector": ";\\n\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n29.",
+      "count": 1
+    },
+    {
+      "connector": "\\n33.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n35.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n36.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n37.",
+      "count": 1
+    },
+    {
+      "connector": "\\n41.",
+      "count": 1
+    },
+    {
+      "connector": "\\n53.",
+      "count": 1
+    },
+    {
+      "connector": "with `Emergency Department contributes 18 of 49 readmissions, or 36.7% of total readmissions. Urgent Care has the highest readmission rate at 23.2%.`\\n72.",
+      "count": 1
+    },
+    {
+      "connector": "\\n77.",
+      "count": 1
+    },
+    {
+      "connector": "\\n81.",
+      "count": 1
+    },
+    {
+      "connector": "; outline;",
+      "count": 1
+    },
+    {
+      "connector": "\".",
+      "count": 1
+    },
+    {
+      "connector": "\\nAction\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nOwner\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n50.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n50.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n51.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n52.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n```\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n```\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n5.",
+      "count": 1
+    },
+    {
+      "connector": "\\n----\\n* also,",
+      "count": 1
+    },
+    {
+      "connector": "\\n* finally,",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Funding.",
+      "count": 1
+    },
+    {
+      "connector": "\\nPage 5.",
+      "count": 1
+    },
+    {
+      "connector": "Data are\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n3.75%.",
+      "count": 1
+    },
+    {
+      "connector": "\\nI.",
+      "count": 1
+    },
+    {
+      "connector": "Excess\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nII.",
+      "count": 1
+    },
+    {
+      "connector": "Auto and\\n",
+      "count": 1
+    },
+    {
+      "connector": "Euro-area\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nIII.",
+      "count": 1
+    },
+    {
+      "connector": "\\n2021.",
+      "count": 1
+    },
+    {
+      "connector": "\\nslowed.",
+      "count": 1
+    },
+    {
+      "connector": "; the labor\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nNAIRU.",
+      "count": 1
+    },
+    {
+      "connector": "\\nestate.",
+      "count": 1
+    },
+    {
+      "connector": "Union\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\neconomy.\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\ncommand.",
+      "count": 1
+    },
+    {
+      "connector": "\\nclarity.",
+      "count": 1
+    },
+    {
+      "connector": "ALSO",
+      "count": 1
+    },
+    {
+      "connector": "\\nS&P 500.",
+      "count": 1
+    },
+    {
+      "connector": "If the\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nmanually.\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nsuggests.\\n",
+      "count": 1
+    },
+    {
+      "connector": "; fix this.",
+      "count": 1
+    },
+    {
+      "connector": "And then,",
+      "count": 1
+    },
+    {
+      "connector": "\\n| |\\nid_I p\\nv v\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\[\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\]”\\n-",
+      "count": 1
+    },
+    {
+      "connector": "C_*(X).\\n",
+      "count": 1
+    },
+    {
+      "connector": "H_n(X)\\n",
+      "count": 1
+    },
+    {
+      "connector": "Clean up\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nCan you also",
+      "count": 1
+    },
+    {
+      "connector": "Rate\".",
+      "count": 1
+    },
+    {
+      "connector": "; and then",
+      "count": 1
+    },
+    {
+      "connector": "; please also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. \"Dr.",
+      "count": 1
+    },
+    {
+      "connector": "___________________\\n________________________\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. \"DOSAGE:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nplease also",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Another thing",
+      "count": 1
+    },
+    {
+      "connector": "Nope.\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "Fix this. Additionally",
+      "count": 1
+    },
+    {
+      "connector": "; then,",
+      "count": 1
+    },
+    {
+      "connector": "\\nf.",
+      "count": 1
+    },
+    {
+      "connector": "Chem.",
+      "count": 1
+    },
+    {
+      "connector": "Ok?",
+      "count": 1
+    },
+    {
+      "connector": "Org.",
+      "count": 1
+    },
+    {
+      "connector": "\\n* Also",
+      "count": 1
+    },
+    {
+      "connector": "AND",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n#2.",
+      "count": 1
+    },
+    {
+      "connector": "; fix it.\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Slide 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\".\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nLILAH F.",
+      "count": 1
+    },
+    {
+      "connector": "Lilah F.",
+      "count": 1
+    },
+    {
+      "connector": "Tucson\".",
+      "count": 1
+    },
+    {
+      "connector": "Comments?",
+      "count": 1
+    },
+    {
+      "connector": "\\nSecondly,",
+      "count": 1
+    },
+    {
+      "connector": "\\nE.g.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nSecondly",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nSecondly,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n5. 5.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n7. 7.",
+      "count": 1
+    },
+    {
+      "connector": "\\nAll slide\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\npage 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\nRun 1\\n\\n1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nRun 2\\n\\n1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nRun 3\\n\\n1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n4. Please also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. Please also",
+      "count": 1
+    },
+    {
+      "connector": "Remove. Then",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n- Then",
+      "count": 1
+    },
+    {
+      "connector": "2)",
+      "count": 1
+    },
+    {
+      "connector": "\\n4) Also",
+      "count": 1
+    },
+    {
+      "connector": "\\n3).",
+      "count": 1
+    },
+    {
+      "connector": "Fix that. Also,",
+      "count": 1
+    },
+    {
+      "connector": "\"\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\nNext",
+      "count": 1
+    },
+    {
+      "connector": "\\nProblem\\n",
+      "count": 1
+    },
+    {
+      "connector": "________________________________________________________________________________\\n",
+      "count": 1
+    },
+    {
+      "connector": "My bad.",
+      "count": 1
+    },
+    {
+      "connector": ", do this instead:\\n“3A:FRECKLE 4A:SUNBURN 4D:SUNSCREEN 6A:SKIN 6D:PIMPLE 7D:RASH 8A:BEACH 8D:SCRATCH 9A:ITCH\\n9D:MOLE 11D:TICK 12D:HAIR 13A:MOISTURIZER 13D:NAIL 14A:LOTION 16A:BANDAGE 1D:LICE 2D:SCAB”\\n2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Also,",
+      "count": 1
+    },
+    {
+      "connector": "Remove \";",
+      "count": 1
+    },
+    {
+      "connector": ";\"\\n",
+      "count": 1
+    },
+    {
+      "connector": "Elevated\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\nalso\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\"1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\npdf\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\npptx\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\npdf\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n\\n3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n\\n4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n11)",
+      "count": 1
+    },
+    {
+      "connector": "\\n17)",
+      "count": 1
+    },
+    {
+      "connector": "Not 2.",
+      "count": 1
+    },
+    {
+      "connector": "All good.\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\non Fig 3.",
+      "count": 1
+    },
+    {
+      "connector": "Either:\\na.",
+      "count": 1
+    },
+    {
+      "connector": "; OR\\nb.",
+      "count": 1
+    },
+    {
+      "connector": "\" down.\\n\\n5.",
+      "count": 1
+    },
+    {
+      "connector": ";\\n\\n7.",
+      "count": 1
+    },
+    {
+      "connector": "; Finally",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Slide 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\nthe time.",
+      "count": 1
+    },
+    {
+      "connector": "\\nwhole.”\\n",
+      "count": 1
+    },
+    {
+      "connector": "Fix this. Additionally,",
+      "count": 1
+    },
+    {
+      "connector": "Est. $685\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n“No.",
+      "count": 1
+    },
+    {
+      "connector": "\\nPFU/ml\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nInoculum:\\n",
+      "count": 1
+    },
+    {
+      "connector": "Vol Used\\n•",
+      "count": 1
+    },
+    {
+      "connector": "\\napart.",
+      "count": 1
+    },
+    {
+      "connector": "The vCA1-\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nsurgery. \"\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n* also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Additionally,",
+      "count": 1
+    },
+    {
+      "connector": "\\nthen,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n1. Slide 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. Slide 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. slide 4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n1. slide 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n1. slide 4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Size:\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Body 11pt\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Color:\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "Hale.\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. In 4.",
+      "count": 1
+    },
+    {
+      "connector": "Move \"5.",
+      "count": 1
+    },
+    {
+      "connector": "Move 7.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nSlide 6:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nJ. R.",
+      "count": 1
+    },
+    {
+      "connector": "Fix\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Finally,",
+      "count": 1
+    },
+    {
+      "connector": "And btw.",
+      "count": 1
+    },
+    {
+      "connector": "Vaccines?",
+      "count": 1
+    },
+    {
+      "connector": "Adjust.",
+      "count": 1
+    },
+    {
+      "connector": "\\n4. Tables\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n5. Slide 21\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n7. Slide 8\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n5. Slide 10\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n6. Slide 13\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n7. Slide 16\\n",
+      "count": 1
+    },
+    {
+      "connector": "S.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n- also",
+      "count": 1
+    },
+    {
+      "connector": "\\nperson.",
+      "count": 1
+    },
+    {
+      "connector": "\\n2. Also",
+      "count": 1
+    },
+    {
+      "connector": "\\n4. One more thing,",
+      "count": 1
+    },
+    {
+      "connector": "; Also",
+      "count": 1
+    },
+    {
+      "connector": "Lets fix:\\n\\n1.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 4.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 5.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 6.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 9.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 11.",
+      "count": 1
+    },
+    {
+      "connector": "Slide 13.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n1. Slide 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\nAdditionally,",
+      "count": 1
+    },
+    {
+      "connector": "\\nLastly,",
+      "count": 1
+    },
+    {
+      "connector": "\\n- slide 5.",
+      "count": 1
+    },
+    {
+      "connector": "\\n- and then",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n4. STAGING\\n",
+      "count": 1
+    },
+    {
+      "connector": ";\"\\n\\nand",
+      "count": 1
+    },
+    {
+      "connector": "; slnb date;",
+      "count": 1
+    },
+    {
+      "connector": "; SLNB date;",
+      "count": 1
+    },
+    {
+      "connector": "\\nfragile.",
+      "count": 1
+    },
+    {
+      "connector": "\\nsuccess).",
+      "count": 1
+    },
+    {
+      "connector": "\\ntarget.\\n•",
+      "count": 1
+    },
+    {
+      "connector": "\\nfragile.\\n•",
+      "count": 1
+    },
+    {
+      "connector": "\\nlines.",
+      "count": 1
+    },
+    {
+      "connector": "\\nheader. And",
+      "count": 1
+    },
+    {
+      "connector": "\\ncolors.",
+      "count": 1
+    },
+    {
+      "connector": "\\nsize 12.\\n2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n- \"1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n- \"2.",
+      "count": 1
+    },
+    {
+      "connector": "\\nfrom 4.",
+      "count": 1
+    },
+    {
+      "connector": "\\nlevel?",
+      "count": 1
+    },
+    {
+      "connector": "\\nbe there.",
+      "count": 1
+    },
+    {
+      "connector": "Or you\\n",
+      "count": 1
+    },
+    {
+      "connector": "Financial\\n",
+      "count": 1
+    },
+    {
+      "connector": "Remove\\n",
+      "count": 1
+    },
+    {
+      "connector": "Adjust\\n\\nAlso",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. Page 1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. Page 2.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n4. Page 3.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n5. Page 4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n6. Page 5.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\"\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. Slide 4 .",
+      "count": 1
+    },
+    {
+      "connector": "I'm Dr.",
+      "count": 1
+    },
+    {
+      "connector": "\\n3) Also,",
+      "count": 1
+    },
+    {
+      "connector": "; second",
+      "count": 1
+    },
+    {
+      "connector": "; third",
+      "count": 1
+    },
+    {
+      "connector": "; fourth",
+      "count": 1
+    },
+    {
+      "connector": "; fifth",
+      "count": 1
+    },
+    {
+      "connector": "\\nPSO 1\\nPSO 2\\nPSO 3\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n- Also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n*\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "These\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\else\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\fi\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\hfill%\\n",
+      "count": 1
+    },
+    {
+      "connector": "JJ.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nBody Text\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nFollow-Up\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nEnsure:\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nSignature\\nDate\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nDate\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nDose\\nRoute\\nFrequency\\nDuration\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nTest Name\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nRemarks\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nBed-bound\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nDate\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nresults.",
+      "count": 1
+    },
+    {
+      "connector": ";\\n\\n\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nNo.",
+      "count": 1
+    },
+    {
+      "connector": "; and also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nAdd:\\n",
+      "count": 1
+    },
+    {
+      "connector": "; Signature; Date\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nWhy?",
+      "count": 1
+    },
+    {
+      "connector": "\\n- additionally,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Slide 6;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Slide 3;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Slide 7;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* then",
+      "count": 1
+    },
+    {
+      "connector": "; CDC;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n6. Also",
+      "count": 1
+    },
+    {
+      "connector": "Finally:",
+      "count": 1
+    },
+    {
+      "connector": "\\n3) Second",
+      "count": 1
+    },
+    {
+      "connector": "In 11.",
+      "count": 1
+    },
+    {
+      "connector": "\\nQuote\\nExplain\\n\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nQ4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nQ8c.",
+      "count": 1
+    },
+    {
+      "connector": "\\nstrategy.",
+      "count": 1
+    },
+    {
+      "connector": "Put \"1.",
+      "count": 1
+    },
+    {
+      "connector": "Fix it. Also,",
+      "count": 1
+    },
+    {
+      "connector": "\\nslide 4\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nslide 5\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "; box\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nsecond",
+      "count": 1
+    },
+    {
+      "connector": "\\n\"AM\\nZN\")\\n",
+      "count": 1
+    },
+    {
+      "connector": "Fix it!\\n8)",
+      "count": 1
+    },
+    {
+      "connector": "Fix it!\\n2)",
+      "count": 1
+    },
+    {
+      "connector": "\\nFor PPT:\\n1)",
+      "count": 1
+    },
+    {
+      "connector": "Hum. Exp.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. slide 7;",
+      "count": 1
+    },
+    {
+      "connector": "\\nANd",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* slide 22;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n2. Plus",
+      "count": 1
+    },
+    {
+      "connector": "Remove \".",
+      "count": 1
+    },
+    {
+      "connector": "\\nthird",
+      "count": 1
+    },
+    {
+      "connector": "\\nPlease also",
+      "count": 1
+    },
+    {
+      "connector": "Fix this.\\n\\n5.",
+      "count": 1
+    },
+    {
+      "connector": "Fix this.\\n\\n9.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nOne more thing",
+      "count": 1
+    },
+    {
+      "connector": "Fix this.\\n",
+      "count": 1
+    },
+    {
+      "connector": "Add them\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "; the Est.",
+      "count": 1
+    },
+    {
+      "connector": "; fix that.",
+      "count": 1
+    },
+    {
+      "connector": "\\nby 2).\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nAnother thing",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n6. Lastly,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\npage 6\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\nInclude:\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nExamples:\\n",
+      "count": 1
+    },
+    {
+      "connector": "Fix it.\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\nSlide 2:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nAnd then",
+      "count": 1
+    },
+    {
+      "connector": "Plenty of\\n",
+      "count": 1
+    },
+    {
+      "connector": "B.\"\\n\\n4.",
+      "count": 1
+    },
+    {
+      "connector": "\\nPage 2:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n3. Slide 4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n4. Slide 5.",
+      "count": 1
+    },
+    {
+      "connector": "Always\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nnext,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nAlso,\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "Jane Doe.\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nslide 7:\\n",
+      "count": 1
+    },
+    {
+      "connector": "Can you:\\n\\n1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n4. In addition,",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. also",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* and",
+      "count": 1
+    },
+    {
+      "connector": "Real GDP;",
+      "count": 1
+    },
+    {
+      "connector": "\\n“\\n",
+      "count": 1
+    },
+    {
+      "connector": "Also ,",
+      "count": 1
+    },
+    {
+      "connector": "Why???",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n6. slide 12;",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n8.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3. slide 14:\\n\\n4.",
+      "count": 1
+    },
+    {
+      "connector": ";\\n\\n4.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nadditionally,",
+      "count": 1
+    },
+    {
+      "connector": "And also,",
+      "count": 1
+    },
+    {
+      "connector": "; 500\".",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\n2. Then,",
+      "count": 1
+    },
+    {
+      "connector": "\\n* Also,",
+      "count": 1
+    },
+    {
+      "connector": "\\nwith\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\nFifth,",
+      "count": 1
+    },
+    {
+      "connector": "\\nExample:\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Title\\n- Rating\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\nNotes:\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n3.\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nPSO 1\\nPSO 2\\n",
+      "count": 1
+    },
+    {
+      "connector": "And then, finally,",
+      "count": 1
+    },
+    {
+      "connector": "\\nthe page. Also,",
+      "count": 1
+    },
+    {
+      "connector": "\\nnumber.",
+      "count": 1
+    },
+    {
+      "connector": "\"MEMORY\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nAND",
+      "count": 1
+    },
+    {
+      "connector": "\\nnew page.\\n3.",
+      "count": 1
+    },
+    {
+      "connector": "\\nside.",
+      "count": 1
+    },
+    {
+      "connector": "\\n·       Also,",
+      "count": 1
+    },
+    {
+      "connector": "J.",
+      "count": 1
+    },
+    {
+      "connector": "It\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nwhite.",
+      "count": 1
+    },
+    {
+      "connector": "\\npurpose.",
+      "count": 1
+    },
+    {
+      "connector": "\\naligned. Also,",
+      "count": 1
+    },
+    {
+      "connector": "If it is\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\npage. And then",
+      "count": 1
+    },
+    {
+      "connector": "\\npage.",
+      "count": 1
+    },
+    {
+      "connector": "Move the\\n",
+      "count": 1
+    },
+    {
+      "connector": "Move\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\ngold.\\n2.",
+      "count": 1
+    },
+    {
+      "connector": "Add it.\\n3.",
+      "count": 1
+    },
+    {
+      "connector": "\\ngold.\\n5.",
+      "count": 1
+    },
+    {
+      "connector": "\\npage.\\n6.",
+      "count": 1
+    },
+    {
+      "connector": "Add it\\n",
+      "count": 1
+    },
+    {
+      "connector": "See\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\nforward.",
+      "count": 1
+    },
+    {
+      "connector": "Or,\\n",
+      "count": 1
+    },
+    {
+      "connector": "And,\\n",
+      "count": 1
+    },
+    {
+      "connector": "Also, we\\n",
+      "count": 1
+    },
+    {
+      "connector": "You\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n4. Also,",
+      "count": 1
+    },
+    {
+      "connector": "Looks\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n4. 1.",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n* Page 10.",
+      "count": 1
+    },
+    {
+      "connector": "Fix this.\\n-",
+      "count": 1
+    },
+    {
+      "connector": "\\n).\\ne.",
+      "count": 1
+    },
+    {
+      "connector": "\\ndetach.",
+      "count": 1
+    },
+    {
+      "connector": "Add the\\n",
+      "count": 1
+    },
+    {
+      "connector": "\"!!!",
+      "count": 1
+    },
+    {
+      "connector": "Contact\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\ndeath.",
+      "count": 1
+    },
+    {
+      "connector": "\\nRoot --|\\n",
+      "count": 1
+    },
+    {
+      "connector": "Do this!\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n*\\n\\n",
+      "count": 1
+    },
+    {
+      "connector": "; CONSUMER;",
+      "count": 1
+    },
+    {
+      "connector": "\\nLover Era\\n\\n*",
+      "count": 1
+    },
+    {
+      "connector": "\\n\\n\\nAnd",
+      "count": 1
+    },
+    {
+      "connector": "\\n2. Then,",
+      "count": 1
+    },
+    {
+      "connector": "\\n3. Then",
+      "count": 1
+    },
+    {
+      "connector": "\\n- Then",
+      "count": 1
+    },
+    {
+      "connector": "; and\\n\\n*",
+      "count": 1
+    }
+  ]
+}

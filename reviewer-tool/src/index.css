@@ -533,6 +533,35 @@ textarea {
   cursor: not-allowed;
 }
 
+.paste-turns-modal {
+  max-width: 560px;
+}
+
+.paste-turns-hint {
+  font-size: 12px;
+  color: #5c6773;
+  margin: 0;
+}
+
+.paste-turns-start-field {
+  max-width: 200px;
+}
+
+.paste-turns-textarea {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  min-height: 180px;
+}
+
+.paste-turns-preview {
+  font-size: 12px;
+  color: #166534;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
 .reviewer-note-bar {
   background: #f8fafc;
   border: 1px solid #dde3ea;
