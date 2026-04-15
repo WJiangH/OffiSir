@@ -1,5 +1,5 @@
-import React, { useMemo, useState } from 'react'
-import { ClipboardPaste, Copy, Plus, Save, SplitSquareVertical, Scissors, X } from 'lucide-react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
+import { Check, ClipboardPaste, Copy, Plus, Save, SplitSquareVertical, Scissors, X } from 'lucide-react'
 
 function EditableTurnText({ text, turnIndex, onCommit }) {
   const [editing, setEditing] = useState(false)
@@ -101,6 +101,21 @@ export default function TurnQueuePanel({
     ? `Copy Turn ${turns[nextCopyTurn]?.displayNumber ?? (startTurn + nextCopyTurn)}`
     : 'All turns copied'
   const nextTurnBlocked = nextCopyTurn !== null && Boolean(turns[nextCopyTurn]?.needsEdit)
+
+  // "Copied!" flash that shows briefly after copyPointer advances.
+  const [copiedFlash, setCopiedFlash] = useState(null)
+  const prevPointerRef = useRef(copyPointer)
+  useEffect(() => {
+    const prev = prevPointerRef.current
+    prevPointerRef.current = copyPointer
+    if (copyPointer > prev && copyPointer <= turns.length) {
+      const justCopied = turns[copyPointer - 1]
+      const num = justCopied?.displayNumber ?? (startTurn + copyPointer - 1)
+      setCopiedFlash(num)
+      const timer = setTimeout(() => setCopiedFlash(null), 1600)
+      return () => clearTimeout(timer)
+    }
+  }, [copyPointer, turns, startTurn])
 
   const coloredTurns = useMemo(() => {
     if (!turns.length) return []
@@ -235,6 +250,16 @@ export default function TurnQueuePanel({
             <Copy size={14} />
             {nextTurnLabel}
           </button>
+          {copiedFlash !== null && (
+            <span
+              key={copiedFlash}
+              className="reviewer-copied-flash"
+              aria-live="polite"
+            >
+              <Check size={12} />
+              Copied Turn {copiedFlash}
+            </span>
+          )}
           {copyPointer > 0 && (
             <button className="reviewer-link-button" onClick={onResetCopyProgress} type="button">
               Reset progress
