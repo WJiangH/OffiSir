@@ -188,16 +188,22 @@ export function buildTwentyTurnQueue(items, turnCount = STRICT_TURN_COUNT, minPe
 
   const turns = []
   let itemIndex = 0
+  // Global last-used connector — we also avoid repeating it across turn
+  // boundaries so consecutive joins never read the same.
   let prevConnector = null
 
   counts.forEach((count, turnIndex) => {
     const turnItems = items.slice(itemIndex, itemIndex + count)
     itemIndex += count
 
-    // Pick a varied connector per turn; single-item turns don't need one but
-    // we still record DEFAULT_CONNECTOR for round-trip editing.
-    const connector = count > 1 ? pickConnector(prevConnector) : DEFAULT_CONNECTOR
-    if (count > 1) prevConnector = connector
+    // Pick a fresh connector between every adjacent pair of fixes in this turn.
+    // Length == count - 1; empty when the turn has 0 or 1 items.
+    const connectors = []
+    for (let i = 0; i < count - 1; i++) {
+      const c = pickConnector(prevConnector)
+      connectors.push(c)
+      prevConnector = c
+    }
 
     const texts = turnItems.map((item) => (
       stripVarBraces(normalizePromptText(item.promptText || item.prompt_text))
@@ -206,12 +212,24 @@ export function buildTwentyTurnQueue(items, turnCount = STRICT_TURN_COUNT, minPe
     turns.push({
       turn: turnIndex + 1,
       items: turnItems,
-      connector,
-      text: texts.join(connector),
+      connectors,
+      text: joinWithConnectors(texts, connectors),
     })
   })
 
   return turns
+}
+
+/** Join N texts with N-1 per-position connectors. */
+export function joinWithConnectors(texts, connectors = []) {
+  if (!texts || texts.length === 0) return ''
+  if (texts.length === 1) return texts[0]
+  let out = texts[0]
+  for (let i = 1; i < texts.length; i++) {
+    const c = connectors[i - 1] ?? DEFAULT_CONNECTOR
+    out += c + texts[i]
+  }
+  return out
 }
 
 export function lintPromptText(text) {

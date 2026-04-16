@@ -14,6 +14,7 @@ import {
   createSelectedPrompt,
   exportQueue,
   hasPromptVariables,
+  joinWithConnectors,
   makeInstanceId,
   normalizePromptText,
   promptMatchesDocType,
@@ -22,7 +23,7 @@ import {
   sortItems,
   validateQueue,
 } from './utils'
-import { DEFAULT_CONNECTOR } from './connectors'
+import { DEFAULT_CONNECTOR, pickConnector } from './connectors'
 import { useUser } from '../lib/UserContext'
 import {
   addStar,
@@ -113,10 +114,21 @@ function makeLockedItemIdSet(turns, copyPointer) {
   )
 }
 
-function buildTurnText(items, connector = DEFAULT_CONNECTOR) {
-  return items
-    .map((item) => stripVarBraces(normalizePromptText(item.promptText || item.prompt_text)))
-    .join(connector)
+function getTurnConnectors(turn, neededCount) {
+  // Back-compat: old turns might have `connector` (string) or nothing.
+  let list = Array.isArray(turn?.connectors)
+    ? turn.connectors.slice()
+    : (turn?.connector ? [] : [])
+  const fallback = (typeof turn?.connector === 'string' && turn.connector) || DEFAULT_CONNECTOR
+  while (list.length < neededCount) list.push(fallback)
+  return list.slice(0, Math.max(0, neededCount))
+}
+
+function buildTurnText(items, connectors = []) {
+  const texts = items.map((item) =>
+    stripVarBraces(normalizePromptText(item.promptText || item.prompt_text))
+  )
+  return joinWithConnectors(texts, connectors)
 }
 
 function syncUnlockedTurnsWithSelection(turns, copyPointer, nextSelectedItems) {
@@ -127,11 +139,13 @@ function syncUnlockedTurnsWithSelection(turns, copyPointer, nextSelectedItems) {
     const items = turn.items
       .filter((item) => nextItemsById.has(item.instanceId))
       .map((item) => nextItemsById.get(item.instanceId) || item)
-    const connector = turn.connector || DEFAULT_CONNECTOR
+    const needed = Math.max(0, items.length - 1)
+    const connectors = getTurnConnectors(turn, needed)
     return {
       ...turn,
       items,
-      text: buildTurnText(items, connector),
+      connectors,
+      text: buildTurnText(items, connectors),
     }
   })
   return [...lockedTurns, ...pendingTurns]
@@ -313,7 +327,13 @@ export default function ReviewerPage() {
             const stampedTurns = (t.turns || []).map((turn, idx) => {
               const next = { ...turn }
               if (next.displayNumber === undefined) next.displayNumber = baseStart + idx
-              if (next.connector === undefined) next.connector = DEFAULT_CONNECTOR
+              // Back-compat: convert old single-string connector → per-position array.
+              if (!Array.isArray(next.connectors)) {
+                const needed = Math.max(0, (next.items?.length || 0) - 1)
+                const fill = next.connector || DEFAULT_CONNECTOR
+                next.connectors = Array.from({ length: needed }, () => fill)
+              }
+              delete next.connector
               return next
             })
             return {
@@ -608,15 +628,22 @@ export default function ReviewerPage() {
   const updateTurnText = (turnIndex, newText) => {
     const turn = builtTurns[turnIndex]
     if (!turn) return
-    // Split tolerantly on the turn's own connector OR the universal "; " /
-    // newline. This way users can always type `;` or hit Enter to add a fix
-    // even if the original turn used "Also," or another prose connector.
+    // Split tolerantly on any of the turn's stored connectors OR a universal
+    // fallback (`;`, newlines). Users can type `;` or hit Enter to split a
+    // fix even if the displayed connector is "Also," or another string.
     const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const stored = turn.connector || DEFAULT_CONNECTOR
-    const splitter = new RegExp(
-      `${escape(stored)}|;|\\r?\\n+`,
-      'g',
-    )
+    const storedConnectors = Array.isArray(turn.connectors)
+      ? turn.connectors
+      : (turn.connector ? [turn.connector] : [])
+    const alternatives = [
+      ...storedConnectors,
+      ';',
+      '\\r?\\n+',
+    ]
+      .filter(Boolean)
+      // Escape non-pattern connectors, but keep the newline regex literal.
+      .map((s) => (s === '\\r?\\n+' ? s : escape(s)))
+    const splitter = new RegExp(alternatives.join('|'), 'g')
     const chunks = newText.split(splitter).map((s) => s.trim()).filter(Boolean)
     if (chunks.length === 0) return
     // Update corresponding selectedItems by instanceId
@@ -636,14 +663,24 @@ export default function ReviewerPage() {
         const newItems = t.items.map((item, idx) => (
           idx < chunks.length ? { ...item, promptText: chunks[idx] } : item
         ))
-        const connector = t.connector || DEFAULT_CONNECTOR
-        const nextText = chunks.join(connector)
+        // Resize the connectors array to match the new chunk count. Reuse
+        // existing entries, and grow/shrink as needed using the pool.
+        const needed = Math.max(0, chunks.length - 1)
+        const existing = Array.isArray(t.connectors)
+          ? t.connectors.slice()
+          : (t.connector ? [t.connector] : [])
+        while (existing.length < needed) {
+          existing.push(pickConnector(existing[existing.length - 1] ?? null))
+        }
+        const nextConnectors = existing.slice(0, needed)
+        const nextText = joinWithConnectors(chunks, nextConnectors)
         // A red (needsEdit) turn becomes normal once its text diverges from
         // the original it was duplicated from.
         const stillNeedsEdit = t.needsEdit && nextText === (t.originalText ?? '')
         return {
           ...t,
           items: newItems,
+          connectors: nextConnectors,
           text: nextText,
           needsEdit: stillNeedsEdit,
         }
@@ -667,12 +704,15 @@ export default function ReviewerPage() {
     }))
 
     const sourceNumber = source.displayNumber ?? (startTurn + sourceIndex)
+    const sourceConnectors = Array.isArray(source.connectors)
+      ? source.connectors.slice()
+      : (source.connector ? [source.connector] : [])
     const newTurn = {
       turn: (source.turn ?? sourceIndex) + 1,
       items: duplicateItems,
       text: source.text,
       displayNumber: sourceNumber + 1,
-      connector: source.connector || DEFAULT_CONNECTOR,
+      connectors: sourceConnectors,
       needsEdit: true,
       originalText: source.text,
       sourceDisplayNumber: sourceNumber,
@@ -1083,7 +1123,7 @@ export default function ReviewerPage() {
         items: [item],
         text: t.text,
         displayNumber: t.number,
-        connector: DEFAULT_CONNECTOR,
+        connectors: [],
       }
     })
 
